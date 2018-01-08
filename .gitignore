@@ -1,0 +1,4 @@
+*.pyc
+*.swp
+*.COPYRIGHT.py
+.DS_Store

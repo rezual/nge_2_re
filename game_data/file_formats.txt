@@ -1,0 +1,28 @@
+In HGAR (HAR) files:
+8728 .hmn
+8718 .hpt
+4141 .zpt
+2958 .hms
+2863 .hob
+1002 .evs
+ 285 .bin
+ 155 .fml
+  72 .fmd
+  67 .fma
+  64 .fmw
+  64 .fmg
+  57 .fmc
+  28 .spt
+  21 .png
+  10 .
+   4 .fmp
+   2 .zob
+   1 .zmt
+   1 .hft
+
+In USRDIR on umd:
+1158 .har
+ 134 .zpt
+  62 .bin
+  19 .dat
+   4 .prx
