@@ -12,7 +12,7 @@ from support import *
 section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Allocated,
 {
     # PreRelocationAddress: Data(Type, Size, Value, Comment)
-    0x001B1540: Data(DataType.String, 16, '???', "は　い　いいえ\0"),
+    0x001B1540: Data(DataType.String, 16, 'Yes No\0', "は　い　いいえ\0"),
     0x001B1880: Data(DataType.String, 72, '???', "原作どおりに展開する。\nチュートリアルを含み、\n初めてのプレイに最適。\0"),
     0x001B18C8: Data(DataType.String, 76, '???', "人に愛される前に、\n全ての人を充分に愛して下さい。\n世界は必ず変わります。\0"),
     0x001B1914: Data(DataType.String, 72, '???', "綾波レイとなる以前の自分、\nそして未来を見つめる。\nレイの魂の目的は…？\0"),
