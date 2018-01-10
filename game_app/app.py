@@ -1,8 +1,16 @@
 #!/usr/bin/env python2.7
 
+import os
+
 from support import *
-from section_rodata import *
-from section_data import *
+
+if os.environ.get('LINK_TRANSLATE', 'false').lower() == 'true':
+	from section_rodata_translate import *
+	from section_data_translate import *	
+
+else:
+	from section_rodata import *
+	from section_data import *
 
 class App(object):
 	base_address = 0x08804000
@@ -50,6 +58,9 @@ class App(object):
 		section_rodata.name: section_rodata,
 		section_data.name: section_data
 	}
+
+	title = 'Shinseiki Evangelion 2: Tsukurareshi Sekai - Another Cases'
+	serial_number = 'ULJS-00064' 
 
 	@staticmethod
 	def decrypted_md5():
