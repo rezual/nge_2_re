@@ -6,6 +6,7 @@ import os
 import support
 
 os.environ['LINK_TRANSLATE'] = 'true'
+os.environ['LINK_DUMMY_TEXT'] = 'true'
 from app import *
 
 # Generate address, value pairs

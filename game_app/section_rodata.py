@@ -3,7 +3,7 @@
 
 # Note:
 # This file contains all section-specific address mappings (minus the values for most due to copyright reasons)
-# Any variable-descriptions discoveries should go here
+# Any variable-description discoveries should go here
 # But patches (translations) should go in their respective slimmed down variant
 
 from support import *

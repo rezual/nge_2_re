@@ -1,6 +1,8 @@
 #!/usr/bin/env python2.7
 
+import os
 import re
+import struct
 
 class DataType(object):
     Unknown = 0
@@ -83,13 +85,16 @@ class AppSection(object):
         self.pointers = {}
 
         # Fill in missing content attributes
+        # Keep in mind this loop is out of order due to how dictionaries work
         for data_address, data_content in content.iteritems():
             data_content.section = self
             data_content.address = data_address
 
+            # Collect all the labels under the section
             if data_content.label:
                 self.labels[data_content.label] = data_content.address
 
+            # Collect all the pointers under the section
             if data_content.type == DataType.Pointer:
                 if data_content.value not in self.pointers:
                     self.pointers[data_content.value] = data_content.address
@@ -98,6 +103,56 @@ class AppSection(object):
                 else:
                     promote_to_list = self.pointers[data_content.value]
                     self.pointers[data_content.value] = [promote_to_list, data_content.address]
+
+    def inject_values_from_elf(self, elf_file_path):
+        f = open(elf_file_path, 'rb')
+        
+        # HACK: Hacky approximation that works in this case; In the future, actually parse the ELF in the App class
+        f.seek(self.start_address + 0x80)
+
+        address = self.start_address
+        while (address < self.end_address):
+            data_line = self.content[address]
+
+            if data_line.size == 0:
+                raise Exception('Data line at 0x%s is of size 0!' % format(address, '08X'))
+
+            # The values that are None are those that were excluded
+            # for copyright reasons, so inject those since the others
+            # are already loaded. Furthermore, certain values
+            # require relocation adjustments. 
+            # The ones that do require said adjustments (pointers, address loads in code sections, etc.)
+            # are already present in the .py file! So don't overwrite them with this inject!
+            if data_line.value == None:
+                value = f.read(data_line.size)
+
+                if (data_line.type == DataType.String) or (data_line.size > 4) or (data_line.size == 3):
+                    # Represent value as a tuple
+                    value = tuple([ord(i) for i in value])
+
+                elif data_line.size == 4:
+                    # Represent value as uint32
+                    value = struct.unpack('I', value)[0]
+
+                elif data_line.size == 2:
+                    # Represent value as uint16
+                    value = struct.unpack('H', value)[0]
+
+                elif data_line.size == 1:
+                    # Represent value as uint8
+                    value = struct.unpack('B', value)[0]
+
+                else:
+                    raise Exception('Unsure how to represent value at data line 0x%s!' % format(address, '08X'))
+
+                data_line.value = value
+
+            else:
+                f.seek(data_line.size, os.SEEK_CUR)
+
+            address += data_line.size
+
+        f.close()
 
     def as_identifier(self):
         # Drop all initial periods or 0-9

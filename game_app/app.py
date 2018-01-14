@@ -12,7 +12,11 @@ else:
     from section_rodata import *
     from section_data import *
 
-from section_text import *
+if os.environ.get('LINK_DUMMY_TEXT', 'false').lower() == 'true':
+    # If we don't need it for speed
+    section_text = AppSection('.text', 0x00000040, 0x001AE74C, AppSectionFlag.Allocated | AppSectionFlag.Executable, {})
+else:
+    from section_text import *
 
 class App(object):
     base_address = 0x08804000
