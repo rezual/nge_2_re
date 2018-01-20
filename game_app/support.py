@@ -12,6 +12,7 @@ class DataType(object):
     String = 4
     Pointer = 5
     Code = 6
+    RelocatableCode = 7
 
 class DataEndianess(object):
     Unknown = 0
