@@ -1,28 +1,28 @@
 In HGAR (HAR) files:
-8728 .hmn
-8718 .hpt
-4141 .zpt
-2958 .hms
-2863 .hob
-1002 .evs
- 285 .bin
- 155 .fml
-  72 .fmd
-  67 .fma
-  64 .fmw
-  64 .fmg
-  57 .fmc
-  28 .spt
-  21 .png
-  10 .
-   4 .fmp
-   2 .zob
-   1 .zmt
-   1 .hft
+8728 .hmn - HGMN: Guess: Motion
+8718 .hpt - HGPT: Picture file format (there are a few .hpt files with HGMT headers)
+4141 .zpt - Compressed (Zipped?) .hpt; Note: This is unnecessary since .hpt files show up compressed even in .hpt form
+2958 .hms - HGMS: Unknown
+2863 .hob - HGOB: Guess: Model
+1002 .evs - EVS: Guess: Eva-Script
+ 285 .bin - Sound file
+ 155 .fml - Unknown
+  72 .fmd - Unknown
+  67 .fma - Unknown
+  64 .fmw - Unknown
+  64 .fmg - Unknown
+  57 .fmc - Unknown
+  28 .spt - Properties file
+  21 .png - PNG picture
+  10 .    - Unknown
+   4 .fmp - Unknown
+   2 .zob - Compressed (Zipped?) .hob
+   1 .zmt - Compressed (Zipped?) .hpt: This might be a mistake; There is a HGMT file zpt'd (normally for HGPT): im/im059800.zpt_DECOMPRESSED
+   1 .hft - HGFT: Unknown
 
 In USRDIR on umd:
-1158 .har
- 134 .zpt
-  62 .bin
-  19 .dat
-   4 .prx
+1158 .har - HGAR: File archive
+ 134 .zpt - Compressed (Zipped?) .hpt; Note: This is unnecessary since .hpt files show up compressed even in .hpt form
+  62 .bin - BIND / TEXT / RIFF: Text or Sound or Voice file
+  19 .dat - Unknown
+   4 .prx - Playstation Portable extended libraries
