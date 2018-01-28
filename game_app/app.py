@@ -86,8 +86,6 @@ class App(object):
 
     @staticmethod
     def section_via_address(address):
-        address -= App.base_address
-
         for section in App.sections.itervalues():
             if address >= section.start_address and address < section.end_address:
                 return section
