@@ -85,7 +85,7 @@ class WordPlay(object):
 
 	@staticmethod
 	def from_hwords(a, b):
-		return (a << 16) | b << 16
+		return (a << 16) | b
 
 	@staticmethod
 	def get_byte(word_value, byte_index):
