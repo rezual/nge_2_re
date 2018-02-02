@@ -3,6 +3,9 @@
 import os
 import struct
 
+class UnknownOpcodeException(Exception):
+	pass
+
 class WordPlay(object):
 	REVERSE_BYTE_BITS = (0x00, 0x80, 0x40, 0xC0, 0x20, 0xA0, 0x60, 0xE0, 0x10, 0x90, 0x50, 0xD0, 0x30, 0xB0, 0x70, 0xF0, 
 						 0x08, 0x88, 0x48, 0xC8, 0x28, 0xA8, 0x68, 0xE8, 0x18, 0x98, 0x58, 0xD8, 0x38, 0xB8, 0x78, 0xF8, 
@@ -426,342 +429,7 @@ class CPU(object):
 			self.opcode_00_funct_2D
 		)
 
-	def _jump_to(self, address):
-		self.jump_delay = True
-		self.jump_destination = address
-
-	def _jump_clear(self):
-		self.jump_delay = False
-		self.jump_destination = None
-
-	def execute(self):
-		# Simulate pipeline delay
-		current_fetch_address = self.regs.pc.get()
-		if self.jump_delay is True:
-			next_fetch_address = self.jump_destination
-			self._jump_clear()
-		else:
-			next_fetch_address = self.regs.pc.add(4)
-		
-		# Check if valid memory
-		#if current_fetch_address not in self.memory.content:
-		#	raise Exception('Executing unhashed address: 0x%s' % format(current_fetch_address, '08X'))
-
-		##Decode instruction
-		instruction = self.memory.get_word(current_fetch_address)
-
-		field_opcode = (instruction >> 26) & 0x3F
-		field_rs     = (instruction >> 21) & 0x1F
-		field_rt     = (instruction >> 16) & 0x1F
-		field_rd     = (instruction >> 11) & 0x1F
-		field_shamt  = (instruction >> 6) & 0x1F
-		field_funct  = instruction & 0x3F
-
-		field_addr   = instruction & 0x3FFF
-		field_imm    = instruction & 0xFFFF
-
-		# Execute opcode
-		self._opcode_look_up_table[field_opcode](field_rs, field_rt, field_rd, field_shamt, field_funct)
-
-		# raise Exception('Unknown opcode')
-
-		#self.regs.gp.dump()
-
-		# Simulate pipeline delay
-		self.regs.pc.set(next_fetch_address)
-
-	def opcode_00_funct_00(self, field_rs, field_rt, field_rd, field_shamt):
-		# sll: 000000 sssss ttttt ddddd aaaaa 000000
-		self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_left(field_shamt))
-
-	def opcode_00_funct_02(self, field_rs, field_rt, field_rd, field_shamt):
-		# srl: 000000 00000 ttttt ddddd aaaaa 000010
-		if field_rs == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_right(field_shamt))
-		
-		# rotr:  000000 00001 ttttt ddddd aaaaa 000010
-		elif field_rs == 0x01:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].rotate_right(field_shamt))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_03(self, field_rs, field_rt, field_rd, field_shamt):
-		# sra: 000000 00000 ttttt ddddd aaaaa 000011
-		if field_rs == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].arithmetic_shift_right(field_shamt))
-		else:
-			raise Exception('Unknown opcode')
-		
-	def opcode_00_funct_04(self, field_rs, field_rt, field_rd, field_shamt):
-		# sllv: 000000 sssss ttttt ddddd 00000 000100
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_left(self.regs.gp[field_rs].get() & 0x1F))
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_06(self, field_rs, field_rt, field_rd, field_shamt):
-		# srlv: 000000 sssss ttttt ddddd 00000 000110
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_right(self.regs.gp[field_rs].get() & 0x1F))
-		
-		# rotrv: 000000 sssss ttttt ddddd 00001 000110
-		elif field_shamt == 0x01:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rt].rotate_right(self.regs.gp[field_rs].get() & 0x1F))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_08(self, field_rs, field_rt, field_rd, field_shamt):
-		# jr: 000000 sssss 00000 00000 00000 001000
-		if field_shamt == 0x00 and field_rd == 0x00 and field_rt == 0x00:
-			self._jump_to(self.regs.gp[field_rs].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_0B(self, field_rs, field_rt, field_rd, field_shamt):
-		# movn: 000000 sssss ttttt ddddd 00000 001011
-		if field_shamt == 0x00:
-			if self.regs.gp[field_rt].get() != 0:
-				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_10(self, field_rs, field_rt, field_rd, field_shamt):
-		# mfhi: 000000 00000 00000 ddddd 00000 010000
-		if field_shamt == 0x00 and field_rs == 0x00 and field_rt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.hi.get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_11(self, field_rs, field_rt, field_rd, field_shamt):
-		# mthi: 000000 sssss 00000 00000 00000 010001
-		if field_shamt == 0x00 and field_rd == 0x00 and field_rt == 0x00:
-			self.regs.hi.set(self.regs.gp[field_rs].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_16(self, field_rs, field_rt, field_rd, field_shamt):
-		# clz: 000000 sssss 00000 ddddd 00000 010110
-		if field_shamt == 0x00 and field_rt == 0x00:
-			temp = 32
-			for i in xrange(31, -1, -1):
-				if (self.regs.gp[field_rs].get() >> i) & 1 == 1:
-					temp = 31 - i
-					break
-			self.regs.gp[field_rd].set(temp)
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_21(self, field_rs, field_rt, field_rd, field_shamt):
-		# addu: 000000 sssss ttttt ddddd 00000 100001
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].add(self.regs.gp[field_rt].get()))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_22(self, field_rs, field_rt, field_rd, field_shamt):
-		# sub: 000000 sssss ttttt ddddd 00000 100010
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].sub(self.regs.gp[field_rt].get()))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_23(self, field_rs, field_rt, field_rd, field_shamt):
-		# subu: 000000 sssss ttttt ddddd 00000 100011
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].sub(self.regs.gp[field_rt].get()))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_25(self, field_rs, field_rt, field_rd, field_shamt):
-		# or: 000000 sssss ttttt ddddd 00000 100101
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].get() | self.regs.gp[field_rt].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_27(self, field_rs, field_rt, field_rd, field_shamt):
-		# not: 000000 sssss 00000 ddddd 00000 100111
-		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].not_word())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_2A(self, field_rs, field_rt, field_rd, field_shamt):
-		# slt: 000000 sssss ttttt ddddd 00000 101010
-		if field_shamt == 0x00:
-			if self.regs.gp[field_rs].get_signed() < self.regs.gp[field_rt].get_signed():
-				self.regs.gp[field_rd].set(1)
-			else:
-				self.regs.gp[field_rd].set(0)
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_2B(self, field_rs, field_rt, field_rd, field_shamt):
-		# sltu: 000000 sssss ttttt ddddd 00000 101011
-		if field_shamt == 0x00:
-			if self.regs.gp[field_rs].get() < self.regs.gp[field_rt].get():
-				self.regs.gp[field_rd].set(1)
-			else:
-				self.regs.gp[field_rd].set(0)
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_2C(self, field_rs, field_rt, field_rd, field_shamt):
-		# max: 000000 sssss ttttt ddddd 00000 101100
-		if field_shamt == 0x00:
-			if self.regs.gp[field_rs].get_signed() > self.regs.gp[field_rt].get_signed():
-				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
-			else:
-				self.regs.gp[field_rd].set(self.regs.gp[field_rt].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00_funct_2D(self, field_rs, field_rt, field_rd, field_shamt):
-		# min: 000000 sssss ttttt ddddd 00000 101101
-		if field_shamt == 0x00:
-			if self.regs.gp[field_rs].get_signed() < self.regs.gp[field_rt].get_signed():
-				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
-			else:
-				self.regs.gp[field_rd].set(self.regs.gp[field_rt].get())
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_00(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# Execute funct
-		self._opcode_00_look_up_table[field_funct](field_rs, field_rt, field_rd, field_shamt)
-
-	def opcode_01(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-
-		# bltz: 000001 sssss 00000 iiii iiii iiii iiii
-		if field_rt == 0x00:
-			if self.regs.gp[field_rs].get_signed() < 0: 
-				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-		
-		# bgez: 000001 sssss 00001 iiii iiii iiii iiii
-		elif field_rt == 0x01:
-			if self.regs.gp[field_rs].get_signed() >= 0: 
-				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-
-		# bltzal: 000001 sssss 10000 iiii iiii iiii iiii
-		elif field_rt == 0x10:
-			if self.regs.gp[field_rs].get_signed() < 0: 
-				self.regs.gp.ra.set(self.regs.pc.add(8))
-				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_02(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# j: 000010 ii iiii iiii iiii iiii iiii iiii
-		imm = (field_rs << 21) | (field_rt << 16) |  (field_rd << 11) | (field_shamt << 6) | field_funct
-		self._jump_to((self.regs.pc.add(4) & 0xF0000000) | (imm << 2))
-
-	def opcode_03(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# jal: 000011 ii iiii iiii iiii iiii iiii iiii
-		imm = (field_rs << 21) | (field_rt << 16) |  (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp.ra.set(self.regs.pc.add(8))
-		self._jump_to((self.regs.pc.add(4) & 0xF0000000) | (imm << 2))
-
-	def opcode_04(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# beq: 000100 sssss ttttt iiii iiii iiii iiii
-		if self.regs.gp[field_rs].get() == self.regs.gp[field_rt].get(): 
-			imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-			self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-
-	def opcode_05(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# bne: 000101 sssss ttttt iiii iiii iiii iiii
-		if self.regs.gp[field_rs].get() != self.regs.gp[field_rt].get(): 
-			imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-			self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-
-	def opcode_06(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# blez: 000110 sssss 00000 iiii iiii iiii iiii
-		if field_rt == 0x00:
-			if self.regs.gp[field_rs].get_signed() <= 0: 
-				imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_07(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# bgtz: 000111 sssss 00000 iiii iiii iiii iiii
-		if field_rt == 0x00:
-			if self.regs.gp[field_rs].get_signed() > 0: 
-				imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(imm) << 2)))
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_09(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# addiu: 001001 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)))
-
-	def opcode_0A(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# slti: 001010 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		if self.regs.gp[field_rs].get_signed() < WordPlay.as_signed(WordPlay.sign_extend_hword(imm)):
-			self.regs.gp[field_rt].set(1)
-		else:
-			self.regs.gp[field_rt].set(0)
-
-	def opcode_0C(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# andi: 001100 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(self.regs.gp[field_rs].get() & WordPlay.zero_extend_hword(imm))
-
-	def opcode_0F(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# lui: 001111 00000 ttttt iiii iiii iiii iiii
-		if field_rs == 0x00:
-			imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-			self.regs.gp[field_rt].set(imm << 16)
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_1F_funct_00(self, field_rs, field_rt, field_rd, field_shamt):
-		# ext: 011111 sssss ttttt eeeee aaaaa 000000
-		size = field_rd + 1
-		pos = field_shamt
-		mask = ((1 << size) - 1)
-		self.regs.gp[field_rt].set((self.regs.gp[field_rs].get() >> pos) & mask)
-
-	def opcode_1F_funct_04(self, field_rs, field_rt, field_rd, field_shamt):
-		# ins: 011111 sssss ttttt nnnnn NNNNN 000100 tsani
-		size = (field_rd - field_shamt) + 1
-		pos = field_shamt
-		mask = ((1 << size) - 1)
-		self.regs.gp[field_rt].set((self.regs.gp[field_rt].get() & WordPlay.not_word(mask << field_shamt)) | ((self.regs.gp[field_rs].get() & mask) << field_shamt))
-
-	def opcode_1F_funct_20(self, field_rs, field_rt, field_rd, field_shamt):
-		# bitrev: 011111 00000 ttttt ddddd 10100 100000
-		if field_shamt == 0x14 and field_rs == 0x00:
-			self.regs.gp[field_rd].set(WordPlay.reverse_word(self.regs.gp[field_rt].get()))
-
-		else:
-			raise Exception('Unknown opcode')
-
-	def opcode_1F(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
-		# Execute funct
-		(
+		self._opcode_1F_look_up_table = (
 			self.opcode_1F_funct_00,
 			None,
 			None,
@@ -795,22 +463,362 @@ class CPU(object):
 			None,
 			None,
 			self.opcode_1F_funct_20
-		)[field_funct](field_rs, field_rt, field_rd, field_shamt)
+		)
+	def _jump_to(self, address):
+		self.jump_delay = True
+		self.jump_destination = address
 
-	def opcode_20(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def _jump_clear(self):
+		self.jump_delay = False
+		self.jump_destination = None
+
+	def execute(self):
+		# Simulate pipeline delay
+		current_fetch_address = self.regs.pc.get()
+		if self.jump_delay is True:
+			next_fetch_address = self.jump_destination
+			self._jump_clear()
+		else:
+			next_fetch_address = self.regs.pc.add(4)
+		
+		# Check if valid memory
+		#if current_fetch_address not in self.memory.content:
+		#	raise Exception('Executing unhashed address: 0x%s' % format(current_fetch_address, '08X'))
+
+		##Decode instruction
+		instruction = self.memory.get_word(current_fetch_address)
+
+		field_opcode = (instruction >> 26) & 0x3F
+		field_rs     = (instruction >> 21) & 0x1F
+		field_rt     = (instruction >> 16) & 0x1F
+		field_rd     = (instruction >> 11) & 0x1F
+		field_shamt  = (instruction >> 6) & 0x1F
+		field_funct  = instruction & 0x3F
+
+		field_imm    = instruction & 0xFFFF
+
+		# Execute opcode
+		try:
+			self._opcode_look_up_table[field_opcode](field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm)
+
+		except (UnknownOpcodeException, TypeError, IndexError):
+			raise Exception('Unknwon opcode at 0x%s:\n\tOpcode: %s\n\tRs: %s\n\tRt: %s\n\tRd: %s\n\tShift Amount: %s\n\tFunct: %s' % (
+					format(current_fetch_address, '08X'), 
+					field_opcode,
+					field_rs,
+					field_rt,
+					field_rd,
+					field_shamt,
+					field_funct
+				))
+
+		#self.regs.gp.dump()
+
+		# Simulate pipeline delay
+		self.regs.pc.set(next_fetch_address)
+
+	def opcode_00_funct_00(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# sll: 000000 sssss ttttt ddddd aaaaa 000000
+		self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_left(field_shamt))
+
+	def opcode_00_funct_02(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# srl: 000000 00000 ttttt ddddd aaaaa 000010
+		if field_rs == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_right(field_shamt))
+		
+		# rotr:  000000 00001 ttttt ddddd aaaaa 000010
+		elif field_rs == 0x01:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].rotate_right(field_shamt))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_03(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# sra: 000000 00000 ttttt ddddd aaaaa 000011
+		if field_rs == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].arithmetic_shift_right(field_shamt))
+		else:
+			raise UnknownOpcodeException()
+		
+	def opcode_00_funct_04(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# sllv: 000000 sssss ttttt ddddd 00000 000100
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_left(self.regs.gp[field_rs].get() & 0x1F))
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_06(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# srlv: 000000 sssss ttttt ddddd 00000 000110
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].logical_shift_right(self.regs.gp[field_rs].get() & 0x1F))
+		
+		# rotrv: 000000 sssss ttttt ddddd 00001 000110
+		elif field_shamt == 0x01:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rt].rotate_right(self.regs.gp[field_rs].get() & 0x1F))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_08(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# jr: 000000 sssss 00000 00000 00000 001000
+		if field_shamt == 0x00 and field_rd == 0x00 and field_rt == 0x00:
+			self._jump_to(self.regs.gp[field_rs].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_0B(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# movn: 000000 sssss ttttt ddddd 00000 001011
+		if field_shamt == 0x00:
+			if self.regs.gp[field_rt].get() != 0:
+				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_10(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# mfhi: 000000 00000 00000 ddddd 00000 010000
+		if field_shamt == 0x00 and field_rs == 0x00 and field_rt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.hi.get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_11(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# mthi: 000000 sssss 00000 00000 00000 010001
+		if field_shamt == 0x00 and field_rd == 0x00 and field_rt == 0x00:
+			self.regs.hi.set(self.regs.gp[field_rs].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_16(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# clz: 000000 sssss 00000 ddddd 00000 010110
+		if field_shamt == 0x00 and field_rt == 0x00:
+			temp = 32
+			for i in xrange(31, -1, -1):
+				if (self.regs.gp[field_rs].get() >> i) & 1 == 1:
+					temp = 31 - i
+					break
+			self.regs.gp[field_rd].set(temp)
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_21(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# addu: 000000 sssss ttttt ddddd 00000 100001
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].add(self.regs.gp[field_rt].get()))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_22(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# sub: 000000 sssss ttttt ddddd 00000 100010
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].sub(self.regs.gp[field_rt].get()))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_23(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# subu: 000000 sssss ttttt ddddd 00000 100011
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].sub(self.regs.gp[field_rt].get()))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_25(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# or: 000000 sssss ttttt ddddd 00000 100101
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].get() | self.regs.gp[field_rt].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_27(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# not: 000000 sssss 00000 ddddd 00000 100111
+		if field_shamt == 0x00:
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].not_word())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_2A(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# slt: 000000 sssss ttttt ddddd 00000 101010
+		if field_shamt == 0x00:
+			if self.regs.gp[field_rs].get_signed() < self.regs.gp[field_rt].get_signed():
+				self.regs.gp[field_rd].set(1)
+			else:
+				self.regs.gp[field_rd].set(0)
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_2B(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# sltu: 000000 sssss ttttt ddddd 00000 101011
+		if field_shamt == 0x00:
+			if self.regs.gp[field_rs].get() < self.regs.gp[field_rt].get():
+				self.regs.gp[field_rd].set(1)
+			else:
+				self.regs.gp[field_rd].set(0)
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_2C(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# max: 000000 sssss ttttt ddddd 00000 101100
+		if field_shamt == 0x00:
+			if self.regs.gp[field_rs].get_signed() > self.regs.gp[field_rt].get_signed():
+				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
+			else:
+				self.regs.gp[field_rd].set(self.regs.gp[field_rt].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00_funct_2D(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# min: 000000 sssss ttttt ddddd 00000 101101
+		if field_shamt == 0x00:
+			if self.regs.gp[field_rs].get_signed() < self.regs.gp[field_rt].get_signed():
+				self.regs.gp[field_rd].set(self.regs.gp[field_rs].get())
+			else:
+				self.regs.gp[field_rd].set(self.regs.gp[field_rt].get())
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_00(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# Execute funct
+		try:
+			self._opcode_00_look_up_table[field_funct](field_rs, field_rt, field_rd, field_shamt, field_imm)
+
+		except (TypeError, IndexError):
+			raise UnknownOpcodeException()
+
+	def opcode_01(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		
+		# bltz: 000001 sssss 00000 iiii iiii iiii iiii
+		if field_rt == 0x00:
+			if self.regs.gp[field_rs].get_signed() < 0: 
+				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+		
+		# bgez: 000001 sssss 00001 iiii iiii iiii iiii
+		elif field_rt == 0x01:
+			if self.regs.gp[field_rs].get_signed() >= 0: 
+				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+
+		# bltzal: 000001 sssss 10000 iiii iiii iiii iiii
+		elif field_rt == 0x10:
+			if self.regs.gp[field_rs].get_signed() < 0: 
+				self.regs.gp.ra.set(self.regs.pc.add(8))
+				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_02(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# j: 000010 ii iiii iiii iiii iiii iiii iiii
+		imm = (field_rs << 21) | (field_rt << 16) |  field_imm
+		self._jump_to((self.regs.pc.add(4) & 0xF0000000) | (imm << 2))
+
+	def opcode_03(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# jal: 000011 ii iiii iiii iiii iiii iiii iiii
+		imm = (field_rs << 21) | (field_rt << 16) |  field_imm
+		self.regs.gp.ra.set(self.regs.pc.add(8))
+		self._jump_to((self.regs.pc.add(4) & 0xF0000000) | (imm << 2))
+
+	def opcode_04(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# beq: 000100 sssss ttttt iiii iiii iiii iiii
+		if self.regs.gp[field_rs].get() == self.regs.gp[field_rt].get(): 
+			self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+
+	def opcode_05(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# bne: 000101 sssss ttttt iiii iiii iiii iiii
+		if self.regs.gp[field_rs].get() != self.regs.gp[field_rt].get(): 
+			self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+
+	def opcode_06(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# blez: 000110 sssss 00000 iiii iiii iiii iiii
+		if field_rt == 0x00:
+			if self.regs.gp[field_rs].get_signed() <= 0: 
+				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_07(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# bgtz: 000111 sssss 00000 iiii iiii iiii iiii
+		if field_rt == 0x00:
+			if self.regs.gp[field_rs].get_signed() > 0: 
+				self._jump_to(self.regs.pc.add(4 + (WordPlay.sign_extend_hword(field_imm) << 2)))
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_09(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# addiu: 001001 sssss ttttt iiii iiii iiii iiii
+		self.regs.gp[field_rt].set(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)))
+
+	def opcode_0A(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# slti: 001010 sssss ttttt iiii iiii iiii iiii
+		if self.regs.gp[field_rs].get_signed() < WordPlay.as_signed(WordPlay.sign_extend_hword(field_imm)):
+			self.regs.gp[field_rt].set(1)
+		else:
+			self.regs.gp[field_rt].set(0)
+
+	def opcode_0C(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# andi: 001100 sssss ttttt iiii iiii iiii iiii
+		self.regs.gp[field_rt].set(self.regs.gp[field_rs].get() & WordPlay.zero_extend_hword(field_imm))
+
+	def opcode_0F(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# lui: 001111 00000 ttttt iiii iiii iiii iiii
+		if field_rs == 0x00:
+			self.regs.gp[field_rt].set(field_imm << 16)
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_1F_funct_00(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# ext: 011111 sssss ttttt eeeee aaaaa 000000
+		size = field_rd + 1
+		pos = field_shamt
+		mask = ((1 << size) - 1)
+		self.regs.gp[field_rt].set((self.regs.gp[field_rs].get() >> pos) & mask)
+
+	def opcode_1F_funct_04(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# ins: 011111 sssss ttttt nnnnn NNNNN 000100 tsani
+		size = (field_rd - field_shamt) + 1
+		pos = field_shamt
+		mask = ((1 << size) - 1)
+		self.regs.gp[field_rt].set((self.regs.gp[field_rt].get() & WordPlay.not_word(mask << field_shamt)) | ((self.regs.gp[field_rs].get() & mask) << field_shamt))
+
+	def opcode_1F_funct_20(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
+		# bitrev: 011111 00000 ttttt ddddd 10100 100000
+		if field_shamt == 0x14 and field_rs == 0x00:
+			self.regs.gp[field_rd].set(WordPlay.reverse_word(self.regs.gp[field_rt].get()))
+
+		else:
+			raise UnknownOpcodeException()
+
+	def opcode_1F(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
+		# Execute funct
+		try:
+			self._opcode_1F_look_up_table[field_funct](field_rs, field_rt, field_rd, field_shamt, field_imm)
+
+		except (TypeError, IndexError):
+			raise UnknownOpcodeException()
+
+	def opcode_20(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lb: 100000 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(WordPlay.sign_extend_byte(self.memory.get_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)))))
+		self.regs.gp[field_rt].set(WordPlay.sign_extend_byte(self.memory.get_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)))))
 
-	def opcode_21(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_21(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lh: 100001 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(WordPlay.sign_extend_hword(self.memory.get_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)))))
+		self.regs.gp[field_rt].set(WordPlay.sign_extend_hword(self.memory.get_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)))))
 
-	def opcode_22(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_22(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lwl: 100010 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		unaligned_source_address = self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm))
+		unaligned_source_address = self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm))
 		word_aligned_end_address = 4 * int((unaligned_source_address + 3) / 4)
 
 		byte_counter = 0
@@ -820,25 +828,21 @@ class CPU(object):
 			unaligned_source_address += 1
 			byte_counter += 1
 
-	def opcode_23(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_23(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lw: 100011 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(self.memory.get_word(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm))))
+		self.regs.gp[field_rt].set(self.memory.get_word(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm))))
 
-	def opcode_24(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_24(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lbu: 100100 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(self.memory.get_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm))))
+		self.regs.gp[field_rt].set(self.memory.get_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm))))
 
-	def opcode_25(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_25(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lhu: 100101 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.regs.gp[field_rt].set(self.memory.get_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm))))
+		self.regs.gp[field_rt].set(self.memory.get_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm))))
 
-	def opcode_26(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_26(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# lwr: 100110 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		unaligned_source_address = self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm))
+		unaligned_source_address = self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm))
 		word_aligned_end_address = 4 * int(unaligned_source_address / 4)
 
 		byte_counter = 0
@@ -848,18 +852,15 @@ class CPU(object):
 			unaligned_source_address -= 1
 			byte_counter += 1
 
-	def opcode_28(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_28(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# sb: 101000 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.memory.set_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)), WordPlay.sanitize_byte(self.regs.gp[field_rt].get()))
+		self.memory.set_byte(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)), WordPlay.sanitize_byte(self.regs.gp[field_rt].get()))
 
-	def opcode_29(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_29(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# sh: 101001 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.memory.set_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)), WordPlay.sanitize_hword(self.regs.gp[field_rt].get()))
+		self.memory.set_hword(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)), WordPlay.sanitize_hword(self.regs.gp[field_rt].get()))
 
-	def opcode_2B(self, field_rs, field_rt, field_rd, field_shamt, field_funct):
+	def opcode_2B(self, field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm):
 		# sw: 101011 sssss ttttt iiii iiii iiii iiii
-		imm = (field_rd << 11) | (field_shamt << 6) | field_funct
-		self.memory.set_word(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(imm)), self.regs.gp[field_rt].get())
+		self.memory.set_word(self.regs.gp[field_rs].add(WordPlay.sign_extend_hword(field_imm)), self.regs.gp[field_rt].get())
 
