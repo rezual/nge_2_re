@@ -376,7 +376,7 @@ if __name__ == '__main__':
 				print '\tExtracting: ' + file.name
 
 				with open(output_path + file.name, 'wb') as w:
-					w.write(f.content)
+					w.write(file.content)
 
 		except Exception, e:
 			print 'Error: %s' % e
