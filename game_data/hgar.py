@@ -28,6 +28,8 @@ def word_aligned_length(length):
 
 class HGArchiveFile(object):
 	def __init__(self, name, size):
+		self.number = None
+
 		self.set_name(name)
 		
 		self.size = size
@@ -39,6 +41,17 @@ class HGArchiveFile(object):
 		self.unknown_last = None
 
 		self.content = ''
+
+	def get_viable_name(self):
+		# Sometimes the short name is blank
+		if self.name == '.':
+			if self.long_name:
+				return self.long_name.rstrip(' \t\r\n\0')
+
+		else:
+			return self.name.rstrip(' \t\r\n\0')
+
+		return '%s' % self.number
 
 	def set_name(self, name):
 		self.name = name
@@ -145,8 +158,11 @@ class HGArchive(object):
 	def decode_identifiers(self):
 		# This must be done once finalizing a HGAR for saving (or after open is complete)
 		# since the IDs depend on the # of files in the HGAR
+		number = 0
 		for file in self.files:
 			file.decode_identifier(self.identifier_limit)
+			file.number = number
+			number += 1
 
 	def info(self):
 		print 'Version: %s' % self.version
@@ -156,10 +172,12 @@ class HGArchive(object):
 
 		print 'Files:'
 		for file in self.files:
-			print '\tName: %s' % file.name
+			print '\tName: %s' % file.get_viable_name()
 			print '\tCompressed: %s' % file.is_compressed
-			print '\tUnknown first: 0x%s' % format(file.unknown_first, '08X')
-			print '\tUnknown last:  0x%s' % format(file.unknown_first, '08X')
+			if file.unknown_first:
+				print '\tUnknown first: 0x%s' % format(file.unknown_first, '08X')
+			if file.unknown_last:
+				print '\tUnknown last:  0x%s' % format(file.unknown_last, '08X')
 			print '\tEncoded Identifier: 0x%s' % format(file.encoded_identifier, '08X')
 			print '\tDecoded Identifier: 0x%s' % format(file.identifier, '08X')
 			
@@ -167,7 +185,7 @@ class HGArchive(object):
 		
 	def replace(self, file_to_replace, file_content):
 		for file in self.files:
-			if file.name == file_to_replace:
+			if file.get_viable_name() == file_to_replace:
 				file.content = file_content
 				file.size = len(file_content)
 				return
@@ -309,6 +327,7 @@ if __name__ == '__main__':
 		print ''
 		print 'hgar.py --info <archive.har>'
 		print 'hgar.py --extract <archive.har>'
+		print 'hgar.py --decompress <archive.har>'
 		print 'hgar.py --replace <archive.har> <file_to_replace> <file_to_inject>'
 		sys.exit(0)
 
@@ -373,10 +392,41 @@ if __name__ == '__main__':
 				os.makedirs(output_path)
 
 			for file in hgar.files:
-				print '\tExtracting: ' + file.name
+				print '\tExtracting: ' + file.get_viable_name()
 
-				with open(output_path + file.name, 'wb') as w:
+				with open(output_path + file.get_viable_name(), 'wb') as w:
 					w.write(file.content)
+
+		except Exception, e:
+			print 'Error: %s' % e
+			sys.exit(-1)
+
+	elif action in ('-d', '--decompress'):
+		# Import the zipped module only if decompressing
+		# to save on load time for other use cases
+		from zipped import Zipped
+		zipped = Zipped()
+
+		try:
+			print 'Opening %s:' % input_path
+
+			hgar = HGArchive()
+			hgar.open(input_path)
+			
+			output_path = input_path + '_EXTRACT' + os.sep
+
+			if not os.path.exists(output_path):
+				os.makedirs(output_path)
+
+			for file in hgar.files:
+				print '\tExtracting: ' + file.get_viable_name()
+
+				with open(output_path + file.get_viable_name(), 'wb') as w:
+					w.write(file.content)
+
+				# Decompress as well?
+				if file.is_compressed:
+					zipped.decompress(output_path + file.get_viable_name())
 
 		except Exception, e:
 			print 'Error: %s' % e
