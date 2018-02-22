@@ -19,19 +19,15 @@
 
 ## Reverse Engineering Status:
 - Figure out .har file format, which is a package format containing several game files
-	- Extracting
-		- [x] Done
-			- See game_data/hgar.py's --decompress
-	- Modifying
-		- [x] Done
-			- See game_data/hgar.py's --replace
+	- [x] Extracting
+		- See game_data/hgar.py's --decompress
+	- [x] Modifying
+		- See game_data/hgar.py's --replace
 - Figoure out how to decompress .zpt and other compressed files in the .har packages
-	- Decompressing
-		- [x] Done
-			- See game_data/zipped.py
-	- Compressing
-		- [ ] Skipping
-			- Unnecessary, since we can import into the game the decompressed but modified files
+	- [x] Decompressing
+		- See game_data/zipped.py
+	- [ ] Compressing
+		- Skipping. It's unnecessary since we can load modified decompressed files into the game.
 - Figure out the game's picture format.
 	- Exporting
 		- [ ] 90% done, some bugs remain
