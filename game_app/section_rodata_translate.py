@@ -35,7 +35,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B1EAC: Data(DataType.String, 24, 'But I Like This World\0', "でも、この世界が好き\0"),
     0x001B1ECC: Data(DataType.String, 20, 'Rei: Beyond Her Heart\0', "レイ、心の向こうに\0"),
     0x001B1EE8: Data(DataType.String, 24, 'To Kiss in a Fragile Place\0', "脆いところへくちづけを\0"),
-    0x001B1F08: Data(DataType.String, 12, 'A Woman\s Fight\0', "女の戦い\0"),
+    0x001B1F08: Data(DataType.String, 12, 'A Woman\'s Fight\0', "女の戦い\0"),
     0x001B1F1C: Data(DataType.String, 16, 'Human Instrumentality Project\0', "人類補完計画\0"),
     0x001B1F34: Data(DataType.String, 16, 'Impossible Daydream\0', "見果てぬ白昼夢\0"),
     0x001B1F4C: Data(DataType.String, 8, 'Female Inferno\0', "女は炎\0"),
