@@ -91,7 +91,7 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x002507C4: Data(DataType.String, 20, 'Pilot Instruction\0', "パイロットに指示\0"),
     0x002507D8: Data(DataType.String, 16, 'Neural Connection Cut\0', "神経接続切断\0"),
     0x002507E8: Data(DataType.String, 12, 'Status\0', "ステータス\0"),
-    0x002507F4: Data(DataType.String, 16, '%s Movement\0', "%sは移動して\0"),
+    0x002507F4: Data(DataType.String, 16, '%s\'s Movement\0', "%sは移動して\0"),
     0x00250804: Data(DataType.String, 20, '???', "%sはその場で待機\0"),
     0x00250818: Data(DataType.String, 16, '???', "%sは退避して\0"),
     0x00250828: Data(DataType.String, 16, '???', "%sは射撃開始\0"),
