@@ -3,7 +3,7 @@
 
 ## Translation Status:
 - Text in Writable Section of Game Executable: 
-	- [ ] 44.60% translated 
+	- [ ] 60.43% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
 	- [ ] 9.32% translated
