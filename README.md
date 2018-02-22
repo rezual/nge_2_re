@@ -2,47 +2,47 @@
 ## Reverse Engineering & Translation
 
 ## Translation Status:
-1 - Writable Section text: 
+- Writable Section text: 
 	- [ ] 40.29% translated 
 	- See game_app/section_data_translate.py
-2 - Read-Only Section text: 
+- Read-Only Section text: 
 	- [ ] 1.54% translated
 	- See game_app/section_rodata_translate.py
-3 - Images with text:
+- Images with text:
 	- [ ] Pick all the images with text that need to be translated
 	- [ ] Write up the text translations of the contents in the images
 	- [ ] Modify images, removing text, replacing it with the background
 	- [ ] Modify images, injecting text with proper font
-4 - /USRDIR/game/imtext.bin: 
+- /USRDIR/game/imtext.bin: 
 	- [ ] 0% translated
 	- Format not yet understood
 
 ## Reverse Engineering Status:
-1 - Figure out .har file format, which is a package format containing several game files
+- Figure out .har file format, which is a package format containing several game files
 	- Extracting
 		- [x] Done
 		- See game_data/hgar.py's --decompress
 	- Modifying
 		- [x] Done
 		- See game_data/hgar.py's --replace
-2 - Figoure out how to decompress .zpt and other compressed files in the .har packages
+- Figoure out how to decompress .zpt and other compressed files in the .har packages
 	- Decompressing
 		- [x] Done
 		- See game_data/zipped.py
 	- Compressing
 		- [ ] Skipping
 		- Unnecessary, since we can import into the game the decompressed but modified files
-3 - Figure out the game's picture format.
+- Figure out the game's picture format.
 	- Exporting
 		- [ ] 90% done, some bugs remain
 		- See game_data/hgpt.py
 	- Importing
 		- [ ] TODO
-4 - Write a script to re-calculate text pointers so any translated text that can't fit in memory is moved elsewhere
+- Write a script to re-calculate text pointers so any translated text that can't fit in memory is moved elsewhere
 	- [ ] TODO
-5 - Figure out format of /USRDIR/game/imtext.bin - where most of the game dialog is stored
+- Figure out format of /USRDIR/game/imtext.bin - where most of the game dialog is stored
 	- [ ] TODO
-6 - Write custom PSP CFW plugin to patch the game and no longer rely on CWCheat
+- Write custom PSP CFW plugin to patch the game and no longer rely on CWCheat
 	- [ ] TODO
 
 ## File Breakdown:
