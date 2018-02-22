@@ -6,6 +6,7 @@
 # Put the translations in the ???
 # \n is a linebreak
 # \0 is the end of the string
+# \' is a single quote
 
 from support import *
 
@@ -78,7 +79,7 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x002506D8: Data(DataType.String, 20, 'How will you fight?\0', "どうやって戦う？\0"),
     0x002506EC: Data(DataType.String, 20, '???', "%sのことどう思う？\0"),
     0x00250700: Data(DataType.String, 16, '???', "装備を破棄する\0"),
-    0x00250710: Data(DataType.String, 12, '???', "剣を拾う\0"),
+    0x00250710: Data(DataType.String, 12, 'Pick up sword\0', "剣を拾う\0"),
     0x0025071C: Data(DataType.String, 16, 'Mastema Shot\0', "マステマで射撃\0"),
     0x0025072C: Data(DataType.String, 16, 'Mastema Cut\0', "マステマで切る\0"),
     0x0025073C: Data(DataType.String, 16, 'N. Missile Strike\0', "Νミサイル攻撃\0"),
@@ -87,9 +88,9 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x00250774: Data(DataType.String, 20, 'Prog. Dagger Cut\0', "プログダガーで切る\0"),
     0x00250788: Data(DataType.String, 20, 'Impact Bolt\0', "インパクトボルト\0"),
     0x0025079C: Data(DataType.String, 20, 'Hyper Chop\0', "ハイパーチョップ\0"),
-    0x002507B0: Data(DataType.String, 20, 'Talk to Tabris\0', "タブリスと対話する\0"),
+    0x002507B0: Data(DataType.String, 20, 'Interact with Tabris\0', "タブリスと対話する\0"),
     0x002507C4: Data(DataType.String, 20, 'Pilot Instruction\0', "パイロットに指示\0"),
-    0x002507D8: Data(DataType.String, 16, 'Neural Connection Cut\0', "神経接続切断\0"),
+    0x002507D8: Data(DataType.String, 16, 'Cut Neural Links\0', "神経接続切断\0"),
     0x002507E8: Data(DataType.String, 12, 'Status\0', "ステータス\0"),
     0x002507F4: Data(DataType.String, 16, '%s\'s Movement\0', "%sは移動して\0"),
     0x00250804: Data(DataType.String, 20, '???', "%sはその場で待機\0"),
@@ -107,10 +108,10 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x002508E8: Data(DataType.String, 16, 'Return to NERV\0', "ネルフに戻る\0"),
     0x002508F8: Data(DataType.String, 12, '???', "関係ないや\0"),
     0x00250904: Data(DataType.String, 12, '???', "配置する\0"),
-    0x00250910: Data(DataType.String, 20, '???', "両機はその場で待機\0"),
+    0x00250910: Data(DataType.String, 20, 'Put both Evas on standby\0', "両機はその場で待機\0"),
     0x00250924: Data(DataType.String, 28, 'Sever Umbilical Cable\0', "アンビリカルケーブル切断\0"),
-    0x00250950: Data(DataType.String, 24, '???', "%sの攻撃リストを見る\0"),
-    0x00250968: Data(DataType.String, 16, '???', "%sを配置する\0"),
+    0x00250950: Data(DataType.String, 24, 'View %s\'s attack list\0', "%sの攻撃リストを見る\0"),
+    0x00250968: Data(DataType.String, 16, 'Deploy %s\0', "%sを配置する\0"),
     0x00250978: Data(DataType.String, 16, '???', "%sに武装する\0"),
     0x00250988: Data(DataType.String, 20, '???', "国連軍を配置する\0"),
     0x0025099C: Data(DataType.String, 24, '???', "出撃パイロットの再選\0"),
@@ -145,10 +146,10 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x00252A40: Data(DataType.String, 20, '???', "精神汚染への抵抗\0"),
     0x00252A74: Data(DataType.String, 20, '???', "使徒への接近距離\0"),
     0x00252AA4: Data(DataType.String, 8, '???', "定数\0"),
-    0x00252C40: Data(DataType.String, 16, 'Gaghiel\'s mouth opens\0', "ガギエルの開口\0"),
-    0x00252C74: Data(DataType.String, 16, '???', "弐号機の耐久力\0"),
+    0x00252C40: Data(DataType.String, 16, 'Open Gaghiel\'s mouth\0', "ガギエルの開口\0"),
+    0x00252C74: Data(DataType.String, 16, 'Eva-02\'s stamina\0', "弐号機の耐久力\0"),
     0x00252CA4: Data(DataType.String, 8, '???', "定数\0"),
     0x00252D20: Data(DataType.String, 20, '???', "沈降エヴァの救出\0"),
-    0x00252D54: Data(DataType.String, 16, '???', "エヴァの耐久力\0"),
+    0x00252D54: Data(DataType.String, 16, 'Eva\'s stamina\0', "エヴァの耐久力\0"),
     0x00252D84: Data(DataType.String, 8, '???', "定数\0")
 })
