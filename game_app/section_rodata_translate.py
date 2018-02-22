@@ -4317,7 +4317,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001D7E80: Data(DataType.String, 16, '???', "消えたりしない\0"),
     0x001D7E90: Data(DataType.String, 16, '???', "絆は変わらない\0"),
     0x001D7EA0: Data(DataType.String, 16, '???', "それでもいい\0"),
-    0x001D7EB0: Data(DataType.String, 24, 'Are you having problems?!\0', "しんどいことあるか！\0"),
+    0x001D7EB0: Data(DataType.String, 24, 'Are you in trouble?!\0', "しんどいことあるか！\0"),
     0x001D7EC8: Data(DataType.String, 12, '???', "素じゃ！\0"),
     0x001D7ED4: Data(DataType.String, 16, 'True self?\0', "ホンマの自分？\0"),
     0x001D7EE4: Data(DataType.String, 12, '???', "何が悪い？\0"),
