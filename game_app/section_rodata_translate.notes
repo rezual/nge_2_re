@@ -1,4 +1,4 @@
-0x001B1540        Yes No (scenario selection screen?)
+0x001B1540 		 Yes No (scenario selection screen?)
 0x001B1880 to 0x001B1D9C Scenario descriptions
 0x001B1E98 to 0x001B205C Scenario titles
 0x001B236C to 0x001B24D0 Location names. Unsure of function, as they seem more specific than how things are labeled in actual game. For programmers' use? 
@@ -8,18 +8,37 @@
 0x001B2B84 to 0x001B2F34 Probably for the end-of-chapter battle reports narrated by Misato. 
 0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Will need to know exact context in order to translate properly; can only put in a rough approximation for now.
 0x001B3254 to 0x001B3260 Debug on / off
-0x001B326C        No idea. (Fire and fighting spirit? Wha?)
+0x001B326C 		 No idea. (Fire and fighting spirit? Wha?)
 0x001B328C to 0x001B330C Character names. Basic forms. Used for character relationship graphs? 
 0x001B334C to 0x001B3544 Labels for friendly units, hostile units, facilities, etc., in the battle mode? 
 0x001B3810 to 0x001B390C Character names. The label that pops up when you approach someone in the open world?
 0x001B391C to 0x001B3E40 Designate the speaker of dialogue in cut scenes.
-0x001B3E7C to  0x001B64D0 Item menu; item names; item descriptions; text that appears when item is used.
+0x001B3E7C to 0x001B64D0 Item menu; item names; item descriptions; text that appears when item is used.
 0x001B64F0 to 0x001B6688 Runs through basic character names, Evas, and Angels, plus something called Theta-Alpha(??). Not sure what these are for.
 0x001B6690 to 0x001B6AB0 Characters/Evas/Angels being addressed in different ways. Plugged into certain kinds of dialogue depending on who's talking and being talked to.
-0x001B6ABC to 0x001B6B7C Need to check my notes. Will come back to this.
+0x001B6ABC to 0x001B6AF0 Possible levels of damage to Tokyo-3. Used for "Battle Results". 
+0x001B6B00               Question marks. 
+0x001B6B08 to 0x001B6B7C Seem to be markers for individual character's in-game "availability". (Ex.: Have they shown up in your playthrough yet? Are they in the hospital? Were they killed in battle? Assassinated for asking too many questions?) I have no idea if these appear in the game itself, so I can't say whether they should be translated as nouns or as adjectives.
 0x001B6BA0 to 0x001B6CF0 Classified Information categories. Probably used for in-game actions (ex., plugged into dialogue when you ask a non-player character about a specific classified topic), and not for the Confidential Information screen.
 0x001B6D00 to 0x001B6D28 CI security levels.
-
+0x001B6DA8 to 0x001B8DD4 Programming-related?
+0x001B8DE0 to 0x001B8E1C Possibly intended for Ritsuko's, Kensuke's, and Hikari's scenarios.
+0x001B8FA0 to 0x001B907C Settings menu.
+0x001B9554 無効 means "invalid" in computing. Dunno if it's being used that way here and back at 0x001B6B24.
+0x001B955C to 0x001B9648 Descriptors for a variety of character moods. Used when looking at relationship data, I believe.
+0x001B9728 to 0x001BA6CC Big mess of battle stuff. A bunch looks like labels and descriptions for when Misato is managing the Evas before battle. Some of these I recognize as battle commands not present in section_data. There's some dialogue for special Shinji and Asuka events. All of the attacks for the Angels and JA2 are listed as well, even though AFAIK they can never be played-controlled, nor do I remember them ever being announced by name in-game. The section that includes these might have been used by the programmers to keep track of the battle animations?
+0x001BA6E4 to 0x001BA6F8 Hop, Step, Jump? Beats me.
+0x001BA704 to 0x001BB6B8 Related to save screen, maybe.
+0x001BB720 to 0x001BB7A0 List of the sixteen playable characters.
+0x001BB7AC to 0x001BB7EC ??? 
+0x001BBC18 to 0x001BC8B0 Programming-related?
+0x001BC90C to 0x001BC984 Character physical status and relationship status stuff.
+0x001BC9D0 to 0x001BD0BC Not sure, seems to be more technical stuff. 
+0x001BD0C8 to 0x001BD5B0 Selectable dialogue choices for when you're talking to another character. (These seem to be the basic dialogue tree items, which can be used as any time as long as you have enough impulse.)
+0x001BD5C4 to 0x001BE750 Miscellaneous actions and accompanying dialogue possible in the open world and some non-battle events. Most of these are super context-dependent. Some debug and system stuff items scattered throughout here.
+0x001BE764 to 0x001BE788 Labels that pop up when a character is in the middle of something? (Like, you go into Asuka's room at night and she's sleeping, 睡眠 pops up to indicate her status.)
+0x001BE790 to 0x001BE968 Classified Info category headers. These are numbered, so probably used for the actual Confidential Information screen (which collects the intel you've found). 
+ 
 [whole bunch skipped for now]  
 
 0x001C920C to 0x001C9350 Characters being addressed in different ways. Plugged into certain kinds of dialogue depending on who's talking and being talked to.
