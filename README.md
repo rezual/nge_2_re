@@ -6,7 +6,7 @@
 	- [ ] 60.43% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
-	- [ ] 13.02% translated
+	- [ ] 21.26% translated
 		- See game_app/section_rodata_translate.py
 - Images with text:
 	- [ ] Pick all the images with text that need to be translated
@@ -23,7 +23,7 @@
 		- See game_data/hgar.py's --decompress
 	- [x] Modifying
 		- See game_data/hgar.py's --replace
-- Figoure out how to decompress .zpt and other compressed files in the .har packages
+- Figure out how to decompress .zpt and other compressed files in the .har packages
 	- [x] Decompressing
 		- See game_data/zipped.py
 	- [ ] Compressing
