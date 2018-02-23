@@ -1,0 +1,30 @@
+0x001B1540        Yes No (scenario selection screen?)
+0x001B1880 to 0x001B1D9C Scenario descriptions
+0x001B1E98 to 0x001B205C Scenario titles
+0x001B236C to 0x001B24D0 Location names. Unsure of function, as they seem more specific than how things are labeled in actual game. For programmers' use? 
+0x001B24DC to 0x001B250C Save screen stuff?
+0x001B2518 to 0x001B2540 Map screen stuff?
+0x001B2548 to 0x001B2598 More save screen stuff?
+0x001B2B84 to 0x001B2F34 Probably for the end-of-chapter battle reports narrated by Misato. 
+0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Will need to know exact context in order to translate properly; can only put in a rough approximation for now.
+0x001B3254 to 0x001B3260 Debug on / off
+0x001B326C        No idea. (Fire and fighting spirit? Wha?)
+0x001B328C to 0x001B330C Character names. Basic forms. Used for character relationship graphs? 
+0x001B334C to 0x001B3544 Labels for friendly units, hostile units, facilities, etc., in the battle mode? 
+0x001B3810 to 0x001B390C Character names. The label that pops up when you approach someone in the open world?
+0x001B391C to 0x001B3E40 Designate the speaker of dialogue in cut scenes.
+0x001B3E7C to  0x001B64D0 Item menu; item names; item descriptions; text that appears when item is used.
+0x001B64F0 to 0x001B6688 Runs through basic character names, Evas, and Angels, plus something called Theta-Alpha(??). Not sure what these are for.
+0x001B6690 to 0x001B6AB0 Characters/Evas/Angels being addressed in different ways. Plugged into certain kinds of dialogue depending on who's talking and being talked to.
+0x001B6ABC to 0x001B6B7C Need to check my notes. Will come back to this.
+0x001B6BA0 to 0x001B6CF0 Classified Information categories. Probably used for in-game actions (ex., plugged into dialogue when you ask a non-player character about a specific classified topic), and not for the Confidential Information screen.
+0x001B6D00 to 0x001B6D28 CI security levels.
+
+[whole bunch skipped for now]  
+
+0x001C920C to 0x001C9350 Characters being addressed in different ways. Plugged into certain kinds of dialogue depending on who's talking and being talked to.
+0x001D5B48 to 0x001D6568 Pertain to "Anno AI" (settings applied to every chapter after the first, based on current stats and gameplay choices), IIRC.
+
+[more skipped stuff]
+
+0x001D77D8 to 0x001D8120 Dialogue choices for Leliel "battle". Starts with Shinji; ends with Kaworu.
