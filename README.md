@@ -3,10 +3,10 @@
 
 ## Translation Status:
 - Text in Writable Section of Game Executable: 
-	- [ ] 60.43% translated 
+	- [ ] 97.84% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
-	- [ ] 21.26% translated
+	- [ ] 23.58% translated
 		- See game_app/section_rodata_translate.py
 - Images with text:
 	- [ ] Pick all the images with text that need to be translated

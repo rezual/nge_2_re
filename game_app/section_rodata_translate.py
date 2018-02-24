@@ -15,18 +15,12 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B1540: Data(DataType.String, 16, 'Yes No\0', "は　い　いいえ\0"),
     0x001B1880: Data(DataType.String, 72, 'Follows the events of the show.\n Includes a tutorial and\n ideal for first-time players.\0', "原作どおりに展開する。\nチュートリアルを含み、\n初めてのプレイに最適。\0"),
     0x001B18C8: Data(DataType.String, 76, '???', "人に愛される前に、\n全ての人を充分に愛して下さい。\n世界は必ず変わります。\0"),
-    0x001B1914: Data(DataType.String, 72, 'A close look at the previous self and at \n the future that make up Rei Ayanami.\n What is Rei\'s soul planning...?\0
-', "綾波レイとなる以前の自分、\nそして未来を見つめる。\nレイの魂の目的は…？\0"),
-    0x001B195C: Data(DataType.String, 80, 'Asuka fights, keeping her fragility hidden.\n Can the curse on her heart \n be lifted at Instrumentality\'s end?\0
-', "己の脆さを隠し、戦うアスカ。\n補完の果てに、心の呪縛を\n解き放つ事が出来るのか。\0"),
-    0x001B19AC: Data(DataType.String, 64, 'Seeking revenge on all the things\n that took her father from her,\n a woman chases after the truth.\0
-', "父を奪った全てのものに\n復讐する為に、\n女は真実を追い求める。\0"),
-    0x001B19EC: Data(DataType.String, 76, 'There is but one hope: the Way to God.\n So that all hearts can be made one,\n a man waits for that time...\0
-', "望みは唯一つ、神への道。\n全ての心を一つにする為に、\n男はその時を待つ…。\0"),
-    0x001B1A38: Data(DataType.String, 80, 'Drifting within a dream,\n chasing the scent and shadow of an old loved one...\n And as for his reunion with her...\0
-', "かつての想い人の香りと影を\n追って、夢の中に舞う…。\nそして想い人との再会は…。\0"),
-    0x001B1A88: Data(DataType.String, 76, 'The pride of a woman who\'s been toyed with.\n Men being inflamed by a female inferno. The one who\'ll be kneeling in the end is HIM. \0
-', "弄ばれた女の意地。\n女の炎にただれていく男達。\n最後にひざまずくのはあの男。\0"),
+    0x001B1914: Data(DataType.String, 72, 'A close look at the previous self and at \n the future that make up Rei Ayanami.\n What is Rei\'s soul planning...?\0', "綾波レイとなる以前の自分、\nそして未来を見つめる。\nレイの魂の目的は…？\0"),
+    0x001B195C: Data(DataType.String, 80, 'Asuka fights, keeping her fragility hidden.\n Can the curse on her heart \n be lifted at Instrumentality\'s end?\0', "己の脆さを隠し、戦うアスカ。\n補完の果てに、心の呪縛を\n解き放つ事が出来るのか。\0"),
+    0x001B19AC: Data(DataType.String, 64, 'Seeking revenge on all the things\n that took her father from her,\n a woman chases after the truth.\0', "父を奪った全てのものに\n復讐する為に、\n女は真実を追い求める。\0"),
+    0x001B19EC: Data(DataType.String, 76, 'There is but one hope: the Way to God.\n So that all hearts can be made one,\n a man waits for that time...\0', "望みは唯一つ、神への道。\n全ての心を一つにする為に、\n男はその時を待つ…。\0"),
+    0x001B1A38: Data(DataType.String, 80, 'Drifting within a dream,\n chasing the scent and shadow of an old loved one...\n And as for his reunion with her...\0', "かつての想い人の香りと影を\n追って、夢の中に舞う…。\nそして想い人との再会は…。\0"),
+    0x001B1A88: Data(DataType.String, 76, 'The pride of a woman who\'s been toyed with.\n Men being inflamed by a female inferno. The one who\'ll be kneeling in the end is HIM. \0', "弄ばれた女の意地。\n女の炎にただれていく男達。\n最後にひざまずくのはあの男。\0"),
     0x001B1AD4: Data(DataType.String, 92, '???', "汚れたくない思いで世界を拒み、\n居場所を求め虚勢を張るマヤ。\n彼女が安らぎを得られる日は…。\0"),
     0x001B1B30: Data(DataType.String, 80, '???', "ミサトに会う口実の為に真実を\n追う日向。そして、甘く、\nだらしなく交わる男と女。\0"),
     0x001B1B80: Data(DataType.String, 88, '???', "ミュージシャンとしての道を\n諦めて、ネルフに入った青葉。\nあの時の夢を諦めなければ…。\0"),
@@ -827,7 +821,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B8E1C: Data(DataType.String, 28, 'You find courage enough to hand over the bento box\0', "勇気を出して、お弁当を渡す\0"),
     0x001B8FA0: Data(DataType.String, 16, 'Game Pace\0', "ゲーム進行速度\0"),
     0x001B8FB0: Data(DataType.String, 8, 'Normal\0', "普通\0"),
-    0x001B8FB8: Data(DataType.String, 8, 'Fast\0, "速い\0"),
+    0x001B8FB8: Data(DataType.String, 8, 'Fast\0', "速い\0"),
     0x001B8FC0: Data(DataType.String, 8, 'Slow\0', "遅い\0"),
     0x001B8FC8: Data(DataType.String, 24, 'Character Graphics\0', "キャラグラフィックス\0"),
     0x001B8FE0: Data(DataType.String, 12, 'Faces On\0', "顔グラ有\0"),
