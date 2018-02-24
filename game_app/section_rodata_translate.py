@@ -778,7 +778,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B6B1C: Data(DataType.String, 8, 'Hospitalized\0', "入院\0"),
     0x001B6B24: Data(DataType.String, 8, 'Unavailable\0', "無効\0"),
     0x001B6B2C: Data(DataType.String, 12, 'Rested for 1 Day\0', "１日休み\0"),
-    0x001B6B38: Data(DataType.String, 16, 'Suspended\0', "出場停止(%s)\0"),
+    0x001B6B38: Data(DataType.String, 16, 'Suspended (%s)\0', "出場停止(%s)\0"),
     0x001B6B48: Data(DataType.String, 8, 'Evacuated\0', "疎開\0"),
     0x001B6B50: Data(DataType.String, 8, 'Resigned\0', "辞職\0"),
     0x001B6B58: Data(DataType.String, 8, 'Ran Away\0', "家出\0"),
