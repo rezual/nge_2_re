@@ -25,7 +25,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
 ', "望みは唯一つ、神への道。\n全ての心を一つにする為に、\n男はその時を待つ…。\0"),
     0x001B1A38: Data(DataType.String, 80, 'Drifting within a dream,\n chasing the scent and shadow of an old loved one...\n And as for his reunion with her...\0
 ', "かつての想い人の香りと影を\n追って、夢の中に舞う…。\nそして想い人との再会は…。\0"),
-    0x001B1A88: Data(DataType.String, 76, 'The pride of a woman who\'s been toyed with.\n Men being inflamed by a female inferno. \0
+    0x001B1A88: Data(DataType.String, 76, 'The pride of a woman who\'s been toyed with.\n Men being inflamed by a female inferno. The one who\'ll be kneeling in the end is HIM. \0
 ', "弄ばれた女の意地。\n女の炎にただれていく男達。\n最後にひざまずくのはあの男。\0"),
     0x001B1AD4: Data(DataType.String, 92, '???', "汚れたくない思いで世界を拒み、\n居場所を求め虚勢を張るマヤ。\n彼女が安らぎを得られる日は…。\0"),
     0x001B1B30: Data(DataType.String, 80, '???', "ミサトに会う口実の為に真実を\n追う日向。そして、甘く、\nだらしなく交わる男と女。\0"),
