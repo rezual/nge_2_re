@@ -6,16 +6,25 @@
 	- [ ] 97.84% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
-	- [ ] 23.58% translated
+	- [ ] 28.65% translated
 		- See game_app/section_rodata_translate.py
+- umd0:/PSP_GAME/USRDIR/game/imtext.bin: 
+	- [ ] 0% translated
+		- See game_data/file_imtext_translate.py
+- umd0:/PSP_GAME/USRDIR/btl/btimtext.bin: 
+	- [ ] 0% translated
+		- See game_data/file_btimtext_translate.py
+- umd0:/PSP_GAME/USRDIR/free/f2info.bin: 
+	- [ ] 0% translated
+		- See game_data/file_f2info_translate.py
+- umd0:/PSP_GAME/USRDIR/free/f2tuto.bin: 
+	- [ ] 0% translated
+		- See game_data/file_f2tuto_translate.py
 - Images with text:
 	- [ ] Pick all the images with text that need to be translated
 	- [ ] Write up the text translations of the contents in the images
 	- [ ] Modify images, removing text, replacing it with the background
 	- [ ] Modify images, injecting text with proper font
-- /USRDIR/game/imtext.bin: 
-	- [ ] 0% translated
-		- Format not yet understood
 
 ## Reverse Engineering Status:
 - Figure out .har file format, which is a package format containing several game files
@@ -37,7 +46,8 @@
 - Write a script to re-calculate text pointers so any translated text that can't fit in memory is moved elsewhere
 	- [ ] TODO
 - Figure out format of /USRDIR/game/imtext.bin - where most of the game dialog is stored
-	- [ ] TODO
+	- [ ] 90% done, bare minimum implemented
+		- See game_data/bind.py
 - Write custom PSP CFW plugin to patch the game and no longer rely on CWCheat
 	- [ ] TODO
 
