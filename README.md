@@ -10,7 +10,16 @@
 		- See game_app/section_rodata_translate.py
 - umd0:/PSP_GAME/USRDIR/game/imtext.bin: 
 	- [ ] 0% translated
-		- See game_data/file_imtext_translate.py
+		- [ ] 0% translated
+			- See game_data/file_imtext_translate_part_1.py
+		- [ ] 0% translated
+			- See game_data/file_imtext_translate_part_2.py
+		- [ ] 0% translated
+			- See game_data/file_imtext_translate_part_3.py
+		- [ ] 0% translated
+			- See game_data/file_imtext_translate_part_4.py
+		- [ ] 0% translated
+			- See game_data/file_imtext_translate_part_5.py
 - umd0:/PSP_GAME/USRDIR/btl/btimtext.bin: 
 	- [ ] 0% translated
 		- See game_data/file_btimtext_translate.py
