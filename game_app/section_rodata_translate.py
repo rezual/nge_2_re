@@ -234,7 +234,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B3440: Data(DataType.String, 12, 'Gaghiel\0', "ガギエル\0"),
     0x001B344C: Data(DataType.String, 16, 'Sandalphon\0', "サンダルフォン\0"),
     0x001B345C: Data(DataType.String, 16, 'Sahaquiel\0', "サハクィエル\0"),
-    0x001B346C: Data(DataType.String, 12, 'Iruel\0', "イロウル\0"),
+    0x001B346C: Data(DataType.String, 12, 'Ireul\0', "イロウル\0"),
     0x001B3478: Data(DataType.String, 12, 'Leliel\0', "レリエル\0"),
     0x001B3484: Data(DataType.String, 12, 'Arael\0', "アラエル\0"),
     0x001B3490: Data(DataType.String, 12, 'Tabris\0', "ダブリス\0"),
