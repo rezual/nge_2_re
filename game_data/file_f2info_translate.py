@@ -11,16 +11,16 @@
 
 translate_map = {
 "１\nエヴァの構造：広報公開情報\n\n　ネルフが開発した、対使徒戦用の汎用人型決戦兵器。\n　有線の電力供給で稼動。\n　内部電源のみでは５分しかもたない。\n\0\0\0\0":
-'???',
+'1\n Eva Mechanics: Public Information\n\n  The multipurpose humanoid decisive weapons developed by Nerv \n for use in anti-Angel combat. They operate on electric power supplied\n via cable, functional for only five minutes on internal power alone.\n\0',
 
 "２\nエヴァの構造：一般情報\n\n　エヴァは、２０００年、南極で発見された第壱使徒を元に\nクローン再生したものである。\n　その意味で、使徒と同じような共通機構を持つ。その一例\nが、物理域にまで影響を及ぼすΑΤフィールドである。$n\n\n　エヴァと使徒との違いといえば、Σ機関と魂がなかった事\nである。\n\0\0\0\0":
-'???',
+'2\n Eva Mechanics: General Information \n\n Evas are clones of the First Angel, a being discovered \n  in Antarctica in the year 2000. This means that Evas have features \n  in common with the Angels. One example is the A.T. Field,  which has \n the power to influence even the laws of physics. $n\ Evas differ from Angels in that they lack both S² Engines\n and souls.\n\0',
 
 "２\nエヴァの構造：非公開情報\n\n　エヴァとは人の形を捨てた魂の入れ物であり、自我の拡大\n＝大きな人間として具現化したものである。\n　エヴァを操作するにあたって、魂の入っていないエヴァに\n魂を入れる必要があった。\n　これをパイロットという。$n\n\n　だが、パイロットだけではエヴァは動かない。あるいは、\nきちんとした性能を発揮する事が出来ないのである。\n\0":
-'???',
+'2\n Eva Mechanics: Confidential Information \n\n Evas are vessels for souls that abandoned human form: egos \n magnified through embodiment as giant human beings. \n Inserting souls into the Evas -- termed "pilots" -- \n is a requirement for operating them. $n\ However, Evas won\'t work with a pilot alone. It\'s also \n possible that they are unable to perform properly.\n\0',
 
 "２\nエヴァの構造：最深度情報\n\n　エヴァ＝神の肉体と魂たる人間の間に格差をなくすため、\nコアというユニットが使われた。\n　コアにはパイロットの母親の魂が入れられており、これを\n介在して操縦が出来るのである。$n\n\n　エヴァ零号機が性能的に劣っていたり、開発に難儀してい\nたのはコアのシステムがうまく作られておらず、また零号機\nパイロット綾波レイに、母親がいなかったためである。\n\0\0\0":
-'???',
+'2\n Eva Mechanics: Top Secret Information\n\n A unit called a core is used to eliminate any disparity between\n an Eva, the body of a god, and the soul of a human being.\n The soul of the pilot\'s mother, which is placed \n within the core, acts as a medium and makes piloting possible.。$n\n\n Due to difficulties encountered in the development of Unit-00, the core\'s \n system is poorly constructed, and the Eva falls behind in \n performance as a result. Another reason for this is \n that Unit-00\'s pilot, Rei Ayanami, does not have a mother.\n\0',
 
 "１\nエヴァ初号機：広報公開情報\n\n　パイロットはサード・チルドレン、碇シンジ。\n　テストタイプのエヴァンゲリオンである。\n\0\0\0":
 '???',
