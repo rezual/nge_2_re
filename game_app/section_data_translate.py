@@ -18,7 +18,7 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x001ED874: Data(DataType.String, 72, 'You can configure the rate at which time passes in-game.\n The speed of battles is unaffected.\n\0', "ゲーム中の時間経過速度を設定できます。\n戦闘の速度には関係ありません。\n\0"),
     0x001ED8BC: Data(DataType.String, 40, 'Switch character graphics on/off.\n\0', "キャラの立ち絵の有／無を設定します。\n\0"),
     0x001ED8E4: Data(DataType.String, 40, 'Switch character voices on/off.\n\0', "キャラボイスの有／無を設定できます。\n\0"),
-    0x001ED90C: Data(DataType.String, 76, 'Select the directional key behavior.\n%1i%2i%3i%4i correspond to their respective keys.\n\0', "方向キーの挙動を設定します。\n%1i%2i%3i%4iに方向キーの同位置が対応します。\n\0"),
+    0x001ED90C: Data(DataType.String, 76, 'Set the directional keys\' behavior.\0', "方向キーの挙動を設定します。\n%1i%2i%3i%4iに方向キーの同位置が対応します。\n\0"),
     0x001ED958: Data(DataType.String, 76, 'Return settings to how they were\nand return to the title menu.\n\0', "オプション設定を、現在の設定状態に変更し、\nタイトルメニューに戻ります。\n\0"),
     0x001ED9A4: Data(DataType.String, 72, 'Return settings to how they were\nand return to gameplay.\n\0', "オプション設定を、現在の設定状態に変更し、\nゲームプレイに戻ります。\n\0"),
     0x0023980C: Data(DataType.String, 80, 'The corridor extends far back. A huge duct\nruns parallel with it...\0', "奥へと通路が伸びている。\n通路の脇には巨大なダクトが\n並行して設置してある…。\0"),
