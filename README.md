@@ -6,7 +6,7 @@
 	- [ ] 97.84% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
-	- [ ] 31.29% translated
+	- [ ] 32.95% translated
 		- See game_app/section_rodata_translate.py
 - umd0:/PSP_GAME/USRDIR/game/imtext.bin: 
 	- [ ] 0% translated
@@ -24,7 +24,7 @@
 	- [ ] 0% translated
 		- See game_data/file_btimtext_translate.py
 - umd0:/PSP_GAME/USRDIR/free/f2info.bin: 
-	- [ ] 0% translated
+	- [ ] 0.04% translated
 		- See game_data/file_f2info_translate.py
 - umd0:/PSP_GAME/USRDIR/free/f2tuto.bin: 
 	- [ ] 0% translated
