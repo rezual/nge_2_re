@@ -6,6 +6,7 @@
 # Put the translations in the ???
 # \n is a linebreak
 # \0 is the end of the string
+# \' is a single quote
 
 from support import *
 
@@ -163,7 +164,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B30D0: Data(DataType.String, 16, 'awkward\0', "ぎこちなかった\0"),
     0x001B30E0: Data(DataType.String, 20, 'indifferent\0', "どうでもよかった\0"),
     0x001B30F4: Data(DataType.String, 20, '???', "どうしたんだろう\0"),
-    0x001B3108: Data(DataType.String, 20, 'don\t really get it\0', "よく分からなかった\0"),
+    0x001B3108: Data(DataType.String, 20, 'don\'t really get it\0', "よく分からなかった\0"),
     0x001B311C: Data(DataType.String, 8, 'angry\0', "怒った\0"),
     0x001B3124: Data(DataType.String, 8, '???', "不快だ\0"),
     0x001B312C: Data(DataType.String, 8, '???', "疲れた\0"),
@@ -904,7 +905,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B9AB8: Data(DataType.String, 20, 'Prog Knife Cutting\0', "プログナイフ・切る\0"),
     0x001B9ACC: Data(DataType.String, 28, 'Eva: Sonic Glaive\0', "ＥＶＡのソニックグレイブ\0"),
     0x001B9AE8: Data(DataType.String, 16, 'Front Kick\0', "フロントキック\0"),
-    0x001B9AF8: Data(DataType.String, 20, 'Eva: Kick B', "ＥＶＡのキックＢ\0"),
+    0x001B9AF8: Data(DataType.String, 20, 'Eva: Kick B\0', "ＥＶＡのキックＢ\0"),
     0x001B9B0C: Data(DataType.String, 48, '???', "真正面への近接攻撃\n一瞬、敵が移動不能\nになる\0"),
     0x001B9B3C: Data(DataType.String, 24, 'Eva: Needle Gun\0', "ＥＶＡのニードルガン\0"),
     0x001B9B54: Data(DataType.String, 28, 'Eva: Eva Mass Production Model Sword\0', "ＥＶＡのＥＶＡ量産機の剣\0"),
@@ -1269,7 +1270,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001BD790: Data(DataType.String, 16, '???', "最悪だと答える\0"),
     0x001BD7A0: Data(DataType.String, 20, 'Debug: Labyrinth of the Heart\0', "デバック：心の迷宮\0"),
     0x001BD7B4: Data(DataType.String, 20, '???', "システム：使徒出現\0"),
-    0x001BD7C8: Data(DataType.String, 12, 'I\m home\0', "ただいま\0"),
+    0x001BD7C8: Data(DataType.String, 12, 'I\'m home\0', "ただいま\0"),
     0x001BD7D4: Data(DataType.String, 28, '???', "他人からの評価を気にする\0"),
     0x001BD7F0: Data(DataType.String, 16, '???', "ふすまを開ける\0"),
     0x001BD800: Data(DataType.String, 16, '???', "引き戸を開ける\0"),
@@ -2068,12 +2069,12 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001C46B4: Data(DataType.String, 16, '???', "（不明マップ）\0"),
     0x001C46C4: Data(DataType.String, 12, '???', "第壱中学校\0"),
     0x001C46D0: Data(DataType.String, 20, 'Misato\'s Apartment\0', "ミサトのマンション\0"),
-    0x001C46E4: Data(DataType.String, 16, 'Shinji\s Room (Old)\0', "旧シンジの部屋\0"),
-    0x001C46F4: Data(DataType.String, 16, 'Shinji\s Room (New)', "新シンジの部屋\0"),
-    0x001C4704: Data(DataType.String, 16, 'Asuka\s Room\0', "アスカの部屋\0"),
-    0x001C4714: Data(DataType.String, 16, 'Misato\s Room\0', "ミサトの部屋\0"),
+    0x001C46E4: Data(DataType.String, 16, 'Shinji\'s Room (Old)\0', "旧シンジの部屋\0"),
+    0x001C46F4: Data(DataType.String, 16, 'Shinji\'s Room (New)\0', "新シンジの部屋\0"),
+    0x001C4704: Data(DataType.String, 16, 'Asuka\'s Room\0', "アスカの部屋\0"),
+    0x001C4714: Data(DataType.String, 16, 'Misato\'s Room\0', "ミサトの部屋\0"),
     0x001C4724: Data(DataType.String, 16, '???', "ミサト家洗面所\0"),
-    0x001C4734: Data(DataType.String, 16, 'Commander\s Office\0', "総司令公務室\0"),
+    0x001C4734: Data(DataType.String, 16, 'Commander\'s Office\0', "総司令公務室\0"),
     0x001C4744: Data(DataType.String, 12, 'Command Center 1\0', "第１発令所\0"),
     0x001C4750: Data(DataType.String, 8, 'Cafeteria\0', "食堂\0"),
     0x001C4758: Data(DataType.String, 16, 'Ritsuko\'s Laboratory\0', "リツコの研究室\0"),
@@ -4328,10 +4329,10 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001D7F44: Data(DataType.String, 16, '???', "アカン事かも…\0"),
     0x001D7F54: Data(DataType.String, 16, '???', "なんとも思わん\0"),
     0x001D7F64: Data(DataType.String, 16, '???', "しゃあないやん\0"),
-    0x001D7F74: Data(DataType.String, 20, 'I\m a liar...\0', "ワシは嘘つきや…\0"),
+    0x001D7F74: Data(DataType.String, 20, 'I\'m a liar...\0', "ワシは嘘つきや…\0"),
     0x001D7F88: Data(DataType.String, 20, 'Everyone\'s a liar...\0', "みんな嘘つきや…\0"),
     0x001D7F9C: Data(DataType.String, 12, 'So tired...\0', "しんどい…\0"),
-    0x001D7FA8: Data(DataType.String, 12, 'I\m not sure.\0', "自信ない\0"),
+    0x001D7FA8: Data(DataType.String, 12, 'I\'m not sure.\0', "自信ない\0"),
     0x001D7FB4: Data(DataType.String, 12, '???', "そうやな\0"),
     0x001D7FC0: Data(DataType.String, 16, 'I am myself!\0', "ワシはワシや！\0"),
     0x001D7FD0: Data(DataType.String, 20, '???', "そんなん知らんわ\0"),

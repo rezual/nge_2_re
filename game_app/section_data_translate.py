@@ -30,7 +30,7 @@ section_data = AppSection('.data', 0x001DAA00, 0x000793FC, AppSectionFlag.Alloca
     0x002399D4: Data(DataType.String, 96, 'After climbing a ladder, I opened\na hatch to another compartment. I\nlook around and close the hatch.\0', "さほど長くも無い梯子を登ると\nハッチをあけ、別区画に移動した。\n周囲を確認し、ハッチを閉める…。\0"),
     0x00239A34: Data(DataType.String, 88, 'After climbing a long ladder, I was\nin a huge dark space. I search\nfor where I\'m headed...\0', "長い梯子を降りきると、そこは\n巨大な暗い空間であった。\nぐるり見渡し、行く先を探す…。\0"),
     0x00239A8C: Data(DataType.String, 96, 'After ignoring a side door, I\ncame to a low ceiling, and proceeded\nwhile hunched over.\0', "脇にあった扉を無視して進むと、\n天井が低い通路に出くわした。\nしばらく中腰で先へと歩を進めた。\0"),
-    0x00239AEC: Data(DataType.String, 60, 'After inserting the %s, there\'s\na light mechanical sound, and\nthe door opens...', "%sを差し込むと、\n軽い機械音が響き、扉のロックが\n外れた…。\0"),
+    0x00239AEC: Data(DataType.String, 60, 'After inserting the %s, there\'s\na light mechanical sound, and\nthe door opens...\0', "%sを差し込むと、\n軽い機械音が響き、扉のロックが\n外れた…。\0"),
     0x00239B28: Data(DataType.String, 80, 'After inserting the %s, it took\na while to authenticate, but\nit unlocks and the door opens...\0', "%sを差し込むと、\n認証に時間がかかったものの、\n無事ロックが外れ、扉が開いた…。\0"),
     0x00239B78: Data(DataType.String, 80, 'Passed %s through a card reader with\na Seele seal. A huge door\nquietly opens...\0', "ゼーレの刻印があるカードリーダー\nに%sを通した。\n静かに巨大な扉が開いていく…。\0"),
     0x00239BF8: Data(DataType.String, 20, 'Proceed along the passage\0', "通路に沿って進む\0"),
