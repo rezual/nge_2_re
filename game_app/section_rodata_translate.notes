@@ -45,6 +45,11 @@
 
 [skipped for now]
 
+0x001D12DC to 0x001D1368 Supplemental blurbs that pop up during certain character interactions. Couple in here that point to multiple modifiers. Will add more as I see how they're used in the game.
+0x001D1368 "$aは%s、\n%sの出来事を%s。$n%s%s%s\n%s%sを。\0" Example of this being "filled in" is シンジはケンスケに、2時間前の出来事を話した。ここでヒカリが自分からの挨拶に返事をしたことを。　Another: シンジは、半年前の出来事を思い出した。マンションのリビングでペンペンがアスカからのプレゼントを喜んで受け取ったことを。 The が in second sentence is present in neither the template or (seemingly) in any of the text being used as building blocks - what's going on?
+
+[skipped for now]
+
 0x001D41A4 to 0x001D4530 Shinji's dialogue/actions for Tabris & Eva-02 battle
 
 [skipped for now]
