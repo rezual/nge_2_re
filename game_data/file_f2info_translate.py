@@ -17,34 +17,34 @@ translate_map = {
 '2\n Eva Mechanics: General Information \n\n Evas are clones of the First Angel, a being discovered \n  in Antarctica in the year 2000. This means that Evas have features \n  in common with the Angels. One example is the A.T. Field,  which has \n the power to influence even the laws of physics. $n\ Evas differ from Angels in that they lack both S² Engines\n and souls.\n\0',
 
 "２\nエヴァの構造：非公開情報\n\n　エヴァとは人の形を捨てた魂の入れ物であり、自我の拡大\n＝大きな人間として具現化したものである。\n　エヴァを操作するにあたって、魂の入っていないエヴァに\n魂を入れる必要があった。\n　これをパイロットという。$n\n\n　だが、パイロットだけではエヴァは動かない。あるいは、\nきちんとした性能を発揮する事が出来ないのである。\n\0":
-'2\n Eva Mechanics: Confidential Information \n\n Evas are vessels for souls that abandoned human form: egos \n magnified through embodiment as giant human beings. \n Inserting souls into the Evas -- termed "pilots" -- \n is a requirement for operating them. $n\ However, Evas won\'t work with a pilot alone. It\'s also \n possible that they are unable to perform properly.\n\0',
+'2\n Eva Mechanics: Confidential Information \n\n Evas are vessels for souls that abandoned human form: egos \n magnified through embodiment as giant human beings. \n Inserting souls into the Evas — termed "pilots" — \n is a requirement for operating them. $n\ However, Evas won\'t work with a pilot alone. It\'s also \n possible that they are unable to perform properly.\n\0',
 
 "２\nエヴァの構造：最深度情報\n\n　エヴァ＝神の肉体と魂たる人間の間に格差をなくすため、\nコアというユニットが使われた。\n　コアにはパイロットの母親の魂が入れられており、これを\n介在して操縦が出来るのである。$n\n\n　エヴァ零号機が性能的に劣っていたり、開発に難儀してい\nたのはコアのシステムがうまく作られておらず、また零号機\nパイロット綾波レイに、母親がいなかったためである。\n\0\0\0":
 '2\n Eva Mechanics: Top Secret Information\n\n A unit called a core is used to eliminate any disparity between\n an Eva, the body of a god, and the soul of a human being.\n The soul of the pilot\'s mother, which is placed \n within the core, acts as a medium and makes piloting possible.。$n\n\n Due to difficulties encountered in the development of Unit-00, the core\'s \n system is poorly constructed, and the Eva falls behind in \n performance as a result. Another reason for this is \n that Unit-00\'s pilot, Rei Ayanami, does not have a mother.\n\0',
 
 "１\nエヴァ初号機：広報公開情報\n\n　パイロットはサード・チルドレン、碇シンジ。\n　テストタイプのエヴァンゲリオンである。\n\0\0\0":
-'???',
+'１\nEva Unit-01： Public Information\n\n　Its pilot is the Third Child, Shinji Ikari.\n The Test Type Evangelion.\n\0',
 
 "１\nエヴァ初号機：一般情報\n\n　初号機の開発過程において、初号機との接触実験の被験者\nとなったのは、シンジの母である碇ユイであった。\n　尚、被験者の碇ユイは、２００４年、自ら希望して初号機\nとの接触実験を行い、命を落としている。\n\0":
-'???',
+'１\nEva Unit-01： General Information\n\n　During Unit-01\'s developmental phase, Shinji\'s mother, Yui\n Ikari, became the test subject for Unit-01\'s contact experiment.\n　 In 2004, Yui carried out the experiment with Unit-01\n as she had hoped, but not without losing her life.\n\0',
 
 "１\nエヴァ初号機：非公開情報\n\n　通常、エヴァのコアにはパイロットとのリンクのために、\nパイロットの母の魂が入っている。\n　初号機の場合、ユイの魂である。\n\0\0":
-'???',
+'１\nEva Unit-01： Confidential Information\n\n Normally, in order for the Eva\'s core to link with the pilot,\n it must contain the soul of the pilot\'s mother.\n In the case of Unit-01, that soul is Yui\'s.\n\0',
 
 "２\nエヴァ初号機：最深度情報\n\n　ゼーレは、かねてから裏切りの気配があるゲンドウを警戒\nし、ゲンドウの息子が初号機のパイロットである事を危険視\nしている。\n　神の魂になる存在は、思い通りになる存在がいいとゼーレ\nは考えていたのである。$n\n\n　一方ゲンドウは、初号機を、自分の思い通りになる「神」\nにしようと企てている。\n\0\0\0":
-'???',
+'2\nEva Unit-01： Top Secret Information\n\n As Gendo has long exhibited signs of treachery, Seele treat his son\'s\n status as the pilot of Unit-01 as a potential danger.\n This is because Seele believe that a divine soul\n should come into existence only on their terms.$n\n\n However, Gendo has his own plans for becoming "God",\n which he hopes to fulfill using Unit-01.\n\0',
 
 "１\nセカンド・チルドレン：広報公開情報\n\n　セカンド・チルドレン、惣流・アスカ・ラングレー。\n　エヴァ弐号機パイロットである。\n　ドイツと日本の血が流れるクォーターで、アメリカ国籍。\n　１４歳でドイツの大学を卒業。\n\0\0\0":
-'???',
+'1\nSecond Child: Public Information\n\n The Second Child, Asuka Soryu Langley.\n The pilot of Eva Unit-02.\n An American citizen, 1/4 German and 1/4 Japanese.\n Graduated from a German university at the age of fourteen.\n\0',
 
 "１\nセカンド・チルドレン：一般情報\n\n　アスカの母、惣流・キョウコ・ツェッペリンがエヴァとの\n接触実験を行っている。\n　その結果、自分の娘を認識出来ないほどの重度の精神障害\nに陥った。\n\0":
-'???',
+'1\nSecond Child: General Information\n\n Asuka\'s mother, Kyoko Soryu Zeppelin, carried out a\n contact experiment with an Eva. As a result, she fell prey\n to mental illness so severe that she\n could no longer recognize her own daughter.\n\0',
 
 "１\nセカンド・チルドレン：非公開情報\n\n　母親のエヴァとの接触実験後ほどなく、マルドゥック機関\nより、アスカは弐号機パイロットとして選出される。\n\0\0\0":
-'???',
+'1\nSecond Child: Confidential Information\n\n Not long after her mother\'s contact experiment with an Eva,\n Asuka was selected by the Marduk Institute to be the pilot of Unit-02.\n\0',
 
 "１\nセカンド・チルドレン：最深度情報\n\n　アスカの母は、エヴァのコア実験の際に魂の一部、その中\nでも娘を愛する母性の部分だけがエヴァ弐号機に残された。\n　母が娘を娘と認識できなくなったのはそのせいである。\n\0\0\0\0":
-'???',
+'1\nSecond Child: Top Secret Information\n\n When Asuka\'s mother conducted the experiment with Eva Unit-02\'s core, only the maternal\n part of her soul, which loves her daughter above all else, was left inside the Eva.\n This is why she could not recognize her daughter for who she was.\n\0',
 
 "１\n碇ユイ：広報公開情報\n\n　碇シンジの母であり、ゲンドウの妻。\n　２００４年に死亡。\n　享年２７歳。\n\0\0":
 '???',
