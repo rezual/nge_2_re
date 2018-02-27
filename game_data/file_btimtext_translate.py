@@ -35,7 +35,7 @@ translate_map = {
 '???',
 
 "私は大丈夫。\n\0\0\0":
-'???',
+'I\'m okay.\n\0',
 
 "ああン？\nこんなん怪我のうちに入らへんわ。\n\0\0":
 '???',
@@ -86,13 +86,13 @@ translate_map = {
 '???',
 
 "君のエヴァはどう？\n\0":
-'???',
+'How\'s your Eva?\n\0',
 
 "機体の具合はどう？\n気になるかしら？\n\0\0\0\0":
 '???',
 
 "初号機？\nうん、調子いいよ。\n\0\0\0\0":
-'???',
+'Unit-01?\nYeah, it\'s in good shape.\n\0',
 
 "調子いいわよ。\n弐号機をナメてもらっちゃあ\n困るわよ。\n\0\0\0":
 '???',
@@ -332,16 +332,16 @@ translate_map = {
 '???',
 
 "参号機の内部に潜む、あの\n使徒の正体ともいえる粘菌\nみたいなのが気になるわね。$n\nなるべくアレに接触したくないわね。$n\n粘菌はね、他の栄養を発見したら\nそれに向かって移動を始める生物\nなのよ。\n\0":
-'???',
+'I\'m worried about the stuff that looks like slime mold.\n It\'s the true form of the Angel,\n hiding itself in Unit-03\'s interior. $n\nYou want to come in contact with it as little as\n possible. The slime mold is an organism that, if it detects\n another source of sustenance, starts moving toward it.\n\0',,
 
 "姿はエヴァでも正体は使徒よ。\nどんな攻撃を出してくるか\nわからないわ。$n\n遠距離射撃が安全ね。\n武器庫ビルを確認しておきなさい。\n\0\0\0":
-'???',
+'It looks like an Eva, but it\'s really an Angel. \nどんな攻撃を出してくるか\nわからないわ。$n\n遠距離射撃が安全ね。\n武器庫ビルを確認しておきなさい。\n\',
 
 "%sの事って、\nどうなの？\n\0\0\0\0":
-'???',
+'About %s...\n What do you think?\n\0',
 
 "ねえ、%sの事\nどう思う？\n\0\0\0\0":
-'???',
+'Hey, how do you\n feel about %s?\n\0',
 
 "あなたは、%sを\nどう思っているの…？\n\0\0\0\0":
 '???',
@@ -482,7 +482,7 @@ translate_map = {
 '???',
 
 "特に…。\nまあ、普通かな。\n\0\0":
-'???',
+'Nothing special...\n Normal, I guess.\n\0',
 
 "キライじゃないけど、\n好きでもないわ。\n\0\0":
 '???',
@@ -518,142 +518,142 @@ translate_map = {
 '???',
 
 "初号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'???',
+'Unit-01 has reached the end\n of its umbilical cable.\n\0',
 
 "弐号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'???',
+'Unit-02 has reached the end\n of its umbilical cable.\n\0',
 
 "零号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'???',
+'Unit-00 has reached the end\n of its umbilical cable.\n\0',
 
 "参号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'???',
+'Unit-03 has reached the end\n of its umbilical cable.\n\0',
 
 "四号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'???',
+'Unit-04 has reached the end\n of its umbilical cable.\n\0',
 
 "エヴァ両機のアンビリカル\nケーブルの残りが無くなりました。\n\0\0":
-'???',
+'Both Evas have reached the\n ends of their umbilical cables.\n\0',
 
 "ケーブルを切断しますか？\n切断後は内部電源が減少します。\n０になると活動停止です。\n\0\0\0":
-'???',
+'Disconnect the cable?\n Afterward, internal power will be depleted.\n Activity will be suspended if it reaches 0.\n\0\',
 
 "エヴァ初号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
-'???',
+'Eva Unit-01 umbilical cable,\n disconnected.\n\0',
 
 "エヴァ初号機のアンビリカル\nケーブルを切断しました。\n\0\0\0\0":
-'???',
+'Unit-01\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ弐号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
-'???',
+'Eva Unit-02 umbilical cable,\n disconnected.\n\0',
 
 "弐号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'???',
+'Unit-02\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ零号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
-'???',
+'Eva Unit-00 umbilical cable,\n disconnected.\n\0',
 
 "零号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'???',
+'Unit-00\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ参号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
-'???',
+'Eva Unit-03 umbilical cable,\n disconnected.\n\0',
 
 "参号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'???',
+'Unit-03\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ四号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
-'???',
+'Eva Unit-04 umbilical cable,\n disconnected.\n\0',
 
 "四号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'???',
+'Eva Unit-04\'s umbilical cable has been disconnected.\n\0',
 
 "エヴァ両機のアンビリカル\nケーブル、切断しました。\n\0\0":
-'???',
+'Both Eva units\' umbilical cables,\n disconnected.\n\0\',
 
 "エヴァ両機のアンビリカル\nケーブルを切断しました。\n\0\0":
-'???',
+'Both Eva units\' umbilical cables have been disconnected.\n\0',
 
 "初号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Unit-01, connected to\n  umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "弐号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Unit-02, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "零号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Unit-00, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "参号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Unit-03, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "四号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Unit-04, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "エヴァ両機、アンビリカル\nケーブルを接続しました。\n内部電源、減少停止。\n\0":
-'???',
+'Both Eva units, connected to\n umbilical cables. Internal power\n supplies no longer depleting.\n\0',
 
 "初号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'???',
+'Unit-01, umbilical cable exchanged.\n\0',
 
 "初号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'???',
+'Unit-01 has exchanged\n its umbilical cable.\n\0\',
 
 "弐号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'???',
+'Unit-02, umbilical cable exchanged.\n\0',
 
 "弐号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'???',
+'Unit-02 has exchanged\n its umbilical cable.\n\0\',
 
 "零号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'???',
+'Unit-00, umbilical cable exchanged.\n\0',
 
 "零号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'???',
+'Unit-00 has exchanged\n its umbilical cable.\n\0\',
 
 "参号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'???',
+'Unit-03, umbilical cable exchanged.\n\0',
 
 "参号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'???',
+'Unit-03 has exchanged\n its umbilical cable.\n\0\',
 
 "四号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'???',
+'Unit-04, umbilical cable exchanged.\n\0',
 
 "四号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'???',
+'Unit-04 has exchanged\n its umbilical cable.\n\0\',
 
 "エヴァ両機、\nアンビリカルケーブル、\n交換しました。\n\0":
-'???',
+'Both Eva units,\n umbilical cables exchanged.\n\0',
 
 "エヴァ両機、\nアンビリカルケーブルを\n交換しました。\n\0":
-'???',
+'Both Eva units\n have exchanged\n umbilical cables.\n\0',
 
 "武器庫ビルの武器に取りかえます。\n現在:%s\nビル:%s\n\0\0\0":
 '???',
 
 "%sを破棄し、\n%sを装備しました。\n\0\0\0\0":
-'???',
+'Discarded %s\n and equipped %s.\n\0\',
 
 "%sを装備しました。\n\0":
-'???',
+'Equipped %s.\n\0\',
 
 "隣接した武器庫ビルには、武器が\n入っていません。\n\0\0\0\0":
-'???',
+'There is no weapon inside\n adjacent armory building.\n\0',
 
 "エヴァシリーズの剣を拾いますか？\n現在:%s\n\0\0\0":
-'???',
+'Pick up Eva Series\' sword?\n Current Time:%s\n\0',
 
 "%sを破棄しますか？\n\0":
-'???',
+'Discard %s?\n\0\',
 
 "%sを破棄しました。\n\0":
-'???',
+'Discarded %s.\n\0',
 
 "%sは、\n残弾０なので使えません。\n\0\0\0\0":
-'???',
+'%s\n has 0 ammo and cannot be used.\n\0',
 
 "わぁぁっ！\n\0":
-'???',
+'Ahhh!\n\0\',
 
 "くぁぁっ！！\n\0\0\0":
 '???',
@@ -662,7 +662,7 @@ translate_map = {
 '???',
 
 "い…、痛いぃっ！！\n\0":
-'???',
+'Th-that hurts!!\n\0\',
 
 "キャー！\n\0\0\0":
 '???',
@@ -683,7 +683,7 @@ translate_map = {
 '???',
 
 "あぁぁぁぁぁぁぁぁぁ…！\n\0\0\0":
-'???',
+'Ahhhhhhhh!\n\0\',
 
 "くっ…！！\n\0":
 '???',
@@ -704,7 +704,7 @@ translate_map = {
 '???',
 
 "まだまだァ！！\n\0":
-'???',
+'I\'m not done!!\n\0\',
 
 "効っくゥー…。\n\0":
 '???',
@@ -719,7 +719,7 @@ translate_map = {
 '???',
 
 "痛い！！\n\0\0\0":
-'???',
+'Ouch!!\n\0\',
 
 "ぐあっ！！\n\0":
 '???',
@@ -728,7 +728,7 @@ translate_map = {
 '???',
 
 "このぉ！\n\0\0\0":
-'???',
+'Take this!\n\0\',
 
 "行けぇ！！\n\0":
 '???',
@@ -743,10 +743,10 @@ translate_map = {
 '???',
 
 "覚悟なさい！！\n\0":
-'???',
+'Get ready!!\0',
 
 "これでも食らえ！！\n\0":
-'???',
+'Eat this!!\n\0\',
 
 "さぁ、行かせてもらうわよ！\n\0":
 '???',
@@ -785,16 +785,16 @@ translate_map = {
 '???',
 
 "今だ…。\n\0\0\0":
-'???',
+'Now...\n\0\',
 
 "手加減なしだよ…。\n\0":
-'???',
+'I won\'t go easy...\n\0\',
 
 "フフッ、もらった…。\n\0\0\0":
 '???',
 
 "チャンス！！\n\0\0\0":
-'???',
+'My chance!!\n\0\',
 
 "ようし、ΑΤフィールド全開！\n\0\0\0":
 '???',
@@ -809,16 +809,16 @@ translate_map = {
 '???',
 
 "行くわよ！\nΑΤフィールド全開！\n\0\0\0\0":
-'???',
+'Here I go!\n A.T. Field at full power!\n\0',
 
 "奇跡を起こすわよ！\nΑΤフィールド全開！\n\0\0\0\0":
-'???',
+'I\'ll make a miracle happen!\n A.T. Field, full power!\n',
 
 "ΑΤフィールド全開。\n\0\0\0":
-'???',
+'A.T. Field, full power.\n\0',
 
 "間に合って…。\nΑΤフィールド全開。\n\0\0\0\0":
-'???',
+'Just in time... A.T. Field, full power.\n\0',
 
 "今だわ。\nΑΤフィールド全開。\n\0\0":
 '???',
@@ -833,10 +833,10 @@ translate_map = {
 '???',
 
 "さあ、来い。\nΑΤフィールド全開！\n\0\0":
-'???',
+'Come on, then.\n A.T. Field, full power!\n\0\',
 
 "ΑΤフィールド全開！\nここでお前も終わりだ…。\n\0\0":
-'???',
+'A.T. Field, full power!\n This\'ll be the end of even you...\n\0\',
 
 "僕の本気、見せてあげるよ？\n\0":
 '???',
@@ -845,6 +845,6 @@ translate_map = {
 '???',
 
 "リリンの生んだ\nアダムの分身…。\nさあ、本来の姿に戻ろう…。\n\0":
-'???',
+'Adam\'s alter ego, born of the Lilin...\n Now, let us return you\n to your natural form...\n\0',
 
 }
