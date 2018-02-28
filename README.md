@@ -3,10 +3,10 @@
 
 ## Translation Status:
 - Text in Writable Section of Game Executable: 
-	- [ ] 97.84% translated 
+	- [ ] 98.56% translated 
 		- See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable: 
-	- [ ] 32.95% translated
+	- [ ] 38.93% translated
 		- See game_app/section_rodata_translate.py
 - umd0:/PSP_GAME/USRDIR/game/imtext.bin: 
 	- [ ] 0% translated
