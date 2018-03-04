@@ -8,19 +8,21 @@
 # \n is a linebreak
 # \0 is the end of the string
 # \' is a single quote
+# The number １ to ４ starting each entry is the number of pages
+# it uses to display in-game.
 
 translate_map = {
 "１\nエヴァの構造：広報公開情報\n\n　ネルフが開発した、対使徒戦用の汎用人型決戦兵器。\n　有線の電力供給で稼動。\n　内部電源のみでは５分しかもたない。\n\0\0\0\0":
-'1\n Eva Mechanics: Public Information\n\n  The multipurpose humanoid decisive weapons developed by Nerv \n for use in anti-Angel combat. They operate on electric power supplied\n via cable, functional for only five minutes on internal power alone.\n\0',
+'１\n Eva Mechanics: Public Information\n\n  The multipurpose humanoid decisive weapons developed by Nerv \n for use in anti-Angel combat. They operate on electric power supplied\n via cable, functional for only five minutes on internal power alone.\n\0',
 
 "２\nエヴァの構造：一般情報\n\n　エヴァは、２０００年、南極で発見された第壱使徒を元に\nクローン再生したものである。\n　その意味で、使徒と同じような共通機構を持つ。その一例\nが、物理域にまで影響を及ぼすΑΤフィールドである。$n\n\n　エヴァと使徒との違いといえば、Σ機関と魂がなかった事\nである。\n\0\0\0\0":
-'2\n Eva Mechanics: General Information \n\n Evas are clones of the First Angel, a being discovered \n  in Antarctica in the year 2000. This means that Evas have features \n  in common with the Angels. One example is the A.T. Field,  which has \n the power to influence even the laws of physics. $n\ Evas differ from Angels in that they lack both S² Engines\n and souls.\n\0',
+'２\n Eva Mechanics: General Information \n\n Evas are clones of the First Angel, a being discovered \n  in Antarctica in the year 2000. This means that Evas have features \n  in common with the Angels. One example is the A.T. Field,  which has \n the power to influence even the laws of physics. $n\ Evas differ from Angels in that they lack both S² Engines\n and souls.\n\0',
 
 "２\nエヴァの構造：非公開情報\n\n　エヴァとは人の形を捨てた魂の入れ物であり、自我の拡大\n＝大きな人間として具現化したものである。\n　エヴァを操作するにあたって、魂の入っていないエヴァに\n魂を入れる必要があった。\n　これをパイロットという。$n\n\n　だが、パイロットだけではエヴァは動かない。あるいは、\nきちんとした性能を発揮する事が出来ないのである。\n\0":
-'2\n Eva Mechanics: Confidential Information \n\n Evas are vessels for souls that abandoned human form: egos \n magnified through embodiment as giant human beings. \n Inserting souls into the Evas — termed "pilots" — \n is a requirement for operating them. $n\ However, Evas won\'t work with a pilot alone. It\'s also \n possible that they are unable to perform properly.\n\0',
+'２\n Eva Mechanics: Confidential Information \n\n Evas are vessels for souls that abandoned human form: egos \n magnified through embodiment as giant human beings. \n Inserting souls into the Evas — termed "pilots" — \n is a requirement for operating them. $n\ However, Evas won\'t work with a pilot alone. It\'s also \n possible that they are unable to perform properly.\n\0',
 
 "２\nエヴァの構造：最深度情報\n\n　エヴァ＝神の肉体と魂たる人間の間に格差をなくすため、\nコアというユニットが使われた。\n　コアにはパイロットの母親の魂が入れられており、これを\n介在して操縦が出来るのである。$n\n\n　エヴァ零号機が性能的に劣っていたり、開発に難儀してい\nたのはコアのシステムがうまく作られておらず、また零号機\nパイロット綾波レイに、母親がいなかったためである。\n\0\0\0":
-'2\n Eva Mechanics: Top Secret Information\n\n A unit called a core is used to eliminate any disparity between\n an Eva, the body of a god, and the soul of a human being.\n The soul of the pilot\'s mother, which is placed \n within the core, acts as a medium and makes piloting possible.。$n\n\n Due to difficulties encountered in the development of Unit-00, the core\'s \n system is poorly constructed, and the Eva falls behind in \n performance as a result. Another reason for this is \n that Unit-00\'s pilot, Rei Ayanami, does not have a mother.\n\0',
+'２\n Eva Mechanics: Top Secret Information\n\n A unit called a core is used to eliminate any disparity between\n an Eva, the body of a god, and the soul of a human being.\n The soul of the pilot\'s mother, which is placed \n within the core, acts as a medium and makes piloting possible.。$n\n\n Due to difficulties encountered in the development of Unit-00, the core\'s \n system is poorly constructed, and the Eva falls behind in \n performance as a result. Another reason for this is \n that Unit-00\'s pilot, Rei Ayanami, does not have a mother.\n\0',
 
 "１\nエヴァ初号機：広報公開情報\n\n　パイロットはサード・チルドレン、碇シンジ。\n　テストタイプのエヴァンゲリオンである。\n\0\0\0":
 '１\nEva Unit-01： Public Information\n\n　Its pilot is the Third Child, Shinji Ikari.\n The Test Type Evangelion.\n\0',
@@ -32,55 +34,55 @@ translate_map = {
 '１\nEva Unit-01： Confidential Information\n\n Normally, in order for the Eva\'s core to link with the pilot,\n it must contain the soul of the pilot\'s mother.\n In the case of Unit-01, that soul is Yui\'s.\n\0',
 
 "２\nエヴァ初号機：最深度情報\n\n　ゼーレは、かねてから裏切りの気配があるゲンドウを警戒\nし、ゲンドウの息子が初号機のパイロットである事を危険視\nしている。\n　神の魂になる存在は、思い通りになる存在がいいとゼーレ\nは考えていたのである。$n\n\n　一方ゲンドウは、初号機を、自分の思い通りになる「神」\nにしようと企てている。\n\0\0\0":
-'2\nEva Unit-01： Top Secret Information\n\n As Gendo has long exhibited signs of treachery, Seele treat his son\'s\n status as the pilot of Unit-01 as a potential danger.\n This is because Seele believe that a divine soul\n should come into existence only on their terms.$n\n\n However, Gendo has his own plans for becoming "God",\n which he hopes to fulfill using Unit-01.\n\0',
+'２\nEva Unit-01： Top Secret Information\n\n As Gendo has long exhibited signs of treachery, Seele treat his son\'s\n status as the pilot of Unit-01 as a potential danger.\n This is because Seele believe that a divine soul\n should come into existence only on their terms.$n\n\n However, Gendo has his own plans for becoming "God",\n which he hopes to fulfill using Unit-01.\n\0',
 
 "１\nセカンド・チルドレン：広報公開情報\n\n　セカンド・チルドレン、惣流・アスカ・ラングレー。\n　エヴァ弐号機パイロットである。\n　ドイツと日本の血が流れるクォーターで、アメリカ国籍。\n　１４歳でドイツの大学を卒業。\n\0\0\0":
-'1\nSecond Child: Public Information\n\n The Second Child, Asuka Soryu Langley.\n The pilot of Eva Unit-02.\n An American citizen, 1/4 German and 1/4 Japanese.\n Graduated from a German university at the age of fourteen.\n\0',
+'１\nSecond Child: Public Information\n\n The Second Child, Asuka Soryu Langley.\n The pilot of Eva Unit-02.\n An American citizen, 1/4 German and 1/4 Japanese.\n Graduated from a German university at the age of fourteen.\n\0',
 
 "１\nセカンド・チルドレン：一般情報\n\n　アスカの母、惣流・キョウコ・ツェッペリンがエヴァとの\n接触実験を行っている。\n　その結果、自分の娘を認識出来ないほどの重度の精神障害\nに陥った。\n\0":
-'1\nSecond Child: General Information\n\n Asuka\'s mother, Kyoko Soryu Zeppelin, carried out a\n contact experiment with an Eva. As a result, she fell prey\n to mental illness so severe that she\n could no longer recognize her own daughter.\n\0',
+'１\nSecond Child: General Information\n\n Asuka\'s mother, Kyoko Soryu Zeppelin, carried out a\n contact experiment with an Eva. As a result, she fell prey\n to mental illness so severe that she\n could no longer recognize her own daughter.\n\0',
 
 "１\nセカンド・チルドレン：非公開情報\n\n　母親のエヴァとの接触実験後ほどなく、マルドゥック機関\nより、アスカは弐号機パイロットとして選出される。\n\0\0\0":
-'1\nSecond Child: Confidential Information\n\n Not long after her mother\'s contact experiment with an Eva,\n Asuka was selected by the Marduk Institute to be the pilot of Unit-02.\n\0',
+'１\nSecond Child: Confidential Information\n\n Not long after her mother\'s contact experiment with an Eva,\n Asuka was selected by the Marduk Institute to be the pilot of Unit-02.\n\0',
 
 "１\nセカンド・チルドレン：最深度情報\n\n　アスカの母は、エヴァのコア実験の際に魂の一部、その中\nでも娘を愛する母性の部分だけがエヴァ弐号機に残された。\n　母が娘を娘と認識できなくなったのはそのせいである。\n\0\0\0\0":
-'1\nSecond Child: Top Secret Information\n\n When Asuka\'s mother conducted the experiment with Eva Unit-02\'s core, only the maternal\n part of her soul, which loves her daughter above all else, was left inside the Eva.\n This is why she could not recognize her daughter for who she was.\n\0',
+'１\nSecond Child: Top Secret Information\n\n When Asuka\'s mother conducted the experiment with Eva Unit-02\'s core, only the maternal\n part of her soul, which loves her daughter above all else, was left inside the Eva.\n This is why she could not recognize her daughter for who she was.\n\0',
 
 "１\n碇ユイ：広報公開情報\n\n　碇シンジの母であり、ゲンドウの妻。\n　２００４年に死亡。\n　享年２７歳。\n\0\0":
-'???',
+'１\nYui Ikari: Public Information\n\nThe mother of Shinji Ikari, and wife to Gendo　Ikari.\n She was 27 years old at the time of her death in 2004.\n\0\0',
 
 "１\n碇ユイ：一般情報\n\n　碇ユイは、優秀な遺伝子工学の権威でもあった。\n　２００４年、開発中の初号機への接触実験を行うが、その\n実験中に死亡したとされる。\n\0\0":
-'???',
+'１\nYui Ikari: General Information\n\nYui Ikari was a brilliant genetic engineer and an authority in her field.\n In 2004, she performed the contact experiment on Unit-01, which\n was being developed at the time, and allegedly died during the procedure.\n\0\0',
 
 "１\n碇ユイ：非公開情報\n\n　ユイは、被験者として接触実験を行ったがため、初号機に\nその魂を宿らせる事となった。\n　シンジが初号機パイロットとして選ばれたのも、ユイの魂\nが宿っているからである。\n\0":
-'???',
+'１\nYui Ikari: Confidential Information\n\n Yui conducted the experiment in the role of test subject,\n but as a result her soul became fixed inside Unit-01.\n Shinji was selected as Unit-01\'s pilot\n because Yui\'s soul dwells in the Eva still.\n\0',
 
 "１\n碇ユイ：最深度情報\n\n　碇ユイは、ゼーレの有力者の子女の一人であり、ゼーレの\n計画を、それなりに理解出来る立場にあった。\n　ゲンドウはそれを知っており、ユイに近づいた。\n\0\0\0\0":
-'???',
+'１\nYui Ikari: Top Secret Information\n\nYui Ikari was the only child of an influential member of Seele and,\n in her own way, was in the position of being able to\n understand their plans. Knowing this, Gendo became acquainted with her.\n\0',
 
 "１\n碇ゲンドウ：広報公開情報\n\n　ネルフの最高司令官であり、碇シンジの父である。\n　目的のためには、手段を選ばない冷徹な性格の持ち主で、\n部下からは少々苦手とされている。\n\0\0":
-'???',
+'１\nGendo Ikari: Public Information\n\nSupreme commander of Nerv and father of Shinji Ikari.\n A cool-headed personality who will use any means necessary to achieve\n his goals. His subordinates find him somewhat difficult to deal with.\n\0',
 
 "１\n碇ゲンドウ：一般情報\n\n　かつて存在した「ゲヒルン（人工進化研究所）」の所長を\n務めていた。\n　情報操作、隠蔽工作を得意とし、ネルフの運営資金を得る\nために活動する。\n\0\0\0":
-'???',
+'１\nGendo Ikari: General Information\n\n Served as the chief of the former entity Gehirn (Artificial\n Evolution Laboratory). With a gift for manipulating information and\n creating cover-ups, he acts to procure operating funds for Nerv.\n\0',
 
 "１\n碇ゲンドウ：非公開情報\n\n　ゼーレと繋がりがある碇ユイと結婚し、自らもゼーレの一\n員となってＥ計画、人類補完計画、ネルフの実行責任者など\nの要職を歴任している。\n　ゼーレの構成員になったばかりの頃、南極へ向かった葛城\n調査隊の監査役をしていた。\n\0\0":
-'???',
+'１\nGendo Ikari: Confidential Information\n\n Married Yui Ikari, who has connections to Seele, and in doing so became\n a member himself. Held consecutive posts as chief supervisor — among other things —\n of Project E, the Human Instrumentality Project, and Nerv. Not long after\n joining Seele, he served as statutory auditor for the Katsuragi Research Team headed to Antarctica.\n\0',
 
 "１\n碇ゲンドウ：最深度情報\n\n　ゲンドウは、ゼーレと同じく使徒の殲滅および、人類補完\n計画を目的としていたが、その実態は死んだユイと再会する\n事を目的としている。\n　ゲンドウは反逆の意志を悟られぬよう動き続け、ゼーレは\nこれを厳しく監視し、場合によっては脅しをかけている。\n\0\0":
-'???',
+'１\nGendo Ikari: Top Secret Information\n\n Gendo ostensibly shares Seele\'s goals of annihilating the Angels and bringing\n about the Human Instrumentality Project. In truth, however, Gendo\n seeks to reunite with the deceased Yui. He works toward\n his goal with care to conceal his treacherous intent.\n Seele keep a close eye on him and issue threats as required.\n\0',
 
 "１\n特務機関ネルフ：広報公開情報\n\n　使徒の調査、研究および、その殲滅を目的とする国連直属\nの特務機関である。\n　日本の第３新東京市に本部を置く。\n　第１、第２支部がアメリカに、ドイツに第３支部がある。\n\0\0\0":
-'???',
+'１\nSecret Agency Nerv: Public Information\n\n A secret agency under the direct supervision of the United Nations. Its objectives are to investigate, study, and eliminate the Angels. Nerv\'s headquarters are in Tokyo-3, the 1st and 2nd branches are in America, and the 3rd branch is in Germany.',
 
 "１\n特務機関ネルフ：一般情報\n\n　政府とネルフとの関係はあまり良好ではなく、使徒が来る\nのはネルフのせいだと考えている。\n　ネルフの予算承認権は、国連の小組織である人類補完委員\n会が持っている。\n\0\0\0":
-'???',
+'１\nSecret Agency Nerv: General Information\n\n The relationship between the government and Nerv leaves much to be desired, as\n the former believe that Nerv are responsible for the coming of the Angels.\n The Human Instrumentality Committee, a small body within the U.N., holds\n approval authority over Nerv\'s budget.\n\0',
 
 "１\n特務機関ネルフ：非公開情報\n\n　ネルフは、使徒を殲滅するという表向きの目的の一方で、\n人類の進化＝神への道をも目指している。\n　両方の目的達成は、一つのキーの存在によって行われる。\n　それが、エヴァである。\n\0\0\0":
-'???',
+'１\nSecret Agency Nerv: Confidential Information\n\n While Nerv is officially tasked with the annihilation\n of the Angels, they are also working toward the\n Way to God: the evolution of humanity.\n The Evas are the key to achieving both goals.\n\0',
 
 "１\n特務機関ネルフ：最深度情報\n\n　ネルフ本部は、リリスを入れた黒い月の中に存在する。\n　使徒がネルフ本部を目指してやって来るのは、ターミナル\nドグマにある白い巨人、リリスに接触するためである。\n　使徒は、アダムではなく、初めからリリスを目指していた\nのである。\n\0\0\0\0":
-'???',
+'１\nSecret Agency Nerv: Top Secret Information\n\n Nerv Headquarters is inside the Black Moon — the container of Lilith,\n the white giant in Terminal Dogma. The Angels are heading for Nerv H.Q.\n with the aim of making contact with Lilith, not with Adam.',
 
 "１\nマルドゥック機関：広報公開情報\n\n　該当データなし。\n\0\0":
 '???',
