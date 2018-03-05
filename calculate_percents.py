@@ -74,40 +74,27 @@ avg_imtext = (results[5] + results[6] + results[7] + results[8] + results[9]) / 
 avg_evs = (results[10] + results[11] + results[12]) / 3
 
 print """- Text in Writable Section of Game Executable:
-        - [ ] %0.2f%% translated
-                - See game_app/section_data_translate.py
+	- [ ] %0.2f%% translated - See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable:
-        - [ ] %0.2f%% translated
-                - See game_app/section_rodata_translate.py
+	- [ ] %0.2f%% translated - See game_app/section_rodata_translate.py
 - umd0:/PSP_GAME/USRDIR/game/imtext.bin:
-        - [ ] %0.2f%% translated
-                - [ ] %0.2f%% translated
-                        - See game_data/file_imtext_translate_part_1.py
-                - [ ] %0.2f%% translated
-                        - See game_data/file_imtext_translate_part_2.py
-                - [ ] %0.2f%% translated
-                        - See game_data/file_imtext_translate_part_3.py
-                - [ ] %0.2f%% translated
-                        - See game_data/file_imtext_translate_part_4.py
-                - [ ] %0.2f%% translated
-                        - See game_data/file_imtext_translate_part_5.py
+	- [ ] %0.2f%% translated (in total)
+		- [ ] %0.2f%% translated - See game_data/file_imtext_translate_part_1.py
+		- [ ] %0.2f%% translated - See game_data/file_imtext_translate_part_2.py
+		- [ ] %0.2f%% translated - See game_data/file_imtext_translate_part_3.py
+		- [ ] %0.2f%% translated - See game_data/file_imtext_translate_part_4.py
+		- [ ] %0.2f%% translated - See game_data/file_imtext_translate_part_5.py
 - umd0:/PSP_GAME/USRDIR/*.evs:
-	- [ ] %0.2f%% translated
-		- [ ] %0.2f%% translated
-			- See game_data/files_evs_part_1.py
-		- [ ] %0.2f%% translated
-			- See game_data/files_evs_part_2.py
-		- [ ] %0.2f%% translated
-			- See game_data/files_evs_part_3.py
+	- [ ] %0.2f%% translated (in total)
+		- [ ] %0.2f%% translated - See game_data/files_evs_part_1.py
+		- [ ] %0.2f%% translated - See game_data/files_evs_part_2.py
+		- [ ] %0.2f%% translated - See game_data/files_evs_part_3.py
 - umd0:/PSP_GAME/USRDIR/btl/btimtext.bin:
-        - [ ] %0.2f%% translated
-                - See game_data/file_btimtext_translate.py
+	- [ ] %0.2f%% translated - See game_data/file_btimtext_translate.py
 - umd0:/PSP_GAME/USRDIR/free/f2info.bin:
-        - [ ] %0.2f%% translated
-                - See game_data/file_f2info_translate.py
+	- [ ] %0.2f%% translated - See game_data/file_f2info_translate.py
 - umd0:/PSP_GAME/USRDIR/free/f2tuto.bin:
-        - [ ] %0.2f%% translated
-                - See game_data/file_f2tuto_translate.py""" % (
+	- [ ] %0.2f%% translated - See game_data/file_f2tuto_translate.py""" % (
 results[0],
 results[1],
 
