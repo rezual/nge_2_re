@@ -8,6 +8,9 @@
 # \n is a linebreak
 # \0 is the end of the string
 # \' is a single quote
+# The number １ to ４ starting each entry is the number of pages
+# it uses to display in-game. It is unknown if the numbers are required to be in S-JIS 
+# for the game to parse them (currently they're in utf-8 in this file).
 
 translate_map = {
 "３\nチュートリアルの使い方\nこのゲームは基本的なプレイは簡単ですが、より高度なプ\nレイを行うためには、様々なシステムを把握し、使いこな\nす必要があります。$n\nしかし、まずはゲームに慣れて下さい。\nそのプレイの中で、様々なシステムに関するより深い理解\nが必要となるでしょう。$n\nそのときに、このチュートリアルを活用して下さい。\nはじめから全てを理解してプレイすることは不可能です。\nまずは「はじめに」の項目に一通り目を通すだけでかまい\nません。\n\0\0\0\0":

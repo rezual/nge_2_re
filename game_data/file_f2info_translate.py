@@ -9,7 +9,8 @@
 # \0 is the end of the string
 # \' is a single quote
 # The number １ to ４ starting each entry is the number of pages
-# it uses to display in-game.
+# it uses to display in-game. It is unknown if the numbers are required to be in S-JIS
+# for the game to parse them (currently they're in utf-8 in this file).
 
 translate_map = {
 "１\nエヴァの構造：広報公開情報\n\n　ネルフが開発した、対使徒戦用の汎用人型決戦兵器。\n　有線の電力供給で稼動。\n　内部電源のみでは５分しかもたない。\n\0\0\0\0":
