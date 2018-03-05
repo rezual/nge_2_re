@@ -11,13 +11,13 @@
 
 translate_map = {
 "ねえ、身体の調子はどう？\n\0\0\0":
-'???',
+'Hey, how are you doing health-wise?\n\0',
 
 "アンタさ、その身体。\n調子、どうなの？\n\0\0":
-'???',
+'How\'s your health?\n Everything okay?\n\0',
 
 "あなた、身体の調子は？\n\0":
-'???',
+'You doing okay physically?\0',
 
 "なぁ、お前の身体。\n調子どないなん？\n\0\0\0\0":
 '???',
@@ -26,7 +26,7 @@ translate_map = {
 '???',
 
 "身体の方は大丈夫？\n調子はどうかしら？\n\0\0":
-'???',
+'Healthier than not?\n Everything okay, I hope?\n\0',
 
 "怪我って言っても、\n気にならないくらいだし。\n大丈夫だよ。\n\0\0\0":
 '???',
@@ -35,7 +35,7 @@ translate_map = {
 '???',
 
 "私は大丈夫。\n\0\0\0":
-'I\'m okay.\n\0',
+'I\'m fine.\n\0',
 
 "ああン？\nこんなん怪我のうちに入らへんわ。\n\0\0":
 '???',
@@ -74,13 +74,13 @@ translate_map = {
 '???',
 
 "そっちのエヴァはどう？\n\0":
-'???',
+'How\'s your Eva over there?\n\0\',
 
 "機体の調子はどうなの？\n\0":
 '???',
 
 "機体は大丈夫なの？\n\0":
-'???',
+'The unit okay?\n\0',
 
 "お前のエヴァ、どない？\n大丈夫なんか？\n\0\0":
 '???',
@@ -89,7 +89,7 @@ translate_map = {
 'How\'s your Eva?\n\0',
 
 "機体の具合はどう？\n気になるかしら？\n\0\0\0\0":
-'???',
+'How\'s your unit\'s condition?\n I\'m curious.\n\0',
 
 "初号機？\nうん、調子いいよ。\n\0\0\0\0":
 'Unit-01?\nYeah, it\'s in good shape.\n\0',
@@ -98,10 +98,10 @@ translate_map = {
 '???',
 
 "こっち、零号機は順調よ。\n\0\0\0":
-'???',
+'Unit-00 here is faring well.\n\0',
 
 "おう、すこぶるええで。\n\0":
-'???',
+'Yeah, doing really great.\n\0',
 
 "平気さ。\nこの通りね。\n\0\0":
 '???',
@@ -137,10 +137,10 @@ translate_map = {
 '???',
 
 "そっちのΑΤはどう？\n\0\0\0":
-'???',
+'How\'s your A.T. over there?\n\0\',
 
 "アンタのΑΤ大丈夫？\n\0\0\0":
-'???',
+'Is your A.T. okay?\n\0\',
 
 "ΑΤの調子、どうかしら？\n\0\0\0":
 '???',
@@ -149,10 +149,10 @@ translate_map = {
 '???',
 
 "君のΑΤどう？\n大丈夫そう？\n\0\0\0\0":
-'???',
+'How\'s your A.T.?\n Seem okay?\n\0\',
 
 "あなたのΑΤどうかしら？\nちょっと気になるわ。\n\0\0":
-'???',
+'How is your A.T.?\n I\'m a little concerned.\n\0\',
 
 "うん、この時のために\n頑張ったんだから！！\n\0\0":
 '???',
@@ -176,7 +176,7 @@ translate_map = {
 '???',
 
 "とてもいいわ。\nいい気分よ。\n\0\0\0\0":
-'???',
+'Doing great.\n I\'m in a good mood.\n\0',
 
 "自分自身から、\n力が沸いてくるのがわかる。\n何か、熱い気持ちが。\n\0":
 '???',
@@ -200,7 +200,7 @@ translate_map = {
 '???',
 
 "んー、まぁまぁかな。\n\0\0\0":
-'???',
+'Hmm, so-so I guess.\n\0\',
 
 "高くはないけど、低くもないよ。\n\0":
 '???',
@@ -218,7 +218,7 @@ translate_map = {
 '???',
 
 "問題ないわ。\n\0\0\0":
-'???',
+'No problems.\n\0\',
 
 "操縦は出来るわ。\n大丈夫。\n\0\0":
 '???',
@@ -335,7 +335,7 @@ translate_map = {
 'I\'m worried about the stuff that looks like slime mold.\n It\'s the true form of the Angel,\n hiding itself in Unit-03\'s interior. $n\nYou want to come in contact with it as little as\n possible. The slime mold is an organism that, if it detects\n another source of sustenance, starts moving toward it.\n\0',
 
 "姿はエヴァでも正体は使徒よ。\nどんな攻撃を出してくるか\nわからないわ。$n\n遠距離射撃が安全ね。\n武器庫ビルを確認しておきなさい。\n\0\0\0":
-'It looks like an Eva, but it\'s really an Angel. \nどんな攻撃を出してくるか\nわからないわ。$n\n遠距離射撃が安全ね。\n武器庫ビルを確認しておきなさい。\n',
+'It looks like an Eva, but it\'s really an Angel.\n We don\'t know what kind of attacks\n it will send our way.$n\n So firing from a distance is the safest bet.\n Please check the armory buildings first thing.\n',
 
 "%sの事って、\nどうなの？\n\0\0\0\0":
 'About %s...\n What do you think?\n\0',
@@ -344,7 +344,7 @@ translate_map = {
 'Hey, how do you\n feel about %s?\n\0',
 
 "あなたは、%sを\nどう思っているの…？\n\0\0\0\0":
-'???',
+'What do you think of %s...?\n\0\',
 
 "あのー、なんちゅうか、\n%sの事、どない思う？\n\0\0\0\0":
 '???',
@@ -374,7 +374,7 @@ translate_map = {
 '???',
 
 "え？\nどう思うって、別に普通…。\n\0\0\0\0":
-'???',
+'Huh?\n What I think? Nothing out of the ordinary...\n\0',
 
 "べっつに、何とも…。\n何でそんな事聞くのよ。\n\0\0\0\0":
 '???',
@@ -389,7 +389,7 @@ translate_map = {
 '???',
 
 "えー…、\n特別な感情はないわ。\n\0\0":
-'???',
+'Ehhh,\n I don\'t feel anything special.\n\0',
 
 "正直、苦手だな…。\n何となく。\n\0\0":
 '???',
@@ -434,7 +434,7 @@ translate_map = {
 '???',
 
 "何も思う事はないわ…。\n\0":
-'???',
+'I don\'t think anything...\n\0',
 
 "えーとな、何やろ。\n何もないなァ…。\n\0\0\0\0":
 '???',
@@ -461,7 +461,7 @@ translate_map = {
 '???',
 
 "やーだ、最悪。\n\0":
-'???',
+'No way, they\'re the worst.\n\0',
 
 "心のどこかで、繋がってるみたいな。\n大事な人だよ。\n\0\0":
 '???',
@@ -470,10 +470,10 @@ translate_map = {
 '???',
 
 "大事な人。\nもっと、私を知ってもらいたい。\n\0\0":
-'???',
+'An important person.\n I want them to understand me more.\n\0',
 
 "心の友、やな。\nそれに尽きるわ。\n\0\0\0\0":
-'???',
+'A kindred spirit, I guess.\n That about sums it up.\n\0',
 
 "親友と思ってる。\n僕はそうであって欲しい。\n\0\0":
 '???',
@@ -656,7 +656,7 @@ translate_map = {
 'Ahhh!\n\0',
 
 "くぁぁっ！！\n\0\0\0":
-'???',
+'Gwahh!!\n\0',
 
 "うぁぁぁぁっ！！\n\0\0\0":
 '???',
@@ -668,7 +668,7 @@ translate_map = {
 '???',
 
 "イッタイわねッ！！\n\0":
-'???',
+'That REALLY hurts!!\n\0',
 
 "きゃうッ！！\n\0\0\0":
 '???',
@@ -701,7 +701,7 @@ translate_map = {
 '???',
 
 "痛ェ！！\n\0\0\0":
-'???',
+'Ouch!\n\0',
 
 "まだまだァ！！\n\0":
 'I\'m not done!!\n\0',
@@ -710,13 +710,13 @@ translate_map = {
 '???',
 
 "…んがっ！？\n\0\0\0":
-'???',
+'...Ngh!?\n\0',
 
 "うあッ…！？\n\0\0\0":
-'???',
+'Wah!?\n\0',
 
 "………うっ！\n\0\0\0":
-'???',
+'...Uh!\n\0',
 
 "痛い！！\n\0\0\0":
 'Ouch!!\n\0',
@@ -731,7 +731,7 @@ translate_map = {
 'Take this!\n\0',
 
 "行けぇ！！\n\0":
-'???',
+'Move it!!\n\0',
 
 "よぉし！！\n\0":
 '???',
@@ -743,7 +743,7 @@ translate_map = {
 '???',
 
 "覚悟なさい！！\n\0":
-'Get ready!!\0',
+'Get ready!!n\\0',
 
 "これでも食らえ！！\n\0":
 'Eat this!!\n\0',
@@ -785,7 +785,7 @@ translate_map = {
 '???',
 
 "今だ…。\n\0\0\0":
-'Now...\n\0',
+'One more time...\n\0',
 
 "手加減なしだよ…。\n\0":
 'I won\'t go easy...\n\0',
@@ -800,19 +800,19 @@ translate_map = {
 '???',
 
 "一気に決めるよっ！\nΑΤフィールド全開！\n\0\0\0\0":
-'???',
+'I\'ll decide this in one shot!\n A.T. Field at maximum!\n\0',
 
 "来るっ…！\nΑΤフィールド全開…。\n\0\0":
-'???',
+'It\'s here...!\n A.T. Field, full power...\n\0',
 
 "ΑΤフィールド、\n全開で行くわよっ！\n\0\0\0\0":
-'???',
+'A.T. Field, going to the max!\n\0',
 
 "行くわよ！\nΑΤフィールド全開！\n\0\0\0\0":
-'Here I go!\n A.T. Field at full power!\n\0',
+'Here I go!\n A.T. Field at maximum!\n\0',
 
 "奇跡を起こすわよ！\nΑΤフィールド全開！\n\0\0\0\0":
-'I\'ll make a miracle happen!\n A.T. Field, full power!\n',
+'I\'ll give you a miracle!\n A.T. Field, full power!\n',
 
 "ΑΤフィールド全開。\n\0\0\0":
 'A.T. Field, full power.\n\0',
@@ -842,7 +842,7 @@ translate_map = {
 '???',
 
 "エヴァの使い方…。\n教えてあげる。\nほら、こう使うのさ…。\n\0\0\0":
-'???',
+'I\'ll teach you\n how to use the Evas.\n See, it\'s done like so...\n\0',
 
 "リリンの生んだ\nアダムの分身…。\nさあ、本来の姿に戻ろう…。\n\0":
 'Adam\'s alter ego, born of the Lilin...\n Now, let us return you\n to your natural form...\n\0',
