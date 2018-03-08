@@ -5536,7 +5536,7 @@ translate_map = {
 
 # ??? [Lilith]
 "…生命の……………………………\n………………実を…………………\n………………………………………。\n\0":
-'The Fruit.........\n.....of Life....\n....Give to.......\n\0\',
+'The Fruit.........\n.....of Life....\n....Give to.......\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n伊吹二尉の声。\n\0":

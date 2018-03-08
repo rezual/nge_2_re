@@ -3390,7 +3390,7 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "初号機、再起動！！▽\nまさか…、そんな。\nシンクロ率が４００パーセントを\n超えています！\n\0":
-'Unit-01 has reactivated!!▽\n This is impossible...\n The synch ratio is exceeding 400 percent!\n\0 ',
+'Unit-01 has reactivated!!▽\n This is impossible...\n The synch ratio is exceeding 400 percent!\n\0',
 
 # Ritsuko Akagi 
 "やはり、…目覚めたのね。\n…彼女が。\n\0":
@@ -6601,7 +6601,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "もう一体来るの…？\n\0":
-'The hell is it this time...?\0 ',
+'The hell is it this time...?\0',
 
 # Shinji Ikari
 "な、何か降りてくる！？\n\0":
@@ -7041,7 +7041,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "エヴァ両機、射撃開始！\n\0":
-'Both Evas,\ncommence firing!\n\0,
+'Both Evas,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "エヴァ両機パイロット、\n射撃開始！\n\0":
