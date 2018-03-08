@@ -285,7 +285,7 @@ translate_map = {
 "もう、限界なの！？\nそんな…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "それじゃ、もう…。\n他に手はない…。\n\0":
 '???',
 
@@ -304,7 +304,7 @@ translate_map = {
 "ずいぶん地味な方法ね。\nでも、そうはさせないわ。▽\nエヴァ、発進準備！！\n\0":
 '???',
 
-# Maya Ibuki ,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Maya Ibuki, Male Staff
 "あの、目のようなところから、\n何か液体らしきものが流れています。\n\0":
 '???',
 
@@ -646,9 +646,9 @@ translate_map = {
 #
 # ./USRDIR/event/tev1206.har_EXTRACT/tev1206.evs
 #
-# Misato Katsuragi ,Rei Ayanami 
+# Misato Katsuragi, Rei Ayanami
 "動かないで。\n\0":
-'???',
+'Don\'t move.\n\0',
 
 # Ryoji Kaji
 "よォ、君か…。\n\0":
@@ -783,7 +783,7 @@ translate_map = {
 "カヲルは、空に向かって\n手を差し出すと指を鳴らした。\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Female Staff
 "大変です、本部直上に\nマイナスエネルギー電子が\n集中しています！\n\0":
 '???',
 
@@ -799,11 +799,11 @@ translate_map = {
 "え、一体どうゆうコトなの！？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "状況を引き続き\nモニターして下さい！\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Female Staff
 "本部上空に巨大な物体出現！\n使徒？\n\0":
 '???',
 
@@ -831,7 +831,7 @@ translate_map = {
 "何や、ちょっとやそっとの芸じゃ\nワイは納得せえへんで。\nで、何見せてもらるんや？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "状況を引き続きモニターして\n下さい！\n\0":
 '???',
 
@@ -847,7 +847,7 @@ translate_map = {
 "そんな、ディラックの海から\n四号機が現われるなんて！\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Female Staff
 "…な、渚カヲル君より入電。▽\nエヴァ四号機は\n気に入ってもらえたか\nとのことですが…。\n\0":
 '???',
 
@@ -1094,7 +1094,7 @@ translate_map = {
 "そうはいかないわ。\n\0":
 '???',
 
-# Rei Ayanami ,Shinji Ikari
+# Rei Ayanami, Shinji Ikari
 "誰…？\n\0":
 '???',
 
@@ -1110,34 +1110,34 @@ translate_map = {
 "だが、この一度だけ。\n僕はアダムになろう…。\nヒトであり続けるために！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "爆雷投下、６０秒前。\n\0":
 '???',
 
-# Ritsuko Akagi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Ritsuko Akagi, Female Staff
 "エヴァの機能は既に\n停止していたはず。\nなぜ、エヴァにあんな力が…！▽\n人の息の届かぬところに…、\nエヴァに心があるというの！？\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "目標、殲滅を確認しました。\nパイロット、無事です！\n\0":
 '???',
 
 #
 # ./USRDIR/event/n001.har_EXTRACT/n001.evs
 #
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "シャムシエル\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "使徒が市街地に攻撃を行い\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "委員会からのエヴァ出撃要請を受け\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "エヴァンゲリオン起動。\n参戦したのは…\n\0":
 '???',
 
@@ -1278,11 +1278,11 @@ translate_map = {
 "どう？\n相手の動きは。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "使徒の動きはどうでしょうか？\n\0":
 '???',
 
-# Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Shigeru Aoba, Female Staff
 "いまだ沈黙を続けています。\n\0":
 '???',
 
@@ -1314,7 +1314,7 @@ translate_map = {
 "ちょっと、待ちなさい！\n危険だわ！！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "危険です。\n待機態勢に戻ってください！\n\0":
 '???',
 
@@ -1322,7 +1322,7 @@ translate_map = {
 "そこは危険だわ！\n影から離れて！！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "使徒、消失しました！\n\0":
 '???',
 
@@ -1334,7 +1334,7 @@ translate_map = {
 "消えた！？\nどういう事！？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "消失！？\n反応は…！？\n\0":
 '???',
 
@@ -1350,7 +1350,7 @@ translate_map = {
 "影が…！？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "影から離れてください！\n危険です！\n\0":
 '???',
 
@@ -1358,11 +1358,11 @@ translate_map = {
 "影から離れて！！\n逃げてッ！！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "パターン青！\n初号機の真下ですっ！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "パターン青！\n弐号機の真下ですっ！\n\0":
 '???',
 
@@ -1370,11 +1370,11 @@ translate_map = {
 "か…、影が？\n何だよこれ！？\nおかしいよ…！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "パターン青！\n零号機の真下ですっ！\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "パターン青！\n参号機の真下ですっ！\n\0":
 '???',
 
@@ -1382,7 +1382,7 @@ translate_map = {
 "やだ…！！\n沈む、沈んじゃう！！\n誰か！　どうにか出来ないの…。\n\0":
 '???',
 
-# Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Makoto Hyuga, Female Staff
 "パターン青！\n四号機の真下ですっ！\n\0":
 '???',
 
@@ -1473,7 +1473,7 @@ translate_map = {
 "えー、まず皆さんには\n大変悲しいお知らせがあります。▽\n先日、鈴原トウジ君が\n亡くなりました。\n\0":
 '???',
 
-# Kensuke Aida,Hikari Horaki,Maya Ibuki 
+# Kensuke Aida, Hikari Horaki, Maya Ibuki 
 "え…。\n\0":
 '???',
 
@@ -1544,7 +1544,7 @@ translate_map = {
 #
 # ./USRDIR/event/tev1207.har_EXTRACT/tev1207.evs
 #
-# Maya Ibuki ,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Maya Ibuki, Male Staff
 "マギは判断を保留しています。\n\0":
 '???',
 
@@ -1556,15 +1556,15 @@ translate_map = {
 "どーなってんの？\n富士の電波観測所は？\n\0":
 '???',
 
-# Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Shigeru Aoba, Female Staff
 "探知していません。\n真上にいきなり現れました。\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "使徒、第３新東京市直上に出現！\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "パターンオレンジ。\nΑΤフィールド反応無し。\n\0":
 '???',
 
@@ -1762,11 +1762,11 @@ translate_map = {
 #
 # Shinji Ikari
 "目標…、\n目標の使徒って…。\nエヴァじゃないですか！？\n\0":
-'???',
+'The target...\n The target Angel...\n It\'s not an Eva?!\n\0',
 
 # Gendo Ikari
 "あれはもう、\nエヴァ参号機ではない。\n…使徒だ。\n\0":
-'???',
+'That is no longer\n Eva Unit-03.\n It\'s an Angel.\n\0',
 
 # Asuka Soryu Langley
 "プラグが見える。\nパイロットはあの中なんだわ。\nまさか使徒に乗っ取られるなんてね。\n\0":
@@ -1780,13 +1780,13 @@ translate_map = {
 "きゃああああああ！！\n\0":
 '???',
 
-# Shinji Ikari,Misato Katsuragi 
+# Shinji Ikari, Misato Katsuragi 
 "アスカッ！！\n\0":
-'???',
+'Asuka!!\n\0',
 
 # Shigeru Aoba
 "エヴァ弐号機、完全に沈黙。\n目標移動、零号機へ。\n\0":
-'???',
+'Eva Unit-02 has gone completely silent.\n Target is moving toward Unit-02.\n\0',
 
 # Rei Ayanami 
 "はっ…。\n\0":
@@ -1794,7 +1794,7 @@ translate_map = {
 
 # Rei Ayanami 
 "あぁぁぁぁ…！！\n\0":
-'???',
+'Ahhhhhh!!\n\0',
 
 # Shigeru Aoba
 "エヴァ零号機、沈黙しました。\n回収班、急いでください！\n\0":
@@ -1898,7 +1898,7 @@ translate_map = {
 "シンジ、こっち。\n\0":
 '???',
 
-# Shinji Ikari,Kensuke Aida,Ritsuko Akagi ,Maya Ibuki 
+# Shinji Ikari, Kensuke Aida, Ritsuko Akagi, Maya Ibuki 
 "あ…。\n\0":
 '???',
 
@@ -1998,7 +1998,7 @@ translate_map = {
 "今日はセカンドを迎えに行く日ね。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "今日はセカンドを\n迎えに行く日だわ。\n\0":
 '???',
 
@@ -2030,7 +2030,7 @@ translate_map = {
 "太平洋上の国連艦隊よ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "太平洋上の国連艦隊です。\nここからＶＴＯＬで\n移動する事になります。\n\0":
 '???',
 
@@ -2102,7 +2102,7 @@ translate_map = {
 "来るよ！！\nあっ、でも武器が…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "イチかバチか…。\nどのみちエヴァでなければ\n使徒には勝てないわ。▽\nこうなったら弐号機を\n起動させるしかないわね。\n\0":
 '???',
 
@@ -2114,7 +2114,7 @@ translate_map = {
 "そ〜うこなくっちゃ！\nんじゃ、行っくわよ〜！！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "今の音、使徒からの攻撃ね。\nよりによってこの艦を\n狙ってくるなんて…。\n\0":
 '???',
 
@@ -2142,7 +2142,7 @@ translate_map = {
 "元気そうね、アスカ！\nようこそ、日本へ。▽\nしばらく見ないうちに\n大きくなったわね。▽\nこれからはパイロットとしての\n活躍に期待しているわよ。\n\0":
 '???',
 
-# Ritsuko Akagi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Ritsuko Akagi, Female Staff
 "あなたがエヴァ弐号機パイロット、\n惣流・アスカ・ラングレーね。\n\0":
 '???',
 
@@ -2158,7 +2158,7 @@ translate_map = {
 "そうね、あと何時間かよ。\nせっかくの船旅だから\n残りの時間を楽しんだら？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "夕方には。▽\nついたら今日はゆっくり\n休んで下さいね。\n\0":
 '???',
 
@@ -2166,7 +2166,7 @@ translate_map = {
 "あっそ、つまんない。▽\nんじゃ、私の弐号機でも見る？\n案内するわ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "来るわ。\nあっ、でも武器が…。\n\0":
 '???',
 
@@ -2186,7 +2186,7 @@ translate_map = {
 "あなたがアスカね。▽\n彼女がエヴァ弐号機パイロット、\n惣流・アスカ・ラングレーよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "あなたがアスカさんね。▽\n彼女がエヴァ弐号機パイロット、\n惣流・アスカ・ラングレーです。\n\0":
 '???',
 
@@ -2222,7 +2222,7 @@ translate_map = {
 "そう？\nでも、彼は何の訓練もなしに\nエヴァを実戦で動かしたのよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "あら、でも…。\n彼は何の訓練もなしにエヴァを\n実戦で動かす事が出来たのよ。\n\0":
 '???',
 
@@ -2242,7 +2242,7 @@ translate_map = {
 "そうそう、アスカ、弐号機の\nところまで案内してくれる？▽\n大まかなチェックを\nしておきたいのよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "そうだわ、弐号機はどこに？\nちょっと、\n見ておきたいんだけれど…。\n\0":
 '???',
 
@@ -2357,7 +2357,7 @@ translate_map = {
 #
 # ./USRDIR/event/tev1703.har_EXTRACT/tev1703.evs
 #
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "目標のΑΤフィールドは依然、健在。▽\nパターン、青からオレンジへ\n周期的に変化しています。\n\0":
 '???',
 
@@ -2365,11 +2365,11 @@ translate_map = {
 "どういう事？\n\0":
 '???',
 
-# Maya Ibuki ,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Maya Ibuki, Male Staff
 "マギは解答不能を提示しています。▽\nただ、あの形は固定形態でない事は\n確かですね。\n\0":
 '???',
 
-# Misato Katsuragi ,Kozo Fuyutsuki
+# Misato Katsuragi, Kozo Fuyutsuki
 "このまま膠着状態を\n続けるしかないか…。\n\0":
 '???',
 
@@ -2531,7 +2531,7 @@ translate_map = {
 "使徒だ…。\nくそ…、\n俺がパイロットだったら…。\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "目標は防衛線にて交戦中。\n\0":
 '???',
 
@@ -2551,15 +2551,15 @@ translate_map = {
 "こいつは強敵だわ。\n遺書を書く暇もなさそうね。\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "国連軍に、\n足止めを要請しておきます。\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ、起動準備整いました。\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "パイロット準備ＯＫ。\nパイロットに作戦の指示を\nお願いします。\n\0":
 '???',
 
@@ -2567,7 +2567,7 @@ translate_map = {
 "時は一刻を争うわ。▽\nヤツがゼロエリアに\n到達するのが先か。\nエヴァが使徒を倒すのが先か。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "ゼルエル\n\0":
 '???',
 
@@ -2688,7 +2688,7 @@ translate_map = {
 "さて、そろそろ\nおいとまするわね。\n\0":
 '???',
 
-# Misato Katsuragi ,Ritsuko Akagi ,Rei Ayanami 
+# Misato Katsuragi, Ritsuko Akagi, Rei Ayanami
 "そう。\n\0":
 '???',
 
@@ -2742,7 +2742,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "加持君…。\n\0":
-'???',
+'Kaji-kun...\n\0',
 
 # Ryoji Kaji
 "俺は、あの時の思い出だけで\nこれからも生きていける。\n何が起きようとも…。▽\nだから…、もう言わなくていい。\n\0":
@@ -2753,24 +2753,24 @@ translate_map = {
 #
 # Misato Katsuragi 
 "ここで%1iボタンを押すと、\n\0":
-'???',
+'When you press the %1i button here,\n\0',
 
 #
 # ./USRDIR/event/a010.har_EXTRACT/a010.evs
 #
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "マギによる演算結果でも\n勝率は０．００００１パーセント。▽\nしかし、ここを放棄する以外、\n他に手がありません。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "では、パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "エヴァで使徒を\n受け止めるんですか？\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "使徒、インド洋上空、\n衛星軌道上に突如出現！\n\0":
 '???',
 
@@ -2782,11 +2782,11 @@ translate_map = {
 "そうだ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止める。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "目標の落下予測地点にエヴァを\n配置し、ΑΤフィールドで\n直接使徒を受け止めます。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed],Makoto Hyuga
+# Male Staff, Makoto Hyuga
 "しかし、こんなに落下予想範囲が\n広くては…。\n\0":
 '???',
 
@@ -2796,11 +2796,11 @@ translate_map = {
 
 # Makoto Hyuga
 "こりゃ、すごい！\n\0":
-'???',
+'That\'s amazing!\n\0',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これは…すごい！\n\0":
-'???',
+'That is... incredible!\n\0',
 
 # Ritsuko Akagi 
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもありません。\nどうなさるおつもりですか？\n\0":
@@ -2814,7 +2814,7 @@ translate_map = {
 "また、無茶なヤツだな。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "常識を疑いますね。\n\0":
 '???',
 
@@ -2822,7 +2822,7 @@ translate_map = {
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもない。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率は………、\n万に一つもない。\n\0":
 '???',
 
@@ -2838,7 +2838,7 @@ translate_map = {
 "大した破壊力だな。\nやはりΑΤフィールドか。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "スゴイ破壊力ですね。\nさすがはΑΤフィールド。\n\0":
 '???',
 
@@ -2846,7 +2846,7 @@ translate_map = {
 "パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "落下のエネルギーをも\n利用しています。▽\n使徒そのものが\n爆弾みたいなものですね。\n\0":
 '???',
 
@@ -2854,7 +2854,7 @@ translate_map = {
 "とりあえず、\n初弾は太平洋に大ハズレ。\nだけど徐々に狙いを定めてきてるわ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "とりあえず、初弾は\n太平洋に落下していますが…、▽\n徐々に狙いが\n正確になってきています。\n\0":
 '???',
 
@@ -2866,7 +2866,7 @@ translate_map = {
 "…来るな。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "来ますね、多分。\n\0":
 '???',
 
@@ -2886,7 +2886,7 @@ translate_map = {
 "次はここに、本体ごとね。\nどうしようかしら？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "次はここに本体ごと。\nいったい、どうすれば………？\n\0":
 '???',
 
@@ -2938,7 +2938,7 @@ translate_map = {
 #
 # ./USRDIR/event/f054.har_EXTRACT/f054.evs
 #
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "加持さん。\n総務部に買い物頼まれてた\nでしょう？▽\nこちら、ですよね？\n\0":
 '???',
 
@@ -2946,7 +2946,7 @@ translate_map = {
 "ああ、サンキュー。\n重たいのに、すまないな。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ところで…、\nそれ、肥料ですよね…。\n何に使うんですか？\n\0":
 '???',
 
@@ -2958,11 +2958,11 @@ translate_map = {
 "ジオフロントの一角に加持が\n作った小さな家庭菜園がある。▽\nずっしりと重く、見事なスイカが\nたくさん実っている。\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley
+# Shinji Ikari, Asuka Soryu Langley
 "加持さん？\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "加持さん…、やないですか？\n\0":
 '???',
 
@@ -2974,7 +2974,7 @@ translate_map = {
 "スイカ…？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "スイカ畑…？\n\0":
 '???',
 
@@ -2990,7 +2990,7 @@ translate_map = {
 "何をしてるんですか？\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "こんなトコで、\n何してはるんですか？\n\0":
 '???',
 
@@ -3002,7 +3002,7 @@ translate_map = {
 "これ、育てているんですか？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これは全部、加持さんが？\n\0":
 '???',
 
@@ -3022,7 +3022,7 @@ translate_map = {
 "少し、ぬるいけど、\nおいしい…。\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "わ、甘っ！\n\0":
 '???',
 
@@ -3034,7 +3034,7 @@ translate_map = {
 "…おいしい。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "わぁ、おいしい…。\n\0":
 '???',
 
@@ -3078,7 +3078,7 @@ translate_map = {
 "なぁに、あの大荷物。\nどこ行くつもりかしら？\n\0":
 '???',
 
-# Makoto Hyuga,Kaworu Nagisa 
+# Makoto Hyuga, Kaworu Nagisa
 "加持さん…？\n\0":
 '???',
 
@@ -3098,7 +3098,7 @@ translate_map = {
 "あとをつけていくと、\nジオフロント内に\n小さな家庭菜園があった。▽\n加持が大きな荷物の中から\n藁を取り出し、スイカの下に\n丁寧に敷き詰めていく。\n\0":
 '???',
 
-# Misato Katsuragi ,Ritsuko Akagi 
+# Misato Katsuragi, Ritsuko Akagi 
 "加持くん。\n\0":
 '???',
 
@@ -3202,7 +3202,7 @@ translate_map = {
 "加持はそう言うと、\n再び畑仕事を始めた。▽\nそこは、水と土の優しい匂いがした。\n\0":
 '???',
 
-# Gendo Ikari,Kozo Fuyutsuki
+# Gendo Ikari, Kozo Fuyutsuki
 "あいつか、どこへ行くつもりだ？\n\0":
 '???',
 
@@ -3348,7 +3348,7 @@ translate_map = {
 "今日は、嬉しかった。\n父さんと話せて。\n\0":
 '???',
 
-# Gendo Ikari,Toji Suzuhara 
+# Gendo Ikari, Toji Suzuhara
 "そうか…。\n\0":
 '???',
 
@@ -3665,7 +3665,7 @@ translate_map = {
 #
 # ./USRDIR/event/b2s09.har_EXTRACT/b2s09.evs
 #
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "使徒、地表に着弾します！\nエヴァ、間に合いません！\n\0":
 '???',
 
@@ -3716,11 +3716,11 @@ translate_map = {
 "途方に暮れていると、\nネルフのＶＴＯＬが現れた。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "参号機をリニアレールで\nこちらに搬送中です。▽\nプラグスーツに着替えて\n指示に従って出撃してください！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "妹さんは、\nすぐ病院へ搬送します。\n\0":
 '???',
 
@@ -3854,7 +3854,7 @@ translate_map = {
 "さて、２年Ａ組は…。\nまいったな、こう人が多いとは…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "クレープっておいしいわぁ。\nあとはかき氷と、タイヤキね。\n\0":
 '???',
 
@@ -3910,7 +3910,7 @@ translate_map = {
 "仕事の一環さ。\nま、別に監視するつもりなんて\nさらさらないがね。▽\nホラ、差し入れ。\nもっと大きく声を出して\n客引っ張らないと売れないぞ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ちょっと、この近所に\n用事があったから寄ってみたの。\nもうクレープ３つも食べちゃった。▽\nそれにしてもこの店、\nガランとしてるわね。\n\0":
 '???',
 
@@ -4182,11 +4182,11 @@ translate_map = {
 "気分はどう？\n\0":
 '???',
 
-# Shinji Ikari,Rei Ayanami 
+# Shinji Ikari, Rei Ayanami
 "…誰？\n\0":
 '???',
 
-# Shinji's Shadow [Leliel],Kozo Fuyutsuki
+# Shinji's Shadow [Leliel], Kozo Fuyutsuki
 "碇シンジ。\n\0":
 '???',
 
@@ -4220,15 +4220,15 @@ translate_map = {
 
 # Asuka Soryu Langley
 "誰？\n\0":
-'???',
+'Who is it?\n\0',
 
-# Asuka's Shadow [Leliel],Kozo Fuyutsuki
+# Asuka's Shadow [Leliel], Kozo Fuyutsuki
 "惣流・アスカ・ラングレー。\n\0":
-'???',
+'Asuka Soryu Langley.\n\0',
 
 # Asuka Soryu Langley
 "それは私。\n私が惣流・アスカ・ラングレーよ。\n\0":
-'???',
+'That\'s me.\nI am Asuka Soryu Langley.\n\0',
 
 # Asuka's Shadow [Leliel]
 "そうよ。\nあなたも、そう。\n惣流・アスカ・ラングレー。▽\nあなたの中のアスカ。\nみんなの中のアスカ。\nそれが私。▽\nいつも心の奥底で泣いている。\n\0":
@@ -4240,15 +4240,15 @@ translate_map = {
 
 # Rei Ayanami 
 "あなたは誰？\n\0":
-'???',
+'Who are you?\n\0',
 
-# Rei's Shadow [Leliel],Kozo Fuyutsuki
+# Rei's Shadow [Leliel], Kozo Fuyutsuki
 "綾波レイ。\n\0":
-'???',
+'Rei Ayanami.\n\0',
 
 # Rei Ayanami 
 "あなたも綾波レイなの？\n\0":
-'???',
+'You are also Rei Ayanami?\n\0',
 
 # Rei's Shadow [Leliel]
 "そう、みんなが綾波レイと呼ぶもの。\n偽りの魂と作られた体を持つ、\n人のマネをしている物体。\n\0":
@@ -4292,7 +4292,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ…\n\0":
-'???',
+'Heh heh...\n\0',
 
 # Kaworu Nagisa 
 "これは…？\n\0":
@@ -4350,7 +4350,7 @@ translate_map = {
 
 # Kensuke Aida
 "さー？\n\0":
-'???',
+'Well?\n\0',
 
 # Kensuke Aida
 "ところでさ、シンジ。\nちょいと気になる情報を\n仕入れたんだけど。\n\0":
@@ -4474,7 +4474,7 @@ translate_map = {
 "みんな、いいわね。\nもう一度作戦内容を確認します。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "では、もう一度\n作戦内容を伝えます。\n\0":
 '???',
 
@@ -4482,7 +4482,7 @@ translate_map = {
 "作戦開始と同時に\nアンビリカルケーブル切断。▽\nあなた達は全体マップに表示される\n使徒の落下予想範囲を目指して\n移動を開始してちょうだい。▽\n落下予想範囲は一定時間毎に\n更新され、より正確な\n落下予想範囲が表示されていきます。▽\n常に最新の落下予想範囲を確認して、\nその地点へ効率よく迅速に移動して。▽\n最終落下ポイントに到着したエヴァは\n「ΑΤフィールド全開」で、\n使徒の落下を阻止。▽\n最初に落下ポイントに到着した\nエヴァは、残りが到着するまで\n持ちこたえてちょうだい。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "作戦開始と同時に\nアンビリカルケーブル切断。▽\nあなた達は全体マップに表示される\n使徒の落下予想範囲を目指して\n移動を開始してください。▽\n落下予想範囲は一定時間毎に\n更新され、より正確な\n落下予想範囲が表示されていきます。▽\n常に最新の落下予想範囲を確認して、\nその地点へ効率よく迅速に移動。▽\n最終落下ポイントに到着したエヴァは\n「ΑΤフィールド全開」で、\n使徒の落下を阻止。▽\n最初に落下ポイントに到着した\nエヴァは、残りが到着するまで\n持ちこたえてください。\n\0":
 '???',
 
@@ -4510,7 +4510,7 @@ translate_map = {
 "その時は、何もかも終わりよ。\n以上が作戦です。▽\nそれじゃ、作戦開始！！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "その時の覚悟はみんな出来ています。\nこんな作戦しか立てられませんが。▽\nそれでは、作戦を開始します！\n\0":
 '???',
 
@@ -4732,7 +4732,7 @@ translate_map = {
 
 # Maya Ibuki 
 "センパイ…？\n\0":
-'???',
+'Sempai...?\n\0',
 
 # Ritsuko Akagi 
 "フフフ…、拒まないのね？\n\0":
@@ -4752,7 +4752,7 @@ translate_map = {
 #
 # ./USRDIR/event/f012.har_EXTRACT/f012.evs
 #
-# Misato Katsuragi ,Ritsuko Akagi 
+# Misato Katsuragi, Ritsuko Akagi 
 "さて、そういえばこれから使徒の\n残骸を視察するんだったわ。\n\0":
 '???',
 
@@ -4772,7 +4772,7 @@ translate_map = {
 "私、行きます…。\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "どーしよっかな…、\nほな、行っとくか。\n\0":
 '???',
 
@@ -4784,7 +4784,7 @@ translate_map = {
 "どう、これから使徒残骸の\n回収作業を視察に行くけど、\nついてくる？▽\nどんな敵と戦ってるか、\n気になるでしょう？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これから使徒残骸の回収作業の\n視察が行われます。\n視察に随伴してもいいですよ。\n\0":
 '???',
 
@@ -4808,11 +4808,11 @@ translate_map = {
 "これから使徒の残骸を\n視察に出かけてくるわ。\n留守番をたのむわ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これから使徒残骸の\n視察に行ってきます。\n\0":
 '???',
 
-# Maya Ibuki ,Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Shigeru Aoba, Female Staff
 "了解しました。\n\0":
 '???',
 
@@ -4828,7 +4828,7 @@ translate_map = {
 "おう、使徒によろしくな。\n\0":
 '???',
 
-# Misato Katsuragi ,Ritsuko Akagi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Ritsuko Akagi, Female Staff
 "碇司令、使徒残骸の視察、\n出発の準備が出来ましたが。\n\0":
 '???',
 
@@ -4848,7 +4848,7 @@ translate_map = {
 "では、使徒残骸の視察に\n行ってまいります。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "では、これより使徒残骸の\n視察に行ってまいります。\n\0":
 '???',
 
@@ -4868,7 +4868,7 @@ translate_map = {
 "ちょっと触ってみよっと！\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "ひょえ〜、でっかいのー。\nこんなんと戦っとったんかい。\n\0":
 '???',
 
@@ -4876,7 +4876,7 @@ translate_map = {
 "死んでいるんじゃない、\n停止しているだけだ。\nヒトのように、朽ちる事はなく…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これまでに、何かわかった事は\nありますか？\n\0":
 '???',
 
@@ -4884,7 +4884,7 @@ translate_map = {
 "こちらのモニターに出ます。▽\n使徒は粒子と波、両方の性質を\n備える光のような未知の物質で\n構成されているようです。▽\nそしてこれが、使徒独自の\n固有波形パターン。▽\n構成物質の違いはあるものの、\n信号の配置と座標は人間のそれと\n９９．８９％酷似しています。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "こちらのモニターに出ます。▽\n使徒は粒子と波、両方の性質を\n備える光のような未知の物質で\n構成されているようです。▽\nこれが、使徒独自の\n固有波形パターンです。▽\n構成物質の違いはあるものの、\n信号の配置と座標は人間のそれと\n９９．８９％酷似しています。\n\0":
 '???',
 
@@ -4892,7 +4892,7 @@ translate_map = {
 "そうとも言えるわね。\n分析作業が進めば、\n詳しい事はわかるはずよ。\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "お前、こんな時でも\n何とも思わへんのか？\n\0":
 '???',
 
@@ -4900,7 +4900,7 @@ translate_map = {
 "………。▽\nわからない、でも。▽\n綺麗だと思うわ。\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "変な奴やのー。\n\0":
 '???',
 
@@ -4912,14 +4912,14 @@ translate_map = {
 "使徒から見たら、人間の存在だって\n不思議なモノだと思うよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "そろそろ本部に戻りましょう。▽\nデータはマギに\n送られているはずですから、\n本部で解析作業の続きを行います。\n\0":
 '???',
 
 #
 # ./USRDIR/event/f006.har_EXTRACT/f006.evs
 #
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed],Makoto Hyuga,Shigeru Aoba,Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Male Staff, Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Female Staff
 "これは、現在のアメリカ支部の\n状態です。\n静止衛星から確認しました。▽\nエヴァンゲリオン四号機ならびに\n半径８９キロ以内の関連研究施設は\n全て消滅しました。▽\n数千の人間も同じく…。\n\0":
 '???',
 
@@ -4927,7 +4927,7 @@ translate_map = {
 "どこ行ってたの？\nあなたの留守中に事故発生よ。▽\n数時間前にアメリカ支部が\n跡形もなく消滅したのよ。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "おそらくは、ドイツで修復した\nΣ機関の搭載実験中の\n事故でしょう。▽\nこのクレーター、爆発ではなく、\n消滅によって出来たものとは…。\nいや、信じられませんね…。\n\0":
 '???',
 
@@ -4951,11 +4951,11 @@ translate_map = {
 "どこにいらしてたんですか？\nアメリカ支部で事故発生ですよ。▽\nアメリカ支部が数時間前に突然\n跡形もなく消滅したとの事です。▽\n詳しく説明をしますので、\nまずはこちらのモニターへ、どうぞ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "アメリカ支部で事故が発生しました。\nアメリカ支部が数時間前に\n跡形もなく消滅したとの事です。▽\n詳しく説明をしますので、\nまずはモニターを\n見ていただきます。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "あなたの不在時に事故が\n発生しました。▽\nアメリカ支部が数時間前に\n跡形もなく消滅。▽\n原因は新型動力機関の暴走だと\n思われます。\n\0":
 '???',
 
@@ -4975,7 +4975,7 @@ translate_map = {
 "おそらくは、ドイツで修復した\nΣ機関の搭載実験中の事故と\n思われますが…。▽\nそれにしても、このクレーター、\n爆発ではなく、\n消滅によって出来たと…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "おそらくは、ドイツで修復した\nΣ機関の搭載実験中の事故と\n思われますが…。▽\nええ、繰り返しますがこれは、\n爆発ではなく、消滅したものです。\n\0":
 '???',
 
@@ -5096,7 +5096,7 @@ translate_map = {
 #
 # ./USRDIR/event/cev0303.har_EXTRACT/cev0303.evs
 #
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ロンギヌスの槍、松代より到着。\nジオフロント内へ移送します。\n\0":
 '???',
 
@@ -5108,7 +5108,7 @@ translate_map = {
 "もちろんだ。\n計画は問題無く進められる。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ロンギヌスの槍、\nケイジへの移送終了しました。\n\0":
 '???',
 
@@ -5152,15 +5152,15 @@ translate_map = {
 "ここまでは、\nゼーレのシナリオ通りだな。\n…さて。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "零号機パイロットは、\nロンギヌスの槍の最終移送を\nお願いします。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ロンギヌスの槍の移送作業、\n完了しました。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "了解、人類補完委員会への\n作業完了報告を行います。\n\0":
 '???',
 
@@ -5236,13 +5236,13 @@ translate_map = {
 
 # Misato Katsuragi 
 "エヴァシリーズの量産が\n始まったって、本当？\n\0":
-'???',
+'Is it true they\'ve started\n mass producing the Eva Series?\n\0',
 
 # Ryoji Kaji
 "エヴァシリーズの量産が\n始まったそうだな。\n\0":
-'???',
+'It seems mass production of\nthe Eva Series has started.\n\0',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "エヴァシリーズの量産が始まった\nとの情報が入りましたが、\nこれは…。\n\0":
 '???',
 
@@ -5254,11 +5254,11 @@ translate_map = {
 "公式ではありませんが、\nそのような情報が\nリリースされているようです。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "公式の情報ではありませんが、\n複数のルートから、その件に関する\n情報が流れています。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "エヴァ拾参号機までの\n第２次整備計画が\n開始されたそうです。\n\0":
 '???',
 
@@ -5278,11 +5278,11 @@ translate_map = {
 "委員会の焦りらしきものを\n感じるわね。▽\nしかも、非公式に…。\n一体何をするつもりなの…。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "予備戦力の増強であれば、\n非公式に行う理由は\nないはずですが…。▽\nすべては、情報が公開されるまで\nわかりませんね。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "エヴァ拾参号機までの第２次\n整備計画が開始されたそうです。\n\0":
 '???',
 
@@ -5333,7 +5333,7 @@ translate_map = {
 
 # Rei Ayanami 
 "あと１時間…。\n\0":
-'???',
+'One hour remaining...\n\0',
 
 # Ritsuko Akagi 
 "これでおしまいよ！！\n\0":
@@ -5376,35 +5376,35 @@ translate_map = {
 
 # Rei Ayanami 
 "待っている人がいる。\n会いたい人がいる。\n\0":
-'???',
+'There is someone waiting for me.\nSomeone I want to see.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n碇くんの声。\n\0":
-'???',
+'I heard a voice.\nIkari-kun\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\nセカンドの声。\n\0":
-'???',
+'I heard a voice.\nThe Second\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\nフィフスの声。\n\0":
-'???',
+'I heard a voice.\nThe Fifth\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n私の声。\n\0":
-'???',
+'I heard a voice.\nMy own voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n葛城三佐の声。\n\0":
-'???',
+'I heard a voice.\nMajor Katsuragi\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n葛城一尉の声。\n\0":
-'???',
+'I heard a voice.\nCaptain Katsuragi\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n赤木博士の声。\n\0":
-'???',
+'I heard a voice.\nDr. Akagi\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "会いたい。\n素直にそう思って、駆け出した。\n\0":
@@ -5416,7 +5416,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "声がした。\n鈴原くんの声。\n\0":
-'???',
+'I heard a voice.\nSuzuhara-kun\'s voice.\n\0',
 
 # Gendo Ikari
 "いよいよその時が来た。\nさあ、行こう、レイ。\n\0":
@@ -5424,15 +5424,15 @@ translate_map = {
 
 # (Decision Prompt)
 "ゲンドウについていく／ゲンドウを拒む\0":
-'???',
+'Go along with Gendo／Reject Gendo\0',
 
 # Rei Ayanami 
 "いいえ…。\n私は行かないわ…。\n\0":
-'???',
+'No...\nI\'m not going.\n\0',
 
 # Gendo Ikari
 "レイ…！\n\0":
-'???',
+'Rei...!\n\0',
 
 # Rei Ayanami 
 "私は、与えられた役目の為に\n生きたくない。\n\0":
@@ -5440,11 +5440,11 @@ translate_map = {
 
 # Gendo Ikari
 "待ってくれ、レイ！！\n\0":
-'???',
+'Wait for me, Rei!!\n\0',
 
 # Rei Ayanami 
 "碇司令…。▽\n人の心を…、\nありがとうございます。▽\nさようなら…。\n\0":
-'???',
+'Command Ikari...▽\nThank you,\n for my human heart.▽\nFarewell...\n\0',
 
 # Gendo Ikari
 "レ、レイ…。\n待て、待つんだ、\n待ってくれ、レイ！！\n\0":
@@ -5452,11 +5452,11 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "声がした。\n青葉二尉の声。\n\0":
-'???',
+'I heard a voice.\nLt. Aoba\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n相田くんの声。\n\0":
-'???',
+'I heard a voice.\nAida-kun\'s voice.\n\0',
 
 # Shigeru Aoba
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影なのか、これは？\n\0":
@@ -5470,33 +5470,33 @@ translate_map = {
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影か、何だこいつは？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影のようですが…。\n\0":
 '???',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n碇司令の声。\n\0":
-'???',
+'I heard a voice.\nCommander Ikari\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\nペンペンの声。\n\0":
-'???',
+'I heard a voice.\nPen Pen\'s voice.\n\0',
 
-# Makoto Hyuga,Shigeru Aoba
+# Makoto Hyuga, Shigeru Aoba
 "分析パターン青！\nまさか、使徒！？▽\nいや、違う。\nヒト、人間です！！\n\0":
-'???',
+'Analysis pattern blue!\nIt can\'t be...an Angel?!▽\nNo, something else.\nIt\'s a person, a human!!\n\0',
 
 # Maya Ibuki 
 "分析パターン青！\n…使徒！？▽\nいえ、違う。\nこれ…、ヒト、人間です！！\n\0":
-'???',
+'Analysis pattern blue!\n...An Angel?!▽\nNo, something else.\nIt\'s... a person, a human!!\n\0',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "分析パターン青！\n使徒！？▽\n違う、これは…、\nヒト、人間です！！\n\0":
-'???',
+'Analysis pattern blue!\n...An Angel?!▽\nNo, it\'s...\nA person, a human!!\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n副司令の声。\n\0":
-'???',
+'I heard a voice.\nThe deputy commander\'s voice.\n\0',
 
 # ??? [Lilith]
 "どこへ行くの…。\nあなたが還る場所は、\nここしかないのよ。\n\0":
@@ -5504,7 +5504,7 @@ translate_map = {
 
 # ??? [Lilith]
 "私に還りなさい…。\n\0":
-'???',
+'Please return to me...\n\0',
 
 # Rei Ayanami 
 "私の役割は…、\n私の生き方は自分で決める。▽\n例え…、長くは生きられなくとも…。\n\0":
@@ -5516,35 +5516,35 @@ translate_map = {
 
 # ??? [Lilith]
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
-'???',
+'Hurry... Return...\nto this body...\nGive me the Fruit of Life......\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n加持さんの声。\n\0":
-'???',
+'I heard a voice.\nKaji-san\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n日向二尉の声。\n\0":
-'???',
+'I heard a voice.\nLt. Hyuga\'s voice.\n\0',
 
 # ??? [Lilith]
 "もう、あなたの還る場所は…。\n\0":
-'???',
+'The place you belong is already...\n\0',
 
 # Rei Ayanami 
 "溶けていく…。\n\0":
-'???',
+'...melting away.\n\0',
 
 # ??? [Lilith]
 "…生命の……………………………\n………………実を…………………\n………………………………………。\n\0":
-'???',
+'The Fruit.........\n.....of Life....\n....Give to.......\n\0\',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n伊吹二尉の声。\n\0":
-'???',
+'I heard a voice.n\Lt. Ibuki\'s voice.\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n洞木さんの声。\n\0":
-'???',
+'I heard a voice.\nHoraki-san\'s voice.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le134.evs
@@ -5586,19 +5586,19 @@ translate_map = {
 #
 # ./USRDIR/event/n005.har_EXTRACT/n005.evs
 #
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "驚異的な攻撃力を持つ使徒に対し\n必死の応戦を行い、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "防衛線にて迎撃システムにより交戦するが、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "目標は、驚異的な破壊力を持ってこれを一掃、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "ただちにエヴァを出撃させ、市街地にて目標と交戦、\n本作戦に出動したエヴァは…\n\0":
 '???',
 
@@ -5744,7 +5744,7 @@ translate_map = {
 "ヒトの心が自分自身の形を\n造り出しているからね。\n\0":
 '???',
 
-# Shinji Ikari,Misato Katsuragi 
+# Shinji Ikari, Misato Katsuragi 
 "…ありがとう。\n\0":
 '???',
 
@@ -5762,7 +5762,7 @@ translate_map = {
 
 # Gendo Ikari
 "アダムとリリスの、\n禁じられた融合。\n\0":
-'???',
+'The forbidden fusion\n of Adam and Lilith.\n\0',
 
 # Kaworu Nagisa 
 "再びΑΤフィールドが、\n君や他人を傷つけてもいいのかい？\n\0":
@@ -5794,15 +5794,15 @@ translate_map = {
 
 # Gendo Ikari
 "そして、ユイのもとへ行こう。\n\0":
-'???',
+'And then, we\'ll go where Yui is.\n\0',
 
 # Gendo Ikari
 "始めよう、レイ。\nΑΤフィールドを、\n心の壁を解き放つのだ…。\n\0":
-'???',
+'Let\'s begin, Rei.\n Release the wall of your heart,\n your A.T. Field...\n\0',
 
 # Gendo Ikari
 "どうした、レイ。\n\0":
-'???',
+'What it is, Rei?\n\0',
 
 # Rei Ayanami 
 "私はあなたの人形じゃない。▽\n私はあなたじゃないもの。\n\0":
@@ -5810,11 +5810,11 @@ translate_map = {
 
 # Gendo Ikari
 "頼む！\n待ってくれレイ！！\n\0":
-'???',
+'Please!\n Wait for me, Rei!!\n\0',
 
 # Rei Ayanami 
 "だめ。\n碇君が呼んでる。\n\0":
-'???',
+'I can\'t.\nIkari-kun is calling.\n\0',
 
 # Rei Ayanami 
 "だから、見失った自分は、\n自分の力で取り戻すのよ。▽\n例え、自分の言葉を失っても。\n他人の言葉に取り込まれても。▽\n自らの心で\n自分自身をイメージ出来れば\n誰もがヒトの形に戻れるわ。\n\0":
@@ -5850,7 +5850,7 @@ translate_map = {
 
 # Shinji Ikari
 "綾波………レイ！？\n\0":
-'???',
+'Ayanami..... Rei?\n\0',
 
 # Shinji Ikari
 "…………………………………………\n…………………………………………\n……………………………………！？\n\0":
@@ -5858,7 +5858,7 @@ translate_map = {
 
 # Shinji Ikari
 "うわああああああああああああ！！\n\0":
-'???',
+'WAAAAHHHHHHHHHH!!\n\0',
 
 # Kaworu Nagisa 
 "ただ、ヒトは自分自身の意思で\n動かなければ、何も変わらない。\n\0":
@@ -6331,7 +6331,7 @@ translate_map = {
 "馬鹿な女。\n死んでから認められて\n何の意味があるのよ。\n\0":
 '???',
 
-# Ritsuko Akagi ,Asuka Soryu Langley
+# Ritsuko Akagi, Asuka Soryu Langley
 "ミサト…。\n\0":
 '???',
 
@@ -6811,11 +6811,11 @@ translate_map = {
 "月明かり。\n夜の風。\n水の匂い…。▽\nまどろみ漂う眠りの海。\n\0":
 '???',
 
-# Rei Ayanami ,[Text Only - No Designated Speaker]
+# Rei Ayanami,[Text Only - No Designated Speaker]
 "私が私でなくなる感じ。\n私の形がわからなくなる瞬間。▽\n…。▽\n………。▽\n………………。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker],Misato Katsuragi ,Ritsuko Akagi ,Makoto Hyuga,Shigeru Aoba,Maya Ibuki ,Gendo Ikari,Kozo Fuyutsuki,Ryoji Kaji
+# [Text Only - No Designated Speaker], Misato Katsuragi, Ritsuko Akagi, Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Gendo Ikari, Kozo Fuyutsuki, Ryoji Kaji
 "…！！\n\0":
 '???',
 
@@ -6856,7 +6856,7 @@ translate_map = {
 #
 # ./USRDIR/event/b2a00.har_EXTRACT/b2a00.evs
 #
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "使徒落下予想範囲、更新します！\n\0":
 '???',
 
@@ -6891,7 +6891,7 @@ translate_map = {
 "気をつけて。▽\n攻撃のタイミングを外すと、\n目標との接触タイミングを\n見失う事になるわ！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "攻撃のタイミングを外すと、\n目標との接触タイミングを\n見失います！▽\n気をつけてください。\n\0":
 '???',
 
@@ -7090,7 +7090,7 @@ translate_map = {
 "以後「渚カヲル」は従来通り、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "タブリス\n\0":
 '???',
 
@@ -7098,7 +7098,7 @@ translate_map = {
 "セントラルドグマに突如出現した\n使徒の正体は、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "フィフス・チルドレン\n「渚・カヲル」であることが判明。\n\0":
 '???',
 
@@ -7184,7 +7184,7 @@ translate_map = {
 "富士の電波観測所はどうした？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "富士の電波観測所の方は？\n\0":
 '???',
 
@@ -7192,11 +7192,11 @@ translate_map = {
 "何もかもが不明というわけか。\nとりあえず、様子をうかがいつつ、\n市街地から引き離すしかあるまい。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "何もかもが不明。\nとりあえず、エヴァの発進準備を\n急ぎましょう。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ΑΤフィールドがないなんて！？\nどういう事でしょうか…。\n\0":
 '???',
 
@@ -7242,7 +7242,7 @@ translate_map = {
 "そうですな。\n今やエヴァの存在までも\n周知の事実となってしまった。▽\n今日まで隠蔽していた\nネルフの組織活動も\nある程度は、公開せざるを得ない。\n\0":
 '???',
 
-# Gendo Ikari,Kozo Fuyutsuki,Ritsuko Akagi ,Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi, Female Staff
 "使徒の正体、襲来の理由。\n発表しなければならない事は\n山ほどあります。\n\0":
 '???',
 
@@ -7312,7 +7312,7 @@ translate_map = {
 "あんた、\n何言ってるか、わかってるの！？\nそんな方法は採れないわ！！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "そんな、\nこのまま子供を殺すわけには\nいかない！！\n\0":
 '???',
 
@@ -7330,31 +7330,31 @@ translate_map = {
 #
 # ./USRDIR/event/n003.har_EXTRACT/n003.evs
 #
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "その間、２体のエヴァを使用した\n同時荷重攻撃の作戦を立案。\n作戦に使用された機体は…、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "イスラフェル\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "目標は第３新東京市に再侵攻し\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "同時刻、エヴァでこれを上陸地点にて\n阻止する作戦を立案し、これを実行。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "作戦開始後、再び一体に融合\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "この時、目標は、国連軍の\nΝ地雷によって組織の２０％を損失。\n侵攻を一時押さえる事になりました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "パイロットの同時荷重攻撃により…\n\0":
 '???',
 
@@ -7372,7 +7372,7 @@ translate_map = {
 #
 # ./USRDIR/event/a001.har_EXTRACT/a001.evs
 #
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "目標は、超低高度で進行中。\n\0":
 '???',
 
@@ -7384,11 +7384,11 @@ translate_map = {
 "こちらへ向かっている事以外は\n大きな動きはないようだが…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "こちらへ向かっている事以外は\n大きな動きは見られません。\n\0":
 '???',
 
-# Shigeru Aoba,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Shigeru Aoba, Male Staff
 "中央ブロック、収容。\n第６ブロック、閉鎖。\n全館収容完了。▽\n政府及び関係各省へ通達終了。\n\0":
 '???',
 
@@ -7400,11 +7400,11 @@ translate_map = {
 "あれが、戦闘形態か？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "あれが、戦闘形態でしょうか？\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "使徒が進行に障害となるビルを\n破壊しました！▽\n腕部らしきところから出た\n触手によるものです。\n\0":
 '???',
 
@@ -7416,11 +7416,11 @@ translate_map = {
 "あの触手が武器というわけだな。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "あの触手が、武器という事ですね。\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "委員会から、\nエヴァの出撃要請が出ました！\n\0":
 '???',
 
@@ -7432,11 +7432,11 @@ translate_map = {
 "わかっている。\n出撃準備を急げ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "了解。\nエヴァ、出撃準備に入ります。\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "それでは作戦の指揮をお願いします。\n\0":
 '???',
 
@@ -7638,59 +7638,59 @@ translate_map = {
 #
 # ./USRDIR/event/n006.har_EXTRACT/n006.evs
 #
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "アルミサエル\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "目標は、ΑΤフィールドの反応は\nあるものの、青からオレンジへと\nパターンの変化が周期的に観測され、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "マギは回答不能を提示…。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "目標のデータが少ない上に、不明な点も多く、\n目標の動きもない事から膠着状態が続きました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "しかし、目標はその形態を変化。\nその後、ゆっくりと移動を開始。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "これと同時にエヴァンゲリオン、起動。\n参戦したのは…、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "敵の攻撃方法が不明のまま\n出撃という運びとなり、\n接近戦を避けつつ交戦。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "本作戦は長期戦となり、\nパイロットは苦戦を強いられるが\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "無事、作戦は完遂され、\n使徒は殲滅しました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "しかし、突如として目標はエヴァに接触。\n機体への侵食を開始。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "目標はエヴァ及び、パイロットと生体融合を果たし、\n分離不能と判断されました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "結果、機体を破棄し、\n使徒殲滅のために自爆装置を発動\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "機体とともに、目標は殲滅…。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "続いて、パイロットの死亡も確認されました…。\n\0":
 '???',
 
@@ -7948,7 +7948,7 @@ translate_map = {
 "パパはな…、ケンスケにはあんな\nモノには乗らずに大人になって\n欲しいと思っている…。\n\0":
 '???',
 
-# Kensuke Aida [Flashback],Shinji Ikari,Maya Ibuki 
+# Kensuke Aida [Flashback], Shinji Ikari, Maya Ibuki 
 "…え？\n\0":
 '???',
 
@@ -8166,7 +8166,7 @@ translate_map = {
 "テルオ、また講義サボリかよ。\n\0":
 '???',
 
-# Teruo Kato [for Aoba's scenario]
+# Teruo Kato
 "よう、シゲルじゃん。\n今日は休講だったんだよ。▽\nそうだ、キリコに聞いたよ。\nお前、内定もらったんだって？\n\0":
 '???',
 
@@ -8174,7 +8174,7 @@ translate_map = {
 "ああ、まさか受かると思って\nなかったけどさ。\n\0":
 '???',
 
-# Teruo Kato [for Aoba's scenario]
+# Teruo Kato
 "そっかー、よかったな。▽\nシゲルはさ、俺達よりも出来るし、\n色々活躍出来ると思うよ。\n\0":
 '???',
 
@@ -8182,7 +8182,7 @@ translate_map = {
 "それよりさ、\n事務所と契約したんだろ。\nどうなんだ？\n\0":
 '???',
 
-# Teruo Kato [for Aoba's scenario]
+# Teruo Kato
 "あー、お前の代わり\n…のギタリストと会わされた。\nで、これでユニット組んでくれって。▽\nユニット名も勝手に変えられてさ、\n「コバルトスカイ」だってよ。\nダッサイの！！▽\n………。▽\nシゲル…さ、\n一緒にやれると思ってたのに、\n本当にいいのかよ？▽\nギターで、食っていくって\nいっつも言ってただろ。▽\nプロデビューのチャンスなんだぜ。\n\0":
 '???',
 
@@ -8198,7 +8198,7 @@ translate_map = {
 "何を言っている…？\n\0":
 '???',
 
-# Ritsuko Akagi ,Shinji Ikari
+# Ritsuko Akagi, Shinji Ikari
 "どうしたの…？\n\0":
 '???',
 
@@ -8218,7 +8218,7 @@ translate_map = {
 "何が大人になれないって？\n\0":
 '???',
 
-# (Unknown Id: 1100, Maybe: Receptionist)
+# Toji Suzuhara
 "ハァ？\n\0":
 '???',
 
@@ -8230,7 +8230,7 @@ translate_map = {
 "大人がどうとかって、\n何ですか？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "何の話なんです、それ？\n\0":
 '???',
 
@@ -8420,7 +8420,7 @@ translate_map = {
 "一発の銃弾が身体を突き飛ばした。▽\n薄れる意識の中で最後に見たものは\n冷たい地面に広がる\n自分の血だまりだった。\n\0":
 '???',
 
-# Shinji Ikari,Kensuke Aida
+# Shinji Ikari, Kensuke Aida
 "しまった…。\n\0":
 '???',
 
@@ -8743,7 +8743,7 @@ translate_map = {
 "もちろん、\n父さんはこんな所に\n来てくれるわけもなく…。\n\0":
 '???',
 
-# Kensuke Aida,Hikari Horaki,Toji Suzuhara ,Kaworu Nagisa ,Asuka Soryu Langley,Rei Ayanami ,Shinji Ikari,[Text Only - No Designated Speaker],Maya Ibuki 
+# Kensuke Aida, Hikari Horaki, Toji Suzuhara, Kaworu Nagisa, Asuka Soryu Langley, Rei Ayanami, Shinji Ikari,[Text Only - No Designated Speaker], Maya Ibuki 
 "…………………………。\n\0":
 '???',
 
@@ -8864,13 +8864,13 @@ translate_map = {
 #
 # ./USRDIR/event/cev0117.har_EXTRACT/cev0117.evs
 #
-# Maya Ibuki ,Makoto Hyuga,Shigeru Aoba
+# Maya Ibuki, Makoto Hyuga, Shigeru Aoba
 "エヴァシリーズ、沈黙…！！\n\0":
-'???',
+'The Eva Series has gone silent!\n\0',
 
 # Kozo Fuyutsuki
 "…勝ったか。\n\0":
-'???',
+'Did we win?\n\0',
 
 # Makoto Hyuga
 "よくやった…、\nあのエヴァシリーズに勝つなんて。\n\0":
@@ -8880,7 +8880,7 @@ translate_map = {
 "やった！！\n勝ったぜ！！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "早く、機体とパイロットの\n回収を急ぎましょう。\n\0":
 '???',
 
@@ -8993,7 +8993,7 @@ translate_map = {
 #
 # Shinji Ikari
 "た、食べられたの！？\n\0":
-'???',
+'We got eaten?!\n\0',
 
 # Asuka Soryu Langley
 "いや〜〜〜〜ん！！\n\0":
@@ -9001,29 +9001,29 @@ translate_map = {
 
 # Asuka Soryu Langley
 "どうすればいいのよ〜。\n\0":
-'???',
+'What do we dooo?\n\0',
 
 # Misato Katsuragi 
 "あぁぁ…、まるで釣りだわ。\n\0":
-'???',
+'Huh... It\'s just like fishing.\n\0',
 
 # Misato Katsuragi 
 "…釣り！？\nそうだわ…。▽\nアスカ、よく聞いて！\n\0":
-'???',
+'...Fishing?!\nThat\'s it.▽\nAsuka, listen carefully!\n\0',
 
 # Misato Katsuragi 
 "これから戦艦２隻を自沈させて、\n使徒の体内に突入させます。▽\n艦首主砲塔の直接砲撃、更に自爆、\n目標を撃破します。▽\nそれまでに、弐号機で\n目標の口を開口させるのよ！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "まるで釣りだわ。\n\0":
-'???',
+'It\'s just like fishing.\n\0',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "…釣り！？\nそう、この方法なら…。▽\nアスカさん、いいですか？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "これから戦艦２隻を自沈させて、\n使徒の体内に突入させます。▽\n艦首主砲塔の直接砲撃、更に自爆、\n目標を撃破します。▽\nそれまでに、弐号機で\n目標の口を開口させてください！\n\0":
 '???',
 
@@ -9143,7 +9143,7 @@ translate_map = {
 #
 # Rei Ayanami 
 "私、自分がわからない。\n\0":
-'???',
+'I don\'t understand myself.\n\0',
 
 # Rei's Shadow [Leliel]
 "自分という存在に興味が無いのね。\n生きる事を放棄している。\n\0":
@@ -9206,7 +9206,7 @@ translate_map = {
 
 # Hikari Horaki
 "す…、鈴原。\n\0":
-'???',
+'Su-Suzuhara.\n\0',
 
 # Toji Suzuhara 
 "何や、委員長やないけ。\n\0":
@@ -9288,7 +9288,7 @@ translate_map = {
 "エヴァを４機も独占…か。\nその気になれば、\n世界を滅ぼせるわね。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "フォース・チルドレン、\n到着しました。\n起動実験の開始、お願いします。\n\0":
 '???',
 
@@ -9406,7 +9406,7 @@ translate_map = {
 
 # Shinji Ikari
 "父さんが？\n\0":
-'???',
+'Father is?\n\0',
 
 #
 # ./USRDIR/event/cev1429.har_EXTRACT/cev1429.evs
@@ -9579,7 +9579,7 @@ translate_map = {
 "…さあ、３人とも遅刻するわよ。\n学校、行ってらっしゃい。\n\0":
 '???',
 
-# Kensuke Aida,Toji Suzuhara 
+# Kensuke Aida, Toji Suzuhara
 "行ってきます！\n\0":
 '???',
 
@@ -9625,7 +9625,7 @@ translate_map = {
 #
 # ./USRDIR/event/e004.har_EXTRACT/e004.evs
 #
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "エヴァシリーズ、沈黙しました！\n\0":
 '???',
 
@@ -9665,7 +9665,7 @@ translate_map = {
 "すべては流れのままに…。\n僕は、彼女に許されるのだろうか…。\n\0":
 '???',
 
-# Makoto Hyuga,Shigeru Aoba
+# Makoto Hyuga, Shigeru Aoba
 "早く、機体とパイロットの\n回収を。\n\0":
 '???',
 
@@ -9685,7 +9685,7 @@ translate_map = {
 "…！？▽\nまさか、倒したはずの\nエヴァシリーズが…。▽\nエヴァシリーズ、Σ機関を解放。\nセカンドインパクトの初期現象と\n同じ現象が起こっています！！▽\nアンチΑΤフィールド、物質化！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "…！？▽\nそんな、倒したはずの\nエヴァシリーズが…。▽\nエヴァシリーズ、\nΣ機関を解放します！▽\nこれは、セカンドインパクトの初期\n現象と同じ事が起きています！！▽\nエヴァシリーズ、Σ機関を解放。\nアンチΑΤフィールド、\n物質化します。\n\0":
 '???',
 
@@ -9701,7 +9701,7 @@ translate_map = {
 "そしてリリス、\n君はそれを願ってはいない。▽\nそうだろう…？\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Shigeru Aoba,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Female Staff
 "アンチΑΤフィールド、\n臨界点を突破！▽\nこのままでは、個体生命の形が\n維持できません！\n\0":
 '???',
 
@@ -9717,7 +9717,7 @@ translate_map = {
 "ありがとう。\nあなたが教えてくれた。▽\nそれは、夢…、▽\nそれは、涙…、▽\nそれは、痛み…、▽\nそれは、安らぎ…。▽\nあなたと共に、\nみんなここにあるわ…。\n\0":
 '???',
 
-# Rei Ayanami ,Misato Katsuragi 
+# Rei Ayanami, Misato Katsuragi 
 "ありがとう…。\n\0":
 '???',
 
@@ -10352,7 +10352,7 @@ translate_map = {
 "あのっ…。\n\0":
 '???',
 
-# Makoto Hyuga,Shinji Ikari,Toji Suzuhara 
+# Makoto Hyuga, Shinji Ikari, Toji Suzuhara
 "…ん？\n\0":
 '???',
 
@@ -10482,19 +10482,19 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "エヴァシリーズ…、\n完成していたのか！！\n\0":
-'???',
+'The Eva Series...\n So it\'s been completed!\n\0',
 
 # Shinji Ikari
 "…こちら初号機、\n発進準備お願いします。\n\0":
-'???',
+'... Unit-01 here,\n requesting launch preparations.\n\0',
 
 # Asuka Soryu Langley
 "…こちら弐号機、\n発進準備お願いします。\n\0":
-'???',
+'... Unit-02 here,\n requesting launch preparations.\n\0',
 
 # Kaworu Nagisa 
 "…こちら四号機、\n発進準備お願いします。\n\0":
-'???',
+'... Unit-04 here,\n requesting launch preparations.\n\0',
 
 # Kaworu Nagisa 
 "………。▽\nとりあえず、話してくれませんか。\n何があったのかを。\n\0":
@@ -10506,11 +10506,11 @@ translate_map = {
 
 # Rei Ayanami 
 "いいえ、駄目。\n$cが呼んでいる…。\n\0":
-'???',
+'No, I can\'t.\n $c is calling me...\n\0',
 
 # (Decision Prompt)
 "ゲンドウについていく／…私を呼んでいる\0":
-'???',
+'Go along with Gendo／...Someone is calling me\0',
 
 # Misato Katsuragi 
 "戦自、約一個師団の投入か。\n占拠は時間の問題のようね。\n\0":
@@ -10532,7 +10532,7 @@ translate_map = {
 "もう、ここまで来たのか！？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "くそぅ、来やがった…！！\n\0":
 '???',
 
@@ -10560,7 +10560,7 @@ translate_map = {
 "マギをやつらに渡してはならん。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ＢＣ兵器だって…？\nくそ、マギが狙いか…。\n\0":
 '???',
 
@@ -10580,7 +10580,7 @@ translate_map = {
 "ヘブンズドアを目指しているのね。▽\nアレが奴らの手に渡れば、\n人為的にサードインパクトを\n引き起こされるわ！！▽\n自爆装置を発動させて、\n今すぐに！！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ここを自爆させましょう。\nそれしかありません。\n\0":
 '???',
 
@@ -10588,7 +10588,7 @@ translate_map = {
 "馬鹿な！\n赤木博士にマギの自爆を\n阻止させろ！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "そ、そんな…。\n赤木博士、マギのカウントを\nリセットして下さい！\n\0":
 '???',
 
@@ -10604,7 +10604,7 @@ translate_map = {
 "わかりました。▽\nう…、ぐあぁっ…。\nＢＣ兵器が…。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "うー…、ごほっ、ごほ…。\nＢＣ兵器…、い、息が…。\n\0":
 '???',
 
@@ -10624,7 +10624,7 @@ translate_map = {
 "はぁ…、はぁ…、\nここは私達の…、\n誰にも…渡さ…ない。▽\n………ううっ、…うぅー…。▽\n……………………………。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ざまあ…みやがれ…、\nふ、ふふふふふ…。▽\nう、げぇっ…、うがぁ…っ。▽\n…………………………。\n\0":
 '???',
 
@@ -10640,7 +10640,7 @@ translate_map = {
 "作動しない？\nなぜ？\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "ネルフ施設内に多数の侵入者あり、\n通信も各所不通です！\n\0":
 '???',
 
@@ -10656,7 +10656,7 @@ translate_map = {
 "クッ、ネルフの対人施設の予算が\n削られていたのは、このためなのね！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ネルフの対人施設の予算が\n削られていたのは、このためかっ！\n\0":
 '???',
 
@@ -10664,7 +10664,7 @@ translate_map = {
 "ある程度ネルフの対人施設は\n機能しているけど…。\n食い止められるかしら…。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ある程度ネルフの対人施設は\n機能しているはずだが…。\n食い止められるか…。\n\0":
 '???',
 
@@ -10672,7 +10672,7 @@ translate_map = {
 "こんな事もあろうかと、\nネルフの対人防御能力を\n高めていて正解だったわ。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "こんな事もあろうかと、\nネルフの対人防御能力を\n高めておいて正解だったな。\n\0":
 '???',
 
@@ -10680,7 +10680,7 @@ translate_map = {
 "どんなやつらが侵入しようと、\n心配ないわ！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "どんなやつらが侵入しようと、\n心配無用さ！\n\0":
 '???',
 
@@ -10724,7 +10724,7 @@ translate_map = {
 "シンジ君が、\nＢ地区で孤立しています！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "初号機パイロット、\nＢ地区で孤立しています！\n\0":
 '???',
 
@@ -10736,7 +10736,7 @@ translate_map = {
 "アスカが、\nＢ地区で孤立しています！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "弐号機パイロット、\nＢ地区で孤立しています！\n\0":
 '???',
 
@@ -10744,7 +10744,7 @@ translate_map = {
 "トウジ君が、\nＢ地区で孤立しています！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "参号機パイロット、\nＢ地区で孤立しています！\n\0":
 '???',
 
@@ -10752,7 +10752,7 @@ translate_map = {
 "カヲル君が、\nＢ地区で孤立しています！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "四号機パイロット、\nＢ地区で孤立しています！\n\0":
 '???',
 
@@ -10764,7 +10764,7 @@ translate_map = {
 "まずい、\n敵の侵攻ルート上じゃないか！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "まずい、\n敵の侵攻ルート上ですよ！\n\0":
 '???',
 
@@ -10820,7 +10820,7 @@ translate_map = {
 "はい、僕が行きます。\nみなさんもご無事で。\n\0":
 '???',
 
-# Kozo Fuyutsuki,Maya Ibuki 
+# Kozo Fuyutsuki, Maya Ibuki 
 "青葉君。\n\0":
 '???',
 
@@ -10832,7 +10832,7 @@ translate_map = {
 "…わかりました、\nパイロットを救出してまいります。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ネルフ直上に、未確認飛行物体\n計９機を確認。\n\0":
 '???',
 
@@ -10840,11 +10840,11 @@ translate_map = {
 "何ッ！？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "量産機！？\n飛行物体は、エヴァシリーズです！\n\0":
 '???',
 
-# Makoto Hyuga,Shigeru Aoba,Maya Ibuki ,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Male Staff
 "パイロット、\nエヴァへのエントリーを確認！\n\0":
 '???',
 
@@ -10852,7 +10852,7 @@ translate_map = {
 "救出先からの通信は？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "途絶えました…。\n恐らくは…。\n\0":
 '???',
 
@@ -10860,7 +10860,7 @@ translate_map = {
 "…そうか。▽\nよし、エヴァを発進させろ。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "パイロット、ケイジに\n到着したそうです。\n\0":
 '???',
 
@@ -10868,7 +10868,7 @@ translate_map = {
 "そうか、他には？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "これより発令所に\n帰還するとの事です！\n\0":
 '???',
 
@@ -11004,7 +11004,7 @@ translate_map = {
 "ミサトさん！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley
+# Shinji Ikari, Asuka Soryu Langley
 "リツコ…さん？\n\0":
 '???',
 
@@ -11016,15 +11016,15 @@ translate_map = {
 "リツコさん！？\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "日向さん！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "青葉さん？\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Kaworu Nagisa
 "マヤさん…？\n\0":
 '???',
 
@@ -11120,7 +11120,7 @@ translate_map = {
 "させない！！\n\0":
 '???',
 
-# Shinji Ikari,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Toji Suzuhara, Kaworu Nagisa
 "…！？▽\nミサトさんっ！\n\0":
 '???',
 
@@ -11128,19 +11128,19 @@ translate_map = {
 "…！？▽\nミサト、アンタ…！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "…！？▽\nリツコさんっ！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "…！？▽\n日向さん！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "…！？▽\n青葉さん！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "…！？▽\nマヤさんっ！！\n\0":
 '???',
 
@@ -11196,19 +11196,19 @@ translate_map = {
 "この先は駄目、\n絶対に進ませない！！\n\0":
 '???',
 
-# Shinji Ikari,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Toji Suzuhara, Kaworu Nagisa
 "ミサトさんっ！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "リツコさんっ！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "青葉さん！！\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Toji Suzuhara ,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "マヤさんっ！！\n\0":
 '???',
 
@@ -11272,9 +11272,9 @@ translate_map = {
 "素早くフロアに設置された\n爆破装置に手をかけた。▽\n$pがひとたび遠くに行ったのを\n確認して、パスワードを入力する。\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Kaworu Nagisa
 "早く！！\n\0":
-'???',
+'Hurry!!\n\0',
 
 # Toji Suzuhara 
 "早う！！\n\0":
@@ -11384,7 +11384,7 @@ translate_map = {
 "せんぱ…、▽\nセンパイ…、赤木博士がいません。▽\n駄目です、マギの自爆カウント、\n止まりません！\n\0":
 '???',
 
-# Misato Katsuragi ,Ritsuko Akagi ,Maya Ibuki 
+# Misato Katsuragi, Ritsuko Akagi, Maya Ibuki 
 "行ってらっしゃい。\n\0":
 '???',
 
@@ -11428,11 +11428,11 @@ translate_map = {
 "ゼーレが決断を下したようだ。\nという事は、まず僕は消される\nだろうな…。\n\0":
 '???',
 
-# Shinji Ikari,Asuka Soryu Langley,Rei Ayanami ,Hikari Horaki,Toji Suzuhara ,Kensuke Aida,Kaworu Nagisa 
+# Shinji Ikari, Asuka Soryu Langley, Rei Ayanami, Hikari Horaki, Toji Suzuhara, Kensuke Aida, Kaworu Nagisa
 "………！？\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "これで終わりか…。\n\0":
 '???',
 
@@ -11500,7 +11500,7 @@ translate_map = {
 "娘からの最後の頼みよ。\n母さん、一緒に死んでちょうだい。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "赤木博士の所在不明！\nマギの自爆カウント\n止まりません！\n\0":
 '???',
 
@@ -11511,7 +11511,7 @@ translate_map = {
 "フィフス！！\n\0":
 '???',
 
-# Asuka Soryu Langley,Hikari Horaki
+# Asuka Soryu Langley, Hikari Horaki
 "鈴原！！\n\0":
 '???',
 
@@ -11725,7 +11725,7 @@ translate_map = {
 "香水の匂い、そのカッコ。\n本当に仕事なの…。▽\n母さん、\nどこへ行くの…。\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "そっち、行き止まりですよ。\n\0":
 '???',
 
@@ -11964,7 +11964,7 @@ translate_map = {
 "大変！\n保健室へ行った方がいいわ。\n立てる？\n\0":
 '???',
 
-# Rei Ayanami ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Rei Ayanami, Female Staff
 "大丈夫…？\n\0":
 '???',
 
@@ -12094,7 +12094,7 @@ translate_map = {
 #
 # ./USRDIR/event/b2s38.har_EXTRACT/b2s38.evs
 #
-# Shinji Ikari,Toji Suzuhara 
+# Shinji Ikari, Toji Suzuhara
 "綾波！！\n\0":
 '???',
 
@@ -12128,7 +12128,7 @@ translate_map = {
 "パイロットは\n誰でもいいというわけじゃないの。▽\nあなたが選ばれたのは、\nあなたにそのパイロットの\n素質が認められたからよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "我々ネルフの組織による\nマルドゥック機関により、\nパイロットの選出を行います。▽\n今回は、あなたがその素質を\n見込まれて選ばれる運びと\nなりました。\n\0":
 '???',
 
@@ -12140,7 +12140,7 @@ translate_map = {
 "あなたのお父さんには、\n既に許可をいただいています。▽\nこの件について、\n引き受けてもらえるかしら？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "あなたのお父さまには、こちらから\n許可をいただいております。▽\nこの件について、\nお引き受けしていただけますか？\n\0":
 '???',
 
@@ -12152,7 +12152,7 @@ translate_map = {
 "お安い御用よ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "わかりました。\n手続きはこちらですべて、\n行います。\n\0":
 '???',
 
@@ -12172,7 +12172,7 @@ translate_map = {
 "鈴原くん？\nちょうどよかったわね、\n私は今から出るところだったの。▽\nこのまま一緒に松代へ行く？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "鈴原くん…、\n松代へは現地集合に\nなっていたはずだけど…。▽\nああ、遊びに来たのね。\n私はもう用事が済んだから本部へ\n戻るけど、ちゃんと松代へ行くのよ。\n\0":
 '???',
 
@@ -12216,7 +12216,7 @@ translate_map = {
 "ねえ、ここに鈴原くん\nいるかしら？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "こちらに鈴原トウジくんは\n来ていませんか？\n\0":
 '???',
 
@@ -12292,7 +12292,7 @@ translate_map = {
 "思ったより順調のようね。\n中の彼は、今どんな気持ち\nなのかしらね。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ここまでは全て順調です。\nこれより、作業をフェイズ２へ\n移行します。\n\0":
 '???',
 
@@ -12300,7 +12300,7 @@ translate_map = {
 "起動実験中止、全神経接続カット！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "起動実験中止、回路切断！！\n\0":
 '???',
 
@@ -12308,27 +12308,27 @@ translate_map = {
 "参号機より高エネルギー反応、\n加速度的に高まっています！！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "早く、本部へ連絡を！！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "松代より入電！\nエヴァ参号機が暴走した模様です。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "エヴァ参号機のパルス、\n確認不可！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "タイヘンです！\n松代より巨大な物体が\nこちらに向かっています！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "エヴァ参号機です…。\nパターン青、エヴァ参号機\n使徒と判別されました！！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "エヴァ参号機は現時刻をもって破棄。\n目標を使徒と識別して対処します。\n迎撃地点にエヴァ全機緊急配置！\n\0":
 '???',
 
@@ -12336,7 +12336,7 @@ translate_map = {
 "しょっぱなから素質を\n見せ付けてくれるじゃないの。▽\nでも、本人はどんな気持ちで\nいるのかしらね？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "Ａ１０神経接続、異常無し。\nここまでは全て順調です。\n\0":
 '???',
 
@@ -12344,7 +12344,7 @@ translate_map = {
 "シンクロ率、どう？\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "結果報告をお願いします。\n\0":
 '???',
 
@@ -12352,7 +12352,7 @@ translate_map = {
 "ま、初めてじゃ、こんなものよねぇ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "引き続き、経過を報告して下さい。\n\0":
 '???',
 
@@ -12360,7 +12360,7 @@ translate_map = {
 "無事実験終了、これで一安心ね。\nエヴァ参号機とトウジくん、\nネルフはあなた達を歓迎するわ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "了解。\n実験を終了します。▽\n参号機とパイロットを\n本部へ輸送します。\n\0":
 '???',
 
@@ -12380,7 +12380,7 @@ translate_map = {
 "と、いうわけなの。\n今後の作戦にはトウジくんにも\n加わってもらうわ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "以上、説明した通りです。\n今後の作戦にはトウジくんにも\n加わってもらいます。\n\0":
 '???',
 
@@ -12396,7 +12396,7 @@ translate_map = {
 "あら、緊張が解けたのね。\n突き当たりを右に行ったらあるわよ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ああ、突き当たりを\n右に行けばありますよ。\n緊張が解けたんですね。\n\0":
 '???',
 
@@ -12472,7 +12472,7 @@ translate_map = {
 
 # Rei Ayanami 
 "生命の実と…、知恵の実。\n\0":
-'???',
+'The Fruit of Life... and the Fruit of Wisdom.\n\0',
 
 # Teacher
 "また、神が人間を生成する時に\n石ではなく、やはりバナナや樹木を\n材料にした為、▽\n短命になったのだという神話もある。▽\nまあ、南方系に多く見られる神話だ。▽\n石を選んでいたら、ひょっとしたら\n人間は石のように不死の身体を得て\nいたのかもしれないな。\n\0":
@@ -12496,7 +12496,7 @@ translate_map = {
 
 # ??? [Lilith]
 "戻っておいで…、\n戻ってきなさい…。\n\0":
-'???',
+'Come back...\n Please come back to me...\n\0',
 
 # ??? [Lilith]
 "私の子らは、それを望んでいるわ。\n\0":
@@ -12504,16 +12504,16 @@ translate_map = {
 
 # Rei Ayanami 
 "あなた、誰？\n\0":
-'???',
+'Who are you?\n\0',
 
 # ??? [Lilith]
 "あなたは、私。\n私は、あなた。▽\n人類を生み出したもの。\n人はリリスと呼ぶわ。\n\0":
-'???',
+'You are me.\nI am you.▽\nThe one who birthed humanity.\nPeople call us Lilith.\n\0',
 
 #
 # ./USRDIR/event/f052.har_EXTRACT/f052.evs
 #
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "ああ、日向さん…。\n\0":
 '???',
 
@@ -12521,7 +12521,7 @@ translate_map = {
 "ああ、郵便物だね。\nわざわざありがとう。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "それと、これ。\n実家から来てますよ。\n\0":
 '???',
 
@@ -12537,7 +12537,7 @@ translate_map = {
 "お見合い写真とともに\n父からの手紙が同封されている。\n震える手で、手紙を開く。▽\nマコトへ。\n私もそろそろ孫が見たい。\n日取りを決めたいので連絡しなさい。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "まあ、ふくよかで\nかわいい人じゃないですか…。▽\n日向さん、この人と\nお見合いしちゃうんですか！？\n\0":
 '???',
 
@@ -12549,15 +12549,15 @@ translate_map = {
 "うぅー、\nとうとう実力行使に出るなんて…。▽\nしかも、こんなもの職場に送って\n既成事実を作るつもりだったんだ…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "おめでたい話じゃないですか。▽\nもしかしたら、日向さんの\n扶養家族が増えるかもって、\n総務課の友達に言っておきますね！\n\0":
 '???',
 
 # Makoto Hyuga
 "待って、待ってくれって………！\n\0":
-'???',
+'Wait! Wait for me!\n\0',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "タイヘン、タイヘ〜ン！！\n\0":
 '???',
 
@@ -12673,7 +12673,7 @@ translate_map = {
 "そっか、\n日向さんも適齢期だもんね〜。\n\0":
 '???',
 
-# Rei Ayanami ,Toji Suzuhara 
+# Rei Ayanami, Toji Suzuhara
 "おめでとうございます。\n\0":
 '???',
 
@@ -12709,7 +12709,7 @@ translate_map = {
 "何気に職員の立ち話に\n耳を立てていると、\n日向の話題を耳にした…。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "ホラ、作戦局第一課の日向さん、\n昨日、見合いだったらしいよ。\n\0":
 '???',
 
@@ -12717,15 +12717,15 @@ translate_map = {
 "えっ…！！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "そうそう、総務部の友達がね、\n日向さんの父親がよく電話かける\nから、取り次いでいたって。▽\nそういう事だったのね。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "相当、嫌がっていたようだけど\n実際はどうだったのかな。\n気になるよねぇ。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "そうですね、\n意外とサッサと決めちゃって\n結婚するって事ありますからね。\n\0":
 '???',
 
@@ -12847,7 +12847,7 @@ translate_map = {
 #
 # ./USRDIR/event/n007.har_EXTRACT/n007.evs
 #
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "セントラルドグマに突如出現した使徒の正体は、\n\0":
 '???',
 
@@ -12855,31 +12855,31 @@ translate_map = {
 "目標はエヴァ弐号機を操り、\nターミナルドグマを目指して侵攻しました。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "目標はエヴァ弐号機を操り、\nターミナルドグマ目指して侵攻しました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "初号機パイロット、碇シンジが目標を追撃。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "接触に成功し、目標に対し説得を試みます。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "結果、碇シンジによる、目標の説得に成功。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "以後「渚・カヲル」は従来通り、\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "フィフス・チルドレン、\nエヴァパイロットとして存続する\nことになりました。\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "しかし、目標の説得に失敗し、\n\0":
 '???',
 
@@ -12887,7 +12887,7 @@ translate_map = {
 "初号機により目標を殲滅…。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "初号機により目標を殲滅しました。\n\0":
 '???',
 
@@ -12912,19 +12912,19 @@ translate_map = {
 #
 # ./USRDIR/event/b2s23.har_EXTRACT/b2s23.evs
 #
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "初号機、活動停止！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "弐号機、活動停止！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "参号機、活動停止！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "四号機、活動停止！\n\0":
 '???',
 
@@ -13092,11 +13092,11 @@ translate_map = {
 "次の出撃までに他のパイロットと\nユニゾン訓練を行い、\nユニゾン値を上げてください。▽\nユニゾン値が高い\nパイロット二人による\n同時荷重攻撃を行います。\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Female Staff
 "同時刻、エヴァでこれを上陸地点にて\n阻止する作戦を立案、実行。\n\0":
 '???',
 
-# Maya Ibuki ,Makoto Hyuga,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Makoto Hyuga, Female Staff
 "それと並行して、初号機の凍結を\n解除。\n\0":
 '???',
 
@@ -13116,30 +13116,30 @@ translate_map = {
 "いいとこなしですね。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "それにしても、\n派手にやられましたね…。\n\0":
 '???',
 
 #
 # ./USRDIR/event/b2s32.har_EXTRACT/b2s32.evs
 #
-# Ritsuko Akagi ,Misato Katsuragi 
+# Ritsuko Akagi, Misato Katsuragi 
 "捕獲作戦は中止、使徒殲滅を\n最優先に！▽\n撤収作業をしつつ、\n戦闘準備！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ初号機、限界深度、オーバー。\nプラス１００、…２００。\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "捕獲作戦は中止、使徒殲滅を\n最優先に！▽\n戦闘準備に移ります！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "第２循環パイプ、\n及びエヴァ各部に亀裂発生。\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ弐号機、限界深度、オーバー。\nプラス１００、…２００。\n\0":
 '???',
 
@@ -13147,7 +13147,7 @@ translate_map = {
 "こ、この状態で！？\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ零号機、限界深度、オーバー。\nプラス１００、…２００。\n\0":
 '???',
 
@@ -13155,7 +13155,7 @@ translate_map = {
 "待ってました！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ参号機、限界深度、オーバー。\nプラス１００、…２００。\n\0":
 '???',
 
@@ -13163,7 +13163,7 @@ translate_map = {
 "まずいわ！\n孵化を始めたのよ。\n予測より早すぎるわ！\n\0":
 '???',
 
-# Maya Ibuki ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Maya Ibuki, Female Staff
 "エヴァ四号機、限界深度、オーバー。\nプラス１００、…２００。\n\0":
 '???',
 
@@ -13171,7 +13171,7 @@ translate_map = {
 "んな、無茶苦茶ですわ！\n…っか〜、しゃーない。\nハラ決めたるわ！！\n\0":
 '???',
 
-# Makoto Hyuga,Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Makoto Hyuga, Male Staff
 "これ以上は無理です！\n機体が持ちません！\n\0":
 '???',
 
@@ -13183,7 +13183,7 @@ translate_map = {
 "いた。\nいたわ、使徒よ…。\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "まずい！\n使徒が孵化を始めました！\n計算より早いです！\n\0":
 '???',
 
@@ -13203,11 +13203,11 @@ translate_map = {
 "四号機です。\n使徒を発見しました。\n\0":
 '???',
 
-# Misato Katsuragi ,Ritsuko Akagi 
+# Misato Katsuragi, Ritsuko Akagi 
 "捕獲準備！\n\0":
 '???',
 
-# Male Staff [a.k.a. Dummy-kun - male bridge bunny who provides Hyuga or Aoba's lines if one of them is killed]
+# Male Staff
 "捕獲準備を！\n\0":
 '???',
 
@@ -13219,7 +13219,7 @@ translate_map = {
 "いい？\n対流で流されているから、\n接触できるチャンスは１度きりよ！\n\0":
 '???',
 
-# Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Female Staff
 "対流で流されています。\n接触できるチャンスは１度きりです。\n\0":
 '???',
 
@@ -13352,7 +13352,7 @@ translate_map = {
 
 # Shinji Ikari
 "あのー…、副司令。\n\0":
-'???',
+'Ummmm... Deputy Commander...\n\0',
 
 # Kozo Fuyutsuki
 "冬月先生と言いたまえ！\n\0":
@@ -13447,7 +13447,7 @@ translate_map = {
 "それは、\nどういった意味なのでしょうか？\n\0":
 '???',
 
-# Misato Katsuragi ,Female Staff [a.k.a. Dummy-san - female bridge bunny who provides Maya's lines if she is killed]
+# Misato Katsuragi, Female Staff
 "それは、どういう意味でしょうか？\n\0":
 '???',
 
