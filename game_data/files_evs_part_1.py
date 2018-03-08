@@ -193,7 +193,7 @@ translate_map = {
 "冬月がそわそわした様子で\n立っている。\n誰かを待っているのだろうか？\n\0":
 '???',
 
-# Male Staff,Shigeru Aoba
+# Male Staff, Shigeru Aoba
 "副司令。\n\0":
 'Deputy Commander.\n\0',
 
@@ -901,7 +901,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "…碇。\n\0":
-'???',
+'...Ikari.\n\0',
 
 # Gendo Ikari
 "……………………………。▽\nわかっている、初号機を出せ。\n凍結は解除だ！\n\0":
@@ -913,7 +913,7 @@ translate_map = {
 
 # Male Staff
 "はっ…！！\n\0":
-'???',
+'Yessir!!\n\0',
 
 # [Text Only - No Designated Speaker]
 "初号機の凍結が解除されました。\n初号機が出撃可能になります。\n\0":
@@ -3279,7 +3279,7 @@ translate_map = {
 "ここは！？\n\0":
 '???',
 
-# Shigeru Aoba [Flashback],Shigeru Aoba
+# Shigeru Aoba [Flashback], Shigeru Aoba
 "やっぱ駄目だわ。\n俺、才能ないって言われた。\n\0":
 '???',
 
@@ -3291,7 +3291,7 @@ translate_map = {
 "あれ、俺だ…。\n学生時代の…、\n俺と…、テルオ…？\n\0":
 '???',
 
-# Shigeru Aoba [Flashback],Shigeru Aoba
+# Shigeru Aoba [Flashback], Shigeru Aoba
 "デビューしていい曲かけよ。\n応援するからさ。\n\0":
 '???',
 
@@ -3338,7 +3338,7 @@ translate_map = {
 "違うわ。\n碇司令はね、あなたの知らない\nもっと別の顔を持ってるのよ。▽\n知りたいでしょう？\n今から、あなたに教えてあげるわ。\n車に乗って…。\n\0":
 '???',
 
-# Shinji Ikari,Shigeru Aoba
+# Shinji Ikari, Shigeru Aoba
 "あの…。\n\0":
 '???',
 
@@ -3596,7 +3596,7 @@ translate_map = {
 "綾波に手紙…？\n\0":
 '???',
 
-# Hikari Horaki,Shigeru Aoba
+# Hikari Horaki, Shigeru Aoba
 "手紙…？\n\0":
 '???',
 
@@ -4369,11 +4369,11 @@ translate_map = {
 
 # Maya Ibuki 
 "そんな…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
-'But that\'s--!?\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is ascending radically!\n\0',
+'But that\'s--!?\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is climbing rapidly!\n\0',
 
 # Female Staff
 "これは…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
-'This is--?!\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is ascending radically!\n\0',
+'This is--?!\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is climbing rapidly!\n\0',
 
 # Ritsuko Akagi 
 "どうなってるの？\n原因は？\n\0":
@@ -4393,7 +4393,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "…暴走！？\n\0":
-'... It\'s berserk?!\n\0',
+'...It\'s berserk?!\n\0',
 
 # Male Staff
 "まさか…、暴走！？\n\0":
@@ -4405,7 +4405,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "目標、ゼロエリアを突破！\nジオフロントに向かっています！\n\0":
-'Target has breached Area Zero!\nIt\’s heading for the GeoFront!\n\-',
+'Target has breached Area Zero!\nIt\’s heading for the GeoFront!\n\0',
 
 # Misato Katsuragi 
 "エヴァは、リニアレールから\nジオフロントまで撤退！\n迎撃態勢を取って！\n\0":
@@ -4913,19 +4913,19 @@ translate_map = {
 
 # Shinji Ikari
 "だって…、\n人、人が乗ってるんだよ！\n父さん！\n\0":
-'???',
+'Because...\nthere\'s a person in there,\nFather!\n\0',
 
 # Shinji Ikari
 "だって、トウジが、\nトウジが乗ってるんだよ！\n父さん！\n\0":
-'???',
+'Because Toji...\n Toji\'s in there,\nFather!\n\0',
 
 # Gendo Ikari
 "構わん。\nそいつは使徒だ。\n我々の敵だ。\n\0":
-'???',
+'Irrelevant.\nIt\'s an Angel.\nOur enemy.\n\0',
 
 # Shinji Ikari
 "でも、でも、出来ないよ。\n助けなきゃ！\n人殺しなんて出来ないよ！\n\0":
-'???',
+'But, but I can\'t do it!\nI have to help them!\nI can\'t kill somebody!\n\0',
 
 # Shinji Ikari
 "トウジは、友達なんだ。\n僕の友達なんだ。\n戦えるわけないじゃないか！！\n\0":
@@ -4933,11 +4933,11 @@ translate_map = {
 
 # Gendo Ikari
 "お前が死ぬぞ。\n\0":
-'???',
+'You will die.\n\0',
 
 # Shinji Ikari
 "いいよ。\n人を殺すよりはいいっ！！\n\0":
-'???',
+'That\'s okay.\nIt\'s better than killing someone!\n\0',
 
 # Shinji Ikari
 "いいよ。\nトウジを殺すくらいなら、\n僕が死んだほうがいい…！！\n\0":
@@ -4985,7 +4985,7 @@ translate_map = {
 
 # Shinji Ikari
 "…何？\n何をしたんだ、父さん！\n\0":
-'???',
+'...What?\nWhat have you done, Father?!\n\0',
 
 # Maya Ibuki, Female Staff
 "管制システム、切り替え終了。\n全神経、ダミーシステムへ直結完了。▽\n感情素子の３２．８パーセントが\n不鮮明。\nモニター出来ません。\n\0":
@@ -4997,7 +4997,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "エヴァ参号機…いえ、\n目標は完全に沈黙しました。\n\0":
-'???',
+'Eva Unit-03-- I mean,\nthe target is completely silent.\n\0',
 
 # Makoto Hyuga
 "エントリープラグの解体班より連絡。\n生存者を確認！\n\0":
@@ -5005,7 +5005,7 @@ translate_map = {
 
 # Male Staff
 "参号機パイロットは…、\n生存確認！\n生きてます！\n\0":
-'???',
+'Unit-03\'s pilot...\n Life signs confirmed!\nHe\'s alive!\n\0',
 
 # Shinji Ikari,Toji's Mother, Kensuke Aida
 "トウジ…。\n\0":
@@ -5121,7 +5121,7 @@ translate_map = {
 
 # Shinji Ikari, Misato Katsuragi 
 "カヲル君！！\n\0":
-'???',
+'Kaworu-kun!!\n\0',
 
 # Shinji Ikari
 "待って、カヲル君！\n\0":
@@ -5511,7 +5511,7 @@ translate_map = {
 "エヴァ両機、活動限界です。\n\0":
 '???',
 
-# Kozo Fuyutsuki,Shigeru Aoba
+# Kozo Fuyutsuki, Shigeru Aoba
 "万策尽きたか…。\n\0":
 '???',
 
@@ -6981,75 +6981,75 @@ translate_map = {
 
 # Misato Katsuragi 
 "シンジ君、射撃開始！\n\0":
-'???',
+'Shinji-kun,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "初号機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-01,\ncommence firing!\n\0',
 
 # Female Staff
 "初号機パイロットは、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-01,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "アスカ、射撃開始！\n\0":
-'???',
+'Asuka,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-02,\ncommence firing!\n\0',
 
 # Female Staff
 "弐号機パイロットは、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-02,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "レイ、射撃開始！\n\0":
-'???',
+'Rei,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "零号機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-00,\ncommence firing!\n\0',
 
 # Female Staff
 "零号機パイロットは、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-00,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "トウジ君、射撃開始！\n\0":
-'???',
+'Toji-kun,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "参号機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-03,\ncommence firing!\n\0',
 
 # Female Staff
 "参号機パイロットは、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-03,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "カヲル君、射撃開始！\n\0":
-'???',
+'Kaworu-kun,\ncommence firing!\n\0',
 
 # Kozo Fuyutsuki
 "四号機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-04,\ncommence firing!\n\0',
 
 # Female Staff
 "四号機パイロットは、\n射撃開始！\n\0":
-'???',
+'Pilot of Unit-04,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、射撃開始！\n\0":
-'???',
+'Both Evas,\ncommence firing!\n\0,
 
 # Kozo Fuyutsuki
 "エヴァ両機パイロット、\n射撃開始！\n\0":
-'???',
+'Pilots of both Evas,\ncommence firing!\n\0',
 
 # Female Staff
 "エヴァ両機パイロットは\n射撃開始！\n\0":
-'???',
+'Pilots of both Evas,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "シンジ君はその場で待機！\n\0":
@@ -8608,7 +8608,7 @@ translate_map = {
 
 # Kyoko Soryu Zeppelin 
 "そう…、いいのよ。\nママはずっと一緒にいるわ。▽\nアスカちゃん…。\n\0":
-'???',
+'I see... That\'s good.\nMama is always with you,▽\nAsuka-chan...\n\0',
 
 # Rei Ayanami 
 "もう、何も見えない。\n何も聞こえない…。▽\n思い出すのは、ただ暗闇の中。\n\0":
@@ -8667,7 +8667,7 @@ translate_map = {
 
 # Gendo Ikari
 "ところで、\n初号機のパイロットはいるか。\n\0":
-'???',
+'Is the pilot of\n Unit-01 there?\n\0',
 
 # Gendo Ikari
 "話は聞いた。\nよくやったな、シンジ。\n\0":
@@ -8679,27 +8679,27 @@ translate_map = {
 
 # Gendo Ikari
 "では、葛城三佐。\n後の処理は任せる。\n\0":
-'???',
+'Now then, Major Katsuragi.\nI leave the rest in your hands.\n\0',
 
 # Misato Katsuragi 
 "シンジ君。\nこの間、聞いたわよね。▽\n私がどうしてネルフに\n入ったのかを…。\n\0":
-'???',
+'Shinji-kun, you asked me\n something the other day.▽\nAbout why I joined Nerv...\n\0',
 
 # Misato Katsuragi 
 "私の父はね、自分の研究、\n夢に生きる人だったわ。▽\nそんな父を許せなかった。\n憎んでさえいたわ。\n\0":
-'???',
+'My father, he was someone who\n lived for his research and his dreams.▽\nI could never forgive him for that.\nI could only hate him.\n\0',
 
 # Shinji Ikari
 "……………。\n（僕の父さんと同じだ。）\n\0":
-'???',
+'.........\n(Just like my father.)\n\0',
 
 # Misato Katsuragi 
 "母や私、家族の事など\n全く構ってくれなかった。▽\n周りの人達は繊細な人だと\n言っていたわ。\n\0":
-'???',
+'He didn\'t give a damn about\n my mom and me, or the family,\n or anything like that.▽\nPeople always said he was sensitive.\n\0',
 
 # Misato Katsuragi 
 "でも、ホントは心の弱い、\n現実から、私達家族という現実から\n逃げてばかりいた人だったのよ。▽\n子供みたいな人だったわ。▽\n母が父と別れた時も、\nすぐに賛成したわ。▽\n母はいつも泣いてばかりだったもの。▽\n父はショックだったみたいだけど、\nその時は自業自得だと笑ったわ。\n\0":
-'???',
+'But in truth he was just a weak\nperson running away from reality\n — the reality of his family.▽\nHe was like a kid. ▽\n母が父と別れた時も、\nすぐに賛成したわ。▽\n母はいつも泣いてばかりだったもの。▽\n父はショックだったみたいだけど、\nその時は自業自得だと笑ったわ。\n\0',
 
 # Misato Katsuragi 
 "けど、最後は私の身代わりになって\n死んだの。\nセカンドインパクトの時にね。\n\0":
@@ -8967,19 +8967,20 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "副司令の服が、\nどうしてここに…？\n濡れてるわ…。\n\0":
-'???',
+'Why are the deputy\ncommander\'s clothes here?\nThey\'re wet...\n\0',
 
 # Maya Ibuki, Female Staff
 "これ、この液体…、\nＬＣＬ！？▽\n副司令は…、副司令は…！？\n\0":
-'???',
+'This-This fluid...\nL.C.L.?!▽\The deputy commander, he\'s...?!\n\0',
 
 # [Text Only - No Designated Speaker]
+# How does と言う affect the meaning here? -Reichu
 "一瞬だけ、初号機の前に佇む\n冬月を見た者がいた。▽\n彼は、初号機へ手を伸ばし、\n次の瞬間には消えていたと言う。\n\0":
-'???',
+'For just a moment, someone saw\nFuyutsuki standing in front of Unit-01.▽\nHe extended his hands to Unit-01,\nand disappeared an instant later.\n\0',
 
 # [Text Only - No Designated Speaker]
 "それが、最後の目撃となった。▽\nその後、冬月の姿を見る者は、\n誰もいなかった。\n\0":
-'???',
+'That was to be the last sighting.▽\nEver since then,\nno one has seen Fuyutsuki.\n\0',
 
 # Yui Ikari
 "いずれ会えます。\n先生達や、全ての人々が\nここを訪れるよう…待っています。\n\0":
@@ -8995,7 +8996,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "ユイ君！\n\0":
-'???',
+'Yui-kun!\n\0',
 
 # Yui Ikari
 "その時まで、お元気で。\n先生…。\n\0":
@@ -9003,7 +9004,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "…ユイ君。\n\0":
-'???',
+'...Yui-kun.\n\0',
 
 # Kozo Fuyutsuki
 "ああ、その時までの\nお別れだ…。\n\0":
@@ -9075,7 +9076,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "彼は？\n\0":
-'What of him?\n\0',
+'What about him?\n\0',
 
 # Intelligence Agent
 "私は存じません。\n\0":
@@ -9083,14 +9084,14 @@ translate_map = {
 
 # Ryoji Kaji
 "よぉ、遅かったじゃないか。\n\0":
-'Yo. A little late, aren\'t you?\n\0',
+'Hey, you\'re late.\n\0',
 
 #
 # ./USRDIR/event/f088.har_EXTRACT/f088.evs
 #
 # Ritsuko Akagi 
 "今、サード・チルドレンは\nどうしてるの？\n\0":
-'???',
+'How is the Third\nChild doing now?\n\0',
 
 # Misato Katsuragi 
 "ぐっすり寝ているわ、私の家で。\nそろそろ起きる頃ね。\n\0":
@@ -9180,7 +9181,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "リツコさん。\n\0":
-'???',
+'Ritsuko-san.\n\0',
 
 # Kensuke Aida
 "こんにちは。\nリツコさん、お仕事は？\n今日はもうＯＦＦなんですか？\n\0":
@@ -9337,7 +9338,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "ダメ、まだ。\n\0":
-'???',
+'Still no good.\n\0',
 
 # Shigeru Aoba
 "あのー、あのー。\n俺、ヤバいんですケド…。\n\0":
@@ -9357,7 +9358,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "青葉クン？\n\0":
-'???',
+'Aoba-kun?\n\0',
 
 # Shigeru Aoba
 "何スか？\n\0":
@@ -9466,7 +9467,7 @@ translate_map = {
 
 # Shinji Ikari
 "冗談はやめて下さい…！！\n\0":
-'???',
+'Please don\'t joke around!!\n\0',
 
 # Misato Katsuragi 
 "あらやだ、照れちゃってるぅ。\nま、とにかくΑΤを上げるためには\n良好な人間関係は不可欠よ。▽\nハイ、だからアンタ達は\n今日からオトモダチ〜！\nいいわね！！\n\0":
@@ -10477,7 +10478,7 @@ translate_map = {
 
 # Gendo Ikari, Misato Katsuragi 
 "レイ。\n\0":
-'Rei.',
+'Rei.\n\0',
 
 # Gendo Ikari
 "予備が使えなくなった。\nもう一度だ。\n\0":
@@ -10579,7 +10580,7 @@ translate_map = {
 #
 # Shinji Ikari
 "わぁぁぁぁぁっ！！\n行かないで、捨てないで！！\n父さん、父さん！！\n\0":
-'???',
+'Wahhhhh!!\nDon\'t go, don\'t leave me!\Father! Father!!\n\0',
 
 # Shinji Ikari
 "母さん、こんなの母さんじゃない！\nこんなところに母さんなんて居ない！\n父さんの、父さんのせいだ！！\n\0":
@@ -10595,19 +10596,19 @@ translate_map = {
 
 # Asuka Soryu Langley
 "ママ！！　ママ！！\nお願いだから、ママをやめないで！！\n\0":
-'???',
+'Mama!! Mama!!\nPlease, don\'t stop being my mama!\n\0',
 
 # Asuka Soryu Langley
 "ママ！！　やめて！！\nお願いだから私を殺さないで！！\n\0":
-'???',
+'Mama! Stop!!\nPlease don\'t kill me!!\n\0',
 
 # Asuka Soryu Langley
 "イヤ！\n私はママの人形じゃない！！\n\0":
-'???',
+'No!\nI\'m not Mama\'s doll!!\n\0',
 
 # Asuka Soryu Langley
 "ママ！　ママ！！\nこっちを向いて！！\n私はここなのに！！\n\0":
-'???',
+'Mama! Mama!!\nLook over here!!\nI\'m right here!!\n\0',
 
 # Toji Suzuhara 
 "おかん、おかんは眠ってんねや！\nどこ連れてくねん！\nおかんを返せ、返せ！！\n\0":
@@ -10661,7 +10662,7 @@ translate_map = {
 
 # Shinji Ikari
 "眼鏡…？\n綾波の…じゃないよな？\n\0":
-'???',
+'Glasses...?\nThese aren\'t Ayanami\'s, are they?\n\0',
 
 # [Text Only - No Designated Speaker]
 "眼鏡を手に取り、かけてみる。\n\0":
@@ -10673,11 +10674,11 @@ translate_map = {
 
 # Rei Ayanami 
 "碇君…？\n\0":
-'???',
+'Ikari-kun...?\n\0',
 
 # Shinji Ikari
 "あ、綾波…。\n\0":
-'???',
+'A-Ayanami...\n\0',
 
 # Rei Ayanami 
 "それに触らないで。\n\0":
@@ -10701,7 +10702,7 @@ translate_map = {
 
 # Rei Ayanami 
 "碇司令。\n\0":
-'???',
+'Commander Ikari.\n\0',
 
 # Shinji Ikari
 "でも、綾波もあれに…、\nエヴァに乗せられてるんだろ？\n怖くないの？\n\0":
@@ -10717,11 +10718,11 @@ translate_map = {
 
 # Rei Ayanami 
 "あなた、碇司令の子供でしょ？\n\0":
-'???',
+'You\'re Commander Ikari\'s son, aren\'t you?\n\0',
 
 # Rei Ayanami 
 "信じられないの？\nお父さんの仕事が。\n\0":
-'???',
+'Don\'t you believe\n in your father\'s work?\n\0',
 
 # Shinji Ikari
 "当たり前だよ、\nあんな父親。\n\0":
@@ -10756,7 +10757,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "…？▽\n奴は…、ゼーレの刺客だな。\n\0":
-'???',
+'...?▽The fellow\'s a Seele assassin.\n\-',
 
 # Ritsuko Akagi 
 "…？▽\nあの男…、今度は誰を…。\n\0":
@@ -11146,15 +11147,15 @@ translate_map = {
 
 # Gendo Ikari
 "４人目を選ぶか。\n\0":
-'???',
+'So we\'ll select a Fourth?\n\0',
 
 # Ritsuko Akagi 
 "はい。\n一人速やかに「コア」の準備が\n可能な子供がいます。\n\0":
-'???',
+'Yes. There is one child\n for whom a core can\n be prepared right away.\n\0',
 
 # Gendo Ikari
 "任せる。\n\0":
-'???',
+'I\'ll leave it to you.\n\0',
 
 # Gendo Ikari
 "上がっていいぞ。\n\0":
@@ -11269,7 +11270,7 @@ translate_map = {
 "やはり人間の敵は、\n同じ人間だったか…。\n\0":
 '???',
 
-# Makoto Hyuga,Shigeru Aoba
+# Makoto Hyuga, Shigeru Aoba
 "人間の敵は、\n同じ人間って事だったのか…。\n\0":
 '???',
 
@@ -11717,11 +11718,11 @@ translate_map = {
 "通信が不可能な施設が\n次々と増えています！\n\0":
 '???',
 
-# Male Staff,Shigeru Aoba
+# Male Staff, Shigeru Aoba
 "進入者の数が多すぎます！\n全てを把握できません！\n\0":
 '???',
 
-# Female Staff,Shigeru Aoba
+# Female Staff, Shigeru Aoba
 "地下、第３隔壁破壊。\n第二層に侵入されました。\n\0":
 '???',
 
@@ -12453,7 +12454,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "サハクィエル\n\0":
-'???',
+'Sahaquiel\n\0',
 
 # Misato Katsuragi, Female Staff
 "使徒殲滅に成功しました。\n\0":
@@ -13108,7 +13109,7 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァ弐号機、起動！\n\0":
-'???',
+'Eva Unit-02 is active!\n\0',
 
 # Misato Katsuragi 
 "そんな、バカな！！\nまさか、…アスカなの？\n\0":
@@ -13124,15 +13125,15 @@ translate_map = {
 
 # Maya Ibuki, Male Staff
 "弐号機にはエントリープラグが\n挿入されていません。\n無人で動いています！\n\0":
-'???',
+'Unit-02 has no\n entry plug inserted.\nIt\'s moving unmanned!\n\0',
 
 # Misato Katsuragi 
 "誰もいない？\nどういう事！！\n\0":
-'???',
+'There\'s no one?\nBut how?!\n\0',
 
 # Kozo Fuyutsuki
 "無人…だと…？\n\0":
-'???',
+'Unmanned, you say?\n\0',
 
 # Female Staff
 "そんな事って…。\n\0":
@@ -13140,27 +13141,27 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "セントラルドグマに、\nΑΤフィールドの発生を確認！\n\0":
-'???',
+'We\'ve confirmed an A.T. Field\nspreading in Central Dogma!\n\0',
 
 # Misato Katsuragi 
 "弐号機？\n\0":
-'???',
+'Unit-02?\n\0',
 
 # Kozo Fuyutsuki
 "弐号機か？\n\0":
-'???',
+'Is it Unit-02?\n\0',
 
 # Makoto Hyuga, Male Staff
 "パターン青。\n間違いありません。\n使徒です。\n\0":
-'???',
+'Pattern blue.\nWithout a doubt,\nit\'s an Angel.\n\0',
 
 # Kozo Fuyutsuki
 "何っ！？\n\0":
-'???',
+'What?!\n\0',
 
 # Misato Katsuragi 
 "使徒？\nあの少年が？\n\0":
-'???',
+'An Angel?\nThat boy?\n\0',
 
 # Kozo Fuyutsuki
 "ゼーレからの贈り物…。\nそうか、こういう事だったのか。\n\0":
@@ -13210,11 +13211,11 @@ translate_map = {
 #
 # Misato Katsuragi 
 "シンちゃーん！\nちょっと来てー。\n\0":
-'???',
+'Shin-chan!\nC\'mere a sec.\n\0',
 
 # Shinji Ikari
 "はぁい。\n\0":
-'???',
+'Sure.\n\0',
 
 # Shinji Ikari
 "な、何やってるんですか！？\n\0":
@@ -13575,11 +13576,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "コラ！！\nペンペンったら、やめなさい！！\n\0":
-'Hey!!\n Pen Pen, honestly! Quit it!!\n\0',
+'Hey!!\nPen Pen, honestly! Quit it!!\n\0',
 
 # Shinji Ikari
 "や、やめろよ。\nペンペン〜！！\n\0":
-'C-cut it out,\n Pen Pen!!\n\0',
+'C-Cut it out,\nPen Pen!!\n\0',
 
 # Asuka Soryu Langley
 "ぎゃー、何すんの！？\nよしてよ、ペンペン。\n\0":
@@ -13587,5 +13588,5 @@ translate_map = {
 
 # Ritsuko Akagi 
 "ペンペン、何をするの！\nおやめなさい！！\n\0":
-'Pen Pen, what are you doing?\n Stop that at once!\n\0'
+'Pen Pen, what are you doing?\nStop that at once!\n\0'
 }
