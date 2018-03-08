@@ -2757,7 +2757,7 @@ translate_map = {
 #
 # Ryoji Kaji
 "………？？？？▽\nここは、葛城…の。\n\0":
-'...???? ▽\n This is Katsuragi\'s...\n\0\',
+'...???? ▽\n This is Katsuragi\'s...\n\0',
 
 # Misato Katsuragi 
 "加持くぅん…。\n\0":
@@ -4369,7 +4369,7 @@ translate_map = {
 
 # Maya Ibuki 
 "そんな…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
-'But that\'s--!?\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is ascending radically!\n\0,
+'But that\'s--!?\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is ascending radically!\n\0',
 
 # Female Staff
 "これは…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
@@ -6569,7 +6569,7 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "四号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-04, switched over to dummy system.\n\0,
+'Unit-04, switched over to dummy system.\n\0',
 
 # Gendo Ikari
 "…。▽\nわかった、もう少し待とう。\n\0":
@@ -8584,7 +8584,7 @@ translate_map = {
 
 # Kyoko Soryu Zeppelin 
 "アスカ…。\nアスカちゃん…。\n\0":
-'Asuka...\n Asuka-chan...\n\0,
+'Asuka...\n Asuka-chan...\n\0',
 
 # Asuka Soryu Langley
 "ママ？\n\0":

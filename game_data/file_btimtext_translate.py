@@ -74,7 +74,7 @@ translate_map = {
 '???',
 
 "そっちのエヴァはどう？\n\0":
-'How\'s your Eva over there?\n\0\',
+'How\'s your Eva over there?\n\0',
 
 "機体の調子はどうなの？\n\0":
 '???',
@@ -137,10 +137,10 @@ translate_map = {
 '???',
 
 "そっちのΑΤはどう？\n\0\0\0":
-'How\'s your A.T. over there?\n\0\',
+'How\'s your A.T. over there?\n\0',
 
 "アンタのΑΤ大丈夫？\n\0\0\0":
-'Is your A.T. okay?\n\0\',
+'Is your A.T. okay?\n\0',
 
 "ΑΤの調子、どうかしら？\n\0\0\0":
 '???',
@@ -149,10 +149,10 @@ translate_map = {
 '???',
 
 "君のΑΤどう？\n大丈夫そう？\n\0\0\0\0":
-'How\'s your A.T.?\n Seem okay?\n\0\',
+'How\'s your A.T.?\n Seem okay?\n\0',
 
 "あなたのΑΤどうかしら？\nちょっと気になるわ。\n\0\0":
-'How is your A.T.?\n I\'m a little concerned.\n\0\',
+'How is your A.T.?\n I\'m a little concerned.\n\0',
 
 "うん、この時のために\n頑張ったんだから！！\n\0\0":
 '???',
@@ -200,7 +200,7 @@ translate_map = {
 '???',
 
 "んー、まぁまぁかな。\n\0\0\0":
-'Hmm, so-so I guess.\n\0\',
+'Hmm, so-so I guess.\n\0',
 
 "高くはないけど、低くもないよ。\n\0":
 '???',
@@ -218,7 +218,7 @@ translate_map = {
 '???',
 
 "問題ないわ。\n\0\0\0":
-'No problems.\n\0\',
+'No problems.\n\0',
 
 "操縦は出来るわ。\n大丈夫。\n\0\0":
 '???',
@@ -344,7 +344,7 @@ translate_map = {
 'Hey, how do you\n feel about %s?\n\0',
 
 "あなたは、%sを\nどう思っているの…？\n\0\0\0\0":
-'What do you think of %s...?\n\0\',
+'What do you think of %s...?\n\0',
 
 "あのー、なんちゅうか、\n%sの事、どない思う？\n\0\0\0\0":
 '???',
