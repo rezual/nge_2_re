@@ -5420,7 +5420,7 @@ translate_map = {
 
 # Gendo Ikari
 "いよいよその時が来た。\nさあ、行こう、レイ。\n\0":
-'???',
+'The time has come at last.\nLet\'s go, Rei.\n\0',
 
 # (Decision Prompt)
 "ゲンドウについていく／ゲンドウを拒む\0":
@@ -5500,7 +5500,7 @@ translate_map = {
 
 # ??? [Lilith]
 "どこへ行くの…。\nあなたが還る場所は、\nここしかないのよ。\n\0":
-'???',
+'Where are you going...?\nThis is the only place\nwhere you belong.\n\0',
 
 # ??? [Lilith]
 "私に還りなさい…。\n\0":
@@ -5508,11 +5508,11 @@ translate_map = {
 
 # Rei Ayanami 
 "私の役割は…、\n私の生き方は自分で決める。▽\n例え…、長くは生きられなくとも…。\n\0":
-'???',
+'The role I play, the way I live my life\n -- they\'re things I decide. ▽\nFor instance... even if I\'m not alive long...\n\0',
 
 # Rei Ayanami 
 "生命の実なんて要らない。\n私は、あなたじゃない。\n私は私。▽\n私は残された時間を、\n自分の意志で生きるわ。\n\0":
-'???',
+'I don\'t need something like the Fruit of Life.\n I\'m not you; I am me.▽\nI\'ll live by my own free will\n in the time I have left.\n\0',
 
 # ??? [Lilith]
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
