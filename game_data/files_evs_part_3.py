@@ -5730,6 +5730,8 @@ translate_map = {
 #
 # ./USRDIR/event/f051.har_EXTRACT/f051.evs
 #
+# [Character: Scene with Maya]
+#
 # Girlfriends
 "彼氏が、女引っ張り込んできて…、\nね、一日でいいから泊めて。\n\0":
 '???',
@@ -5983,6 +5985,8 @@ translate_map = {
 #
 # ./USRDIR/event/f029.har_EXTRACT/f029.evs
 #
+# [Love Comedy: Marriage]
+#
 # [Text Only - No Designated Speaker]
 "何か葉書が落ちている。▽\n葛城ミサト様…。▽\nミサト宛の友人からの\n結婚報告の葉書だ。▽\nそういえば、結婚式に\n出席するとか言ってたっけ…。▽\nとうとう、\n行かずじまいだったんだ…。\n\0":
 '???',
@@ -6159,6 +6163,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f056.har_EXTRACT/f056.evs
+#
+# [Character: Scene with Toji]
 #
 # Toji Suzuhara 
 "ほれ、もっと魚食べぇよ。\n\0":
@@ -6375,6 +6381,8 @@ translate_map = {
 #
 # ./USRDIR/event/f055.har_EXTRACT/f055.evs
 #
+# [Character: Scene with Hikari]
+#
 # [Text Only - No Designated Speaker]
 "ふと、ヒカリの姿が頭をよぎった。\n\0":
 '???',
@@ -6385,7 +6393,7 @@ translate_map = {
 
 # Kensuke Aida
 "おぉ〜、女は怖ぇ〜。\nセンセー、怖いよ〜。\n\0":
-'???',
+'Woooo, women are scaary!\nSensei, I\'m scaared!\n\0',
 
 # Kaworu Nagisa 
 "君らが出て行けばいいだろ。\n\0":
@@ -6393,7 +6401,7 @@ translate_map = {
 
 # Shinji Ikari
 "委員長を悪く言うな！\n\0":
-'???',
+'Don\'t badmouth the class rep!\n\0',
 
 # Rei Ayanami 
 "…あなた達、恥ずかしくないの？\n\0":
@@ -6453,7 +6461,7 @@ translate_map = {
 
 # Hikari Horaki
 "どうかしたの？\n\0":
-'???',
+'What\'s wrong?\n\0',
 
 # Toji Suzuhara 
 "よぉ、イインチョか。\nんにゃ、何でもねーよ。\n\0":
@@ -6477,30 +6485,30 @@ translate_map = {
 
 # Rei Ayanami 
 "…何でもないわ。\n\0":
-'???',
+'...It\'s nothing.\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba047.evs
 #
 # Maya Ibuki, Female Staff
 "参号機のシールドが\n破壊されました！\n\0":
-'???',
+'Unit-03\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "初号機のシールドが\n破壊されました！\n\0":
-'???',
+'Unit-01\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "四号機のシールドが\n破壊されました！\n\0":
-'???',
+'Unit-04\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "弐号機のシールドが\n破壊されました！\n\0":
-'???',
+'Unit-02\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "零号機のシールドが\n破壊されました！\n\0":
-'???',
+'Unit-00\'s shield has been destroyed!\n\0',
 
 #
 # ./USRDIR/event/cev1302.har_EXTRACT/cev1302.evs
@@ -6650,7 +6658,7 @@ translate_map = {
 
 # Female Staff
 "砲撃開始！！\n\0":
-'???',
+'Commence bombardment!!\n\0',
 
 # Shinji Ikari
 "くっそおおおぉぉぉ！\n\0":
@@ -6658,26 +6666,29 @@ translate_map = {
 
 # Asuka Soryu Langley
 "開けぇぇぇぇぇえ！！\n\0":
-'???',
+'Ooopen uuuuup!!\n\0',
 
 #
 # ./USRDIR/event/cev0210.har_EXTRACT/cev0210.evs
 #
+# [Scenario 2: Asuka - Ending]
+#
 # Asuka Soryu Langley
+# [Note] （非表示）=(Non-Display). Programming instructions?
 "泣き声です。（非表示）\n\0":
-'???',
+'Someone\'s crying.（非表示）\n\0',
 
 # Asuka Soryu Langley
 "泣いてる…。\n泣いてるのは私だわ。\n\0":
-'???',
+'Crying...\nThe one who\'s crying is me.\n\0',
 
 # Asuka Soryu Langley
 "私の願い…。\n\0":
-'???',
+'My wish...\n\0',
 
 # Asuka Soryu Langley
 "私が願うのは…。\n\0":
-'???',
+'What I\'m dreaming of...\n\0',
 
 # Asuka Soryu Langley
 "泣いては駄目。\n一人で生きなきゃいけないの。\n大人になるの。\n\0":
@@ -6685,7 +6696,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "大人…？\n今の私は大人？\n\0":
-'???',
+'Grown-up...?\nI\'m grown up now?\n\0',
 
 # Asuka Soryu Langley
 "お帰り。\n\0":
@@ -6804,11 +6815,11 @@ translate_map = {
 #
 # Misato Katsuragi 
 "使徒がいなくなった今、\n司令や委員会の狙いを、\n妨げるものは何もない。▽\nそして、計画が遂行される\n時が来たのね。\nサードインパクトが…。▽\n絶対に、させはしない。▽\n自分達の目的の為に、\n父さんを利用した奴等を\n私は許さない…。\n\0":
-'???',
+'Now that the Angels are gone,\nthere\'s nothing standing in the way of\nthe Commander's and the Committee's goals.▽\nAnd isn\'t it high time they saw their plans through?\n The Third Impact...▽\nI\'ll never let it happen.▽\nI\'ll never forgive them\nfor using Father as\na pawn in their schemes...\n\0',
 
 # Misato Katsuragi 
 "…始まるわね。\n\0":
-'???',
+'... It\'s started.\n\0',
 
 #
 # ./USRDIR/event/cev0704.har_EXTRACT/cev0704.evs
@@ -6835,7 +6846,7 @@ translate_map = {
 
 # Makoto Hyuga
 "…えーと、ですね。\nえぇと、えぇと…、その…。\n\0":
-'???',
+'...Uhhh, hard to say.\nUhhh, ummm... I...\n\0',
 
 # Ritsuko Akagi 
 "言えないの？\n悪い人ね…。\nこっちへいらっしゃい。\n\0":
@@ -6859,7 +6870,7 @@ translate_map = {
 
 # Makoto Hyuga
 "あっ…、赤木博士。\n\0":
-'???',
+'Um... Dr. Akagi.\n\0',
 
 # Ritsuko Akagi 
 "ねえ、今どこを見てたの？\n\0":
@@ -6883,6 +6894,8 @@ translate_map = {
 #
 # ./USRDIR/event/tev1905.har_EXTRACT/tev1905.evs
 #
+# [Scenario 1: Angel Attack - Best Ending]
+#
 # Kozo Fuyutsuki
 "碇…。\nお前にはまだ、\n違う生き方がある。\n\0":
 '???',
@@ -6893,7 +6906,7 @@ translate_map = {
 
 # Shinji Ikari
 "行こう…。\nみんなの所へ。\n\0":
-'???',
+'Let\'s go...\nBack to everybody.\n\0',
 
 # Yui Ikari [Flashback]
 "あら、生きて行こうと思えば、\nどこだって天国になるわよ。\n\0":
@@ -6905,11 +6918,11 @@ translate_map = {
 
 # Shinji Ikari
 "ありがとう、母さん…。\n\0":
-'???',
+'Thank you, Mother...\n\0',
 
 # Rei Ayanami 
 "…碇君？\n\0":
-'???',
+'...Ikari-kun?\n\0',
 
 # Shinji Ikari
 "何の為にここに来て、\n何の為にここに居るのか…。▽\nそれはまだ、はっきりと\nわからないけれど…。▽\nでも、知っていたんだ。\n暖かさを、手を伸ばせば、\n触れられるという事を。▽\nただ、目を逸らしていただけなんだ。▽\n僕は、エヴァに乗らなければ\nずっと目を逸らし続けていたと思う。\n\0":
@@ -6917,7 +6930,7 @@ translate_map = {
 
 # Rei Ayanami 
 "…碇君。\n\0":
-'???',
+'...Ikari-kun.\n\0',
 
 # Shinji Ikari
 "ありがとう。\n綾波にまた会えて、嬉しい。\n\0":
@@ -6937,7 +6950,7 @@ translate_map = {
 
 # Shinji Ikari
 "ありがとう、父さん…。\n\0":
-'???',
+'Thank you, Father...\n\0',
 
 # Kozo Fuyutsuki
 "彼女に会う事は、叶わなかったか。▽\n彼女が一人で初号機に残ったのは、\n我々の生きる強さを、\n信じていたからこそではなかったか。\n\0":
@@ -6995,7 +7008,7 @@ translate_map = {
 
 # Male Staff
 "マステマとデュアルソーですか…。\n\0":
-'???',
+'The Mastema and Dual Saw...\n\0',
 
 # Makoto Hyuga, Female Staff
 "点検が済んだら、\nいよいよ実戦配備です。\n\0":
@@ -7006,11 +7019,11 @@ translate_map = {
 #
 # Shinji Ikari
 "はいっ！\n\0":
-'???',
+'Got it!\n\0',
 
 # Asuka Soryu Langley
 "オッケー、任せて！！\n\0":
-'???',
+'Okay, leave it to me!\n\0',
 
 #
 # ./USRDIR/event/bs072.har_EXTRACT/bs072.evs
@@ -7032,7 +7045,7 @@ translate_map = {
 #
 # Maya Ibuki 
 "…っ！\n来ました…。\nあああぁぁ！！\n\0":
-'???',
+'...!\nIt\'s here...\nAahhh!\n\0',
 
 #
 # ./USRDIR/event/cev1101.har_EXTRACT/cev1101.evs
@@ -7063,7 +7076,7 @@ translate_map = {
 
 # Ryoji Kaji
 "じゃあ、お礼のキスは…？\n\0":
-'???',
+'How about a thank-you kiss...?\n\0',
 
 # Misato Katsuragi 
 "お久しぶりねぇ。\n用なら私が伺うわ。\n\0":
@@ -7111,15 +7124,15 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "これがあのアダム…。\n\0":
-'???',
+'This is -the- Adam...\n\0',
 
 # Ryoji Kaji
 "ええ、最初の人間アダムですよ。\nすでにここまで復元されています。▽\n硬化ベークライトで固めて\nありますが、生きています。\n間違いなく。\n\0":
-'???',
+'Yes, it\'s Adam, the first human.\nIt\'s already been restored this far.▽\nIt\'s frozen in cured Bakelite, but it\'s still alive.\nNo doubt about that.\n\0',
 
 # Gendo Ikari
 "人類補完計画の要か…。\n\0":
-'???',
+'So the Human Instrumentality Project hinges upon this...\n\0',
 
 #
 # ./USRDIR/event/bs067.har_EXTRACT/bs067.evs
@@ -7137,7 +7150,7 @@ translate_map = {
 #
 # Maya Ibuki, Female Staff
 "可視波長のエネルギー波、\n使徒の心理攻撃、来ます！\n\0":
-'???',
+'The Angel is attacking psychically\nwith energy waves on the visible spectrum!\n\0',
 
 #
 # ./USRDIR/event/bs103.har_EXTRACT/bs103.evs
@@ -7171,15 +7184,15 @@ translate_map = {
 
 # Gendo Ikari
 "ああ。\nリリス、そしてアダムさえ\n我らにある。\n\0":
-'???',
+'Yes.\nAs long as we have Lilith and Adam.\n\0',
 
 # Kozo Fuyutsuki
 "老人達が焦るわけだ。\n\0":
-'???',
+'The old men must be getting impatient.\n\0',
 
 # Gendo Ikari
 "冬月先生、後を頼みます。\n\0":
-'???',
+'Fuyutsuki-sensei, I leave the rest to you.\n\0',
 
 # Kozo Fuyutsuki
 "…わかっている。\nユイ君によろしくな。\n\0":
@@ -7227,18 +7240,18 @@ translate_map = {
 
 # Misato Katsuragi 
 "約束よ…。\n\0":
-'???',
+'It\'s a promise...\n\0',
 
 # Misato Katsuragi 
 "大人のキスよ。\n帰ったら続きをしましょう。\n\0":
-'???',
+'That\'s a grown-up kiss.\nWe\'ll do the rest when you get back.\n\0',
 
 #
 # ./USRDIR/event/cev0804.har_EXTRACT/cev0804.evs
 #
 # Maya Ibuki 
 "別に、構いません。\n\0":
-'???',
+'It\'s not a big deal.\n\0',
 
 # Shigeru Aoba
 "うわー、可愛くねぇー…。\n\0":
@@ -7271,13 +7284,15 @@ translate_map = {
 #
 # ./USRDIR/event/cev0112.har_EXTRACT/cev0112.evs
 #
+# [Scenario 2: Shinji - Scene with Hikari]
+#
 # Hikari Horaki
 "碇君、あのね…。\n\0":
-'???',
+'Ikari-kun, I, um...\n\0',
 
 # Hikari Horaki
 "…碇君って、音楽得意でしょ？\n\0":
-'???',
+'... Ikari-kun, are you good with music?\n\0',
 
 # Shinji Ikari
 "得意って程でもないと思うけど。\n\0":
@@ -7431,11 +7446,12 @@ translate_map = {
 #
 # Rei Ayanami 
 "誰かが見てる。▽\nいいえ、見ているのは私。\n私が私を見ている。▽\n前にもあった、こんな感覚。\nずっと前、ずっと昔。\n私が私になる前に…。\n\0":
-'???',
+'Someone is looking at me.▽\nNo, the one who\'s looking is me.\nI am looking at myself.▽\nThis feeling, it\'s one I\'ve had before.\nLong ago, deep in the past.\nMe, before I became me...\n\0',
 
 # Rei Ayanami 
+# [Note] The playthrough I\'m referencing shows an image of Shinji during this part, so あの人 is being rendered "him". It\'s possible this is variable, though, and changes depending on whoever Rei has the best relationship with at the time. Need to double-check. -Reichu
 "あの人を思うと、とても不思議。\n不思議な気持ちになる。▽\nずっと一緒にいたような感じ。\n私が私になる前から。▽\nどうして？\nあの人を見ると、心が動く。\n心…、目に見えないもの。\n\0":
-'???',
+'When I think of him, it\'s very strange.\nA strange feeling.▽\nOf wanting to be with him forever.\nFrom before I became me.▽\nWhy?\nWhen I look at him, my heart is touched...\nMy heart... Something that cannot be seen.\n\0',
 
 #
 # ./USRDIR/event/cev1412.har_EXTRACT/cev1412.evs
@@ -7508,13 +7524,15 @@ translate_map = {
 #
 # ./USRDIR/event/a004.har_EXTRACT/a004.evs
 #
+# [Angel: Matarael]
+#
 # Maya Ibuki 
 "液体が落ちた箇所が腐食しています。▽\nどうやら使徒の武器は、\nあの強力な溶解液のようですね。\n\0":
-'???',
+'The sites where the liquid fell are being corroded.▽\nIt seems the Angel is using that\npowerful solvent as a weapon.\n\0',
 
 # Male Staff
 "液体が落ちた箇所が腐食しています。▽\nどうやら使徒の武器は、\nあの強力な溶解液のようです。\n\0":
-'???',
+'The sites where the liquid fell are being corroded.▽\nIt seems the Angel is using that\npowerful solvent as a weapon.\n\0',
 
 # Misato Katsuragi 
 "しかし、これじゃうかつに\n近づけないわね。\n\0":
@@ -7557,7 +7575,7 @@ translate_map = {
 #
 # [Text Only - No Designated Speaker]
 "エヴァ初号機は使徒を捕食し、\nΣ機関を取りこみました。▽\n内蔵電源が無限になり、\nアンビリカルケーブル無しでの\n稼動が可能になります。\n\0":
-'???',
+'Eva Unit-01 preyed upon an Angel\nand absorbed its S2 engine.▽\nThe Eva\'s internal power supply is now infinite,\nallowing it to operate with an umbilical cable.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le503.evs
