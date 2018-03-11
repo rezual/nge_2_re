@@ -7231,7 +7231,7 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "さあ、行くよ。\nおいで、アダムの分身、\nそしてリリンのしもべ…。\n\0":
-'Come along now. Let us go,\nAdam\'s dark shadow,\nservant of the Lilin...\n\0'
+'Come along now. Let us go,\nAdam\'s dark shadow,\nservant of the Lilin...\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ弐号機、起動！\n\0":

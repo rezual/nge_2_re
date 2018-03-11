@@ -14,8 +14,8 @@
 		- [ ] 0.00% translated - See game_data/file_imtext_translate_part_4.py
 		- [ ] 0.00% translated - See game_data/file_imtext_translate_part_5.py
 - umd0:/PSP_GAME/USRDIR/*.evs:
-	- [ ] 6.50% translated (in total)
-		- [ ] 10.07% translated - See game_data/files_evs_part_1.py
+	- [ ] 7.19% translated (in total)
+		- [ ] 12.14% translated - See game_data/files_evs_part_1.py
 		- [ ] 4.81% translated - See game_data/files_evs_part_2.py
 		- [ ] 4.61% translated - See game_data/files_evs_part_3.py
 - umd0:/PSP_GAME/USRDIR/btl/btimtext.bin:
