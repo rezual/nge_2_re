@@ -5351,7 +5351,7 @@ translate_map = {
 
 # Shinji Ikari
 "お願いです！\n僕をエヴァに乗せてください！\n\0":
-'Please!\n Let me pilot Eva Unit-01!\n\0',
+'I beg you!\n Let me pilot Eva Unit-01!\n\0',
 
 # Gendo Ikari
 "パイロットをエヴァに搭乗させる。\nエントリー準備、急げ。\n\0":
@@ -5363,7 +5363,7 @@ translate_map = {
 
 # Gendo Ikari
 "乗れ…。\n\0":
-'Get in...\n\0',
+'Get in.\n\0',
 
 #
 # ./USRDIR/event/tev1404.har_EXTRACT/tev1404.evs
@@ -5413,7 +5413,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "ケイジに拘束、\n大丈夫でしょうね？\n\0":
-'???',
+'You sure it\'s okay,\nrestrained in the cage?\n\0',
 
 # Makoto Hyuga
 "内部に熱、電子、電磁波、\n他、化学エネルギー反応無し。\nΣ機関は完全停止しています。\n\0":
@@ -5558,15 +5558,15 @@ translate_map = {
 
 # Shinji Ikari
 "アスカ…？\n\0":
-'???',
+'Asuka...?\n\0',
 
 # Shinji Ikari
 "ミサトさん…？\n\0":
-'???',
+'Misato-san...?\n\0',
 
 # Shinji Ikari
 "ううん、違う。\nあの時、僕は、\n母さんのにおい…を感じた。\n\0":
-'???',
+'No, not them.\nWhat I sensed, back then...\nIt was the smell of my mother.\n\0',
 
 # Gendo Ikari [Flashback]
 "セカンドインパクトの後に\n生きていくのか、この子は…。\nこの地獄に…。\n\0":
@@ -5578,7 +5578,7 @@ translate_map = {
 
 # Shinji Ikari
 "父さん…、\n母さん…。\n\0":
-'???',
+'Father...\nMother...\n\0',
 
 # Misato Katsuragi 
 "人類補完計画、\nどこまで進んでるの？\n\0":
@@ -5614,7 +5614,7 @@ translate_map = {
 
 # Ryoji Kaji
 "プレゼントさ。\n８年ぶりの。▽\n最後かもしれないがな。\n\0":
-'???',
+'A present.\nThe first one in eight years.▽\nAnd probably the last.\n\0',
 
 #
 # ./USRDIR/event/tev1503.har_EXTRACT/tev1503.evs
@@ -5795,7 +5795,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "ユイ君、今日は君の実験なんだぞ。\n\0":
-'???',
+'Yui-kun, today is your experiment.\n\0',
 
 # Yui Ikari
 "だからなんです。\nこの子には、明るい未来を\n見せておきたかったんです。\n\0":
@@ -5845,7 +5845,7 @@ translate_map = {
 #
 # Misato Katsuragi 
 "ただいま…。\n\0":
-'???',
+'I\'m home...\n\0',
 
 # Misato Katsuragi, Rei Ayanami
 "………！\n\0":
@@ -5869,11 +5869,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "バカ。\nあんた、ホントにバカよ。\n\0":
-'???',
+'Idiot.\nYou\'re such an idiot.\n\0',
 
 # Shinji Ikari, Asuka Soryu Langley, Rei Ayanami, Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Toji Suzuhara
 "加持さん…。\n\0":
-'???',
+'Kaji-san...\n\0',
 
 # Ryoji Kaji
 "君は…真実を知る義務がある。\n\0":
@@ -5922,7 +5922,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "やってるわよ！！\n\0":
-'???',
+'I\'m doing it!!\n\0',
 
 # Maya Ibuki 
 "最近のアスカのシンクロ率、\n下がる一方ですね。\n\0":
@@ -6005,7 +6005,7 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "パターン青、使徒です！\n\0":
-'???',
+'Pattern blue. It\'s an Angel!\n\0',
 
 # Shigeru Aoba, Female Staff
 "使徒、映像、出ます。\n最大望遠です。\n\0":
@@ -6392,7 +6392,7 @@ translate_map = {
 
 # Rei Ayanami 
 "誰のために？\n\0":
-'???',
+'For whom?\n\0',
 
 # Rei Ayanami 
 "フィフス・チルドレン。\nあのヒト、私と同じ感じがする。\n…どうして。\n\0":
@@ -6423,11 +6423,11 @@ translate_map = {
 #
 # Misato Katsuragi 
 "誰もいない！？\nフィフスの少年ではないの？\n\0":
-'???',
+'No one?!\nIt\'s not the Fifth Child?\n\0',
 
 # Makoto Hyuga
 "いえ、パターン青。\n間違いありません。\n使徒です。\n\0":
-'???',
+'No, it\'s pattern blue.\nIt\'s definitely\nan Angel.\n\0',
 
 # Kozo Fuyutsuki
 "もしや、弐号機との融合を\n果たすつもりなのか？\n\0":
@@ -6447,15 +6447,15 @@ translate_map = {
 
 # Misato Katsuragi 
 "じゃあ、一体誰が。\n\0":
-'???',
+'So then who could it be?\n\0',
 
 # Gendo Ikari
 "エヴァ初号機に追撃させる。\n\0":
-'???',
+'Pursue with Unit-01.\n\0',
 
 # Maya Ibuki 
 "無人です！\n弐号機にはエントリープラグは\n挿入されていません！\n\0":
-'???',
+'It\'s unmanned!\nUnit-02 has no entry plug\ninserted!\n\0',
 
 #
 # ./USRDIR/event/tev1901.har_EXTRACT/tev1901.evs
@@ -6639,7 +6639,7 @@ translate_map = {
 
 # Rei Ayanami 
 "ここはＬＣＬの海。\n生命の源の海の中。\n\0":
-'???',
+'This is the Sea of L.C.L.\nThe place where life began.\n\0',
 
 # Makoto Hyuga
 "エヴァ初号機、\n量産機に拘引されていきます。\n\0":
@@ -6667,15 +6667,15 @@ translate_map = {
 
 # Rei Ayanami 
 "何を願うの？\n\0":
-'???',
+'What do you desire?\n\0',
 
 # Kozo Fuyutsuki
 "アンチΑΤフィールドか。\n\0":
-'???',
+'An Anti-A.T. Field.\n\0',
 
 # Shinji Ikari
 "綾波？\nここは？\n\0":
-'???',
+'Ayanami?\nWhere are we?\n\0',
 
 # Maya Ibuki 
 "全ての現象が、\n１５年前と酷似してる。▽\nじゃあ、これって、\nやっぱりサードインパクトの\n前兆なの？\n\0":
@@ -6691,7 +6691,7 @@ translate_map = {
 
 # Shinji Ikari
 "僕は死んだの？\n\0":
-'???',
+'Am I dead?\n\0',
 
 # Kozo Fuyutsuki
 "人類の生命の源たるリリスの卵、\n黒き月。▽\n今更、その殻の中へと\n還る事は望まぬ。\nだが、それもリリス次第か。\n\0":
@@ -6699,7 +6699,7 @@ translate_map = {
 
 # Shinji Ikari
 "でも、これは違う。\n違うと思う。\n\0":
-'???',
+'But this is wrong.\nIt doesn\'t feel right.\n\0',
 
 # Rei Ayanami 
 "他人の存在を今一度望めば、\n再び心の壁が\n全ての人々を引き離すわ。▽\nまた、他人の恐怖が始まるのよ。\n\0":
@@ -6719,7 +6719,7 @@ translate_map = {
 
 # Shinji Ikari, Misato Katsuragi 
 "…ありがとう。\n\0":
-'???',
+'...Thank you.\n\0',
 
 # Shinji Ikari
 "あそこではイヤな事しか\nなかった気がする。▽\nだから、\nきっと逃げ出してもよかったんだ。\n\0":
@@ -6779,7 +6779,7 @@ translate_map = {
 
 # Rei Ayanami 
 "私はあなたの人形じゃない。▽\n私はあなたじゃないもの。\n\0":
-'???',
+'I\'m not your doll.▽\nI am not you.\n\0',
 
 # Gendo Ikari
 "頼む！\n待ってくれレイ！！\n\0":
@@ -6912,7 +6912,7 @@ translate_map = {
 
 # Rei Ayanami 
 "…聞こえたの、碇君の声。\n\0":
-'???',
+'...I heard your voice, Ikari-kun.\n\0',
 
 # Shinji Ikari
 "呼んだんだ。\n綾波を、みんなを。▽\n会いたかったから。\n\0":
@@ -6938,9 +6938,10 @@ translate_map = {
 "…それを、見失っていたのか。\n今まで…。\n\0":
 '???',
 
-
 #
 # ./USRDIR/event/a000.har_EXTRACT/a000.evs
+#
+# [Angel: Sachiel]
 #
 # Shigeru Aoba, Male Staff
 "第$d使徒、第３新東京市\n$fエリア付近に出現。\n\0":
@@ -7041,13 +7042,15 @@ translate_map = {
 #
 # ./USRDIR/event/a002.har_EXTRACT/a002.evs
 #
+# [Angel: Ramiel]
+#
 # Shigeru Aoba, Male Staff
 "国連艦隊より緊急入電！\n太平洋上にて新型エヴァの部品を\n搬送中、突如使徒が出現。▽\n襲撃を受けた模様です！\n\0":
 '???',
 
 # Misato Katsuragi 
 "何ですって？\n\0":
-'???',
+'What was that?\n\0',
 
 # Kozo Fuyutsuki, Misato Katsuragi 
 "何？\n\0":
@@ -7055,7 +7058,7 @@ translate_map = {
 
 # Female Staff, Asuka Soryu Langley
 "！？\n\0":
-'???',
+'?!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒は新型エヴァの部品を破壊！\nその後、姿を消したようです。\n\0":
@@ -7224,9 +7227,11 @@ translate_map = {
 #
 # ./USRDIR/event/a007.har_EXTRACT/a007.evs
 #
+# [Angel: Tabris]
+#
 # Kaworu Nagisa 
 "さあ、行くよ。\nおいで、アダムの分身、\nそしてリリンのしもべ…。\n\0":
-'???',
+'Come along now. Let us go,\nAdam\'s dark shadow,\nservant of the Lilin...\n\0'
 
 # Makoto Hyuga, Male Staff
 "エヴァ弐号機、起動！\n\0":
@@ -7234,7 +7239,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "そんな、バカな！！\nまさか、…アスカなの？\n\0":
-'???',
+'But how?!\nIt can\'t be Asuka?\n\0',
 
 # Kozo Fuyutsuki
 "何だと…！？\n\0":
@@ -7242,7 +7247,7 @@ translate_map = {
 
 # Female Staff
 "えっ？\n弐号機が！？\n\0":
-'???',
+'What?\nUnit-02 is?!\n\0',
 
 # Maya Ibuki, Male Staff
 "弐号機にはエントリープラグが\n挿入されていません。\n無人で動いています！\n\0":
@@ -7250,7 +7255,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "誰もいない？\nどういう事！！\n\0":
-'There\'s no one?\nBut how?!\n\0',
+'There\'s no one?\nWhat does that mean?!\n\0',
 
 # Kozo Fuyutsuki
 "無人…だと…？\n\0":
@@ -7445,7 +7450,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "任せたわよ、シンジ君！\n\0":
-'???',
+'I leave it to you, Shinji-kun!\n\0',
 
 # Misato Katsuragi 
 "シンジ君、慎重にね！！\n\0":
@@ -7461,7 +7466,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "初号機に任せたぞ！\n\0":
-'???',
+'I leave it to Unit-01!\n\0',
 
 # Female Staff
 "了解しました。\n注意して戦闘体制に入って下さい。\n\0":
@@ -7489,7 +7494,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "弐号機に任せたぞ！\n\0":
-'???',
+'I leave it to Unit-02!\n\0',
 
 # Rei Ayanami 
 "こちら、零号機。\n目標を肉眼で捕捉しました！\n\0":
@@ -7513,7 +7518,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "任せたぞ。レイ。\n\0":
-'???',
+'I leave it to you, Rei.\n\0',
 
 # Toji Suzuhara 
 "こちら、参号機。\n目標を肉眼で発見しました！\n\0":
@@ -7537,7 +7542,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "参号機に任せたぞ！\n\0":
-'???',
+'I leave it to Unit-03!\n\0',
 
 # Kaworu Nagisa 
 "こちら、四号機。\n目標を肉眼で確認しました！\n\0":
@@ -7561,7 +7566,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "四号機に任せたぞ！\n\0":
-'???',
+'I leave it to Unit-04!\n\0',
 
 # Shinji Ikari
 "…こ、こちら初号機。\nエヴァ三号機を肉眼で確認しました。▽\nまさか、敵の使徒って…。\nあの、三号機…！？\n\0":
@@ -8297,15 +8302,15 @@ translate_map = {
 
 # Male Staff
 "目標、１体に戻りました！\n\0":
-'The targets have gone back to a single body!\n\0',
+'The targets have reverted to a single body!\n\0',
 
 # Shinji Ikari
 "今だ、行くよ！\n\0":
-'???',
+'It\'s time, let\'s go!\n\0',
 
 # Asuka Soryu Langley
 "チャンスよ！！\n\0":
-'???',
+'It\'s our chance!\n\0',
 
 # Rei Ayanami 
 "使徒の融合をこちらからも確認。\n行きます！！\n\0":
@@ -8389,11 +8394,11 @@ translate_map = {
 
 # Kozo Fuyutsuki, Misato Katsuragi, Male Staff, Gendo Ikari
 "パイロットは？\n\0":
-'???',
+'Pilot\'s status?\n\0',
 
 # Female Staff
 "参号機パイロットは？\n\0":
-'???',
+'Status of Unit-03\'s pilot?\n\0',
 
 # Makoto Hyuga, Maya Ibuki, Male Staff
 "参号機パイロット、\n呼吸、心拍の反応はありますが\n恐らく…。\n\0":
@@ -8981,7 +8986,7 @@ translate_map = {
 
 # Shinji Ikari
 "しまった！\n\0":
-'???',
+'Oh no!\n\0',
 
 # Misato Katsuragi 
 "はい、アウト。▽\nゼロエリアに踏み込まれる前に\n倒さないと、街の被害も大きく\nなるのよ。▽\nどう、\nもう１回、最初からやりなおす？\n\0":
@@ -14213,6 +14218,8 @@ translate_map = {
 #
 # ./USRDIR/event/f033.har_EXTRACT/f033.evs
 #
+# [Students: School Trip]
+#
 # Asuka Soryu Langley
 "ウ〜〜〜。\n\0":
 '???',
@@ -14558,6 +14565,8 @@ translate_map = {
 #
 # ./USRDIR/event/b2s21.har_EXTRACT/b2s21.evs
 #
+# [Battle Event: Arael Attack]
+#
 # Shinji Ikari
 "わぁぁぁぁぁっ！！\n行かないで、捨てないで！！\n父さん、父さん！！\n\0":
 'Wahhhhh!!\nDon\'t go, don\'t leave me!\Father! Father!!\n\0',
@@ -14624,6 +14633,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f065.har_EXTRACT/f065.evs
+#
+# [Serious: Assassin (Pt.2?)]
 #
 # Shinji Ikari
 "…？▽\nあいつは…、確か前にも。\n\0":
@@ -14941,6 +14952,8 @@ translate_map = {
 #
 # ./USRDIR/event/cev0111.har_EXTRACT/cev0111.evs
 #
+# [Scenario 2: Shinji - Scene with Kaji]
+#
 # Ryoji Kaji
 "よお。\n\0":
 '???',
@@ -15159,6 +15172,8 @@ translate_map = {
 #
 # ./USRDIR/event/n010.har_EXTRACT/n010.evs
 #
+# [Post-Battle Report: Sahaquiel, Success and Failure]
+#
 # Shigeru Aoba, Male Staff
 "エヴァ要撃ポイント、\n予想落下地点から大きく\n外れていきます。\n\0":
 '???',
@@ -15242,6 +15257,8 @@ translate_map = {
 #
 # ./USRDIR/event/f060.har_EXTRACT/f060.evs
 #
+# [Psychological: Asuka]
+#
 # [Text Only - No Designated Speaker]
 "ふと、アスカの声が\n聞こえた気がした。\n\0":
 '???',
@@ -15264,7 +15281,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "うるさい！！\n\0":
-'???',
+'Shut up!!\n\0',
 
 # Shinji Ikari
 "そうしないと、自分自身が\n消えてしまうからだろ…。\n\0":
@@ -15276,6 +15293,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f008.har_EXTRACT/f008.evs
+#
+# [Serious: Eva-03 Mildew]
 #
 # Toji Suzuhara 
 "何や、ワイのエヴァだけ、\nぎょーさん汚れとるやないか。\n感じわる…文句言うたろ。\n\0":
@@ -15454,11 +15473,11 @@ translate_map = {
 #
 # [Text Only - No Designated Speaker]
 "これからは、\nこの部屋がシンジの部屋です。\n\0":
-'???',
+'From now on, this will be Shinji\'s room.\n\0',
 
 # [Text Only - No Designated Speaker]
 "これまでシンジが生活していた\n部屋は、新たな同居人のアスカが\n使用することになりました。\n\0":
-'???',
+'It\'s been decided that new\n housemate Asuka will use the room\n where Shinji stayed previously.\n\0',
 
 #
 # ./USRDIR/event/bs058.har_EXTRACT/bs058.evs
@@ -15488,6 +15507,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/b2s37.har_EXTRACT/b2s37.evs
+#
+# [Battle Event: Sandalphon/Coolant]
 #
 # Asuka Soryu Langley
 "アンタとは、\nここでお別れよッ！！\n\0":
@@ -15550,6 +15571,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/cev0104.har_EXTRACT/cev0104.evs
+#
+# [Scenario 2: Shinji - Scene with Misato]
 #
 # Misato Katsuragi 
 "シンちゃーん！\nちょっと来てー。\n\0":
@@ -15666,17 +15689,19 @@ translate_map = {
 #
 # ./USRDIR/event/f049.har_EXTRACT/f049.evs
 #
+# [Character: Fuyutsuki Flashback]
+#
 # [Text Only - No Designated Speaker]
 "激しい子供の泣き声が、聞こえる。\n母親であろう女性が\n幼児を抱いてオロオロしている。▽\n病院には休診の札が掛かっていた。\nあの母親は、\nこの病院を目指していたのだろう。\n\0":
-'???',
+'A baby was crying intensely.\nA woman, surely the mother, paced\nnervously with the child in her arms.▽\nA hanging sign indicated the hospital was closed.\nIt seems the mother had her sights set on this facility.\n\0',
 
 # Kozo Fuyutsuki
 "どうか、しましたか？\n\0":
-'???',
+'Is there something I can do?\n\0',
 
 # Baby's Mother
 "子供が今までになく\n激しく泣いて…。▽\n何分かおきに泣き止むんですけど、\nまた、激しく泣いて…。\n\0":
-'???',
+'My child has never cried this badly...▽\nShe\'ll stop for a few minutes here and there,\nbut then she\'s bawling again...\n\0',
 
 # Kozo Fuyutsuki
 "何分おきかね…？\n\0":
@@ -15700,7 +15725,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "私だ。\n中央病院に患者を一人。▽\n小児科医を…、ああ、子供だ。\n腸重積の疑いがある。\n\0":
-'???',
+'It\'s me.\nI have one patient at the central hospital.▽\nIs a pediatrician-- Yes, it\'s a child.\nSuspected invagination of the bowels.\n\0',
 
 # Kozo Fuyutsuki
 "後少しの辛抱だ。\nタクシーで、この病院に行きなさい。▽\nそれと、受付けでこの紙を渡せば\nあとは医師にまかせておけばいい、\n治療費も必要ない。\n\0":
@@ -15708,7 +15733,7 @@ translate_map = {
 
 # Baby's Mother
 "あ、ありがとうございます…。\n\0":
-'???',
+'Th-thank you very much...\n\0',
 
 # Kozo Fuyutsuki
 "礼はいい、急ぐんだ。\n\0":
