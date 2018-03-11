@@ -2788,7 +2788,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "負のエネルギー？\nまさか、ディラックの海！\n\0":
-'Negative energy?\nIt\'s a Dirac Sea!\n\0'
+'Negative energy?\nIt\'s a Dirac Sea!\n\0',
 
 # Misato Katsuragi 
 "え、一体どうゆうコトなの！？\n\0":
@@ -10874,7 +10874,7 @@ translate_map = {
 
 # Ryoji Kaji
 "その頃には、アスカの価値観が\n変わってるはずさ。▽\nきっと俺には見向きもしないだろう。\n\0":
-'???'
+'???',
 
 #
 # ./USRDIR/event/cev0207.har_EXTRACT/cev0207.evs

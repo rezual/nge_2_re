@@ -3550,7 +3550,7 @@ translate_map = {
 #
 # Misato Katsuragi 
 "使徒がいなくなった今、\n司令や委員会の狙いを、\n妨げるものは何もない。▽\nそして、計画が遂行される\n時が来たのね。\nサードインパクトが…。▽\n絶対に、させはしない。▽\n自分達の目的の為に、\n父さんを利用した奴等を\n私は許さない…。\n\0":
-'Now that the Angels are gone,\nthere\'s nothing standing in the way of\nthe Commander's and the Committee's goals.▽\nAnd isn\'t it high time they saw their plans through?\n The Third Impact...▽\nI\'ll never let it happen.▽\nI\'ll never forgive them\nfor using Father as\na pawn in their schemes...\n\0',
+'Now that the Angels are gone,\nthere\'s nothing standing in the way of\nthe Commander\'s and the Committee\'s goals.▽\nAnd isn\'t it high time they saw their plans through?\n The Third Impact...▽\nI\'ll never let it happen.▽\nI\'ll never forgive them\nfor using Father as\na pawn in their schemes...\n\0',
 
 # Misato Katsuragi 
 "…始まるわね。\n\0":
@@ -7966,7 +7966,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "………ここは。▽\nそうか…。\n戻ってきてしまったか…。\n\0":
-'???'
+'???',
 
 #
 # ./USRDIR/event/cev0616.har_EXTRACT/cev0616.evs
@@ -12781,7 +12781,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "ペンペン、何をするの！\nおやめなさい！！\n\0":
-'Pen Pen, what are you doing?\nStop that at once!\n\0'
+'Pen Pen, what are you doing?\nStop that at once!\n\0',
 
 #
 # ./USRDIR/event/cev1701.har_EXTRACT/cev1701.evs
