@@ -1935,7 +1935,7 @@ translate_map = {
 
 # Shinji Ikari
 "何も…食べたくない。\n\0":
-'???',
+'I don\'t want to eat anything.\n\0',
 
 # Rei Ayanami 
 "食べた方がいいわ。\nまた、出撃だから。\n\0":
@@ -1979,11 +1979,11 @@ translate_map = {
 
 # Shinji Ikari
 "あ…ちょっと。\n\0":
-'???',
+'Uh... wait.\n\0',
 
 # Rei Ayanami 
 "さよなら…。\n\0":
-'???',
+'Farewell...\n\0',
 
 # Makoto Hyuga
 "これが、分析結果です。▽\n目標は一定距離内に侵入した外敵を、\n加粒子砲で自動排除するものと\n思われます。▽\n展開されるΑΤフィールドは、\n相転移空間を肉眼で確認出来る程、\n超強力なものです。\n\0":
@@ -2175,7 +2175,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "あー、ええ天気や。\n\0":
-'???',
+'Ahhh, great weather.\n\0',
 
 # Shinji Ikari
 "こういうの、\nしょっちゅうやってるの？\n\0":
@@ -2230,7 +2230,7 @@ translate_map = {
 
 # Shinji Ikari
 "ハーモニクステスト？\n\0":
-'???',
+'Harmonics test?\n\0',
 
 # Maya Ibuki 
 "そうよ。\nあなたも定期的に行う事に\nなるんだから。▽\n案内するわ。\nついて来てね。\n\0":
@@ -2238,7 +2238,7 @@ translate_map = {
 
 # Maya Ibuki 
 "センパイ、シンジ君です。\n\0":
-'???',
+'Sempai, this is Shinji-kun.\n\0',
 
 # Ritsuko Akagi 
 "もうすぐ、\nレイのテストが終わるわ。▽\nシンジ君も、近々テストを\n行う予定よ。\n\0":
@@ -2246,7 +2246,7 @@ translate_map = {
 
 # Shinji Ikari
 "その、テストって何ですか？\n\0":
-'???',
+'What is this test?\n\0',
 
 # Ritsuko Akagi 
 "ここであなた達は\nテストと訓練が行えるわ。▽\n一つは、ハーモニクステスト。▽\nエヴァとパイロットの\n神経接続における調和を調整し、\nΑΤを高めるテストよ。▽\nもう一つはシンクロ技能訓練。▽\nパイロットとエヴァの\n神経交流を高め、エヴァの\n運動性能を引き出すための訓練よ。▽\nここネルフに来た時に、テストを\nして欲しい時は、私かマヤに\n話し掛けてくれたらいいわ。\n\0":
@@ -2254,7 +2254,7 @@ translate_map = {
 
 # Maya Ibuki 
 "学校のテストなんかよりは簡単よ。\nそういえば、学校はどう？\n\0":
-'???',
+'Much easier than the tests at school.\nSpeaking of, how is school?\n\0',
 
 # Shinji Ikari
 "まあ、それなりに。▽\n授業では、セカンドインパクトの\n話ばっかりですけど。\nみんな知ってる話なのに…。\n\0":
@@ -2352,7 +2352,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "ええ、もちろんですわ。\n\0":
-'???',
+'Yes, of course.\n\0',
 
 # Shiro Tokita
 "人の心などという、曖昧な\nものに頼っているからネルフは\n先のような暴走を許すのですよ。▽\nその結果、国連は莫大な\n追加予算を迫られ、某国では２万の\n餓死者を出そうとしているのです。▽\nよかったですね、\nネルフが超法規にて保護されていて。▽\nあなた方は、その責任を取らずに\n済みますから。\n\0":
@@ -2463,7 +2463,7 @@ translate_map = {
 
 # Shinji Ikari
 "ミサトさん…！！\n大丈夫ですか、ミサトさん！？\n\0":
-'???',
+'Misato-san...!!\nAre you okay, Misato-san?!\n\0',
 
 # Misato Katsuragi 
 "ええ、何とかね…。\nビールが恋しいくらいかしら？\n\0":
@@ -4671,19 +4671,19 @@ translate_map = {
 #
 # Toji Suzuhara 
 "あのな…、シンジ。\n\0":
-'???',
+'Hey, Shinji...\n\0',
 
 # Shinji Ikari
 "なに？\n\0":
-'???',
+'Yeah?\n\0',
 
 # Toji Suzuhara 
 "エヴァに初めて乗った時、\nどうやった？\n\0":
-'???',
+'What was it like,\nyour first time in an Eva?\n\0',
 
 # Shinji Ikari
 "何で、そんな事聞くの？\n\0":
-'???',
+'Why are you asking me something like that?\n\0',
 
 # Toji Suzuhara 
 "いや、何でもあらへん。\nただ…、ワシ…あの時。▽\nお前の気持ち、何も知らんと\nエラそうにお前の事殴ったりして…。\n\0":
@@ -4719,7 +4719,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "ネルフそのもの？\n碇司令が？\n\0":
-'???',
+'Nerv itself?\nCommander Ikari does?\n\0',
 
 # Ryoji Kaji
 "コード７０７を調べてみるんだな。\n\0":
@@ -4754,7 +4754,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "じゃあ…、帰ったら話すわ。\n\0":
-'???',
+'Well... We\'ll talk when I get back.\n\0',
 
 # Ritsuko Akagi 
 "そう、じゃあシンジ君は\nまだパイロットが誰か\n知らないわけね。\n\0":
@@ -4858,7 +4858,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "ふぅん、そう。\nよかったわね。\n\0":
-'???',
+'Hmm, really?\nGood for you.\n\0',
 
 # Ritsuko Akagi 
 "気のない返事ね。\nこの機体も納入されれば、\nあなたの直轄部隊に配属されるのよ。\n\0":
@@ -4946,7 +4946,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "やはり、これか。\n\0":
-'???',
+'And there it is.\n\0',
 
 # Gendo Ikari
 "活動停止信号を発信。\nエントリープラグを強制射出。\n\0":
@@ -4970,7 +4970,7 @@ translate_map = {
 
 # Shinji Ikari
 "そんな、どうしよう？\n\0":
-'???',
+'Oh no. What do we do?\n\0',
 
 # Asuka Soryu Langley
 "何、グジグジ言ってんのよ。\n今、私達が心配したって、\n何もならないでしょ？\n\0":
@@ -4993,7 +4993,7 @@ translate_map = {
 #
 # Shinji Ikari
 "目標…、\n目標の使徒って…。\nエヴァじゃないですか！？\n\0":
-'The target...\n The target Angel...\n It\'s not an Eva?!\n\0',
+'The target...\n What you\'re calling an Angel...\n It\'s an Eva, isn\'t it?!\n\0',
 
 # Gendo Ikari
 "あれはもう、\nエヴァ参号機ではない。\n…使徒だ。\n\0":
@@ -5001,7 +5001,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "プラグが見える。\nパイロットはあの中なんだわ。\nまさか使徒に乗っ取られるなんてね。\n\0":
-'???',
+'I can see the plug.\nA pilot\'s on the inside.\nPretty crazy, getting hijacked by an Angel.\n\0',
 
 # Shinji Ikari
 "そんな！\nじゃあ、あの中には\n僕達と同じような子供が…。\n\0":
@@ -5017,7 +5017,7 @@ translate_map = {
 
 # Shigeru Aoba
 "エヴァ弐号機、完全に沈黙。\n目標移動、零号機へ。\n\0":
-'Eva Unit-02 has gone completely silent.\n Target is moving toward Unit-02.\n\0',
+'Eva Unit-02 has gone completely silent.\n Target is moving toward Unit-00.\n\0',
 
 # Rei Ayanami 
 "はっ…。\n\0":
@@ -5149,7 +5149,7 @@ translate_map = {
 
 # Gendo Ikari
 "また逃げ出すのか。\n\0":
-'???',
+'So you\'re running away again.\n\0',
 
 # Gendo Ikari
 "お前には失望した。\nもう会う事もあるまい。\n\0":
@@ -5327,7 +5327,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "まずい、\nメインシャフトが丸見えだわ！\n\0":
-'Not good!\n The main shaft is completely exposed!\n\0',
+'Not good!\nThe main shaft is completely exposed!\n\0',
 
 # Ritsuko Akagi 
 "初号機はまだなの？\n\0":
@@ -5351,11 +5351,11 @@ translate_map = {
 
 # Shinji Ikari
 "お願いです！\n僕をエヴァに乗せてください！\n\0":
-'I beg you!\n Let me pilot Eva Unit-01!\n\0',
+'I beg you!\nLet me pilot Eva Unit-01!\n\0',
 
 # Gendo Ikari
 "パイロットをエヴァに搭乗させる。\nエントリー準備、急げ。\n\0":
-'The pilot may board the Eva.\n Prepare for immediate entry.\n\0',
+'The pilot may board the Eva.\nPrepare for immediate entry.\n\0',
 
 # Misato Katsuragi 
 "ハイッ！\n\0":
@@ -5524,11 +5524,11 @@ translate_map = {
 
 # Rei Ayanami 
 "碇君は、わかろうとしたの？\n\0":
-'???',
+'Ikari-kun, did you try to understand?\n\0',
 
 # Shinji Ikari
 "わかろうとした。\nわかろうとしたんだよ！！\n\0":
-'???',
+'I tried. I really tried!!\n\0',
 
 # Rei Ayanami 
 "そうやって、嫌な事から\n逃げているのね。\n\0":
@@ -9666,7 +9666,7 @@ translate_map = {
 
 # Shinji Ikari
 "はい、分かりました！\n\0":
-'???',
+'Yes, understood!\n\0',
 
 # Misato Katsuragi 
 "何ですって！？\nこの距離から、だというの…？▽\nヤツの中和距離は\nこちらの予想以上の広さよ。▽\n恐らく、遠距離攻撃で来るわ！！▽\n気をつけなさい！！\n\0":
@@ -15737,15 +15737,15 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "礼はいい、急ぐんだ。\n\0":
-'???',
+'No need for that, just hurry.\n\0',
 
 # Baby's Mother, Toji Suzuhara
 "ハイ…。\n\0":
-'???',
+'I will.\n\0',
 
 # Kozo Fuyutsuki
 "ありがとうございます…か。\n\0":
-'???',
+'"Thank you"...eh?\n\0',
 
 # Yui Ikari [Flashback]
 "冬月先生、\nどうもありがとうございました…。▽\n中耳炎だなんて、\n痛がる様子もないから、\nちっとも気づきませんでした…。\n\0":
