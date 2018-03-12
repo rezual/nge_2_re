@@ -7040,6 +7040,81 @@ translate_map = {
 '???',
 
 #
+# ./USRDIR/event/a001.har_EXTRACT/a001.evs
+#
+# Makoto Hyuga, Male Staff
+"目標は、超低高度で進行中。\n\0":
+'???',
+
+# Misato Katsuragi 
+"こちらへ向かっている事以外は\n大きな動きは見られないわね。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"こちらへ向かっている事以外は\n大きな動きはないようだが…。\n\0":
+'???',
+
+# Female Staff
+"こちらへ向かっている事以外は\n大きな動きは見られません。\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"中央ブロック、収容。\n第６ブロック、閉鎖。\n全館収容完了。▽\n政府及び関係各省へ通達終了。\n\0":
+'???',
+
+# Misato Katsuragi 
+"あれが、戦闘形態かしら？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"あれが、戦闘形態か？\n\0":
+'???',
+
+# Female Staff
+"あれが、戦闘形態でしょうか？\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"使徒が進行に障害となるビルを\n破壊しました！▽\n腕部らしきところから出た\n触手によるものです。\n\0":
+'???',
+
+# Misato Katsuragi 
+"あれが武器ってワケね。\nビルを分断するなんて\n大した破壊力だわ。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"あの触手が武器というわけだな。\n\0":
+'???',
+
+# Female Staff
+"あの触手が、武器という事ですね。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"委員会から、\nエヴァの出撃要請が出ました！\n\0":
+'???',
+
+# Misato Katsuragi 
+"うるさい奴等ね。\n言われなくても出撃させるわよ。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"わかっている。\n出撃準備を急げ。\n\0":
+'???',
+
+# Female Staff
+"了解。\nエヴァ、出撃準備に入ります。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"それでは作戦の指揮をお願いします。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"了解した。\n\0":
+'???',
+
+#
 # ./USRDIR/event/a002.har_EXTRACT/a002.evs
 #
 # [Angel: Ramiel]
@@ -7223,6 +7298,325 @@ translate_map = {
 # Male Staff
 "では、作戦開始ですね！\n\0":
 '???',
+#
+# ./USRDIR/event/a003.har_EXTRACT/a003.evs
+#
+# [Angel: Israfel]
+#
+# Misato Katsuragi 
+"来たわね。\n今度は抜かりないわよ！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"来たな。\n\0":
+'???',
+
+# Female Staff
+"来ましたね。\n\0":
+'???',
+
+# Misato Katsuragi 
+"今回の作戦は、前も言ったとおり、\nユニゾンが高いパイロット二人によ\nる同時荷重攻撃により、目標を殲滅。▽\nで〜、今回のパイロットは………。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"今回のパイロットは………、\n\0":
+'???',
+
+# Female Staff
+"今回のパイロットは……、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"シンジ君と…\n\0":
+'Shinji-kun and...\n\0',
+
+# Kozo Fuyutsuki
+"碇シンジと…\n\0":
+'Shinji Ikari and...\n\0',
+
+# Misato Katsuragi 
+"アスカと…\n\0":
+'Asuka and...\n\0',
+
+# Kozo Fuyutsuki
+"惣流・アスカ・ラングレーと…\n\0":
+'Asuka Soryu Langley and...\n\0',
+
+# Female Staff
+"アスカさんと…\n\0":
+'Asuka-san and...\n\0',
+
+# Misato Katsuragi 
+"レイと…\n\0":
+'Rei and...\n\0',
+
+# Kozo Fuyutsuki
+"綾波レイと…\n\0":
+'Rei Ayanami and...\n\0',
+
+# Female Staff
+"レイさんと…\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"トウジ君と…\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"鈴原トウジと…\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"カヲル君と…\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"渚カヲルと…\n\0":
+'???',
+
+# Misato Katsuragi 
+"アスカ。\n\0":
+'???',
+
+# Female Staff
+"アスカさん。\n\0":
+'???',
+
+# Female Staff
+"レイさん。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"トウジ君。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"鈴原トウジ。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"カヲル君。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"渚カヲル。\n\0":
+'???',
+
+# Misato Katsuragi 
+"あなた達、二人にやってもらいます。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"君達、二人にやってもらう。\n\0":
+'???',
+
+# Female Staff
+"この二人にお願いします。\n\0":
+'???',
+
+# Shinji Ikari
+"え、えぇっ！？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"まっ、トーゼンよね！！\n\0":
+'???',
+
+# Toji Suzuhara 
+"あちゃー、当てられてもうた。\n\0":
+'???',
+
+# Kaworu Nagisa , Maya Ibuki 
+"フフ…。\n\0":
+'???',
+
+# Shinji Ikari
+"あ、でも、初号機は凍結中で\n出られないんじゃぁ…。\n\0":
+'???',
+
+# Misato Katsuragi 
+"大丈夫！！\nさっき、ちょうど凍結解除命令が\n降りたのよ。▽\nだから頑張って〜ン、\nシンジ君。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"大丈夫だ。\nちょうど、凍結解除命令が\n降りたばかりだ。▽\n頑張ってくれたまえ。\n\0":
+'???',
+
+# Female Staff
+"それは大丈夫です。\nつい先ほど凍結解除命令が\n降りたそうなんです。▽\n初号機は現在、発進準備を\n進めています。\n\0":
+'???',
+
+# Misato Katsuragi 
+"今回の作戦の全ては、二人の\nユニゾンにかかってるわ。\nあんた達、任せたわよ！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"今回の作戦の全ては、二人の\n協調性にかかっている。\n…頼んだぞ。\n\0":
+'???',
+
+# Female Staff
+"今回の作戦の勝敗は、二人の\nユニゾンにかかっています。\n頑張って下さい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"パイロットの人数が足りない。\nこれじゃ、同時荷重攻撃は\n不可能だわ。▽\nああ、ここまでなの…！？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"くっ…、パイロットの人数が足らん。\nこれでは、同時荷重攻撃は不可能だ。\nもはや、これまでか…。\n\0":
+'???',
+
+# Female Staff
+"パイロットの人数が足りません！\nこれでは、同時荷重攻撃の作戦を\n遂行する事が出来ません！！\n\0":
+'???',
+
+# Misato Katsuragi 
+"パイロットのΑΤがこんな状態じゃ、\nとても同時荷重攻撃なんか\n出来ないわ………。▽\n何とか、何とかならないの！！\nああ、こんな事って…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"パイロットのΑΤがこんな状態では\nとても同時荷重攻撃は無理だ…。\n他に打つ手は…、他に何か…。\n\0":
+'???',
+
+# Female Staff
+"くっ…、\nパイロットのΑΤがこんな状態では\nとても同時荷重攻撃は無理だわ！！▽\nただ、指をくわえているしか\nないの…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a004.har_EXTRACT/a004.evs
+#
+# [Angel: Matarael]
+#
+# Maya Ibuki 
+"液体が落ちた箇所が腐食しています。▽\nどうやら使徒の武器は、\nあの強力な溶解液のようですね。\n\0":
+'The sites where the liquid fell are being corroded.▽\nIt seems the Angel is using that\npowerful solvent as a weapon.\n\0',
+
+# Male Staff
+"液体が落ちた箇所が腐食しています。▽\nどうやら使徒の武器は、\nあの強力な溶解液のようです。\n\0":
+'The sites where the liquid fell are being corroded.▽\nIt seems the Angel is using that\npowerful solvent as a weapon.\n\0',
+
+# Misato Katsuragi 
+"しかし、これじゃうかつに\n近づけないわね。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"ああ、恐らく敵に向かって\n射出するためのものだろう。\n\0":
+'???',
+
+# Male Staff
+"直上を目指しているという事は…。\nあの液を使って、ジオフロントに\n侵入するつもりでしょうか…！？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"足止めを急げ。\nエヴァ、出撃準備！！\n\0":
+'???',
+
+# Female Staff
+"そのようですね。\nでは、エヴァの出撃準備に移ります。\n\0":
+'???',
+
+# Male Staff
+"これは、かなり大きいですね。\n\0":
+'???',
+
+# Female Staff
+"これでは、うかつに近づけませんね。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"本体はそんなに大きくはない。\nおそらく、弱点もあそこだろう。\n\0":
+'???',
+
+# Female Staff
+"目標は速度を速めて、\nこちらに向かっています。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a005.har_EXTRACT/a005.evs
+#
+# Female Staff
+"あぁっ…！！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"なんという破壊力だ…。\n防衛ラインの迎撃システムを\n一瞬にして消し去るとは。\n\0":
+'???',
+
+# Female Staff
+"凄まじい破壊力です。\n防衛ラインの迎撃システムを\n一掃しました。\n\0":
+'???',
+
+# Female Staff
+"あの破壊力をもってすれば\nジオフロントの特殊装甲板は\n簡単に破壊されてしまいます。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"ひとつ誤まれば、被害は甚大だぞ。\n\0":
+'???',
+
+# Female Staff
+"これは…、\n指揮を間違えば、\n大変な事になりますね…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"一分でも惜しい。\n今から指示をだそう。\n\0":
+'???',
+
+# Female Staff
+"了解。\nパイロットへの指示後、\nすぐに発進させます。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a006.har_EXTRACT/a006.evs
+#
+# Kozo Fuyutsuki
+"それは…、どういう事だ？\n\0":
+'???',
+
+# Female Staff
+"青からオレンジ…、\nそれはどういう事でしょうか？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"このまま膠着状態を\n続けるしかないみたいね…。\n\0":
+'???',
+
+# Makoto Hyuga
+"このまま膠着状態を\n続けるしかないのか…。\n\0":
+'???',
+
+# Female Staff
+"このまま膠着状態を\n続けるしかないようですね…。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"相手がどんな出方をして\nくるのか予想が付かない。\n接近戦は危険だわ。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"下手に近づくのは危険だな。\n接近戦を避け、十分な距離をとり\nながら攻撃する方がいいだろう。\n\0":
+'???',
+
+# Female Staff
+"接近戦は避けた方がいいですね。\n目標の攻撃範囲から外れるよう\n常に動き続けた方がよさそうです。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"パイロット、準備ＯＫです。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ええ、すぐ行くわ。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"そうか、では作戦を伝えよう。\n\0":
+'???',
+
+# Female Staff
+"それでは作戦を伝え、\n出撃させましょう。\n\0":
+'???',
 
 #
 # ./USRDIR/event/a007.har_EXTRACT/a007.evs
@@ -7319,6 +7713,286 @@ translate_map = {
 
 # Gendo Ikari
 "やはり老人は\n予定を一つ繰り上げるつもりだ。\n我々の手で。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a010.har_EXTRACT/a010.evs
+#
+# Female Staff
+"マギによる演算結果でも\n勝率は０．００００１パーセント。▽\nしかし、ここを放棄する以外、\n他に手がありません。\n\0":
+'???',
+
+# Male Staff
+"では、パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"エヴァで使徒を\n受け止めるんですか？\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"使徒、インド洋上空、\n衛星軌道上に突如出現！\n\0":
+'???',
+
+# Misato Katsuragi 
+"そうよ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止めるの。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"そうだ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止める。\n\0":
+'???',
+
+# Female Staff
+"目標の落下予測地点にエヴァを\n配置し、ΑΤフィールドで\n直接使徒を受け止めます。\n\0":
+'???',
+
+# Male Staff, Makoto Hyuga
+"しかし、こんなに落下予想範囲が\n広くては…。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもないわよ。\nどうするの？\n\0":
+'???',
+
+# Makoto Hyuga
+"こりゃ、すごい！\n\0":
+'That\'s amazing!\n\0',
+
+# Female Staff
+"これは…すごい！\n\0":
+'That is... incredible!\n\0',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもありません。\nどうなさるおつもりですか？\n\0":
+'???',
+
+# Misato Katsuragi 
+"常識を疑うわね。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"また、無茶なヤツだな。\n\0":
+'???',
+
+# Male Staff
+"常識を疑いますね。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもない。\n\0":
+'???',
+
+# Male Staff
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率は………、\n万に一つもない。\n\0":
+'???',
+
+# Misato Katsuragi 
+"可能性はゼロ、じゃないのよ。\n他に方法がなければ\nやるしかないわ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"大した破壊力ね。\nさっすがΑΤフィールド。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"大した破壊力だな。\nやはりΑΤフィールドか。\n\0":
+'???',
+
+# Female Staff
+"スゴイ破壊力ですね。\nさすがはΑΤフィールド。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
+'???',
+
+# Maya Ibuki, Female Staff
+"落下のエネルギーをも\n利用しています。▽\n使徒そのものが\n爆弾みたいなものですね。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"とりあえず、\n初弾は太平洋に大ハズレ。\nだけど徐々に狙いを定めてきてるわ。\n\0":
+'???',
+
+# Female Staff
+"とりあえず、初弾は\n太平洋に落下していますが…、▽\n徐々に狙いが\n正確になってきています。\n\0":
+'???',
+
+# Misato Katsuragi 
+"来るわね、多分。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"…来るな。\n\0":
+'???',
+
+# Male Staff
+"来ますね、多分。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"だが、使徒殲滅が我々の仕事だ。\n…これに賭けよう。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"ええ、次はここに、本体ごとね。\nどうするの？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"次はここに、本体ごと。\nどうします？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"次はここに、本体ごとね。\nどうしようかしら？\n\0":
+'???',
+
+# Female Staff
+"次はここに本体ごと。\nいったい、どうすれば………？\n\0":
+'???',
+
+#
+# ./USRDIR/event/a011.har_EXTRACT/a011.evs
+#
+# Kozo Fuyutsuki
+"富士の電波観測所はどうした？\n\0":
+'???',
+
+# Male Staff
+"富士の電波観測所の方は？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"何もかもが不明というわけか。\nとりあえず、様子をうかがいつつ、\n市街地から引き離すしかあるまい。\n\0":
+'???',
+
+# Female Staff
+"何もかもが不明。\nとりあえず、エヴァの発進準備を\n急ぎましょう。\n\0":
+'???',
+
+# Female Staff
+"ΑΤフィールドがないなんて！？\nどういう事でしょうか…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a012.har_EXTRACT/a012.evs
+#
+# Kozo Fuyutsuki
+"衛星軌道上だと？\n\0":
+'???',
+
+# Misato Katsuragi 
+"こりゃ、またデカそうな…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"最大望遠でこのサイズか。\nこいつはデカいな。\n\0":
+'???',
+
+# Male Staff
+"これは、また………。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"ということは、降下接近の機会を\nうかがっているのか、その必要も\nなく、ここを破壊できるのか。\n\0":
+'???',
+
+# Male Staff
+"降下接近の機会をうかがってるのか、\nその必要もなく、\nここを破壊できるのか…。\n\0":
+'???',
+
+# Female Staff
+"こちらの射程距離内まで\n近づいてくれないと、\nどうしようもないですね。▽\nエヴァには、衛星軌道の敵は\n迎撃できませんから。\n\0":
+'???',
+
+#
+# ./USRDIR/event/a016.har_EXTRACT/a016.evs
+#
+# Misato Katsuragi 
+"今日教えるのは、大きく分けて二つ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"一つはあなたのΑΤとエヴァの関係。\n\0":
+'???',
+
+# Misato Katsuragi 
+"もう一つはエヴァとパイロット間の\nフィードバックよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"じゃあ、一つ目。\nパイロットのΑΤと\nエヴァの関係から説明するわ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"パイロットとエヴァとのシンクロ率。\nそして、エヴァのΑΤフィールドの\n強度。▽\nこれらは、パイロット自身の\nΑΤの高さに比例します。▽\nシンクロ率とΑΤフィールドは、\nそれぞれ、エヴァの攻撃力と防御力、\nと考えて良いわ。\n\0":
+'???',
+
+# Shinji Ikari
+"…じゃあ、僕のΑΤが高いと\nエヴァの攻撃力と防御力が上がる…。\n\0":
+'???',
+
+# Misato Katsuragi 
+"その通り、さすがネ！\nあなたのΑΤ次第でエヴァは\n強くも弱くもなるってことよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"戦闘の技術も大切だけど、\n使徒に勝つにはあなたの心の状態、\nΑΤがより大きな鍵になるの。▽\nだから、エヴァのパイロットは\n日頃からΑΤを高めるよう\n努めないといけないのよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"で…、もう一つがエヴァと\nパイロット間のフィードバックね。\n\0":
+'???',
+
+# Misato Katsuragi 
+"エヴァはあなたが動きを頭の中に\n思い描くだけで操縦出来るでしょ？▽\nそれはエヴァとパイロットの神経を\n接続してあなたのイメージをエヴァ\nにフィードバックしているからなの。\n\0":
+'???',
+
+# Misato Katsuragi 
+"で、ここからが本題なんだけど、\nエヴァがダメージを受けたとき、\n幻痛が起こるでしょ？\n\0":
+'???',
+
+# Shinji Ikari
+"ゲンツウ…？\n\0":
+'???',
+
+# Misato Katsuragi 
+"そ、幻痛。\nエヴァがダメージを受けた時に\nあなたが感じた痛みのこと。▽\n幻痛は、エヴァのダメージが\n神経接続を通じて、あなたに\nフィードバックされて伝わるの。\n\0":
+'???',
+
+# Shinji Ikari
+"…あの感覚は\nそのために起こるんですね。\n\0":
+'???',
+
+# Misato Katsuragi 
+"あなたにフィードバックされた\nダメージは不快な記憶を生み、\nあなたのΑΤは低下する。▽\nΑΤが低下すると………、\n\0":
+'???',
+
+# Shinji Ikari
+"エヴァのシンクロ率と\nΑΤフィールドも落ちてしまう。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ご名答！\n\0":
+'???',
+
+# Misato Katsuragi 
+"エヴァの耐久力が残っていても、\nΑΤが落ちればエヴァの戦闘力も\nそれに比例して低下し、\n\0":
+'???',
+
+# Misato Katsuragi 
+"シンクロ率が３０以下になると、\nもう、エヴァを動かせなくなるわ。\n\0":
+'???',
+
+# Shinji Ikari
+"…動かせなくなる？\n\0":
+'???',
+
+# Misato Katsuragi 
+"逆にあなたが使徒に\nダメージを与えると、\n気分が高揚してΑΤが上昇する。\n\0":
+'???',
+
+# Misato Katsuragi 
+"とにかくエヴァで使徒に勝つため\nには、あなたのΑΤがすごーく\n重要って事をよく覚えておいて。\n\0":
 '???',
 
 #
@@ -12654,65 +13328,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/cev0205.har_EXTRACT/cev0205.evs
-#
-# Teacher
-"今日は、進路調査の\nプリントを渡します。▽\n各自、進路についてのプランを\n書いて提出するように。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"将来…、将来ねぇ…。\nもう大学出てるんだけどなぁ。\n白紙で出しちゃおうかしら。\n\0":
-'???',
-
-# Hikari Horaki
-"私は栄養師かな。\nアスカはどうするの？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そういえば私…、\n使徒を全部倒した後、\nどうすればいいんだろう。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"エヴァに乗らなくなった私を\n誰も必要としなくなるのかな…。\n\0":
-'???',
-
-# Hikari Horaki
-"そんな事ないわよ。▽\nアスカは頭もいいし、\n美人だし。▽\n私達より、色んな可能性を\n持っているじゃない。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"でも、なりたいものなんて\nないの。▽\nエヴァのパイロットじゃないと\n意味がないのよ。\n\0":
-'???',
-
-# Hikari Horaki
-"どうして…？\n私、アスカがパイロットでなくても\nきっと友達になってるわ。\n\0":
-'???',
-
-# Hikari Horaki
-"そうそう、アスカだったら\n芸能界だって夢じゃないわよ。\nモデルとか。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"安っぽい大衆の為の商品なんかに\nなりたかないわよ。\n\0":
-'???',
-
-# Hikari Horaki
-"なりたくてもなれない人って\nいるわよ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"なりたくなくてもなる人って\nいるんじゃない？\n\0":
-'???',
-
-# Hikari Horaki
-"アスカ…。\n最近ちょっと偏屈じゃない？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そう…？\n\0":
-'???',
-
-#
 # ./USRDIR/event/f078.har_EXTRACT/f078.evs
 #
 # Ritsuko Akagi 
@@ -13098,209 +13713,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/f046.har_EXTRACT/f046.evs
-#
-# [Text Only - No Designated Speaker]
-"ふと、郵便受けを見ると、\n封筒が入っていた。\n\0":
-'???',
-
-# Rei Ayanami, Asuka Soryu Langley
-"…手紙？\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"知らない差出人、以前ここに\n住んでいた人であろう宛名。\n封を切って、手紙を開く。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"何もかも嫌になりました。\nおとうさん、最後に会いたかった。▽\n今まで、ありがとう。\nさようなら、\nごめんなさい。\n\0":
-'???',
-
-# Rei Ayanami 
-"………。▽\nありがとう…。▽\nさようなら…。▽\nごめんなさい…。▽\n会いたかった…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"レイは、カバンからペンを取り出し、\nノートに字を走らせた。\n\0":
-'???',
-
-# Rei Ayanami 
-"いつか、あの人が言ったことば。▽\n私にくれたことば。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"書いたページを破り、封筒に入れた。\n手紙から宛先を写し、封をする。\n急いで、靴を履いて外へ走った。▽\n切手を貼って、\n封筒をポストに投函する。▽\n生きているなら…、\nまだ生きていてくれるのなら…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"誰もいないレイの部屋に、\n彼女の残り香だけが残っている。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"レイが、手に封筒を持っている。\n\0":
-'???',
-
-# Shinji Ikari
-"綾波に手紙…？\n\0":
-'???',
-
-# Hikari Horaki, Shigeru Aoba
-"手紙…？\n\0":
-'???',
-
-# Toji Suzuhara 
-"手紙やん、誰からや？\n\0":
-'???',
-
-# Kensuke Aida
-"手紙？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君に、手紙かい？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"レイに手紙？\n学校の人から？\n\0":
-'???',
-
-# Rei Ayanami 
-"知らない人。\n住所はここだけど、宛名が違うの。▽\nきっと、私の前に\nここに住んでた人だわ。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"封を切って、手紙を開く。▽\n手紙にはこう書かれていた。\n\0":
-'???',
-
-# Shinji Ikari
-"これっ、遺書…！？\n\0":
-'???',
-
-# Hikari Horaki
-"大変、これ遺書だわ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ちょっと、これってまさか…。\n\0":
-'???',
-
-# Kensuke Aida
-"おい、これひょっとして\n遺書じゃないのか？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…まさか、遺書？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"これは遺書だわ。\n\0":
-'???',
-
-# Shigeru Aoba
-"まさか、イタズラじゃ…。\nでも、本当だったらこれは、\n遺書…。\n\0":
-'???',
-
-# Rei Ayanami 
-"………。▽\nありがとう…。▽\nさようなら…。▽\nごめんなさい…。▽\n会いたかった…。▽\n………。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"書いたページを破り、封筒に入れ、\n宛先を写して封をする。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"レイは、靴を履いて外へ走った。\n\0":
-'???',
-
-# Shinji Ikari
-"綾波っ！！\n\0":
-'???',
-
-# Hikari Horaki
-"綾波さんっ！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"おい、綾波！！\n\0":
-'???',
-
-# Kensuke Aida
-"綾波、どこに行くんだよ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ファースト、君は…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"レイ、あなた…。\n\0":
-'???',
-
-# Shigeru Aoba, Misato Katsuragi, Gendo Ikari
-"レイ！！\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"レイが走った先は、\n速達用のポストだった。\n切手を貼って、投函する。\n\0":
-'???',
-
-# Rei Ayanami 
-"………。▽\n生きているのなら…、\nまだ生きていてくれたのなら…。\n\0":
-'???',
-
-# Hikari Horaki
-"綾波さん…。\n\0":
-'???',
-
-# Ritsuko Akagi, Shigeru Aoba, Misato Katsuragi, Gendo Ikari, Kozo Fuyutsuki, Maya Ibuki, Makoto Hyuga
-"レイ…。\n\0":
-'???',
-
-# Rei Ayanami 
-"きっと、大丈夫…。▽\nきっと…。\n\0":
-'???',
-
-# Gendo Ikari
-"手紙か…？\n\0":
-'???',
-
-# Rei Ayanami 
-"知らない人。\n住所はここだけど、宛名が違う。▽\nきっと、私の前に\nここに住んでいた人だわ。\n\0":
-'???',
-
-# Gendo Ikari
-"遺書か…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"レイは、カバンからペンを取り出し、\n何かを書こうとしたが手を止めた。\n顔には困惑の表情が見える。\n\0":
-'???',
-
-# Gendo Ikari
-"…レイ。\n\0":
-'???',
-
-# Yui Ikari [Flashback]
-"あら、生きて行こうと思えば、\nどこだって天国になるわよ。▽\nだって、生きているんですもの。\n幸せになるチャンスは\nどこにでもあるわ。\n\0":
-'???',
-
-# Gendo Ikari
-"レイ、貸してみろ。\n\0":
-'???',
-
-# Rei Ayanami 
-"それは…、\n以前、私に言ったことば。\nもう、忘れたんだろうと思ってた。\n\0":
-'???',
-
-# Gendo Ikari
-"これでいいだろう。\n切手を貼って、出すといい。\n\0":
-'???',
-
-# Gendo Ikari
-"…思い止まっていればいいが。▽\n幸せになるチャンスは\nどこにでもある…か。\n\0":
-'???',
-
-#
 # ./USRDIR/event/bs042.har_EXTRACT/bs042.evs
 #
 # Misato Katsuragi 
@@ -13349,221 +13761,6 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "エヴァ両機の神経接続、解除！\n再接続するまでの間は、\nエヴァ両機は操作不能になります。\n\0":
-'???',
-
-#
-# ./USRDIR/event/cev0108.har_EXTRACT/cev0108.evs
-#
-# [Text Only - No Designated Speaker]
-"食堂が焦げ臭い。\n\0":
-'???',
-
-# Maya Ibuki 
-"あーぁ。\nまた失敗しちゃった。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"厨房にマヤの姿が見える。\n\0":
-'???',
-
-# Shinji Ikari
-"マヤさん。\n何をしてるんですか？\n\0":
-'???',
-
-# Maya Ibuki 
-"シンジ君…。\nあのね…、\nちょっと…、料理作ってて。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"焦げた匂いは、\nオーブンの中からのようだ。\n目を突く様な煙が立ち昇っている。▽\nオーブンの中で炭化したそれは、\nスポンジケーキ…の様だった。\n\0":
-'???',
-
-# Maya Ibuki 
-"ケーキでも焼いてみようかなと\n思って…。▽\n家にオーブンがないから、\nここを借りて作ってたんだけど。▽\n…失敗しちゃったの。\nこれで４回目。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"じわっとマヤさんの目に\n涙が浮かんだ。\n\0":
-'???',
-
-# Maya Ibuki 
-"私、お裁縫とか、料理とか\nあんまり得意じゃないの。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"炭になったスポンジケーキを横目に、\nマヤさんは溜息をついた。▽\nこうやって、\nわざわざ作ろうとしているのは、\n何か訳があるのかもしれない。\n\0":
-'???',
-
-# Shinji Ikari
-"僕、手伝いますよ。\nえーと、家庭科で習ったから\nわかります。\n\0":
-'???',
-
-# Maya Ibuki 
-"え…、そんな…、\nいいわよぉ…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"マヤさんは、口をすぼめて\n困った様な顔をした。\n何だか子供みたいだ。\n\0":
-'???',
-
-# Shinji Ikari
-"まず、卵白から泡立てましょう。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は、粉をふるいにかけますね。\n…って、あぁ！？\n\0":
-'???',
-
-# Shinji Ikari
-"マヤさん、まだ卵黄も砂糖も\n入れちゃダメですよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"え、でも…。\n泡立ったし…。\n\0":
-'???',
-
-# Shinji Ikari
-"まだ表面だけじゃないですか。\n全部、生クリームみたいに\n角が立つまでやるんですよ？\n\0":
-'???',
-
-# Maya Ibuki 
-"へぇ…、泡立てるって、\nそういう事なんだ。\n\0":
-'???',
-
-# Shinji Ikari
-"じゃあ、交代しましょう。\n粉をふるってください。\n\0":
-'???',
-
-# Maya Ibuki 
-"ねえ、どうして粉をふるうの？\n\0":
-'???',
-
-# Shinji Ikari
-"こうしておかないと、\n泡立てた卵白の泡が\n潰れてしまうんですよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"へぇ…、メモしておかなきゃ。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"仕事熱心なところは、\nどんな時も同じみたいだ。▽\n妙に感心されていて、\n何だか照れる。\n\0":
-'???',
-
-# Shinji Ikari
-"卵白が泡立ってから、\n砂糖は二回に分けて。\nその後に卵黄を入れるんですよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"私が作るのと、\n生地のボリュームが違う。\n\0":
-'???',
-
-# Shinji Ikari
-"ほとんど空気ですよ。\nでも、この卵白の空気が\n大事なんです。\n\0":
-'???',
-
-# Maya Ibuki 
-"シンジ君、すごいわね…。\n私なんて、こういう女らしい事\n全然やってこなかった。▽\nいつも、勉強勉強。\nそればっかりだったから。\n\0":
-'???',
-
-# Shinji Ikari
-"でも、僕はマヤさんみたいに\n勉強やってるわけじゃないから。\nおあいこですよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"ふふ、そうかな。\nじゃあ、今日のお礼に\n個人授業やってあげようか？\n\0":
-'???',
-
-# Shinji Ikari
-"えーっと、そう…ですね。\nさ、予熱も済んだし\n後は生地を焼くだけです。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"ケーキが焼ける、\n甘い匂いがしてきた。\n二人でオーブンを覗き込む。\n\0":
-'???',
-
-# Maya Ibuki 
-"わぁ、ちゃんと膨らんでる。\n\0":
-'???',
-
-# Shinji Ikari
-"…いい匂い。\n\0":
-'???',
-
-# Shigeru Aoba
-"スッゲー、いい匂いすると\n思ったら…。▽\nおぉ、ケーキじゃん。\nマヤちゃんが作ったの？\n\0":
-'???',
-
-# Makoto Hyuga
-"匂いの正体はこれかぁ…。\nケーキだね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ヤダ、おいしそ〜。\n焼きたて？\n一口欲しいわぁ…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あら、マヤなの？\nこれ作ったのは。\n\0":
-'???',
-
-# Ryoji Kaji
-"へぇ、マヤちゃんらしいね。\n手作りケーキか。\n\0":
-'???',
-
-# Maya Ibuki 
-"あの、\nこれを作ったのは…。\n\0":
-'???',
-
-# Shinji Ikari
-"マヤさんの作ったケーキ、\nおいしそうでしょう？\n\0":
-'???',
-
-# Maya Ibuki, Misato Katsuragi 
-"シンジ君…。\n\0":
-'???',
-
-# Shigeru Aoba
-"何？\nこれ、食わしてくれるの？\n\0":
-'???',
-
-# Maya Ibuki 
-"えっと、うん…。\nみんなで食べましょう。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"困ったように笑いながら、\nマヤさんが耳打ちした。\n\0":
-'???',
-
-# Maya Ibuki 
-"ゴメンね、シンジ君。\n\0":
-'I\'m sorry, Shinji-kun.\n\0',
-
-# Shinji Ikari
-"いいですよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"ホントはこのケーキ…、\nシンジ君の為に作ろうと\n思ってたの。\n\0":
-'???',
-
-# Shinji Ikari
-"そうなんですか？\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"手伝おうとした時の、\nあの困った様な顔の理由。\nそうだったのか…。\n\0":
-'???',
-
-# Maya Ibuki 
-"今度は一人で作ってみるね。\nシンジ君が教えてくれたように。\n\0":
-'???',
-
-# Maya Ibuki 
-"だから、楽しみにしてて。\n\0":
-'???',
-
-# Shinji Ikari, Makoto Hyuga, Maya Ibuki 
-"ハイ。\n\0":
 '???',
 
 #
@@ -14119,53 +14316,6 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "以後、エヴァ初号機は\n戦闘に参加出来ません。\n\0":
-'???',
-
-#
-# ./USRDIR/event/cev0401.har_EXTRACT/cev0401.evs
-#
-# Misato Katsuragi 
-"私は葛城ミサト。▽\n特務機関ネルフ、\n戦術作戦部作戦局第一課所属。\n\0":
-'???',
-
-# Misato Katsuragi 
-"セカンドインパクトで父を亡くし、\nそしてまた、１５年ぶりに襲来した\n使徒を討つべくネルフに入所した。\n\0":
-'???',
-
-# Misato Katsuragi 
-"駄目よ、逃げちゃ。\nお父さんからも…、\n何よりも自分から。\n\0":
-'???',
-
-# Misato Katsuragi 
-"かまいませんね？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"………１５年ぶりだな。\n\0":
-'???',
-
-# Gendo Ikari
-"ああ、まちがいない。\n使徒だ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"私の戦いが、始まる…。\n\0":
-'???',
-
-# Gendo Ikari
-"もちろんだ、\n使徒を倒さぬ限り、我々に\n未来はない。\n\0":
-'???',
-
-# Misato Katsuragi 
-"碇シンジ君ね。\nごめん、お待たせ！！\n\0":
-'???',
-
-# Shinji Ikari
-"…あ、あ、あ、あの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"私はミサト、葛城ミサト。\nあなたを迎えに来たの。\n乗って！！\n\0":
 '???',
 
 #
@@ -14950,219 +15100,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/cev0111.har_EXTRACT/cev0111.evs
-#
-# [Scenario 2: Shinji - Scene with Kaji]
-#
-# Ryoji Kaji
-"よお。\n\0":
-'???',
-
-# Shinji Ikari
-"あ、加持さん。\nミサトさんは今ちょっと\nいないんですけど…。\n\0":
-'???',
-
-# Ryoji Kaji
-"いや、近く通ったから。\nただ寄っただけなんだけどな。▽\nスイカ持ってきたんだ。\nこれ、食ってくれ。\n\0":
-'???',
-
-# Shinji Ikari
-"あ、じゃあ今から切りましょうか。\nどうぞ、上がって下さい。\n\0":
-'???',
-
-# Ryoji Kaji
-"そういや、彼女とか出来たのか？\n\0":
-'???',
-
-# Shinji Ikari
-"そんな事あるわけないでしょう？\n勉強だって追いつくのが\nやっとなのに。\n\0":
-'???',
-
-# Ryoji Kaji
-"おっと、そりゃ勿体無いな。\n恋をしたり、遊んでいられるのは\n学生のうちだけなんだぞ。\n\0":
-'???',
-
-# Shinji Ikari
-"加持さんでしたら、\nそうだったんでしょうけど。\n僕は違いますよ。\n\0":
-'???',
-
-# Ryoji Kaji
-"いやいや、健全な男の子としては\n女の子の一人や二人や三人は\n口説き落とせないとな。\n\0":
-'???',
-
-# Shinji Ikari
-"…そうですか？\n\0":
-'???',
-
-# Ryoji Kaji
-"…君だって好きな子いるだろ？\nまあ、名前は聞かないでやろう。\nいざって時、どうするんだ？\n\0":
-'???',
-
-# Shinji Ikari
-"いざって時って…、\n二人っきりて状況ですか…？\n\0":
-'???',
-
-# Ryoji Kaji
-"ん〜、まあ君の場合はそうかな。\n自発的に二人っきりって状況を\n作れないだろうからな…。▽\n大人には、もっといざっていう\n状況があるものさ…。\n\0":
-'???',
-
-# Shinji Ikari
-"普通にラブレターとかじゃ\n駄目なんですか？\n\0":
-'???',
-
-# Ryoji Kaji
-"う〜ん、いいねぇ…。\n\0":
-'???',
-
-# Ryoji Kaji
-"だけどな、手紙で成立するのは\n相手もたまたまこっちを好きだった\n場合だけだろ？\n\0":
-'???',
-
-# Shinji Ikari
-"…なるほど…。\n\0":
-'???',
-
-# Ryoji Kaji
-"その場の空気を作って、\n好きにさせるんだよ。▽\n…まあ、断れない雰囲気を作るって\n感じかな…。\n\0":
-'???',
-
-# Shinji Ikari
-"そ、それって、無理矢理…。\n\0":
-'???',
-
-# Ryoji Kaji
-"はは、違うさ。▽\nその場の空気ってのに\n影響されるもんだよ？\n女性って方々は。\n\0":
-'???',
-
-# Shinji Ikari
-"はぁ…、そんなもんですか…。\n\0":
-'???',
-
-# Ryoji Kaji
-"ようし、じゃあ実践編だ。\n…俺をよろめかせてみなよ。\n\0":
-'???',
-
-# Shinji Ikari
-"な、なんで、そうなるんですか！\n\0":
-'???',
-
-# Ryoji Kaji
-"おいおい、何も俺を口説けって\n言ってるわけじゃない。▽\n女心を理解した俺が、女性の立場で\n聞いてやろうって事だよ。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"エラい事になったなぁ…。\n僕は内心溜息をついた…、が、\n少し向学心も芽生えてきた…。▽\n確かに、学ぶべき所はあるかも\nしれない…。\n\0":
-'???',
-
-# Shinji Ikari
-"はあ、じゃあ…、\nええっと…。\nす、好きだっ！\n\0":
-'???',
-
-# Ryoji Kaji
-"あー、だめだめ！\n気負い過ぎだ。\nもっとサラッと言う。\n\0":
-'???',
-
-# Shinji Ikari
-"えーっと、じゃあ…。\n好き…です。\n\0":
-'???',
-
-# Ryoji Kaji
-"うーん、気持ちが入ってないなぁ。\n…いやいや、実際に入れなくていい。\n入ってるように思わせるんだ。\n\0":
-'???',
-
-# Shinji Ikari
-"う〜ん、やっぱり難しいですよ。\nそんな気分になれないし…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"加持さんは端整な顔を歪め、\n少し考え込んでいる。\nすると…。\n\0":
-'???',
-
-# Ryoji Kaji
-"ちょっと待ってな…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"イヤな予感がした。\n\0":
-'???',
-
-# Ryoji Kaji
-"どうだ？\n似合うでしょ？\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"的中してしまった…。▽\nミサトさんのクローゼットから\n大きめのブラウスと、スカートを\n引っ張り出して来たのだ。▽\nそして髪の毛もカツラ…、じゃなく、\n自前のお下げ髪をほどいて、\n見事なロン毛を手櫛でといている。\n\0":
-'???',
-
-# Shinji Ikari
-"…もう、やめませんか…？\n\0":
-'???',
-
-# Ryoji Kaji
-"どうして？　私をここまで\nその気にさせたのに？\n\0":
-'???',
-
-# Shinji Ikari
-"僕にその気が失せたんです！\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"僕の知る加持さんは、\n不精髭の似合う、ナイスガイだ。▽\nこんな体格のいい\n裏声のオカマなんかじゃ絶対無い。\n\0":
-'???',
-
-# Ryoji Kaji
-"ひ、ひどい！\nあなた…、私をこんなにして…。\n責任取ってよ！\n\0":
-'???',
-
-# Shinji Ikari
-"わぁッ！\nな、何言ってるんですか！\n\0":
-'???',
-
-# Ryoji Kaji
-"全部あなたの為だったのに…。\nあなたの犠牲になったのに…。\n\0":
-'???',
-
-# Shinji Ikari
-"わっ、い、イヤだ！\n顔を近づけないで……。\nちょ、ちょっと加持さんっ！\n\0":
-'???',
-
-# Ryoji Kaji
-"イヤよ、リョウ子って呼んで！\n\0":
-'???',
-
-# Shinji Ikari
-"リョ、リョウ…、\nじゃないじゃないっ！\nか、勘弁して下さい！\n\0":
-'???',
-
-# Ryoji Kaji
-"おお…、テンション上がるなぁ…。\n\0":
-'???',
-
-# Shinji Ikari
-"や、やめて！\n加持さん、脱がないでっ！\n\0":
-'???',
-
-# Ryoji Kaji
-"断る！\n\0":
-'???',
-
-# Shinji Ikari
-"ミ、ミサトさーーーーん！\n\0":
-'???',
-
-# Misato Katsuragi 
-"人の家上がりこんで、\n何やってるのよ！！\nこのヘンタイ！！▽\nホラ、ちょっと来なさいよ！\n来なさいッ！！\n\0":
-'???',
-
-# Shinji Ikari
-"た、助かった…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"加持さんはミサトさんに呼ばれて、\n部屋に入っていった。▽\nミサトさんの大声が聞こえる。\nそれをなだめる加持さんの声も。▽\n…加持さんは身を持って、\n口説きの悪い見本を示してくれた。▽\n加持さんに深く心の中で感謝して、\nいずれこの教えを役に立てようと、\n僕は自分の部屋に引っ込んだ。\n\0":
-'???',
-
-#
 # ./USRDIR/event/bs012.har_EXTRACT/bs012.evs
 #
 # Rei Ayanami 
@@ -15252,43 +15189,6 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "成層圏より飛来する目標に対し\n\0":
-'???',
-
-#
-# ./USRDIR/event/f060.har_EXTRACT/f060.evs
-#
-# [Psychological: Asuka]
-#
-# [Text Only - No Designated Speaker]
-"ふと、アスカの声が\n聞こえた気がした。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"私は一人で生きるの。▽\n一人でいいの、\nどうせまわりはバカばかり。\n付き合っていられないわ。\n\0":
-'???',
-
-# Shinji Ikari
-"じゃあ、何でいちいち\nつっかかって来るんだよ。▽\n一人じゃ生きられないからだろ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"うるさい！！▽\nこの私が、本当はアンタなんかと\n付き合ったりはしないのよ。\nアンタに付き合ってやってるのよ！\n\0":
-'???',
-
-# Rei Ayanami 
-"結局、\n一人にならないために、でしょ？\n自分をそうやって守りたいの。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"うるさい！！\n\0":
-'Shut up!!\n\0',
-
-# Shinji Ikari
-"そうしないと、自分自身が\n消えてしまうからだろ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"うるさい、うるさい、うるさい！！▽\nみんなキライ、大キライ…。▽\nでも、私…嫌われたくない。\n一人になりたくない…。\n\0":
 '???',
 
 #
@@ -15567,227 +15467,5 @@ translate_map = {
 
 # Kaworu Nagisa 
 "しばらくは、膠着状態か…。\nこちらから、出るか？\nどうする…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/cev0104.har_EXTRACT/cev0104.evs
-#
-# [Scenario 2: Shinji - Scene with Misato]
-#
-# Misato Katsuragi 
-"シンちゃーん！\nちょっと来てー。\n\0":
-'Shin-chan!\nC\'mere a sec.\n\0',
-
-# Shinji Ikari
-"はぁい。\n\0":
-'Sure.\n\0',
-
-# Shinji Ikari
-"な、何やってるんですか！？\n\0":
-'???',
-
-# Misato Katsuragi 
-"ん〜、ヨガのエクササイズ…。\n出てきたお腹、\n引っ込めようと思って。▽\nチョッチ…、その本のポーズを\nとりたいんだけど…、\n支えてくれないかしら…。\n\0":
-'???',
-
-# Shinji Ikari
-"もう、ビール飲むのやめたら\nいいじゃないですか。\nそしたら痩せますよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ヤーダ！\nビール飲めなくなるなんて\n生き地獄だわ。\n\0":
-'???',
-
-# Shinji Ikari
-"まったく、\n子供じゃないんだから…。▽\nほら、これでいいですか？\nミサトさんも、背中伸ばして！\n\0":
-'???',
-
-# Misato Katsuragi 
-"えーぃ…ぃぃぃ。\nアン…、辛いぃ…。\nもー、ダメェッ！！\n\0":
-'???',
-
-# Shinji Ikari
-"あぅ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"大丈夫、シンちゃん！？\n\0":
-'???',
-
-# Shinji Ikari
-"は…、はぁい…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"うーん、いきなり上級者向け\nポーズは無理みたい。\n\0":
-'???',
-
-# Shinji Ikari
-"は、早くどいてくれませんか…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あら、あらあら…。\nそうね、ゴメン…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…やっぱ、慣れない事を\nするもんじゃないわね。\n\0":
-'???',
-
-# Shinji Ikari
-"そうですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あーぁ。\nとりあえずビールでも飲もうかな。\n\0":
-'???',
-
-# Shinji Ikari
-"またぁ…。\nお腹出ますよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"イケズぅ〜〜〜〜。\nお腹出たくらいで、\n私の事嫌いになっちゃうの？\n\0":
-'???',
-
-# Shinji Ikari
-"そんな事は…ないですよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"えっへっへー♪\nだから、シンちゃん大好きよ。\n\0":
-'???',
-
-# Shinji Ikari
-"…はいはい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"もし、人類がエヴァを\n必要としなくなっても\nあなたはここにいて。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…なーんてね、そんな\nワガママは言えないわよね。\nあなたにはあなたの将来があるから。\n\0":
-'???',
-
-# Shinji Ikari
-"まだ、将来の事なんて\n考えてませんから。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"他に何て言えばいいのか\nわからなかった。\n気を利かせたつもりでもなかったし。▽\nミサトさんは、意外と幼い顔をする。\n他でもこんな表情をするのかな…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、さ。\nさっきのヨガ、初心者ポーズから\n始めるから手伝って！\n\0":
-'???',
-
-# Shinji Ikari
-"ダメだこりゃ…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f049.har_EXTRACT/f049.evs
-#
-# [Character: Fuyutsuki Flashback]
-#
-# [Text Only - No Designated Speaker]
-"激しい子供の泣き声が、聞こえる。\n母親であろう女性が\n幼児を抱いてオロオロしている。▽\n病院には休診の札が掛かっていた。\nあの母親は、\nこの病院を目指していたのだろう。\n\0":
-'A baby was crying intensely.\nA woman, surely the mother, paced\nnervously with the child in her arms.▽\nA hanging sign indicated the hospital was closed.\nIt seems the mother had her sights set on this facility.\n\0',
-
-# Kozo Fuyutsuki
-"どうか、しましたか？\n\0":
-'Is there something I can do?\n\0',
-
-# Baby's Mother
-"子供が今までになく\n激しく泣いて…。▽\n何分かおきに泣き止むんですけど、\nまた、激しく泣いて…。\n\0":
-'My child has never cried this badly...▽\nShe\'ll stop for a few minutes here and there,\nbut then she\'s bawling again...\n\0',
-
-# Kozo Fuyutsuki
-"何分おきかね…？\n\0":
-'???',
-
-# Baby's Mother
-"２０分…でしょうか。\n泣き止むと、ケロッと\n何事もなかったみたいなのに…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"いかん、それは腸重積だ。\n\0":
-'???',
-
-# Baby's Mother
-"どうすれば、\nどうすれば治るんですか…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"少し待っているがいい。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"私だ。\n中央病院に患者を一人。▽\n小児科医を…、ああ、子供だ。\n腸重積の疑いがある。\n\0":
-'It\'s me.\nI have one patient at the central hospital.▽\nIs a pediatrician-- Yes, it\'s a child.\nSuspected invagination of the bowels.\n\0',
-
-# Kozo Fuyutsuki
-"後少しの辛抱だ。\nタクシーで、この病院に行きなさい。▽\nそれと、受付けでこの紙を渡せば\nあとは医師にまかせておけばいい、\n治療費も必要ない。\n\0":
-'???',
-
-# Baby's Mother
-"あ、ありがとうございます…。\n\0":
-'Th-thank you very much...\n\0',
-
-# Kozo Fuyutsuki
-"礼はいい、急ぐんだ。\n\0":
-'No need for that, just hurry.\n\0',
-
-# Baby's Mother, Toji Suzuhara
-"ハイ…。\n\0":
-'I will.\n\0',
-
-# Kozo Fuyutsuki
-"ありがとうございます…か。\n\0":
-'"Thank you"...eh?\n\0',
-
-# Yui Ikari [Flashback]
-"冬月先生、\nどうもありがとうございました…。▽\n中耳炎だなんて、\n痛がる様子もないから、\nちっとも気づきませんでした…。\n\0":
-'???',
-
-# Kozo Fuyutsuki [Flashback]
-"膿も出したし、\n痛みも熱も引くだろう。\n消毒は、これを使うといい。\n\0":
-'???',
-
-# Yui Ikari [Flashback]
-"あ〜らあらあら、シンちゃん。\n今頃になって泣き出して。▽\n冬月先生が見てくれたのよ、\nやっと元気になれるね…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"ふと、冬月の姿が頭をよぎった。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"冬月がそわそわした様子で\n立っている。\n誰かを待っているのだろうか？\n\0":
-'???',
-
-# Male Staff, Shigeru Aoba
-"副司令。\n\0":
-'Deputy Commander.\n\0',
-
-# Kozo Fuyutsuki
-"ああ、君か。\nどうだったかね…。\n\0":
-'???',
-
-# Male Staff
-"はい、治療も無事済んで、\n２４時間入院させるそうです。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうか、それはよかった。\nああ、君、すまなかったな。\n\0":
-'???',
-
-# Male Staff, Shinji Ikari, Makoto Hyuga
-"いえ…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"何の話だったのだろうか、\n冬月は安心した様子で歩いていった。\n\0":
 '???',
 }
