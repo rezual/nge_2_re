@@ -18,6 +18,8 @@ translate_map = {
 #
 # ./USRDIR/event/a003.har_EXTRACT/a003.evs
 #
+# [Angel: Israfel]
+#
 # Misato Katsuragi 
 "来たわね。\n今度は抜かりないわよ！\n\0":
 '???',
@@ -385,6 +387,8 @@ translate_map = {
 #
 # ./USRDIR/event/f058.har_EXTRACT/f058.evs
 #
+# [Psychological: Shinji]
+#
 # Shinji Ikari
 "どうしてみんな、\n僕に優しくしてくれないんだ…。\n\0":
 '???',
@@ -427,6 +431,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f004.har_EXTRACT/f004.evs
+#
+# [Love Comedy: Onsen Trip]
 #
 # Shinji Ikari
 "あれ？\n出かけるんですか？\n\0":
@@ -727,6 +733,8 @@ translate_map = {
 #
 # ./USRDIR/event/f015.har_EXTRACT/f015.evs
 #
+# [Serious: Blackout]
+#
 # Asuka Soryu Langley
 "あら、電気が戻った？\n\0":
 '???',
@@ -873,6 +881,8 @@ translate_map = {
 #
 # ./USRDIR/event/f011.har_EXTRACT/f011.evs
 #
+# [Serious: Ireul Appears]
+#
 # Makoto Hyuga
 "これは？\n第８７タンパク壁に変質部分が…。\n\0":
 '???',
@@ -1004,6 +1014,8 @@ translate_map = {
 #
 # ./USRDIR/event/f089.har_EXTRACT/f089.evs
 #
+# [Battle Uplift: Eva Upgrades]
+#
 # Kozo Fuyutsuki
 "本当にやるんだな…。\nゼーレに対する口実は\n用意しているのか。\n\0":
 '???',
@@ -1124,6 +1136,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f040.har_EXTRACT/f040.evs
+#
+# [Father & Son: Yui's Grave]
 #
 # Shinji Ikari
 "父さんを待っていた。\n一緒に母さんの墓参りに\n行く事になっていたからだ。▽\n母さんは、どんな人だったんだろう。\nどんな顔をしてたんだろう。▽\n僕は知らなくても、\n父さんは知ってるんだ…。\n\0":
@@ -1274,6 +1288,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f020.har_EXTRACT/f020.evs
+#
+# [Serious: Seele, After Eva-01 Gets S2]
 #
 # Seele 03
 "エヴァシリーズに\n生まれいずるはずのない、Σ機関。\n\0":
@@ -1460,7 +1476,7 @@ translate_map = {
 #
 # Misato Katsuragi, Female Staff
 "レリエル\n\0":
-'???',
+'Leliel\n\0',
 
 # Misato Katsuragi, Female Staff
 "目標は第３新東京市直上に突如出現\n\0":
@@ -1663,6 +1679,9 @@ translate_map = {
 #
 # ./USRDIR/event/f013.har_EXTRACT/f013.evs
 #
+# [Serious: J.A. Event]
+#
+
 # Misato Katsuragi 
 "さて、今日はアノ、\nΘΑ完成披露記念会だわ。▽\nロボットふぜいが、\n少しは楽しませてくれるかしら。\n\0":
 '???',
@@ -1853,6 +1872,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f036.har_EXTRACT/f036.evs
+#
+# [Students: Shinji Playing Cello]
 #
 # Shinji Ikari
 "…久しぶりに\nチェロでも弾いてみようかな。▽\n荷物を解かなきゃ…。\n\0":
@@ -2290,6 +2311,8 @@ translate_map = {
 #
 # ./USRDIR/event/f044.har_EXTRACT/f044.evs
 #
+# [Students: Playing Hooky, Pen Pen Dream]
+#
 # [Text Only - No Designated Speaker]
 "何となく、行く気にならなかった。▽\nバカバカしいとか、\n天気がよかったからとか、\n理由はどうでもよくって…、▽\nただ、何となく…。\n\0":
 '???',
@@ -2308,15 +2331,15 @@ translate_map = {
 
 # Shinji Ikari
 "お前、ペンペン…？\n\0":
-'???',
+'Are you Pen Pen?\n\0',
 
 # Pen Pen
 "…かもね。\n\0":
-'???',
+'...Could be.\n\0',
 
 # Shinji Ikari
 "でも、僕の声だ…。\n夢なのかな…。\n\0":
-'???',
+'But you have my voice...\nSo it\'s a dream, then.\n\0',
 
 # Pen Pen
 "かもね。\n君が決めたらいい。▽\n行こうか。\n\0":
@@ -2348,11 +2371,11 @@ translate_map = {
 
 # Pen Pen
 "たとえば、学校。\n\0":
-'???',
+'School, for instance.\n\0',
 
 # Shinji Ikari
 "学校はいいよ。\n\0":
-'???',
+'School is fine.\n\0',
 
 # Pen Pen
 "そうか、\nじゃあ、よそう。\nちゃんと決められるじゃないか。\n\0":
@@ -2388,7 +2411,7 @@ translate_map = {
 
 # Pen Pen
 "ＯＫ。\nじゃあ、夢だ。\n\0":
-'???',
+'OK.\nSo, it\'s a dream.\n\0',
 
 # Pen Pen
 "探していたのは、可能性。▽\n何かが変わるかもしれないという、\n期待。\n\0":
@@ -6956,7 +6979,7 @@ translate_map = {
 #
 # Rei Ayanami 
 "碇君。▽\n私、宇宙人なの。\n\0":
-'???',
+'Ikari-kun.▽\nI\'m an alien.\n\0',
 
 # Shinji Ikari
 "へっ…！？\n\0":
@@ -6964,11 +6987,11 @@ translate_map = {
 
 # Rei Ayanami 
 "宇宙人なの。\n\0":
-'???',
+'An alien.\n\0',
 
 # Shinji Ikari
 "宇宙人…。\n\0":
-'???',
+'An alien...\n\0',
 
 # Shinji Ikari
 "綾波、疲れ…溜まってるんじゃ\nないかな。\n\0":
@@ -6976,19 +6999,19 @@ translate_map = {
 
 # Rei Ayanami 
 "宇宙から来て、\nこの星の人間じゃないのなら\n宇宙人なんでしょう？\n\0":
-'???',
+'If I came from space\ninstead of this planet,\nam I not an alien?\n\0',
 
 # Shinji Ikari
 "まあ………、そうだね。\n\0":
-'???',
+'Well...... Yeah, I guess.\n\0',
 
 # Rei Ayanami 
 "私、クローンなの。\n\0":
-'???',
+'I am a clone.\n\0',
 
 # Shinji Ikari
 "ぶっ…！！▽\nさっき、宇宙人って\n言ったじゃないか！？\n\0":
-'???',
+'Buh..!▽\nWeren\'t you just saying you\'re an alien?!\n\0',
 
 # Rei Ayanami 
 "でも、そうなの…。\n\0":
@@ -7016,7 +7039,7 @@ translate_map = {
 
 # Rei Ayanami 
 "碇君は、私の事好き？\n\0":
-'???',
+'Ikari-kun, do you like me?\n\0',
 
 # Shinji Ikari
 "え…、えーと、▽\nえーっと。▽\nまあ…、好き、かな？\n\0":
@@ -7032,7 +7055,7 @@ translate_map = {
 
 # Rei Ayanami 
 "横になって。\n\0":
-'???',
+'Get on your side.\n\0',
 
 # [Text Only - No Designated Speaker]
 "何だかよくわからないまま、\n耳掻きをしてもらった。\n\0":
@@ -7492,11 +7515,11 @@ translate_map = {
 
 # Gendo Ikari
 "人類の母、リリスとの融合を\n果たし、すべてを始まりに還す。\n\0":
-'???',
+'We will achieve fusion with Lilith, the mother of humanity,\nand everything will be returned to the beginning.\n\0',
 
 # Seele 01
 "リリスが…、我等の願いが…\n去っていく…。\n\0":
-'???',
+'Lilith... Our hopes... They\'re slipping away.\n\0',
 
 # Seele 02
 "エヴァを連れ去る気か！？\n神への道が…閉ざされてしまう。\n\0":
@@ -7556,7 +7579,7 @@ translate_map = {
 
 # Rei Ayanami 
 "ここは、大丈夫。\nこの星は、私の子らは大丈夫…。\n\0":
-'???',
+'It is all right.\nThis world and my children will be just fine...\n\0',
 
 #
 # ./USRDIR/event/cev0601.har_EXTRACT/cev0601.evs
@@ -7649,7 +7672,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "だが、彼女はもういない。\n\0":
-'???',
+'But she\'s not here anymore.\n\0',
 
 # Kozo Fuyutsuki
 "人類補完計画。\n碇が提案したその計画に私は賭けた。▽\n人々の心を一つにし、安らぎの時を\n永遠に生きる。▽\n初号機に宿る彼女の魂さえも\n一つにして…。\n\0":
@@ -7668,7 +7691,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "永遠の存在であるエヴァ。\n今や、彼女と言う魂を得て、\n神となったのだろう。\n\0":
-'???',
+'The eternal being, Eva.\nRight that moment, in obtaining a soul --\nhers -- it probably became a god.\n\0',
 
 # [Text Only - No Designated Speaker]
 "人々の心の隙間を埋める補完計画。▽\nゼーレは、サードインパクトに\nより全人類を完全な単体生物へと\n進化させるべくこの計画に乗り、▽\n私と碇は、全人類の心を互いに\n補完する事をこの計画の目的とした。▽\n我々は、ゼーレの老人達を\n欺きながら、お互い異とした\n目的を歩んでいるのだ。▽\n全ての使徒を倒す、その時まで。\n\0":
@@ -7714,7 +7737,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "故意に変性意識を\n生み出すには…。▽\n…これは、エヴァとの\nシンクロを促すための\n基礎理論であったものか…？▽\n自己の意識の拡大と\n他者への意識の干渉…。\n精神汚染…。\n\0":
-'???',
+'Intentionally creating an\naltered consciousness...▽\nWas this the reasoning\nin the basic theory for\npromoting synch with an Eva?▽\nIf one\'s consciousness were magnified to\nthe point of being able to break into another\'s...\nThat would be mental contamination.../n/0',
 
 # [Text Only - No Designated Speaker]
 "彼女との再会を喜ぶような気持ちで、\nゆっくりとページをめくっていった。\nなんと充実した時間だろう。▽\nこの論文が書かれた時点ではまだ、\n改良の余地はあった。▽\nだが、変性意識を作り出す条件は\nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0":
@@ -7820,7 +7843,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "ユイ君、ユイ君…？\n\0":
-'???',
+'Yui-kun. Yui-kun...?\n\0',
 
 # [Text Only - No Designated Speaker]
 "実験を始める前に、\nアロマオイルを開封する。▽\n部屋中がラベンダーの香りに\n満たされた。▽\nこの思惑は予想外の成果を\n生み出した。\n\0":
@@ -7852,11 +7875,11 @@ translate_map = {
 
 # Yui Ikari
 "冬月先生。\n\0":
-'???',
+'Fuyutsuki-sensei.\n\0',
 
 # Kozo Fuyutsuki
 "ユイ君…。\n\0":
-'???',
+'Yui-kun...\n\0',
 
 # Yui Ikari
 "ご自身で、\nここまで来られたのですね？\n\0":
@@ -7864,7 +7887,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "ここは？\n\0":
-'???',
+'"Here"?\n\0',
 
 # Yui Ikari
 "ここは、人々の意識が混ざり合う\nところ…とでも言いましょうか。▽\n人間や全ての生物は自分自身の中に\nこの場所を持っています。▽\nここには時間も空間もありません。\n過去も未来も全て、あるのです。\n\0":
@@ -7872,7 +7895,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "君はここにいたのかね？\n\0":
-'???',
+'And this is where you are\n\0',
 
 # Yui Ikari
 "そう、とも言えますし、\n違う、とも言えます。▽\nしかし、人類はこの段階まで\n来る事が出来ません。▽\n人々の意識が、\nここに気付かないからです。\n\0":
@@ -7888,7 +7911,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "では、人類補完計画は…。\n人工的に人類をこのステージへ\n導くもの…か。\n\0":
-'???',
+'Then the Human Instrumentality Project...\nIt\'s what will artificially\nguide humanity to that stage.\n\0',
 
 # Yui Ikari
 "それは、もう一歩先の段階に\nなります。▽\nですが、あの計画がなかったと\nしても、一人一人に気付きがあれば\nいずれここへ来る事になります。▽\nここは、全ての意識と交じり合う\n場と共に、冬月先生…\n…あなたの中に存在する場所です。\n\0":
@@ -7896,7 +7919,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "私の…？\n\0":
-'???',
+'In me...?\n\0',
 
 # Yui Ikari
 "人と、人の希望の数だけ\n現実はあります…。▽\n冬月先生は私を求め、\nそしてここまで来られた。\n先生の現実です…。\n\0":
@@ -7907,7 +7930,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "神…。\n人は神になり得るのか。\n自分自身の力で。\n\0":
-'???',
+'Gods...\nHumans have the potential to become gods,\nwith their own power.\n\0',
 
 # [Text Only - No Designated Speaker]
 "人々を導く必要など\n無いのだろう。\n選べばよいのだ、自分自身で。\n\0":
@@ -7923,7 +7946,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "私は、一つの思いに心を\n動かされた。\n\0":
-'???',
+'I could only move my\nheart to a single feeling.\n\0',
 
 #
 # ./USRDIR/event/cev0615.har_EXTRACT/cev0615.evs
@@ -9908,15 +9931,15 @@ translate_map = {
 
 # Tadamitsu Otsubo
 "シゲル…。\n\0":
-'???',
+'Shigeru...\n\0',
 
 # Mikio Shimaki
 "シゲル、お前…。\n\0":
-'???',
+'Shigeru, my man...\n\0',
 
 # Yoji Uozumi
 "シゲル、久しぶりだなぁ。\n\0":
-'???',
+'Shigeru, been a while.\n\0',
 
 # Shigeru Aoba
 "大体、お前達の曲は聞いたよ。\n何とか出来ると思う。\n\0":
@@ -10811,7 +10834,7 @@ translate_map = {
 
 # Toji's Sister
 "何の音…？\n\0":
-'???',
+'What\'s that noise?\n\0',
 
 # Toji Suzuhara 
 "…さあな、\nただのサイレンやろ。\n\0":
@@ -10996,7 +11019,7 @@ translate_map = {
 
 # Kensuke's Father
 "…ケン坊。\n\0":
-'???',
+'...Ken-bo.\n\0',
 
 # Kensuke Aida
 "俺は、エヴァのパイロットに\nなりたいんだ。▽\n最初は…、格好いいからとか\n憧れだけだったけど。▽\nママの魂って奴を、ネルフは\nどうにかして持ってるんだ…。▽\n俺、ママを顔も知らない\n他人のモノにしておきたくなんか\nないんだよッ！\n\0":
@@ -11020,7 +11043,7 @@ translate_map = {
 
 # Kensuke Aida
 "パパ…。\n\0":
-'???',
+'Papa...\n\0',
 
 # (Decision Prompt)
 "諦める／諦めない\0":
@@ -11079,7 +11102,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "ゼルエル\n\0":
-'???',
+'Zeruel\n\0',
 
 # Misato Katsuragi 
 "防衛線にて迎撃システムにより\n交戦するが、\n\0":
@@ -11105,15 +11128,15 @@ translate_map = {
 #
 # Asuka Soryu Langley
 "相田…。\n\0":
-'???',
+'Aida...\n\0',
 
 # Kensuke Aida
 "惣流か。\n\0":
-'???',
+'Soryu.\n\0',
 
 # Kensuke Aida
 "…知ってるよ。\n使徒と戦って、そして…。\nトウジは死んだんだろ。\n\0":
-'???',
+'... I know.\nYou fought an Angel, and...\nI guess Toji died.\n\0',
 
 # Kensuke Aida
 "…知らないわけがないだろ。\nアイツ、俺達を守ったんだ。▽\n………………………。\n\0":
@@ -11128,7 +11151,7 @@ translate_map = {
 
 # Kensuke's Father
 "ケン坊…。\nどうしたんだ…？\n\0":
-'???',
+'Ken-bo...\nWhat\'s wrong?\n\0',
 
 # Kensuke Aida
 "トウジが…。\nクラスメイトのトウジが…。\n\0":
