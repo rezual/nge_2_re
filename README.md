@@ -100,16 +100,23 @@
 ###### Misc. Cheats:
 These are the cheats made in the course of this project:
 
+```
 _C0 Pulse autowin
+This disables player input in the Pulse mini-game
+which is needed to prevent a crash from player input
+interferring and then changes the Miss check to go 
+to a Win check
 _L 0x2005B478 0x00000000
 _L 0x2005B5FC 0x00000000
 _L 0x2005B5CC 0x0A216D82
 _L 0x2005B5C4 0x00000000
+```
 
+```
 _C0 Frame-skip mode
 Press start to toggle frame-skip mode
 Press digital up to progress normally
 Tap digital right or L trigger to progress ahead one frame
 Press R to fast forward time
 _L 0x202FB8DC 0x00000001
-
+```
