@@ -4,10 +4,6 @@
 # Mass-extract on Windows: forfiles /P C:\path_to\PSP_GAME\USRDIR\ /M *.har /S /C "C:\Python27\python.exe -c C:\path_to\hgar.py --extract @path"
 # Mass-extract on Unix: find /path_to/PSP_GAME/USRDIR/ -name '*.har' -exec /path_to/hgar.py --extract {} \;
 
-# TODO: 
-# Make is_compressed call zipped.py to unzip (if requested)
-# and possibly call hgpt.py as well for .hpt/.zpt files
-
 import os
 import struct
 
