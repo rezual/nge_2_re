@@ -71,16 +71,19 @@
 	- Barebones PSP MIPS emulator, just enough implemented to run certain non-floating-point routines
 - game_app/support.py
 	- Shared definitions for various abstractions used by the Game App
+- game_data/png.py
+	- Third-party PNG library
 
 ###### Translation Files:
 - game_app/section_data_translate.py
 	- Japanese text in the Writable regions of the game executable
 - game_app/section_rodata_translate.py
 	- Japanese text in the Read-Only regions of the game executable
-- game_data/file_imtext_translate.py
+- game_data/file_imtext_translate_part_#.py
 - game_data/file_btimtext_translate.py
 - game_data/file_f2info_translate.py
 - game_data/file_f2tuto_translate.py
+- game_data/files_evs_translate_part_#.py
 
 ###### Scripts:
 - game_app/generate_translate_cwcheat_codes.py
@@ -93,4 +96,20 @@
 	- Convert to PPM .hpt picture files
 - game_data/bind.py
 	- Parse .bin files with a magic header of TEXT or BIND
+
+###### Misc. Cheats:
+These are the cheats made in the course of this project:
+
+_C0 Pulse autowin
+_L 0x2005B478 0x00000000
+_L 0x2005B5FC 0x00000000
+_L 0x2005B5CC 0x0A216D82
+_L 0x2005B5C4 0x00000000
+
+_C0 Frame-skip mode
+Press start to toggle frame-skip mode
+Press digital up to progress normally
+Tap digital right or L trigger to progress ahead one frame
+Press R to fast forward time
+_L 0x202FB8DC 0x00000001
 
