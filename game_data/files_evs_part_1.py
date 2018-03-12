@@ -6143,7 +6143,7 @@ translate_map = {
 
 # Keel Lorenz
 "碇、ゼーレを裏切る気か。\n\0":
-'???',
+'Ikari, do you plan to betray Seele?\n\0',
 
 #
 # ./USRDIR/event/tev1703.har_EXTRACT/tev1703.evs
@@ -7295,7 +7295,7 @@ translate_map = {
 
 # Male Staff
 "あれは、フィフス・チルドレン…。\n\0":
-'???',
+'That\'s the Fifth Child...\n\0',
 
 # Gendo Ikari
 "いかなる方法を以ってしても、\n目標のターミナルドグマへの侵入を\n阻止しろ！\n\0":
@@ -10546,11 +10546,11 @@ translate_map = {
 
 # Shinji Ikari
 "嫌です。\n\0":
-'???',
+'No.\n\0',
 
 # Shinji Ikari
 "そんな事出来ません。\n\0":
-'???',
+'I can\'t do something like that.\n\0',
 
 # Shinji Ikari
 "僕は自分が思う通りにします。\n\0":
@@ -10586,7 +10586,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "アスカっ！！\n\0":
-'???',
+'Asuka!!\n\0',
 
 # Kozo Fuyutsuki
 "命令を無視するつもりか！！\n\0":
@@ -10594,7 +10594,7 @@ translate_map = {
 
 # Female Staff
 "弐号機パイロット、\n命令に従って下さい！\n\0":
-'???',
+'Pilot of Unit-02,\nplease follow your order!\n\0',
 
 # Rei Ayanami 
 "…命令は聞けません。\n\0":
@@ -10602,7 +10602,7 @@ translate_map = {
 
 # Rei Ayanami 
 "拒否します…。\n\0":
-'???',
+'I refuse...\n\0',
 
 # Rei Ayanami 
 "どうするかは、私が決めます。\n\0":
@@ -10610,11 +10610,11 @@ translate_map = {
 
 # Rei Ayanami 
 "いいえ。\n私は、独断で行動します。\n\0":
-'???',
+'No. I will act\naccording to my own judgment.\n\0',
 
 # Kozo Fuyutsuki
 "命令違反だぞ！！\n\0":
-'???',
+'You\'re violating an order!\n\0',
 
 # Female Staff
 "危険です、\n指示に従って下さい。\n\0":
@@ -10626,7 +10626,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "冗談でしょ？\nお断りしますわ。\n\0":
-'???',
+'This a joke?\nI refuse.\n\0',
 
 # Toji Suzuhara 
 "そんなん聞けんわ！\n絶対嫌やわ。\n\0":
@@ -10638,7 +10638,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "トウジ君っ！！\n\0":
-'???',
+'Toji-kun!!\n\0',
 
 # Kozo Fuyutsuki
 "無茶しおって！！\n\0":
@@ -10646,7 +10646,7 @@ translate_map = {
 
 # Female Staff
 "参号機パイロット、\n命令違反はいけません。\n\0":
-'???',
+'Pilot of Unit-03,\nyou mustn\'t violate an order.\n\0',
 
 # Kaworu Nagisa 
 "その指示には納得出来ませんね。\n\0":
@@ -10670,123 +10670,123 @@ translate_map = {
 
 # Female Staff
 "四号機、命令に従って下さい。\n\0":
-'???',
+'Unit-04, please follow your order.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ初号機、神経再接続完了！\n\0":
-'???',
+'Eva Unit-01, neural reconnection completed!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ弐号機、神経再接続完了！\n\0":
-'???',
+'Eva Unit-02, neural reconnection completed!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ零号機、神経再接続完了！\n\0":
-'???',
+'Eva Unit-00, neural reconnection completed!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ参号機、神経再接続完了！\n\0":
-'???',
+'Eva Unit-03, neural reconnection completed!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ四号機、神経再接続完了！\n\0":
-'???',
+'Eva Unit-04, neural reconnection completed!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ両機、神経再接続完了！\n\0":
-'???',
+'Both Eva units, neural reconnection completed!\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Mass production unit, remaining A.T. Field at $g.\nUnit-01, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n弐号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Mass production unit, remaining A.T. Field at $g.\nUnit-02, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n零号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Mass production unit, remaining A.T. Field at $g.\nUnit-00, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n参号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Mass production unit, remaining A.T. Field at $g.\nUnit-03, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Mass production unit, remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
 
 # Misato Katsuragi 
 "初号機、移動して！\n\0":
-'???',
+'Unit-01, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "初号機、移動！\n\0":
-'???',
+'Unit-01, relocate!\n\0',
 
 # Female Staff
 "初号機、移動して下さい！\n\0":
-'???',
+'Unit-01, please relocate!\n\0',
 
 # Misato Katsuragi 
 "弐号機、移動して！\n\0":
-'???',
+'Unit-02, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機、移動！\n\0":
-'???',
+'Unit-02, relocate!\n\0',
 
 # Female Staff
 "弐号機、移動して下さい！\n\0":
-'???',
+'Unit-02, please relocate!\n\0',
 
 # Misato Katsuragi 
 "零号機、移動して！\n\0":
-'???',
+'Unit-00, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "零号機、移動！\n\0":
-'???',
+'Unit-00, relocate!\n\0',
 
 # Female Staff
 "零号機、移動して下さい！\n\0":
-'???',
+'Unit-00, please relocate!\n\0',
 
 # Misato Katsuragi 
 "参号機、移動して！\n\0":
-'???',
+'Unit-03, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "参号機、移動！\n\0":
-'???',
+'Unit-03, relocate!\n\0',
 
 # Female Staff
 "参号機、移動して下さい！\n\0":
-'???',
+'Unit-03, please relocate!\n\0',
 
 # Misato Katsuragi 
 "四号機、移動して！\n\0":
-'???',
+'Unit-04, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "四号機、移動！\n\0":
-'???',
+'Unit-04, relocate!\n\0',
 
 # Female Staff
 "四号機、移動して下さい！\n\0":
-'???',
+'Unit-04, please relocate!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、移動して！\n\0":
-'???',
+'Both Eva units, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "エヴァ両機、移動！\n\0":
-'???',
+'Both Eva units, relocate!\n\0',
 
 # Female Staff
 "エヴァ両機、移動して下さい！\n\0":
-'???',
+'Both Eva units, please relocate!\n\0',
 
 # Kozo Fuyutsuki
 "葛城君、\n作戦の運びは\nどのようになるのかね？\n\0":
@@ -12729,7 +12729,7 @@ translate_map = {
 
 # Rei Ayanami 
 "あと３時間…。\n\0":
-'???',
+'Three hours left...\n\0',
 
 # Misato Katsuragi 
 "失敗か……。\n\0":
@@ -12785,7 +12785,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "赤木博士、ご苦労だった。\n\0":
-'???',
+'Dr. Akagi, good work.\n\0',
 
 # Maya Ibuki 
 "さすがセンパイ。\n信じてました！！\n\0":
@@ -12797,11 +12797,11 @@ translate_map = {
 
 # Shigeru Aoba
 "ハハハ…、\nやった、助かった…。\n助かったんだ…。\n\0":
-'???',
+'Hahaha...\nYou did it. You saved us.\nYou saved us all...\n',
 
 # Ryoji Kaji
 "やっぱり君は大した奴だよ。\nリッちゃん。\n\0":
-'???',
+'You really are a hell of a gal,\nRitchan.\n\0',
 
 # Shinji Ikari
 "助かった…。\nみんな死なずに済んだんだ…。\n\0":
