@@ -2259,7 +2259,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕は、ヒトとして生きた。\n死ぬ時もヒトとして死のう。▽\nさよなら…、みんな…。\n\0":
-'???',
+'I lived as a human.\nShould I ever die, let it also be as a human.▽\nFarewell, everyone...\n\0',
 
 # Shinji Ikari
 "………………………。\nもう、保温も酸素の循環も\n切れてる。\n\0":
@@ -2271,7 +2271,7 @@ translate_map = {
 
 # Shinji Ikari
 "駄目だ、スーツも限界か。\n\0":
-'???',
+'No good. Even the suit\'s giving out.\n\0',
 
 # Shinji Ikari
 "ここまでか。\nもう疲れた。\n何もかも。\n\0":
@@ -3372,9 +3372,11 @@ translate_map = {
 #
 # ./USRDIR/event/f039.har_EXTRACT/f039.evs
 #
+# [Students: Comic Collision]
+#
 # Shinji Ikari
 "今日は風が強いな…。\n\0":
-'???',
+'The wind\'s strong today...\n\0',
 
 # Toji Suzuhara 
 "風、強いなぁ…。\n\0":
