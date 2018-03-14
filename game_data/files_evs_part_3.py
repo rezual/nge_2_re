@@ -194,6 +194,8 @@ translate_map = {
 '???',
 
 #
+# [Finale: JSSDF Attack, Pilot Rescue]
+#
 # ./USRDIR/event/f042.har_EXTRACT/f042.evs
 # ./USRDIR/event/cev1210.har_EXTRACT/cev1210.evs
 #
@@ -1744,6 +1746,8 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 "ただ、これから何をするべきかは\nわかった。▽\nやるべきことがある。▽\n戦うこと。▽\nみんなのために戦うことだ。▽\n行こう。\n\0":
 '???',
+
+# [Endings]
 
 #
 # ./USRDIR/event/e001.har_EXTRACT/e001.evs
@@ -5139,6 +5143,8 @@ translate_map = {
 "この先もずっと、ずっと…、\n僕はこの世界を抱きしめながら\n生きるのだろう。\n\0":
 '???',
 
+# [Scenario 4: Asuka]
+
 #
 # ./USRDIR/event/cev0200.har_EXTRACT/cev0200.evs
 #
@@ -5469,8 +5475,6 @@ translate_map = {
 #
 # ./USRDIR/event/cev0210.har_EXTRACT/cev0210.evs
 #
-# [Scenario 2: Asuka - Ending]
-#
 # Asuka Soryu Langley
 # [Note] （非表示）=(Non-Display). Programming instructions?
 "泣き声です。（非表示）\n\0":
@@ -5607,6 +5611,8 @@ translate_map = {
 # Asuka Soryu Langley
 "ありがとう、みんな。\nありがとう、私。▽\nありがとう…。\n約束するわ。\n私、きっと幸せになる。▽\nあなたに、ありがとう…。\n\0":
 '???',
+
+# [Scenario 3: Rei]
 
 #
 # ./USRDIR/event/cev0300.har_EXTRACT/cev0300.evs
@@ -5749,86 +5755,86 @@ translate_map = {
 #
 # Rei Ayanami 
 "また、私を見てる。\n私が私を見ている。▽\n私は何？\n私は今、どんなモノなの…？ \n\0":
-'???',
+'I am still looking at myself.\nThe me that looks at myself.▽\nWhat am I?\nWhat is it that I am now...?\n\0',
 
 # Rei Ayanami 
 "…。▽\n………。▽\n………………。 \n\0":
-'???',
+'...▽\n......▽\n............\n\0',
 
 # Gendo Ikari
 "アダムも我が手に収まった。\nレイ…、来るべき旅立ちは\nもうすぐだ…。\n\0":
-'???',
+'I have gone as far as placing Adam within my hand.\nRei... Very soon, we will depart\nfor the journey to come...\n\0',
 
 # Rei Ayanami 
 "この人は、私を見ている。\n私…、どの私…？ \n\0":
-'???',
+'This man is looking upon me.\nMe... Which me?\n\0',
 
 # Gendo Ikari
 "お前はその時の為にある\n存在なのだから…。\n\0":
-'???',
+'Because the coming time\nis why you exist.\n\0',
 
 # Rei Ayanami 
 "何の為に？\nこの人の為にある私？\nそれは…、本当の私なの…？ \n\0":
-'???',
+'To what end?\nA me that exists for this man?\nIs that the real me...?\n\0',
 
 # Gendo Ikari
 "アダムは生命の実を食べ、\n使徒に永遠の生命と力を。▽\nリリスは知恵の実を食べ、\n人類に知恵と死を与えた。▽\n我々は、知恵と死と、\n産み増える事しか\n受け取れなかったのだ。▽\n人々が追い求めて止まない\n永遠の命…、だが使徒も同じく\n知恵の実を求めてリリスを目指す。▽\nアダムとリリスの融合は、\n全てを無にもどし\nまた新たな生命の萌芽となる。▽\n知恵と永遠の生命を携えて…、\n新たな生命となる為に。▽\nだが、その生命に宿るものは\n我々人類か使徒かは…わからん。\n\0":
-'???',
+'Adam ate the Fruit of Life, giving the Angels eternal life and energy.▽\nLilith ate the Fruit of Knowledge,\n giving humanity wisdom and death.▽\nBeyond those, we received no gift\nbut that of fruitful multiplication.▽\nPeople ceaselessly pursue eternal life...\nbut the Angels likewise target Lilith\nseeking the Fruit of Knowledge.▽\nThe fusion of Adam and Lilith\nwill return all to nil and\nbecome a new germ of life.▽\nFrom this, new life holding both\nwisdom and eternal being will bud.▽\nBut whether it will be we humans or the\nAngels inhabiting that life... I do not know.\n\0',
 
 # Rei Ayanami 
 "永遠の命を手にして、\nどうされるのですか？\n\0":
-'???',
+'What will you do\nwith the Fruit of Life?\n\0',
 
 # Gendo Ikari
 "命が永遠である事が\n重要なのではない。▽\n我々全ての魂を一つにする事が\n重要なのだよ。▽\nレイ、お前はその扉となり、\n全ての心を補完する為の\n道標となるのだ。\n\0":
-'???',
+'Having eternal life isn\'t\nthe important part.▽\nWhat matters is bringing all souls together as one.▽\nRei, you will become that doorway.\nYou will be the signpost for the\ncomplementation of all hearts.\n\0',
 
 # Rei Ayanami 
 "……………。▽\n私はその為にいるんですか？\n\0":
-'???',
+'......▽\nI exist for that reason?\n\0',
 
 # Gendo Ikari
 "…………。▽\nお前は、処置なくしては、\n生き長らえる事が出来ない。\n我々よりも…。▽\nお前にも長生きして欲しい。\n\0":
-'???',
+'......▽\nWithout treatment, you\nwouldn\'t be able to live long.\nNot compared to us.▽\nBut I want you to have a long life.\n\0',
 
 # Rei Ayanami 
 "私の欲しい答えは…、\nいつも闇の中。▽\nこの人は何も、\n答えてはくれないのね。\n\0":
-'???',
+'The response I sought...\nAlways, I am left in the dark.▽\nThis man never gives me an answer.\n\0',
 
 #
 # ./USRDIR/event/cev0306.har_EXTRACT/cev0306.evs
 #
 # Rei Ayanami 
 "あなたは、\n知恵の実を持っているの？\n\0":
-'???',
+'You hold the\nFruit of Knowledge?\n\0',
 
 # ??? [Lilith]
 "知恵の実しか、\n手に入れられなかったの。▽\n白い月が持ち去った後、\n残っていたのは\n知恵の実だけだったのよ。▽\nだから、追ったの。\n白い月を。\n生命の実を手に入れるために。\n\0":
-'???',
+'The Fruit of Knowledge is\nall I could obtain.▽\nThe White Moon took off and left only the Fruit of Knowledge behind.▽\nSo I pursued the White Moon.\nSo that I might take\nthe Fruit of Life in hand.\n\0',
 
 # Rei Ayanami 
 "あなたも生命の実を望むの？\n\0":
-'???',
+'You also desire the Fruit of Life?\n\0',
 
 # ??? [Lilith]
 "それは、あなたが知っているはず。\nあなたは、私だもの。▽\n私が生み出した生命…。\n人類には生命の実が欠けている。\n不完全な生命体よ。\n\0":
-'???',
+'You should know that.\nBecause you are me.▽\nLife was created by me.\nHumankind lacks the Fruit of Life.\nThey are imperfect organisms.\n\0',
 
 # Rei Ayanami 
 "人々を完全なものにする為に、\n私は必要なの？\n\0":
-'???',
+'You need it so you\ncan make people complete?\n\0',
 
 # Rei Ayanami 
 "私が私を見ている。\n私の中にいる、たくさんの私。\n\0":
-'???',
+'I am looking at myself. Inside me, there exist several of me.\n\0',
 
 # Rei Ayanami 
 "あなたは、何…？\nどこから来たの？\n\0":
-'???',
+'What are you?\nWhere did you come from?\n\0',
 
 # ??? [Lilith]
 "この星ではない、別の宇宙。\nもう、故郷はないわ。▽\n新しい故郷を求めて、\n人の姿を捨てて旅立ったの。\n多くの存在と共に。▽\n私の黒い月、他の月もそう…。\n\0":
-'???',
+'Another universe altogether.\nOur home is gone by now.▽\nSeeking a new one, we abandoned\nhuman form and began our journeys,\naccompanied by a host of existence.▽\nMy Black Moon, and so too the other ones...\n\0',
 
 # Rei Ayanami 
 "生命の実を手に入れるの？\n\0":
@@ -5840,7 +5846,7 @@ translate_map = {
 
 # Rei Ayanami 
 "生命の実と…、知恵の実。\n\0":
-'The Fruit of Life... and the Fruit of Wisdom.\n\0',
+'The Fruit of Life... and the Fruit of Knowledge.\n\0',
 
 # Teacher
 "また、神が人間を生成する時に\n石ではなく、やはりバナナや樹木を\n材料にした為、▽\n短命になったのだという神話もある。▽\nまあ、南方系に多く見られる神話だ。▽\n石を選んでいたら、ひょっとしたら\n人間は石のように不死の身体を得て\nいたのかもしれないな。\n\0":
@@ -5985,7 +5991,7 @@ translate_map = {
 
 # Rei Ayanami 
 "私は、与えられた役目の為に\n生きたくない。\n\0":
-'???',
+'I don\'t want to live\nfor the role I was given.\n\0',
 
 # Gendo Ikari
 "待ってくれ、レイ！！\n\0":
@@ -5993,7 +5999,7 @@ translate_map = {
 
 # Rei Ayanami 
 "碇司令…。▽\n人の心を…、\nありがとうございます。▽\nさようなら…。\n\0":
-'Command Ikari...▽\nThank you,\n for my human heart.▽\nFarewell...\n\0',
+'Commander Ikari...▽\nThank you,\n for my human heart.▽\nFarewell...\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n青葉二尉の声。\n\0":
@@ -6005,11 +6011,11 @@ translate_map = {
 
 # Shigeru Aoba
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影なのか、これは？\n\0":
-'???',
+'A high energy body\nis ascending from Terminal Dogma!\nIt\'s... humanoid?\n\0',
 
 # Maya Ibuki 
 "ターミナルドグマより\n高エネルギー体が上昇中！\n何これ…、人の影？\n\0":
-'???',
+'A high energy body\nis ascending from Terminal Dogma!\nWhat in the... It\'s humanoid?\n\0',
 
 # Makoto Hyuga
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影か、何だこいつは？\n\0":
@@ -6017,7 +6023,7 @@ translate_map = {
 
 # Male Staff
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影のようですが…。\n\0":
-'???',
+'A high energy body\nis ascending from Terminal Dogma!\nAppears to be human-shaped, but...\n\0',
 
 # [Text Only - No Designated Speaker]
 "声がした。\n碇司令の声。\n\0":
@@ -6057,7 +6063,7 @@ translate_map = {
 
 # Rei Ayanami 
 "生命の実なんて要らない。\n私は、あなたじゃない。\n私は私。▽\n私は残された時間を、\n自分の意志で生きるわ。\n\0":
-'I don\'t need something like the Fruit of Life.\n I\'m not you; I am me.▽\nI\'ll live by my own free will\n in the time I have left.\n\0',
+'I don\'t need something like the Fruit of Life.\n I\'m not you.\nI am me.▽\nI\'ll live by my own free will\n in the time I have left.\n\0',
 
 # ??? [Lilith]
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
@@ -6091,6 +6097,8 @@ translate_map = {
 "声がした。\n洞木さんの声。\n\0":
 'I heard a voice.\nHoraki-san\'s voice.\n\0',
 
+# [Scenario 5: Misato]
+
 #
 # ./USRDIR/event/cev0401.har_EXTRACT/cev0401.evs
 #
@@ -6116,11 +6124,11 @@ translate_map = {
 
 # Gendo Ikari
 "ああ、まちがいない。\n使徒だ。\n\0":
-'???',
+'Yes. Without a doubt,\nit\'s an Angel.\n\0',
 
 # Misato Katsuragi 
 "私の戦いが、始まる…。\n\0":
-'???',
+'My fight begins...\n\0',
 
 # Gendo Ikari
 "もちろんだ、\n使徒を倒さぬ限り、我々に\n未来はない。\n\0":
@@ -6128,7 +6136,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "碇シンジ君ね。\nごめん、お待たせ！！\n\0":
-'???',
+'Shinji Ikari, right?\nSorry I\'m late!\n\0',
 
 # Shinji Ikari
 "…あ、あ、あ、あの。\n\0":
@@ -6143,35 +6151,35 @@ translate_map = {
 #
 # [Text Only - No Designated Speaker]
 "使徒との戦いが終わるまで…、\n私はきっと、\n父の姿を追い求めてしまう。\n\0":
-'???',
+'Until the battle with the Angels is over...\nI know I\'ll be pursuing my father\'s image,\nwith everything I have.\n\0',
 
 # [Text Only - No Designated Speaker]
 "ただ、父の復讐の為だけに\n私は戦っているのかもしれない。▽\nそうやって、\n父からの呪縛を誤魔化す為に。\n\0":
-'???',
+'Maybe I\'m only fighting\nso I can avenge him.▽\nTo escape the spell\nhe put on me that way.\n\0',
 
 # Misato Katsuragi 
 "いつもいつも、\n母さんは泣いていた。▽\n家に帰らない父さんを\n待ちながら…。\n\0":
-'???',
+'Mother was always crying.\nAlways.▽\nWhile she waited for my father,\nwho would never come home...\n\0',
 
 # [Text Only - No Designated Speaker]
 "父さんはいつも笑っていた。\nなのに、いつも遠くて。\n母さんや私からは遠くて。▽\n自分の夢の中にばかり\n生きる父を…私は憎んでいた。▽\n嫌いだった。\n家族を放って、笑っていられる\n父が許せなかった。▽\nだけど、最後には、\nセカンドインパクトのあの日には\n私をかばって…父は死んだ。\n\0":
-'???',
+'Dad was always smiling.\nBut it was always from a distance.\nFar away from Mom and me.▽\nHe was a father who lived\nnowhere but his dreams.▽\nI couldn\'t stand it.\nI hated him.\nHim smiling as he neglected his family,\nit was unforgiveable.▽\nBut ultimately,\non the day of Second Impact,\nhe died... protecting me.\n\0',
 
 # [Text Only - No Designated Speaker]
 "父を憎んでいたはずなのに、\nあの時の父の顔を忘れられない。\n\0":
-'???',
+'Even though I should hate my father,\nI\'ll never forget his face that day.\n\0',
 
 # [Text Only - No Designated Speaker]
 "ずっと、ずっと、\nあの父の姿を追い求めている\n私がいる。\n\0":
-'???',
+'Here I am,\nforever and always\nchasing after my father\'s image.\n\0',
 
 # [Text Only - No Designated Speaker]
 "私は、セカンドインパクトを\n起こした使徒を倒す為に、\nネルフに入った。\n\0":
-'???',
+'I joined Nerv to\ndefeat the Angels that\ncaused Second Impact.\n\0',
 
 # [Text Only - No Designated Speaker]
 "でも、本当は…\n父を求めて、\n父と同じ組織のネルフに入った。\n\0":
-'???',
+'But really...\nI joined Nerv, the same organization\nas my father\'s, in pursuit of him.\n\0',
 
 #
 # ./USRDIR/event/cev0403.har_EXTRACT/cev0403.evs
@@ -8341,6 +8349,8 @@ translate_map = {
 "そんな口実とか無しに、\n僕はあなたの傍にいたくて…。\nあなたを支えて…。▽\n………………………。\n\0":
 '???',
 
+# [Scenario 11: Aoba]
+
 #
 # ./USRDIR/event/cev1001.har_EXTRACT/cev1001.evs
 #
@@ -8461,19 +8471,19 @@ translate_map = {
 "呆気にとられていると、\nあのギタリストが顔を出した。\n\0":
 '???',
 
-# Host [for Aoba's scenario]
+# Host
 "コバルトスカイの皆さん、\n演奏お疲れ様でした。\nいい歌でしたねー。\n\0":
 '???',
 
-# Kazuki Anami [for Aoba's scenario]
+# Kazuki Anami
 "でっしょ〜。\nミリオンヒット狙いますよ。\n\0":
 '???',
 
-# Host [for Aoba's scenario]
+# Host
 "今回、この曲を手がけられたのは\nこちらギターのカズキさんですか？\n\0":
 '???',
 
-# Kazuki Anami [for Aoba's scenario]
+# Kazuki Anami
 "ええ。\n自分の中でずっと温めてたもので。▽\n難産でしたけど、ようやく皆様に\nお聞かせする事が出来て、ホント\nメンバー全員ハッピーです、イェイ。▽\nな、テルオ。\n\0":
 '???',
 
@@ -8481,7 +8491,7 @@ translate_map = {
 "…あの曲は……………。\nあのー…、そうですね…。\n\0":
 '???',
 
-# Host [for Aoba's scenario]
+# Host
 "ベースのテルオさん、\n緊張してらっしゃいますねー？\n\0":
 '???',
 
@@ -8489,7 +8499,7 @@ translate_map = {
 "……………………いえ。\n急に売れ出したんで\nちょっと緊張して…。\n\0":
 '???',
 
-# Kazuki Anami [for Aoba's scenario]
+# Kazuki Anami
 "あ、まあまあ、ボクが\nトーク担当ですから。\n\0":
 '???',
 
@@ -12158,51 +12168,51 @@ translate_map = {
 
 # Committeeman A
 "ゲスト（委員会Ａ）\n\0":
-'???',
+'Guest (Committeeman A)\n\0',
 
 # Committeeman B
 "ゲスト（委員会Ｂ）\n\0":
-'???',
+'Guest (Committeeman B)\n\0',
 
 # Committeeman C
 "ゲスト（委員会Ｃ）\n\0":
-'???',
+'Guest (Committeeman C)\n\0',
 
 # Committeeman D
 "ゲスト（委員会Ｄ）\n\0":
-'???',
+'Guest (Committeeman D)\n\0',
 
 # Seele 02
 "ゲスト（０２）\n\0":
-'???',
+'Guest (02)\n\0',
 
 # Seele 03
 "ゲスト（０３）\n\0":
-'???',
+'Guest (03)\n\0',
 
 # Seele 04
 "ゲスト（０４）\n\0":
-'???',
+'Guest (04)\n\0',
 
 # Seele 05
 "ゲスト（０５）\n\0":
-'???',
+'Guest (05)\n\0',
 
 # Seele 06
 "ゲスト（０６）\n\0":
-'???',
+'Guest (06)\n\0',
 
 # Seele 09
 "ゲスト（０９）\n\0":
-'???',
+'Guest (09)\n\0',
 
 # JSSDF Staff
 "ゲスト（戦自隊員）\n\0":
-'???',
+'Guest (JSSDF Staff)\n\0',
 
 # Radio Voice [JSSDF]
 "ゲスト（戦自隊員・無線）\n\0":
-'???',
+'Guest (JSSDF Staff - Radio)\n\0',
 
 # Local Announcement
 "ゲスト（館内アナウンス）\n\0":
@@ -12210,11 +12220,11 @@ translate_map = {
 
 # Girlfriends
 "ゲスト（女友達）\n\0":
-'???',
+'Guest (Girlfriends)\n\0',
 
 # Matsushiro Staff
 "ゲスト（松代職員）\n\0":
-'???',
+'Guest (Matsushiro Staff)\n\0',
 
 # Toji Suzuhara 
 "この後「ＢＧＭ：０６」\n\0":
@@ -12254,11 +12264,11 @@ translate_map = {
 
 # Toji Suzuhara
 "パイロットのセリフ（上位優先）\n\n\0":
-'???',
+'Pilot Dialogue (Highest Preference)\n\0',
 
 # Asuka Soryu Langley, Shinji Ikari, Kaworu Nagisa
 "パイロットのセリフ（上位優先）\n\0":
-'???',
+'Pilot Dialogue (Highest Preference)\n\0',
 
 # Toji Suzuhara
 "以下のキャラのセリフ（ランダム）\n\n\0":
@@ -12278,11 +12288,11 @@ translate_map = {
 
 # Rei Ayanami 
 "エロテスト（大）\n\0":
-'???',
+'Erotic Test (Big)\n\0',
 
 # Shinji Ikari
 "エロ？\n\0":
-'???',
+'Erotic?\n\0',
 
 # Ritsuko Akagi 
 "普通？\n\0":
@@ -12290,5 +12300,5 @@ translate_map = {
 
 # Ritsuko Akagi 
 "外普通？\n\0":
-'???',
+'Outside Normal?\n\0',
 }
