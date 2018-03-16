@@ -4744,7 +4744,7 @@ translate_map = {
 
 # Shinji Ikari
 "そのカメラ。\n新しいの買ったの？\n\0":
-'???',
+'That camera.\nYou bought a new one?\n\0',
 
 # Kensuke Aida
 "うん。\n小遣い前借りしてね。\n\0":
@@ -4824,7 +4824,7 @@ translate_map = {
 
 # Kensuke Aida
 "シンジー！\n\0":
-'???',
+'Shinjiii!\n\0',
 
 # Kensuke Aida
 "ハハハハハッ…。\nいいの撮れた。\n\0":
@@ -5771,7 +5771,7 @@ translate_map = {
 
 # Gendo Ikari
 "お前はその時の為にある\n存在なのだから…。\n\0":
-'Because the coming time\nis why you exist.\n\0',
+'Because the coming time\nis the reason you exist.\n\0',
 
 # Rei Ayanami 
 "何の為に？\nこの人の為にある私？\nそれは…、本当の私なの…？ \n\0":
@@ -5794,8 +5794,9 @@ translate_map = {
 '......▽\nI exist for that reason?\n\0',
 
 # Gendo Ikari
+# [Note] 我々よりも…。 needs to be integrated better. -Reichu
 "…………。▽\nお前は、処置なくしては、\n生き長らえる事が出来ない。\n我々よりも…。▽\nお前にも長生きして欲しい。\n\0":
-'......▽\nWithout treatment, you\nwouldn\'t be able to live long.\nNot compared to us.▽\nBut I want you to have a long life.\n\0',
+'......▽\nYou cannot survive\nwithout treatment.\nMore so than us...▽\nI want you to enjoy a long life, as well.\n\0',
 
 # Rei Ayanami 
 "私の欲しい答えは…、\nいつも闇の中。▽\nこの人は何も、\n答えてはくれないのね。\n\0":
@@ -5826,7 +5827,7 @@ translate_map = {
 
 # Rei Ayanami 
 "私が私を見ている。\n私の中にいる、たくさんの私。\n\0":
-'I am looking at myself. Inside me, there exist several of me.\n\0',
+'I am looking at myself.\nInside me, there exist several of me.\n\0',
 
 # Rei Ayanami 
 "あなたは、何…？\nどこから来たの？\n\0":
@@ -5834,7 +5835,7 @@ translate_map = {
 
 # ??? [Lilith]
 "この星ではない、別の宇宙。\nもう、故郷はないわ。▽\n新しい故郷を求めて、\n人の姿を捨てて旅立ったの。\n多くの存在と共に。▽\n私の黒い月、他の月もそう…。\n\0":
-'Another universe altogether.\nOur home is gone by now.▽\nSeeking a new one, we abandoned\nhuman form and began our journeys,\naccompanied by a host of existence.▽\nMy Black Moon, and so too the other ones...\n\0',
+'Another universe altogether.\nOur home is gone by now.▽\nSeeking a new one, we abandoned\nhuman form and began our journeys,\naccompanied by a host of existence.▽\nMy Black Moon, and the other Moons likewise...\n\0',
 
 # Rei Ayanami 
 "生命の実を手に入れるの？\n\0":
@@ -5858,7 +5859,7 @@ translate_map = {
 
 # Teacher
 "綾波君…？\n大丈夫かね、綾波君…。\n保健室…、いや救急車だ。\n\0":
-'???',
+'Ayanami-kun...?\nAre you okay, Ayanami-kun?\nGet her to the infirmar-, no, to an ambulance!\n\0',
 
 # [Text Only - No Designated Speaker]
 "…。▽\n………。▽\n………………。\n\0":
@@ -5866,7 +5867,7 @@ translate_map = {
 
 # ??? [Lilith]
 "そう…。\n白い月の主から奪い取るの。▽\nだから、私は完全にならないと\nいけない。▽\nさあ、戻りなさい…。\n私へ還りなさい…。▽\nあなたはその姿を保てない。\n本来の姿ではないのだから。\n還るところは他にはないのだから。\n\0":
-'???',
+'Yes...\nI will take it from the master of the White Moon.▽\nRemaining incomplete\nis not an option.▽\nSo, please, come back...\nReturn to me...▽\nYou won\'t last in that form.\nIt\'s not your original form, after all.\nAnd there is nowhere else that you belong.\n\0',
 
 # ??? [Lilith]
 "戻っておいで…、\n戻ってきなさい…。\n\0":
@@ -5874,7 +5875,7 @@ translate_map = {
 
 # ??? [Lilith]
 "私の子らは、それを望んでいるわ。\n\0":
-'???',
+'My children are praying for it.\n\0',
 
 # Rei Ayanami 
 "あなた、誰？\n\0":
@@ -7304,11 +7305,11 @@ translate_map = {
 
 # Kaworu Nagisa 
 "赤木博士…。\n\0":
-'???',
+'Dr. Akagi...\n\0',
 
 # Ritsuko Akagi 
 "カヲル君…。\n\0":
-'???',
+'Kaworu-kun...\n\0',
 
 # Ritsuko Akagi 
 "あなたの白く透き通るような肌。\nうらやましいわ…。\n\0":
@@ -7391,6 +7392,8 @@ translate_map = {
 # Ritsuko Akagi 
 "私は勝ったわ。▽\nこの男にも、母さんにも。\nまだまだよ。\nあなたの償いはこれからなんだから。▽\n身も心も…、焦がしてあげる…。\n女は炎…、遊びで近づくと\nヤケドするわよ…。\n\0":
 '???',
+
+# [Scenario 9: Maya]
 
 #
 # ./USRDIR/event/cev0801.har_EXTRACT/cev0801.evs
@@ -10558,7 +10561,7 @@ translate_map = {
 
 # Maya Ibuki 
 "エヴァ参号機のパルス、\n確認出来ません！\n\0":
-'???',
+'We can\'t verify\nEva Unit-02\'s pulse!\n\0',
 
 # Matsushiro Staff
 "駄目です！\n停止信号及びプラグ排出コード\n認識されません！\n\0":
@@ -11061,16 +11064,18 @@ translate_map = {
 "…知ってる。\nエヴァの中だったんでしょ…。▽\n彼が行くまで、一緒だったの。\nあの時、引き止めていれば\n私…、私…！！\n\0":
 '???',
 
+# [Scenario 16: Kaworu]
+
 #
 # ./USRDIR/event/cev1501.har_EXTRACT/cev1501.evs
 #
 # Misato Katsuragi 
 "結果、\n碇シンジ、鈴原トウジ両名による、\n目標の説得に成功。\n\0":
-'???',
+'The outcome was the target\nbeing successfully persuaded by\nboth Shinji Ikari and Toji Suzuhara.\n\0',
 
 # Misato Katsuragi 
 "第３使徒\n\0":
-'???',
+'The Third Angel\n\0',
 
 # Misato Katsuragi 
 "以後「渚カヲル」は従来通り、\n\0":
@@ -11078,15 +11083,15 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "タブリス\n\0":
-'???',
+'Tabris\n\0',
 
 # Misato Katsuragi 
 "セントラルドグマに突如出現した\n使徒の正体は、\n\0":
-'???',
+'The Angel, which revealed itself\nsuddenly in Central Dogma,\n\0',
 
 # Misato Katsuragi, Female Staff
 "フィフス・チルドレン\n「渚・カヲル」であることが判明。\n\0":
-'???',
+'was confirmed as being\nthe Fifth Child "Kaworu Nagisa".\n\0',
 
 # Misato Katsuragi 
 "フィフス・チルドレンとして\nエヴァパイロットを\n続行することになりました。\n\0":
@@ -11109,22 +11114,23 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "…闇の中。▽\n…白い月。▽\n僕が僕になる前のこと…。\n\0":
-'???',
+'...Embraced by darkness.▽\n...The White Moon.▽\nWhat happened before I became me...\n\0',
 
 # [Text Only - No Designated Speaker]
 "いつから僕は、\n僕になったのだろう…。▽\nヒト…、リリン…。\nヒトの中で僕は生きている。▽\nあそこで死んでもよかったんだ。\n使徒として。▽\nでも…。\n僕は、生きていく事を選択した。▽\n生きる、意味。▽\nリリンであれ、使徒であれ…\nそれは同じかもしれないけど。\n\0":
-'???',
+'How long has it been\nsince I became me?▽\nHumans... Lilin...\nI am living among humans.▽\nI was fine with dying back there,\nas an Angel.▽\nBut...\nI decided to keep living.▽\nBeing alive has meaning.▽\nWhether as a Lilin or as an Angel... Even though they might be the same.\n\0',
 
 # Kaworu Nagisa 
 "…………………………。▽\n忘れてしまおう。\n何もかも。▽\n僕は、ヒトとして生きる事を\n選んだんだ…。\n\0":
-'???',
+'............▽\nLet me forget it all.\nAnything and everything.▽\nI choose to\nlive as a human.\n\0',
 
 #
 # ./USRDIR/event/cev1503.har_EXTRACT/cev1503.evs
 #
 # [Text Only - No Designated Speaker]
+# [Note] Check どれも、ヒトがそう呼んだだけだ。 -Reichu
 "僕…。▽\n僕は…、渚カヲル。\nタブリス。\nアダム…。▽\nどれも、\nヒトがそう呼んだだけだ。▽\n僕の姿。▽\nヒトの形。\n魂がとらわれている器。\nヒトが用意した姿。▽\n仕組まれた姿。\n仕組まれた子供。▽\n本当の僕はどこにある。\n僕の本当の身体はどこにある。\n\0":
-'???',
+'I...▽\nI am... Kaworu Nagisa.\nTabris.\nAdam...▽\nAll are but\nnames that humans gave me.▽\nMy shape.▽\nHuman form.\nThe vessel that imprisons my soul.\nA shape that humans prepared.▽\nA shape that was part of the plan.\nChildren who are part of the plan.▽\nThe real me exists somewhere.\nMy real body exists somewhere.\n\0',
 
 # Kaworu Nagisa 
 "いや…、知ってどうするんだ。\n知って…。\n\0":
@@ -11136,18 +11142,18 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕はどこから来て…。▽\nどこへ行くのだろう…。▽\n第一始祖民族…か。\n何の為に…、僕を…創った？\n\0":
-'???',
+'Where did I come from...?\nWhere am I going...?▽\nThe First Ancestral Race...\nWhy did they make me?\n\0',
 
 #
 # ./USRDIR/event/cev1504.har_EXTRACT/cev1504.evs
 #
 # [Text Only - No Designated Speaker]
 "この星空の彼方。\nずっと向こう。\n僕を送り出した神がいる。\n\0":
-'???',
+'Beyond these starry skies.\nForever past them.\nThere, the God that dispatched me lay.\n\0',
 
 # [Text Only - No Designated Speaker]
 "ゼーレは、神になろうとした。\n人類の補完、不老不死の存在。▽\nでも、本当の神は違う。\n僕や、リリスを創り出した存在。\n第一始祖民族…。\n\0":
-'???',
+'Seele are men who would be God.\nThe Instrumentality of Mankind, immortal existence.▽\nBut the true God is something else.\nThe existence that created me and Lilith.\nThe First Ancestral Race...\n\0',
 
 #
 # ./USRDIR/event/cev1505.har_EXTRACT/cev1505.evs
@@ -11161,71 +11167,71 @@ translate_map = {
 #
 # [Text Only - No Designated Speaker]
 "あの空の向こうへ。\n星の彼方へ。\n僕が来た、あの空間へ。\n\0":
-'???',
+'Past the sky.\nBeyond this heavenly body.\nTo the darkness of space from whence I came.\n\0',
 
 # Makoto Hyuga, Male Staff
 "衛星軌道上に\nΑΤフィールドの発生を確認！\n\0":
-'???',
+'A.T. Field confirmed\nabove satellite orbit!\n\0',
 
 # Misato Katsuragi 
 "使徒なの！？\n\0":
-'???',
+'An Angel?!\n\0',
 
 # Female Staff
 "使徒ですか！？\n\0":
-'???',
+'Is it an Angel?!\n\0',
 
 # Shigeru Aoba, Male Staff
 "目標を映像で捕捉。\n\0":
-'???',
+'We have a visual of the target.\n\0',
 
 # Misato Katsuragi 
 "な…！\n彼…が！？\n\0":
-'???',
+'Wha-?\nHim?!\n\0',
 
 # Female Staff
 "あれは…、\nフィフス・チルドレン！？\n\0":
-'???',
+'It\'s the...\nFifth Child?!\n\0',
 
 # Shigeru Aoba, Male Staff
 "やはり…、使徒なのか？\nあの苛酷な宇宙環境に、\n生身の身体でいられるなんて…。\n\0":
-'???',
+'So he\'s an Angel after all?\nAmazing to think a body of flesh and blood\ncan tolerate the conditions in space...\n\0',
 
 # Kaworu Nagisa 
 "……………………。▽\n…静かだ。▽\n僕はこの静寂を知っている。\nずっと、昔から…。▽\nこの大きな安らぎを、\n僕は知っている…。▽\n僕が、僕になるずっと前から…。\n\0":
-'???',
+'............▽\nSo quiet.▽\nI know this silence,\nfrom deep in the past.▽\nI know this great\nfeeling of serenity.▽\nAnd I have since long\nbefore I became me.\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君や、君の子孫達の約束の土地。\nそれがあの星だったのかい？\n\0":
-'???',
+'You and your progeny\'s Promised Land.\nIt was that world down there?\n\0',
 
 # Kaworu Nagisa 
 "………。▽\n誰…？\n\0":
-'???',
+'......▽\nWho is it...?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "僕の声が届いたね。\n君の言葉と姿と声を借りて、\n対話する事を許してほしい。\n\0":
-'???',
+'I see my voice reached you.\nKindly forgive me for borrowing your words,\nappearance, and voice to converse with you.\n\0',
 
 # Kaworu Nagisa 
 "誰なんだい…？\n\0":
-'???',
+'Who are you...?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "今となっては名前もない。\n姿もない。\n生命そのものになった存在さ。▽\n君の魂は、\n生命の実を食べ過ぎて、\n昔の事を忘れたようだ…。\n\0":
-'???',
+'At this point in time,\nI have neither a name nor a form.\nI exist as the essence of life itself.▽\nYour soul, it seems,\nate too much of the Fruit of Life,\nand forgot things long past...\n\0',
 
 # Kaworu Nagisa 
 "僕を知ってるの…？\n\0":
-'???',
+'You know me...?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "故郷を同じくした\n種族だからね。\n\0":
-'???',
+'Because our species\nhad the same homeworld.\n\0',
 
 # Kaworu Nagisa 
 "第一始祖民族…？\n\0":
-'???',
+'The First Ancestral Race...?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "そうとも言えるね…。▽\n思い出せない？▽\n僕らは故郷の星を失う事を知り、\n別の生きていくべき星を探して\n宇宙のただなかへ旅に出た…。▽\n生命の根源の姿へ自分達を戻し…。\n多くの民と共に、\nひとつへ交じり合いながら…。▽\nいつか、再び増え栄える為にね。\n\0":
@@ -11644,15 +11650,15 @@ translate_map = {
 
 # Shinji Ikari
 "シンジ／通常／\n\0":
-'???',
+'Shinji/Normal/\n\0',
 
 # Shinji's Shadow [Leliel]
 "シンジ２／通常／\n\0":
-'???',
+'Shinji 2/Normal/\n\0',
 
 # Shinji's Shadow [Leliel]
 "シンジ２／怒り／\n\0":
-'???',
+'Shinji 2/Angry/\n\0',
 
 # Shinji's Shadow [Leliel]
 "シンジ２／悲しみ／\n\0":
@@ -11668,19 +11674,19 @@ translate_map = {
 
 # Shinji's Shadow [Leliel]
 "シンジ２／発情／\n\0":
-'???',
+'Shinji 2/Aroused/\n\0',
 
 # Shinji's Shadow [Leliel]
 "シンジ２／困惑／\n\0":
-'???',
+'Shinji 2/Perplexed/\n\0',
 
 # Asuka's Shadow [Leliel]
 "アスカ２／通常／\n\0":
-'???',
+'Asuka 2/Normal/\n\0',
 
 # Asuka's Shadow [Leliel]
 "アスカ２／怒り／\n\0":
-'???',
+'Asuka 2/Angry/\n\0',
 
 # Asuka's Shadow [Leliel]
 "アスカ２／悲しみ／\n\0":
@@ -11696,19 +11702,19 @@ translate_map = {
 
 # Asuka's Shadow [Leliel]
 "アスカ２／発情／\n\0":
-'???',
+'Asuka 2/Aroused/\n\0',
 
 # Asuka's Shadow [Leliel]
 "アスカ２／困惑／\n\0":
-'???',
+'Asuka 2/Perplexed/\n\0',
 
 # Rei's Shadow [Leliel]
 "レイ２／通常／\n\0":
-'???',
+'Rei 2/Normal/\n\0',
 
 # Rei's Shadow [Leliel]
 "レイ２／怒り／\n\0":
-'???',
+'Rei 2/Angry/\n\0',
 
 # Rei's Shadow [Leliel]
 "レイ２／悲しみ／\n\0":
@@ -11724,19 +11730,19 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "レイ２／発情／\n\0":
-'???',
+'Rei 2/Aroused/\n\0',
 
 # Rei's Shadow [Leliel]
 "レイ２／困惑／\n\0":
-'???',
+'Rei 2/Perplexed/\n\0',
 
 # Toji's Shadow [Leliel]
 "トウジ２／通常／\n\0":
-'???',
+'Toji 2/Normal/\n\0',
 
 # Toji's Shadow [Leliel]
 "トウジ２／怒り／\n\0":
-'???',
+'Toji 2/Angry/\n\0',
 
 # Toji's Shadow [Leliel]
 "トウジ２／悲しみ／\n\0":
@@ -11752,19 +11758,19 @@ translate_map = {
 
 # Toji's Shadow [Leliel]
 "トウジ２／発情／\n\0":
-'???',
+'Toji 2/Aroused/\n\0',
 
 # Toji's Shadow [Leliel]
 "トウジ２／困惑／\n\0":
-'???',
+'Toji 2/Perplexed/\n\0',
 
 # Kaworu's Shadow [Leliel]
 "カヲル２／通常／\n\0":
-'???',
+'Kaworu 2/Normal/\n\0',
 
 # Kaworu's Shadow [Leliel]
 "カヲル２／怒り／\n\0":
-'???',
+'Kaworu 2/Angry/\n\0',
 
 # Kaworu's Shadow [Leliel]
 "カヲル２／悲しみ／\n\0":
@@ -11780,11 +11786,11 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "カヲル２／発情／\n\0":
-'???',
+'Kaworu 2/Aroused/\n\0',
 
 # Kaworu's Shadow [Leliel]
 "カヲル２／困惑／\n\0":
-'???',
+'Kaworu 2/Perplexed/\n\0',
 
 # Shinji Ikari
 "１２３４５６７８９０１２３４５６、\n１２３４５６７８９０１２３４５６、\n１２３４５６７８９０１２３４５６、\n\0":
@@ -11852,7 +11858,7 @@ translate_map = {
 
 # Maya Ibuki, Maya Ibuki [Flashback]
 "マヤ：回想発情\n\0":
-'???',
+'Maya: Flashback Aroused\n\0',
 
 # Makoto Hyuga, Makoto Hyuga [Flashback]
 "日向：回想笑い\n\0":
@@ -11860,7 +11866,7 @@ translate_map = {
 
 # Makoto Hyuga, Makoto Hyuga [Flashback]
 "日向：回想発情\n\0":
-'???',
+'Hyuga: Flashback Aroused\n\0',
 
 # Pen Pen
 "ペンペン：ネガポジ驚き\n\0":
@@ -11904,11 +11910,11 @@ translate_map = {
 
 # Shinji Ikari
 "制服コネクター通常\n\0":
-'???',
+'Uniform Connectors Normal\n\0',
 
 # Shinji Ikari
 "赤プラグスーツ通常\n\0":
-'???',
+'Red Plugsuit Normal\n\0',
 
 # Asuka Soryu Langley
 "サマードレス普通\n\0":
@@ -11952,7 +11958,7 @@ translate_map = {
 
 # Shinji Ikari
 "通常の表情変更\n\0":
-'???',
+'Normal Expression Change\n\0',
 
 # Shinji Ikari
 "次、クロスフェードしない\n\0":
