@@ -3657,6 +3657,8 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001D12F4: Data(DataType.String, 36, '???', "しかし%sは\nよく理解できなかった。\0"),
     0x001D1318: Data(DataType.String, 36, '???', "しかし%sは\nうまく聞き取れなかった。\0"),
     0x001D133C: Data(DataType.String, 32, '???', "しかし%sは\nよくわからなかった。\0"),
+    0x001D135C: Data(DataType.String, 8, '???', "$bに\0"),
+    0x001D1364: Data(DataType.String, 4, '???', "が\0"),
     0x001D1368: Data(DataType.String, 44, '???', "$aは%s、\n%sの出来事を%s。$n%s%s%s\n%s%sを。\0"),
     0x001D13A4: Data(DataType.String, 4, '...\0', "…\0"),
     0x001D13A8: Data(DataType.String, 8, 'and the others\0', "たち\0"),
