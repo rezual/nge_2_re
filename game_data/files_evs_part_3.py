@@ -461,7 +461,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "葛城君。\n\0":
-'???',
+'Katsuragi-kun.\n\0',
 
 # Misato Katsuragi 
 "了解しました、\n後の指示、よろしくお願いします。\n\0":
@@ -477,7 +477,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "日向君。\n\0":
-'???',
+'Hyuga-kun.\n\0',
 
 # Makoto Hyuga
 "はい、僕が行きます。\nみなさんもご無事で。\n\0":
@@ -485,11 +485,11 @@ translate_map = {
 
 # Kozo Fuyutsuki, Maya Ibuki 
 "青葉君。\n\0":
-'???',
+'Aoba-kun.\n\0',
 
 # Kozo Fuyutsuki
 "伊吹君。\n\0":
-'???',
+'Ibuki-kun.\n\0',
 
 # Maya Ibuki 
 "…わかりました、\nパイロットを救出してまいります。\n\0":
@@ -553,7 +553,7 @@ translate_map = {
 
 # JSSDF Staff
 "あそこだ！！\n\0":
-'???',
+'Over there!!\n\0',
 
 # JSSDF Staff
 "仕留めたか。\nここはいい、じき爆発予定だ。\n次のブロックへ急げ。\n\0":
@@ -581,7 +581,7 @@ translate_map = {
 
 # JSSDF Staff
 "あそこだ、逃がすな！！\n\0":
-'???',
+'Over there! Don\'t let \'em get away!\n\0',
 
 # Misato Katsuragi 
 "悪いわね、こっちゃ死ぬわけには\nいかないのよ。\n\0":
@@ -685,11 +685,11 @@ translate_map = {
 
 # Shinji Ikari, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa
 "青葉さん？\n\0":
-'???',
+'Aoba-san?\n\0',
 
 # Shinji Ikari, Asuka Soryu Langley, Kaworu Nagisa
 "マヤさん…？\n\0":
-'???',
+'Maya-san...?\n\0',
 
 # Toji Suzuhara 
 "マヤさん、マヤさーん！！？\n\0":
@@ -3952,7 +3952,7 @@ translate_map = {
 
 # Shinji Ikari
 "ベースギター…ですね。\n\0":
-'???',
+'A base guitar, huh?\n\0',
 
 # Shigeru Aoba
 "ああ、音階はチェロと同じだ。\n何となくわかるだろ？\n\0":
@@ -6492,7 +6492,7 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "永遠の存在であるエヴァ。\n今や、彼女と言う魂を得て、\n神となったのだろう。\n\0":
-'The eternal being, Eva.\nRight that moment, in obtaining a soul --\nhers -- it probably became a god.\n\0',
+'The eternal being, Eva.\nRight that moment, in obtaining a soul --\nhers -- I suppose it became a god.\n\0',
 
 # [Text Only - No Designated Speaker]
 "人々の心の隙間を埋める補完計画。▽\nゼーレは、サードインパクトに\nより全人類を完全な単体生物へと\n進化させるべくこの計画に乗り、▽\n私と碇は、全人類の心を互いに\n補完する事をこの計画の目的とした。▽\n我々は、ゼーレの老人達を\n欺きながら、お互い異とした\n目的を歩んでいるのだ。▽\n全ての使徒を倒す、その時まで。\n\0":
@@ -6503,15 +6503,17 @@ translate_map = {
 '???',
 
 # [Text Only - No Designated Speaker]
+# [NOTE] This text block not completed yet. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
-'???',
+'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nBut it's a place beyond\nthe reach of us humans.▽\nWe don't know where the soul is. \nOr where something like the human heart is, either. ▽\nBut humanity will forever seek out\nthe existence of the soul.\nJust as it seeks the existence of God.▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs
 #
 # [Text Only - No Designated Speaker]
+# [NOTE] This text block not completed yet. -Reichu
 "彼女の論文を読み返す。\n私には、もはや習慣になっていた。▽\nふと思う。\n彼女は、どういった人類の未来を\n望んでいたのだろうか…。▽\n彼女の望んだ進化…。\n\0":
-'???',
+'I reread her thesis.\nIt was already becoming a habit.▽\nSuddenly I\'m thinking.\n彼女は、どういった人類の未来を\n望んでいたのだろうか…。▽\nThe evolution she desired...\n\0',
 
 # Kozo Fuyutsuki
 "あそこには…、京都には\n彼女の論文がいくつか残されては\nいないだろうか。▽\n京都か…。\n出張計画書が必要だな…。\n\0":
@@ -6522,27 +6524,28 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "私は京都へ向かった。\nかつて、彼女と出会ったあの土地へ。\n\0":
-'???',
+'I headed to Kyoto.\nTo the place where I once met her.\n\0',
 
 # [Text Only - No Designated Speaker]
 "大学には、多くの論文が\n保管されている。▽\n彼女のものを探すのは、\n結構骨が折れた。\n\0":
-'???',
+'A great many theses were\nin storage at the university.▽\nI broke enough bones\nlooking for hers.\n\0',
 
 # Kozo Fuyutsuki
 "これか…？\n碇ユイ。\nこれだ…。\n\0":
-'???',
+'Is this...?\nYui Ikari.\nGot it.\n\0',
 
 # [Text Only - No Designated Speaker]
 "彼女に会えたような喜びだった。\n静かに、彼女の論文をめくる。\n\0":
-'???',
+'It was like reliving the joy of meeting her.\nQuietly, I went through her thesis.\n\0',
 
 # Kozo Fuyutsuki
 "故意に変性意識を\n生み出すには…。▽\n…これは、エヴァとの\nシンクロを促すための\n基礎理論であったものか…？▽\n自己の意識の拡大と\n他者への意識の干渉…。\n精神汚染…。\n\0":
-'Intentionally creating an\naltered consciousness...▽\nWas this the reasoning\nin the basic theory for\npromoting synch with an Eva?▽\nIf one\'s consciousness were magnified to\nthe point of being able to break into another\'s...\nThat would be mental contamination.../n/0',
+'"Producing an intentionallyn\naltered consciousness..."▽\nWas this the reason there was\na basic theory to promote\nsynching with an Eva?▽\n"If one\'s consciousness were amplified, inference from awareness of other people would...\Mental contamination..."/n/0',
 
 # [Text Only - No Designated Speaker]
+# [NOTE] This text block not completed yet. -Reichu
 "彼女との再会を喜ぶような気持ちで、\nゆっくりとページをめくっていった。\nなんと充実した時間だろう。▽\nこの論文が書かれた時点ではまだ、\n改良の余地はあった。▽\nだが、変性意識を作り出す条件は\nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0":
-'???',
+'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this thesis was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0',
 
 #
 # ./USRDIR/event/cev0607.har_EXTRACT/cev0607.evs
@@ -6553,7 +6556,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "必要な機材はそろった。\n始めよう。\n\0":
-'???',
+'The necessary equipment is here.\nLet\'s begin.\n\0',
 
 # Kozo Fuyutsuki
 "この方向で調整を行っていこう。\n\0":
@@ -6561,7 +6564,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "悪夢を見たような、嫌な気分だ。\n実験は失敗か…。\n\0":
-'???',
+'It\'s a nasty feeling, like having a nightmare.\nThe experiment failed...\n\0',
 
 #
 # ./USRDIR/event/cev0608.har_EXTRACT/cev0608.evs
