@@ -6204,7 +6204,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "零号機のΑΤフィールドは！？\n\0":
-'???',
+'What about Unit-00\'s A.T. Field?!\n\0',
 
 # Maya Ibuki 
 "展開中！\nしかし、使徒に侵食されています！\n\0":
@@ -6224,11 +6224,11 @@ translate_map = {
 
 # Asuka Soryu Langley
 "…………ない。\n\0":
-'???',
+'......go.\n\0',
 
 # Asuka Soryu Langley
 "動かない…。\n動かないのよ…。\n\0":
-'???',
+'Won\'t go...\nIt won\'t go...\n\0',
 
 # Maya Ibuki 
 "駄目です！\nシンクロ率が二桁を切っています。\n\0":
@@ -6251,30 +6251,30 @@ translate_map = {
 
 # Maya Ibuki 
 "ΑΤフィールド反転！\n一気に侵食されます！\n\0":
-'???',
+'The A.T. Field\'s inverting!\nIt\'s being eroded all at once!\n\0',
 
 # Ritsuko Akagi 
 "使徒を押さえ込むつもり？\n\0":
-'???',
+'She\'s trying to keep the Angel restrained?\n\0',
 
 # Misato Katsuragi 
 "レイ、機体は捨てて逃げて！\n\0":
-'???',
+'Rei, abandon the unit and escape!\n\0',
 
 # Rei Ayanami 
 "だめ。\n私がいなくなったら\nΑΤフィールドが消えてしまう。▽\nだから、だめ。\n\0":
-'???',
+'I can\'t leave.\nIf I\'m not here,\nthe A.T. Field will completely vanish.▽\nSo, I can\'t.\n\0',
 
 # Misato Katsuragi 
 "レイ、死ぬ気？\n\0":
-'???',
-#
+'Rei, you\'re planning to die?\n\0',
 
+#
 # ./USRDIR/event/tev1801.har_EXTRACT/tev1801.evs
 #
 # Seele 06
 "ついに、\n第１６の使徒までを倒した。\n\0":
-'???',
+'At last, we\'ve defeated up to the 16th Angel.\n\0',
 
 # Seele 05
 "これでゼーレの死海文書に\n記述されている使徒は、\n後一つ。\n\0":
@@ -6318,7 +6318,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "歌はいいね。\n\0":
-'???',
+'Aren\'t songs nice?\n\0',
 
 # Kaworu Nagisa 
 "歌は心を潤してくれる。\nリリンの生み出した文化の極みだよ。▽\nそう、思わないかい？\n碇シンジ君。\n\0":
@@ -6338,19 +6338,19 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕はカヲル、渚カヲル。\n君と同じ仕組まれた子供、\nフィフス・チルドレンさ。\n\0":
-'???',
+'I\'m Kaworu. Kaworu Nagisa.\nA child who\'s part of the plan, like you.\nThe Fifth Child.\n\0',
 
 # Shinji Ikari
 "フィフス・チルドレン？\n君が？\nあの…渚、君。\n\0":
-'???',
+'The Fifth Child?\nYou?\n...I mean, Nagisa-kun.\n\0',
 
 # Kaworu Nagisa 
 "カヲルでいいよ。\n碇君。\n\0":
-'???',
+'Just call me "Kaworu",\nIkari-kun.\n\0',
 
 # Shinji Ikari
 "僕も、あの、\nシ、シンジでいいよ。\n\0":
-'???',
+'Um, me too.\nJust "Shinji" is okay.\n\0',
 
 # Makoto Hyuga
 "現在、フィフス・チルドレンは\nシンジ君と接触中の模様です。\n\0":
@@ -6380,23 +6380,23 @@ translate_map = {
 #
 # Rei Ayanami 
 "私、何故ここにいるの？\n\0":
-'???',
+'Why am I here?\n\0',
 
 # Rei Ayanami 
 "私、何故また生きているの？\n\0":
-'???',
+'Why am I still alive?\n\0',
 
 # Rei Ayanami 
 "何のために？\n\0":
-'???',
+'To what ends?\n\0',
 
 # Rei Ayanami 
 "誰のために？\n\0":
-'For whom?\n\0',
+'And for whom?\n\0',
 
 # Rei Ayanami 
 "フィフス・チルドレン。\nあのヒト、私と同じ感じがする。\n…どうして。\n\0":
-'???',
+'The Fifth Child.\nHe feels like me.\nWhy...?\n\0',
 
 # Misato Katsuragi 
 "どう？\n彼のデータ、入手出来た？\n\0":
@@ -6447,7 +6447,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "じゃあ、一体誰が。\n\0":
-'So then who could it be?\n\0',
+'Then who could it be?\n\0',
 
 # Gendo Ikari
 "エヴァ初号機に追撃させる。\n\0":
@@ -6466,7 +6466,7 @@ translate_map = {
 
 # Gendo Ikari
 "ゼーレのシナリオとは違いますが。\n\0":
-'???',
+'It is different from Seele\'s scenario, but still.\n\0',
 
 # Kozo Fuyutsuki
 "人は、エヴァを生み出す為に\nその存在があったのです。\n\0":
@@ -9191,28 +9191,29 @@ translate_map = {
 '???',
 
 # Makoto Hyuga, Male Staff
+# [NOTE] $e fills in Angel's name.
 "第$d使徒、$e。\n殲滅を確認しました！\n\0":
-'???',
+'Destruction of $d Angel, $e,\nconfirmed!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズ、１機撃破！\n\0":
-'???',
+'First Eva Series unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "２機目撃破！\n\0":
-'???',
+'Second unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "３機目撃破！\n\0":
-'???',
+'Third unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "４機目撃破！\n\0":
-'???',
+'Fourth unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "５機目撃破！\n\0":
-'???',
+'Fifth unit down!\n\0',
 
 # Shigeru Aoba
 "気味の悪い奴等だ。\nまた活動を再開してきたら、\nどうする…。\n\0":
@@ -9224,19 +9225,19 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "６機目撃破！\n\0":
-'???',
+'Sixth unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "７機目撃破！\n\0":
-'???',
+'Seventh unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "８機目撃破！\nあと１機！\n\0":
-'???',
+'Eighth unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ初号機、沈黙しました。\n\0":
-'???',
+'Eva Unit-01 is silent.\n\0',
 
 # Misato Katsuragi, Kozo Fuyutsuki, Gendo Ikari, Maya Ibuki, Female Staff, Toji Suzuhara, Ritsuko Akagi, Makoto Hyuga, Shigeru Aoba, Shinji Ikari,[Text Only - No Designated Speaker], Asuka Soryu Langley, Kaworu Nagisa
 "………………………。\n\0":
@@ -9244,7 +9245,7 @@ translate_map = {
 
 # Shinji Ikari
 "…カヲル…君。\n\0":
-'???',
+'...Kaworu-kun.\n\0',
 
 # Shinji Ikari
 "…で、でも。\nどうすればいいんですか？\n\0":
@@ -9824,7 +9825,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "はい。\nもちろんです。\n\0":
-'???',
+'Yes.\nOf course.\n\0',
 
 # Shigeru Aoba
 "使徒、移動を開始しました。\n\0":
@@ -9888,7 +9889,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "やったわ！\n\0":
-'???',
+'We did it!\n\0',
 
 # Kozo Fuyutsuki
 "よくやったな。\n初めてにしては上出来だったよ。\n\0":
@@ -10004,7 +10005,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "ごめんなさい…。\n\0":
-'???',
+'Forgive me...\n\0',
 
 # Maya Ibuki 
 "許して…、\n許してちょうだい…。\n\0":
@@ -10152,27 +10153,27 @@ translate_map = {
 
 # Gendo Ikari
 "初号機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch Unit-01 over\nto dummy plug.\n\0',
 
 # Gendo Ikari
 "弐号機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch Unit-02 over\nto dummy plug.\n\0',
 
 # Gendo Ikari
 "零号機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch Unit-00 over\nto dummy plug.\n\0',
 
 # Gendo Ikari
 "参号機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch Unit-03 over\nto dummy plug.\n\0',
 
 # Gendo Ikari
 "四号機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch Unit-04 over\nto dummy plug.\n\0',
 
 # Gendo Ikari
 "エヴァ両機は\nダミープラグに切り替えろ。\n\0":
-'???',
+'Switch both Eva units\nover to dummy plug.\n\0',
 
 # Kozo Fuyutsuki
 "碇、ダミープラグの使用は\nお前だけのみならず、委員会の\n許可を得なければならないんだ。▽\nそれに、ゼーレが黙ってはいないぞ！\nそれでも使うのか？\n\0":
@@ -10184,11 +10185,11 @@ translate_map = {
 
 # Gendo Ikari
 "構わん、やれ。\n\0":
-'???',
+'Doesn\'t matter. Do it.\n\0',
 
 # Maya Ibuki, Female Staff
 "初号機のダミーシステム、\n起動します。\n\0":
-'???',
+'Unit-01\'s dummy system\nis starting up.\n\0',
 
 # Shinji Ikari
 "父さん…、\nくそっ、やっぱり僕なんか\nいらないんだ…。\n\0":
@@ -10196,11 +10197,11 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "初号機、ダミーシステムに\n切り替わりました。\n\0":
-'???',
+'Unit-01 has been switched\nover to dummy system.\n\0',
 
 # Maya Ibuki, Female Staff
 "弐号機のダミーシステム、\n起動します。\n\0":
-'???',
+'Unit-02\'s dummy system\nis starting up.\n\0',
 
 # Asuka Soryu Langley
 "何よ…、\n私じゃ役不足っていうの…？\n\0":
@@ -10208,11 +10209,11 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "弐号機、ダミーシステムに\n切り替わりました。\n\0":
-'???',
+'Unit-02 has been switched\nover to dummy system.\n\0',
 
 # Maya Ibuki, Female Staff
 "零号機のダミーシステム、\n起動します。\n\0":
-'???',
+'Unit-00\'s dummy system\nis starting up.\n\0',
 
 # Rei Ayanami 
 "やっぱり私…、\nいらなくなるのね…。\n\0":
@@ -10220,11 +10221,11 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "零号機、ダミーシステムに\n切り替わりました。\n\0":
-'???',
+'Unit-00 has been switched\nover to dummy system.\n\0',
 
 # Maya Ibuki, Female Staff
 "参号機のダミーシステム、\n起動します。\n\0":
-'???',
+'Unit-03\'s dummy system\nis starting up.\n\0',
 
 # Toji Suzuhara 
 "くっそぉ、…何や！！\nワイの事、コケにしおってからに！！\n\0":
@@ -10232,15 +10233,15 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "参号機、ダミーシステムに\n切り替わりました。\n\0":
-'???',
+'Unit-03 has been switched\nover to dummy system.\n\0',
 
 # Maya Ibuki, Female Staff
 "四号機のダミーシステム、\n起動します。\n\0":
-'Unit-04\'s dummy system\n has been activated.\n\0',
+'Unit-04\'s dummy system\nis starting up.\n\0',
 
 # Kaworu Nagisa 
 "僕は…、\n僕は必要じゃなかったんだ…。\n\0":
-'They...\n They didn\'t need me...\n\0',
+'They...\nThey didn\'t need me...\n\0',
 
 # Maya Ibuki, Female Staff
 "四号機、ダミーシステムに\n切り替わりました。\n\0":
@@ -10264,11 +10265,11 @@ translate_map = {
 
 # Kaworu Nagisa
 "９機か…、\n今度こそ、僕の最後かもしれない。\n\0":
-'Nine of them?\n My final moments may be upon me.\n\0',
+'Nine of them?\nMy final moments may be upon me.\n\0',
 
 # Shiro Tokita
 "ジェットアローン改、\n起動スタンバイ！！\n\0":
-'Jet Alone 2,\n stand by for activation!!\n\0',
+'Jet Alone 2,\nstand by for activation!!\n\0',
 
 # Toji Suzuhara
 "な、何やアレ！？\n\0":
@@ -10276,7 +10277,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "もう一体来るの…？\n\0":
-'The hell is it this time...?\0',
+'The hell is it now...?\0',
 
 # Shinji Ikari
 "な、何か降りてくる！？\n\0":
@@ -10412,55 +10413,55 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "エヴァ初号機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Eva Unit-01, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nUnit-01, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ弐号機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Eva Unit-02, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n弐号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nUnit-02, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ零号機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Eva Unit-00, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n零号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nUnit-00, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ参号機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Eva Unit-03, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n参号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nUnit-03, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ四号機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Eva Unit-04, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ両機、\nΑΤフィールド中和開始！\n\0":
-'???',
+'Both Eva units, commencing\nA.T. Field neutralization!\n\0',
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\nエヴァ、残留ΑΤフィールド$h。\n\0":
-'???',
+'Angel\'s remaining A.T. Field at $g.\nEvas\' remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "目標のΑΤフィールド、\n消滅しました！\n\0":
-'???',
+'Target\'s A.T. Field\nhas gone down!\n\0',
 
 # Shigeru Aoba
 "エヴァ初号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
@@ -10512,7 +10513,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "シンジ君は退避して！\n\0":
-'???',
+'Shinji-kun, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "初号機パイロットはただちに退避！\n\0":
@@ -10524,7 +10525,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "アスカは退避して！\n\0":
-'???',
+'Asuka, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機パイロットは退避しろ。\n\0":
@@ -10536,7 +10537,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "レイは退避して！\n\0":
-'???',
+'Rei, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "零号機パイロットは退避しろ！\n\0":
@@ -10548,7 +10549,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "トウジ君は退避して！\n\0":
-'???',
+'Toji-kun, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "参号機パイロットは退避だ！\n\0":
@@ -10560,7 +10561,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "カヲル君は退避して！\n\0":
-'???',
+'Kaworu-kun, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "四号機パイロットは退避しろ！\n\0":
@@ -10572,7 +10573,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "エヴァ両機は退避して！\n\0":
-'???',
+'Both Eva units, take refuge!\n\0',
 
 # Kozo Fuyutsuki
 "エヴァ両機パイロットは\nただちに退避！\n\0":
@@ -14197,7 +14198,7 @@ translate_map = {
 #
 # Ritsuko Akagi 
 "アラ、シンジ君。\n\0":
-'???',
+'Oh, Shinji-kun.\n\0',
 
 # Shinji Ikari
 "どうも…。\n\0":
@@ -14775,7 +14776,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "嫌だ！！\n槍に刺されるのはもう嫌だ！\n\0":
-'???',
+'No!!\nI don\'t want to be stabbed by the Spear anymore!\n\0',
 
 # Kaworu Nagisa 
 "やめろ、僕をどうするつもりだ！\n計画なんか知らない！！\nそんなもの押し付けないでくれ！\n\0":
