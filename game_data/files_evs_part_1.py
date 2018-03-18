@@ -7996,7 +7996,9 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs
+# ./USRDIR/event/bs003.har_EXTRACT/bs003.evs
+#
+# [Battle: Unit-01 Berserk]
 #
 # Shinji Ikari
 "………う。▽\nもう、駄目だ…、僕は、\n僕は死ぬかもしれない…、僕は。▽\n死ぬかもしれない、死ぬかもしれ\nない、死ぬかもしれない、死ぬかも\nしれない、死ぬかもしれない…。\n\0":
@@ -8078,6 +8080,11 @@ translate_map = {
 "初号機、暴走！！\nパイロットからのコントロールも\n不可能です！\n\0":
 'Unit-01 is berserk!!\n It can\'t be controlled by the pilot either!\n\0',
 
+#
+# ./USRDIR/event/bs005.har_EXTRACT/bs005.evs
+#
+# [Battle: GeoFront Breach]
+#
 # Shigeru Aoba, Male Staff
 "目標、ゼロエリアを突破！\nジオフロントに向かっています！\n\0":
 'Target has breached Area Zero!\nIt\’s heading for the GeoFront!\n\0',
@@ -8094,6 +8101,12 @@ translate_map = {
 "エヴァは、リニアレールから\nジオフロントまで撤退、\n急いで迎撃にまわってください！\n\0":
 'Please withdraw the Evas into the\nGeoFront by linear rail,\nand quickly turn to intercept!\n\0',
 
+#
+# ./USRDIR/event/bs006.har_EXTRACT/bs006.evs
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+#
+# [Battle: Headquarters Breach]
+#
 # Shigeru Aoba, Male Staff
 "目標、ネルフ本部に侵入。\nすぐに、ここまで来ます！\n\0":
 'The target has penetrated Nerv H.Q.\n It\'ll be here any second!\n\0',
@@ -8105,6 +8118,14 @@ translate_map = {
 # Female Staff
 "総員、本部より撤退して下さい！！\n\0":
 '???',
+ 
+# Maya Ibuki 
+"…っ！\n来ました…。\nあああぁぁ！！\n\0":
+'...!\nIt\'s here...\nAahhh!\n\0',
+
+# Maya Ibuki 
+"っ！　来ました…。\nあああぁぁ！！\n\0":
+'???',
 
 # Makoto Hyuga
 "き、来ました…。\nうわぁぁぁぁあー！！\n\0":
@@ -8114,14 +8135,13 @@ translate_map = {
 "あぁっ、き、来たぁぁ！\nわああああああああー！！\n\0":
 '???',
 
-# Maya Ibuki 
-"っ！　来ました…。\nあああぁぁ！！\n\0":
-'???',
-
 # Male Staff
 "わぁっ！！\nき、来ました…。\nうわぁぁぁぁぁあ！！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Unsorted)
+#
 # Misato Katsuragi 
 "任せたわよ、シンジ君！\n\0":
 'I leave it to you, Shinji-kun!\n\0',
@@ -8264,50 +8284,6 @@ translate_map = {
 
 # Gendo Ikari
 "そろそろだな…。\n\0":
-'???',
-
-# Shinji Ikari
-"どうしたんだ、\n動かない、動かないよ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"動かない…。\n動かないの、動いてくれないの！\n\0":
-'???',
-
-# Rei Ayanami 
-"駄目…、動かない…。\n私には…、動かせない。\n\0":
-'???',
-
-# Toji Suzuhara 
-"動かへん…。\nああ、何でや…。\n何で動かへんのや…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そんな、動かない…。\n僕に動かせないなんて…。\nなぜだ…！！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"パイロットのシンクロ率が\n低すぎます！\n…これではエヴァは稼動しません！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"パイロットのシンクロ率が\n低すぎます！▽\n…これでは、同時荷重攻撃は\n不可能です！\n\0":
-'???',
-
-# Misato Katsuragi 
-"ここまで来て…、何てことなの！？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"万事休すか…。\n\0":
-'???',
-
-# Female Staff
-"そんな、作戦は失敗なの…。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"目標、移動を開始しました！\n\0":
 '???',
 
 # Maya Ibuki, Female Staff
@@ -8526,6 +8502,12 @@ translate_map = {
 "目標はエヴァ両機の\n迎撃開始ラインを通過しました！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs014.har_EXTRACT/bs014.evs
+#
+# [Battle: Positron Sniper Rifle]
+#
+
 # Maya Ibuki 
 "エヴァ初号機、\nポジトロンスナイパーライフル\n発射！\n\0":
 '???',
@@ -8578,6 +8560,11 @@ translate_map = {
 "技術班、再装填急いで下さい！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs016.har_EXTRACT/bs016.evs
+#
+# [Battle: Bardiel and Aftermath]
+#
 # Shinji Ikari
 "ダメだ！\nやっぱりダメだよ、戦えないよ！\n\0":
 '???',
@@ -8670,6 +8657,11 @@ translate_map = {
 "構わん、システム開放。\n攻撃開始。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs017.har_EXTRACT/bs017.evs
+#
+# [Battle: Bardiel Aftermath]
+#
 # Shigeru Aoba, Male Staff
 "エヴァ参号機…いえ、\n目標は完全に沈黙しました。\n\0":
 'Eva Unit-03-- I mean,\nthe target is completely silent.\n\0',
@@ -8750,6 +8742,12 @@ translate_map = {
 "………父さん。▽\n………トウジ…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs018.har_EXTRACT/bs018.evs
+#
+# [Battle: Eva Series Reactivation]
+#
+
 # Shigeru Aoba
 "エヴァシリーズ、\n全機沈黙しました！\n\0":
 '???',
@@ -8794,6 +8792,8 @@ translate_map = {
 "そんな…、どうすれば………？\n\0":
 '???',
 
+# ./USRDIR/event/bs019.har_EXTRACT/bs019.evs
+#
 # Shinji Ikari, Misato Katsuragi 
 "カヲル君！！\n\0":
 'Kaworu-kun!!\n\0',
@@ -8801,6 +8801,13 @@ translate_map = {
 # Shinji Ikari
 "待って、カヲル君！\n\0":
 'Wait, Kaworu-kun!\n\0',
+
+
+#
+# ./USRDIR/event/bs020.har_EXTRACT/bs020.evs
+#
+# [Battle: Rei Self-Destructs]
+#
 
 # Misato Katsuragi 
 "このままでは本部が…。\nせめて子供達だけでも…。\n\0":
@@ -8966,6 +8973,12 @@ translate_map = {
 "………レイ。▽\n………………………。▽\nレイ、待っているのよ…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs021.har_EXTRACT/bs021.evs
+#
+# [Battle: Israfel Killing Blow]
+#
+
 # Makoto Hyuga, Male Staff
 "目標、再度、\n元の１体に戻ろうとしています！\n\0":
 '???',
@@ -9014,6 +9027,9 @@ translate_map = {
 "今だ、奴にとどめを！！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs022.har_EXTRACT/bs022.evs
+#
 # Shigeru Aoba, Male Staff
 "目標、移動開始しました！\n\0":
 '???',
@@ -9122,6 +9138,10 @@ translate_map = {
 "目標数９、全機殲滅して下さい！！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs030.har_EXTRACT/bs030.evs
+#
+#
 # Shinji Ikari
 "わぁぁぁぁぁぁぁぁぁぁ！！\n\0":
 '???',
@@ -9190,11 +9210,21 @@ translate_map = {
 "万策尽きたか…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs031.har_EXTRACT/bs031.evs
+#
+# [Battle: Angel Down]
+#
 # Makoto Hyuga, Male Staff
 # [NOTE] $e fills in Angel's name.
 "第$d使徒、$e。\n殲滅を確認しました！\n\0":
 'Destruction of $d Angel, $e,\nconfirmed!\n\0',
 
+#
+# ./USRDIR/event/bs032.har_EXTRACT/bs032.evs
+#
+# [Battle: Eva Series Down]
+#
 # Makoto Hyuga, Male Staff
 "エヴァシリーズ、１機撃破！\n\0":
 'First Eva Series unit down!\n\0',
@@ -9235,6 +9265,11 @@ translate_map = {
 "８機目撃破！\nあと１機！\n\0":
 'Eighth unit down!\n\0',
 
+#
+# ./USRDIR/event/bs039.har_EXTRACT/bs039.evs
+#
+# [Battle: Tabris Battle Aftermath]
+#
 # Makoto Hyuga, Male Staff
 "エヴァ初号機、沈黙しました。\n\0":
 'Eva Unit-01 is silent.\n\0',
@@ -9247,10 +9282,9 @@ translate_map = {
 "…カヲル…君。\n\0":
 '...Kaworu-kun.\n\0',
 
-# Shinji Ikari
-"…で、でも。\nどうすればいいんですか？\n\0":
-'???',
-
+#
+# ./USRDIR/event/bs059.har_EXTRACT/bs059.evs
+#
 # Shinji Ikari, Shigeru Aoba, Female Staff
 "は、はい！\n\0":
 '???',
@@ -9287,10 +9321,9 @@ translate_map = {
 "エリア名は%1iボタンを押して\n「全域マップを確認する」で\n確認出来るわ。▽\nやってみて！\n\0":
 '???',
 
-# Shinji Ikari, Misato Katsuragi 
-"はい！\n\0":
-'???',
-
+#
+# ./USRDIR/event/bs060.har_EXTRACT/bs060.evs
+#
 # Misato Katsuragi 
 "シンジ君、\nエヴァの後ろに付いている\nケーブルがあるでしょう？\n\0":
 '???',
@@ -9335,6 +9368,9 @@ translate_map = {
 "アンビリカルケーブルを他のビルに\n繋ぎ直す時は、その電源ビルの\n側に立って%1iボタン。▽\n「アンビリカルケーブル接続」の\nコマンドを選べばいいわ。▽\n重要な事だから、忘れないようにね。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs061.har_EXTRACT/bs061.evs
+#
 # Maya Ibuki 
 "エヴァ初号機。\nアンビリカルケーブル、\n残りわずかです。\n\0":
 '???',
@@ -9359,22 +9395,9 @@ translate_map = {
 "…わかりました。\n\0":
 '...Understood.\n\0',
 
-# Misato Katsuragi 
-"落ち着いて。\nでは、これより使徒に対して\n接近戦を行います。\n\0":
-'???',
-
-# Shinji Ikari
-"はっ、はい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"接近戦は、エヴァ周囲の射程に\n使徒を入れ、%1iボタン。▽\nちゃんと射程内に入っていれば、\n攻撃コマンドが選べるわ。▽\nそれから、\n目標を捕らえる位置によって、\n選べる攻撃が変わるから注意して。\n\0":
-'???',
-
-# Shinji Ikari
-"射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n\0":
-'???',
-
+#
+# ./USRDIR/event/bs063.har_EXTRACT/bs063.evs
+#
 # Shinji Ikari
 "…あ、当たった！\n\0":
 '???',
@@ -9383,6 +9406,9 @@ translate_map = {
 "スゴイわ、シンジ君。\nその調子！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs064.har_EXTRACT/bs064.evs
+#
 # Shinji Ikari
 "いっ、痛い…！？\n…くっ、うわぁぁぁぁ！！\nああああぁぁぁぁぁぁぁぁぁ！！\n\0":
 '???',
@@ -9395,6 +9421,9 @@ translate_map = {
 "………………………………。▽\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs065.har_EXTRACT/bs065.evs
+#
 # Misato Katsuragi 
 "じゃ、まずは勝利条件と\n敗北条件の復習からね。\n全域マップ、出して！\n\0":
 '???',
@@ -9475,6 +9504,9 @@ translate_map = {
 "あなたの守備範囲みたいなものよ。▽\nそのラインに使徒が侵入したら、\n私が移動指示を出し始めるわ。\nいい？\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs066.har_EXTRACT/bs066.evs
+#
 # Shigeru Aoba
 "使徒、エヴァ初号機の迎撃開始\nラインに侵入しました！\n\0":
 '???',
@@ -9503,6 +9535,9 @@ translate_map = {
 "起動方法は、%1iボタンを押して。▽\nコマンドを呼び出したら\n「全域マップを確認する」を\n選択すれば、起動出来るわ。▽\nわかった？\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs067.har_EXTRACT/bs067.evs
+#
 # Misato Katsuragi 
 "シンジ君、\nアンビリカルケーブルの役割は\nちゃんと覚えてる？\n\0":
 '???',
@@ -9515,6 +9550,9 @@ translate_map = {
 "じゃ、引き続き移動指示を行うわよ。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs068.har_EXTRACT/bs068.evs
+#
 # Shinji Ikari
 "あの…、\n使徒、発見しました！\n\0":
 '???',
@@ -9575,6 +9613,9 @@ translate_map = {
 "その通りよ。\nそして、エヴァの耐久力も内容は\n全く同じだから、覚えておいてね。▽\nじゃ、次は使徒に接近して！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs069.har_EXTRACT/bs069.evs
+#
 # Shinji Ikari
 "あ…、当たった…！\n\0":
 '???',
@@ -9583,6 +9624,9 @@ translate_map = {
 "上手いじゃない、シンジ君。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs071.har_EXTRACT/bs071.evs
+#
 # Shinji Ikari
 "ミサトさん、今の…、\n中和ってなんですか？\n\0":
 '???',
@@ -9615,102 +9659,9 @@ translate_map = {
 "基本的な事よ。\nじゃ、接近戦に移行して。\n\0":
 '???',
 
-# Misato Katsuragi 
-"いいわ。その調子よ。\n\0":
-'???',
-
-# Shinji Ikari
-"はい、わかりました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あっちゃあ〜、\nやっぱ難しかったかしら…。\n\0":
-'???',
-
-# Shinji Ikari
-"すみません…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、気を取り直して\n復習ついでに、もう一回最初から\nやってみましょうか。\n\0":
-'???',
-
-# Shinji Ikari
-"はい、やります！\n\0":
-'???',
-
-# Misato Katsuragi 
-"ＯＫ！\nとことん付き合ってあげるわよ。\n\0":
-'???',
-
-# Shinji Ikari
-"いえ、\n今日はもう、やめておきます。\n\0":
-'???',
-
-# Misato Katsuragi 
-"まあ、先日の戦闘といい、\n急な事だらけで疲れているのかもね。\n\0":
-'???',
-
-# Shinji Ikari, Toji Suzuhara, Gendo Ikari, Rei Ayanami, Female Staff, Asuka Soryu Langley, Kaworu Nagisa, Hikari Horaki, Ritsuko Akagi, Misato Katsuragi, Kozo Fuyutsuki, Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Ryoji Kaji
-"…。\n\0":
-'???',
-
-# Shigeru Aoba
-"使徒、ゼロエリアを突破しました！\n\0":
-'???',
-
-# Shinji Ikari
-"しまった！\n\0":
-'Oh no!\n\0',
-
-# Misato Katsuragi 
-"はい、アウト。▽\nゼロエリアに踏み込まれる前に\n倒さないと、街の被害も大きく\nなるのよ。▽\nどう、\nもう１回、最初からやりなおす？\n\0":
-'???',
-
-# Shinji Ikari
-"…はい、もう一度。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、もう一度最初からよ。\n今度こそ頑張ってね！！\n\0":
-'???',
-
-# Shinji Ikari
-"いえ、\nもう、…いいです。\n\0":
-'???',
-
-# Misato Katsuragi 
-"でも、実戦じゃ失敗は\n許されないのよ。\nそれは忘れないでいてちょうだい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ま、でも疲れていたんでしょ。\nゆっくり休むといいわ。\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ初号機の予備電源、\nゼロです。\nエヴァ初号機活動停止！\n\0":
-'???',
-
-# Shinji Ikari
-"あぁ、しまった！\n\0":
-'???',
-
-# Misato Katsuragi 
-"予備電源が切れたら、エヴァは\n活動停止するって言ったでしょ？\n実戦では絶対に避けるべき事態ね。▽\nさてと、\nもう１回、最初からやりなおす？\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、もう一度最初から。\n今度は今のような失敗は\nないようにね！\n\0":
-'???',
-
-# Misato Katsuragi 
-"まぁ、\nちょっと疲れているみたいだしね。▽\n体力回復も仕事のうちだから、\n今日は終わりにしましょうか。\n\0":
-'???',
-
-# Shinji Ikari
-"はい、すみません…。\n\0":
-'???',
-
+#
+# ./USRDIR/event/bs071.har_EXTRACT/bs079.evs
+#
 # Misato Katsuragi 
 "シンジ君、緊張してる？\n\0":
 '???',
@@ -9743,6 +9694,9 @@ translate_map = {
 "そうですね、わかりました。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+#
 # Misato Katsuragi 
 "シンジ君、\n今、使徒の攻撃を受けた時、\nエヴァが光ったでしょ？\n\0":
 '???',
@@ -9907,6 +9861,11 @@ translate_map = {
 "了解！！\nご指導、ありがとうございました。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs087.har_EXTRACT/bs087.evs
+#
+# [Battle: Armisael Attack]
+#
 # Shinji Ikari
 "う…わあぁ…、\nな、何だよこれ…。\n何か、何かが入ってくるよ…。\n\0":
 '???',
@@ -10043,6 +10002,11 @@ translate_map = {
 "使徒、殲滅を確認…。\n目標は消失しました。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs087.har_EXTRACT/bs088.evs
+#
+# [Battle: J.A.2 Departure]
+#
 # Makoto Hyuga, Male Staff
 "ΘΑ改、活動限界！！\n機能停止しました！！\n\0":
 '???',
@@ -10099,58 +10063,11 @@ translate_map = {
 "………。▽\n…勝てないのはやはり、\n人の心…、か。▽\nよし、ここは君に任せた！！\n頑張れよ、頑張れよー！！\n\0":
 '???',
 
-# Gendo Ikari
-"レイ、ドグマを降りて槍を使え。\n\0":
-'Rei, go down to Dogma and use the Spear.\n\0',
-
-# Kozo Fuyutsuki
-"碇、ロンギヌスの槍か？\n確かに使徒は仕留められるかも\nしれん。▽\nだが、ゼーレの許可なしに\n使うのはめんどうだぞ！\nそれでも使うのか？\n\0":
-'???',
-
-# Male Staff
-"司令、委員会の許可なしに\n槍を使う事は出来ません。▽\nそれに、アダムとエヴァの接触は\nサードインパクトを引き起こす\n可能性があります。\n\0":
-'???',
-
-# Gendo Ikari
-"構わん、ロンギヌスの槍を使え。\nレイ、頼んだぞ。\n\0":
-'???',
-
-# Female Staff
-"セントラルドグマ、\n１０番から１５番まで開放。\n\0":
-'???',
-
-# Male Staff
-"第６マルボルジェ、零号機通過。\n\0":
-'???',
-
-# Male Staff
-"続いて、１６番から２０番、開放。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"零号機、地上に出ます。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"零号機投てき態勢。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"目標確認。\n誤差修正良し。\n\0":
-'???',
-
-# Maya Ibuki 
-"カウントダウン入ります。▽\n１０秒前！\n８、７、６、５、４、３、２、１、\n０！\n\0":
-'???',
-
-# Female Staff
-"カウントダウン、入ります。▽\n１０秒前！\n８、７、６、５、４、３、２、１、\n０！\n\0":
-'???',
-
-# Gendo Ikari
-"…。▽\nまぁいい、\n今はまだその時ではないか。\n\0":
-'???',
-
+#
+# ./USRDIR/event/bs092.har_EXTRACT/bs092.evs
+#
+# [Battle: Dummy Plug]
+#
 # Gendo Ikari
 "初号機は\nダミープラグに切り替えろ。\n\0":
 'Switch Unit-01 over\nto dummy plug.\n\0',
@@ -10251,6 +10168,11 @@ translate_map = {
 "…。▽\nわかった、もう少し待とう。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs092.har_EXTRACT/bs094.evs
+#
+# [Battle: Jet Alone 2 Arrives]
+#
 # Toji Suzuhara
 "くっそー、勝てるんかホンマに…。\n\0":
 '???',
@@ -10323,6 +10245,11 @@ translate_map = {
 "何て無謀な人だろう…。\nあれが、リリンの持つ心、\nこんな危険を冒してまで…。▽\nフフ、弱音を吐いている場合じゃ\nなくなったね。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs092.har_EXTRACT/bs095.evs
+#
+# [Battle: Eva Lift-Up]
+#
 # Makoto Hyuga, Male Staff
 "使徒、ジオフロントに侵入。\n本部へ真っ直ぐ接近中！\n\0":
 'The Angel has invaded the GeoFront.\nCurrently on a direct trajectory for Headquarters!\n\0',
@@ -10335,6 +10262,11 @@ translate_map = {
 "エヴァ、リフトアップ完了。\nパイロットは、迎撃準備を！\n\0":
 'Eva lift-up completed.\nPilots are preparing to intercept!\n\0',
 
+#
+# ./USRDIR/event/bs096.har_EXTRACT/bs096.evs
+#
+# [Battle: Charge Gauge]
+#
 # Misato Katsuragi 
 "次の攻撃はチャージが\n完了するまで出来ないわ。▽\nチャージゲージが\n最大まで回復したら、\nまた%1iボタンを押して攻撃よ！\n\0":
 '???',
@@ -10343,6 +10275,9 @@ translate_map = {
 "はい、分かりました！\n\0":
 'Yes, understood!\n\0',
 
+#
+# ./USRDIR/event/bs097.har_EXTRACT/bs097.evs
+#
 # Misato Katsuragi 
 "何ですって！？\nこの距離から、だというの…？▽\nヤツの中和距離は\nこちらの予想以上の広さよ。▽\n恐らく、遠距離攻撃で来るわ！！▽\n気をつけなさい！！\n\0":
 '???',
@@ -10355,6 +10290,9 @@ translate_map = {
 "そんな！？\n中和距離の範囲が予想以上だわ。▽\n恐らく使徒は、この距離からでも、\n攻撃可能と思われます。▽\n気をつけて下さい！！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs098.har_EXTRACT/bs098.evs
+#
 # Misato Katsuragi 
 "ここを自爆させるわ…。\nいい？\n自爆装置、発動。\n\0":
 '???',
@@ -10383,6 +10321,9 @@ translate_map = {
 "そんな…、自爆装置が作動しない。\nあの少年が止めたの…？\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+#
 # Misato Katsuragi 
 "どうしちゃったって言うのよ、\nこんな時に…。\n\0":
 '???',
@@ -10411,6 +10352,9 @@ translate_map = {
 "何にせよ、責任は私にアリね…。\n思春期の心はわかりづらいわ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba000.evs
+#
 # Shigeru Aoba, Male Staff
 "エヴァ初号機、\nΑΤフィールド中和開始！\n\0":
 'Eva Unit-01, commencing\nA.T. Field neutralization!\n\0',
@@ -10459,10 +10403,16 @@ translate_map = {
 "使徒、残留ΑΤフィールド$g。\nエヴァ、残留ΑΤフィールド$h。\n\0":
 'Angel\'s remaining A.T. Field at $g.\nEvas\' remaining A.T. Field at $h.\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba001.evs
+#
 # Shigeru Aoba, Male Staff
 "目標のΑΤフィールド、\n消滅しました！\n\0":
 'Target\'s A.T. Field\nhas gone down!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba002.evs
+#
 # Shigeru Aoba
 "エヴァ初号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
 '???',
@@ -10511,6 +10461,9 @@ translate_map = {
 "エヴァ両機、ΑΤフィールド\n中和距離から離脱。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba003.evs
+#
 # Misato Katsuragi 
 "シンジ君は退避して！\n\0":
 'Shinji-kun, take refuge!\n\0',
@@ -10583,6 +10536,9 @@ translate_map = {
 "エヴァ両機パイロットは\n退避して下さい！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba004.evs
+#
 # Misato Katsuragi 
 "シンジ君は接近戦に\n移ってちょうだい！\n\0":
 '???',
@@ -10655,6 +10611,9 @@ translate_map = {
 "エヴァ両機パイロットは\n接近戦に移行して下さい！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba006.evs
+#
 # Misato Katsuragi 
 "シンジ君、射撃開始！\n\0":
 'Shinji-kun,\ncommence firing!\n\0',
@@ -10727,6 +10686,13 @@ translate_map = {
 "エヴァ両機パイロットは\n射撃開始！\n\0":
 'Pilots of both Evas,\ncommence firing!\n\0',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs
+# gaogaigar
+
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba007.evs
+#
 # Misato Katsuragi 
 "シンジ君はその場で待機！\n\0":
 '???',
@@ -10799,6 +10765,9 @@ translate_map = {
 "エヴァ両機パイロットは\nその場で待機して下さい！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba008.evs
+#
 # Misato Katsuragi 
 "初号機、\n$fエリアに移動して！\n\0":
 'Unit-01,\n move to Area $f!\n\0',
@@ -10871,6 +10840,9 @@ translate_map = {
 "エヴァ両機、$fエリアに\n移動して下さい！\n\0":
 'Both Evas, please\n move to Area $f!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba009.evs
+#
 # Makoto Hyuga, Male Staff
 "エヴァ初号機の攻撃、\n使徒に$jのダメージ！\n\0":
 'Eva Unit-01\'s attack did\n $j damage to the Angel!\n\0',
@@ -10923,10 +10895,16 @@ translate_map = {
 "ΑΤフィールドとシンクロ率、\n共に低下！\n\0":
 'A.T. Field and synch ratio\n both dropped!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba011.evs
+#
 # Shigeru Aoba, Male Staff
 "$fエリア、兵装ビル、攻撃！\n使徒に$jのダメージ！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba012.evs
+#
 # Shigeru Aoba, Male Staff
 "$fエリア電源ビル、\n使徒の攻撃により、$jのダメージ！\n\0":
 'The power building in Area $f\n received $j damage from the Angel!\n\0',
@@ -10943,6 +10921,9 @@ translate_map = {
 "$fエリア防御施設、\n使徒の攻撃により、$jのダメージ！\n\0":
 'The defense facility in Area $f\n received $j damage from the Angel!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba013.evs
+#
 # Shigeru Aoba, Male Staff
 "$fエリア、国連軍、攻撃！\n使徒、$jのダメージ！\n\0":
 'Attack by U.N. forces in Area $f!\n $j damage to the Angel!\n\0',
@@ -10951,6 +10932,9 @@ translate_map = {
 "$fエリア、国連軍、\n使徒の攻撃により、$jのダメージ！\n\0":
 'U.N. forces in Area $f\n received $j damage from the Angel!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba015.evs
+#
 # Shigeru Aoba, Male Staff
 "$fエリア電源ビル、\n破壊されました！\n\0":
 'The power building in Area $f\n has been destroyed!\n\0',
@@ -10967,6 +10951,9 @@ translate_map = {
 "$fエリア防御施設、\n破壊されました！\n\0":
 'The defense facility in Area $f\n has been destroyed!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba017.evs
+#
 # Maya Ibuki, Female Staff
 "エヴァ初号機のアンビリカルケーブル、\n切断しました！\n\0":
 'Eva Unit-01\'s umbilical cable\n is disconnected!\n\0',
@@ -11015,18 +11002,69 @@ translate_map = {
 "エヴァ両機、\nアンビリカルケーブル接続。\n\0":
 'Both Evas, umbilical cables connected.\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba019.evs
+# ./USRDIR/event/bs010.har_EXTRACT/bs010.evs:
+#
+# Shinji Ikari
+"どうしたんだ、\n動かない、動かないよ…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"動かない…。\n動かないの、動いてくれないの！\n\0":
+'???',
+
+# Rei Ayanami 
+"駄目…、動かない…。\n私には…、動かせない。\n\0":
+'???',
+
 # Toji Suzuhara 
 "動かへん…。ああ、何でや…。\n何で動かへんのや…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"動かへん…。\nああ、何でや…。\n何で動かへんのや…。\n\0":
 '???',
 
 # Kaworu Nagisa 
 "そんな、動かない…。\n僕に動かせないなんて…。なぜだ…！！\n\0":
 '???',
 
+# Kaworu Nagisa 
+"そんな、動かない…。\n僕に動かせないなんて…。\nなぜだ…！！\n\0":
+'???',
+
 # Maya Ibuki, Female Staff
 "パイロットのシンクロ率が低すぎます！\n…これではエヴァは稼動しません！\n\0":
 '???',
 
+# Maya Ibuki, Female Staff
+"パイロットのシンクロ率が\n低すぎます！\n…これではエヴァは稼動しません！\n\0":
+'???',
+
+# Maya Ibuki, Female Staff
+"パイロットのシンクロ率が\n低すぎます！▽\n…これでは、同時荷重攻撃は\n不可能です！\n\0":
+'???',
+
+# Misato Katsuragi 
+"ここまで来て…、何てことなの！？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"万事休すか…。\n\0":
+'???',
+
+# Female Staff
+"そんな、作戦は失敗なの…。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"目標、移動を開始しました！\n\0":
+'???',
+
+#
+# ./USRDIR/event/bs011.har_EXTRACT/bs011.evs
+#
 # Maya Ibuki, Female Staff
 "エヴァ初号機の予備電源終了。\n\0":
 'Eva Unit-01\'s backup power has terminated.\n\0',
@@ -11055,10 +11093,16 @@ translate_map = {
 "エヴァ両機の予備電源終了。\n\0":
 'Both Evas\' backup power has terminated.\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba021.evs
+# 
 # Toji Suzuhara 
 "ほな、いっちょ\nパチキかましたらぁ！！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba022.evs
+# 
 # Maya Ibuki 
 "エヴァ初号機、\nポジトロンスナイパーライフル発射！\n\0":
 'Eva Unit-01 has discharged\n the positron sniper rifle!\n\0',
@@ -11099,6 +11143,9 @@ translate_map = {
 "エヴァ四号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
 'Eva Unit-04 successfully discharged\n the positron sniper rifle!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba030.evs
+# 
 # Makoto Hyuga, Male Staff
 "エヴァ初号機の攻撃、\nエヴァシリーズに$jのダメージ！\n\0":
 'Eva Unit-01\'s attack did\n$j damage to Eva Series unit!',
@@ -11139,10 +11186,16 @@ translate_map = {
 "エヴァシリーズの攻撃、\n四号機に$jのダメージ！\n\0":
 'Attack by Eva Series unit did\n$j damage to Unit-04!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba032.evs
+# 
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n$jのダメージ！\n\0":
 'Armory building has attacked!\n It did $j damage!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba038.evs
+# 
 # Shigeru Aoba, Male Staff
 "電源ビル、\n$jのダメージ！\n\0":
 'Power building has\n taken $j damage!\n\0',
@@ -11163,6 +11216,9 @@ translate_map = {
 "ネルフ本部、\n$jのダメージ！\n\0":
 'Nerv H.Q. has\n taken $j damage!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba034.evs
+# 
 # Shigeru Aoba, Male Staff
 "電源ビル、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
 'Power building has been\n destroyed by the Eva Series!\n\0',
@@ -11179,26 +11235,44 @@ translate_map = {
 "防御施設、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
 'Defense facility has been\n destroyed by the Eva Series!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba035.evs
+# 
 # Makoto Hyuga, Male Staff
 "ΘΑ改、攻撃！\n$jのダメージ！\n\0":
 'ΘΑ2 has attacked!\n It did $j damage!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba036.evs
+# 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\nΘΑ改に$jのダメージ！\n\0":
 'Attack by Eva Series unit\n did $j damage to ΘΑ2!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba037.evs
+# 
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n使徒に$jのダメージ！\n\0":
 'Armament building attacked!\n $j damage to the Angel!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba039.evs
+# 
 # Shigeru Aoba, Male Staff
 "国連軍、攻撃！\n使徒、$jのダメージ！\n\0":
 'Attack by U.N. forces!\n $j damage to the Angel!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba040.evs
+# 
 # Shigeru Aoba, Male Staff
 "国連軍、\n$jのダメージ！\n\0":
 'U.N. forces have\n taken $j damage!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba041.evs
+# 
 # Shigeru Aoba, Male Staff
 "電源ビル、破壊されました！\n\0":
 'Power building has been destroyed!\n\0',
@@ -11215,10 +11289,18 @@ translate_map = {
 "防御施設、破壊されました！\n\0":
 'Defense facility has been destroyed!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba042.evs
+# 
 # Shigeru Aoba, Male Staff
 "国連軍、\n掃滅しました！\n\0":
 'U.N. forces have\n been annihilated!\n\0',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+#
+# [Battle: Pilot Refusing Orders]
+#
 # Shinji Ikari
 "嫌です。\n\0":
 'No.\n\0',
@@ -11347,6 +11429,9 @@ translate_map = {
 "四号機、命令に従って下さい。\n\0":
 'Unit-04, please follow your order.\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba045.evs
+# 
 # Maya Ibuki, Female Staff
 "エヴァ初号機、神経再接続完了！\n\0":
 'Eva Unit-01, neural reconnection completed!\n\0',
@@ -11371,6 +11456,9 @@ translate_map = {
 "エヴァ両機、神経再接続完了！\n\0":
 'Both Eva units, neural reconnection completed!\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba046.evs
+# 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
 'Mass production unit, remaining A.T. Field at $g.\nUnit-01, remaining A.T. Field at $h.\n\0',
@@ -11391,6 +11479,9 @@ translate_map = {
 "量産機、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
 'Mass production unit, remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
 
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba048.evs
+# 
 # Misato Katsuragi 
 "初号機、移動して！\n\0":
 'Unit-01, relocate!\n\0',
@@ -11463,6 +11554,9 @@ translate_map = {
 "エヴァ両機、移動して下さい！\n\0":
 'Both Eva units, please relocate!\n\0',
 
+#
+# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+# 
 # Kozo Fuyutsuki
 "葛城君、\n作戦の運びは\nどのようになるのかね？\n\0":
 '???',
@@ -11501,6 +11595,10 @@ translate_map = {
 
 # Male Staff
 "では、パイロットの選択について\n説明します。▽\nまず、機体及び\n搭乗するパイロットの状態を\nよくチェックしましょう。▽\nΑΤが低いパイロットや稼動状況が\n低いエヴァを出撃させても、\nあまり戦力になりません。▽\nチェックが済んだら、\n作戦に参加させるパイロットを\n選出しましょう。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"出撃パイロットを選択した次は、\nエヴァの迎撃ポイントと\n装備の設定だ。▽\n%1iボタンで作戦立案に関する\nコマンドを起動できる。\n試してみたまえ。\n\0":
 '???',
 
 # Male Staff
@@ -11567,6 +11665,9 @@ translate_map = {
 "以上が、今回の作戦要綱となります。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk001.evs
+# 
 # Shinji Ikari
 "裏切ったな…。\n僕の気持ちを裏切ったな！！\n\0":
 '???',
@@ -11583,6 +11684,9 @@ translate_map = {
 "だから裏切ったと…？\n僕に何を期待していたんだい。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk002.evs
+# 
 # Shinji Ikari
 "僕の気持ちを踏みにじった…！\n君を信じてたのに…。▽\nでも、カヲル君は最初から\nこうするつもりで僕に近づいたの？\n\0":
 '???',
@@ -11599,6 +11703,9 @@ translate_map = {
 "でも、君は迷っている。\n僕が君達リリンの敵だから。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk003.evs
+# 
 # Shinji Ikari
 "でも、僕は傷ついた。\n君に傷つけられた…。\n\0":
 '???',
@@ -11615,6 +11722,9 @@ translate_map = {
 "希望に潜む影に\n気づかなかったんだね。\n自分自身にある、その影に。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk004.evs
+# 
 # Shinji Ikari
 "君を傷つけたくないんだよ！\n\0":
 '???',
@@ -11631,6 +11741,9 @@ translate_map = {
 "君に会えて、嬉しかったよ。\n本当だよ。▽\nけれど、その時から、\n僕はやすらぎを失ったんだ。▽\n君を知り過ぎたのかもしれない。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk005.evs
+# 
 # Shinji Ikari
 "君も…、\n僕を助けてくれないの？\n\0":
 '???',
@@ -11639,6 +11752,9 @@ translate_map = {
 "僕は君を、君は僕を救えない。\nいや、みんなそうさ。▽\n救われるかどうかは、\n自分で決めるしかない。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk006.evs
+# 
 # Shinji Ikari
 "人の気持ちなんて\nどうでもいいんだ。\n\0":
 '???',
@@ -11655,6 +11771,9 @@ translate_map = {
 "それは出来ない。\nこれが僕らの意志だから。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk007.evs
+# 
 # Shinji Ikari
 "カヲル君、\nどうしてそんな事が言えるの。\n\0":
 '???',
@@ -11671,6 +11790,9 @@ translate_map = {
 "けれども時間がない。\n君にも僕にも。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk008.evs
+# 
 # Shinji Ikari
 "ごまかさないでよ、\nそうやって僕の気持ちを\nごまかさないでよ！！\n\0":
 '???',
@@ -11683,6 +11805,9 @@ translate_map = {
 "そうやって、心を閉ざさないでよ！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk009.evs
+# 
 # Shinji Ikari
 "カヲル君も、父さんと同じだ。\n僕を捨てて、利用して！\n\0":
 '???',
@@ -11699,6 +11824,9 @@ translate_map = {
 "………。▽\n君は、しょうがなく\nエヴァに乗っていたんだね。▽\n捨てられるのが怖くて。▽\nそんな事はないのに。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk010.evs
+# 
 # Shinji Ikari
 "僕は、君が好きだったんだ。\n\0":
 '???',
@@ -11715,6 +11843,9 @@ translate_map = {
 "君は自由を受け入れられない。\n自由を与えられると、\n自分がいなくなると恐れている。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk011.evs
+# 
 # Shinji Ikari
 "違う、違う、違う！！\n\0":
 '???',
@@ -11731,6 +11862,9 @@ translate_map = {
 "…僕が滅びるのも、\nまた自由だ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk012.evs
+# 
 # Shinji Ikari
 "…そうなんだ。\n僕が嫌いなんだね。\n\0":
 '???',
@@ -11739,6 +11873,9 @@ translate_map = {
 "いいや、\n恐怖と絶望は、リリン達にも\n不要だという事さ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk013.evs
+# 
 # Shinji Ikari
 "何で、君まで僕を…、\n僕を傷つけるの…？\n\0":
 '???',
@@ -11747,6 +11884,9 @@ translate_map = {
 "君が僕という存在を知っただけ。\n傷つけたつもりはないよ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk014.evs
+# 
 # Shinji Ikari
 "でも、そうじゃないか。\n\0":
 '???',
@@ -11755,6 +11895,9 @@ translate_map = {
 "拒絶。\nそうやって自分の心を守るしか\nないのかい。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk015.evs
+# 
 # Shinji Ikari
 "どうすればいいの？\n出会った時のように２人が\nなれるには、どうしたらいいの？\n\0":
 '???',
@@ -11763,6 +11906,9 @@ translate_map = {
 "………。▽\nすべてはリリンの流れのままに。▽\n………………。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk016.evs
+# 
 # Shinji Ikari
 "嘘だよね。\nカヲル君が使徒だったなんて、\n嘘だよね…。\n\0":
 '???',
@@ -11771,6 +11917,9 @@ translate_map = {
 "僕は使徒としての価値を\n与えられた。▽\nそれが今、僕の存在している\n理由なんだ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk018.evs
+# 
 # Shinji Ikari
 "…関係ないよ。\nねえ、カヲル君は僕の事\nどう思ってるの…。\n\0":
 '???',
@@ -11779,6 +11928,9 @@ translate_map = {
 "…好きだよ、シンジ君。\n君の事が。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk019.evs
+# 
 # Shinji Ikari
 "君に嫌われたくないよ。\n\0":
 '???',
@@ -11787,6 +11939,9 @@ translate_map = {
 "嫌いじゃないよ。\nでも、嫌われると僕に恐怖心を\n抱いている。▽\nヒトを信じられないからだね。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk020.evs
+# 
 # Shinji Ikari
 "僕は、君に出会えた事が\n嬉しかったんだ。▽\n僕が探していたのは\n君だったんだって、嬉しかったんだ。\n\0":
 '???',
@@ -11799,6 +11954,9 @@ translate_map = {
 "でも、どんなに悲しくても\n君の事を忘れる事なんて出来ない。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk021.evs
+# 
 # Shinji Ikari
 "なぜ僕に声をかけたの？\nなぜ僕に近づいたの？\n\0":
 '???',
@@ -11815,6 +11973,9 @@ translate_map = {
 "そうだね。\nただ、僕は行かなきゃ\nいけないんだ。▽\n死に、そして生き続けるために。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk022.evs
+# 
 # Shinji Ikari
 "カヲル君は、\n生きる事が楽しいの？\n\0":
 '???',
@@ -11823,10 +11984,16 @@ translate_map = {
 "……………。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk023.evs
+# 
 # Shinji Ikari
 "カヲル君、\nもしかして死ぬつもりなの？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk024.evs
+# 
 # Shinji Ikari
 "わからないよ。\n君の意志じゃないのに\n使徒になったなんて。\n\0":
 '???',
@@ -11835,10 +12002,16 @@ translate_map = {
 "でも、僕が使徒なのは事実さ。\n君の友達という事も。▽\nどうする事も出来ないんだ、\n流れには逆らえない。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk025.evs
+# 
 # Shinji Ikari
 "僕とやり直せるよ。\n違う生き方があるよ、\n僕も、君も。▽\n一緒にやり直そうよ、\nカヲル君…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk027.evs
+# 
 # Shinji Ikari
 "カヲル君は僕にとって\n必要な人間なんだ。▽\n人類が居なくなるより、\n君が居なくなる方が嫌だよ！！\n\0":
 '???',
@@ -11851,10 +12024,16 @@ translate_map = {
 "だから！！\n僕がいるよ、ずっと側にいる！！\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk028.evs
+# 
 # Shinji Ikari
 "僕もそうやって逃げてきた。\nでも、いい事なんてなかった。▽\n流れに任せて生きるなんて、\n死んでるのと同じじゃないか。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk029.evs
+# 
 # Shinji Ikari
 "ねえ、僕ともう一度\n友達になってよ。▽\nそして全部…、何もかも\n二人でやりなおそうよ。\n\0":
 '???',
@@ -11863,6 +12042,9 @@ translate_map = {
 "友達に…？\nもう一度…？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk030.evs
+# 
 # Shinji Ikari
 "卑怯だよ。\n散々、僕に知った風な事を言って…。\n\0":
 '???',
@@ -11871,6 +12053,9 @@ translate_map = {
 "そうだね、そうかもしれない。\nその事は君に謝らなくちゃ\nいけなかったね…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk033.evs
+# 
 # Shinji Ikari
 "そんなの信用出来ないよ！！\n\0":
 '???',
@@ -11879,6 +12064,9 @@ translate_map = {
 "僕が使徒だから…？\n僕は君を友達と思っているよ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk034.evs
+# 
 # Shinji Ikari
 "行くなら、いっそ僕を殺してよ…。\n\0":
 '???',
@@ -11887,6 +12075,9 @@ translate_map = {
 "………。▽\nそれが、君の答えだね。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk035.evs
+# 
 # Shinji Ikari
 "君と戦うなら、死んだ方がいい。\n死んだ方がいいよ！！\n\0":
 '???',
@@ -11895,6 +12086,9 @@ translate_map = {
 "戦いを放棄するのかい？\nこの先に、君達の未来が\nかかっているとしても…？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk036.evs
+# 
 # Shinji Ikari
 "嘘だ！\n全部、それも僕を騙すためだ！\n\0":
 '???',
@@ -11903,6 +12097,9 @@ translate_map = {
 "…。▽\n僕が嫌いかい？\nそれが君の意志なら、\nしょうがない。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk038.evs
+# 
 # Shinji Ikari
 "行かないで…、\nカヲル君、行かないでよ！！▽\nそしたら、僕も君も\n一人じゃなくなるんだ！！\n\0":
 '???',
@@ -11911,6 +12108,9 @@ translate_map = {
 "…一人じゃ、なくなる…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk039.evs
+# 
 # Shinji Ikari
 "カヲル君、\n君とは戦いたくないよ。\n\0":
 '???',
@@ -11919,6 +12119,9 @@ translate_map = {
 "なぜ？\nじゃあなぜ僕を止めようとするの？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk040.evs
+# 
 # Shinji Ikari
 "君を、傷つけたくないからだよ。\n\0":
 '???',
@@ -11935,6 +12138,9 @@ translate_map = {
 "嘘だね。\n君は、死ぬのが怖いはずだ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk041.evs
+# 
 # Shinji Ikari
 "死ぬのは怖いよ。\nでも、それより君を傷つける方が\n怖いよ。\n\0":
 '???',
@@ -11943,6 +12149,9 @@ translate_map = {
 "…なぜ、そこまで\n僕と戦いたくないんだい？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk042.evs
+# 
 # Shinji Ikari
 "行かないって言ってよ！！\nお願いだよ！\nこのままじゃ、君と戦うことになる。\n\0":
 '???',
@@ -11951,6 +12160,9 @@ translate_map = {
 "だったら、しょうがないんじゃ\nないかな。▽\n僕も、君と戦うのは\nいい気分じゃないけれど…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk043.evs
+# 
 # Shinji Ikari
 "命令なんだ。\nこの先に行かせるなって。▽\nこの先へ行くなら、僕は君を\n倒さなくちゃいけないんだ。▽\nそんな事、嫌だよ。\n嫌なんだよ！！\n\0":
 '???',
@@ -11967,6 +12179,9 @@ translate_map = {
 "君は何も、\n悪くはないのにね…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk044.evs
+# 
 # Shinji Ikari
 "行かないで…！！\n\0":
 '???',
@@ -11975,6 +12190,9 @@ translate_map = {
 "…それは君の意思かい？\nそれとも…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk045.evs
+# 
 # Shinji Ikari
 "僕は、僕はね…、\n君と生きたいんだ…。▽\n君が使徒だとかそんな事は\n関係ない。▽\n他の何でも関係なく、\n君と生きたいんだ。\n\0":
 '???',
@@ -11983,38 +12201,65 @@ translate_map = {
 "僕と…？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk046.evs
+# 
 # Kaworu Nagisa 
 "…シンジ君にはわからないよ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk048.evs
+# 
 # Kaworu Nagisa 
 "僕にあったのは、\n…希望という絶望。▽\n人類がたどるべきだった道は\n絶望という希望…。▽\nシンジ君、僕も君が好きだったよ、\n君と希望を見つめたかった…。\nそうする事が出来れば…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk049.evs
+# 
 # Kaworu Nagisa 
 "………。▽\n僕も未来が見たい。\n君達、人と…、シンジ君の未来を\n見てみたいと思う。▽\n………。▽\nシンジ君…、僕も君と生きよう。\n僕も一緒に戦うよ…。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk050.evs
+# 
 # Kaworu Nagisa 
 "これが………アダム………。\n…いや、…これは、リリス！？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk052.evs
+# 
 # Kaworu Nagisa 
 "僕の還る場所は一つしかない。\nここでは、生きていけない事は無い。\n…でも、…でも僕は。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk054.evs
+# 
 # Shinji Ikari
 "カヲル君、\nみんなカヲル君が好きなんだ。\n僕も…。▽\nもっと話し合おうよ。\n僕ら、きっとわかりあえるよ。\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk055.evs
+# 
 # Shinji Ikari
 "わかりあえないの？\nどうしても…？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk056.evs
+# 
 # Shinji Ikari
 "やっぱり、戦うしかないの…？\n\0":
 '???',
 
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk057.evs
+# 
 # Makoto Hyuga, Male Staff
 "目標、反応消えました。\n使徒………殲滅しました。\n\0":
 '???',
@@ -13530,13 +13775,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/bb003.har_EXTRACT/bb003.evs
-#
-# Kozo Fuyutsuki
-"出撃パイロットを選択した次は、\nエヴァの迎撃ポイントと\n装備の設定だ。▽\n%1iボタンで作戦立案に関する\nコマンドを起動できる。\n試してみたまえ。\n\0":
-'???',
-
-#
 # ./USRDIR/event/bs004.har_EXTRACT/bs004.evs
 #
 # Shinji Ikari
@@ -14522,6 +14760,10 @@ translate_map = {
 "まっ、難しいけど安心して。\nこう見えても私、\nカンはいい方だから。\n\0":
 '???',
 
+# Shinji Ikari, Misato Katsuragi 
+"はい！\n\0":
+'???',
+
 #
 # ./USRDIR/event/b2s16.har_EXTRACT/b2s16.evs
 #
@@ -15385,6 +15627,10 @@ translate_map = {
 #
 # Misato Katsuragi 
 "シンジ君、聞こえるわね？▽\n早速だけど、あなたには\nこのエヴァンゲリオンで人類の敵、\n使徒と戦ってもらいます。\n\0":
+'???',
+
+# Shinji Ikari
+"…で、でも。\nどうすればいいんですか？\n\0":
 '???',
 
 # Misato Katsuragi 
