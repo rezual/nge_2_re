@@ -6163,7 +6163,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "黒服の男を追うと、\n$aをつけているようだった。▽\n危険を察知し、\n急いで$aに駆け寄った。\n\0":
-'When I pursued the man in black,\nit looked like he was following $a.▽\nSensing danger, I hurriedly ran over to $a.\n\0',
+'When I pursued the men in black,\nit looked like they were following $a.▽\nSensing danger, I hurriedly ran over to $a.\n\0',
 
 # Shinji Ikari
 "あぶない！\nここを引き返して、走って！！\n\0":
@@ -6183,7 +6183,7 @@ translate_map = {
 
 # Gendo Ikari
 "走れ、早くしろ！！\n\0":
-'Get out, hurry!\n\0',
+'Get out of here, hurry!\n\0',
 
 # Kozo Fuyutsuki
 "こっちへ来るんだ！！\n\0":
