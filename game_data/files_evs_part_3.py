@@ -6545,7 +6545,7 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [NOTE] This text block not completed yet. -Reichu
 "彼女との再会を喜ぶような気持ちで、\nゆっくりとページをめくっていった。\nなんと充実した時間だろう。▽\nこの論文が書かれた時点ではまだ、\n改良の余地はあった。▽\nだが、変性意識を作り出す条件は\nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0":
-'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this thesis was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0',
+'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this thesis was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\nI took her thesis back with me.\n\0\n\0',
 
 #
 # ./USRDIR/event/cev0607.har_EXTRACT/cev0607.evs
@@ -9929,6 +9929,26 @@ translate_map = {
 #
 # Hikari Horaki
 "起立、礼。\n\0":
+'???',
+
+# Teacher
+"えー、まず皆さんには\n大変悲しいお知らせがあります。▽\n先日、鈴原トウジ君が\n亡くなりました。\n\0":
+'???',
+
+# Kensuke Aida, Hikari Horaki, Maya Ibuki 
+"え…。\n\0":
+'???',
+
+# Teacher
+"鈴原君は、事故に遭い\n病院へ運ばれましたが、\n昨夜亡くなったそうです…。\n\0":
+'???',
+
+# Kensuke Aida
+"…あいつが！？\n\0":
+'???',
+
+# Teacher
+"なお、本日放課後に\n葬儀となります。▽\n授業を切り上げて、\n皆さん葬儀の方へ出席する事に\nなります。\n\0":
 '???',
 
 #
