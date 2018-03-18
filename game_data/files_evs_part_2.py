@@ -2571,28 +2571,60 @@ translate_map = {
 #
 # [Battle Uplift: Spear of Longinus Used]
 #
+# Gendo Ikari
+"レイ、ドグマを降りて槍を使え。\n\0":
+'Rei, go down to Dogma and use the Spear.\n\0',
+
+# Kozo Fuyutsuki
+"碇、ロンギヌスの槍か？\n確かに使徒は仕留められるかも\nしれん。▽\nだが、ゼーレの許可なしに\n使うのはめんどうだぞ！\nそれでも使うのか？\n\0":
+'???',
+
+# Male Staff
+"司令、委員会の許可なしに\n槍を使う事は出来ません。▽\nそれに、アダムとエヴァの接触は\nサードインパクトを引き起こす\n可能性があります。\n\0":
+'???',
+
 # (Decision Prompt)
 "構わん、やれ。／まだその時ではない。\0":
 '???',
 
-# Teacher
-"えー、まず皆さんには\n大変悲しいお知らせがあります。▽\n先日、鈴原トウジ君が\n亡くなりました。\n\0":
+# Gendo Ikari
+"構わん、ロンギヌスの槍を使え。\nレイ、頼んだぞ。\n\0":
 '???',
 
-# Kensuke Aida, Hikari Horaki, Maya Ibuki 
-"え…。\n\0":
+# Female Staff
+"セントラルドグマ、\n１０番から１５番まで開放。\n\0":
 '???',
 
-# Teacher
-"鈴原君は、事故に遭い\n病院へ運ばれましたが、\n昨夜亡くなったそうです…。\n\0":
+# Male Staff
+"第６マルボルジェ、零号機通過。\n\0":
 '???',
 
-# Kensuke Aida
-"…あいつが！？\n\0":
+# Male Staff
+"続いて、１６番から２０番、開放。\n\0":
 '???',
 
-# Teacher
-"なお、本日放課後に\n葬儀となります。▽\n授業を切り上げて、\n皆さん葬儀の方へ出席する事に\nなります。\n\0":
+# Shigeru Aoba, Male Staff
+"零号機、地上に出ます。\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"零号機投てき態勢。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"目標確認。\n誤差修正良し。\n\0":
+'???',
+
+# Maya Ibuki 
+"カウントダウン入ります。▽\n１０秒前！\n８、７、６、５、４、３、２、１、\n０！\n\0":
+'???',
+
+# Female Staff
+"カウントダウン、入ります。▽\n１０秒前！\n８、７、６、５、４、３、２、１、\n０！\n\0":
+'???',
+
+# Gendo Ikari
+"…。▽\nまぁいい、\n今はまだその時ではないか。\n\0":
 '???',
 
 #
@@ -3509,6 +3541,22 @@ translate_map = {
 # Shinji Ikari
 "み、見えてきました！！▽\nあれが敵…。\n僕たち人類の敵…、使徒…。\n\0":
 'It\'s coming into view!!▽\nThat\'s the enemy...\nThe enemy of us humans... The Angels.\n\0',
+
+# Misato Katsuragi 
+"落ち着いて。\nでは、これより使徒に対して\n接近戦を行います。\n\0":
+'???',
+
+# Shinji Ikari
+"はっ、はい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"接近戦は、エヴァ周囲の射程に\n使徒を入れ、%1iボタン。▽\nちゃんと射程内に入っていれば、\n攻撃コマンドが選べるわ。▽\nそれから、\n目標を捕らえる位置によって、\n選べる攻撃が変わるから注意して。\n\0":
+'???',
+
+# Shinji Ikari
+"射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n\0":
+'???',
 
 #
 # ./USRDIR/event/f017.har_EXTRACT/f017.evs
@@ -4602,8 +4650,40 @@ translate_map = {
 #
 # ./USRDIR/event/bs074.har_EXTRACT/bs074.evs
 #
+# Misato Katsuragi 
+"あっちゃあ〜、\nやっぱ難しかったかしら…。\n\0":
+'???',
+
+# Shinji Ikari
+"すみません…。\n\0":
+'???',
+
+# Misato Katsuragi 
+"じゃ、気を取り直して\n復習ついでに、もう一回最初から\nやってみましょうか。\n\0":
+'???',
+
 # (Decision Prompt)
 "もう一度説明から／もう一度実践から／今日はもうやめておく\0":
+'???',
+
+# Shinji Ikari
+"はい、やります！\n\0":
+'???',
+
+# Misato Katsuragi 
+"ＯＫ！\nとことん付き合ってあげるわよ。\n\0":
+'???',
+
+# Shinji Ikari
+"いえ、\n今日はもう、やめておきます。\n\0":
+'???',
+
+# Misato Katsuragi 
+"まあ、先日の戦闘といい、\n急な事だらけで疲れているのかもね。\n\0":
+'???',
+
+# Shinji Ikari, Toji Suzuhara, Gendo Ikari, Rei Ayanami, Female Staff, Asuka Soryu Langley, Kaworu Nagisa, Hikari Horaki, Ritsuko Akagi, Misato Katsuragi, Kozo Fuyutsuki, Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Ryoji Kaji
+"…。\n\0":
 '???',
 
 # Misato Katsuragi 
@@ -4620,6 +4700,30 @@ translate_map = {
 #
 # ./USRDIR/event/bs076.har_EXTRACT/bs076.evs
 #
+# Maya Ibuki 
+"エヴァ初号機の予備電源、\nゼロです。\nエヴァ初号機活動停止！\n\0":
+'???',
+
+# Shinji Ikari
+"あぁ、しまった！\n\0":
+'???',
+
+# Misato Katsuragi 
+"予備電源が切れたら、エヴァは\n活動停止するって言ったでしょ？\n実戦では絶対に避けるべき事態ね。▽\nさてと、\nもう１回、最初からやりなおす？\n\0":
+'???',
+
+# Misato Katsuragi 
+"じゃ、もう一度最初から。\n今度は今のような失敗は\nないようにね！\n\0":
+'???',
+
+# Misato Katsuragi 
+"まぁ、\nちょっと疲れているみたいだしね。▽\n体力回復も仕事のうちだから、\n今日は終わりにしましょうか。\n\0":
+'???',
+
+# Shinji Ikari
+"はい、すみません…。\n\0":
+'???',
+
 # Misato Katsuragi 
 "その代わり、今日教えた事は\n絶対忘れちゃダメよ。\n\0":
 '???',
@@ -5741,6 +5845,38 @@ translate_map = {
 #
 # ./USRDIR/event/bs075.har_EXTRACT/bs075.evs
 #
+# Shigeru Aoba
+"使徒、ゼロエリアを突破しました！\n\0":
+'???',
+
+# Shinji Ikari
+"しまった！\n\0":
+'Oh no!\n\0',
+
+# Misato Katsuragi 
+"はい、アウト。▽\nゼロエリアに踏み込まれる前に\n倒さないと、街の被害も大きく\nなるのよ。▽\nどう、\nもう１回、最初からやりなおす？\n\0":
+'???',
+
+# Shinji Ikari
+"…はい、もう一度。\n\0":
+'???',
+
+# Misato Katsuragi 
+"じゃ、もう一度最初からよ。\n今度こそ頑張ってね！！\n\0":
+'???',
+
+# Shinji Ikari
+"いえ、\nもう、…いいです。\n\0":
+'???',
+
+# Misato Katsuragi 
+"でも、実戦じゃ失敗は\n許されないのよ。\nそれは忘れないでいてちょうだい。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ま、でも疲れていたんでしょ。\nゆっくり休むといいわ。\n\0":
+'???',
+
 # Misato Katsuragi 
 "じゃあ、今日の訓練は終わり。\n今日教えた事は忘れないように\nちゃんと覚えとくのよ。\n\0":
 '???',
@@ -8680,6 +8816,10 @@ translate_map = {
 # ./USRDIR/event/bs072.har_EXTRACT/bs072.evs
 #
 # Misato Katsuragi 
+"いいわ。その調子よ。\n\0":
+'???',
+
+# Misato Katsuragi 
 "攻撃を行うと、しばらくの間\n次の攻撃が行えなくなるから\n気をつけて。▽\nこの攻撃できない間を\nチャージ時間というの。\n\0":
 '???',
 
@@ -8687,16 +8827,13 @@ translate_map = {
 "このチャージゲージが最大まで\n回復すれば、次の攻撃が行えるわ。▽\nちなみに、チャージが完了しないと\n攻撃できないのは、使徒の場合も\n全く同じよ。わかった？\n\0":
 '???',
 
+# Shinji Ikari
+"はい、わかりました。\n\0":
+'???',
+
 # Misato Katsuragi 
 "じゃあ、今まで説明した事を\nしっかり頭に入れて\n使徒を倒してちょうだい。▽\n使徒を倒すことができたら\n今日の訓練は終わりよ。\n頑張ってね！\n\0":
 '???',
-
-#
-# ./USRDIR/event/bs006.har_EXTRACT/bs006.evs
-#
-# Maya Ibuki 
-"…っ！\n来ました…。\nあああぁぁ！！\n\0":
-'...!\nIt\'s here...\nAahhh!\n\0',
 
 #
 # ./USRDIR/event/bs067.har_EXTRACT/bs067.evs
