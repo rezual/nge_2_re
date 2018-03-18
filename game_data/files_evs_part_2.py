@@ -130,11 +130,11 @@ translate_map = {
 
 # Asuka Soryu Langley
 "開け、開け、開け…。\n\0":
-'???',
+'Open, open, open...\n\0',
 
 # Shinji Ikari
 "開け、開け、開けッ！！\n\0":
-'???',
+'Open, open, open!!\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le002.evs
@@ -181,7 +181,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "影…！？\nこれは…！\n\0":
-'???',
+'A shadow...?!\nThis is...!\n\0',
 
 # Misato Katsuragi 
 "ちょっと、待ちなさい！\n危険だわ！！\n\0":
@@ -221,7 +221,7 @@ translate_map = {
 
 # Rei Ayanami 
 "影が…！？\n\0":
-'???',
+'A shadow...?!\n\0',
 
 # Male Staff
 "影から離れてください！\n危険です！\n\0":
@@ -229,27 +229,27 @@ translate_map = {
 
 # Misato Katsuragi 
 "影から離れて！！\n逃げてッ！！\n\0":
-'???',
+'Get away from the shadow!\nRun!!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n初号機の真下ですっ！\n\0":
-'???',
+'Pattern blue!\nDirectly under Unit-01!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n弐号機の真下ですっ！\n\0":
-'???',
+'Pattern blue!\nDirectly under Unit-02!\n\0',
 
 # Shinji Ikari
 "か…、影が？\n何だよこれ！？\nおかしいよ…！\n\0":
-'???',
+'A sh-shadow?\nWhat is this?!\nIt\'s weird!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n零号機の真下ですっ！\n\0":
-'???',
+'Pattern blue!\nDirectly under Unit-00!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n参号機の真下ですっ！\n\0":
-'???',
+'Pattern blue!\nDirectly under Unit-03!\n\0',
 
 # Asuka Soryu Langley
 "やだ…！！\n沈む、沈んじゃう！！\n誰か！　どうにか出来ないの…。\n\0":
@@ -257,7 +257,7 @@ translate_map = {
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n四号機の真下ですっ！\n\0":
-'???',
+'Pattern blue!\nDirectly under Unit-04!\n\0',
 
 # Kaworu Nagisa 
 "くっ…、しまった。\n捕らえられたか………。\n\0":
@@ -328,11 +328,11 @@ translate_map = {
 
 # Makoto Hyuga
 "では、あの影の部分が\n使徒の本体だと…？\n\0":
-'???',
+'So, that shadow section is\nthe Angel\'s real body?\n\0',
 
 # Male Staff
 "あの影の部分が…使徒ですか？\n\0":
-'???',
+'That shadow section... is the Angel?\n\0',
 
 # Ritsuko Akagi 
 "直径６８０メートル、\n厚さ約３ナノメートルのね。▽\nその極薄の空間を、内向きの\nΑΤフィールドで支え、内部は\nディラックの海と呼ばれる虚数空間。▽\n…多分、別の宇宙に\n繋がっているんじゃないかしら？\n\0":
@@ -360,7 +360,7 @@ translate_map = {
 
 # Misato Katsuragi, Makoto Hyuga, Male Staff
 "エヴァを取り込んだ、\n黒い影が目標か。\n\0":
-'???',
+'So the black shadow that absorbed\nthe Eva is our target.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le004.evs
@@ -371,15 +371,15 @@ translate_map = {
 
 # Shinji Ikari, Rei Ayanami
 "…誰？\n\0":
-'???',
+'...Who\'s there?\n\0',
 
 # Shinji's Shadow [Leliel], Kozo Fuyutsuki
 "碇シンジ。\n\0":
-'???',
+'Shinji Ikari.\n\0',
 
 # Shinji Ikari
 "それは、僕だ。\n\0":
-'???',
+'That\'s me.\n\0',
 
 # Shinji's Shadow [Leliel]
 "僕は君だよ。\n人は自分の中に\nもう一人の自分を持っている。▽\n自分というのは\n常に、二人で出来ているものなのさ。\n\0":
@@ -4707,6 +4707,8 @@ translate_map = {
 #
 # ./USRDIR/event/f079.har_EXTRACT/f079.evs
 #
+# [Serious: Ireul Attack]
+#
 # Ritsuko Akagi 
 "なんて奴…、\nプロテクトをかけてきたわ！！\n\0":
 '???',
@@ -5571,6 +5573,8 @@ translate_map = {
 #
 # ./USRDIR/event/f003.har_EXTRACT/f003.evs
 #
+# [Love Comedy: After Initial Defeat by Israfel]
+#
 # Maya Ibuki 
 "二人とも、やめなさい！！\n\0":
 '???',
@@ -5951,7 +5955,7 @@ translate_map = {
 #
 # [Text Only - No Designated Speaker]
 "$aの目の前に\n黒服の男達が立ちはだかった。\n\0":
-'???',
+'Men in black stood before $a, blocking the way.\n\0',
 
 # Shinji Ikari
 "しまった…。\nこんなところで…！！\n\0":
@@ -5975,7 +5979,7 @@ translate_map = {
 
 # Makoto Hyuga
 "クソ、１対６か…。\n分が悪いな。\n\0":
-'???',
+'Damn, it\'s one against six...\nThose aren\'t good odds.\n\0',
 
 # Shigeru Aoba
 "くそ、囲まれた…。\nイチかバチか、走るしかない！！\n\0":
@@ -5991,11 +5995,11 @@ translate_map = {
 
 # Kaworu Nagisa 
 "………逃げないよ。\nさあ、撃つといい。\n\0":
-'???',
+'...I won\'t run.\nGo ahead and shoot me.\n\0',
 
 # [Text Only - No Designated Speaker]
 "一発の銃弾が身体を突き飛ばした。▽\n薄れる意識の中で最後に見たものは\n冷たい地面に広がる\n自分の血だまりだった。\n\0":
-'???',
+'I was struck by a single bullet.▽\nThe last thing I saw as my senses dimmed\nwas a puddle of my own blood\nspreading over the cold ground.\n\0',
 
 # Shinji Ikari, Kensuke Aida
 "しまった…。\n\0":
@@ -6011,7 +6015,7 @@ translate_map = {
 
 # Maya Ibuki 
 "…やだ、殺さないで…。\n殺さないで…。\n\0":
-'???',
+'No, don\'t kill me...\nPlease don\'t kill me...\n\0',
 
 # Makoto Hyuga
 "くそ…。\n\0":
@@ -6043,7 +6047,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "ふと、何かの気配を感じ、\n周りを見渡した。\n\0":
-'???',
+'All of a sudden, I sensed a presence, and I surveyed my surroundings.\n\0',
 
 # Shinji Ikari
 "僕を追ってきたんだな。\nよし、この道は引き返そう。\n\0":
@@ -6063,7 +6067,7 @@ translate_map = {
 
 # Gendo Ikari
 "…そこに、いるな。\n二人…、いや、三人か…。\n\0":
-'???',
+'There they are.\nTwo, no, three of them...\n\0',
 
 # Kozo Fuyutsuki
 "奴等か…、\nその角から追いつめるつもりだな。\nならば…。\n\0":
@@ -6099,11 +6103,11 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "危険な気配を感じ、\nその場を離れた…。\n\0":
-'???',
+'Sensing a dangerous presence, I got out of there...\n\0',
 
 # [Text Only - No Designated Speaker]
 "黒服の男とすれ違った。\n\0":
-'???',
+'The man in black just missed me.\n\0',
 
 # Shinji Ikari
 "…あぶない、行かなくちゃ。\n\0":
@@ -6159,7 +6163,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "黒服の男を追うと、\n$aをつけているようだった。▽\n危険を察知し、\n急いで$aに駆け寄った。\n\0":
-'???',
+'When I pursued the man in black,\nit looked like he was following $a.▽\nSensing danger, I hurriedly ran over to $a.\n\0',
 
 # Shinji Ikari
 "あぶない！\nここを引き返して、走って！！\n\0":
@@ -6179,7 +6183,7 @@ translate_map = {
 
 # Gendo Ikari
 "走れ、早くしろ！！\n\0":
-'???',
+'Get out, hurry!\n\0',
 
 # Kozo Fuyutsuki
 "こっちへ来るんだ！！\n\0":
@@ -6275,11 +6279,13 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "$aの腕をつかんで、\n全速力でその場を離れた。\n\0":
-'???',
+'I grabbed $\'s arm and\ngot them out of there posthaste.\n\0',
 
 #
 # ./USRDIR/event/b2s17.har_EXTRACT/b2s17.evs
 # 
+# [Battle: Arael Unleashes Mental Attack]
+#
 
 # Misato Katsuragi 
 "敵の指向性兵器なの！？\n\0":
@@ -6326,7 +6332,7 @@ translate_map = {
 #
 # Misato Katsuragi, Female Staff
 "ラミエル\n\0":
-'???',
+'Ramiel\n\0',
 
 # Misato Katsuragi, Female Staff
 "国連艦隊、新型エヴァの部品を搬送中、\n太平洋上にて、突如使徒が出現。\n襲撃を受けました。\n\0":
@@ -6346,7 +6352,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "この作戦に参加した機体は…、\n\0":
-'???',
+'The units that participated in this operation were...\n\0',
 
 #
 # ./USRDIR/event/n009.har_EXTRACT/n009.evs
@@ -6365,7 +6371,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "サンダルフォン\n\0":
-'???',
+'Sandalphon\n\0',
 
 # Misato Katsuragi, Female Staff
 "深度１７８０ｍにて、目標を発見。\n\0":
@@ -6533,7 +6539,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "ビンゴ！\n\0":
-'???',
+'Bingo!\n\0',
 
 # Kaworu Nagisa 
 "やっぱり温泉ですか。\n\0":
@@ -6726,7 +6732,7 @@ translate_map = {
 #
 # Asuka Soryu Langley
 "あら、電気が戻った？\n\0":
-'???',
+'Huh, the power\'s back?\n\0',
 
 # Shinji Ikari
 "だから言ったじゃない、\nそのうち回復するって！\n\0":
@@ -6754,7 +6760,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "…私、じゃないわよ。\n\0":
-'???',
+'...It wasn\'t me.\n\0',
 
 # Maya Ibuki 
 "でも、センパイが\n起動スイッチを入れた\nタイミングでしたよ…。\n\0":
@@ -6794,11 +6800,11 @@ translate_map = {
 
 # Kaworu Nagisa 
 "…君は僕と同じだね。\n\0":
-'???',
+'You\'re the same as me.\n\0',
 
 # Rei Ayanami 
 "私は私よ。\nあなたとは違うわ。\n\0":
-'???',
+'I am me.\nI am not you.\n\0',
 
 # Kaworu Nagisa 
 "そうだね、今となっては…。\n\0":
@@ -7339,7 +7345,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "初号機は消失します。\n\0":
-'???',
+'Unit-01 disappears.\n\0',
 
 # Misato Katsuragi, Female Staff
 "エヴァ初号機救出のため、強制サルベージ作戦を実行。\n\0":
@@ -7672,7 +7678,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "シンジ君、私よ！！\nあのロボット止めなさい！！▽\nこれ以上、前進させないように\nしてちょうだい。\n\0":
-'???',
+'Shinji-kun, it\'s me!\nYou need to stop that robot!!▽\nこれ以上、前進させないように\nしてちょうだい。\n\0',
 
 # Shinji Ikari
 "あの、ロボットを？\n止める…って、大丈夫かな…。\n\0":
@@ -7789,7 +7795,7 @@ translate_map = {
 
 # Shinji Ikari
 "ミサトさん？\n\0":
-'???',
+'Misato-san?\n\0',
 
 # Misato Katsuragi 
 "みんなにも聴かせてあげたら？\n\0":
@@ -8760,7 +8766,7 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "シンジ君！！\nもう、大丈夫だよ。\n\0":
-'???',
+'Shinji-kun!\nYou\'re alright now!\n\0',
 
 # Kaworu Nagisa 
 "セカンド！！\nもう、大丈夫だよ。\n\0":
@@ -8864,6 +8870,8 @@ translate_map = {
 #
 # ./USRDIR/event/f073.har_EXTRACT/f073.evs
 #
+# [Normal: Exploring Terminal Dogma]
+#
 # [Text Only - No Designated Speaker]
 "第二使徒に関する情報が、\n非公開情報から最深度情報に\nあがりました。\n\0":
 '???',
@@ -8926,6 +8934,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f014.har_EXTRACT/f014.evs
+#
+# [Serious: Kaji Enters]
 #
 # Kozo Fuyutsuki
 "君か…。\n長旅の後なのに、すまないな。\n\0":
@@ -9055,7 +9065,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "お前ら………。\n\0":
-'???',
+'You guys......\n\0',
 
 # Kaworu Nagisa 
 "逃げたりはしないよ。▽\nそれじゃ、\nさっさと済ませてくれないかな。\n\0":
@@ -9351,6 +9361,8 @@ translate_map = {
 #
 # ./USRDIR/event/f041.har_EXTRACT/f041.evs
 #
+# [Dejection: Kaworu Enters]
+#
 # Toji Suzuhara 
 "お前、誰やねん…。\n\0":
 '???',
@@ -9361,7 +9373,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "どこかから歌が聞こえる…。\n\0":
-'???',
+'I hear a song coming from somewhere...\n\0',
 
 # Ritsuko Akagi 
 "渚カヲル…。\nわかっているのは、生年月日が\nセカンドインパクトと同一日。\n\0":
@@ -9377,23 +9389,23 @@ translate_map = {
 
 # Asuka Soryu Langley
 "今の歌、アンタなの？\n\0":
-'???',
+'That was you singing?\n\0',
 
 # Kaworu Nagisa 
 "そう思わないかい、碇シンジ君。\n\0":
-'???',
+'Don\'t you think so, Shinji Ikari?\n\0',
 
 # Kaworu Nagisa 
 "そう思わないかい、アスカさん。\n\0":
-'???',
+'Don\'t you think so, Asuka-san?\n\0',
 
 # Kaworu Nagisa 
 "そう思わないかい、ファースト。\n\0":
-'???',
+'Don\'t you think so, First?\n\0',
 
 # Kaworu Nagisa 
 "そう思わないかい、鈴原トウジ君。\n\0":
-'???',
+'Don\'t you think so, Toji Suzuhara?\n\0',
 
 # Shinji Ikari
 "ど、どうして僕の名を？\n\0":
@@ -9405,7 +9417,7 @@ translate_map = {
 
 # Rei Ayanami 
 "あなた、私と同じ匂いがする…。\n一体、誰…？\n\0":
-'???',
+'That feeling about you, it\'s the same as me...\nWho in the world are you?\n\0',
 
 # Toji Suzuhara 
 "ワイを知っとう…て。\n何や、お前誰なん？\n\0":
@@ -9413,19 +9425,19 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕は渚カヲル、\n君と同じ選ばれた子供さ。\n\0":
-'???',
+'I\'m Nagisa Kaworu,\na chosen child same as you.\n\0',
 
 # Shinji Ikari
 "渚…くん？\n\0":
-'???',
+'Nagisa...-kun?\n\0',
 
 # Asuka Soryu Langley
 "渚カヲルぅ？\n\0":
-'???',
+'Kaworu Nagisa?\n\0',
 
 # Rei Ayanami 
 "渚カヲル…？\nあなたもエヴァのパイロットなのね。\n\0":
-'???',
+'Kaworu Nagisa...?\nSo you are an Eva pilot as well.\n\0',
 
 # Toji Suzuhara 
 "何や…、\n…っちゅう事はパイロットかいな。▽\nえーと…、渚…。\n\0":
@@ -9453,6 +9465,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f002.har_EXTRACT/f002.evs
+#
+# [Love Comedy: Pen Pen in Love]
 #
 # Shinji Ikari
 "ペンペン…。\nテレビがどうしたの…？\n\0":
@@ -9678,9 +9692,10 @@ translate_map = {
 "よっぽどショックだったのか、\nペンペンは作った巣を荒らし、\n自分の部屋に走って行った…。\n\0":
 '???',
 
-
 #
 # ./USRDIR/event/f023.har_EXTRACT/f023.evs
+#
+# [Love Comedy: Falling Stars]
 #
 # Shinji Ikari
 "ねえ、\n今夜屋上に行ってみない？▽\nひょっとしたら、\n流星が見られるかもしれないよ。\n\0":
@@ -10002,9 +10017,10 @@ translate_map = {
 "その晩は、遅くまで喋りあった。▽\nどうでもいい、\nとりとめもない事ばかりだったけど、\n言葉が自然に口をついて出た。▽\nそのあと、\n見回りに来た先生に見つかり、\n怒られて屋上を降りた。▽\n帰り道にも星は降っていた。▽\nまた、とりとめもない話をしながら\n上を向いて家に帰った。▽\nこんなお喋りな自分がいたんだと\n何となく不思議な気分になった。\n\0":
 '???',
 
-
 #
 # ./USRDIR/event/f074.har_EXTRACT/f074.evs
+#
+# [Normal: Exploring Terminal Dogma]
 #
 # [Text Only - No Designated Speaker]
 "アダムに関する情報が、\n一般情報から非公開情報に\nあがりました。\n\0":
@@ -12824,7 +12840,7 @@ translate_map = {
 
 # Kensuke Aida
 "おぉ〜、女は怖ぇ〜。\nセンセー、怖いよ〜。\n\0":
-'Woooo, women are scaary!\nSensei, I\'m scaared!\n\0',
+'Woooo, women are scaary!\nTeacher, I\'m scaared!\n\0',
 
 # Kaworu Nagisa 
 "君らが出て行けばいいだろ。\n\0":
@@ -12832,7 +12848,7 @@ translate_map = {
 
 # Shinji Ikari
 "委員長を悪く言うな！\n\0":
-'Don\'t badmouth the class rep!\n\0',
+'Don\'t badmouth the class president!\n\0',
 
 # Rei Ayanami 
 "…あなた達、恥ずかしくないの？\n\0":
@@ -12844,7 +12860,7 @@ translate_map = {
 
 # Kensuke Aida
 "気にするなよ…、イインチョ。\n\0":
-'???',
+'Don\'t let it get to you, Pres.\n\0',
 
 # Kaworu Nagisa 
 "あんな人たちの言う事を\n気にする事ないからね。\n\0":
@@ -12856,7 +12872,7 @@ translate_map = {
 
 # Rei Ayanami 
 "…最低な人達。\n\0":
-'???',
+'The worst kind of people.\n\0',
 
 # Hikari Horaki
 "でも、あの人達が言ってた事\n本当だから…。\n言い返せなくって…。▽\n………。▽\nゴメン、今日は帰る…。\nお姉ちゃん、昨日家に帰らな\nかったし…。\n\0":
@@ -12904,15 +12920,15 @@ translate_map = {
 
 # Kensuke Aida
 "え？\n何でもないよ…。\n\0":
-'???',
+'Hmm?\nIt\'s nothing...\n\0',
 
 # Kaworu Nagisa 
 "委員長か。\nいや、何でもないよ。\n\0":
-'???',
+'Class President?\nNo, it\'s nothing.\n\0',
 
 # Shinji Ikari
 "ああ、委員長…。\n別に何でもないんだ。\n\0":
-'???',
+'Oh, President...\nIt\'s nothing in particular.\n\0',
 
 # Rei Ayanami 
 "…何でもないわ。\n\0":
