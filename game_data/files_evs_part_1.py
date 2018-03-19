@@ -6589,14 +6589,6 @@ translate_map = {
 #
 # ./USRDIR/event/tev1904.har_EXTRACT/tev1904.evs
 #
-# Kozo Fuyutsuki
-"使徒の持つ生命の実と、\nヒトの持つ知恵の実。\nその両方を手に入れた。▽\nそして今や、命の胎芽たる\n生命の樹へと還元している。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"この先に、サードインパクトの\n無からヒトを救う箱舟となるか、\nヒトを滅ぼす悪魔となるのか。▽\n未来は碇の息子に委ねられたな。\n\0":
-'???',
-
 # Keel Lorenz
 "遂に、\n我らの願いが始まる。\n\0":
 '???',
@@ -6612,34 +6604,6 @@ translate_map = {
 # Keel Lorenz
 "それは、魂の安らぎである。▽\nでは、儀式を始めよう。\n\0":
 '???',
-
-# Shigeru Aoba
-"リリスよりのアンチΑΤフィールド、\nさらに拡大！\n物質化されます！\n\0":
-'???',
-
-# Makoto Hyuga
-"アンチΑΤフィールド、\n臨界点を突破！\n\0":
-'???',
-
-# Shigeru Aoba
-"駄目です！\nこのままでは個体生命の形が\n維持出来ません！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"ガフの部屋が開く。\n世界の始まりと終局の扉が。\n遂に開いてしまうか。\n\0":
-'???',
-
-# Rei Ayanami 
-"そして、真実は心の中にある。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"気持ち悪い。\n\0":
-'???',
-
-# Rei Ayanami 
-"ここはＬＣＬの海。\n生命の源の海の中。\n\0":
-'This is the Sea of L.C.L.\nThe place where life began.\n\0',
 
 # Makoto Hyuga
 "エヴァ初号機、\n量産機に拘引されていきます。\n\0":
@@ -6657,109 +6621,25 @@ translate_map = {
 "エヴァシリーズ、\nΣ機関を解放！\n\0":
 '???',
 
-# Shinji Ikari
-"う…、ううぅ、ううううぅ。\n\0":
-'???',
-
 # Makoto Hyuga
 "次元測定値が反転！\nマイナスを示しています。▽\n観測不能。\n数値化出来ません。\n\0":
 '???',
-
-# Rei Ayanami 
-"何を願うの？\n\0":
-'What do you desire?\n\0',
 
 # Kozo Fuyutsuki
 "アンチΑΤフィールドか。\n\0":
 'An Anti-A.T. Field.\n\0',
 
-# Shinji Ikari
-"綾波？\nここは？\n\0":
-'Ayanami?\nWhere are we?\n\0',
-
 # Maya Ibuki 
 "全ての現象が、\n１５年前と酷似してる。▽\nじゃあ、これって、\nやっぱりサードインパクトの\n前兆なの？\n\0":
 '???',
-
-# Rei Ayanami 
-"ΑΤフィールドを失った、\n自分の形を失った世界。▽\nどこまでが自分で、\nどこからが他人なのかわからない、\n曖昧な世界。\n\0":
-'???',
-
-# Rei Ayanami 
-"どこまでも自分で、\nどこにも自分が居なくなってる\n脆弱な世界。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は死んだの？\n\0":
-'Am I dead?\n\0',
 
 # Kozo Fuyutsuki
 "人類の生命の源たるリリスの卵、\n黒き月。▽\n今更、その殻の中へと\n還る事は望まぬ。\nだが、それもリリス次第か。\n\0":
 '???',
 
-# Shinji Ikari
-"でも、これは違う。\n違うと思う。\n\0":
-'But this is wrong.\nIt doesn\'t feel right.\n\0',
-
-# Rei Ayanami 
-"他人の存在を今一度望めば、\n再び心の壁が\n全ての人々を引き離すわ。▽\nまた、他人の恐怖が始まるのよ。\n\0":
-'???',
-
-# Shinji Ikari
-"…いいんだ。\n\0":
-'???',
-
-# Shigeru Aoba
-"エヴァシリーズの\nΑΤフィールドが共鳴！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ヒトの心が自分自身の形を\n造り出しているからね。\n\0":
-'???',
-
-# Shinji Ikari, Misato Katsuragi 
-"…ありがとう。\n\0":
-'...Thank you.\n\0',
-
-# Shinji Ikari
-"あそこではイヤな事しか\nなかった気がする。▽\nだから、\nきっと逃げ出してもよかったんだ。\n\0":
-'???',
-
-# Shinji Ikari
-"でも、逃げたところにも\nいい事はなかった。▽\nだって僕が居ないもの。\n誰も居ないのと同じだもの。\n\0":
-'???',
-
-# Makoto Hyuga
-"更に、増幅しています！！\n\0":
-'???',
-
 # Gendo Ikari
 "アダムとリリスの、\n禁じられた融合。\n\0":
 'The forbidden fusion\n of Adam and Lilith.\n\0',
-
-# Kaworu Nagisa 
-"再びΑΤフィールドが、\n君や他人を傷つけてもいいのかい？\n\0":
-'???',
-
-# Shinji Ikari
-"構わない。▽\nでも、僕の心の中にいる君達は、\n…何？\n\0":
-'???',
-
-# Rei Ayanami 
-"希望なのよ。\nヒトは互いにわかり合えるかも\nしれない、という事の。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"好きだという言葉と共にね。\n\0":
-'???',
-
-# Shinji Ikari
-"だけどそれは見せ掛けなんだ。\n自分勝手な思い込みなんだ。\n祈りみたいなものなんだ。▽\nずっと続くはずはないんだ。\nいつかは裏切られるんだ。\n僕を見捨てるんだ。\n\0":
-'???',
-
-# Shinji Ikari
-"でも僕は、\nもう一度会いたいと思った。▽\nその時の気持ちは本当だと、\n思うから。\n\0":
-'???',
 
 # Gendo Ikari
 "欠けた心の補完。\n不要な身体を捨て、\n全ての魂を今、ひとつに。\n\0":
@@ -6790,31 +6670,7 @@ translate_map = {
 'I can\'t.\nIkari-kun is calling.\n\0',
 
 # Rei Ayanami 
-"だから、見失った自分は、\n自分の力で取り戻すのよ。▽\n例え、自分の言葉を失っても。\n他人の言葉に取り込まれても。▽\n自らの心で\n自分自身をイメージ出来れば\n誰もがヒトの形に戻れるわ。\n\0":
-'???',
-
-# Yui Ikari
-"心配ないわよ。▽\n全ての生命には\n復元しようとする力がある。\n生きていこうとする心がある。▽\n生きていこうとさえ思えば…、\nどこだって天国になるわ。\n\0":
-'???',
-
-# Yui Ikari
-"だって、生きているんですもの。\n幸せになるチャンスは、\nどこにでもあるわ。▽\n太陽と、月と、地球がある限り、\n大丈夫…。\n\0":
-'???',
-
-# Rei Ayanami 
 "闇の入り口、\nそして、闇の終り。\nそこは、私が帰る場所。▽\n…ただいま。\n\0":
-'???',
-
-# Rei Ayanami 
-"そして、新たなイメージが\nそのヒトの心も形も変えていくわ。▽\nイメージが、想像する力が、\n自分達の未来を、\n時の流れを造り出しているもの。\n\0":
-'???',
-
-# Shinji Ikari
-"うん、母さん…。▽\nさよなら…、母さん…。\n\0":
-'???',
-
-# Rei Ayanami 
-"いいえ、\n全てが一つになっているだけ。▽\nこれがあなたの望んだ世界、\nそのものよ。\n\0":
 '???',
 
 # Maya Ibuki 
@@ -6833,8 +6689,148 @@ translate_map = {
 "うわああああああああああああ！！\n\0":
 'WAAAAHHHHHHHHHH!!\n\0',
 
+# Keel Lorenz
+"エヴァンゲリオン初号機\nパイロットの欠けた自我を持って\n人々の補完を。▽\n三度の報いの時が、今…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"使徒の持つ生命の実と、\nヒトの持つ知恵の実。\nその両方を手に入れた。▽\nそして今や、命の胎芽たる\n生命の樹へと還元している。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"この先に、サードインパクトの\n無からヒトを救う箱舟となるか、\nヒトを滅ぼす悪魔となるのか。▽\n未来は碇の息子に委ねられたな。\n\0":
+'???',
+
+# Shigeru Aoba
+"エヴァシリーズの\nΑΤフィールドが共鳴！\n\0":
+'???',
+
+# Makoto Hyuga
+"更に、増幅しています！！\n\0":
+'???',
+
+# Shigeru Aoba
+"リリスよりのアンチΑΤフィールド、\nさらに拡大！\n物質化されます！\n\0":
+'???',
+
+# Makoto Hyuga
+"アンチΑΤフィールド、\n臨界点を突破！\n\0":
+'???',
+
+# Shigeru Aoba
+"駄目です！\nこのままでは個体生命の形が\n維持出来ません！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"ガフの部屋が開く。\n世界の始まりと終局の扉が。\n遂に開いてしまうか。\n\0":
+'???',
+
+# Rei Ayanami 
+"何を願うの？\n\0":
+'What do you desire?\n\0',
+
+# Shinji Ikari
+"綾波？\nここは？\n\0":
+'Ayanami?\nWhere are we?\n\0',
+
+# Rei Ayanami 
+"ここはＬＣＬの海。\n生命の源の海の中。\n\0":
+'This is the Sea of L.C.L.\nThe place where life began.\n\0',
+
+# Rei Ayanami 
+"ΑΤフィールドを失った、\n自分の形を失った世界。▽\nどこまでが自分で、\nどこからが他人なのかわからない、\n曖昧な世界。\n\0":
+'???',
+
+# Rei Ayanami 
+"どこまでも自分で、\nどこにも自分が居なくなってる\n脆弱な世界。\n\0":
+'???',
+
+# Shinji Ikari
+"僕は死んだの？\n\0":
+'Am I dead?\n\0',
+
+# Rei Ayanami 
+"いいえ、\n全てが一つになっているだけ。▽\nこれがあなたの望んだ世界、\nそのものよ。\n\0":
+'???',
+
+# Shinji Ikari
+"でも、これは違う。\n違うと思う。\n\0":
+'But this is wrong.\nIt doesn\'t feel right.\n\0',
+
+# Rei Ayanami 
+"他人の存在を今一度望めば、\n再び心の壁が\n全ての人々を引き離すわ。▽\nまた、他人の恐怖が始まるのよ。\n\0":
+'???',
+
+# Shinji Ikari
+"…いいんだ。\n\0":
+'???',
+
+# Shinji Ikari, Misato Katsuragi 
+"…ありがとう。\n\0":
+'...Thank you.\n\0',
+
+# Shinji Ikari
+"あそこではイヤな事しか\nなかった気がする。▽\nだから、\nきっと逃げ出してもよかったんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"でも、逃げたところにも\nいい事はなかった。▽\nだって僕が居ないもの。\n誰も居ないのと同じだもの。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"再びΑΤフィールドが、\n君や他人を傷つけてもいいのかい？\n\0":
+'???',
+
+# Shinji Ikari
+"構わない。▽\nでも、僕の心の中にいる君達は、\n…何？\n\0":
+'???',
+
+# Rei Ayanami 
+"希望なのよ。\nヒトは互いにわかり合えるかも\nしれない、という事の。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"好きだという言葉と共にね。\n\0":
+'???',
+
+# Shinji Ikari
+"だけどそれは見せ掛けなんだ。\n自分勝手な思い込みなんだ。\n祈りみたいなものなんだ。▽\nずっと続くはずはないんだ。\nいつかは裏切られるんだ。\n僕を見捨てるんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"でも僕は、\nもう一度会いたいと思った。▽\nその時の気持ちは本当だと、\n思うから。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"現実は知らないところに。\n夢は現実の中に。\n\0":
+'???',
+
+# Rei Ayanami 
+"そして、真実は心の中にある。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"ヒトの心が自分自身の形を\n造り出しているからね。\n\0":
+'???',
+
+# Rei Ayanami 
+"そして、新たなイメージが\nそのヒトの心も形も変えていくわ。▽\nイメージが、想像する力が、\n自分達の未来を、\n時の流れを造り出しているもの。\n\0":
+'???',
+
 # Kaworu Nagisa 
 "ただ、ヒトは自分自身の意思で\n動かなければ、何も変わらない。\n\0":
+'???',
+
+# Rei Ayanami 
+"だから、見失った自分は、\n自分の力で取り戻すのよ。▽\n例え、自分の言葉を失っても。\n他人の言葉に取り込まれても。▽\n自らの心で\n自分自身をイメージ出来れば\n誰もがヒトの形に戻れるわ。\n\0":
+'???',
+
+# Yui Ikari
+"心配ないわよ。▽\n全ての生命には\n復元しようとする力がある。\n生きていこうとする心がある。▽\n生きていこうとさえ思えば…、\nどこだって天国になるわ。\n\0":
+'???',
+
+# Yui Ikari
+"だって、生きているんですもの。\n幸せになるチャンスは、\nどこにでもあるわ。▽\n太陽と、月と、地球がある限り、\n大丈夫…。\n\0":
 '???',
 
 # Yui Ikari
@@ -6853,16 +6849,20 @@ translate_map = {
 "シンジや父さんや…、\nみんなが生きた証。▽\n生きていこうとする\nその証のために…。\n\0":
 '???',
 
-# Keel Lorenz
-"エヴァンゲリオン初号機\nパイロットの欠けた自我を持って\n人々の補完を。▽\n三度の報いの時が、今…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"現実は知らないところに。\n夢は現実の中に。\n\0":
+# Shinji Ikari
+"うん、母さん…。▽\nさよなら…、母さん…。\n\0":
 '???',
 
 # Asuka Soryu Langley
 "…ぐ…ぐぐぅ…ぅ\n\0":
+'???',
+
+# Shinji Ikari
+"う…、ううぅ、ううううぅ。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"気持ち悪い。\n\0":
 '???',
 
 #
@@ -7298,6 +7298,7 @@ translate_map = {
 # Male Staff
 "では、作戦開始ですね！\n\0":
 '???',
+
 #
 # ./USRDIR/event/a003.har_EXTRACT/a003.evs
 #
@@ -7996,147 +7997,3575 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/bs003.har_EXTRACT/bs003.evs
+# ./USRDIR/event/n000.har_EXTRACT/n000.evs
 #
-# [Battle: Unit-01 Berserk]
-#
-# Shinji Ikari
-"………う。▽\nもう、駄目だ…、僕は、\n僕は死ぬかもしれない…、僕は。▽\n死ぬかもしれない、死ぬかもしれ\nない、死ぬかもしれない、死ぬかも\nしれない、死ぬかもしれない…。\n\0":
+# Misato Katsuragi, Female Staff
+"第$d使徒\n\0":
 '???',
 
-# Shinji Ikari
-"あっ、うわあああああああああー！！\n\0":
+# Misato Katsuragi, Female Staff
+"サキエル\n\0":
 '???',
 
-# Shinji Ikari
-"機体が…、機体の損傷が激しくて\nもう…。\n僕は…、死んじゃうの…？▽\n嫌だ…、死ぬのは嫌だよ。\n嫌だ、嫌だ、嫌だ、嫌だ、嫌だ、\n嫌だ、嫌だ、嫌だ、嫌だ、嫌だ！！\n\0":
+# Misato Katsuragi, Female Staff
+"同市街地にて使徒と交戦を開始。\n\0":
 '???',
 
-# Shinji Ikari
-"…動け、お願いだよ、動いてよ！！\n頼むから動いてくれよ！！\n\0":
-'Move, please, move it!\n I\'m begging you, move for me!!\n\0',
-
-# Misato Katsuragi, Ritsuko Akagi, Female Staff
-"初号機、エントリープラグ\n強制射出！！\n\0":
-'Force eject Unit-01\'s entry plug!!\n\0',
-
-# Kozo Fuyutsuki
-"初号機のエントリープラグを\n強制射出しろ！！\n\0":
-'Force eject Unit-01\'s entry plug!!\n\0',
-
-# Maya Ibuki, Female Staff
-"駄目です！\n信号を受付けません。\n\0":
-'No good!\nThe signal\'s being rejected!\n\0',
+# Misato Katsuragi, Female Staff
+"国連軍、これにΝ地雷を使用。\n\0":
+'???',
 
 # Misato Katsuragi 
-"シンジ君っ！！\n\0":
-'Shinji-kun!!\n\0',
-
-# Ritsuko Akagi, Misato Katsuragi, Kaworu Nagisa
-"シンジ君！！\n\0":
-'Shinji-kun!!\n\0',
-
-# Kozo Fuyutsuki
-"もう一度、\nプラグを強制排除しろ！\n\0":
-'Force eject the plug again!\n\0',
+"しかし、わずかな損傷を\n与えるのみに終わる\n\0":
+'???',
 
 # Female Staff
-"もう一度、\nプラグを強制排除して下さい！\n\0":
-'Please force eject the plug again!\n\0',
+"しかし、わずかに損傷を\n与えるのみとなった\n\0":
+'???',
 
-# Maya Ibuki 
-"そんな…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
-'But that\'s--!?\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is climbing rapidly!\n\0',
+# Misato Katsuragi, Female Staff
+"この時、使徒の自己修復機能\n及び機能増幅を確認。\n\0":
+'???',
 
-# Female Staff
-"これは…！？\nエヴァ初号機、再起動！！▽\n初号機のシンクロ率が、\n急激に上昇していきます！\n\0":
-'This is--?!\nUnit-01 has reactivated!!▽\n Unit-01\'s synch ratio is climbing rapidly!\n\0',
-
-# Ritsuko Akagi 
-"どうなってるの？\n原因は？\n\0":
-'What\'s going on?\nWhat\'s causing it?\n\0',
-
-# Male Staff
-"いったい、\n何が起こっているんだ！？\n\0":
-'What on earth\n is happening?!\n\0',
-
-# Maya Ibuki 
-"わかりません！\n制御不能です！\n\0":
-'We don\'t know!\nControl is impossible!\n\0',
-
-# Female Staff
-"シンクロ率、測定出来ません！\n制御不能です！\n\0":
-'The synch ratio can\'t be measured!\nControl is impossible!\n\0',
-
-# Ritsuko Akagi 
-"…暴走！？\n\0":
-'...It\'s berserk?!\n\0',
-
-# Male Staff
-"まさか…、暴走！？\n\0":
-'It can\'t be... berserk?!\n\0',
-
-# Maya Ibuki, Female Staff
-"初号機、暴走！！\nパイロットからのコントロールも\n不可能です！\n\0":
-'Unit-01 is berserk!!\n It can\'t be controlled by the pilot either!\n\0',
+# Misato Katsuragi, Female Staff
+"同時刻、エヴァンゲリオン起動。\n参戦したのは…\n\0":
+'???',
 
 #
-# ./USRDIR/event/bs005.har_EXTRACT/bs005.evs
+# ./USRDIR/event/n001.har_EXTRACT/n001.evs
 #
-# [Battle: GeoFront Breach]
+# Misato Katsuragi, Female Staff
+"シャムシエル\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"使徒が市街地に攻撃を行い\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"委員会からのエヴァ出撃要請を受け\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァンゲリオン起動。\n参戦したのは…\n\0":
+'???',
+
 #
-# Shigeru Aoba, Male Staff
-"目標、ゼロエリアを突破！\nジオフロントに向かっています！\n\0":
-'Target has breached Area Zero!\nIt\’s heading for the GeoFront!\n\0',
+# ./USRDIR/event/n002.har_EXTRACT/n002.evs
+#
+# Misato Katsuragi, Female Staff
+"ラミエル\n\0":
+'Ramiel\n\0',
+
+# Misato Katsuragi, Female Staff
+"国連艦隊、新型エヴァの部品を搬送中、\n太平洋上にて、突如使徒が出現。\n襲撃を受けました。\n\0":
+'???',
+
+# Female Staff, Misato Katsuragi 
+"これにより、目標を第３新東京市にて迎撃\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"国連艦隊の戦闘記録分析結果により、\n目標は一定距離内に侵入した外敵を、\n加粒子砲で自動排除、展開されるΑΤフィールドは、\n相転移空間を肉眼で確認出来る程、超強力なものでした。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"これを踏まえ、ポジトロンスナイパーライフルを使用した、\n長距離からの一点狙撃する作戦を決行\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"この作戦に参加した機体は…、\n\0":
+'The units that participated in this operation were...\n\0',
+
+#
+# ./USRDIR/event/n003.har_EXTRACT/n003.evs
+#
+# Misato Katsuragi, Female Staff
+"その間、２体のエヴァを使用した\n同時荷重攻撃の作戦を立案。\n作戦に使用された機体は…、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"イスラフェル\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は第３新東京市に再侵攻し\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"同時刻、エヴァでこれを上陸地点にて\n阻止する作戦を立案し、これを実行。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"作戦開始後、再び一体に融合\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"この時、目標は、国連軍の\nΝ地雷によって組織の２０％を損失。\n侵攻を一時押さえる事になりました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"パイロットの同時荷重攻撃により…\n\0":
+'???',
+
+#
+# ./USRDIR/event/n004.har_EXTRACT/n004.evs
+#
+# Misato Katsuragi, Female Staff
+"零号機\n\0":
+'Unit-00\n\0',
+
+# Misato Katsuragi, Female Staff
+"参号機\n\0":
+'???',
+
+# Female Staff, Misato Katsuragi 
+"かろうじて、使徒殲滅に成功。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"四号機\n\0":
+'Unit-04\n\0',
+
+# Misato Katsuragi, Female Staff
+"マトリエル\n\0":
+'Matarael\n\0',
+
+# Misato Katsuragi, Female Staff
+"パイロットの活躍により…\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"第３新東京市に襲来\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"使徒の強攻によりパイロット達は\n苦戦を強いられるも\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"見事、使徒の殲滅に成功しました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は、強力な溶解液を武器に市街地を侵攻\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"これを討つべく、エヴァンゲリオン、出動。\n参戦したのは…\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"初号機\n\0":
+'Unit-01\n\0',
+
+# Misato Katsuragi, Female Staff
+"しかし、パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"以上、報告を終了します。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"弐号機\n\0":
+'Unit-02\n\0',
+
+#
+# ./USRDIR/event/n005.har_EXTRACT/n005.evs
+#
+# Misato Katsuragi, Female Staff
+"驚異的な攻撃力を持つ使徒に対し\n必死の応戦を行い、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"防衛線にて迎撃システムにより交戦するが、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は、驚異的な破壊力を持ってこれを一掃、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"ただちにエヴァを出撃させ、市街地にて目標と交戦、\n本作戦に出動したエヴァは…\n\0":
+'???',
+
+#
+# ./USRDIR/event/n006.har_EXTRACT/n006.evs
+#
+# Misato Katsuragi, Female Staff
+"アルミサエル\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は、ΑΤフィールドの反応は\nあるものの、青からオレンジへと\nパターンの変化が周期的に観測され、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"マギは回答不能を提示…。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標のデータが少ない上に、不明な点も多く、\n目標の動きもない事から膠着状態が続きました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、目標はその形態を変化。\nその後、ゆっくりと移動を開始。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"これと同時にエヴァンゲリオン、起動。\n参戦したのは…、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"敵の攻撃方法が不明のまま\n出撃という運びとなり、\n接近戦を避けつつ交戦。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"本作戦は長期戦となり、\nパイロットは苦戦を強いられるが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"無事、作戦は完遂され、\n使徒は殲滅しました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、突如として目標はエヴァに接触。\n機体への侵食を開始。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標はエヴァ及び、パイロットと生体融合を果たし、\n分離不能と判断されました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"結果、機体を破棄し、\n使徒殲滅のために自爆装置を発動\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"機体とともに、目標は殲滅…。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"続いて、パイロットの死亡も確認されました…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/n007.har_EXTRACT/n007.evs
+#
+# Misato Katsuragi, Female Staff
+"セントラルドグマに突如出現した使徒の正体は、\n\0":
+'???',
 
 # Misato Katsuragi 
-"エヴァは、リニアレールから\nジオフロントまで撤退！\n迎撃態勢を取って！\n\0":
-'Withdraw the Evas into the\nGeoFront by linear rail!\nPrepare to intercept!\n\0',
-
-# Kozo Fuyutsuki
-"エヴァは、リニアレールから\nジオフロントまで撤退！\n迎撃態勢を取れ！\n\0":
-'Withdraw the Evas into the\nGeoFront by linear rail!\nPrepare to intercept!\n\0',
+"目標はエヴァ弐号機を操り、\nターミナルドグマを目指して侵攻しました。\n\0":
+'???',
 
 # Female Staff
-"エヴァは、リニアレールから\nジオフロントまで撤退、\n急いで迎撃にまわってください！\n\0":
-'Please withdraw the Evas into the\nGeoFront by linear rail,\nand quickly turn to intercept!\n\0',
+"目標はエヴァ弐号機を操り、\nターミナルドグマ目指して侵攻しました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"初号機パイロット、碇シンジが目標を追撃。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"接触に成功し、目標に対し説得を試みます。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"結果、碇シンジによる、目標の説得に成功。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"以後「渚・カヲル」は従来通り、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"フィフス・チルドレン、\nエヴァパイロットとして存続する\nことになりました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、目標の説得に失敗し、\n\0":
+'???',
+
+# Misato Katsuragi 
+"初号機により目標を殲滅…。\n\0":
+'???',
+
+# Female Staff
+"初号機により目標を殲滅しました。\n\0":
+'???',
 
 #
-# ./USRDIR/event/bs006.har_EXTRACT/bs006.evs
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
+# ./USRDIR/event/n008.har_EXTRACT/n008.evs
 #
-# [Battle: Headquarters Breach]
+# Misato Katsuragi, Female Staff
+"ガギエル\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標はエヴァ弐号機を輸送中の\n太平洋国連艦隊を襲撃。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"これに対し、セカンド・チルドレン\n惣流・アスカ・ラングレーは、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァ弐号機を起動し、応戦します。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、Ｂ型装備による、最悪の\n水中戦を強いられることになりました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"この危機的状況を打破するため、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"国連残存戦艦二隻による\n零距離射撃作戦を試みます。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"作戦要綱は、弐号機が目標の口を開口\n全艦を突入させ、艦首主砲塔の直接砲撃の後\nさらに自爆\n\0":
+'???',
+
+# Misato Katsuragi 
+"国連軍からの協力を得ながらも、\nかろうじて使徒を撃破する事に成功しました\n\0":
+'???',
+
+# Female Staff
+"国連軍からの協力を得ながらも、\nかろうじて使徒を迎撃する事に成功しました\n\0":
+'???',
+
+#
+# ./USRDIR/event/n009.har_EXTRACT/n009.evs
+#
+# Misato Katsuragi, Female Staff
+"これより、Ａ−１７、\n使徒捕獲作戦の結果報告を行います。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"浅間山火口内にて発見された使徒を捕獲するため\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァ弐号機で火口内に沈降、\n目標への接触を図りました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"サンダルフォン\n\0":
+'Sandalphon\n\0',
+
+# Misato Katsuragi, Female Staff
+"深度１７８０ｍにて、目標を発見。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"捕獲を試みますが、孵化が予想より早く失敗し、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"作戦を使徒殲滅に変更します。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"高温高圧という不利な状況下での\n戦闘に苦戦を強いられますが、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"冷却液による熱膨張を利用した攻撃を敢行し、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"使徒殲滅に成功します。\n\0":
+'???',
+
+#
+# ./USRDIR/event/n010.har_EXTRACT/n010.evs
+#
+# [Post-Battle Report: Sahaquiel, Success and Failure]
 #
 # Shigeru Aoba, Male Staff
-"目標、ネルフ本部に侵入。\nすぐに、ここまで来ます！\n\0":
-'The target has penetrated Nerv H.Q.\n It\'ll be here any second!\n\0',
+"エヴァ要撃ポイント、\n予想落下地点から大きく\n外れていきます。\n\0":
+'???',
 
-# Misato Katsuragi, Kozo Fuyutsuki
-"総員、本部から撤退！！\n\0":
+# Misato Katsuragi, Female Staff
+"エヴァは見事使徒を受け止め\n使徒殲滅に成功しましたが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァによる直接要撃を試みました。\n\0":
+'???',
+
+# Female Staff, Misato Katsuragi 
+"エヴァは見事使徒を受け止め\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"サハクィエル\n\0":
+'Sahaquiel\n\0',
+
+# Misato Katsuragi, Female Staff
+"使徒殲滅に成功しました。\n\0":
+'???',
+
+# Misato Katsuragi 
+"そんな…！？\nマギに要撃ポイント修正を、\n急いで！\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"インド洋上空衛星軌道上に目標を発見\n\0":
 '???',
 
 # Female Staff
-"総員、本部より撤退して下さい！！\n\0":
-'???',
- 
-# Maya Ibuki 
-"…っ！\n来ました…。\nあああぁぁ！！\n\0":
-'...!\nIt\'s here...\nAahhh!\n\0',
-
-# Maya Ibuki 
-"っ！　来ました…。\nあああぁぁ！！\n\0":
+"マギに要撃ポイント修正を、\n急いで下さい！\n\0":
 '???',
 
-# Makoto Hyuga
-"き、来ました…。\nうわぁぁぁぁあー！！\n\0":
+# Male Staff, Makoto Hyuga
+"ダメです、現在のエヴァの\nポイントからでは間に合いません！\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"Ν航空爆雷の効果も空しく\n\0":
+'???',
+
+# Misato Katsuragi 
+"あきらめないわよ…、\n私はあきらめないわよッ！！\n\0":
 '???',
 
 # Shigeru Aoba
-"あぁっ、き、来たぁぁ！\nわああああああああー！！\n\0":
+"チクショウ、\nこれで終わりなのか！？\n全て、終りになるのかよッ！！\n\0":
+'???',
+
+# Makoto Hyuga
+"ここまでか…。\nせめて、パイロットだけでも\n無事であれば…。\n\0":
+'???',
+
+# Female Staff
+"もう、なす術はないの…。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は誤差修正しながら、\n組織の一部を落下させ攻撃開始\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"ネルフ権限における特別宣言Ｄ−１７\nを発令し、半径５０キロメートルの\n全市民の避難を行う\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"予測通り、目標は\n第３新東京市を目掛け、降下\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"成層圏より飛来する目標に対し\n\0":
+'???',
+
+#
+# ./USRDIR/event/n011.har_EXTRACT/n011.evs
+#
+# Misato Katsuragi, Female Staff
+"レリエル\n\0":
+'Leliel\n\0',
+
+# Misato Katsuragi, Female Staff
+"目標は第３新東京市直上に突如出現\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァ初号機による牽制攻撃を行うが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標の本体ともいえるディラックの海に飲み込まれ、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"初号機は消失します。\n\0":
+'Unit-01 disappears.\n\0',
+
+# Misato Katsuragi, Female Staff
+"エヴァ初号機救出のため、強制サルベージ作戦を実行。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、サルベージ作戦開始直前、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァ初号機は自ら目標を引き裂き、脱出します。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、どのような方法をもって初号機が脱出できたのか？\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"詳細は不明。更に現在調査中です\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"エヴァ初号機救出のため、強制サルベージ作戦を立案。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"理論上での策ではありましたが作戦は実行\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"作戦の結果、エヴァ初号機のサルベージには成功。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、不完全な虚数空間への干渉により、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"他のパイロットを失うという、致命的な損害を受けてしまいました。\n\0":
+'???',
+
+#
+# ./USRDIR/event/n012.har_EXTRACT/n012.evs
+#
+# Misato Katsuragi, Female Staff
+"これより戦闘結果報告を行います。\n\0":
+'???',
+
+# Female Staff, Misato Katsuragi 
+"「ロンギヌスの槍」の使用が決断されます。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"第$d使徒(angel00の使徒ナンバー音声を使いまわす)\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"結果、ロンギヌスの槍により、使徒殲滅に成功しますが、\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"アラエル\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"槍は第一宇宙速度を突破、月軌道に移行。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は衛星軌道上に突如出現\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"ロンギヌスの槍は回収不能になりました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"超長距離射撃による対空迎撃を試みますが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"また、目標の心理攻撃により\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"出力不足のため、ΑΤフィールドを突破は不可能でした\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"作戦終了後、パイロットは死亡、\n致命的な損害を受けてしまいました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"以上、報告を終わります。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"この後、目標は心理攻撃を展開\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"パイロットは、目標の心理攻撃に苦しめられます。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"この状況を打開するため、\n\0":
+'???',
+
+#
+# ./USRDIR/event/n013.har_EXTRACT/n013.evs
+#
+# Misato Katsuragi 
+"全プログラムを消去する作戦を実行します。\n\0":
+'???',
+
+# Misato Katsuragi 
+"しかし、ΘΑは自動停止しました\n\0":
+'However, J.A. automatically shut down.\n\0',
+
+# Misato Katsuragi 
+"これより、ΘΑ暴走事件の報告を行います\n\0":
+'???',
+
+# Misato Katsuragi 
+"日本重科学工業共同体が開発した\n使徒迎撃用ロボット、ジェット・アローン、ΘΑは\n\0":
+'???',
+
+# Misato Katsuragi 
+"しかし、プログラムは変更されており、\n\0":
+'???',
+
+# Misato Katsuragi 
+"披露会場にて、起動テスト中、\n機体が突如制御不能になり、暴走。\n\0":
+'???',
+
+# Misato Katsuragi 
+"プログラム消去パスワードは拒否されました。\n\0":
+'???',
+
+# Misato Katsuragi 
+"今回の事件は、何者かの手により\n仕組まれた可能性が高いと思われます。\n\0":
+'???',
+
+# Misato Katsuragi 
+"制御棒の作動不能、\n炉心融解の危険、\n自動停止０．００００２％の確率\n\0":
+'???',
+
+# Misato Katsuragi 
+"作戦を変更し、強制的に制御棒を動かしますが、\n\0":
+'???',
+
+# Misato Katsuragi 
+"それとは無関係にΘΑは活動を停止しました\n\0":
+'???',
+
+# Misato Katsuragi 
+"以上の事から、私の独断でΘΑを停止させるべく内部に直接進入し、\n\0":
+'???',
+
+#
+# ./USRDIR/event/n014.har_EXTRACT/n014.evs
+#
+# Misato Katsuragi, Female Staff
+"バルディエル\n\0":
+'Bardiel\n\0',
+
+# Misato Katsuragi, Female Staff
+"目標はエヴァ参号機の機体に潜み、\n起動実験中にその存在が確認されました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"フォース・チルドレン、鈴原トウジ搭乗のまま、\n参号機を使徒と識別、戦闘を開始。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"参戦したのは\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"目標は、エヴァを操り、\n圧倒的な強さで、その威力を\n見せつけましたが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"かろうじて、使徒殲滅に成功しました。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"しかし、参号機に搭乗していた\nパイロット、鈴原トウジは死亡\n選出されたばかりの貴重なパイロットを失う、\n苦い結果となりました。\n\0":
+'???',
+
+# Misato Katsuragi 
+"活動停止…！？\nパイロットからの応答は？\n\0":
+'???',
+
+# Female Staff
+"パイロットからの応答が\nありません！！\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"駄目です、\nエヴァ活動停止！！▽\nパイロットからの反応も\nありません。\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"それじゃ…、\nパイロットは…。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"目標は、ここを目指しています！\n依然、侵攻中！\n\0":
+'???',
+
+# Misato Katsuragi 
+"ここは危険だわ。\n総員撤退！！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"総員撤退しろ！\n撤退だ！！\n\0":
+'???',
+
+# Female Staff
+"総員、撤退して下さい。\n繰り返します、\n総員、撤退して下さい！！\n\0":
+'???',
+
+# Makoto Hyuga
+"わぁっ、駄目です！！\nま、間にあいません。\n\0":
 '???',
 
 # Male Staff
-"わぁっ！！\nき、来ました…。\nうわぁぁぁぁぁあ！！\n\0":
+"だ、駄目です…。\n間に合いません…！！\nここまで、すぐ来ます！\n\0":
+'???',
+
+# Misato Katsuragi 
+"早く、みんな逃げなさい！！\n\0":
+'Hurry, everyone get away!!\n\0',
+
+# Kozo Fuyutsuki
+"とうとうここまで侵入して\n来たか…。\n\0":
+'???',
+
+# Shigeru Aoba
+"来た…、\nあの音、間違いない…、奴だ。\n\0":
+'???',
+
+# Female Staff
+"そんな、ここまで力を\n尽したというのに…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le002.evs
+#
+# Shinji Ikari
+"た、助けて…。\n助けてっ…！！\nどうすれば、これ…わぁぁぁ…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"わわっ、何や！？\n何なんや、これ？\nどないなってんねん！？\n\0":
+'???',
+
+# Misato Katsuragi 
+"どう？\n相手の動きは。\n\0":
+'???',
+
+# Male Staff
+"使徒の動きはどうでしょうか？\n\0":
+'???',
+
+# Shigeru Aoba, Female Staff
+"いまだ沈黙を続けています。\n\0":
+'???',
+
+# Shinji Ikari
+"僕が先手を打ちます。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"何よ、こっちから出てやりゃ\nいいのよ。\n行くわよッ！！\n\0":
+'???',
+
+# Rei Ayanami 
+"零号機、\n先制攻撃に出ます。\n\0":
+'???',
+
+# Toji Suzuhara 
+"えぇい、待ってられへんわ。\nこっちから撃って出たる！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"今のうちに、\n仕留められるなら…。\n四号機、行きます。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"影…！？\nこれは…！\n\0":
+'A shadow...?!\nThis is...!\n\0',
+
+# Misato Katsuragi 
+"ちょっと、待ちなさい！\n危険だわ！！\n\0":
+'???',
+
+# Male Staff
+"危険です。\n待機態勢に戻ってください！\n\0":
+'???',
+
+# Ritsuko Akagi 
+"そこは危険だわ！\n影から離れて！！\n\0":
+'???',
+
+# Makoto Hyuga, Female Staff
+"使徒、消失しました！\n\0":
+'???',
+
+# Asuka Soryu Langley
+"影…！？\nちょっとッ！！\n足元が…何コレェ！？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"消えた！？\nどういう事！？\n\0":
+'???',
+
+# Male Staff
+"消失！？\n反応は…！？\n\0":
+'???',
+
+# Rei Ayanami 
+"身動きが取れない…。\n吸い込まれる…！？\n\0":
+'???',
+
+# Toji Suzuhara 
+"あぁぁぁ…。\n沈む、沈んでまう…。\n抜けられへん………。\n\0":
+'???',
+
+# Rei Ayanami 
+"影が…！？\n\0":
+'A shadow...?!\n\0',
+
+# Male Staff
+"影から離れてください！\n危険です！\n\0":
+'???',
+
+# Misato Katsuragi 
+"影から離れて！！\n逃げてッ！！\n\0":
+'Get away from the shadow!\nRun!!\n\0',
+
+# Makoto Hyuga, Female Staff
+"パターン青！\n初号機の真下ですっ！\n\0":
+'Pattern blue!\nDirectly under Unit-01!\n\0',
+
+# Makoto Hyuga, Female Staff
+"パターン青！\n弐号機の真下ですっ！\n\0":
+'Pattern blue!\nDirectly under Unit-02!\n\0',
+
+# Shinji Ikari
+"か…、影が？\n何だよこれ！？\nおかしいよ…！\n\0":
+'A sh-shadow?\nWhat is this?!\nIt\'s weird!\n\0',
+
+# Makoto Hyuga, Female Staff
+"パターン青！\n零号機の真下ですっ！\n\0":
+'Pattern blue!\nDirectly under Unit-00!\n\0',
+
+# Makoto Hyuga, Female Staff
+"パターン青！\n参号機の真下ですっ！\n\0":
+'Pattern blue!\nDirectly under Unit-03!\n\0',
+
+# Asuka Soryu Langley
+"やだ…！！\n沈む、沈んじゃう！！\n誰か！　どうにか出来ないの…。\n\0":
+'???',
+
+# Makoto Hyuga, Female Staff
+"パターン青！\n四号機の真下ですっ！\n\0":
+'Pattern blue!\nDirectly under Unit-04!\n\0',
+
+# Kaworu Nagisa 
+"くっ…、しまった。\n捕らえられたか………。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le003.evs
+#
+# Shinji Ikari
+"ここは、どこなんだろう。▽\n外は真っ白だし。\nレーダー電波やソナーは\n返ってこない。▽\n空間が広すぎるんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"システムを\n生命維持モードに切り替えてから、\nもう１２時間。▽\n僕の命も、あと４、５時間か。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"どうなってるの？▽\n一体何をされたって言うの！？\nレーダー電波もソナーも\n役に立ちゃあしない。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"…このまま救助が来なかったら。\n生命維持モードにしても、\n限界はあと４、５時間の命…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ヤダ…。\nこんな終わり方って\n絶対にヤダ！！\n\0":
+'???',
+
+# Rei Ayanami 
+"レーダー電波もソナーも\n反応がない。\n\0":
+'???',
+
+# Rei Ayanami 
+"生命維持モードは、\nあと４、５時間は持ちそう。\n\0":
+'???',
+
+# Rei Ayanami 
+"静かだわ。\n静か過ぎて耳が痛いくらい…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"出せコラー！！\nワレ、出さんかい！！\nこン野郎〜…！！▽\nどうなっとんねん、\nどこやねんここ？▽\n外は何の反応もないし…。\nワシ、一人なんか！？\n\0":
+'???',
+
+# Toji Suzuhara 
+"…どんだけ、時間過ぎてんねやろ。\nここで、死ぬんか…ワシ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"……………チッ。▽\n今日、ナイターあるんやった。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"恐らくここは、負のエネルギー空間。\nレーダー電波もソナーも\nここじゃ役に立たないな。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"生命維持モードは、\nよくて５時間…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"計画の狂いは、\nここまで及ぶ…か。\n\0":
+'???',
+
+# Misato Katsuragi 
+"じゃあ、あの影の部分が\n使徒の本体なわけ？\n\0":
+'???',
+
+# Makoto Hyuga
+"では、あの影の部分が\n使徒の本体だと…？\n\0":
+'So, that shadow section is\nthe Angel\'s real body?\n\0',
+
+# Male Staff
+"あの影の部分が…使徒ですか？\n\0":
+'That shadow section... is the Angel?\n\0',
+
+# Ritsuko Akagi 
+"直径６８０メートル、\n厚さ約３ナノメートルのね。▽\nその極薄の空間を、内向きの\nΑΤフィールドで支え、内部は\nディラックの海と呼ばれる虚数空間。▽\n…多分、別の宇宙に\n繋がっているんじゃないかしら？\n\0":
+'???',
+
+# Maya Ibuki, Female Staff
+"直径６８０メートル、\n厚さ約３ナノメートル。▽\nその極薄の空間を、内向きの\nΑΤフィールドで支え、内部は\nディラックの海と呼ばれる虚数空間。▽\n…恐らく、別の宇宙に\n繋がっているものと思われます。\n\0":
+'???',
+
+# Misato Katsuragi, Makoto Hyuga
+"あの球体みたいなものは？\n\0":
+'???',
+
+# Male Staff
+"質問です。\nあの球体みたいなものは？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"本体の虚数回路が閉じれば\n消えてしまう。\n上空の物体こそ影にすぎないわ。\n\0":
+'???',
+
+# Maya Ibuki, Female Staff
+"本体の虚数回路が閉じれば\n消えてしまいます。▽\n上空の物体が、\n影という事になりますね。\n\0":
+'???',
+
+# Misato Katsuragi, Makoto Hyuga, Male Staff
+"エヴァを取り込んだ、\n黒い影が目標か。\n\0":
+'So the black shadow that absorbed\nthe Eva is our target.\n\0',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le004.evs
+#
+# Shinji's Shadow [Leliel]
+"気分はどう？\n\0":
+'???',
+
+# Shinji Ikari, Rei Ayanami
+"…誰？\n\0":
+'...Who\'s there?\n\0',
+
+# Shinji's Shadow [Leliel], Kozo Fuyutsuki
+"碇シンジ。\n\0":
+'Shinji Ikari.\n\0',
+
+# Shinji Ikari
+"それは、僕だ。\n\0":
+'That\'s me.\n\0',
+
+# Shinji's Shadow [Leliel]
+"僕は君だよ。\n人は自分の中に\nもう一人の自分を持っている。▽\n自分というのは\n常に、二人で出来ているものなのさ。\n\0":
+'???',
+
+# Shinji Ikari
+"二人？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"実際に見られる自分と\nそれを見つめている自分だよ。▽\n碇シンジという人物だって\n何人もいるんだ。▽\n他人の心の中にいる、碇シンジ。\n皆それぞれ違う碇シンジだけど、\nどれも本物の碇シンジさ。\n\0":
+'???',
+
+# Shinji Ikari
+"何で、出てきたんだ…。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"怖いんだろう？\n他人の中の自分が。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"寂しいの？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"誰？\n\0":
+'Who is it?\n\0',
+
+# Asuka's Shadow [Leliel], Kozo Fuyutsuki
+"惣流・アスカ・ラングレー。\n\0":
+'Asuka Soryu Langley.\n\0',
+
+# Asuka Soryu Langley
+"それは私。\n私が惣流・アスカ・ラングレーよ。\n\0":
+'That\'s me.\nI am Asuka Soryu Langley.\n\0',
+
+# Asuka's Shadow [Leliel]
+"そうよ。\nあなたも、そう。\n惣流・アスカ・ラングレー。▽\nあなたの中のアスカ。\nみんなの中のアスカ。\nそれが私。▽\nいつも心の奥底で泣いている。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"いつも…、\n一人になる事を恐れている。\n\0":
+'???',
+
+# Rei Ayanami 
+"あなたは誰？\n\0":
+'Who are you?\n\0',
+
+# Rei's Shadow [Leliel], Kozo Fuyutsuki
+"綾波レイ。\n\0":
+'Rei Ayanami.\n\0',
+
+# Rei Ayanami 
+"あなたも綾波レイなの？\n\0":
+'You are also Rei Ayanami?\n\0',
+
+# Rei's Shadow [Leliel]
+"そう、みんなが綾波レイと呼ぶもの。\n偽りの魂と作られた体を持つ、\n人のマネをしている物体。\n\0":
+'???',
+
+# Rei Ayanami 
+"それが私…。\nあなたは本当の私…。\nいつも私を見つめている私？\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"あなたの暗くて見えない心を\n私は知りたい…。▽\nあなたは、一体\n何のために生きているの？\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"…なあ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"…って、なんやねん！\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"なんやねんて、誰に言うとうねん！\n\0":
+'???',
+
+# Toji Suzuhara 
+"ワシやんか…。\nなんや、えらい男前や思たわ。\nんで何の用事やねん、ああ？\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"ああって、\n何自分自身にイキってんねん？\nま、自分相手やからキレれんのか。▽\nホンマはヘタレやもんな…。\n周りにヘタレ隠すんに必死やもんな。\n…なんか見苦しいわ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"なっ…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"なあ、ずーっと自分を\n演じ続けていかなあかんのって、\nちょっとしんどないか？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ…\n\0":
+'Heh heh...\n\0',
+
+# Kaworu Nagisa 
+"これは…？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"僕がわかるかい？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…己の内面。\n弱い部分と向き合うなんて、\n未熟なリリンどもの風習だね…。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"その未熟なリリンの物真似が\n上手になったね。\n内面の弱さまで再現してるんだから。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"………。\n一体、何しに現れたの？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ…。\n確認だよ。\n本来の目的を忘れてはいないかい？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le005.evs
+#
+# Shinji's Shadow [Leliel]
+"自分が怖い？\n他人の自分が…。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"恐れているのね…。\n一人になる事を。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"…それで結局、\n何のために生きているの？\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"なあやっぱり、\n自分を演じていくのんって\nしんどいやろ？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"繰り返すよ。\n本来の目的を忘れてはいないかい？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le006.evs
+#
+# Misato Katsuragi, Makoto Hyuga
+"エヴァの強制サルベージ！？\n\0":
+'???',
+
+# Male Staff
+"エヴァの強制サルベージですか！？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"可能と思われる唯一の方法よ。▽\n９２２個、現存する全ての\nΝ爆雷を中心部に投下。▽\nその瞬間的エネルギー量により、\n使徒が形成しているディラックの\n海を破壊するしかないわ。\n\0":
+'???',
+
+# Maya Ibuki 
+"現在、可能と思われる\n唯一の方法です。▽\n９２２個、現存する全ての\nΝ爆雷を中心部に投下。▽\nその瞬間的エネルギー量により、\n使徒が形成している\nディラックの海を破壊します。\n\0":
+'???',
+
+# Female Staff
+"現在、可能と思われる唯一の\n方法です。▽\n９２２個、現存する全ての\nΝ爆雷を中心部に投下。▽\nその瞬間的エネルギー量により、\n使徒が形成している\nディラックの海を破壊します。\n\0":
+'???',
+
+# Misato Katsuragi 
+"でも、これではエヴァの機体がどう\nなるか、パイロットがどうなるか。\n救出作戦とは言えないわ。\n\0":
+'???',
+
+# Makoto Hyuga, Male Staff
+"でも、それではエヴァの機体が…、\nパイロットだってどうなるか。\n救出作戦とは言い難いのでは…。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"作戦は、エヴァの機体回収を\n最優先とします。▽\n例えボディが寸断されていても\n構わないわ。▽\nこの際、\nパイロットの生死は問いません。\n\0":
+'???',
+
+# Maya Ibuki 
+"しかし、他に方法がありません。\n可能性がある事だけでも、\n幸運な事なんですから。\n\0":
+'???',
+
+# Female Staff
+"他に方法がないんです。\nこのまま何もせずにいれば、\nそれこそパイロットは助かりません。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le009.evs
+#
+# Shinji Ikari
+"ミサトさん？\nミサトさん！？\nミサトさ………………。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le101.evs
+#
+# Shinji Ikari
+"怖くなんか無いよ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"嘘だね。\n他人に嫌われていないか、\nいつも他人の中の自分を気にしてる。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le102.evs
+#
+# Shinji Ikari
+"嫌われるのは嫌だよ。\n誰だってそうじゃないか。\n君だって、嫌われたくは無いだろ！？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"嫌われる原因と結果は、\n君が生み出すんだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le103.evs
+#
+# Shinji Ikari
+"別に、嫌われたっていい。\n全ての人に好かれるなんて、\nそんな事はムリなんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"人は一人でも生きていける。\n楽しい思い出だけを胸に\n生きていける。▽\nけどね、\nそのうちきっと寂しくなるんだ。\n心の渇きに気づくんだ。▽\n他人に興味の無いフリを続けながら。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le104.evs
+#
+# Shinji Ikari
+"僕ばっかりが悪くは無い。\n悪くなくても、\n嫌われる時はあるんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"そうやって、\n他人と距離をおこうとしている。\n楽だからね、傷つかなくていいから。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le105.evs
+#
+# Shinji Ikari
+"悪いのは、僕だ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"内罰的だね。\nそうやって、\n他人との距離を広げていく。\n\0":
+'???',
+
+# Shinji Ikari
+"何もしなければ、\nきっと誰も傷つかないよ。▽\n嫌われる原因を作らなければ\nいいんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"その代わり、何も始まらない。\n何も良くはならないよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le106.evs
+#
+# Shinji Ikari
+"誰だってそうだ。\n楽しい思い出を大事にして\n生きてるはずだよ。▽\nそれさえあれば、\n生きていけるんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"でも、思い出はそこで終わり。\n同じ思い出ばかりを繋いで、\n何も変われない生き方を歩むのか？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le107.evs
+#
+# Shinji Ikari
+"ムリに足掻こうとするから\n苦しいんだ。▽\n諦めれば、楽になる。\n諦めは…、\n人が生きていくのに必要な事だよ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"でも、君の中に抱えている\n後悔は隠せないよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le108.evs
+#
+# Shinji Ikari
+"自分を大事にしてやれるのは、\n自分しかいないんだ！\n自分を守って何が悪い！\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"本音が出たね。\n\0":
+'???',
+
+# Shinji Ikari
+"誰も、誰も守ってくれないもの！\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"責任転嫁かい？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le109.evs
+#
+# Shinji Ikari
+"それは、違う。▽\n嫌われるのは怖いけど、\nだからといって、\n一人になるのは違うと思う。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"そうやって、ほのかな期待を\n積み上げて生きていくんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"いつかはきっと、\n楽しい時が来るかもしれないから。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le110.evs
+#
+# Shinji Ikari
+"傷つかない為には、\n何もしない方がいい。▽\nでも、状況をよくする為には、\n何かをしないといけない。▽\nどっちなんだよ！\nどう生きていけばいいんだ！？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"その答えがあったとしても、\n結局不満は残るよ。▽\n君が、他人との恐怖に\n捕らわれているままだったら。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le111.evs
+#
+# Shinji Ikari
+"いい事なんか無いよ。\nこれ以上嫌われない為に\n何もしない方がいいんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"嫌われないかわりに、\n皆から忘れ去られても？\n自分の存在がなくなっても？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le112.evs
+#
+# Shinji Ikari
+"変化なんて要らない。▽\nせっかく居心地がいい\n場所を見つけても、\n変化がそれを奪うんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"その後にやってくる\n新しい世界を知るには、\n痛みを伴うものなんだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le113.evs
+#
+# Shinji Ikari
+"変化は望まなくてもやってくる。\nエヴァに乗る事だってそうだ。\n僕が望んだ変化じゃない。▽\nでも、悪くは無い変化もあった…。▽\n思い出が尽きる事は無いよ。\nもちろん、\nいい事ばかりじゃないけど。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"惰性だね。\n痛みを知る覚悟が無いだけなんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le114.evs
+#
+# Shinji Ikari
+"後悔しない人間なんて、\nいないはずだよ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"そう、普通はね。\n後悔があっても乗り越えられるから。▽\nでも、君は後悔のその先の一歩を、\n踏み出せずにいつまでも\n引きずっている。▽\n諦めが悪いね。\n\0":
+'???',
+
+# Shinji Ikari
+"…状況を変えようなんて\n思わなくても、時間が解決するさ。▽\n人は痛みを忘れるように\n出来てるんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le115.evs
+#
+# Shinji Ikari
+"そんな事、思い出させないでよ！\n何で僕を傷つけるんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"今まで君が押し込めていた\n痛み苦しみ、それが僕さ。▽\nでも、僕は君と会う必要が\nあったんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"どうして…、そんな…？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"僕と向き合う準備を\nしないといけない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le116.evs
+#
+# Shinji Ikari
+"怖いのは…。\n他人からはどう映ってるか\nわかりっこないから。▽\n僕も、他人の中の僕も\n一緒かもしれないけど。▽\n他人からの見方は違うもの。\nわからないから、怖いんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"でも、他人の中の自分を\nまざまざと見れたとしても、\n恐怖は取り除かれはしないよ。▽\n君は、他人に心を覗かれても\n怖くはない？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le117.evs
+#
+# Shinji Ikari
+"そんな…、嫌だよ！\n心を覗かれるなんて。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"心の中を知られると、\n嫌われるかもしれない。\nそういう思いが君の中にあるわけだ。▽\n他人が自分を傷つけるとばかり\n思ってるけど、どうかな？▽\n自分もまた、他人を傷つける事に\nなるかもしれないんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le118.evs
+#
+# Shinji Ikari
+"いっそ、心が見えればいいと思う。\n少なくとも誤解が無い様に、\n僕の気持ちは伝えられる。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"でも、拒否される事もある。\n\0":
+'???',
+
+# Shinji Ikari
+"何も言えなくなるよりマシだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"まあ、人の顔色をうかがう\n気苦労は無くなるだろうね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le119.evs
+#
+# Shinji Ikari
+"僕は誰も傷つけてない。\n何も言っていない。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"そうやって、\n他人と距離をおこうとしてる。▽\nまず、それで誰かを傷つけている。\n自分自身もね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le120.evs
+#
+# Shinji Ikari
+"人を傷つけた事はあると思う。\n心の中に仕舞い込んだ言葉を\nうっかり出したりして。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"バカな事をしたと？\n\0":
+'???',
+
+# Shinji Ikari
+"嫌われたかもしれない。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"それで、人と関わる事を\n快く思わないと…。▽\nじゃあ、もう他人に対する\n恐怖しか残らないね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le121.evs
+#
+# Shinji Ikari
+"みんな心を隠しすぎるんだ。\nお互いを理解したくないんだよ。▽\n心を隠しているうちは、\n打ち解けるわけが無いんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分自身が心を隠しておきながら、\nどうしてそんな事が言えるんだ？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le122.evs
+#
+# Shinji Ikari
+"付け入る隙を狙ってるんだ。\nみんな、優しくするふりをして、\n傷つけようと構えてるんだ。▽\nそんな事なら、お互いの心の中が\n見えていた方がいい。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"傷つけるのは\n他人ばかりじゃないよ。▽\n他人の顔色をうかがって、\n隙を見つけようとしてるのは\n君の方だ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le123.evs
+#
+# Shinji Ikari
+"僕が傷つくのは、\n自分自身のせいなのか…。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"痛みを感じる自由も\nあるという事だ。\n\0":
+'???',
+
+# Shinji Ikari
+"よくわからない。\n痛みなんて、要らないのに。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le124.evs
+#
+# Shinji Ikari
+"違う。\n僕が傷つくのは他人のせいだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"じゃあ、幸せになる事も全て\n他人任せにするのかい？\n\0":
+'???',
+
+# Shinji Ikari
+"僕は…、\nそんなに自由じゃないんだ。\n色んなしがらみが多すぎるんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le125.evs
+#
+# Shinji Ikari
+"でも、他人が怖くても、\n人に嫌われるのが怖くても、\n人を好きにはなりたいんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"幻想の中にいては、\n祈りも願いも意味のないものだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le126.evs
+#
+# Shinji Ikari
+"だから、他人といるのが怖いんだ▽\n嫌われるかもしれないって、\nそればかりに怯えないと\nいけないから。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"孤独でいるのが居心地がいい？\nそのくせ、他人の事ばかり\n気にしてる。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le127.evs
+#
+# Shinji Ikari
+"だから、きっかけを待ってる。\nお互い、理解しあえる瞬間を。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分からは何もしない。\nそれは、理解するという事を\n既に放棄してるよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le128.evs
+#
+# Shinji Ikari
+"僕だって、心を隠したくない。\n自分を知ってもらう事で、\n何かが変われると思うし。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"期待通りに行かなかったら？\n今度は何を責めるつもり？\n何に期待を抱くつもり？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le129.evs
+#
+# Shinji Ikari
+"僕は、そんな事していない。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"いいや、そうだね。\n自分が傷つかない為に、\n必死なんだろう。▽\n相手を不快にさせない為に。\n嫌われないように。▽\nでも結果、その行為が\n他人に嫌な思いをさせてるんだ。▽\n自分がなくなるよ、\nそんな事ばかりしていると。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le130.evs
+#
+# Shinji Ikari
+"他人と上手くやっていくには、\nそうするしかないんだ。▽\n傷つけるつもりも無い。\n相手を不快にさせない為に\nやってるんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分でも、そういう行為を\n冷めた目で見てるんじゃない？▽\n計算高い自分に\nどこかで気付いてるハズだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le131.evs
+#
+# Shinji Ikari
+"他人の事なんか、\nどうだっていいよ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"傷つく事を避けたいからだろ？\n他人に興味ないフリを\nしているだけさ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le132.evs
+#
+# Shinji Ikari
+"だって、どうしようもないんだ。\n他人の中の僕までは\n変えられないもの。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分が変わろうとは思わない？\n他人の中の自分を変える為に。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le133.evs
+#
+# Shinji Ikari
+"自分の事だけで精一杯なんだ。\n他人の事まで考えている\n余裕なんかないよ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"他人は、自分を映し出す\n鏡だからね。▽\n少なからず、他人を意識せずには\nいられないものだよ。▽\nだから、君は僕を無視する事は\n出来ない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le134.evs
+#
+# Shinji Ikari
+"それは自分を殺すって事だ。\n自分という存在を他人の都合に\nあわせるだけだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分の中に、\nそれほど譲れないものが\nあるわけじゃないだろ？▽\nただ、傷つきたくないから、\nそういう言い訳をしてるんだ。\n変わる事を恐れてるだけなんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le135.evs
+#
+# Shinji Ikari
+"僕は変われるの？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"人は変わろうと思った瞬間から、\n変わり始める。\n良い方にも、悪い方にも。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le136.evs
+#
+# Shinji Ikari
+"君は他人なの？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"他人にしているだけだ、君が。▽\n自分自身を隔離し、分離して、\nこれは自分じゃないと\n思い込んでいる。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le137.evs
+#
+# Shinji Ikari
+"君は僕自身なんだろう？\nどうして思ってもない事を言うのさ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"僕が言うのは、\nいつも君が思っている事。▽\n君は、僕を、自分自身を\n信頼出来ないから、\nあえて欠如させたんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le138.evs
+#
+# Shinji Ikari
+"変わると…、\n今までの僕がなくなるんだ。▽\nせっかく積み上げていた楽しい事が、\n何でもない事に変わってしまうかも\nしれない。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"人は皆、変わるよ。\n本当に必要なものを見つめる為に、\n不要になった思い出は手放すものさ。\n\0":
+'???',
+
+# Shinji Ikari
+"僕の事を忘れる人も…？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"いるだろうね。\n人は、昔の自分自身でさえ\n簡単に忘れてしまうものさ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le139.evs
+#
+# Shinji Ikari
+"変わる事が正しいわけじゃない。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"変化に期待する事を\nやめればいいんだ。▽\n代償を求めるうちは、\n変化を受け入れられないよ。\n\0":
+'???',
+
+# Shinji Ikari
+"何の事…？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"期待をし、裏切られる。\n変わったのは、\n自分のせいじゃないと言う。▽\n変わる事を選んだのは、\n自分自身なのに。▽\n君は、期待の向こうにある絶望を\n避けようとして、変われないんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le140.evs
+#
+# Shinji Ikari
+"僕は、変わりたいと思う。\nでも…。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分がどんな存在でいたいのかが\nわからないだけなんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"変わった先の自分は、\nみんなに好かれる自分かどうか、\nわからないから。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"周りが期待している自分になる\n必要はない。▽\nそれは変化じゃない。\n服従、依存だよ。▽\n居場所を確保しようと\nしているだけだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le141.evs
+#
+# Shinji Ikari
+"周りは変わってくれないの？\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"変わるよ。\nそれが君にとって、\nいい事かどうかに関わらずね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le142.evs
+#
+# Shinji Ikari
+"じゃあ、何で僕を傷つけるんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"僕は君にとっての真実だ。▽\n君は自分に正直でないから、\n否定的に捉えてるだけだよ。\n他人の中の僕も、君の中の僕も。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le143.evs
+#
+# Shinji Ikari
+"何を求めるの…僕に。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"他人からではなく、\n自分自身による価値。\n\0":
+'???',
+
+# Shinji Ikari
+"わからないよ…。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"それが、君自身が望む事だ。\n価値は誰も与えてはくれない。\n自分以外の誰も。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le144.evs
+#
+# Shinji Ikari
+"君なんて必要ない。\n必要ないから、忘れられたんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"でも、今こうして君と\n向かい合ってる。\n君が必要としたからだよ。\n\0":
+'???',
+
+# Shinji Ikari
+"僕が…？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le145.evs
+#
+# Shinji Ikari
+"君は…、本当は何者なんだ。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"碇シンジ。\n君だよ。\n\0":
+'???',
+
+# Shinji Ikari
+"信じられないな。\n\0":
+'???',
+
+# Shinji's Shadow [Leliel]
+"自分を信頼していないからね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le201.evs
+#
+# Asuka Soryu Langley
+"私は、一人で生きるの。\nずっとそう決めてきたの。\nそんな弱音は吐かないわ。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"でも、誰かを思わずには\nいられない。▽\nママにしか呼びかけられない事を、\n寂しく思ってるんでしょう。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le202.evs
+#
+# Asuka Soryu Langley
+"寂しくなんかない。\nみんなバカばかりだもの。\n一緒にいたくないバカばかり。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"他人を見下す事で、\n自分が優位だという\n救いの場が欲しいのよ。▽\n寂しいから。\n一人になった時の\n逃げ道が必要だったのよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le203.evs
+#
+# Asuka Soryu Langley
+"ママ以外、誰も要らない。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"ママだけを拠り所に一生、\n生きていくの？▽\nあなたを人形にしたママを？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le204.evs
+#
+# Asuka Soryu Langley
+"逃げてなんかないわよ！\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"その逃げた先から、\nいつか、自分のすごさをわかって\nくれると、人から求めてもらおうと。▽\n振り返りながら、\n誰かを待ってるのよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le205.evs
+#
+# Asuka Soryu Langley
+"私は選ばれた人間なのよ！\nみんな私を大事にするわ。\n寂しくなんかない。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"そうよ。\nみんなが必要としているのは、\nパイロットとしての私。▽\n私そのものには、\n誰も目を向けないわ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le206.evs
+#
+# Asuka Soryu Langley
+"私は人形じゃない！\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"人形としての生き方を\n選ばなかった代わりに、\n孤独を選んだのね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le207.evs
+#
+# Asuka Soryu Langley
+"ママは私を捨てたの？\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"ママは、\n自分の中の私を愛していたわ。\nそれだけよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le208.evs
+#
+# Asuka Soryu Langley
+"一人でいるのが怖いの。\n認められる為に、\nエリートになったのに。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"ますます虚勢を張るだけしか\n出来なくなったのよね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le209.evs
+#
+# Asuka Soryu Langley
+"寂しいのは\n私のせいだっていうの…？\n\0":
+'You\'re saying it\'s my\n fault I\'m lonely...?\n\0',
+
+# Asuka's Shadow [Leliel]
+"あなたは\n人を遠ざけるために努力した。\n大学を出た、エヴァに乗った…。▽\nそう、\nすべてあなたの努力の成果なのよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le210.evs
+#
+# Asuka Soryu Langley
+"一人になるのは他人のせい？\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"あなたと、あなたの中の他人。\n他人はみんな\nあなたの孤独に気がつけない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le211.evs
+#
+# Asuka Soryu Langley
+"私は認められたかっただけ…。\nこんなの望んでいなかった…。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"あなたが認めさせたかった相手は\nもういないのよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le212.evs
+#
+# Asuka Soryu Langley
+"私はエリートよ。\n選ばれた人間は孤独な存在…。\n誰にも頼りたくないわ。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"結局その虚栄心が一番大事なのね…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le214.evs
+#
+# Asuka Soryu Langley
+"イヤよ…、一人で苦しむのは嫌…。\nどうすれば\n他人に気が付いてもらえるの？\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"すべてを捨ててしまえば、\n哀れんでもらえる…。▽\nでもあなたは\n何も手放したくないのでしょ？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le215.evs
+#
+# Asuka Soryu Langley
+"誰も…、\n私を守ってくれないの？\n\0":
+'There\'s no one\n protecting me?\n\0',
+
+# Asuka's Shadow [Leliel]
+"遠ざけるから。\n自分も、他人も。\nだから、本音は誰にも届かない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le216.evs
+#
+# Asuka Soryu Langley
+"こんなに苦しんでいるのに、\n気が付いてももらえないの？\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"あなたも他人の苦しみが\n届かない位置にいる。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le217.evs
+#
+# Asuka Soryu Langley
+"こんなに苦しんでいるのに…。\n他人って冷たいのね…。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"みんなその冷たさに耐えているのよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le218.evs
+#
+# Asuka Soryu Langley
+"誰かに手を差し伸べて欲しい。\n誰かの手に届く位置にいて欲しい…。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"エヴァを駆り、使徒を倒す…。\nそのために選ばれたあなたを、\n誰も近くになんか置かないわ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le219.evs
+#
+# Asuka Soryu Langley
+"私が苦しんでいるみたいに、\n他の人も苦しんでいるの？\nそんなハズはないわ。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"他人の苦しみを知りたくないから\n距離を取ったのでしょう？▽\n知ってしまえば優しくしてしまう。\n偉そうにできなくなってしまう…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le220.evs
+#
+# Asuka Soryu Langley
+"みんなも？\n私だけじゃなかったの？\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"でもあなたは他の人と違う。\n選ばれた人なんでしょう？\n同じじゃないわね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le221.evs
+#
+# Asuka Soryu Langley
+"私は違うわ…。\nだって私は他の人と違うんだもの…。\n\0":
+'???',
+
+# Asuka's Shadow [Leliel]
+"孤独に凍えているあなたを知ったら、\n誰もそうは思わないでしょうね。\nやはり誰も近づけない方がいいわ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le301.evs
+#
+# Rei Ayanami 
+"わからない…。\n心は自分で見えないから。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"あなたは利用されているだけ。\n本当は誰にも必要とされていない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le302.evs
+#
+# Rei Ayanami 
+"私、自分がわからない。\n\0":
+'I don\'t understand myself.\n\0',
+
+# Rei's Shadow [Leliel]
+"自分という存在に興味が無いのね。\n生きる事を放棄している。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le303.evs
+#
+# Rei Ayanami 
+"私には、果たすべき役割がある。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"果たし終わったら、残るものは何？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le304.evs
+#
+# Rei Ayanami 
+"ちがう…。\n自分がわからないのは…。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"空っぽだから。\n何も無いから見えない。\n理解しようがない。▽\nでもそれは…。\nあなたが目を背けているから。▽\n本当は心の奥底に持っている自分を\n見ないようにしているだけ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le305.evs
+#
+# Rei's Shadow [Leliel]
+"自分が無価値である事に\n気が付きたくないだけ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le306.evs
+#
+# Rei Ayanami 
+"また次の役目があるわ。\n私にしかできない事が…。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"そんな形でしか、\nあなたは他人に関われないのね…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le307.evs
+#
+# Rei Ayanami 
+"果たした役割はデータとして残る。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"ただの数値の羅列が残るだけ。\n人の想いに関わる事はできない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le308.evs
+#
+# Rei Ayanami 
+"目的なんて無くても\n生きていけるわ。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"それでは生きているとは言えない。\n存在しないと同じ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le309.evs
+#
+# Rei Ayanami 
+"それでいい、それで構わない。\n私が生き、ここにいる。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"ただ生きていたいだけなら、\n危険なパイロットを\n辞めなければならない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le310.evs
+#
+# Rei Ayanami 
+"でも変わると思う。\nそのために私は戦っている。\nエヴァに乗っている。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"使徒をすべて倒した後の事を\n言っているのね。\nそんな事、あなたにできると思う？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le311.evs
+#
+# Rei Ayanami 
+"それは私の役目。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"報われない仕事ね…。\nこれまで誰もあなたの辛さを\n理解しなかった。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le312.evs
+#
+# Rei Ayanami 
+"私はエヴァに乗る。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"あなたの存在意義は\nそこにしかないもの。\n依存しているのね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le313.evs
+#
+# Rei Ayanami 
+"エヴァは人類の希望よ。\n滅亡するわけにはいかない。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"そう吹き込まれて、\n誰かに利用されているのかも…。\nあなたの希望ではないのでしょう？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le314.evs
+#
+# Rei Ayanami 
+"私一人の力じゃ無理…。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"自分一人では、\n変化も期待できないのね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le315.evs
+#
+# Rei Ayanami 
+"私は、私だけの体じゃない…。\n私は絆によってこの形になったの。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"でも中身までは作られなかった。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le316.evs
+#
+# Rei Ayanami 
+"それでも私はエヴァに乗っている。▽\n絆のために、\n人と人の結びつきのために、\n私は戦っている。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"エヴァで得たものは\nいずれ消え失せるわ。\n絆も消え失せる。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le317.evs
+#
+# Rei Ayanami 
+"あるわ。\n私はここにいる。\n想いもここにあるもの。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"想いは移ろいやすいものよ。\nそんなものを根拠にするの？\n相手の気持ちも変わっていく。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le318.evs
+#
+# Rei Ayanami 
+"私がいた、という記憶は残る。\nみんな、私を忘れない。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"思い上がりね。\nあなたは誰の記憶にも留まらない。\nただいなくなるだけ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le319.evs
+#
+# Rei Ayanami 
+"消えたりしない。\n永遠に結びつく。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"一つになりたいのね。\nその人と結びつくのが\nあなたの本当の目的なの？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le320.evs
+#
+# Rei Ayanami 
+"結ばれた絆は変わらない。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"変わらない…。\nあなたはそう思い込みたいだけ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le321.evs
+#
+# Rei Ayanami 
+"それでもいい…。それでも…。\n\0":
+'???',
+
+# Rei's Shadow [Leliel]
+"想いは流れていく。\n記憶は薄れていく。▽\nそのすべてにあなたは抗わない。\nそれでは人の心に残れない。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le401.evs
+#
+# Toji Suzuhara 
+"しんどいことあるかいな！\nエエ加減にせぇよ！\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"何、ハッタリかましてんねん。\n全部わかってんねんで？\nええやん、ホンマの自分出したら。▽\n周りの人、みんなエエ人やで？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le402.evs
+#
+# Toji Suzuhara 
+"アホか！\n素じゃ！\n素中の素やっちゅうねん。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"大声出さんでええって。\n\0":
+'???',
+
+# Toji Suzuhara 
+"素じゃ…。\n素中の素やっちゅうねん…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"二回言わんでええねん！\n大声出さんと全然説得力無いやんか。\nそんなん虚勢張ってる証拠や。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le403.evs
+#
+# Toji Suzuhara 
+"ホンマの自分…？\nなんや、ソレ…。\nどういうこっちゃ？\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"単純バカの熱血漢。\nそれは弱い自分を守る\n殻みたいなもんや。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le404.evs
+#
+# Toji Suzuhara 
+"イキって何が悪いねん。\n虚勢張るんのどこがアカンねんな！\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"ほな、\nイキってたんは認めんねんな？▽\n自分が、\n小さい弱い人間やっちゅうのも\n認めたんや。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le405.evs
+#
+# Toji Suzuhara 
+"ちゃうわ！\nワシがそんなんいちいち考えながら\n人と接してるワケないやろ！\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"強情やのぉ。\nまあ、そういう演出なんやろ？\n名演技や、ホンマ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le406.evs
+#
+# Toji Suzuhara 
+"それがどないしてん！\n見栄ぐらい張らせろや。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"な〜んや、\nやっぱり自覚あったんやん…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le407.evs
+#
+# Toji Suzuhara 
+"ちゃうわい！\nワシはそんな見栄っぱりやない。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"せやけど、\nオマエそないに運動得意ちゃうやん。▽\nせやのにジャージ着こんでからに…。\nそれがハッタリやっちゅうとうねん。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le408.evs
+#
+# Toji Suzuhara 
+"なんやねんな、演じてるって…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"だって、ホンマの自分とちゃうやん。\nめっちゃイキってるイメージ\n作ってるやんか。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le409.evs
+#
+# Toji Suzuhara 
+"それがどないしてん？\nなんか文句あるんか？\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"嘘の自分で接してるって事は、や。\nその人を騙してるんと同じ事やな。\n…なんも思わへんの？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le410.evs
+#
+# Toji Suzuhara 
+"ア、アカンかな？\n悪い事…かもしれん…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"まあ、そんなん誰でもしてる事や。\nオマエも同じように\n嘘の他人と接してんねんて。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le411.evs
+#
+# Toji Suzuhara 
+"な〜んとも思わへんわ。\n悪い事してるワケやないしな。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"そりゃそうや。\n演じてるんは皆一緒や。▽\nせやからオマエの嘘なんか\nだ〜れも気にせぇへんねんて。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le412.evs
+#
+# Toji Suzuhara 
+"そんなんしゃあないやん。\n必要な事や。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"せやから、今さら辞められへん。\nもう、ジャージは脱がれへんねや。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le413.evs
+#
+# Toji Suzuhara 
+"ワシは…、嘘つきなんかもしれん…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"自分の弱さを認めてんな？\nけど、今さら作ったイメージは\n脱がれへん。▽\nオマエは、そのジャージをずっと\n着続けんといかんねや。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le414.evs
+#
+# Toji Suzuhara 
+"なんや…、みんなも嘘つきなんか…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"皆もそうやからっていうて、\n自分が許されるって事はないで。\nそんな考え方が一番ヘタレや。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le415.evs
+#
+# Toji Suzuhara 
+"そうやなぁ、\nちょっとしんどい時もあるなぁ。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"せやろ？\nもう止めてもええんちゃうか？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le416.evs
+#
+# Toji Suzuhara 
+"けど、素のワシ…、\nよう見せられへん。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"なんや、すっぴんやったら\n人前に出られへんか？▽\n今さらジャージ着てない\n鈴原トウジになられへんか？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le417.evs
+#
+# Toji Suzuhara 
+"はぁ…。\nせやなぁ、もうかったるいわ。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"せっかく着込んだ\n今までのイメージ捨てんとあかんな。▽\nけど今さら、\nそのジャージ脱げるんか？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le418.evs
+#
+# Toji Suzuhara 
+"ワシはワシや。▽\nジャージ着ようが、\nレオタード来ようが、\nワシは何も変わらへん。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"周りはドギモ抜かれるやろな…。▽\nいや、案外周りに影響力無くて、\n全然無視される可能性もあるな…。\nなんか寒いでぇ、それ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le419.evs
+#
+# Toji Suzuhara 
+"そんなん知らんわ。\n大体評判っちゅうんは\n他人が決めるもんや。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"他人に判断をおもねるんは\n楽やもんな。\nでもそれってただの責任逃れやで？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le420.evs
+#
+# Toji Suzuhara 
+"脱ぐわ…。\nワシ、ジャージしか着てへん\nイメージしかないし…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"で？　次は何着んの？\nま、それも別の偽りの自分自身を\n作るだけの事やけどね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le421.evs
+#
+# Toji Suzuhara 
+"脱がへん。\nジャージより\n変えなアカンもん一杯あるしな…。\n\0":
+'???',
+
+# Toji's Shadow [Leliel]
+"周りに期待しすぎちゃう？▽\nジャージ脱がへんと、\n誰も変わった事\n気が付かへんのんとちゃうやろか。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le501.evs
+#
+# Kaworu Nagisa 
+"フフフ、決まってるだろう？\n彷徨った魂が、本来の肉体に宿る…。\nつまりアダムに還る事さ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"構わないのかい？\n君が交じるリリン達の多くを、\n裏切る結果になってしまうだろう。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le502.evs
+#
+# Kaworu Nagisa 
+"構わないよ。\nそのために僕は\nゼーレの計画に乗ったんだから。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"ネルフに来て得たもの、知ったもの、\n感じたもの、触れたもの…。\nすべて失う事になっても？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le503.evs
+#
+# Kaworu Nagisa 
+"大袈裟だよ。\n彼らもわかってくれるさ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"わかってくれる？\nリリンとアダムは相容れないものさ。\nその事を理解しているくせに…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le504.evs
+#
+# Kaworu Nagisa 
+"覚悟の上さ。\nアダムの肉体を取り戻す事以上に\n大切なものって他に何かあるかい？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフフ…。\n嘘をついているね。\nずいぶん躊躇しているはずだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le505.evs
+#
+# Kaworu Nagisa 
+"だが、まだ時期尚早さ。\n物事には順序があるからね。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"失うものの大きさに、\n怖気付いているんだね。▽\nやはり\nリリンに毒されているようだ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le506.evs
+#
+# Kaworu Nagisa 
+"そうかな？\nアダム側にリリンへの関心が\nまだ不足しているんじゃないかな。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"相互理解をすれば、\n一つの種になれると？▽\n自分でも本気で思ってもいない事を\n口にしないでほしいな。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le507.evs
+#
+# Kaworu Nagisa 
+"そうだね。\nでも僕は上手くやっているだろ？\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"思い上がりだよ。\n上手くやっているのは、\n壊したくないものがあるから。▽\nそれは弱さの証明さ。\n君はリリンから弱さを学んだだけだ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le508.evs
+#
+# Kaworu Nagisa 
+"計画の進捗確認と、\nゼーレ主導の計画運用をするために\n根回しをしに来たのさ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"つまり、\nリリンの言いなりだという事だね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le509.evs
+#
+# Kaworu Nagisa 
+"仕方ないさ。\n当面の間はね。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"リリンの予定調和に\n組み込まれている事へ不満を\n感じているだろ？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le510.evs
+#
+# Kaworu Nagisa 
+"フフ、そんなつもりはないよ。\nあくまで協力しているだけさ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"そうは見えないよ。▽\nこのまま行くと\n自分がどうなるのか…、\n知らないワケじゃないだろう？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le511.evs
+#
+# Kaworu Nagisa 
+"満足しているさ…。\n現時点ではね。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"欺瞞だよ、そんなの。\n先の事を\n考えてないはずないだろう？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le512.evs
+#
+# Kaworu Nagisa 
+"くっ…、\n言うなっ！\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ…、見て見ぬふりかい？\n自分の事なのに…。▽\nともかく、\n今後君はどうするつもりなのかな？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le513.evs
+#
+# Kaworu Nagisa 
+"そう、上手く事が運ぶのかな。\nなかなか予定通りには\nいかないと思うけど。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"リリンの僕を軽視すべきじゃないよ。\n予定通りになったらどうするのか…。▽\nきちんと考えておく必要は\nあると思うね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le514.evs
+#
+# Kaworu Nagisa 
+"大丈夫さ。\n僕は生を諦めるつもりはないよ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"それは\nリリンを全滅させるって意味だね。▽\nその後、\n君の生の意味を知るものはいるの？\n君一人で生き永らえてどうするの？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le515.evs
+#
+# Kaworu Nagisa 
+"…何だろうね…。\nフフ、思い出せないよ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"ごまかしているね。\n本当はわかってるんだろ？\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le516.evs
+#
+# Kaworu Nagisa 
+"当然だよ。\nフフ、わかってはいるんだけどね…。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"ずいぶん曖昧な態度だね。\nリリンに感化されすぎたかな。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le517.evs
+#
+# Kaworu Nagisa 
+"今は…、忘れておきたいんだ…。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"リリンと交わる事に\n耽溺しているようだね。\nフフ、背徳的だ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le518.evs
+#
+# Kaworu Nagisa 
+"いや、僕はアダムだ。\n種の役割を果たすつもりさ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ、本心の言葉じゃないね。\n…いや、自分を言い聞かせようと\nしているのか。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le519.evs
+#
+# Kaworu Nagisa 
+"そう…かもしれない…な。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ…、でも敵は敵だよ？\n彼らも最終的には絶対に\n君を受け入れないだろうね。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le520.evs
+#
+# Kaworu Nagisa 
+"純粋な興味さ。\nヒトを知らないと、\nヒトに交われないからね。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"悪影響を受けているようにしか\n見えない…、いや、他人に\n交わりつつ自分を変える…。▽\nそれは、リリンならではの行為だよ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le521.evs
+#
+# Kaworu Nagisa 
+"そうじゃない！\n僕はヒトを知るために、\nヒトと接していただけだ。\n\0":
+'???',
+
+# Kaworu's Shadow [Leliel]
+"フフ、そうは見えないよ。▽\nリリンの中は暖かくて、\n気持ちよかったんだろ？\nもう、すべてを忘れてしまうほどに。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le007.evs
+#
+# Kaworu Nagisa 
+"もう、生命維持も限界か。▽\n…………………。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕の魂は僕のものだ。\n身体が滅びても、\nヒトとして生きた事を忘れても。▽\n僕はアダムの運命はもう、\n歩まない…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕は、ヒトとして生きた。\n死ぬ時もヒトとして死のう。▽\nさよなら…、みんな…。\n\0":
+'I lived as a human.\nShould I ever die, let it also be as a human.▽\nFarewell, everyone...\n\0',
+
+# Shinji Ikari
+"………………………。\nもう、保温も酸素の循環も\n切れてる。\n\0":
+'???',
+
+# Shinji Ikari
+"寒い…。\n\0":
+'???',
+
+# Shinji Ikari
+"駄目だ、スーツも限界か。\n\0":
+'No good. Even the suit\'s giving out.\n\0',
+
+# Shinji Ikari
+"ここまでか。\nもう疲れた。\n何もかも。\n\0":
+'???',
+
+# Yui Ikari, Misato Katsuragi, Asuka Soryu Langley
+"もういいの？\n\0":
+'???',
+
+# Shinji Ikari
+"母さん？\n\0":
+'Mother?\n\0',
+
+# Shinji Ikari
+"もう、いいんだ。\n\0":
+'???',
+
+# Yui Ikari
+"そう、もういいのね。\nよく頑張ったわね。\n\0":
+'???',
+
+# Yui Ikari
+"おいで、シンジ。\nあなたがそう決めたのなら、\nずっとここに居てもいいのだから。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"保温も酸素の循環も\nもう、限界なんだ…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"寒いよ…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ママ…。\n\0":
+'Mama...\n\0',
+
+# Kyoko Soryu Zeppelin 
+"アスカ…。\nアスカちゃん…。\n\0":
+'Asuka...\n Asuka-chan...\n\0',
+
+# Asuka Soryu Langley
+"ママ？\n\0":
+'Mama?\n\0',
+
+# Kyoko Soryu Zeppelin 
+"アスカちゃん…。\n\0":
+'Asuka-chan...\n\0',
+
+# Asuka Soryu Langley
+"ママ…、ママぁ…。\nどこに行ってたの、ママ。▽\nもう行かないで、そばにいて！\nママ…。\n\0":
+'???',
+
+# Kyoko Soryu Zeppelin 
+"一緒よ、ずっと…。\nでも、それでいいのね？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"うん、いいの。\nママのところがいいの。\nずっとずっと、一緒にいる。\n\0":
+'???',
+
+# Kyoko Soryu Zeppelin 
+"そう…、いいのよ。\nママはずっと一緒にいるわ。▽\nアスカちゃん…。\n\0":
+'I see... That\'s good.\nMama is always with you,▽\nAsuka-chan...\n\0',
+
+# Rei Ayanami 
+"もう、何も見えない。\n何も聞こえない…。▽\n思い出すのは、ただ暗闇の中。\n\0":
+'???',
+
+# Rei Ayanami 
+"もう、帰してもらえるかしら。\n無へと…帰してもらえるのかしら。\n\0":
+'???',
+
+# Rei Ayanami 
+"この身体も、もう終わり…。▽\n時間ね…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"寒ぅ…。\nもう、プラグの機能も\n限界なんやな…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"……………………。▽\n妹、無事なんかな…。▽\nごめんな。\n兄ちゃん、戻られへんわ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"おかん…。\nもう、ワシ…。\n\0":
+'???',
+
+# Toji's Mother
+"しんどかったなぁ、もうええねんで。\n\0":
+'???',
+
+# Toji Suzuhara 
+"おかん…。\n何か、寒くて眠いんや…。\n\0":
+'???',
+
+# Toji's Mother
+"さあ眠り…、お母ちゃんが\n温めてあげるわ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le008.evs
+#
+# Shinji Ikari
+"会いたい。▽\nもう、一度。\n\0":
+'???',
+
+# Kyoko Soryu Zeppelin 
+"あなたを待っている人がいるわ。\n\0":
+'???',
+
+# Kyoko Soryu Zeppelin 
+"あなたはまだ、生きるのよ。\nアスカ。\nさあ、行きましょう。\n\0":
+'???',
+
+# ??? [Lilith]
+"そうはいかないわ。\n\0":
+'???',
+
+# Rei Ayanami, Shinji Ikari
+"誰…？\n\0":
+'???',
+
+# ??? [Lilith]
+"生命の実をこの手に…。\nアダムの民から奪い返すまでは。\n\0":
+'???',
+
+# Toji's Mother
+"泣いたらアカンよ…。\nさあ、帰るで…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"だが、この一度だけ。\n僕はアダムになろう…。\nヒトであり続けるために！\n\0":
+'???',
+
+# Makoto Hyuga, Female Staff
+"爆雷投下、６０秒前。\n\0":
+'???',
+
+# Ritsuko Akagi, Female Staff
+"エヴァの機能は既に\n停止していたはず。\nなぜ、エヴァにあんな力が…！▽\n人の息の届かぬところに…、\nエヴァに心があるというの！？\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"目標、殲滅を確認しました。\nパイロット、無事です！\n\0":
+'???',
+
+#
+# ./USRDIR/event/levent.har_EXTRACT/le010.evs
+#
+# Ritsuko Akagi 
+"何てものを…、\n何てものをコピーしたの、私達は。\n\0":
+'???',
+
+# Misato Katsuragi 
+"エヴァが、ただの第壱使徒の\nコピーじゃない事はわかる。▽\nでも、ネルフは使徒を全て倒した後\nエヴァをどうするつもりなの。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk001.evs
+# 
+# Shinji Ikari
+"裏切ったな…。\n僕の気持ちを裏切ったな！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…シンジ君。▽\n君と同じ仕組まれた子供なんだ。\nそのために僕も君もいる。▽\n君は来てくれた。\n筋書き通りに。\n\0":
+'???',
+
+# Shinji Ikari
+"そんな事どうでもいいよ！\n信じてたんだ、もっと君とは\n知り合う事が出来るって。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"だから裏切ったと…？\n僕に何を期待していたんだい。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk002.evs
+# 
+# Shinji Ikari
+"僕の気持ちを踏みにじった…！\n君を信じてたのに…。▽\nでも、カヲル君は最初から\nこうするつもりで僕に近づいたの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕はただ、さだめ、という流れに\nいるだけさ。▽\n君や、この世界すべての\nリリンのように。\n\0":
+'???',
+
+# Shinji Ikari
+"僕は今でも…、信じたいんだ。\nカヲル君を…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"でも、君は迷っている。\n僕が君達リリンの敵だから。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk003.evs
+# 
+# Shinji Ikari
+"でも、僕は傷ついた。\n君に傷つけられた…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君はすがりたかっただけだ、\n何かに。▽\nヒトは、何かにすがらなければ、\n生きてはいけないからね。\n\0":
+'???',
+
+# Shinji Ikari
+"僕の…、希望でもあったんだ。\n君と一緒にいたいって思ってたんだ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"希望に潜む影に\n気づかなかったんだね。\n自分自身にある、その影に。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk004.evs
+# 
+# Shinji Ikari
+"君を傷つけたくないんだよ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕も君を傷つけるつもりはないよ。\n\0":
+'???',
+
+# Shinji Ikari
+"じゃあ、\nじゃあ、こんな事やめてよ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君に会えて、嬉しかったよ。\n本当だよ。▽\nけれど、その時から、\n僕はやすらぎを失ったんだ。▽\n君を知り過ぎたのかもしれない。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk005.evs
+# 
+# Shinji Ikari
+"君も…、\n僕を助けてくれないの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕は君を、君は僕を救えない。\nいや、みんなそうさ。▽\n救われるかどうかは、\n自分で決めるしかない。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk006.evs
+# 
+# Shinji Ikari
+"人の気持ちなんて\nどうでもいいんだ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕の気持ちはどうでもいいのかい？\n君達リリンは。\n\0":
+'???',
+
+# Shinji Ikari
+"だから、戦わないで…。\n一緒にいる事だって出来る。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"それは出来ない。\nこれが僕らの意志だから。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk007.evs
+# 
+# Shinji Ikari
+"カヲル君、\nどうしてそんな事が言えるの。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕の答えは、\nすでに君の中にあるモノだから。\n\0":
+'???',
+
+# Shinji Ikari
+"僕は違う！\nただ、君とは戦いたくないだけだ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"けれども時間がない。\n君にも僕にも。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk008.evs
+# 
+# Shinji Ikari
+"ごまかさないでよ、\nそうやって僕の気持ちを\nごまかさないでよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"リリンは、絶望と向き合う事が\n出来ないからね。\n\0":
+'???',
+
+# Shinji Ikari
+"そうやって、心を閉ざさないでよ！\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk009.evs
+# 
+# Shinji Ikari
+"カヲル君も、父さんと同じだ。\n僕を捨てて、利用して！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"いくつもの現実の断片に\n自分を見る事が出来なければ\n変わらない真実だよ。\n\0":
+'???',
+
+# Shinji Ikari
+"捨てた、捨てたんだ！\nみんな僕を！！\n君も！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"………。▽\n君は、しょうがなく\nエヴァに乗っていたんだね。▽\n捨てられるのが怖くて。▽\nそんな事はないのに。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk010.evs
+# 
+# Shinji Ikari
+"僕は、君が好きだったんだ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"でも、僕を受け入れられない。\n\0":
+'???',
+
+# Shinji Ikari
+"受け入れるさ！！\n受け入れられるよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君は自由を受け入れられない。\n自由を与えられると、\n自分がいなくなると恐れている。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk011.evs
+# 
+# Shinji Ikari
+"違う、違う、違う！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"自由は解放と拘束。\nシンジ君は、どっちも選べない\nだろう？\n\0":
+'???',
+
+# Shinji Ikari
+"君を好きになるのは僕の自由だ！\n違うの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…僕が滅びるのも、\nまた自由だ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk012.evs
+# 
+# Shinji Ikari
+"…そうなんだ。\n僕が嫌いなんだね。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"いいや、\n恐怖と絶望は、リリン達にも\n不要だという事さ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk013.evs
+# 
+# Shinji Ikari
+"何で、君まで僕を…、\n僕を傷つけるの…？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君が僕という存在を知っただけ。\n傷つけたつもりはないよ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk014.evs
+# 
+# Shinji Ikari
+"でも、そうじゃないか。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"拒絶。\nそうやって自分の心を守るしか\nないのかい。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk015.evs
+# 
+# Shinji Ikari
+"どうすればいいの？\n出会った時のように２人が\nなれるには、どうしたらいいの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"………。▽\nすべてはリリンの流れのままに。▽\n………………。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk016.evs
+# 
+# Shinji Ikari
+"嘘だよね。\nカヲル君が使徒だったなんて、\n嘘だよね…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕は使徒としての価値を\n与えられた。▽\nそれが今、僕の存在している\n理由なんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk017.evs
+#
+# Shinji Ikari
+"僕は、君の事を友達だと思ってた。▽\nこんな事にならずに\nずっと友達でいられると思ってた。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"それは、君の抱いた恐れ。\nそして、希望。▽\n僕は、君達リリンとは\n歩いてはいけないんだ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk019.evs
+#
+# Kaworu Nagisa 
+"嫌いじゃないよ。\nでも、嫌われると僕に恐怖心を\n抱いている。▽\nヒトを信じられないからだね。\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk018.evs
+# 
+# Shinji Ikari
+"…関係ないよ。\nねえ、カヲル君は僕の事\nどう思ってるの…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…好きだよ、シンジ君。\n君の事が。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk019.evs
+# 
+# Shinji Ikari
+"君に嫌われたくないよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"嫌いじゃないよ。\nでも、嫌われると僕に恐怖心を\n抱いている。▽\nヒトを信じられないからだね。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk020.evs
+# 
+# Shinji Ikari
+"僕は、君に出会えた事が\n嬉しかったんだ。▽\n僕が探していたのは\n君だったんだって、嬉しかったんだ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕も君に出会えて嬉しかったよ。\n同時に、悲しみもあった。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"でも、どんなに悲しくても\n君の事を忘れる事なんて出来ない。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk021.evs
+# 
+# Shinji Ikari
+"なぜ僕に声をかけたの？\nなぜ僕に近づいたの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"興味があったんだよ。\n純粋な想いで君を知って、\n…好きになりたかった。\n\0":
+'???',
+
+# Shinji Ikari
+"僕たちが争う必要はないよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"そうだね。\nただ、僕は行かなきゃ\nいけないんだ。▽\n死に、そして生き続けるために。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk022.evs
+# 
+# Shinji Ikari
+"カヲル君は、\n生きる事が楽しいの？\n\0":
+'???',
+
+# Kaworu Nagisa ,Teruo Kato, Misato Katsuragi, Rei Ayanami, Gendo Ikari, Ryoji Kaji, Shinji Ikari, Hikari Horaki, Maya Ibuki 
+"……………。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk023.evs
+# 
+# Shinji Ikari
+"カヲル君、\nもしかして死ぬつもりなの？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk024.evs
+# 
+# Shinji Ikari
+"わからないよ。\n君の意志じゃないのに\n使徒になったなんて。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"でも、僕が使徒なのは事実さ。\n君の友達という事も。▽\nどうする事も出来ないんだ、\n流れには逆らえない。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk025.evs
+# 
+# Shinji Ikari
+"僕とやり直せるよ。\n違う生き方があるよ、\n僕も、君も。▽\n一緒にやり直そうよ、\nカヲル君…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk026.evs
+#
+# Shinji Ikari
+"君が使徒でも構わない。\nだから一緒にいてよ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"相容れない存在なんだ。\n悲しいけれど、僕らは共に\n生きる事は出来ないんだよ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk027.evs
+# 
+# Shinji Ikari
+"カヲル君は僕にとって\n必要な人間なんだ。▽\n人類が居なくなるより、\n君が居なくなる方が嫌だよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"………。▽\nでも、それじゃ、\n僕が寂しいままなんだ。▽\n一人で…。\nずっと一人で…。\n\0":
+'???',
+
+# Shinji Ikari
+"だから！！\n僕がいるよ、ずっと側にいる！！\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk028.evs
+# 
+# Shinji Ikari
+"僕もそうやって逃げてきた。\nでも、いい事なんてなかった。▽\n流れに任せて生きるなんて、\n死んでるのと同じじゃないか。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk029.evs
+# 
+# Shinji Ikari
+"ねえ、僕ともう一度\n友達になってよ。▽\nそして全部…、何もかも\n二人でやりなおそうよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"友達に…？\nもう一度…？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk030.evs
+# 
+# Shinji Ikari
+"卑怯だよ。\n散々、僕に知った風な事を言って…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"そうだね、そうかもしれない。\nその事は君に謝らなくちゃ\nいけなかったね…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk031.evs
+#
+# Shinji Ikari
+"どうして？\nカヲル君が使徒なの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"言っただろ、\n僕が仕組まれた子供と言う事を。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk032.evs
+#
+# Shinji Ikari
+"何で僕の前に現われたの…？\nねえ、どうして…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕の意思に関係なく、\n君に会うために\n生まれてきたからさ。▽\nでも、自分の意志で、\n君に会うためだったと思いたいよ。\n今は…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk033.evs
+# 
+# Shinji Ikari
+"そんなの信用出来ないよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕が使徒だから…？\n僕は君を友達と思っているよ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk034.evs
+# 
+# Shinji Ikari
+"行くなら、いっそ僕を殺してよ…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"………。▽\nそれが、君の答えだね。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk035.evs
+# 
+# Shinji Ikari
+"君と戦うなら、死んだ方がいい。\n死んだ方がいいよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"戦いを放棄するのかい？\nこの先に、君達の未来が\nかかっているとしても…？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk036.evs
+# 
+# Shinji Ikari
+"嘘だ！\n全部、それも僕を騙すためだ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…。▽\n僕が嫌いかい？\nそれが君の意志なら、\nしょうがない。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk037.evs
+#
+# Shinji Ikari
+"行くなら本気で戦えよ。\n僕を本気で倒してから行けよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"わかったよ、シンジ君。\n\0":
+'I understand, Shinji-kun.\n\0',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk038.evs
+# 
+# Shinji Ikari
+"行かないで…、\nカヲル君、行かないでよ！！▽\nそしたら、僕も君も\n一人じゃなくなるんだ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…一人じゃ、なくなる…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk039.evs
+# 
+# Shinji Ikari
+"カヲル君、\n君とは戦いたくないよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"なぜ？\nじゃあなぜ僕を止めようとするの？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk040.evs
+# 
+# Shinji Ikari
+"君を、傷つけたくないからだよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君が傷ついても？\n\0":
+'???',
+
+# Shinji Ikari
+"ああ、そうだよ。\n僕は死んだっていい！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"嘘だね。\n君は、死ぬのが怖いはずだ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk041.evs
+# 
+# Shinji Ikari
+"死ぬのは怖いよ。\nでも、それより君を傷つける方が\n怖いよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…なぜ、そこまで\n僕と戦いたくないんだい？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk042.evs
+# 
+# Shinji Ikari
+"行かないって言ってよ！！\nお願いだよ！\nこのままじゃ、君と戦うことになる。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"だったら、しょうがないんじゃ\nないかな。▽\n僕も、君と戦うのは\nいい気分じゃないけれど…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk043.evs
+# 
+# Shinji Ikari
+"命令なんだ。\nこの先に行かせるなって。▽\nこの先へ行くなら、僕は君を\n倒さなくちゃいけないんだ。▽\nそんな事、嫌だよ。\n嫌なんだよ！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕と戦うのが、怖い…？\n\0":
+'???',
+
+# Shinji Ikari
+"怖いよ。\n君を失うのが…、怖いよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君は何も、\n悪くはないのにね…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk044.evs
+# 
+# Shinji Ikari
+"行かないで…！！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"…それは君の意思かい？\nそれとも…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk045.evs
+# 
+# Shinji Ikari
+"僕は、僕はね…、\n君と生きたいんだ…。▽\n君が使徒だとかそんな事は\n関係ない。▽\n他の何でも関係なく、\n君と生きたいんだ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"僕と…？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk046.evs
+# 
+# Kaworu Nagisa 
+"…シンジ君にはわからないよ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk047.evs
+#
+# Kaworu Nagisa 
+"………シンジ君。\n\0":
+'...Shinji-kun.\n\0',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk048.evs
+# 
+# Kaworu Nagisa 
+"僕にあったのは、\n…希望という絶望。▽\n人類がたどるべきだった道は\n絶望という希望…。▽\nシンジ君、僕も君が好きだったよ、\n君と希望を見つめたかった…。\nそうする事が出来れば…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk049.evs
+# 
+# Kaworu Nagisa 
+"………。▽\n僕も未来が見たい。\n君達、人と…、シンジ君の未来を\n見てみたいと思う。▽\n………。▽\nシンジ君…、僕も君と生きよう。\n僕も一緒に戦うよ…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk050.evs
+# 
+# Kaworu Nagisa 
+"これが………アダム………。\n…いや、…これは、リリス！？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk052.evs
+# 
+# Kaworu Nagisa 
+"僕の還る場所は一つしかない。\nここでは、生きていけない事は無い。\n…でも、…でも僕は。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk053.evs
+#
+# Kaworu Nagisa 
+"ヒトが…、互いを必要と思うのは\nヒトの中にある何かのためなんだ。\nただそれだけのためなんだ。▽\n…でも、その何かに対して、\nヒトはみな、息を呑むほどに純粋だ。\nとても、哀しいほどに…。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk054.evs
+# 
+# Shinji Ikari
+"カヲル君、\nみんなカヲル君が好きなんだ。\n僕も…。▽\nもっと話し合おうよ。\n僕ら、きっとわかりあえるよ。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk055.evs
+# 
+# Shinji Ikari
+"わかりあえないの？\nどうしても…？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk056.evs
+# 
+# Shinji Ikari
+"やっぱり、戦うしかないの…？\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk057.evs
+# 
+# Makoto Hyuga, Male Staff
+"目標、反応消えました。\n使徒………殲滅しました。\n\0":
+'???',
+
+# Makoto Hyuga
+"目標、反応消えました。\n使徒………消失しました。\n\0":
+'???',
+
+#
+# ./USRDIR/btl/tabris.har_EXTRACT/bk058.evs
+#
+# Shinji Ikari
+"カヲル君………、\nどうして…………。\n\0":
+'???',
+
+# Shinji Ikari
+"………………………。\n僕達…やり直せるよね？\n\0":
+'???',
+
+# Shinji Ikari
+"……………！？▽\nカヲル君…！！\nカヲル君、カヲル君、カヲル君！！▽\nずるいよ…、そんなのってないよ！\n何で一人で行くんだよ！！！\nワァァァァァァァァーーーーッ！\n\0":
 '???',
 
 #
@@ -8503,1856 +11932,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/bs014.har_EXTRACT/bs014.evs
-#
-# [Battle: Positron Sniper Rifle]
-#
-
-# Maya Ibuki 
-"エヴァ初号機、\nポジトロンスナイパーライフル\n発射！\n\0":
-'???',
-
-# Male Staff
-"エヴァ初号機、\nポジトロンスナイパーライフルの\n発射に成功しました！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ弐号機、\nポジトロンスナイパーライフル\n発射！\n\0":
-'???',
-
-# Male Staff
-"エヴァ弐号機、\nポジトロンスナイパーライフルの\n発射に成功しました！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ零号機、\nポジトロンスナイパーライフル\n発射！\n\0":
-'???',
-
-# Male Staff
-"エヴァ零号機、\nポジトロンスナイパーライフルの\n発射に成功しました！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ参号機、\nポジトロンスナイパーライフル\n発射！\n\0":
-'???',
-
-# Male Staff
-"エヴァ参号機、\nポジトロンスナイパーライフルの\n発射に成功しました！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ四号機、\nポジトロンスナイパーライフル\n発射！\n\0":
-'???',
-
-# Male Staff
-"エヴァ四号機、\nポジトロンスナイパーライフルの\n発射に成功しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"次！！\n再装填、急いで！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"次だ！\n再装填を急げ！\n\0":
-'???',
-
-# Female Staff
-"技術班、再装填急いで下さい！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs016.har_EXTRACT/bs016.evs
-#
-# [Battle: Bardiel and Aftermath]
-#
-# Shinji Ikari
-"ダメだ！\nやっぱりダメだよ、戦えないよ！\n\0":
-'???',
-
-# Gendo Ikari
-"シンジ、なぜ戦わない？\n\0":
-'???',
-
-# Shinji Ikari
-"だって…、\n人、人が乗ってるんだよ！\n父さん！\n\0":
-'Because...\nthere\'s a person in there,\nFather!\n\0',
-
-# Shinji Ikari
-"だって、トウジが、\nトウジが乗ってるんだよ！\n父さん！\n\0":
-'Because Toji...\n Toji\'s in there,\nFather!\n\0',
-
-# Gendo Ikari
-"構わん。\nそいつは使徒だ。\n我々の敵だ。\n\0":
-'Irrelevant.\nIt\'s an Angel.\nOur enemy.\n\0',
-
-# Shinji Ikari
-"でも、でも、出来ないよ。\n助けなきゃ！\n人殺しなんて出来ないよ！\n\0":
-'But, but I can\'t do it!\nI have to help them!\nI can\'t kill somebody!\n\0',
-
-# Shinji Ikari
-"トウジは、友達なんだ。\n僕の友達なんだ。\n戦えるわけないじゃないか！！\n\0":
-'???',
-
-# Gendo Ikari
-"お前が死ぬぞ。\n\0":
-'You will die.\n\0',
-
-# Shinji Ikari
-"いいよ。\n人を殺すよりはいいっ！！\n\0":
-'That\'s okay.\nIt\'s better than killing someone!\n\0',
-
-# Shinji Ikari
-"いいよ。\nトウジを殺すくらいなら、\n僕が死んだほうがいい…！！\n\0":
-'???',
-
-# Gendo Ikari
-"初号機とパイロットのシンクロを\n全面カット。▽\n回路をダミーシステムに\n切り替えろ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"碇、完成していたのか？\n\0":
-'???',
-
-# Gendo Ikari
-"まだ試作段階だが、\n初号機には搭載してある。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"しかし、委員会への報告も無しに\n使用するのはマズいぞ。\n\0":
-'???',
-
-# Gendo Ikari
-"今が使う時だ。\n上には私から報告する。\n\0":
-'???',
-
-# Male Staff
-"ダミーシステム？\n既に完成していたのか…。\n\0":
-'???',
-
-# Maya Ibuki 
-"しかし、ダミーシステムには\nまだ問題が多く…。\n\0":
-'???',
-
-# Female Staff
-"しかし、ダミーシステムには\nまだ色々な問題が…。\n\0":
-'???',
-
-# Gendo Ikari
-"構わん。\n今のパイロットよりは役に立つ。\nやれ。\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"…はい。\nダミーシステム切り替え、準備開始！\n\0":
-'???',
-
-# Shinji Ikari
-"…何？\n何をしたんだ、父さん！\n\0":
-'...What?\nWhat have you done, Father?!\n\0',
-
-# Maya Ibuki, Female Staff
-"管制システム、切り替え終了。\n全神経、ダミーシステムへ直結完了。▽\n感情素子の３２．８パーセントが\n不鮮明。\nモニター出来ません。\n\0":
-'???',
-
-# Gendo Ikari
-"構わん、システム開放。\n攻撃開始。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs017.har_EXTRACT/bs017.evs
-#
-# [Battle: Bardiel Aftermath]
-#
-# Shigeru Aoba, Male Staff
-"エヴァ参号機…いえ、\n目標は完全に沈黙しました。\n\0":
-'Eva Unit-03-- I mean,\nthe target is completely silent.\n\0',
-
-# Makoto Hyuga
-"エントリープラグの解体班より連絡。\n生存者を確認！\n\0":
-'???',
-
-# Male Staff
-"参号機パイロットは…、\n生存確認！\n生きてます！\n\0":
-'Unit-03\'s pilot...\n Life signs confirmed!\nHe\'s alive!\n\0',
-
-# Shinji Ikari,Toji's Mother, Kensuke Aida
-"トウジ…。\n\0":
-'Toji...\n\0',
-
-# Shinji Ikari
-"うわぁぁぁぁぁぁぁぁぁぁぁ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"シンジ君！\n\0":
-'Shinji-kun!\n\0',
-
-# Kozo Fuyutsuki
-"初号機パイロットが…！\n\0":
-'???',
-
-# Shinji Ikari
-"父さん！\n父さんはトウジを殺そうとしたんだ！▽\nこの僕の手で！\n\0":
-'Father!\n He tried to kill Toji!▽\n With my own hands!\n\0',
-
-# Misato Katsuragi 
-"でも、シンジ君。\nああしなければ、\nあなたがやられていたわ！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"聞け！\nああしなければ、\nキミがやられていたんだぞ！\n\0":
-'???',
-
-# Female Staff
-"しかし、ああしなければ、\nシンジ君がやられていたんですよ！\n\0":
-'???',
-
-# Shinji Ikari
-"そんなの関係ないよっ！！\n\0":
-'???',
-
-# Misato Katsuragi, Hikari Horaki, Shinji Ikari
-"でも…。\n\0":
-'???',
-
-# Kozo Fuyutsuki, Makoto Hyuga
-"だが、それも事実だ。\n\0":
-'???',
-
-# Female Staff
-"しかし…。\n\0":
-'???',
-
-# Shinji Ikari
-"そんなこと言って\nこれ以上、僕を怒らせないでよ。▽\n初号機の力があれば、\n本部を破壊する事だって出来るよ！\n\0":
-'???',
-
-# Shinji Ikari
-"父さん、そこにいるんだろ？\n何か言えよっ！！\n答えてよ！！\n\0":
-'???',
-
-# Gendo Ikari
-"ＬＣＬ圧縮濃度を限界まで上げろ。\n子供のダダに\n付き合っている暇はない。\n\0":
-'???',
-
-# Shinji Ikari
-"…かはっ！？\n何をしたんだ…、\nちくしょう、ちくしょう…！！\n\0":
-'???',
-
-# Shinji Ikari
-"………父さん。▽\n………トウジ…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs018.har_EXTRACT/bs018.evs
-#
-# [Battle: Eva Series Reactivation]
-#
-
-# Shigeru Aoba
-"エヴァシリーズ、\n全機沈黙しました！\n\0":
-'???',
-
-# Male Staff
-"エヴァシリーズ、\n全機破壊しました！\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"やった！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"やったか！\n\0":
-'???',
-
-# Maya Ibuki 
-"何これ………………！？\n倒したはずのエヴァシリーズが！\n\0":
-'???',
-
-# Female Staff
-"これは………………！？\n倒したはずのエヴァシリーズが…！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァシリーズ、活動再開…。\n\0":
-'???',
-
-# Female Staff
-"エヴァシリーズ、全機、\n活動再開しました………。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そんな………。\nヤツらを倒す方法はないの！？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"やはりそうか、\nΣ機関による力だな。\n\0":
-'???',
-
-# Female Staff
-"そんな…、どうすれば………？\n\0":
-'???',
-
-# ./USRDIR/event/bs019.har_EXTRACT/bs019.evs
-#
-# Shinji Ikari, Misato Katsuragi 
-"カヲル君！！\n\0":
-'Kaworu-kun!!\n\0',
-
-# Shinji Ikari
-"待って、カヲル君！\n\0":
-'Wait, Kaworu-kun!\n\0',
-
-
-#
-# ./USRDIR/event/bs020.har_EXTRACT/bs020.evs
-#
-# [Battle: Rei Self-Destructs]
-#
-
-# Misato Katsuragi 
-"このままでは本部が…。\nせめて子供達だけでも…。\n\0":
-'At this rate H.Q. is...\n But at least the children will...\n\0',
-
-# Kozo Fuyutsuki
-"こいつを道連れに、\n本部を自爆させるしかないのか…。\n\0":
-'???',
-
-# Female Staff
-"使徒が…、\n使徒が本部にたどり着きました！\n\0":
-'???',
-
-# Rei Ayanami 
-"碇君、\n…あなたは私が守るわ。\n\0":
-'Ikari-kun,\n I will protect you.\n\0',
-
-# Shinji Ikari
-"綾波、何を…？\n何をするんだ！？\n\0":
-'Ayanami, what are...?\n What are you doing?!\n\0',
-
-# Rei Ayanami 
-"私には代わりがいる…。\nでも、あなたの代わりはいない。\n\0":
-'I can be replaced...\n But you cannot.\n\0',
-
-# Asuka Soryu Langley
-"アンタ、何いってんの？\nまさか！？\n\0":
-'???',
-
-# Rei Ayanami 
-"鈴原君…、\nあなたは、私が守るわ。\n生きて…。\n\0":
-'Suzuhara-kun...\nI will protect you.\nLive...\n\0',
-
-# Toji Suzuhara 
-"おい、綾波。\n馬鹿な事すんな！！\n綾波ーーーーーーー！！\n\0":
-'Hey, Ayanami.\n Don\'t do something stupid!!\n Ayanamiiii!!\n\0',
-
-# Rei Ayanami 
-"渚君…、\nあなたは私が守る…。\nあなたを死なせはしない。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ファースト、やめるんだ！！\n\0":
-'First, don\'t do it!!\n\0',
-
-# Rei Ayanami 
-"…あなたは、私が守るわ。\n\0":
-'... I will protect you.\n\0',
-
-# Misato Katsuragi 
-"レイ、死ぬ気！？\n\0":
-'Rei, you mean to die!?\n\0',
-
-# Rei Ayanami 
-"碇司令…、私が守ります…。\n\0":
-'Commander Ikari... I will protect you.\n\0',
-
-# Gendo Ikari
-"よせ、レイ！！\n\0":
-'Stop, Rei!!\n\0',
-
-# Rei Ayanami 
-"副司令は、私が守ります…。\n\0":
-'Deputy Commander, I will protect you...\n\0',
-
-# Kozo Fuyutsuki
-"レイ、何をするんだ！？\n自爆する気か！！\n\0":
-'Rei, what are you doing?!\nYou\'re going to self-destruct?!\n\0',
-
-# Rei Ayanami 
-"…あなたは私が守るわ。\nこれしか…方法がないの…。\n\0":
-'???',
-
-# Maya Ibuki 
-"レイ、何をするつもりなの！？\nこっちで何とかするわ、だから！！\n\0":
-'???',
-
-# Rei Ayanami 
-"日向さん…、\n…あなたは、私が守るわ。\n\0":
-'Hyuga-san...\n I will protect you.\n\0',
-
-# Makoto Hyuga
-"レイ、やめるんだ！！\n僕らに任せるんだ、だから！！\n\0":
-'Rei, stop!!\n You can leave things to us!!\n\0',
-
-# Rei Ayanami 
-"青葉さん。\nあなたは、私が守るわ。\n\0":
-'Aoba-san...\n I will protect you.\n\0',
-
-# Shigeru Aoba
-"レイ、どういう意味なんだ。\nレイッ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"赤木博士…、\nあなたは、私が守ります。\n\0":
-'Dr. Akagi...\n I will protect you.\n\0',
-
-# Ritsuko Akagi 
-"レイ、自爆する気なの！？\n\0":
-'Rei, you\'re going to self-destruct?!\n\0',
-
-# Rei Ayanami 
-"加持さん…、\nあなたは、私が守るわ。\n…絶対に。\n\0":
-'Kaji-san...\n I will protect you.\n No matter what.\n\0',
-
-# Rei Ayanami 
-"相田君…、\nあなたは、私が守るわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"洞木さん…、\nあなたは、私が守るわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"鈴原君…、\nあなたは、私が守るわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"渚君…、\nあなたは、私が守るわ。\nみんなを…お願い。\n\0":
-'???',
-
-# Rei Ayanami 
-"…さよなら。\n\0":
-'... Farewell.\n\0',
-
-# Rei Ayanami 
-"………碇司令。▽\n………………。▽\nさよなら…。\n\0":
-'???',
-
-# Shinji Ikari
-"綾波ぃーーーーーーー！\n\0":
-'???',
-
-# Asuka Soryu Langley, Kaworu Nagisa
-"ファースト！\n\0":
-'First!',
-
-# Toji Suzuhara 
-"綾波！？\n綾波ーーーーーーーーーー！！\n\0":
-'???',
-
-# Misato Katsuragi, Gendo Ikari, Kozo Fuyutsuki, Maya Ibuki 
-"レイ！\n\0":
-'Rei!\n\0',
-
-# Makoto Hyuga
-"レイ！\nくっそおおお…！！\n\0":
-'Rei!\nDamn it...!!\n\0',
-
-# Shigeru Aoba
-"レイ！\n嘘だろぉ、レイッ！！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"レイ！\n…馬鹿よ、私なんかのために…。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"………………。▽\nスクリーン回復。\n目標、消失しました…。\n\0":
-'............▽\nScreen restored.\nThe target has vanished...\n\0',
-
-# Ritsuko Akagi 
-"………レイ。▽\n………………………。▽\nレイ、待っているのよ…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs021.har_EXTRACT/bs021.evs
-#
-# [Battle: Israfel Killing Blow]
-#
-
-# Makoto Hyuga, Male Staff
-"目標、再度、\n元の１体に戻ろうとしています！\n\0":
-'???',
-
-# Makoto Hyuga
-"目標２体、融合！\n\0":
-'Both targets have fused!\n\0',
-
-# Male Staff
-"目標、１体に戻りました！\n\0":
-'The targets have reverted to a single body!\n\0',
-
-# Shinji Ikari
-"今だ、行くよ！\n\0":
-'It\'s time, let\'s go!\n\0',
-
-# Asuka Soryu Langley
-"チャンスよ！！\n\0":
-'It\'s our chance!\n\0',
-
-# Rei Ayanami 
-"使徒の融合をこちらからも確認。\n行きます！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"よっしゃ、\n一つになりよったでぇ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"よし、同時攻撃だ！\n\0":
-'???',
-
-# Shinji Ikari
-"これでケリをつけるよ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"行きましょう！！\n\0":
-'Let\'s go!!\n\0',
-
-# Toji Suzuhara 
-"よっしゃあ！！\nキツイの一発お見舞いしたらぁ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"今だ、奴にとどめを！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs022.har_EXTRACT/bs022.evs
-#
-# Shigeru Aoba, Male Staff
-"目標、移動開始しました！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"目標、再び形態変化。\n今度は、一本の紐状になりました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"目標の攻撃方法がわからないから、\nいきなり接近するのは危険よ。▽\n絶対に相手の攻撃範囲に\n入らないように！\n相手の後ろを取るのよ。▽\n接近戦は危険だから、\n絶対に避けて！！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"相手の攻撃パターンが\nわからぬ以上、接近戦は危険だ。▽\n相手の攻撃を避けるため、\n後ろに回り込み、\n遠距離攻撃を仕掛けるんだ。\n\0":
-'???',
-
-# Makoto Hyuga
-"使徒との接近戦は\n絶対に避けるんだ。▽\n目標の後方からの\n遠距離射撃を繰り返す。▽\nこれが今言える、\nもっとも安全な方法だ。\n\0":
-'???',
-
-# Female Staff
-"目標の攻撃パターンが\n不明のままなので、\n接近戦を避けて下さい。▽\nそれから、こちらからは\n相手の攻撃範囲に入らぬよう、\n後方より遠距離射撃をして下さい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"使徒の加粒子砲には\n十分気をつけるのよ！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"いいな、相手も撃ってくる事を\n忘れるな！！\n\0":
-'???',
-
-# Female Staff
-"使徒の加粒子砲には\n気をつけて下さい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"あの機体には、まだあの子が…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"やむを得ん、倒す他なかろう…。\n\0":
-'???',
-
-# Female Staff
-"中の子供は…、無事なの…？\n\0":
-'???',
-
-# Misato Katsuragi 
-"トウジ君、トウジ君！！\n返事をして、トウジ君！！\n\0":
-'???',
-
-# Kozo Fuyutsuki, Misato Katsuragi, Male Staff, Gendo Ikari
-"パイロットは？\n\0":
-'Pilot\'s status?\n\0',
-
-# Female Staff
-"参号機パイロットは？\n\0":
-'Status of Unit-03\'s pilot?\n\0',
-
-# Makoto Hyuga, Maya Ibuki, Male Staff
-"参号機パイロット、\n呼吸、心拍の反応はありますが\n恐らく…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"何とかして助けなきゃ…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"やむを得ん、\n使徒殲滅が先だ…。\n\0":
-'???',
-
-# Female Staff
-"…作戦に移行しましょう。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"目標、セントラルドグマを降下中！▽\nターミナルドグマに\n向かっています！\n\0":
-'???',
-
-# Misato Katsuragi 
-"シンジ君。\n早く、彼を止めて！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"いかなる方法をもってしても、\n目標のターミナルドグマへの\n侵入を阻止しろ！！\n\0":
-'???',
-
-# Female Staff
-"初号機パイロットは、\n目標を追撃して下さい！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"エヴァシリーズ、\n移動開始しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"全部で９機か…。\nいい、必ず全機殲滅するのよ！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"全部で９機、全機殲滅しろ！\nいいか、全機殲滅だ！！\n\0":
-'???',
-
-# Female Staff
-"目標数９、全機殲滅して下さい！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs030.har_EXTRACT/bs030.evs
-#
-#
-# Shinji Ikari
-"わぁぁぁぁぁぁぁぁぁぁ！！\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ初号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"回収班より連絡。\n初号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"うああああああああああ…！！\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ弐号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"回収班より連絡。\n弐号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
-
-# Rei Ayanami 
-"きゃああああああっ！！！\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ零号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"回収班より連絡。\n零号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
-
-# Toji Suzuhara 
-"うわぁぁぁぁぁぁぁぁ！\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ参号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"回収班より連絡。\n参号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そんな…バカな………………。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ四号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"回収班より連絡。\n四号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ両機、活動限界です。\n\0":
-'???',
-
-# Kozo Fuyutsuki, Shigeru Aoba
-"万策尽きたか…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs031.har_EXTRACT/bs031.evs
-#
-# [Battle: Angel Down]
-#
-# Makoto Hyuga, Male Staff
-# [NOTE] $e fills in Angel's name.
-"第$d使徒、$e。\n殲滅を確認しました！\n\0":
-'Destruction of $d Angel, $e,\nconfirmed!\n\0',
-
-#
-# ./USRDIR/event/bs032.har_EXTRACT/bs032.evs
-#
-# [Battle: Eva Series Down]
-#
-# Makoto Hyuga, Male Staff
-"エヴァシリーズ、１機撃破！\n\0":
-'First Eva Series unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"２機目撃破！\n\0":
-'Second unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"３機目撃破！\n\0":
-'Third unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"４機目撃破！\n\0":
-'Fourth unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"５機目撃破！\n\0":
-'Fifth unit down!\n\0',
-
-# Shigeru Aoba
-"気味の悪い奴等だ。\nまた活動を再開してきたら、\nどうする…。\n\0":
-'???',
-
-# Male Staff
-"まさか、\nまた活動を再開したら…。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"６機目撃破！\n\0":
-'Sixth unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"７機目撃破！\n\0":
-'Seventh unit down!\n\0',
-
-# Makoto Hyuga, Male Staff
-"８機目撃破！\nあと１機！\n\0":
-'Eighth unit down!\n\0',
-
-#
-# ./USRDIR/event/bs039.har_EXTRACT/bs039.evs
-#
-# [Battle: Tabris Battle Aftermath]
-#
-# Makoto Hyuga, Male Staff
-"エヴァ初号機、沈黙しました。\n\0":
-'Eva Unit-01 is silent.\n\0',
-
-# Misato Katsuragi, Kozo Fuyutsuki, Gendo Ikari, Maya Ibuki, Female Staff, Toji Suzuhara, Ritsuko Akagi, Makoto Hyuga, Shigeru Aoba, Shinji Ikari,[Text Only - No Designated Speaker], Asuka Soryu Langley, Kaworu Nagisa
-"………………………。\n\0":
-'???',
-
-# Shinji Ikari
-"…カヲル…君。\n\0":
-'...Kaworu-kun.\n\0',
-
-#
-# ./USRDIR/event/bs059.har_EXTRACT/bs059.evs
-#
-# Shinji Ikari, Shigeru Aoba, Female Staff
-"は、はい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"すごいわ、シンジ君。\nいいわよ、その調子！\n\0":
-'???',
-
-# Misato Katsuragi 
-"エヴァは旋回に多少時間が\nかかるけど、我慢して。\nすぐ慣れるわ。\n\0":
-'???',
-
-# Shinji Ikari
-"あっ、…は、はい。\n何とか…なりそうです。\n\0":
-'???',
-
-# Makoto Hyuga
-"使徒、初号機の迎撃開始ラインを\n通過しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"来たわね、じゃあ次は\n接敵の仕方を説明するわ。▽\n使徒と戦うには、まず使徒と\n接触する必要があります。▽\n私が指示を出して誘導するから、\nそれに従って移動して。\n\0":
-'???',
-
-# Misato Katsuragi 
-"移動指示はＡ−１、Ｂ−２など\nエリア名で指示を出します。▽\nあなたは、その指示された\nエリアに向かって移動して！\n\0":
-'???',
-
-# Shinji Ikari
-"でも、エリア名なんて言われても…\n僕、どこかわかりませんよ…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"エリア名は%1iボタンを押して\n「全域マップを確認する」で\n確認出来るわ。▽\nやってみて！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs060.har_EXTRACT/bs060.evs
-#
-# Misato Katsuragi 
-"シンジ君、\nエヴァの後ろに付いている\nケーブルがあるでしょう？\n\0":
-'???',
-
-# Shinji Ikari
-"ええ、これは…？\n\0":
-'???',
-
-# Misato Katsuragi 
-"それはアンビリカルケーブルって\n言って、エヴァの電力供給源なの。\n\0":
-'???',
-
-# Shinji Ikari
-"エヴァって…、\n電気で動いてるんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"そうよ。▽\nこの第３新東京市の所々に\n設置されている「電源ビル」から\n電力を供給して動いているの。▽\nだから、エヴァはこのケーブルが\n届く範囲までしか、活動出来ないの。\n\0":
-'???',
-
-# Shinji Ikari
-"でも、こんな広い街…。\n使徒が遠くに現れたら\nどうするんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"その時のために、この\n第３新東京市には、「電源ビル」が\n沢山設置されているの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"各所の電源ビルにケーブルを\n繋ぎかえながら移動すれば、\n移動距離を延ばせるわ。\n\0":
-'???',
-
-# Shinji Ikari
-"手間がかかるんですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"仕方ないわ。\nこれが、今の科学力の限界よ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"アンビリカルケーブルを他のビルに\n繋ぎ直す時は、その電源ビルの\n側に立って%1iボタン。▽\n「アンビリカルケーブル接続」の\nコマンドを選べばいいわ。▽\n重要な事だから、忘れないようにね。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs061.har_EXTRACT/bs061.evs
-#
-# Maya Ibuki 
-"エヴァ初号機。\nアンビリカルケーブル、\n残りわずかです。\n\0":
-'???',
-
-# Shinji Ikari
-"そ、そうなんですか。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ただし、予備電源で活動出来る\n時間はわずかなうえ、電源が\n切れたら、活動停止になるのよ。\n\0":
-'???',
-
-# Shinji Ikari
-"活動停止？\nそれって、\n動けなくなるって事ですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"そう。\nだから、本当にイザという時にしか\n使えないの。▽\nもし、ケーブルの残りが\n無くなったら、…その時の判断は\nあなたに任せるわ。\n\0":
-'???',
-
-# Shinji Ikari, Shigeru Aoba, Makoto Hyuga
-"…わかりました。\n\0":
-'...Understood.\n\0',
-
-#
-# ./USRDIR/event/bs063.har_EXTRACT/bs063.evs
-#
-# Shinji Ikari
-"…あ、当たった！\n\0":
-'???',
-
-# Misato Katsuragi 
-"スゴイわ、シンジ君。\nその調子！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs064.har_EXTRACT/bs064.evs
-#
-# Shinji Ikari
-"いっ、痛い…！？\n…くっ、うわぁぁぁぁ！！\nああああぁぁぁぁぁぁぁぁぁ！！\n\0":
-'???',
-
-# Misato Katsuragi 
-"シンジ君、それは幻痛よ！！\n初号機の耐久力はまだあるわ、\n落ち着いて！\n\0":
-'???',
-
-# Shinji Ikari
-"………………………………。▽\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n射程に入れて、%1iボタン…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs065.har_EXTRACT/bs065.evs
-#
-# Misato Katsuragi 
-"じゃ、まずは勝利条件と\n敗北条件の復習からね。\n全域マップ、出して！\n\0":
-'???',
-
-# Shigeru Aoba
-"了解。\n全域マップ、出ます。\n\0":
-'???',
-
-# Misato Katsuragi 
-"これが、あなたが乗っている\nエヴァ初号機。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そして………、\n\0":
-'???',
-
-# Misato Katsuragi 
-"これが使徒。\n\0":
-'This is an Angel.\n\0',
-
-# Misato Katsuragi 
-"ここまではいいわね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃあ、次は使徒の行動目的を\n説明します。▽\n使徒はこの第３新東京市の\n最終防衛ラインである…、\n\0":
-'???',
-
-# Misato Katsuragi 
-"ここゼロエリアを目指して\n侵攻します。▽\nそして、\nこのゼロエリアの地下にあるのが…、\n\0":
-'???',
-
-# Misato Katsuragi 
-"我々の拠点、ネルフ本部。▽\nつまり、ゼロエリアを突破され、\nここネルフ本部を落とされると、\nジ・エンド。▽\nこれが敗北条件ってわけね。\nあ、もちろん、あなたのエヴァが\nやられても終わりよ。\n\0":
-'???',
-
-# Shinji Ikari
-"………はい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃあ、次に使徒の行動を\n見てみましょう。▽\n説明しやすくするために、\n時間を速めて見せるわね。▽\n使徒の行動シミュレーションを\n走らせて！\n\0":
-'???',
-
-# Shigeru Aoba
-"使徒行動シミュレーション、\nスタートします。\n\0":
-'???',
-
-# Shinji Ikari
-"あれっ？▽\n使徒の位置、\nたまにしか映りませんよ。\nどうなってるんですか？\n\0":
-'???',
-
-# Shinji Ikari
-"それって、使徒と接触するの\n難しくないですか？\n\0":
-'???',
-
-# Shinji Ikari
-"はぁ………。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そして、使徒と接触したら\nあなたがエヴァで戦い…、▽\n殲滅すれば、勝利条件達成ってワケ。\nわかった？\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃあ、説明ばかりじゃ\n退屈だろうから、\n実践訓練に移りましょうか。\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、使徒がエヴァ初号機の\n迎撃開始ラインに入る直前から\n始めるわ。\n\0":
-'???',
-
-# Shinji Ikari
-"迎撃開始ライン？\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたの守備範囲みたいなものよ。▽\nそのラインに使徒が侵入したら、\n私が移動指示を出し始めるわ。\nいい？\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs066.har_EXTRACT/bs066.evs
-#
-# Shigeru Aoba
-"使徒、エヴァ初号機の迎撃開始\nラインに侵入しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"んじゃ、「全域マップ」の\n起動方法を説明しとくわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"さっきも言ったけど、使徒の位置は\n正確には把握出来ないの。▽\nだから、私の移動指示も\n必ず正しいってわけじゃないのよ。\n\0":
-'???',
-
-# Shinji Ikari
-"…えぇっ、そうなんですか？\n安心してたのに…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"だからイザと言う時は、\nあなた自身が使徒の動きを\n読んで判断し、自分で行動して。\n\0":
-'???',
-
-# Shinji Ikari
-"…はい、…大丈夫かな。\n\0":
-'???',
-
-# Misato Katsuragi 
-"起動方法は、%1iボタンを押して。▽\nコマンドを呼び出したら\n「全域マップを確認する」を\n選択すれば、起動出来るわ。▽\nわかった？\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs067.har_EXTRACT/bs067.evs
-#
-# Misato Katsuragi 
-"シンジ君、\nアンビリカルケーブルの役割は\nちゃんと覚えてる？\n\0":
-'???',
-
-# Shinji Ikari
-"えっと、エヴァを動かす電源の\n供給ケーブル。▽\nケーブルの長さは有限で、\nその範囲外に移動するには\n他の電源ビルへの繋ぎ変えが必要。▽\n…でした…よね？\n\0":
-'???',
-
-# Misato Katsuragi 
-"じゃ、引き続き移動指示を行うわよ。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs068.har_EXTRACT/bs068.evs
-#
-# Shinji Ikari
-"あの…、\n使徒、発見しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"よし、ちゃんと接触出来たわね。▽\nじゃあ、次は接近戦だけど、\nその前に使徒の耐久力の説明を\nしておくわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"使徒の耐久力ってのは、\n使徒がダメージに耐えられる力を\n表すもので、▽\nこれを全部削り取れば、\n使徒を殲滅する事が出来るの。\nここまではわかるわね？\n\0":
-'???',
-
-# Shinji Ikari
-"はい。\nでも、この色が分かれてるのは？\n\0":
-'???',
-
-# Misato Katsuragi 
-"右側の赤色の領域が、\nΑΤフィールド。\n\0":
-'???',
-
-# Shinji Ikari
-"ΑΤフィールド？\n\0":
-'???',
-
-# Misato Katsuragi 
-"まぁ、使徒の防壁みたいなもんね。\n使徒に攻撃を与えた場合、\n右端から減っていくんだけど、▽\nこのΑΤフィールドを\n超えられなければ、\n全くダメージは与えられないの。\n\0":
-'???',
-
-# Shinji Ikari
-"防壁で阻止されるわけですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そ。\nで、左側の黄色の領域が、耐久力。▽\nΑΤフィールドを超え、ここまで\n到達する威力の攻撃を当てて\n初めてダメージになるの。\n\0":
-'???',
-
-# Shinji Ikari
-"真中の緑は…、何ですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"緑色の領域は、ヘイフリックよ。\n\0":
-'???',
-
-# Shinji Ikari
-"ヘイフリック？\n\0":
-'???',
-
-# Misato Katsuragi 
-"ヘイフリックとは、自己修復が\n可能な領域を表しているもので、▽\nこの領域までのダメージは、\nしばらくすると回復しちゃうの。\n\0":
-'???',
-
-# Shinji Ikari
-"つまり、耐久力を減らすには、\nΑΤフィールドとヘイフリック領域▽\n２つの壁を突破しないと\nいけないわけですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"その通りよ。\nそして、エヴァの耐久力も内容は\n全く同じだから、覚えておいてね。▽\nじゃ、次は使徒に接近して！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs069.har_EXTRACT/bs069.evs
-#
-# Shinji Ikari
-"あ…、当たった…！\n\0":
-'???',
-
-# Misato Katsuragi 
-"上手いじゃない、シンジ君。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs071.har_EXTRACT/bs071.evs
-#
-# Shinji Ikari
-"ミサトさん、今の…、\n中和ってなんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"エヴァが使徒に接近すると、\n互いのΑΤフィールドが中和され、\nΑΤフィールドが低下するの。\n\0":
-'???',
-
-# Shinji Ikari
-"互いのって事は………、\nエヴァのΑΤフィールドも！？\n\0":
-'???',
-
-# Misato Katsuragi 
-"そう、使徒とエヴァ両方の\nΑΤフィールドが低下する、▽\nつまり接近戦は、互いの防壁を\n捨てて戦う、ノーガードでの\n殴り合いみたいなものよ。\n\0":
-'???',
-
-# Shinji Ikari
-"…こちらのダメージも\n大きいって事ですよね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"でも、ΑΤフィールドを\n中和しないと、使徒にはあまり\nダメージを与えられないの。▽\nだからΑΤフィールドを中和して、\n接近戦というパターンが\n戦闘のセオリーになるわ。\n\0":
-'???',
-
-# Shinji Ikari
-"簡単に…言いますね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"基本的な事よ。\nじゃ、接近戦に移行して。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs071.har_EXTRACT/bs079.evs
-#
-# Misato Katsuragi 
-"シンジ君、緊張してる？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"シンジ君、\n緊張しているのかね？\n\0":
-'???',
-
-# Female Staff
-"初号機パイロット、大丈夫ですか？\n緊張しているようですが…。\n\0":
-'???',
-
-# Shinji Ikari
-"ええ、…少し。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そりゃそうよね、無理ないわ。\n使徒が接近するまでの間って、\n時間が長く感じるでしょ。▽\nそんな時は%1iボタンを押して！▽\n「退屈しのぎに何か話す」を\n選べるわ。▽\n何か話せば、自然と\n緊張もほぐれるわよ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"使徒が接近するまでの間というのは、\n時間が長く感じられるものだ。▽\nそんな時は%1iボタンを押してみると\nいい。▽\n「退屈しのぎに何か話す」を\n選ぶ事が出来る。▽\n何か話せば、自然と\n緊張もほぐれる事だろう。\n\0":
-'???',
-
-# Female Staff
-"そんな時は%1iボタンを\n押して下さい。▽\n「退屈しのぎに何か話す」を\n選ぶ事が出来ます。▽\n何か話せば、自然と\n緊張もほぐれますよ。\n\0":
-'???',
-
-# Shinji Ikari
-"そうですね、わかりました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
-#
-# Misato Katsuragi 
-"シンジ君、\n今、使徒の攻撃を受けた時、\nエヴァが光ったでしょ？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"今、使徒の攻撃を受けた際に、\nエヴァが光っただろう？\n\0":
-'???',
-
-# Female Staff
-"今、使徒の攻撃を受けた時、\nエヴァが光りましたね？\n\0":
-'???',
-
-# Shinji Ikari
-"…はい、今のは？\n\0":
-'???',
-
-# Misato Katsuragi 
-"エヴァが光るその瞬間は、\n相手の攻撃を防御するチャンスなの。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"今のようにエヴァが光る時は、\n使徒の攻撃を防御するチャンス\nなのだよ。\n\0":
-'???',
-
-# Female Staff
-"あの光る瞬間は、使徒の攻撃を\n防御するチャンスなんです。\n\0":
-'???',
-
-# Shinji Ikari
-"防御ですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"攻撃を受ける時、\nエヴァが光った瞬間に\n%1iボタンを押せばいいの。▽\nそうすれば、使徒の攻撃を防御して、\n無効化する事が出来るわ。▽\n使徒の強力な攻撃を回避したい時に\n狙ってみて。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"攻撃を受ける時、\nエヴァが光った瞬間に\n%1iボタンを押せばよい。▽\nそうする事により、使徒の攻撃を\n防御して、無効化する事が出来る。▽\n使徒の強力な攻撃を回避したい時に\n狙ってみてくれ。\n\0":
-'???',
-
-# Female Staff
-"攻撃を受ける時、エヴァが光った\n瞬間に%1iボタンを押して下さい。▽\nそうすれば、使徒の攻撃を防御して、\n無効化する事が出来ます。▽\n使徒の強力な攻撃を回避したい時に\n狙ってみて下さい。\n\0":
-'???',
-
-# Shinji Ikari
-"防御は、エヴァが光った時に\n%1iボタン…。▽\nわかりました。\n光った時に%1iボタンですね！\n\0":
-'???',
-
-# Shigeru Aoba
-"使徒、$fエリアまで、\n移動しました！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"いよいよ実戦だな、葛城君。▽\nこの日のために全てを費やしてきた。▽\n１５年前の悲劇を\n再び繰り返す事がないようにな。\n\0":
-'???',
-
-# Misato Katsuragi 
-"はい、\n重々承知しております。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"使徒に勝てるかどうかは、\n君の作戦と指揮にかかっている。▽\n特に、パイロット達に直接指示を\n与える君の仕事は重要だ。▽\nただ、まだ君も不慣れだろうから、\n今回は私が君のサポートを\n行おうと思う。▽\nこの戦闘で実戦の指揮というものを\n肌で感じ、的確な指示を出せる\nようになってくれたまえ。▽\n我々は、一度たりとも負ける\nわけにはいかないのだからな。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"ではまず、\n使徒の位置を確認しよう。▽\n「アナログパッド」で画面を動かし\n使徒を画面に捉えてくれ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"副司令、使徒を画面に捉えました。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"よろしい。\nでは次に、使徒の動きについてだ。▽\n知っているとは思うが、\n使徒の位置は電波妨害のため、\n一定時間おきにしか確認出来ない。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"だから、君は常に次の使徒の位置を\n読まなければならない。\nこれが君の重要な仕事だ。▽\n使徒の動きを読み、状況に応じた\n指示を心がけてもらいたい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"はい。\nもちろんです。\n\0":
-'Yes.\nOf course.\n\0',
-
-# Shigeru Aoba
-"使徒、移動を開始しました。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"では、次に君が行う事は\nパイロットへの移動指示だ。▽\nその前に、しばらく使徒の動きを\n観察してみよう。\n\0":
-'???',
-
-# Shigeru Aoba
-"使徒、初号機の迎撃開始ラインに\n侵入しました。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"次は、エヴァの誘導だ。▽\nまず、君はパイロットに\n移動指示を出し、エヴァを使徒の\n場所まで誘導しなければならない。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"使徒の位置は一定時間おきにしか\n確認出来ない。▽\n君の読みが悪ければ、接触の\nチャンスを逃す事になってしまう。▽\nもし、接触のチャンスを逃し、\nエヴァが使徒に追いつく事が\n出来なければ…、\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"ゼロエリアを突破され、ここネルフ\n本部が危機にさらされる事になる。\n十分、肝に銘じておいてくれたまえ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"では、移動指示の出し方だ。▽\n移動させたい場所で%1iボタンを押し、\n選択肢の中から移動指示を与えたい\nエヴァを選ぶ。わかってるな。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"では、任せたぞ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"次は戦闘指示だ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"戦闘指示は、\n接近戦、射撃戦、退避。\nこの３つの指示が行える。▽\nエヴァや使徒の耐久力、パイロット\nのΑΤなどの情報を把握し、\n状況に応じ適切な指示を選んでくれ。▽\n方法は「パイロットに指示を与える」\nを選んでパイロットを選び、\n各指示を選ぶだけだ。▽\nいいな、\nでは、指示を出したまえ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"葛城君、君に神経接続切断について\n話しておかなければならない。\n\0":
-'???',
-
-# Misato Katsuragi 
-"神経接続切断…ですか？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうだ、パイロットのシンクロ率が\n低い時などに、何としても\nダメージを回避させたい時は…、\n\0":
-'???',
-
-# Misato Katsuragi 
-"カーソルを、エヴァに合わせて\n%1iボタン…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"その通りだ。▽\n神経接続をカットすれば、\nパイロットへのダメージフィード\nバックを防ぐ事が出来る。▽\nただし、再接続中は\nエヴァが動けなくなる、\nその点は注意したまえ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"やったわ！\n\0":
-'We did it!\n\0',
-
-# Kozo Fuyutsuki
-"よくやったな。\n初めてにしては上出来だったよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"いえ、パイロットの実力と、\n副司令のサポートのおかげです。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そんな頼りない事を言われては\nこの先困るな。まあいい。▽\n一つだけ、移動指示について\n補足させてもらう。▽\n移動指示は、エヴァを指定ポイント\nに誘導出来る事を利用して、防御\n施設の上で、迎撃する事も出来る。▽\n今後はそういった応用も考慮\nしながら、指揮をとってくれたまえ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"了解！！\nご指導、ありがとうございました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs087.har_EXTRACT/bs087.evs
-#
-# [Battle: Armisael Attack]
-#
-# Shinji Ikari
-"う…わあぁ…、\nな、何だよこれ…。\n何か、何かが入ってくるよ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"う…くぅ…ッ。\n私の中に…私の身体の中に、\n何かが入ってくる…。\n\0":
-'???',
-
-# Rei Ayanami 
-"………くっ。\n流れ込んでくる…。\n何かが、私に入ってくる…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"な、何やこれ…。\nワシの身体…、どないなっとんのや。\n何や…、…コレ何や！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"うっ…ッ。\n彼は、僕と融合を図る気か…。\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"危険です、機体の生体部品が\n侵食されていきます。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"機体が接触部から、\n侵食されているわ。\n\0":
-'???',
-
-# Shinji Ikari
-"助けて…！　僕の身体が…。\nどうしてこんなに…、ねえ、\nだ、誰か…助けてェ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"いやぁぁぁ…！！\n入ってこないで、\n私の身体から出てってェェェ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"…私じゃない何かが、\n…入ってくる。\n私に…、入ってくる。\n\0":
-'???',
-
-# Toji Suzuhara 
-"何かがワシに入ってきよる、\nワシの身体に、頭ン中に…。\n身体が、身体がぁ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"このままじゃ、…僕は、\n…僕は、僕じゃなくなってしまう。\n…分離するのは…無理のようだ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…今すぐ助けるわ、\n待ってて！！\n\0":
-'???',
-
-# Makoto Hyuga
-"すぐ助ける、\n待っているんだ！！\n\0":
-'???',
-
-# Male Staff
-"すぐに救助を！！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"無理よ、機体、パイロット共々\n使徒と物理的融合を果たしているわ。▽\n分離する事は不可能よ。\nその代わり、機体の自爆を以って\n目標の殲滅は可能だわ。\n\0":
-'???',
-
-# Female Staff
-"機体、パイロット共々\n使徒と物理的融合を果たしています。▽\n分離する事は不可能です。\n…その代わり、機体の自爆による\n目標の殲滅は…可能です。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あんた、\n何言ってるかわかってるの！？\nそんな方法は採れないわ！！\n\0":
-'???',
-
-# Maya Ibuki 
-"でも、それで子供が\n犠牲になるなんて、\n許される事ではありません！！\n\0":
-'???',
-
-# Makoto Hyuga
-"馬鹿な事を！！\n他にあるはずだ、助かる方法が。\n\0":
-'???',
-
-# Male Staff
-"そんな、このまま\n子供を殺すわけにはいかない！！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"決断なさい。\n我々は、使徒殲滅が目的のはずよ。▽\nそれにあの子は…、助からないわ。\n\0":
-'???',
-
-# Female Staff
-"しかし、サードインパクトを\n起こすわけにはいかないのですよ。▽\nそれに、パイロットはもう\n助からないんです！！\n\0":
-'???',
-
-# Misato Katsuragi, Maya Ibuki, Makoto Hyuga, Male Staff, Shinji Ikari, Kaworu Nagisa,[Text Only - No Designated Speaker]
-"…………………………………………\n…………………………………………\n…………………………………………。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ごめんなさい…。\n\0":
-'Forgive me...\n\0',
-
-# Maya Ibuki 
-"許して…、\n許してちょうだい…。\n\0":
-'???',
-
-# Makoto Hyuga
-"すまない、\nこうするしかないんだ。\n…許してくれ。\n\0":
-'???',
-
-# Male Staff
-"今、楽にするから…。\n\0":
-'???',
-
-# Shinji Ikari
-"ねぇ…、\n僕は助かるの…？\nねぇ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"早くぅ…、\n誰か、助けに来てよぉ…。\n\0":
-'???',
-
-# Rei Ayanami 
-"…駄目、動けない…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"…ああ、これ済んだら、\n妹の見舞い行かなアカンのに…。\n早う…、待っとんのに…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"思い出の中の人達…、\nどうか、輝きある未来を…。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"使徒、殲滅を確認…。\n目標は消失しました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs087.har_EXTRACT/bs088.evs
-#
-# [Battle: J.A.2 Departure]
-#
-# Makoto Hyuga, Male Staff
-"ΘΑ改、活動限界！！\n機能停止しました！！\n\0":
-'???',
-
-# Shiro Tokita
-"…あ、…あぁ、\nチクショウめ！！\nここまでなのか…。\n\0":
-'???',
-
-# Toji Suzuhara
-"オッチャン、\nようやったやんけ！！▽\nこっちゃ、ごっつい助かっとんねん。\nあとはワシがどないかするさかい、\nはよ安全なトコ行き！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そこは危険よ！！\nオジサン、早く逃げて！！\n\0":
-'???',
-
-# Shinji Ikari
-"おじさん、早く逃げて！！\n\0":
-'???',
-
-# Kaworu Nagisa
-"早く、早くここから逃げて！\n助けてくれてありがとう、\nあなたの好意は忘れないよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"時田さん、パイロットも\nああ言ってるわ。\n早く避難して！！\n\0":
-'???',
-
-# Female Staff
-"時田さん、そこは危険です。\n早く避難して下さい。\n\0":
-'???',
-
-# Shiro Tokita
-"………し、しかし。\n\0":
-'???',
-
-# Toji Suzuhara
-"オッチャン、\nまたええの作ったらよぉ、\n次はワイが勝負したらぁよ。▽\nせやから、今はワシがきばるわ。\n頑張りや、オッチャン。\n楽しみにしとるでぇ！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"また新しいロボットを\n作ってらっしゃい！！\n私が勝負してあげるから。\n\0":
-'???',
-
-# Shinji Ikari
-"今は逃げて！\nそしてまたみんなのために\nΘΑを作ってよ。▽\nだから今は逃げて！！\n\0":
-'???',
-
-# Kaworu Nagisa
-"今度、あなたが新しいのを作ったら、\n僕が相手をするよ。\n楽しみにしてる。▽\nだから、その時のために\n逃げて下さい！！\n\0":
-'???',
-
-# Shiro Tokita
-"………。▽\n…勝てないのはやはり、\n人の心…、か。▽\nよし、ここは君に任せた！！\n頑張れよ、頑張れよー！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs092.har_EXTRACT/bs092.evs
-#
-# [Battle: Dummy Plug]
-#
-# Gendo Ikari
-"初号機は\nダミープラグに切り替えろ。\n\0":
-'Switch Unit-01 over\nto dummy plug.\n\0',
-
-# Gendo Ikari
-"弐号機は\nダミープラグに切り替えろ。\n\0":
-'Switch Unit-02 over\nto dummy plug.\n\0',
-
-# Gendo Ikari
-"零号機は\nダミープラグに切り替えろ。\n\0":
-'Switch Unit-00 over\nto dummy plug.\n\0',
-
-# Gendo Ikari
-"参号機は\nダミープラグに切り替えろ。\n\0":
-'Switch Unit-03 over\nto dummy plug.\n\0',
-
-# Gendo Ikari
-"四号機は\nダミープラグに切り替えろ。\n\0":
-'Switch Unit-04 over\nto dummy plug.\n\0',
-
-# Gendo Ikari
-"エヴァ両機は\nダミープラグに切り替えろ。\n\0":
-'Switch both Eva units\nover to dummy plug.\n\0',
-
-# Kozo Fuyutsuki
-"碇、ダミープラグの使用は\nお前だけのみならず、委員会の\n許可を得なければならないんだ。▽\nそれに、ゼーレが黙ってはいないぞ！\nそれでも使うのか？\n\0":
-'???',
-
-# Male Staff
-"しかし、ダミープラグは司令の他、\n委員会の許可が必要です。\n\0":
-'???',
-
-# Gendo Ikari
-"構わん、やれ。\n\0":
-'Doesn\'t matter. Do it.\n\0',
-
-# Maya Ibuki, Female Staff
-"初号機のダミーシステム、\n起動します。\n\0":
-'Unit-01\'s dummy system\nis starting up.\n\0',
-
-# Shinji Ikari
-"父さん…、\nくそっ、やっぱり僕なんか\nいらないんだ…。\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"初号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-01 has been switched\nover to dummy system.\n\0',
-
-# Maya Ibuki, Female Staff
-"弐号機のダミーシステム、\n起動します。\n\0":
-'Unit-02\'s dummy system\nis starting up.\n\0',
-
-# Asuka Soryu Langley
-"何よ…、\n私じゃ役不足っていうの…？\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"弐号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-02 has been switched\nover to dummy system.\n\0',
-
-# Maya Ibuki, Female Staff
-"零号機のダミーシステム、\n起動します。\n\0":
-'Unit-00\'s dummy system\nis starting up.\n\0',
-
-# Rei Ayanami 
-"やっぱり私…、\nいらなくなるのね…。\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"零号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-00 has been switched\nover to dummy system.\n\0',
-
-# Maya Ibuki, Female Staff
-"参号機のダミーシステム、\n起動します。\n\0":
-'Unit-03\'s dummy system\nis starting up.\n\0',
-
-# Toji Suzuhara 
-"くっそぉ、…何や！！\nワイの事、コケにしおってからに！！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"参号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-03 has been switched\nover to dummy system.\n\0',
-
-# Maya Ibuki, Female Staff
-"四号機のダミーシステム、\n起動します。\n\0":
-'Unit-04\'s dummy system\nis starting up.\n\0',
-
-# Kaworu Nagisa 
-"僕は…、\n僕は必要じゃなかったんだ…。\n\0":
-'They...\nThey didn\'t need me...\n\0',
-
-# Maya Ibuki, Female Staff
-"四号機、ダミーシステムに\n切り替わりました。\n\0":
-'Unit-04, switched over to dummy system.\n\0',
-
-# Gendo Ikari
-"…。▽\nわかった、もう少し待とう。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs092.har_EXTRACT/bs094.evs
-#
-# [Battle: Jet Alone 2 Arrives]
-#
-# Toji Suzuhara
-"くっそー、勝てるんかホンマに…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"向こうはΣ機関搭載か…。\n勝てるかしら…。\n\0":
-'???',
-
-# Shinji Ikari
-"９機…、\nどう考えたって不利だ…。\n\0":
-'???',
-
-# Kaworu Nagisa
-"９機か…、\n今度こそ、僕の最後かもしれない。\n\0":
-'Nine of them?\nMy final moments may be upon me.\n\0',
-
-# Shiro Tokita
-"ジェットアローン改、\n起動スタンバイ！！\n\0":
-'Jet Alone 2,\nstand by for activation!!\n\0',
-
-# Toji Suzuhara
-"な、何やアレ！？\n\0":
-'Wh-what\'s that?!\n\0',
-
-# Asuka Soryu Langley
-"もう一体来るの…？\n\0":
-'The hell is it now...?\0',
-
-# Shinji Ikari
-"な、何か降りてくる！？\n\0":
-'S-something\'s come down?!\n\0',
-
-# Kaworu Nagisa
-"何だ、あれは…。\n\0":
-'What is it...?\n\0',
-
-# Misato Katsuragi 
-"あれは…、ΘΑ！？\n\0":
-'Is that... ΘΑ?!\n\0',
-
-# Female Staff
-"これは…、ΘΑ！？\nジェットアローンです！！▽\nジェットアローンと同じ識別番号を\n持つ機体が現れました！！\n\0":
-'???',
-
-# Shiro Tokita
-"元日本重化学工業共同体代表、\n時田シロウだ。▽\n配備計画は廃案されたが、\nこのジェットアローン改は\n私の意地と執念の賜物だ。▽\n君達の役に立てれば幸いだ、\n使ってくれ…、パスワードは\nあの言葉だ！！\n\0":
-'???',
-
-# Misato Katsuragi 
-"………。▽\n時田さん、あなた、\nなかなかの男じゃないの。▽\nそれじゃあ\n遠慮なく使わせてもらうわ！！▽\n操作チャンネルを設定して！\nパスワードは「希望」よ！！\n\0":
-'???',
-
-# Female Staff
-"わかりました、\n操作チャンネルを設定して下さい。\nパスワードは「希望」！！\n\0":
-'???',
-
-# Toji Suzuhara, Toji Suzuhara
-"助太刀か、\nかっこええのぉ、オッチャン！\nほな、行こかい！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"あの人…、こんな時に\n逃げないで…。▽\nよぉし、こうとなったら\n負けてらんないわ！！\n\0":
-'???',
-
-# Shinji Ikari
-"おじさんは…。\nこんな危険を冒してまでここへ…？▽\nよし、僕だって…、\n僕だってやってやる！！\n\0":
-'???',
-
-# Kaworu Nagisa
-"何て無謀な人だろう…。\nあれが、リリンの持つ心、\nこんな危険を冒してまで…。▽\nフフ、弱音を吐いている場合じゃ\nなくなったね。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs092.har_EXTRACT/bs095.evs
-#
-# [Battle: Eva Lift-Up]
-#
-# Makoto Hyuga, Male Staff
-"使徒、ジオフロントに侵入。\n本部へ真っ直ぐ接近中！\n\0":
-'The Angel has invaded the GeoFront.\nCurrently on a direct trajectory for Headquarters!\n\0',
-
-# Makoto Hyuga, Male Staff
-"エヴァ、リフトアップ！\n\0":
-'Evas undergoing lift-up!\n\0',
-
-# Makoto Hyuga, Male Staff
-"エヴァ、リフトアップ完了。\nパイロットは、迎撃準備を！\n\0":
-'Eva lift-up completed.\nPilots are preparing to intercept!\n\0',
-
-#
-# ./USRDIR/event/bs096.har_EXTRACT/bs096.evs
-#
-# [Battle: Charge Gauge]
-#
-# Misato Katsuragi 
-"次の攻撃はチャージが\n完了するまで出来ないわ。▽\nチャージゲージが\n最大まで回復したら、\nまた%1iボタンを押して攻撃よ！\n\0":
-'???',
-
-# Shinji Ikari
-"はい、分かりました！\n\0":
-'Yes, understood!\n\0',
-
-#
-# ./USRDIR/event/bs097.har_EXTRACT/bs097.evs
-#
-# Misato Katsuragi 
-"何ですって！？\nこの距離から、だというの…？▽\nヤツの中和距離は\nこちらの予想以上の広さよ。▽\n恐らく、遠距離攻撃で来るわ！！▽\n気をつけなさい！！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"この距離から、というのか！？\nいかん、奴は遠距離攻撃をしかけて\nくるつもりだ。▽\n既に射程内に入っていないとも\n限らん。\n油断するな！！\n\0":
-'???',
-
-# Female Staff
-"そんな！？\n中和距離の範囲が予想以上だわ。▽\n恐らく使徒は、この距離からでも、\n攻撃可能と思われます。▽\n気をつけて下さい！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs098.har_EXTRACT/bs098.evs
-#
-# Misato Katsuragi 
-"ここを自爆させるわ…。\nいい？\n自爆装置、発動。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"ここを自爆させる…。\n人類が生き延びるには\nそれしかない…。\n\0":
-'???',
-
-# Female Staff
-"ここを自爆させましょう。\nサードインパクトを防ぐには、\nそれしかありません。\n\0":
-'???',
-
-# Male Staff
-"覚悟は、出来ています。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…自爆装置が作動しない。\nまさか、あの少年が。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"自爆装置が解除された…。\nあの少年の力か！！\n\0":
-'???',
-
-# Female Staff
-"そんな…、自爆装置が作動しない。\nあの少年が止めたの…？\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
-#
-# Misato Katsuragi 
-"どうしちゃったって言うのよ、\nこんな時に…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あなた、\nちゃんとあの子の管理やってるの？▽\n指示を与える指揮官と、\n実際に戦場で戦うパイロット。▽\nしっかりした信頼関係がないと\nこんな時に上手くいかず、\n困る事になるのよ。\n\0":
-'???',
-
-# Female Staff
-"作戦部長、ちゃんとあの子の管理、\nやっておられますか？▽\n指揮官とパイロットはしっかりした\n信頼関係がないと、こんな時に\n困る事になるんですよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"やっぱ、相手は子供だしね…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"他に理由として考えられるのは…、\nやる気ね。▽\nこの街や、ネルフを守ろうという\n正義感、頑張って人に認められよう、\n誉められようとする名誉欲、▽\nそういうものが欠けると、\nパイロットは戦う目的を見失い、\nやる気を無くしてしまうわ。▽\nあなた、何か心当たりが\nあるんじゃない？\n\0":
-'???',
-
-# Female Staff
-"他に理由として考えられるのは、\n…やる気ですね。▽\nこの街やネルフを守ろうという\n正義感、頑張って人に認められよう、\n誉められようとする名誉欲、▽\nそういうものが欠けると、\nパイロットは戦う目的を見失い、\nやる気を無くしてしまいます。▽\n何か、心当たりありませんか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"何にせよ、責任は私にアリね…。\n思春期の心はわかりづらいわ。\n\0":
-'???',
-
-#
 # ./USRDIR/btl/bevent.har_EXTRACT/ba000.evs
 #
 # Shigeru Aoba, Male Staff
@@ -10612,6 +12191,81 @@ translate_map = {
 '???',
 
 #
+# ./USRDIR/btl/bevent.har_EXTRACT/ba005.evs
+#
+# Misato Katsuragi 
+"エヴァ両機は\n距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"エヴァ両機は距離をとって射撃！\n\0":
+'???',
+
+# Misato Katsuragi 
+"シンジ君は距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"初号機は距離をとって射撃！\n\0":
+'???',
+
+# Female Staff
+"初号機パイロットは\n距離をとって射撃して下さい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"アスカは距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"弐号機は距離をとって射撃！\n\0":
+'???',
+
+# Female Staff
+"弐号機パイロットは\n距離をとって射撃して下さい！\n\0":
+'???',
+
+# Female Staff
+"エヴァ両機は、\n距離をとって射撃して下さい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"レイは距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"零号機は距離をとって射撃！\n\0":
+'???',
+
+# Female Staff
+"零号機パイロットは\n距離をとって射撃して下さい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"トウジくんは\n距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"参号機は距離をとって射撃！\n\0":
+'???',
+
+# Female Staff
+"参号機パイロットは\n距離をとって射撃して下さい！\n\0":
+'???',
+
+# Misato Katsuragi 
+"カヲルくんは\n距離をとって射撃して！\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"四号機は距離をとって射撃！\n\0":
+'???',
+
+# Female Staff
+"四号機パイロットは\n距離をとって射撃して下さい！\n\0":
+'???',
+
+#
 # ./USRDIR/btl/bevent.har_EXTRACT/ba006.evs
 #
 # Misato Katsuragi 
@@ -10685,10 +12339,6 @@ translate_map = {
 # Female Staff
 "エヴァ両機パイロットは\n射撃開始！\n\0":
 'Pilots of both Evas,\ncommence firing!\n\0',
-
-#
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs
-# gaogaigar
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba007.evs
@@ -10952,6 +12602,13 @@ translate_map = {
 'The defense facility in Area $f\n has been destroyed!\n\0',
 
 #
+# ./USRDIR/btl/bevent.har_EXTRACT/ba016.evs
+#
+# Shigeru Aoba, Male Staff
+"$fエリア、国連軍、\n掃滅しました！\n\0":
+'???',
+
+#
 # ./USRDIR/btl/bevent.har_EXTRACT/ba017.evs
 #
 # Maya Ibuki, Female Staff
@@ -11001,97 +12658,6 @@ translate_map = {
 # Maya Ibuki, Female Staff
 "エヴァ両機、\nアンビリカルケーブル接続。\n\0":
 'Both Evas, umbilical cables connected.\n\0',
-
-#
-# ./USRDIR/btl/bevent.har_EXTRACT/ba019.evs
-# ./USRDIR/event/bs010.har_EXTRACT/bs010.evs:
-#
-# Shinji Ikari
-"どうしたんだ、\n動かない、動かないよ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"動かない…。\n動かないの、動いてくれないの！\n\0":
-'???',
-
-# Rei Ayanami 
-"駄目…、動かない…。\n私には…、動かせない。\n\0":
-'???',
-
-# Toji Suzuhara 
-"動かへん…。ああ、何でや…。\n何で動かへんのや…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"動かへん…。\nああ、何でや…。\n何で動かへんのや…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そんな、動かない…。\n僕に動かせないなんて…。なぜだ…！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そんな、動かない…。\n僕に動かせないなんて…。\nなぜだ…！！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"パイロットのシンクロ率が低すぎます！\n…これではエヴァは稼動しません！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"パイロットのシンクロ率が\n低すぎます！\n…これではエヴァは稼動しません！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"パイロットのシンクロ率が\n低すぎます！▽\n…これでは、同時荷重攻撃は\n不可能です！\n\0":
-'???',
-
-# Misato Katsuragi 
-"ここまで来て…、何てことなの！？\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"万事休すか…。\n\0":
-'???',
-
-# Female Staff
-"そんな、作戦は失敗なの…。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"目標、移動を開始しました！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs011.har_EXTRACT/bs011.evs
-#
-# Maya Ibuki, Female Staff
-"エヴァ初号機の予備電源終了。\n\0":
-'Eva Unit-01\'s backup power has terminated.\n\0',
-
-# Shinji Ikari
-"そんな…、もう…？\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"エヴァ弐号機の予備電源終了。\n\0":
-'Eva Unit-02\'s backup power has terminated.\n\0',
-
-# Maya Ibuki, Female Staff
-"エヴァ零号機の予備電源終了。\n\0":
-'Eva Unit-00\'s backup power has terminated.\n\0',
-
-# Maya Ibuki, Female Staff
-"エヴァ参号機の予備電源終了。\n\0":
-'Eva Unit-03\'s backup power has terminated.\n\0',
-
-# Maya Ibuki, Female Staff
-"エヴァ四号機の予備電源終了。\n\0":
-'Eva Unit-04\'s backup power has terminated.\n\0',
-
-# Maya Ibuki, Female Staff
-"エヴァ両機の予備電源終了。\n\0":
-'Both Evas\' backup power has terminated.\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba021.evs
@@ -11194,29 +12760,6 @@ translate_map = {
 'Armory building has attacked!\n It did $j damage!\n\0',
 
 #
-# ./USRDIR/btl/bevent.har_EXTRACT/ba038.evs
-# 
-# Shigeru Aoba, Male Staff
-"電源ビル、\n$jのダメージ！\n\0":
-'Power building has\n taken $j damage!\n\0',
-
-# Shigeru Aoba, Male Staff
-"武器庫ビル、\n$jのダメージ！\n\0":
-'Armory building has\n taken $j damage!\n\0',
-
-# Shigeru Aoba, Male Staff
-"兵装ビル、\n$jのダメージ！\n\0":
-'Armament building has\n taken $j damage!\n\0',
-
-# Shigeru Aoba, Male Staff
-"防御施設、\n$jのダメージ！\n\0":
-'Defense facility has\n taken $j damage!\n\0',
-
-# Shigeru Aoba, Male Staff
-"ネルフ本部、\n$jのダメージ！\n\0":
-'Nerv H.Q. has\n taken $j damage!\n\0',
-
-#
 # ./USRDIR/btl/bevent.har_EXTRACT/ba034.evs
 # 
 # Shigeru Aoba, Male Staff
@@ -11255,6 +12798,29 @@ translate_map = {
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n使徒に$jのダメージ！\n\0":
 'Armament building attacked!\n $j damage to the Angel!\n\0',
+
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba038.evs
+# 
+# Shigeru Aoba, Male Staff
+"電源ビル、\n$jのダメージ！\n\0":
+'Power building has\n taken $j damage!\n\0',
+
+# Shigeru Aoba, Male Staff
+"武器庫ビル、\n$jのダメージ！\n\0":
+'Armory building has\n taken $j damage!\n\0',
+
+# Shigeru Aoba, Male Staff
+"兵装ビル、\n$jのダメージ！\n\0":
+'Armament building has\n taken $j damage!\n\0',
+
+# Shigeru Aoba, Male Staff
+"防御施設、\n$jのダメージ！\n\0":
+'Defense facility has\n taken $j damage!\n\0',
+
+# Shigeru Aoba, Male Staff
+"ネルフ本部、\n$jのダメージ！\n\0":
+'Nerv H.Q. has\n taken $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba039.evs
@@ -11297,137 +12863,31 @@ translate_map = {
 'U.N. forces have\n been annihilated!\n\0',
 
 #
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
-#
-# [Battle: Pilot Refusing Orders]
+# ./USRDIR/btl/bevent.har_EXTRACT/ba043.evs
 #
 # Shinji Ikari
-"嫌です。\n\0":
-'No.\n\0',
-
-# Shinji Ikari
-"そんな事出来ません。\n\0":
-'I can\'t do something like that.\n\0',
-
-# Shinji Ikari
-"僕は自分が思う通りにします。\n\0":
-'???',
-
-# Shinji Ikari
-"その指示は聞けません。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"指示に従いたまえ！\n\0":
-'???',
-
-# Female Staff
-"独断行動は危険です！\n\0":
+"こちら初号機です。\n移動指定ポイントに到着しました。\n\0":
 '???',
 
 # Asuka Soryu Langley
-"うるさい！\nアンタの命令なんか聞けないわ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"イヤ、\n絶対にイヤ！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"バカにしないでよ。\n私の事は、私が決めるわ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"お断りよ。\n黙って見てりゃいいのよ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"アスカっ！！\n\0":
-'Asuka!!\n\0',
-
-# Kozo Fuyutsuki
-"命令を無視するつもりか！！\n\0":
-'???',
-
-# Female Staff
-"弐号機パイロット、\n命令に従って下さい！\n\0":
-'Pilot of Unit-02,\nplease follow your order!\n\0',
-
-# Rei Ayanami 
-"…命令は聞けません。\n\0":
+"弐号機、\n移動指定ポイントに到着！\n\0":
 '???',
 
 # Rei Ayanami 
-"拒否します…。\n\0":
-'I refuse...\n\0',
-
-# Rei Ayanami 
-"どうするかは、私が決めます。\n\0":
-'???',
-
-# Rei Ayanami 
-"いいえ。\n私は、独断で行動します。\n\0":
-'No. I will act\naccording to my own judgment.\n\0',
-
-# Kozo Fuyutsuki
-"命令違反だぞ！！\n\0":
-'You\'re violating an order!\n\0',
-
-# Female Staff
-"危険です、\n指示に従って下さい。\n\0":
+"こちら零号機、\n移動指定ポイントに到着しました。\n\0":
 '???',
 
 # Toji Suzuhara 
-"そんな命令、聞けまへんわ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"冗談でしょ？\nお断りしますわ。\n\0":
-'This a joke?\nI refuse.\n\0',
-
-# Toji Suzuhara 
-"そんなん聞けんわ！\n絶対嫌やわ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ワシかて自分で行動出来ます！\n口出さんといて下さい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"トウジ君っ！！\n\0":
-'Toji-kun!!\n\0',
-
-# Kozo Fuyutsuki
-"無茶しおって！！\n\0":
-'???',
-
-# Female Staff
-"参号機パイロット、\n命令違反はいけません。\n\0":
-'Pilot of Unit-03,\nyou mustn\'t violate an order.\n\0',
-
-# Kaworu Nagisa 
-"その指示には納得出来ませんね。\n\0":
+"こちら参号機、\n移動指定ポイントに着きました。\n\0":
 '???',
 
 # Kaworu Nagisa 
-"嫌です、\nそれは僕が判断します。\n\0":
+"四号機です、\n移動指定ポイントに到着しました。\n\0":
 '???',
 
-# Kaworu Nagisa 
-"知りませんよ、そんな事。\n\0":
+# Makoto Hyuga, Male Staff
+"エヴァ両機、\n移動指定ポイントに到着しました。\n\0":
 '???',
-
-# Kaworu Nagisa 
-"その必要はないと思いますけど。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"何を言うか！！\n指示通りに行動するんだ！\n\0":
-'???',
-
-# Female Staff
-"四号機、命令に従って下さい。\n\0":
-'Unit-04, please follow your order.\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba045.evs
@@ -11478,6 +12938,29 @@ translate_map = {
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
 'Mass production unit, remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
+
+#
+# ./USRDIR/btl/bevent.har_EXTRACT/ba047.evs
+#
+# Maya Ibuki, Female Staff
+"参号機のシールドが\n破壊されました！\n\0":
+'Unit-03\'s shield has been destroyed!\n\0',
+
+# Maya Ibuki, Female Staff
+"初号機のシールドが\n破壊されました！\n\0":
+'Unit-01\'s shield has been destroyed!\n\0',
+
+# Maya Ibuki, Female Staff
+"四号機のシールドが\n破壊されました！\n\0":
+'Unit-04\'s shield has been destroyed!\n\0',
+
+# Maya Ibuki, Female Staff
+"弐号機のシールドが\n破壊されました！\n\0":
+'Unit-02\'s shield has been destroyed!\n\0',
+
+# Maya Ibuki, Female Staff
+"零号機のシールドが\n破壊されました！\n\0":
+'Unit-00\'s shield has been destroyed!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba048.evs
@@ -11555,835 +13038,10 @@ translate_map = {
 'Both Eva units, please relocate!\n\0',
 
 #
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Partial)
-# 
-# Kozo Fuyutsuki
-"葛城君、\n作戦の運びは\nどのようになるのかね？\n\0":
-'???',
-
-# Misato Katsuragi 
-"あ、はい。\n今から設定するところです。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうか。\nでは、私がいくつか作戦設定に\nついて、アドバイスをしよう。\n\0":
-'???',
-
-# Misato Katsuragi 
-"はい。\nよろしくお願いします。\n\0":
-'???',
-
-# Male Staff
-"作戦の目処はつきましたか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"まあ、\n今から作戦設定するところなの。\n\0":
-'???',
-
-# Male Staff
-"私でよろしければ、作戦設定に\nついて、アドバイスを行いましょう。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ええ、お願いするわ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"では、パイロットの選択についてだ。▽\nまず、機体及び、\n搭乗するパイロットの状態を\nよくチェックする事だ。▽\nΑΤが低いパイロットや稼動状況が\n低いエヴァを出撃させても\nあまり戦力にならないからな。▽\nそうして、出撃させるパイロットを\n決めるといい。\n\0":
-'???',
-
-# Male Staff
-"では、パイロットの選択について\n説明します。▽\nまず、機体及び\n搭乗するパイロットの状態を\nよくチェックしましょう。▽\nΑΤが低いパイロットや稼動状況が\n低いエヴァを出撃させても、\nあまり戦力になりません。▽\nチェックが済んだら、\n作戦に参加させるパイロットを\n選出しましょう。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"出撃パイロットを選択した次は、\nエヴァの迎撃ポイントと\n装備の設定だ。▽\n%1iボタンで作戦立案に関する\nコマンドを起動できる。\n試してみたまえ。\n\0":
-'???',
-
-# Male Staff
-"パイロットの選出の次は、\nエヴァの迎撃ポイントと\n装備の設定です。▽\nアナログパッドでカーソルを動かし、\n%1iボタンでエヴァを選びます。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"作戦立案のコマンドでは\nエヴァに対して初期配置場所と\n装備武装の設定が行える。▽\nまずは初号機を配置したい場所で\n「初号機を配置する」を\n選んでみたまえ。▽\n次に武装を設定するといいだろう。\n「初号機に武装する」で\n選択した武器を初号機に装備できる。▽\n国連軍の攻撃機も配置できる。\n使徒の移動経路となるような場所に\n配備して、使徒索敵に役立ててくれ。▽\n作戦立案が終了したら\n「作戦立案終了、次に進む」だ。▽\n作戦内容がパイロットに伝達され、\n作戦が開始される。\n\0":
-'???',
-
-# Male Staff
-"エヴァに対しては、\n以下の３つの設定が行えます。▽\n迎撃ポイントを設定する、移動。\n装備を設定する、装備。\nエヴァの状態を確認する、情報。▽\n一通り全部試し終わったならば、\n%2iボタンを押して、作戦を決定して\n下さい。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"迎撃ポイントの設定は、作戦設定に\nおいて、一番重要な要素だ。▽\n使徒の出現位置や兵装ビルの位置を\n見ながら、どこで、どう使徒を迎撃\nするか想定し、配置する必要がある。▽\nエヴァ以外にも国連軍の配置も行う\n事が出来るから、それらを踏まえ、\n最もよい配置を行ってくれ。\n\0":
-'???',
-
-# Male Staff
-"迎撃ポイントの設定は、作戦設定に\nおいて、一番重要な要素です。▽\n使徒の出現位置や兵装ビルの位置を\n見ながら、どこで、どう使徒を迎撃\nするか想定し、配置を行います。▽\nエヴァ以外にも国連軍の配置も行う\n事が出来ますので、それらを踏まえ、\n最もよい配置を行って下さい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ありがとう、わかったわ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"エヴァの装備は、その重量によって\n装備した時の移動速度が変化する。▽\n要するに、重い武器を持つと、\nその分移動速度が低下してしまう。▽\n装備は、戦闘中に武器庫ビルでも\n交換出来る事を忘れないようにな。▽\n武器の性能をよく見て\n選んでくれたまえ。\n\0":
-'???',
-
-# Male Staff
-"エヴァの装備は、その重量によって\n装備した時の移動速度が変化します。▽\n重い武器を持つと、その分移動速度\nが低下するんです。▽\nあと、武器の性能をよく見て\n選択して下さい。▽\n装備は、戦闘中に武器庫ビルでも\n交換出来る事をお忘れなく。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ＯＫ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"この画面で、パイロットのΑΤ、\nシンクロ率やエヴァの各種情報が\n確認出来る。▽\n作戦を立てる時の参考にするといい。\n\0":
-'???',
-
-# Male Staff
-"この画面で、パイロットのΑΤ、\nシンクロ率やエヴァの各種情報が\n確認出来ます。▽\n作戦を立てる時の参考にすると\nいいでしょう。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"葛城君、まだ試していない\nコマンドが残っている。▽\nエヴァを選んで、試していない\nコマンドを使ってみてくれたまえ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"作戦が出来たようだな…。\nこれで、私が教える事は全部伝えた。▽\nあとは、パイロットに\n作戦を伝達して戦闘開始。\n頑張ってくれたまえ、葛城君。\n\0":
-'???',
-
-# Misato Katsuragi 
-"準備は出来た？\nこれから、今回の作戦を伝達します。\nしっかり、頭に叩き込んでね。\n\0":
-'???',
-
-# Female Staff
-"準備はよろしいですか？▽\nこれより、今回の作戦を伝達します。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"以上が、今回の作戦要綱となります。\n\0":
-'???',
-
+# ./USRDIR/btl/bevent.har_EXTRACT/d011.evs
 #
-# ./USRDIR/btl/tabris.har_EXTRACT/bk001.evs
-# 
-# Shinji Ikari
-"裏切ったな…。\n僕の気持ちを裏切ったな！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…シンジ君。▽\n君と同じ仕組まれた子供なんだ。\nそのために僕も君もいる。▽\n君は来てくれた。\n筋書き通りに。\n\0":
-'???',
-
-# Shinji Ikari
-"そんな事どうでもいいよ！\n信じてたんだ、もっと君とは\n知り合う事が出来るって。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"だから裏切ったと…？\n僕に何を期待していたんだい。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk002.evs
-# 
-# Shinji Ikari
-"僕の気持ちを踏みにじった…！\n君を信じてたのに…。▽\nでも、カヲル君は最初から\nこうするつもりで僕に近づいたの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕はただ、さだめ、という流れに\nいるだけさ。▽\n君や、この世界すべての\nリリンのように。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は今でも…、信じたいんだ。\nカヲル君を…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"でも、君は迷っている。\n僕が君達リリンの敵だから。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk003.evs
-# 
-# Shinji Ikari
-"でも、僕は傷ついた。\n君に傷つけられた…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君はすがりたかっただけだ、\n何かに。▽\nヒトは、何かにすがらなければ、\n生きてはいけないからね。\n\0":
-'???',
-
-# Shinji Ikari
-"僕の…、希望でもあったんだ。\n君と一緒にいたいって思ってたんだ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"希望に潜む影に\n気づかなかったんだね。\n自分自身にある、その影に。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk004.evs
-# 
-# Shinji Ikari
-"君を傷つけたくないんだよ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕も君を傷つけるつもりはないよ。\n\0":
-'???',
-
-# Shinji Ikari
-"じゃあ、\nじゃあ、こんな事やめてよ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君に会えて、嬉しかったよ。\n本当だよ。▽\nけれど、その時から、\n僕はやすらぎを失ったんだ。▽\n君を知り過ぎたのかもしれない。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk005.evs
-# 
-# Shinji Ikari
-"君も…、\n僕を助けてくれないの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕は君を、君は僕を救えない。\nいや、みんなそうさ。▽\n救われるかどうかは、\n自分で決めるしかない。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk006.evs
-# 
-# Shinji Ikari
-"人の気持ちなんて\nどうでもいいんだ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕の気持ちはどうでもいいのかい？\n君達リリンは。\n\0":
-'???',
-
-# Shinji Ikari
-"だから、戦わないで…。\n一緒にいる事だって出来る。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"それは出来ない。\nこれが僕らの意志だから。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk007.evs
-# 
-# Shinji Ikari
-"カヲル君、\nどうしてそんな事が言えるの。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕の答えは、\nすでに君の中にあるモノだから。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は違う！\nただ、君とは戦いたくないだけだ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"けれども時間がない。\n君にも僕にも。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk008.evs
-# 
-# Shinji Ikari
-"ごまかさないでよ、\nそうやって僕の気持ちを\nごまかさないでよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"リリンは、絶望と向き合う事が\n出来ないからね。\n\0":
-'???',
-
-# Shinji Ikari
-"そうやって、心を閉ざさないでよ！\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk009.evs
-# 
-# Shinji Ikari
-"カヲル君も、父さんと同じだ。\n僕を捨てて、利用して！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"いくつもの現実の断片に\n自分を見る事が出来なければ\n変わらない真実だよ。\n\0":
-'???',
-
-# Shinji Ikari
-"捨てた、捨てたんだ！\nみんな僕を！！\n君も！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"………。▽\n君は、しょうがなく\nエヴァに乗っていたんだね。▽\n捨てられるのが怖くて。▽\nそんな事はないのに。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk010.evs
-# 
-# Shinji Ikari
-"僕は、君が好きだったんだ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"でも、僕を受け入れられない。\n\0":
-'???',
-
-# Shinji Ikari
-"受け入れるさ！！\n受け入れられるよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君は自由を受け入れられない。\n自由を与えられると、\n自分がいなくなると恐れている。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk011.evs
-# 
-# Shinji Ikari
-"違う、違う、違う！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"自由は解放と拘束。\nシンジ君は、どっちも選べない\nだろう？\n\0":
-'???',
-
-# Shinji Ikari
-"君を好きになるのは僕の自由だ！\n違うの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…僕が滅びるのも、\nまた自由だ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk012.evs
-# 
-# Shinji Ikari
-"…そうなんだ。\n僕が嫌いなんだね。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"いいや、\n恐怖と絶望は、リリン達にも\n不要だという事さ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk013.evs
-# 
-# Shinji Ikari
-"何で、君まで僕を…、\n僕を傷つけるの…？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君が僕という存在を知っただけ。\n傷つけたつもりはないよ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk014.evs
-# 
-# Shinji Ikari
-"でも、そうじゃないか。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"拒絶。\nそうやって自分の心を守るしか\nないのかい。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk015.evs
-# 
-# Shinji Ikari
-"どうすればいいの？\n出会った時のように２人が\nなれるには、どうしたらいいの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"………。▽\nすべてはリリンの流れのままに。▽\n………………。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk016.evs
-# 
-# Shinji Ikari
-"嘘だよね。\nカヲル君が使徒だったなんて、\n嘘だよね…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕は使徒としての価値を\n与えられた。▽\nそれが今、僕の存在している\n理由なんだ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk018.evs
-# 
-# Shinji Ikari
-"…関係ないよ。\nねえ、カヲル君は僕の事\nどう思ってるの…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…好きだよ、シンジ君。\n君の事が。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk019.evs
-# 
-# Shinji Ikari
-"君に嫌われたくないよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"嫌いじゃないよ。\nでも、嫌われると僕に恐怖心を\n抱いている。▽\nヒトを信じられないからだね。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk020.evs
-# 
-# Shinji Ikari
-"僕は、君に出会えた事が\n嬉しかったんだ。▽\n僕が探していたのは\n君だったんだって、嬉しかったんだ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕も君に出会えて嬉しかったよ。\n同時に、悲しみもあった。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"でも、どんなに悲しくても\n君の事を忘れる事なんて出来ない。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk021.evs
-# 
-# Shinji Ikari
-"なぜ僕に声をかけたの？\nなぜ僕に近づいたの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"興味があったんだよ。\n純粋な想いで君を知って、\n…好きになりたかった。\n\0":
-'???',
-
-# Shinji Ikari
-"僕たちが争う必要はないよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そうだね。\nただ、僕は行かなきゃ\nいけないんだ。▽\n死に、そして生き続けるために。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk022.evs
-# 
-# Shinji Ikari
-"カヲル君は、\n生きる事が楽しいの？\n\0":
-'???',
-
-# Kaworu Nagisa ,Teruo Kato, Misato Katsuragi, Rei Ayanami, Gendo Ikari, Ryoji Kaji, Shinji Ikari, Hikari Horaki, Maya Ibuki 
-"……………。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk023.evs
-# 
-# Shinji Ikari
-"カヲル君、\nもしかして死ぬつもりなの？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk024.evs
-# 
-# Shinji Ikari
-"わからないよ。\n君の意志じゃないのに\n使徒になったなんて。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"でも、僕が使徒なのは事実さ。\n君の友達という事も。▽\nどうする事も出来ないんだ、\n流れには逆らえない。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk025.evs
-# 
-# Shinji Ikari
-"僕とやり直せるよ。\n違う生き方があるよ、\n僕も、君も。▽\n一緒にやり直そうよ、\nカヲル君…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk027.evs
-# 
-# Shinji Ikari
-"カヲル君は僕にとって\n必要な人間なんだ。▽\n人類が居なくなるより、\n君が居なくなる方が嫌だよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"………。▽\nでも、それじゃ、\n僕が寂しいままなんだ。▽\n一人で…。\nずっと一人で…。\n\0":
-'???',
-
-# Shinji Ikari
-"だから！！\n僕がいるよ、ずっと側にいる！！\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk028.evs
-# 
-# Shinji Ikari
-"僕もそうやって逃げてきた。\nでも、いい事なんてなかった。▽\n流れに任せて生きるなんて、\n死んでるのと同じじゃないか。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk029.evs
-# 
-# Shinji Ikari
-"ねえ、僕ともう一度\n友達になってよ。▽\nそして全部…、何もかも\n二人でやりなおそうよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"友達に…？\nもう一度…？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk030.evs
-# 
-# Shinji Ikari
-"卑怯だよ。\n散々、僕に知った風な事を言って…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そうだね、そうかもしれない。\nその事は君に謝らなくちゃ\nいけなかったね…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk033.evs
-# 
-# Shinji Ikari
-"そんなの信用出来ないよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕が使徒だから…？\n僕は君を友達と思っているよ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk034.evs
-# 
-# Shinji Ikari
-"行くなら、いっそ僕を殺してよ…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"………。▽\nそれが、君の答えだね。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk035.evs
-# 
-# Shinji Ikari
-"君と戦うなら、死んだ方がいい。\n死んだ方がいいよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"戦いを放棄するのかい？\nこの先に、君達の未来が\nかかっているとしても…？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk036.evs
-# 
-# Shinji Ikari
-"嘘だ！\n全部、それも僕を騙すためだ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…。▽\n僕が嫌いかい？\nそれが君の意志なら、\nしょうがない。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk038.evs
-# 
-# Shinji Ikari
-"行かないで…、\nカヲル君、行かないでよ！！▽\nそしたら、僕も君も\n一人じゃなくなるんだ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…一人じゃ、なくなる…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk039.evs
-# 
-# Shinji Ikari
-"カヲル君、\n君とは戦いたくないよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"なぜ？\nじゃあなぜ僕を止めようとするの？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk040.evs
-# 
-# Shinji Ikari
-"君を、傷つけたくないからだよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君が傷ついても？\n\0":
-'???',
-
-# Shinji Ikari
-"ああ、そうだよ。\n僕は死んだっていい！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"嘘だね。\n君は、死ぬのが怖いはずだ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk041.evs
-# 
-# Shinji Ikari
-"死ぬのは怖いよ。\nでも、それより君を傷つける方が\n怖いよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…なぜ、そこまで\n僕と戦いたくないんだい？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk042.evs
-# 
-# Shinji Ikari
-"行かないって言ってよ！！\nお願いだよ！\nこのままじゃ、君と戦うことになる。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"だったら、しょうがないんじゃ\nないかな。▽\n僕も、君と戦うのは\nいい気分じゃないけれど…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk043.evs
-# 
-# Shinji Ikari
-"命令なんだ。\nこの先に行かせるなって。▽\nこの先へ行くなら、僕は君を\n倒さなくちゃいけないんだ。▽\nそんな事、嫌だよ。\n嫌なんだよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕と戦うのが、怖い…？\n\0":
-'???',
-
-# Shinji Ikari
-"怖いよ。\n君を失うのが…、怖いよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君は何も、\n悪くはないのにね…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk044.evs
-# 
-# Shinji Ikari
-"行かないで…！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…それは君の意思かい？\nそれとも…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk045.evs
-# 
-# Shinji Ikari
-"僕は、僕はね…、\n君と生きたいんだ…。▽\n君が使徒だとかそんな事は\n関係ない。▽\n他の何でも関係なく、\n君と生きたいんだ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕と…？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk046.evs
-# 
-# Kaworu Nagisa 
-"…シンジ君にはわからないよ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk048.evs
-# 
-# Kaworu Nagisa 
-"僕にあったのは、\n…希望という絶望。▽\n人類がたどるべきだった道は\n絶望という希望…。▽\nシンジ君、僕も君が好きだったよ、\n君と希望を見つめたかった…。\nそうする事が出来れば…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk049.evs
-# 
-# Kaworu Nagisa 
-"………。▽\n僕も未来が見たい。\n君達、人と…、シンジ君の未来を\n見てみたいと思う。▽\n………。▽\nシンジ君…、僕も君と生きよう。\n僕も一緒に戦うよ…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk050.evs
-# 
-# Kaworu Nagisa 
-"これが………アダム………。\n…いや、…これは、リリス！？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk052.evs
-# 
-# Kaworu Nagisa 
-"僕の還る場所は一つしかない。\nここでは、生きていけない事は無い。\n…でも、…でも僕は。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk054.evs
-# 
-# Shinji Ikari
-"カヲル君、\nみんなカヲル君が好きなんだ。\n僕も…。▽\nもっと話し合おうよ。\n僕ら、きっとわかりあえるよ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk055.evs
-# 
-# Shinji Ikari
-"わかりあえないの？\nどうしても…？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk056.evs
-# 
-# Shinji Ikari
-"やっぱり、戦うしかないの…？\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk057.evs
-# 
-# Makoto Hyuga, Male Staff
-"目標、反応消えました。\n使徒………殲滅しました。\n\0":
-'???',
-
-# Makoto Hyuga
-"目標、反応消えました。\n使徒………消失しました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/n008.har_EXTRACT/n008.evs
-#
-# Misato Katsuragi, Female Staff
-"ガギエル\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標はエヴァ弐号機を輸送中の\n太平洋国連艦隊を襲撃。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"これに対し、セカンド・チルドレン\n惣流・アスカ・ラングレーは、\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"エヴァ弐号機を起動し、応戦します。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"しかし、Ｂ型装備による、最悪の\n水中戦を強いられることになりました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"この危機的状況を打破するため、\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"国連残存戦艦二隻による\n零距離射撃作戦を試みます。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"作戦要綱は、弐号機が目標の口を開口\n全艦を突入させ、艦首主砲塔の直接砲撃の後\nさらに自爆\n\0":
-'???',
-
-# Misato Katsuragi 
-"国連軍からの協力を得ながらも、\nかろうじて使徒を撃破する事に成功しました\n\0":
-'???',
-
-# Female Staff
-"国連軍からの協力を得ながらも、\nかろうじて使徒を迎撃する事に成功しました\n\0":
-'???',
-
-#
-# ./USRDIR/btl/bevent.har_EXTRACT/ba005.evs
-#
-# Misato Katsuragi 
-"エヴァ両機は\n距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"エヴァ両機は距離をとって射撃！\n\0":
-'???',
-
-# Misato Katsuragi 
-"シンジ君は距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"初号機は距離をとって射撃！\n\0":
-'???',
-
-# Female Staff
-"初号機パイロットは\n距離をとって射撃して下さい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"アスカは距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"弐号機は距離をとって射撃！\n\0":
-'???',
-
-# Female Staff
-"弐号機パイロットは\n距離をとって射撃して下さい！\n\0":
-'???',
-
-# Female Staff
-"エヴァ両機は、\n距離をとって射撃して下さい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"レイは距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"零号機は距離をとって射撃！\n\0":
-'???',
-
-# Female Staff
-"零号機パイロットは\n距離をとって射撃して下さい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"トウジくんは\n距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"参号機は距離をとって射撃！\n\0":
-'???',
-
-# Female Staff
-"参号機パイロットは\n距離をとって射撃して下さい！\n\0":
-'???',
-
-# Misato Katsuragi 
-"カヲルくんは\n距離をとって射撃して！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"四号機は距離をとって射撃！\n\0":
-'???',
-
-# Female Staff
-"四号機パイロットは\n距離をとって射撃して下さい！\n\0":
+# Toji Suzuhara 
+"ぎゃあ！！\n\0":
 '???',
 
 #
@@ -12438,87 +13096,18 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/btl/tabris.har_EXTRACT/bk017.evs
+# ./USRDIR/btl/b2event.har_EXTRACT/d067.evs
 #
-# Shinji Ikari
-"僕は、君の事を友達だと思ってた。▽\nこんな事にならずに\nずっと友達でいられると思ってた。\n\0":
+# Toji Suzuhara 
+"しばいたるわ！！\n\0":
 '???',
 
-# Kaworu Nagisa 
-"それは、君の抱いた恐れ。\nそして、希望。▽\n僕は、君達リリンとは\n歩いてはいけないんだ。\n\0":
+# Toji Suzuhara 
+"見とれよ、ワレェ！！\n\0":
 '???',
 
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk026.evs
-#
-# Shinji Ikari
-"君が使徒でも構わない。\nだから一緒にいてよ！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"相容れない存在なんだ。\n悲しいけれど、僕らは共に\n生きる事は出来ないんだよ。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk031.evs
-#
-# Shinji Ikari
-"どうして？\nカヲル君が使徒なの？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"言っただろ、\n僕が仕組まれた子供と言う事を。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk032.evs
-#
-# Shinji Ikari
-"何で僕の前に現われたの…？\nねえ、どうして…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕の意思に関係なく、\n君に会うために\n生まれてきたからさ。▽\nでも、自分の意志で、\n君に会うためだったと思いたいよ。\n今は…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk037.evs
-#
-# Shinji Ikari
-"行くなら本気で戦えよ。\n僕を本気で倒してから行けよ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"わかったよ、シンジ君。\n\0":
-'I understand, Shinji-kun.\n\0',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk047.evs
-#
-# Kaworu Nagisa 
-"………シンジ君。\n\0":
-'...Shinji-kun.\n\0',
-
-#
-# ./USRDIR/btl/tabris.har_EXTRACT/bk053.evs
-#
-# Kaworu Nagisa 
-"ヒトが…、互いを必要と思うのは\nヒトの中にある何かのためなんだ。\nただそれだけのためなんだ。▽\n…でも、その何かに対して、\nヒトはみな、息を呑むほどに純粋だ。\nとても、哀しいほどに…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs070.har_EXTRACT/bs070.evs
-#
-# Shinji Ikari
-"こちら、初号機。\n目標を肉眼で発見しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"よし、ちゃんと接触出来たわね。▽\nもし、射撃武器を使うときは\n弾数制限があるから注意して。\nいいわね？\n\0":
-'???',
-
-# Shinji Ikari, Rei Ayanami, Misato Katsuragi, Shigeru Aoba, Ritsuko Akagi, Makoto Hyuga, Female Staff
-"はい。\n\0":
+# Toji Suzuhara 
+"いっちょ、いわしたろか！！\n\0":
 '???',
 
 #
@@ -12585,163 +13174,6 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/f019.har_EXTRACT/f019.evs
-#
-# Keel Lorenz
-"先日の戦闘では、ダミーシステムを\n使用したそうだな。\n\0":
-'???',
-
-# Committeeman A
-"まだ、開発の途中という話では\nなかったかね？\n\0":
-'???',
-
-# Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi, Female Staff
-"いずれ報告するつもりでしたが、\n今回は緊急を要し、実戦での使用に\n踏み切りました。\n\0":
-'???',
-
-# Committeeman C
-"ふん。\n成果を聞こうじゃないか。\n\0":
-'???',
-
-# Committeeman D
-"あれで、上出来なものとは\n言うまいな。\n\0":
-'???',
-
-# Gendo Ikari, Kozo Fuyutsuki, Female Staff
-"試作の段階ではありましたが。▽\n一部の問題はあるものの、\nダミーシステムの開発は成功です。\n\0":
-'???',
-
-# Ritsuko Akagi, Misato Katsuragi 
-"試作の段階ではありましたが。▽\n一部の問題はあるものの、\nダミーシステムの開発は\n成功したと言えます。\n\0":
-'???',
-
-# Committeeman D
-"まあいい。\nこれで、計画の遅れには\n修正が出来たと言えよう。\n\0":
-'???',
-
-# Keel Lorenz
-"この調子で計画を\n邁進させてくれたまえ。\n\0":
-'???',
-
-# Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi, Female Staff
-"承知しました。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/bevent.har_EXTRACT/ba016.evs
-#
-# Shigeru Aoba, Male Staff
-"$fエリア、国連軍、\n掃滅しました！\n\0":
-'???',
-
-#
-# ./USRDIR/event/e003.har_EXTRACT/e003.evs
-#
-# Shinji Ikari
-"釣れないね…。\n\0":
-'???',
-
-# Gendo Ikari
-"ああ…。\n\0":
-'???',
-
-# Shinji Ikari
-"今日、仕事はよかったの…？\n\0":
-'???',
-
-# Gendo Ikari
-"構わん。\n\0":
-'???',
-
-# Shinji Ikari
-"………お腹空いたの？\n\0":
-'???',
-
-# Gendo Ikari
-"朝早かったからな…。\n\0":
-'???',
-
-# Shinji Ikari
-"僕、弁当作ったよ。\n昼ご飯には早いけど、\n食べようか…。\n\0":
-'???',
-
-# Gendo Ikari
-"うむ。\n\0":
-'???',
-
-# Shinji Ikari
-"あの、レバーの甘辛煮とね、\nネギ味噌巻卵焼き。\n…僕が作ったんだ。\n\0":
-'???',
-
-# Gendo Ikari, Ryoji Kaji
-"そうか。\n\0":
-'???',
-
-# Shinji Ikari
-"美味しくない…？\n\0":
-'???',
-
-# Gendo Ikari
-"いや。\n\0":
-'???',
-
-# Shinji Ikari
-"アハ…、よかった…。\n\0":
-'???',
-
-# Shinji Ikari
-"父さん、ビール…？\n\0":
-'Father, beer...?\n\0',
-
-# Shinji Ikari
-"何か、\n父さんがビール飲むところなんて\n初めて見た…。▽\nやっぱり美味しいんだ、\nミサトさんも一日に何本も\n飲んでたもんな…。\n\0":
-'???',
-
-# Gendo Ikari
-"いずれ、わかる。\nすぐにそうなるさ。\n\0":
-'???',
-
-# Gendo Ikari
-"（誰も敵ではなかった。）▽\n（他人を隔てていたものが、\n　本当は互いを強く結び付ける\n　ものだと…。）\n\0":
-'???',
-
-# Gendo Ikari
-"（ユイと出会って、それに\n　気づいていたはずだった。）\n\0":
-'???',
-
-# Gendo Ikari
-"（だが、シンジ…。\n　お前を見ていて、ようやく\n　それに気づくことが出来た。）▽\n（心から、…感謝している。）\n\0":
-'???',
-
-# Shinji Ikari
-"………。▽\n（僕は、父さんの事を…、\n　ずっと、憎んでいた。）▽\n（母さんを死なせて、\n　僕を捨てて…。）▽\n（でも、父さんに呼ばれて、\n　ここへ来てから…、）▽\n（憎んでいたはずなのに、\n　僕は、父さんの事を見ていた。）\n\0":
-'???',
-
-# Gendo Ikari
-"一匹も釣れんな。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は…、▽\n僕は、楽しいよ。\n\0":
-'???',
-
-# Gendo Ikari
-"………………。▽\n早く酒が飲めるといいな。\n\0":
-'???',
-
-# Shinji Ikari, Maya Ibuki, Hikari Horaki
-"…うん。\n\0":
-'???',
-
-# Shinji Ikari
-"父さん、今日はありがとう。\n\0":
-'???',
-
-# Gendo Ikari
-"ああ、シンジ。\n今日は、ありがとう…。\n\0":
-'???',
-
-#
 # ./USRDIR/event/bb008.har_EXTRACT/bb008.evs
 #
 # Kozo Fuyutsuki
@@ -12794,2925 +13226,5 @@ translate_map = {
 
 # Male Staff
 "了解…。\n委員会も出し惜しみは無しって\nことか。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s36.har_EXTRACT/b2s36.evs
-#
-# Shinji Ikari
-"駄目だ。\nナイフじゃ、太刀打ちできない。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"んもぅ！！\n傷一つ、つけられないの？\n\0":
-'???',
-
-# Rei Ayanami 
-"このままでは、\n火口に到達してしまう…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"いい加減に勘弁したれよ！\nどないなっとんねん、\nお前の身体は！？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"駄目だ、分が悪い。\n機体もそろそろ\nこの環境では…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"高温高圧、コレだけの極限状態に\n耐えているのよ。\nプログナイフじゃ駄目だわ。\n\0":
-'???',
-
-# Female Staff
-"高温高圧の極限状態に耐えている。\nそんな相手にナイフだけでは…。\n\0":
-'???',
-
-# Shinji Ikari
-"もう、火口だ。\n時間がない…。\n\0":
-'???',
-
-# Shinji Ikari
-"そうだ、熱膨張…。\n冷却液の循環パイプを使って！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そろそろ、火口付近だわ。\nどーすりゃいいのよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そうだ、これなら上手くいくかも。\n冷却液の循環パイプ、\n切断します！\n\0":
-'???',
-
-# Rei Ayanami 
-"あまり残り時間がない。\nどうすれば…。\n\0":
-'???',
-
-# Rei Ayanami 
-"零号機、冷却液の循環パイプを\n切断します！\n\0":
-'???',
-
-# Toji Suzuhara 
-"あぁ…、アカン。\nそろそろ火口付近や。\n\0":
-'???',
-
-# Toji Suzuhara 
-"せや、確か理科で習ぅた…。\nイチかバチかじゃ！\nこの冷却液の循環パイプを使ぅて…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"こいつを外に出すわけには…。\nだが、どうやって？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"この方法なら…。\nこの冷却液の循環パイプで…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"なるほど。\n冷却液を使徒の体内にねじ込むのね。\n\0":
-'???',
-
-# Male Staff
-"なるほど。\n冷却液を使徒の体内にねじ込むのか。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s40.har_EXTRACT/b2s40.evs
-#
-# Rei Ayanami 
-"フィフス！\n\0":
-'Fifth!\n\0',
-
-# Rei Ayanami, Kaworu Nagisa
-"セカンド！！\n\0":
-'Second!!\n\0',
-
-# Toji Suzuhara , Shinji Ikari, Kaworu Nagisa, Asuka Soryu Langley, Rei Ayanami, Misato Katsuragi, Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Ryoji Kaji, Hikari Horaki, Kensuke Aida, Male Staff
-"…！？\n\0":
-'???',
-
-# Rei Ayanami 
-"鈴原君！！\n\0":
-'Suzuhara-kun!!\n\0',
-
-# Rei Ayanami 
-"碇君！！\n\0":
-'Ikari-kun!!\n\0',
-
-#
-# ./USRDIR/event/f082.har_EXTRACT/f082.evs
-#
-# [Text Only - No Designated Speaker]
-"怪しげな黒服の男が、\nまるで誰かを探しているようだ…。\n\0":
-'???',
-
-# Shinji Ikari
-"…？▽\n何だか…、嫌な予感がする。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"…？▽\n何か、ニオウわね。\nあの黒服…。\n\0":
-'???',
-
-# Rei Ayanami 
-"…？▽\nあの男…、誰かを探している。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…？▽\n誰かを探している。\n…まさか。\n\0":
-'???',
-
-# Gendo Ikari
-"…？▽\nもしかして、奴は…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"…？▽\n奴は…、ひょっとすると…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"…？▽\nあの黒服…。\n\0":
-'???',
-
-# Maya Ibuki 
-"…？▽\n今の、どうも怪しいわね。\n\0":
-'???',
-
-# Makoto Hyuga
-"…？▽\n諜報部のヤツか？\nこんなところで…。\n\0":
-'???',
-
-# Shigeru Aoba
-"…？▽\nまさか…。\n\0":
-'???',
-
-# Ryoji Kaji
-"…？▽\nあれは、ゼーレの人間？\nもしかして、奴は…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"…？▽\n何や、怪しい風貌やのー。\n…え、もし、本物やったら…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…？▽\n今の男…、見覚えがある。\nまさか…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"不吉な予感を感じ、$aの\nもとへ走った。\n\0":
-'???',
-
-# Shinji Ikari
-"ど、どうしたの…？\n息なんか切らしちゃってさ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"走って来るなんて、\n何慌ててんの？\n\0":
-'???',
-
-# Rei Ayanami, Hikari Horaki, Kaworu Nagisa
-"どうしたの？\n\0":
-'???',
-
-# Misato Katsuragi 
-"どーしたの？\n慌てちゃって。\n\0":
-'???',
-
-# Gendo Ikari
-"どうした、\n話があるのなら早く言え。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"何か用かね…？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"どうしたの、走って来るなんて。\n\0":
-'???',
-
-# Maya Ibuki 
-"すごい汗。\nそんなに急いでどうしたの？\n\0":
-'???',
-
-# Makoto Hyuga
-"こんなところで走っちゃ駄目だよ。\n何か用なのかい？\n\0":
-'???',
-
-# Shigeru Aoba
-"ずいぶん慌てているみたいだけど。\n俺に、何か用かな？\n\0":
-'???',
-
-# Ryoji Kaji
-"どうした、\n走り込んで来るなんて…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"何や、慌てて。\nまず、落ち着きや。\n\0":
-'???',
-
-# Kensuke Aida
-"よぉ、息切らしてどうしたんだ？\n\0":
-'???',
-
-# Shinji Ikari
-"ど、どうしたんですか…？\n息なんか切らして…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"走って来るなんて、\n何慌てているんですか？\n\0":
-'???',
-
-# Rei Ayanami, Hikari Horaki, Kaworu Nagisa
-"どうしたんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"どうしたんですか？\nそんなに慌てて。\n\0":
-'???',
-
-# Gendo Ikari
-"どうした、\n話があるなら早く言え。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"どうしたんですか、\n走って来るなんて。\n\0":
-'???',
-
-# Maya Ibuki 
-"すごい汗ですよ。\nそんなに急いでどうしたんですか？\n\0":
-'???',
-
-# Makoto Hyuga
-"こんなところで\n走っちゃいけませんよ。\n何か用なのでしょうか？\n\0":
-'???',
-
-# Shigeru Aoba
-"ずいぶん慌てているみたいですけど。\n俺に、何か用ですか？\n\0":
-'???',
-
-# Ryoji Kaji
-"どうしました、\n走り込んで来るなんて…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"慌ててどないしたんですか？\nまず落ち着いて下さいよ。\n\0":
-'???',
-
-# Kensuke Aida
-"あのー、\n息切らしてどうしたんですか？\n\0":
-'???',
-
-# Shinji Ikari
-"怪しい男が、狙ってるんだ。\n気をつけた方がいい。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタ、狙われてるわ。\nいい、気をつけるのよ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"あなたを狙っている人がいるわ。\nそれを、教えたかったの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたを狙っている男がいるわ。\nいい、気をつけるのよ。\n\0":
-'???',
-
-# Gendo Ikari
-"気をつけろ。\nお前の命を狙うものがいる。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"何もなかったかね？\n君の命を狙うものがいるようだ。\n気をつけたまえ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あなた、狙われているわよ、\n…命を。\n気づかなかったの？\n\0":
-'???',
-
-# Maya Ibuki 
-"無事だったのね。\nよく聞いて、\nあなたを狙っている人がいるわ。\n\0":
-'???',
-
-# Makoto Hyuga
-"君を…、探してたんだ。\n君をつけ回している奴が\nいるみたいなんだ。\n\0":
-'???',
-
-# Shigeru Aoba
-"探したよ…。\nお前を…、狙っている奴がいる。\n本当だ…、気をつけてほしいんだ。\n\0":
-'???',
-
-# Ryoji Kaji
-"あまり、人気のない場所に行くな。\nつけられているぞ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"はぁ…、無事やった。\nお前な、狙われてるみたいやぞ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君が狙われてる事を知って…、\n探しに来たんだ。\n\0":
-'???',
-
-# Shinji Ikari
-"怪しい男が、狙ってます。\n気をつけた方がいいですよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"なんてノンキなのかしら。\n命を狙われてるんですよ。\n\0":
-'???',
-
-# Rei Ayanami 
-"命を狙っている人がいます。\nそれを、…教えに来ました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたを狙っている男が\nいるようです。\n気をつけて下さい。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あなたの命を狙う者がいます。\nお気を付け下さい。\n\0":
-'???',
-
-# Maya Ibuki 
-"無事だったのですね。\nよく聞いて下さい、\nあなたを狙っている者がいます。\n\0":
-'???',
-
-# Makoto Hyuga
-"探してたんですよ。\nあなたをつけ回している奴が\nいるみたいなんで…。\n\0":
-'???',
-
-# Shigeru Aoba
-"探しましたよ…。\nあなたを…、\n狙っている男がいるようです。▽\nお気をつけ下さい。\n\0":
-'???',
-
-# Ryoji Kaji
-"あなたの命を\n狙うものがいるようです。▽\nあまり、人気のない場所に\n行かない方がよろしいかと。\n\0":
-'???',
-
-# Toji Suzuhara 
-"はぁ…、無事やったんですね。\n変な男に、狙われてるみたいですよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"あなたが狙われてる事を知って…、\n探しに来ました。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"$aに危険を知らせました。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"突然、$aは、黒服の男達に\n囲まれた！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/f037.har_EXTRACT/f037.evs
-#
-# [Text Only - No Designated Speaker]
-"削除イベントです。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s48.har_EXTRACT/b2s48.evs
-#
-# Asuka Soryu Langley
-"バカシンジ…。\n無理しちゃって…。\n\0":
-'???',
-
-# Shinji Ikari
-"アスカッ！\n大丈夫だから、\n絶対大丈夫だからっ！！\n\0":
-'???',
-
-# Misato Katsuragi 
-"やった！\nやったわ、シンジ君！\n\0":
-'We did it!\n We did it, Shinji-kun!\n\0',
-
-#
-# ./USRDIR/event/bs002.har_EXTRACT/bs002.evs
-#
-# [Text Only - No Designated Speaker]
-"$lが退院しました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f064.har_EXTRACT/f064.evs
-#
-# Shinji Ikari
-"…？▽\n今の男の人…。\n何か、起きるかもしれない。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"…？▽\nあの黒服…、\n何かやらかすつもりなんだわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"…？▽\n…きっと、\n誰か、狙われているんだわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…？▽\n…まさか、\n奴等が狙っているのは…。\n\0":
-'???',
-
-# Gendo Ikari
-"…？▽\n…ゼーレから来た客が\n紛れ込んできたようだな。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"…？▽\n奴は…、ゼーレが差し向けたのか？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"…？▽\nあの黒服…、\nここの人間じゃないわね。\n\0":
-'???',
-
-# Maya Ibuki 
-"…？▽\n今の男、\nネルフの人間じゃないわ。\n\0":
-'???',
-
-# Makoto Hyuga
-"…？▽\nあいつは…、\nどうも引っかかるな…。\n\0":
-'???',
-
-# Shigeru Aoba
-"…？▽\n今、奴等が持っていた写真は。\n…まさか！？\n\0":
-'???',
-
-# Ryoji Kaji
-"…？▽\nさては、ゼーレが送り込んできたか。\n\0":
-'???',
-
-# Toji Suzuhara 
-"…？▽\n嫌な予感がするわ。\nもしかしたら…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…？▽\n今の男…、\nゼーレが来たか…。\n\0":
-'???',
-
-# Shinji Ikari
-"どうしたの？\nこんなところに連れ出して。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ちょっと、何よ。\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Rei Ayanami 
-"何、\nこんなところに連れ出して…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"何かあったワケ？\nこんなところに連れ出すなんて…。\n\0":
-'???',
-
-# Gendo Ikari
-"こんなところに連れ出して、\nどうするつもりだ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"一体何事かね？\nこんなところに連れ出すとは…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"一体、何？\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Maya Ibuki 
-"どうしたのよ、\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Makoto Hyuga
-"こんなところに連れ出して、\nどうしたんだい？\n\0":
-'???',
-
-# Shigeru Aoba
-"おいおい、こんなところに\n連れ出すなんて、どうしたんだよ？\n\0":
-'???',
-
-# Ryoji Kaji
-"ちょっと待てよ、\nこんなところに連れ出して\n何をするつもりなんだ？\n\0":
-'???',
-
-# Hikari Horaki
-"あんまり引っ張ると痛いわ。\nこんなところまで連れてきて、\nどうしたのよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"なぁ、一体何なんや？\nこないなところに連れ出すなんて…。\n\0":
-'???',
-
-# Kensuke Aida
-"おい、どうしてこんなところへ\n連れてきたんだよ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"どうしたんだい、\nこんなところへ連れ出して。\n\0":
-'???',
-
-# Shinji Ikari
-"どうしたんですか？\nこんなところに連れ出して。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ちょっと、何なんですか？\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Rei Ayanami 
-"何、こんなところに連れ出して…。\nどうしたんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"何かあったんですか？\nこんなところに連れ出すなんて…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"一体、何ですか？\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Maya Ibuki, Kensuke Aida
-"どうしたんですか？\nこんなところに連れ出すなんて。\n\0":
-'???',
-
-# Makoto Hyuga
-"こんなところに連れ出して、\nどうしたんですか？\n\0":
-'???',
-
-# Shigeru Aoba
-"こんなところに連れ出すなんて、\n何かあったんですか？\n\0":
-'???',
-
-# Ryoji Kaji
-"ちょっと待って下さいよ、\nこんなところに連れ出して\n何をするつもりですか？\n\0":
-'???',
-
-# Hikari Horaki
-"あんまり引っ張ると痛いです。\nそれに、こんなところまで連れて\nきて、どうしたんですか。\n\0":
-'???',
-
-# Toji Suzuhara 
-"あの、一体何ですのん？\nこないなところに連れ出すなんて…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"どうしたんですか、\nこんなところへ連れ出して。\n\0":
-'???',
-
-# Shinji Ikari
-"だって、君を狙っている奴が\nいるみたいなんだよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタを狙って、付け回している\n男がいるのよ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"あなたをつけ回している男が\nいるわ…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたの事を狙っている\n男がいるわ。\n\0":
-'???',
-
-# Gendo Ikari
-"お前の命を狙っている男がいる。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"やれやれ、\n気がついていないとはな…。\n君を狙う男がいるようだぞ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あなたを狙っている男がいたわ。\nそいつを追って、\nあなたのところへ来たのよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"怪しい男が、つけてきているわ。\nあなたを狙って…。\n\0":
-'???',
-
-# Makoto Hyuga
-"ずっと、君をつけている男が\nいるようなんだ。\n気をつけた方がいい。\n\0":
-'???',
-
-# Shigeru Aoba
-"複数の男がお前の後をつけている。\n気をつけろ。\n\0":
-'???',
-
-# Ryoji Kaji
-"どうやら君は狙われているようだ。\n誰かの代わりに…ね。\n\0":
-'???',
-
-# Toji Suzuhara 
-"うさんくさいカッコした男が、\nつけ狙っとるみたいやぞ。\nせやから、教えに来たんじゃ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"君を狙っている男がいる。\n身に覚えはないかもしれないけど、\n気をつけていてくれ。\n\0":
-'???',
-
-# Shinji Ikari
-"だって、\nあなたを狙っている奴が\nいるみたいなんですよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"あなたを狙って、付け回している\n男がいるんですよ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"あなたをつけ回している男が\nいるみたいです…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたの事を狙っている\n男がいるようですが。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あなたを狙っている男がいます。\n今は、姿を消しているようですが\nくれぐれも注意なさって下さい。\n\0":
-'???',
-
-# Maya Ibuki 
-"怪しい男が、つけて来ています。\nあなたを狙って…。\n\0":
-'???',
-
-# Makoto Hyuga
-"ずっと、あなたをつけている男が\nいるようです。\n気をつけた方がよろしいかと。\n\0":
-'???',
-
-# Shigeru Aoba
-"複数の男が後をつけているようです。\n気をつけて下さい。\n\0":
-'???',
-
-# Ryoji Kaji
-"どうやらあなたは狙われている\nようですよ。\n誰かの代わりに…ね。\n\0":
-'???',
-
-# Toji Suzuhara 
-"うさんくさいカッコした男が、\nつけ狙っとりましたよ。\nせやから、教えに来たんです。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"あなたを狙っている男がいる。\n身に覚えはないかもしれませんが、\n気をつけていて下さい。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs073.har_EXTRACT/bs073.evs
-#
-# Shinji Ikari
-"やった、倒した！！▽\nミサトさん、倒しましたよ！！\n\0":
-'???',
-
-# Misato Katsuragi 
-"上出来ィ！！\n予想以上の腕前だわ！！▽\nお疲れさま、\n今日の訓練は終わりよ。▽\n今日はゆっくり休んでちょうだい。\n\0":
-'???',
-
-# Misato Katsuragi 
-"今日教えた事、\n絶対忘れちゃダメよ。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s20.har_EXTRACT/b2s20.evs
-#
-# Shinji Ikari
-"来るな…！\n入って来るなーっ！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"いや…、来ないで！\n覗かないでーッ！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"来んな！！\n踏み込んで来るな！！\n来んなーッ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…呼ぶな。\n僕を、呼ぶな！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/n012.har_EXTRACT/n012.evs
-#
-# Misato Katsuragi, Female Staff
-"これより戦闘結果報告を行います。\n\0":
-'???',
-
-# Female Staff, Misato Katsuragi 
-"「ロンギヌスの槍」の使用が決断されます。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"第$d使徒(angel00の使徒ナンバー音声を使いまわす)\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"結果、ロンギヌスの槍により、使徒殲滅に成功しますが、\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"アラエル\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"槍は第一宇宙速度を突破、月軌道に移行。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標は衛星軌道上に突如出現\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"ロンギヌスの槍は回収不能になりました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"超長距離射撃による対空迎撃を試みますが\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"また、目標の心理攻撃により\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"出力不足のため、ΑΤフィールドを突破は不可能でした\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"作戦終了後、パイロットは死亡、\n致命的な損害を受けてしまいました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"以上、報告を終わります。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"この後、目標は心理攻撃を展開\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"パイロットは、目標の心理攻撃に苦しめられます。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"この状況を打開するため、\n\0":
-'???',
-
-#
-# ./USRDIR/event/f070.har_EXTRACT/f070.evs
-#
-# [Text Only - No Designated Speaker]
-"出張計画書の内容に従い、\n小笠原沖の視察を行った。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"しかし、有効な情報を\n得ることはできなかった。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"そこでは潜水艦らしき船の\n引き上げが行われていた。▽\n水中モニターで覗うその形状は\n今まで見た事が無く、\n青く、美しい船であった…。▽\nこれが先住民族の技術で作られた\n兵器なのか。\nそしてエヴァは…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"第一始祖民族に関する情報が、\n非公開情報にあがりました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f078.har_EXTRACT/f078.evs
-#
-# Ritsuko Akagi 
-"プログラムが出来たわ！\n\0":
-'???',
-
-# Shinji Ikari
-"ま、また失敗…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"えぇ〜、\nちょっとマジ大丈夫？\n\0":
-'???',
-
-# Rei Ayanami 
-"あと３時間…。\n\0":
-'Three hours left...\n\0',
-
-# Misato Katsuragi 
-"失敗か……。\n\0":
-'So we failed...\n\0',
-
-# Ritsuko Akagi 
-"今度こそッ！！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"相当ナメられてるわね。\nいいわ、勝ってみせるわよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"センパイ…。\n\0":
-'Sempai...\n\0',
-
-# Makoto Hyuga
-"やっぱり駄目か…。\n\0":
-'So it doesn\'t work after all...\n\0',
-
-# Shigeru Aoba
-"ΑΤ！！\n赤木博士のΑΤを誰か\n下げたんじゃないのか！？\n\0":
-'???',
-
-# Ryoji Kaji
-"まだだ、まだ時間はある…。\n頑張れ。\n\0":
-'There\'s still time...\n Keep at it.\n\0',
-
-# Makoto Hyuga
-"自滅プログラム、\nバルタザールに展開！！▽\nやった！！\n人工知能により\n自律爆破が解除されました。\n\0":
-'???',
-
-# Shigeru Aoba
-"自滅プログラム、\nバルタザールに展開！！▽\nおっし、やった！！\n人工知能により\n自律爆破が解除されました。\n\0":
-'???',
-
-# Maya Ibuki 
-"自滅プログラム、\nバルタザールに展開！！▽\nやったわ！！\n人工知能により\n自律爆破が解除されました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"自滅プログラム、\nバルタザールに展開！！▽\nお見事！！！！\n人工知能により\n自律爆破が解除されたわ。\n\0":
-'???',
-
-# Female Staff
-"自滅プログラム、\nバルタザールに展開！！▽\nやりました。\n人工知能により\n自律爆破が解除されました。\n\0":
-'???',
-
-# Gendo Ikari
-"こちらの勝利か…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"赤木博士、ご苦労だった。\n\0":
-'Dr. Akagi, good work.\n\0',
-
-# Maya Ibuki 
-"さすがセンパイ。\n信じてました！！\n\0":
-'That\'s my sempai.\n I believed in you!\n\0',
-
-# Makoto Hyuga
-"ふう…、\n生きた心地がしなかったよ。\n\0":
-'???',
-
-# Shigeru Aoba
-"ハハハ…、\nやった、助かった…。\n助かったんだ…。\n\0":
-'Hahaha...\nYou did it. You saved us.\nYou saved us all...\n',
-
-# Ryoji Kaji
-"やっぱり君は大した奴だよ。\nリッちゃん。\n\0":
-'You really are a hell of a gal,\nRitchan.\n\0',
-
-# Shinji Ikari
-"助かった…。\nみんな死なずに済んだんだ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"私達…、助かったんだ…。\n\0":
-'We\'ve all been saved...\n\0',
-
-# Rei Ayanami 
-"爆発は免れたわ。\nもう安心ね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"たす…かった…。\nあぁ〜、何かこう、\n疲れがドッと出てきたわ…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"さすがに疲れたわ。\n今日はゆっくり休ませて\nもらいましょう。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ウォー！\nやったぁ！！\nさっすがリツコさんやわ！！▽\nへへ…ん、ふっ、\nもう、ウチ帰れへんと思ったわ…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ト、トウジくん…？\n抱きしめるならもっと優しく。\n苦しいよ…。\n\0":
-'???',
-
-# Gendo Ikari
-"まあいい、まだ時間はある。\n\0":
-'???',
-
-#
-# ./USRDIR/event/n004.har_EXTRACT/n004.evs
-#
-# Misato Katsuragi, Female Staff
-"零号機\n\0":
-'Unit-00\n\0',
-
-# Misato Katsuragi, Female Staff
-"参号機\n\0":
-'???',
-
-# Female Staff, Misato Katsuragi 
-"かろうじて、使徒殲滅に成功。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"四号機\n\0":
-'Unit-04\n\0',
-
-# Misato Katsuragi, Female Staff
-"マトリエル\n\0":
-'Matarael\n\0',
-
-# Misato Katsuragi, Female Staff
-"パイロットの活躍により…\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"第３新東京市に襲来\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"使徒の強攻によりパイロット達は\n苦戦を強いられるも\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"見事、使徒の殲滅に成功しました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標は、強力な溶解液を武器に市街地を侵攻\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"これを討つべく、エヴァンゲリオン、出動。\n参戦したのは…\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"初号機\n\0":
-'Unit-01\n\0',
-
-# Misato Katsuragi, Female Staff
-"しかし、パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"以上、報告を終了します。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"弐号機\n\0":
-'Unit-02\n\0',
-
-#
-# ./USRDIR/event/bs108.har_EXTRACT/bs108.evs
-#
-# Misato Katsuragi 
-"迎撃開始ラインに入ったわ。\nさあ、２人の連係プレーを\nとくと見せてあげなさい！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"勝敗の鍵は、君達２人の活躍に\nかかっている。\n任せたぞ。\n\0":
-'???',
-
-# Female Staff
-"エヴァ両機、迎撃開始ラインに\n入りました！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs004.har_EXTRACT/bs004.evs
-#
-# Shinji Ikari
-"…怖いよ、…もう嫌だ。\n死んじゃうよ…。▽\n誰か、誰か助けてよ…、\n誰かぁぁぁぁぁぁぁぁぁぁぁ！！\n\0":
-'???',
-
-# Shinji Ikari
-"駄目だ…、機体のダメージが\n大きくて動かない…。▽\n動かないよ…、動かない、\nこのままだとやられちゃうよ！！\n\0":
-'It\'s no use... The unit\'s taken\n too much damage, it won\'t move...▽\n Won\'t move... It won\'t move...\n このままだとやられちゃうよ！！\n\0',
-
-# Shinji Ikari
-"そんな、予備電源が切れた！？▽\nもう動かないの？\nそんな、お願いだよ、動いてよ！！▽\n…みんなを、…僕を助けてよ！！\n\0":
-'Oh no! The internal power ran out?!▽\n It won\'t move any more?\n No! Move, I beg you!▽\n To save everyone... To save me!!\n\0',
-
-# Maya Ibuki, Female Staff
-"エヴァ初号機、活動停止！！\n\0":
-'Eva Unit-01 has ceased activity!!\n\0',
-
-# Shinji Ikari
-"……………………………！？\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"初号機、再起動！！▽\nまさか…、そんな。\nシンクロ率が４００パーセントを\n超えています！\n\0":
-'Unit-01 has reactivated!!▽\n This is impossible...\n The synch ratio is exceeding 400 percent!\n\0',
-
-# Ritsuko Akagi 
-"やはり、…目覚めたのね。\n…彼女が。\n\0":
-'So... she\'s awakened after all.\n\0',
-
-# Male Staff
-"何だって！？\nそんな…バカな。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"使徒を…食ってる？\n\0":
-'It\'s eating the Angel?\n\0',
-
-# Kozo Fuyutsuki
-"Σ機関を取りこむ気か！\n\0":
-'So it means to take in the S2 engine!\n\0',
-
-# Maya Ibuki 
-"うっ…………。\n\0":
-'Hrk....\n\0',
-
-# Kozo Fuyutsuki
-"はじまったな。\n\0":
-'So it\'s begun.\n\0',
-
-# Gendo Ikari
-"ああ、全ては、これからだ。\n\0":
-'Yes. Everything starts here.\n\0',
-
-# Kozo Fuyutsuki
-"はじまったな…。\n全てはこれからだ。\n\0":
-'So it\'s begun...\n Everything starts here.\n\0',
-
-# Gendo Ikari
-"はじまったな…。\n全ては、これからだ。\n\0":
-'So it\'s begun...\n Everything starts here.\n\0',
-
-#
-# ./USRDIR/event/n014.har_EXTRACT/n014.evs
-#
-# Misato Katsuragi, Female Staff
-"バルディエル\n\0":
-'Bardiel\n\0',
-
-# Misato Katsuragi, Female Staff
-"目標はエヴァ参号機の機体に潜み、\n起動実験中にその存在が確認されました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"フォース・チルドレン、鈴原トウジ搭乗のまま、\n参号機を使徒と識別、戦闘を開始。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"参戦したのは\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標は、エヴァを操り、\n圧倒的な強さで、その威力を\n見せつけましたが\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"かろうじて、使徒殲滅に成功しました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"しかし、参号機に搭乗していた\nパイロット、鈴原トウジは死亡\n選出されたばかりの貴重なパイロットを失う、\n苦い結果となりました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"活動停止…！？\nパイロットからの応答は？\n\0":
-'???',
-
-# Female Staff
-"パイロットからの応答が\nありません！！\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"駄目です、\nエヴァ活動停止！！▽\nパイロットからの反応も\nありません。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"それじゃ…、\nパイロットは…。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"目標は、ここを目指しています！\n依然、侵攻中！\n\0":
-'???',
-
-# Misato Katsuragi 
-"ここは危険だわ。\n総員撤退！！\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"総員撤退しろ！\n撤退だ！！\n\0":
-'???',
-
-# Female Staff
-"総員、撤退して下さい。\n繰り返します、\n総員、撤退して下さい！！\n\0":
-'???',
-
-# Makoto Hyuga
-"わぁっ、駄目です！！\nま、間にあいません。\n\0":
-'???',
-
-# Male Staff
-"だ、駄目です…。\n間に合いません…！！\nここまで、すぐ来ます！\n\0":
-'???',
-
-# Misato Katsuragi 
-"早く、みんな逃げなさい！！\n\0":
-'Hurry, everyone get away!!\n\0',
-
-# Kozo Fuyutsuki
-"とうとうここまで侵入して\n来たか…。\n\0":
-'???',
-
-# Shigeru Aoba
-"来た…、\nあの音、間違いない…、奴だ。\n\0":
-'???',
-
-# Female Staff
-"そんな、ここまで力を\n尽したというのに…。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/bevent.har_EXTRACT/ba043.evs
-#
-# Shinji Ikari
-"こちら初号機です。\n移動指定ポイントに到着しました。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"弐号機、\n移動指定ポイントに到着！\n\0":
-'???',
-
-# Rei Ayanami 
-"こちら零号機、\n移動指定ポイントに到着しました。\n\0":
-'???',
-
-# Toji Suzuhara 
-"こちら参号機、\n移動指定ポイントに着きました。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"四号機です、\n移動指定ポイントに到着しました。\n\0":
-'???',
-
-# Makoto Hyuga, Male Staff
-"エヴァ両機、\n移動指定ポイントに到着しました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs042.har_EXTRACT/bs042.evs
-#
-# Misato Katsuragi 
-"初号機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"初号機の神経接続、解除！\n再接続するまでの間は、\n初号機は操作不能になります。\n\0":
-'???',
-
-# Misato Katsuragi 
-"弐号機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"弐号機の神経接続、解除！\n再接続するまでの間は、\n弐号機は操作不能になります。\n\0":
-'???',
-
-# Misato Katsuragi 
-"零号機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"零号機の神経接続、解除！\n再接続するまでの間は、\n零号機は操作不能になります。\n\0":
-'???',
-
-# Misato Katsuragi 
-"参号機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"参号機の神経接続、解除！\n再接続するまでの間は、\n参号機は操作不能になります。\n\0":
-'???',
-
-# Misato Katsuragi 
-"四号機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"四号機の神経接続、解除！\n再接続するまでの間は、\n四号機は操作不能になります。\n\0":
-'???',
-
-# Misato Katsuragi 
-"エヴァ両機の神経接続カット！\n急いで！\n\0":
-'???',
-
-# Maya Ibuki, Female Staff
-"エヴァ両機の神経接続、解除！\n再接続するまでの間は、\nエヴァ両機は操作不能になります。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f031.har_EXTRACT/f031.evs
-#
-# Shinji Ikari
-"ねえねえ、\nさっきの体育の時間に\n女子のことチラチラ見てたよね。\n\0":
-'???',
-
-# Toji Suzuhara 
-"なあ、お前、体育の時間、\n女子の方ばっかり見てたやろ？\n\0":
-'???',
-
-# Kensuke Aida
-"なあ、お前さっきの体育の時間、\n女子のことジーと見てただろ？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"さっきの体育の時間、君はずっと\n女の子ばかり見ていたようだけど…。\n\0":
-'???',
-
-# Shinji Ikari
-"え？　僕が…？\n\0":
-'???',
-
-# Toji Suzuhara 
-"な、何や突然…。\n\0":
-'???',
-
-# Kensuke Aida
-"俺が？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そうかい？\n\0":
-'???',
-
-# Shinji Ikari
-"そうそう、変な目で見てただろ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"何ちゅーたって、\n第二次成長絶好調、やもんなぁ。\nウヒヒヒヒヒ…。\n\0":
-'???',
-
-# Kensuke Aida
-"うーん、わかるぜ、お前の気持ち。\nやっぱ、男の子だもんなぁ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"興味があるのかい？\n\0":
-'Are you interested?\n\0',
-
-# Shinji Ikari
-"ねえ、誰が気になるのさ、教えてよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"お前も隅に置けんやっちゃな。\nで、誰なんや、気になるんは…。\n\0":
-'???',
-
-# Kensuke Aida
-"秘密にしといてやるからさ、\n誰なの？\n教えてよ、気になる子をさ…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"それで、\n君はどの娘に興味があるのかい？\n\0":
-'???',
-
-# Shinji Ikari
-"そ、そんなんじゃないよ！\n\0":
-'???',
-
-# Toji Suzuhara 
-"アホ！\nワシはナイッスバディな\nオネーサマしか興味あらへん。\n\0":
-'???',
-
-# Kensuke Aida
-"いや、その、あの…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"興味があるのは君だろう？\n僕はどちらかというと、\nそういう君に興味があるよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタ、気を付けなさいよ。\n体育の授業中、男子から\n変な目で見られてたわよ。\n\0":
-'???',
-
-# Rei Ayanami 
-"体育の授業中、\nあなたのことを\n見ていた男子がいたわ。\n\0":
-'???',
-
-# Hikari Horaki
-"ねえ、さっき体育の授業で\n一部の男子が、あなたのこと、\nジーっと見てたのよ…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ゲッ！！\n何よソレ！！\n\0":
-'???',
-
-# Rei Ayanami,[Text Only - No Designated Speaker], Shinji Ikari, Makoto Hyuga
-"…？\n\0":
-'???',
-
-# Hikari Horaki
-"ヤダッ！！\n…それっ、本当？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"あいつらの頭の中、\n覗いてみたいものね。\n\0":
-'???',
-
-# Rei Ayanami 
-"でも、別に悪意があるわけでは\nないんでしょう。\n\0":
-'???',
-
-# Hikari Horaki
-"…ったく、もっと別の事に\n頭を使えないのかしら？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"そのうち仕返ししてやるわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"私は別に、気にしないわ。\n\0":
-'???',
-
-# Hikari Horaki
-"ヤだな…、\nこれからもそんな風に\n見られるなんて…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/n000.har_EXTRACT/n000.evs
-#
-# Misato Katsuragi, Female Staff
-"第$d使徒\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"サキエル\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"同市街地にて使徒と交戦を開始。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"国連軍、これにΝ地雷を使用。\n\0":
-'???',
-
-# Misato Katsuragi 
-"しかし、わずかな損傷を\n与えるのみに終わる\n\0":
-'???',
-
-# Female Staff
-"しかし、わずかに損傷を\n与えるのみとなった\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"この時、使徒の自己修復機能\n及び機能増幅を確認。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"同時刻、エヴァンゲリオン起動。\n参戦したのは…\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs104.har_EXTRACT/bs104.evs
-#
-# Misato Katsuragi 
-"じゃあ、続けるわよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"さてと。\n次は、こっちの\n水色のビルに注目して。\n\0":
-'???',
-
-# Shinji Ikari
-"水色のビルですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"これは、兵装ビル。\n\0":
-'???',
-
-# Shinji Ikari
-"兵装ビル…？\n…武器庫ビルと\nどう違うんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"兵装ビルは、\n使徒が近づいた時に、\n自動迎撃する施設よ。\n\0":
-'???',
-
-# Shinji Ikari
-"自動迎撃…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"だから、武器庫ビルや\n電源ビルと違って\nシンジ君が何かする必要は無いわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"攻撃力はエヴァに比べれば\n全然、大した事ないから、\n使徒を倒すなんて、どだい無理ね。▽\nまぁ、使徒を足止めするくらいには\n役に立つわ。\n\0":
-'???',
-
-# Shinji Ikari
-"はぁ…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"その辺にチョロチョロと\n出張って来てる、コレ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"コレは、国連軍。\n使徒に向かって行って攻撃するの。\n兵装ビルと似たようなもんね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"攻撃力も、兵装ビルと同じくらい。\nもちろん、シンジ君が何かする\n必要は無いわ。\n\0":
-'???',
-
-# Shinji Ikari
-"水色は兵装ビルで、\n国連軍も同じ役割…ですね。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ＯＫ。\nさっきも言ったけど、\n共に、兵力としては期待しないで。▽\n使徒を倒すには、エヴァ無しでは\nありえないんだから。\n\0":
-'???',
-
-# Shinji Ikari, Shigeru Aoba, Rei Ayanami, Hikari Horaki
-"はい…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s19.har_EXTRACT/b2s19.evs
-#
-# Maya Ibuki, Female Staff
-"パイロット側からのパルス抵抗確認。\n交戦しています。\n\0":
-'???',
-
-# Misato Katsuragi 
-"零号機が戻ってくるまで、\nパイロットの自我が保たれれば…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"パイロットの自我、精神力の強さが\n使徒の心理攻撃に対抗出来れば。\n…それに賭けるしかない、今は。\n\0":
-'???',
-
-# Male Staff
-"零号機が戻ってくるまで、\nパイロットの自我が保たれて\nいれば…。▽\nパイロットの自我、精神力の強さが\n使徒の心理攻撃に対抗出来れば。\n…それに賭けるしかないのか。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f072.har_EXTRACT/f072.evs
-#
-# [Text Only - No Designated Speaker]
-"エヴァの構造に関する情報が、\n一般情報から非公開情報に\nあがりました。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"ここは知っている、\nエヴァ素体の廃棄場所だ…。▽\n一旦引き返そう…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"何か、よく分からない巨大な\n構造物がある…脊椎のようだが？▽\nここは一旦引き返した方が\nよさそうだ。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"通路の先には巨大な骨が\nたくさん横たわっている…。▽\nどうやらここはエヴァの部品、\nいや、廃棄された素体のようだ…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s47.har_EXTRACT/b2s47.evs
-#
-# Shinji Ikari
-"勝ったのに。\nせっかく勝てたっていうのに…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"せっかくやったのに。\nヤだな、ここまでなの…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"セカンドー！！\n\0":
-'Second!!\n\0',
-
-# Rei Ayanami 
-"…ワイヤーが。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ちょ…、それはないやろー！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"トウジ君！！\n\0":
-'Toji-kun!!\n\0',
-
-#
-# ./USRDIR/event/f088.har_EXTRACT/f088.evs
-#
-# Ritsuko Akagi 
-"今、サード・チルドレンは\nどうしてるの？\n\0":
-'How is the Third\nChild doing now?\n\0',
-
-# Misato Katsuragi 
-"ぐっすり寝ているわ、私の家で。\nそろそろ起きる頃ね。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"いい？　わかってるでしょうけど\nエヴァを動かすには、パイロットの\nΑΤの状態が大きく作用するの。▽\n彼のΑΤ高くしときなさいよ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"それは、彼次第よ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"それじゃ、あなたの監督する\n意味がないでしょ！▽\nま、一緒に生活する事が\n逆効果にならない事を祈るわ…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ΑΤを上げる基本は\n良好な人間関係か…。\n覚えておくわ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"忘れないでね。\n人類の未来もミサト次第よ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"おはようシンジ君、\n昨夜はよく眠れた？\n\0":
-'Morning, Shinji-kun.\n Did you sleep well last night?\n\0',
-
-# Shinji Ikari
-"…はい、何とか。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あらためてよろしく。\n私は葛城ミサト。▽\nシンジ君、あなたは今日から\n私と一緒に生活するのよ。\n\0":
-'???',
-
-# Shinji Ikari
-"カツラギ、さん…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ミサトでいいわ。\nここはあなたの家なんだから、\n遠慮するこたぁないのよ。\n\0":
-'???',
-
-# Shinji Ikari
-"はい、ミサトさん…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あなたはエヴァのパイロットとして、\n今後、この家で生活してもらいます。▽\nモチロン、学生なんだから\n学校にも行ってもらうわよ。▽\nネルフの任務が優先されるけど、\nそれ以外の時は自由に行動して\n構わないわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"外へのドアはそこから行けるの。\nこことネルフだったら、\n自由に行き来して構わないわ。▽\n学校は転入届を出しておくから\nもうチョッチ待ってネ。\n\0":
-'???',
-
-# Shinji Ikari
-"じゃあ、僕はまず\n何をすればいいんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"さっきも言ったでしょ。\nあなたの好きなように\n行動して構わないわ！\n\0":
-'???',
-
-# Misato Katsuragi 
-"ただし、明日行われる戦闘訓練まで、\nしっかりΑΤを上げること。\n目標はΑΤ５０以上、いいわね。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"色んな人、場所の前で\n%1iボタンを押して下さい。▽\nその場の状況で、\n様々な行動を行う事が出来ます。▽\nまた、他の人達と仲が良くなると\n自分のΑΤを上げることができます。▽\n明日行われる戦闘訓練まで、\nがんばってΑΤを上げて下さい。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/bevent.har_EXTRACT/d011.evs
-#
-# Toji Suzuhara 
-"ぎゃあ！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/f067.har_EXTRACT/f067.evs
-#
-# [Text Only - No Designated Speaker]
-"出張計画書の内容に従い、\n京都へ出張した。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"京都で指定された場所で待って\nいると、協力者と名乗る女が現われ、\n密かに封筒を手渡した。▽\n受け取った封筒には、\nマルドゥック機関に関係する\n情報が入っていた。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"マルドゥック機関に関する情報が、\n最深度情報にあがりました。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s02.har_EXTRACT/b2s02.evs
-#
-# Shigeru Aoba, Male Staff
-"エヴァ各機、体内電源０！\n活動限界です！\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s06.har_EXTRACT/b2s06.evs
-#
-# Shinji Ikari
-"間に合った！！\nとどめだ！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"爆発に備えて！\n行くよ！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"こンのぉぉぉ！\nくたばれぇぇぇ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"零号機、\nコアの攻撃へ移行します！\n\0":
-'???',
-
-# Toji Suzuhara 
-"ワシのドツキ、\n食らってみぃ！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/f092.har_EXTRACT/f092.evs
-#
-# Ritsuko Akagi 
-"アラ、シンジ君。\n\0":
-'Oh, Shinji-kun.\n\0',
-
-# Shinji Ikari
-"どうも…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ねえ、レイは？\n退院したんでしょ？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"ええ、あそこで\n司令と話をしているわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"レイ、ちょっと紹介するから\n来てくれる？\n\0":
-'???',
-
-# Shinji Ikari
-"………？\n\0":
-'???',
-
-# Shinji Ikari
-"…あの子？\n確かあの時の…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"彼女は、綾波レイ。\n零号機パイロットよ。\n仲良くしてあげてね。\n\0":
-'???',
-
-# Shinji Ikari
-"あ、あの僕は…、碇シンジ。\nよろしく…。\n\0":
-'???',
-
-# Rei Ayanami, Kaworu Nagisa
-"よろしく。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"零号機の修理も済んだわ。\nいつでも出撃可能よ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そぉ、ゴクローサン。\nなるべくなら、しばらく使徒も\n来てほしくないんだけどね…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ま、そんな事よりアンタ達さ、\n仲良くやってチョーダイ。▽\nΑΤを上げるのも大切だけど、\n人間関係も良好に。▽\n人間関係が良くなると、同じ行動\nでも相手の反応が良くなったり…、▽\n今まで出来なかった行動が\n出来るようになるわ。▽\nたとえば相手にいきなり\n抱きついちゃったりネ〜。\n\0":
-'???',
-
-# Shinji Ikari
-"冗談はやめて下さい…！！\n\0":
-'Please don\'t joke around!!\n\0',
-
-# Misato Katsuragi 
-"あらやだ、照れちゃってるぅ。\nま、とにかくΑΤを上げるためには\n良好な人間関係は不可欠よ。▽\nハイ、だからアンタ達は\n今日からオトモダチ〜！\nいいわね！！\n\0":
-'???',
-
-# Shinji Ikari
-"…あの、\n\0":
-'???',
-
-# Shinji Ikari
-"………………ハイ。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f010.har_EXTRACT/f010.evs
-#
-# Gendo Ikari
-"これより、エヴァ初号機の起動は\n凍結する。\n委員会の別命があるまではだ。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"エヴァ初号機の使用は当面凍結する。\nすまんな、委員会を納得させる\nジェスチャーだよ…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"人類補完委員会の命により、\n現時刻をもって初号機は凍結、以後\n指示があるまで無期凍結とします。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"委員会の指示で、\nこれより初号機の使用は\n無期凍結になります。\n\0":
-'???',
-
-# Male Staff
-"委員会の指示により、\n今後エヴァ初号機の使用は\n凍結されます。\n\0":
-'???',
-
-# Gendo Ikari
-"これで委員会の奴も、\n少しは大人しくなるだろう。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"凍結だけで納得するとは思えんがね。▽\nまあ、あれは不慮の事故だと\n言うしかないが。\n\0":
-'???',
-
-# Misato Katsuragi 
-"この先も使徒は\n攻めて来るというのに。\n…まいったわね。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"仕方ないわよ。\nあんな騒ぎの後だもの。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"初号機がなくったって、大丈夫よ。\nどうせ、上もそう判断したんでしょ。\n\0":
-'???',
-
-# Makoto Hyuga
-"この時期タダでさえ大変だと\nいうのに、凍結だなんて、\n納得出来ないな。\n\0":
-'???',
-
-# Maya Ibuki 
-"でも私達、エヴァについてまだ\n知らない事が多すぎるんです。▽\nそう判断をするしか、\nなかったんだと思います…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"以後、エヴァ初号機は\n戦闘に参加出来ません。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s51.har_EXTRACT/b2s51.evs
-#
-# Rei Ayanami 
-"碇君。\n間に合ってよかった…。\n\0":
-'???',
-
-# Rei Ayanami 
-"セカンド！！\n間に合ってよかった…。\n\0":
-'???',
-
-# Rei Ayanami 
-"鈴原君！！\n間に合ってよかった…。\n\0":
-'???',
-
-# Rei Ayanami 
-"フィフス！\n間に合ってよかった…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"やった！\nやったわ！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"すごいわ…。\nまさに奇跡ね。\n\0":
-'???',
-
-# Female Staff
-"間に合った。\n二機とも無事です！\n\0":
-'???',
-
-# Shinji Ikari
-"…た、助かった。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"バカ…。\n無理しちゃって…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ひーん…。\nこれがホンマの地獄に仏やわ〜。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕を…？\n君は、自分の命をかけてまで\n僕を…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f033.har_EXTRACT/f033.evs
-#
-# [Students: School Trip]
-#
-# Asuka Soryu Langley
-"ウ〜〜〜。\n\0":
-'???',
-
-# Toji Suzuhara
-"トホホ…、\nせっかく、旅費の積立て\nしてたのになァ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"ちょっと、アレ何かしら？\n\0":
-'???',
-
-# Maya Ibuki 
-"一体、どうしたんでしょうね？\n\0":
-'???',
-
-# Shigeru Aoba
-"ああ？\n何してるんだ？\n\0":
-'???',
-
-# Male Staff
-"何か気まずい感じですね。\nどうしたんでしょうか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"今日から、修学旅行よ。\nでも、パイロットは使徒襲来に\n備えて待機になってるから。▽\nまぁ、まだ子供だもの。\n機嫌が悪くなるのは仕方ないわよ。\n\0":
-'???',
-
-# Makoto Hyuga
-"今日から、\n修学旅行だったみたいで…。▽\nとはいえ、使徒襲来に備えて\n旅行に行けないものだから\nずっとあんなカンジで…。\n\0":
-'???',
-
-# Ryoji Kaji
-"今日から修学旅行だったのさ。▽\n楽しみにしていたみたいだからな、\n行けなかったのが\n相当ショックだったんだろう。▽\nしょうがないサ。\n彼らの留守中に使徒が来ないとも\n限らんからな。\n\0":
-'???',
-
-# Female Staff
-"ええ、\n今日から修学旅行だったらしくて。▽\n本人は、戦闘待機という事に\nなっていますからね。▽\nまあ、気持ちはわかります。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"せっかく新しい水着もそろえて、\n準備バッチＯＫだったってのにィ！▽\nしかも、当日に不参加を\n言い渡されるなんてアリ？\n\0":
-'???',
-
-# Shinji Ikari
-"僕はうすうす、こうなるだろうって\n思ってたけどね。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"はー、つまんない。\nその上、よりによって、\nこんなつまんない男と一緒だなんて。\n\0":
-'???',
-
-# Shinji Ikari
-"僕に当たる事はないだろ…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"残念だね。\n僕、グループの班長になってたんだ。▽\nこんな事になって、みんなに\n迷惑かけているかもしれない。\n\0":
-'???',
-
-# Toji Suzuhara
-"ワイかて、旅費出してもうて、\n当日キャンセルやから、\n金返ってけえへん…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"そうか、キャンセル料まで\n取られるんだっけ…？\n\0":
-'???',
-
-# Toji Suzuhara
-"ふひーーーーん…。\n泣きっ面に蜂やがな…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタも、ちょっと抗議しなさいよ。\n\0":
-'???',
-
-# Rei Ayanami, Shinji Ikari
-"何を？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタ何とも思わないの？\n修学旅行よ。\n\0":
-'???',
-
-# Rei Ayanami 
-"行けない事、知っていたから。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ハン、\nどーせアンタじゃ\n集団行動も出来ないだろうしね。▽\nアンタは行かなくて正解よ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"い〜い機会だわ。\n本部で勉強合宿でもしましょうか？▽\nここには、腕のいい家庭教師が\nたっくさんいるわよ〜ン。▽\n学校の勉強、遅れてるんでしょう？\nオホホホホ…、よかったわね〜。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"そう、いい機会だわ。\n本部で勉強合宿でもしましょうか？▽\nここにはいい家庭教師が\nいっぱいいるのよ。\n\0":
-'???',
-
-# Female Staff
-"これを機会に、\n本部で勉強合宿でもしましょうか？▽\nここには、腕のいい家庭教師が\nたくさんいる事ですし。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"えーーー！？\n\0":
-'???',
-
-# Shinji Ikari
-"勉強合宿…。\nこの展開は予想出来なかったな。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕は遠慮します。\n\0":
-'???',
-
-# Toji Suzuhara
-"待機だけで充分です、ハイ。\nこの上、オベンキョ責めなんて\n殺生や〜…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs065.har_EXTRACT/bs065.evs
-#
-# Misato Katsuragi 
-"じゃ、まずは勝利条件と\n敗北条件の説明からね。\n全域マップ、出して！\n\0":
-'???',
-
-# Misato Katsuragi 
-"使徒は強力な妨害電波を放っていて、\n常に正確な位置を特定することは\nできないの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そう、ボヤボヤしてたら\nあっという間に使徒は\nゼロエリアに到達してしまうわ。▽\nだから私達は使徒の移動先を\n予想して、先回りする必要があるの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"こっちのマップを見て。\n\0":
-'???',
-
-# Misato Katsuragi 
-"このミニマップに、\n使徒の予想侵攻ルートが\n表示されるわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"さっきから気になっているでしょう\nけど、台風の移動予報円みたいなの\nが使徒の予想侵攻ルートよ。▽\nこれを頼りに、使徒を肉眼で\n捕捉できるであろうポイントまで\n私が移動指示を出すわ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"まっ、難しいけど安心して。\nこう見えても私、\nカンはいい方だから。\n\0":
-'???',
-
-# Shinji Ikari, Misato Katsuragi 
-"はい！\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s16.har_EXTRACT/b2s16.evs
-#
-# Shigeru Aoba, Male Staff
-"零号機、投てき体勢。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs100.har_EXTRACT/bs100.evs
-#
-# Misato Katsuragi 
-"聞こえる？\nたった今、\n新しい武器が配備されたわ。▽\n今回の戦闘から使ってちょうだい。▽\nマゴロク・Ｅ・ソード、\n強力な武器よ。▽\n大丈夫、きっと使いこなせるわ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"たった今、\n新しい武器が配備されたわ。▽\nマゴロク・Ｅ・ソード、\n強力な武器よ。\n今回の戦闘から使えるわ。\n\0":
-'???',
-
-# Female Staff
-"マゴロク・Ｅ・ソード、\n配備完了しました。\n武器庫ビルに収納済みです。\t\t\n\0":
-'???',
-
-#
-# ./USRDIR/event/f083.har_EXTRACT/f083.evs
-#
-# [Text Only - No Designated Speaker]
-"怪しげな黒服の男が、まるで\n誰かを探しているようだ…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"…？▽\n奴は…、\nゼーレが差し向けたのか？\n\0":
-'???',
-
-# Maya Ibuki 
-"…？▽\n今の男、ネルフの人間じゃないわ。\n\0":
-'???',
-
-# Ryoji Kaji
-"…？▽\nさては、\nゼーレが送り込んできたか。\n\0":
-'???',
-
-# Rei Ayanami 
-"何、こんなところに\n連れ出して…。\n\0":
-'???',
-
-# Kensuke Aida
-"おい、\nどうしてこんなところへ\n連れてきたんだよ。\n\0":
-'???',
-
-# Rei Ayanami 
-"何、\nこんなところに連れ出して…。\nどうしたんですか？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"アンタを狙って、\n付け回している男がいるのよ！！\n\0":
-'???',
-
-# Shinji Ikari
-"だって、あなたを狙っている奴が\nいるみたいなんですよ。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f021.har_EXTRACT/f021.evs
-#
-# Seele 05,Seele 09
-"ロンギヌスの槍、\n回収は我らの手では不可能だよ。\n\0":
-'???',
-
-# Seele 04
-"ロンギヌスの槍、何故使用した。\n\0":
-'???',
-
-# Seele 09,Seele 03
-"エヴァシリーズ、\nまだ予定にはそろっていないのだぞ。\n\0":
-'???',
-
-# Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi, Female Staff
-"使徒殲滅を優先させました。\nやむを得ない事象です。\n\0":
-'???',
-
-# Seele 03,Seele 06
-"やむを得ないか？\n言い訳にはもっと説得力を\n持たせたまえ。\n\0":
-'???',
-
-# Seele 05
-"最近の君達の行動には、\n目に余るものがあるな。\n\0":
-'???',
-
-# Gendo Ikari
-"人類補完計画の前に、\nサードインパクトが起きても\nやむを得ないとは言えませんので。\n\0":
-'???',
-
-# Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi 
-"人類補完計画の前に、\nサードインパクトが起きても\nやむを得ないとは言えませんからね。\n\0":
-'???',
-
-# Female Staff
-"槍を使用する以外、\n勝つ手段はありませんでした。▽\nあのままでは、人類補完計画の前に、\nサードインパクトが\n起きていたでしょう。\n\0":
-'???',
-
-# Seele 02
-"それは詭弁に過ぎん。\n君はあの状況を利用したのでは\nないのかね？\n\0":
-'???',
-
-# Gendo Ikari, Kozo Fuyutsuki
-"すべては、報告した通りですよ。\nこれ以上、言うべき事はありません。\n\0":
-'???',
-
-# Ritsuko Akagi, Misato Katsuragi, Female Staff
-"すべては、報告した通りです。\nこれ以上、申し上げる事は\nありません。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f030.har_EXTRACT/f030.evs
-#
-# Kensuke Aida
-"ハハ、今ケンカしてんのが\n委員長の洞木。▽\nもう一人のジャージが\n鈴原トウジっていって\n俺のつれなんだ。▽\nあーぁ、それにしてもコリャ\n自習どころじゃなくなったな。\nいつものことだけど…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"教室では、授業終了のチャイムが\n鳴るまでトウジとヒカリが\n喧嘩を続けていた。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"授業中、パソコンのディスプレイに\nクラスメイトからのメールが\n表示された。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"「あなたはパイロットですか？\n　Ｙ／Ｎ」\n\0":
-'"Are you the pilot?\n Y/N"\n\0',
-
-# [Text Only - No Designated Speaker]
-"二列前の女子がこちらを覗っている。\nこのメールは彼女が\n送信したのだろうか。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"返事をタイプした。\n\0":
-'I typed a response.\n\0',
-
-# [Text Only - No Designated Speaker]
-"「はい」\n\0":
-'"Yes."\n\0',
-
-# [Text Only - No Designated Speaker]
-"送信…。\n\0":
-'Transmitting...\n\0',
-
-# [Text Only - No Designated Speaker]
-"その途端、教室がどよめいた。\n全員にモニターされていたのか…。\n\0":
-'???',
-
-# Hikari Horaki, Male Staff
-"静かに！！\n\0":
-'???',
-
-# Kensuke Aida
-"いいんじゃねーの、委員長。\nどーせ、自習なんだしサ。\n\0":
-'???',
-
-# Hikari Horaki
-"だから、静かにしておかなくちゃ\nいけないんじゃない。\n\0":
-'???',
-
-# Toji Suzuhara 
-"おはようさん。\n\0":
-'???',
-
-# Hikari Horaki
-"鈴原ってば、遅刻よ！\n\0":
-'???',
-
-# Toji Suzuhara 
-"妹の見舞いや。\n朝からそんな、やいやい言うなや。\n\0":
-'???',
-
-# Kensuke Aida
-"よ！\n君がパイロットなんだろ？\n\0":
-'???',
-
-# Shinji Ikari
-"君は…？\n\0":
-'???',
-
-# Kensuke Aida
-"あー、俺は相田ケンスケ。\nケンスケでいーよ。\n仲良くしようぜ。\n\0":
-'???',
-
-# Shinji Ikari
-"僕は碇…、碇シンジ。\nあの…、よろしく。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s21.har_EXTRACT/b2s21.evs
-#
-# [Battle Event: Arael Attack]
-#
-# Shinji Ikari
-"わぁぁぁぁぁっ！！\n行かないで、捨てないで！！\n父さん、父さん！！\n\0":
-'Wahhhhh!!\nDon\'t go, don\'t leave me!\Father! Father!!\n\0',
-
-# Shinji Ikari
-"母さん、こんなの母さんじゃない！\nこんなところに母さんなんて居ない！\n父さんの、父さんのせいだ！！\n\0":
-'???',
-
-# Shinji Ikari
-"母さんはどこなの！？\nどこいったの、母さん！！\n\0":
-'???',
-
-# Shinji Ikari
-"置いていかないで！！\nあんなところに居たくないよ！\n父さんッ！！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ママ！！　ママ！！\nお願いだから、ママをやめないで！！\n\0":
-'Mama!! Mama!!\nPlease, don\'t stop being my mama!\n\0',
-
-# Asuka Soryu Langley
-"ママ！！　やめて！！\nお願いだから私を殺さないで！！\n\0":
-'Mama! Stop!!\nPlease don\'t kill me!!\n\0',
-
-# Asuka Soryu Langley
-"イヤ！\n私はママの人形じゃない！！\n\0":
-'No!\nI\'m not Mama\'s doll!!\n\0',
-
-# Asuka Soryu Langley
-"ママ！　ママ！！\nこっちを向いて！！\n私はここなのに！！\n\0":
-'Mama! Mama!!\nLook over here!!\nI\'m right here!!\n\0',
-
-# Toji Suzuhara 
-"おかん、おかんは眠ってんねや！\nどこ連れてくねん！\nおかんを返せ、返せ！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"死んでへん、おかんは死んでへん！\nおとん、おかんを\n取り返してくれよ、なぁ！\n\0":
-'???',
-
-# Toji Suzuhara 
-"俺のおかんや！！\n触るな、触るな！！\n触るなーーー！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"おとん、おじぃ！！\n何でおかん連れてかれるん！？\n止めろや、止めてぇな！！\t\n\0":
-'???',
-
-# Kaworu Nagisa 
-"違う！！\n僕は、ヒトと生きるんだ！\nそんな運命は要らない！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"やめろ、違う！！\n僕はそんな姿じゃない！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"嫌だ！！\n槍に刺されるのはもう嫌だ！\n\0":
-'No!!\nI don\'t want to be stabbed by the Spear anymore!\n\0',
-
-# Kaworu Nagisa 
-"やめろ、僕をどうするつもりだ！\n計画なんか知らない！！\nそんなもの押し付けないでくれ！\n\0":
-'???',
-
-#
-# ./USRDIR/event/f065.har_EXTRACT/f065.evs
-#
-# [Serious: Assassin (Pt.2?)]
-#
-# Shinji Ikari
-"…？▽\nあいつは…、確か前にも。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"…？▽\n今のは…、アイツだわ…。\n\0":
-'???',
-
-# Rei Ayanami 
-"…？▽\nあの男…、この間も…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"…？▽\nひょっとして、この間の…。\n\0":
-'???',
-
-# Gendo Ikari
-"…？▽\nあいつか。\n性懲りもなく…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"…？▽\n奴は…、ゼーレの刺客だな。\n\0":
-'...?▽The fellow\'s a Seele assassin.\n\-',
-
-# Ritsuko Akagi 
-"…？▽\nあの男…、今度は誰を…。\n\0":
-'???',
-
-# Maya Ibuki 
-"…？▽\nあの男が持っていたのは、\n偽造ＩＤ？\nだとしたら…。\n\0":
-'???',
-
-# Makoto Hyuga
-"…？▽\n待てよ、確かこの間の…。\n\0":
-'???',
-
-# Shigeru Aoba
-"…？▽\nあいつ！\n…あの男がいるという事は…。\n\0":
-'???',
-
-# Ryoji Kaji
-"…？▽\nゼーレの差し金か。\nもし、そうならば…。\n\0":
-'???',
-
-# Toji Suzuhara 
-"…？▽\nアンニャロ…、\nまた誰か狙ってるんか？\n\0":
-'???',
-
-# Kaworu Nagisa 
-"…？▽\nあの男…、\nゼーレが向けた人間だな…。\n\0":
-'???',
-
-# Shinji Ikari
-"一体何だよ、\n急いでるのに…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ちょっと、私、\n急いでるんだけど…。\n\0":
-'???',
-
-# Rei Ayanami 
-"何かしら…？\n私、急いでるんだけど…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ねー、急いでるんだけど。\n何か用？\n\0":
-'???',
-
-# Gendo Ikari
-"私は今忙しい。\n用なら、早く言え。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"私は用事があるんだよ。\n話があるなら手短に頼むよ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"なあに？\n私、急いでるのよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"私、急いでるんだけど…。\n用事なの？\n\0":
-'???',
-
-# Makoto Hyuga
-"まいったな、急いでるんだけど。\n何か用かな…。\n\0":
-'???',
-
-# Shigeru Aoba
-"俺、急いでるんだけど…。\n何か話があるの？\n\0":
-'???',
-
-# Ryoji Kaji
-"何か用か？\nちょっと急いでるんだが…。\n\0":
-'???',
-
-# Hikari Horaki
-"急いでるんだけど…、\n何か用なの？\n\0":
-'???',
-
-# Toji Suzuhara 
-"ワシ、急いどんのや。\n何か用かいな？\n\0":
-'???',
-
-# Kensuke Aida
-"何だ、何か用？\n俺、急いでるんだけど。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ちょっと急いでるんだけど…。\n僕に何か用だったのかい？\n\0":
-'???',
-
-# Shinji Ikari
-"一体何ですか、\n僕、急いでるんですけど…。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ちょっと、私、\n急いでるんですけど…。\n\0":
-'???',
-
-# Rei Ayanami 
-"何ですか…？\n私、急いでるんですけど…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"あのー、私、ちょっと\n急いでるんですけど。\n何か用ですか？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"何でしょうか？\n私、急いでいるんですが。\n\0":
-'???',
-
-# Maya Ibuki 
-"私、急ぐんですけど…。\n用事でしょうか？\n\0":
-'???',
-
-# Makoto Hyuga
-"あの、急いでるんですけど。\n何か用ですかね…。\n\0":
-'???',
-
-# Shigeru Aoba
-"ちょっと、急いでるんですけど…。\n何か話でも…？\n\0":
-'???',
-
-# Ryoji Kaji
-"何か用でしょうか？\n今、ちょっと急いでるんですが…。\n\0":
-'???',
-
-# Hikari Horaki
-"私、急いでるんですけど…、\n何か用ですか？\n\0":
-'???',
-
-# Toji Suzuhara 
-"ワシ、急ぐんですけど…。\n何か用ですか？\n\0":
-'???',
-
-# Kensuke Aida
-"何か用ですか？\n俺、急いでるんですけど。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ちょっと急いでるんですけど…。\n僕に何か用だったんですか？\n\0":
-'???',
-
-# Shinji Ikari
-"その…どうしても話さないと\nいけないと思って。▽\n君の命を狙っている男がいるんだよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"その前に話を聞いて！\nアンタの命を狙ってる男がいるわ。\n今も側に。…気を付けなさいよ！\n\0":
-'???',
-
-# Rei Ayanami 
-"命を狙われてるのよ、あなた。\nきっと、今も覗ってるわ。\n気をつけて…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"急いでるところを悪かったわね。\nその前に、アンタの事、\n何者かが狙っているのよ。▽\n気を付けなさいよ。\n\0":
-'???',
-
-# Gendo Ikari
-"それは悪かったな。\nだが、何者かが\nお前の命を狙っている。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうか、では、気づいていたのかな。\n君の命が狙われている事を…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あまり出歩かない方がいいわよ。\nあなたを狙ってる人間がいるのよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"でも、これだけは聞いて。\nあなたを殺そうと、\n狙っている男がいるわ。\n\0":
-'???',
-
-# Makoto Hyuga
-"こっちも君に急用なんだよ。\nいいかい、\n君を狙っている男がいるようだ。▽\nよく、注意して行動するんだ。\nいいな。\n\0":
-'???',
-
-# Shigeru Aoba
-"そんな事より、いいか、聞け！\nお前、命を狙われてるぞ！！\n\0":
-'???',
-
-# Ryoji Kaji
-"そりゃ悪かったな。\nだが、お前は命を狙われているんだ。▽\nきっと、今もつけてきているはずだ。\n気をつけろよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"せやけどお前、狙われとるんやで。\n悠長にしとる場合やないぞ。\nええか、気ぃつけとけよ…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕も急ぎだったんだ。\n君が無事か心配だったからね。▽\n君は、命を狙われているんだ。\nある男にね…。\n\0":
-'???',
-
-# Shinji Ikari
-"その…どうしても話さないと\nいけないと思って。▽\nあなたの命を狙っている男が\nいるみたいなんです。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"その前に話を聞いて！\nあなたの命を狙ってる男がいるわ。\n今も、きっと側に。▽\n…気をつけて下さいよ！\n\0":
-'???',
-
-# Rei Ayanami 
-"命を狙われています。\nきっと、今も覗ってるでしょう。\n気をつけて下さい…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"急いでるところ申し訳ありませんが、\nその前にあなたの命を\n狙っている者がいます。▽\nお気をつけて下さい。\n\0":
-'???',
-
-# Gendo Ikari
-"それは悪かったな。\nだが、何者かがお前の命を\n狙っている。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうか、\nでは、気づいていたのかな。\n君の命が狙われている事を…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"あまり出歩かない方が\nよろしいですよ。▽\nあなたを狙ってる人間が\nいるようですから。\n\0":
-'???',
-
-# Maya Ibuki 
-"これだけはお伝えしなければと\n思いまして…。▽\nあなたを殺そうと、狙っている\n男がいるみたいなんです。\n\0":
-'???',
-
-# Makoto Hyuga
-"こっちも急用なんですよ。\nいいですか、あなたを\n狙っている男がいるようですよ。▽\nよく、注意して行動して下さい。\nいいですね。\n\0":
-'???',
-
-# Shigeru Aoba
-"そんな事より、聞いて下さい！\n命を狙われています、外出は\n控えてもらえないでしょうか。\n\0":
-'???',
-
-# Ryoji Kaji
-"そりゃ悪かったですな。\nですが、\n命を狙われているようですよ。▽\nきっと、\n今もつけてきているはずです。\nどうか、お気をつけ下さい。\n\0":
-'???',
-
-# Toji Suzuhara 
-"せやけど、狙われとるんですよ。\n悠長にしとる場合やないですよ。\nホンマ、気ぃつけといて下さい…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕もあなたに急ぎの用ですよ。\n無事か心配でしたからね。▽\n命を狙われているようです。\nある男に…。\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs082.har_EXTRACT/bs082.evs
-#
-# Kozo Fuyutsuki
-"よろしい。\nでは次に、使徒の動きについてだ。▽\n君は常に次の使徒の位置を\n読まなければならない。\nこれが君の重要な仕事だ。▽\n使徒の動きを読み、状況に応じた\n指示を心がけてもらいたい。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s49.har_EXTRACT/b2s49.evs
-#
-# Shinji Ikari
-"綾波ッ！\n大丈夫だから、\n絶対大丈夫だからっ！！\n\0":
-'???',
-
-# Shinji Ikari
-"トウジ！！\n大丈夫だから、\n絶対大丈夫だからっ！！\n\0":
-'???',
-
-# Shinji Ikari
-"カヲル君！！\n大丈夫だから、\n絶対大丈夫だからっ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"…私を…助けてくれた。\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s50.har_EXTRACT/b2s50.evs
-#
-# Asuka Soryu Langley
-"シンジ！！\n最後の最後にヘマやってんじゃ\nないわよ！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ファースト！\n最後の最後にヘマやってんじゃ\nないわよ！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"鈴原！！\n最後の最後にヘマやってんじゃ\nないわよ！\n\0":
-'???',
-
-# Asuka Soryu Langley
-"フィフス！！\n最後の最後にヘマやってんじゃ\nないわよ！\n\0":
-'???',
-
-#
-# ./USRDIR/event/bs012.har_EXTRACT/bs012.evs
-#
-# Rei Ayanami 
-"…っくぅぅぅぅぅ！\n\0":
-'???',
-
-#
-# ./USRDIR/event/n010.har_EXTRACT/n010.evs
-#
-# [Post-Battle Report: Sahaquiel, Success and Failure]
-#
-# Shigeru Aoba, Male Staff
-"エヴァ要撃ポイント、\n予想落下地点から大きく\n外れていきます。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"エヴァは見事使徒を受け止め\n使徒殲滅に成功しましたが\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"エヴァによる直接要撃を試みました。\n\0":
-'???',
-
-# Female Staff, Misato Katsuragi 
-"エヴァは見事使徒を受け止め\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"サハクィエル\n\0":
-'Sahaquiel\n\0',
-
-# Misato Katsuragi, Female Staff
-"使徒殲滅に成功しました。\n\0":
-'???',
-
-# Misato Katsuragi 
-"そんな…！？\nマギに要撃ポイント修正を、\n急いで！\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"インド洋上空衛星軌道上に目標を発見\n\0":
-'???',
-
-# Female Staff
-"マギに要撃ポイント修正を、\n急いで下さい！\n\0":
-'???',
-
-# Male Staff, Makoto Hyuga
-"ダメです、現在のエヴァの\nポイントからでは間に合いません！\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"Ν航空爆雷の効果も空しく\n\0":
-'???',
-
-# Misato Katsuragi 
-"あきらめないわよ…、\n私はあきらめないわよッ！！\n\0":
-'???',
-
-# Shigeru Aoba
-"チクショウ、\nこれで終わりなのか！？\n全て、終りになるのかよッ！！\n\0":
-'???',
-
-# Makoto Hyuga
-"ここまでか…。\nせめて、パイロットだけでも\n無事であれば…。\n\0":
-'???',
-
-# Female Staff
-"もう、なす術はないの…。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標は誤差修正しながら、\n組織の一部を落下させ攻撃開始\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"ネルフ権限における特別宣言Ｄ−１７\nを発令し、半径５０キロメートルの\n全市民の避難を行う\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"予測通り、目標は\n第３新東京市を目掛け、降下\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"成層圏より飛来する目標に対し\n\0":
-'???',
-
-#
-# ./USRDIR/event/f008.har_EXTRACT/f008.evs
-#
-# [Serious: Eva-03 Mildew]
-#
-# Toji Suzuhara 
-"何や、ワイのエヴァだけ、\nぎょーさん汚れとるやないか。\n感じわる…文句言うたろ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"ちょー、ワイのエヴァ\nめっちゃ汚いやないですか。\n洗浄かけて掃除したって下さいよ。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"整備員が一所懸命\nエヴァを洗いました。\n綺麗になっていい気分です。\n\0":
-'???',
-
-# Toji Suzuhara 
-"なあ、ワイのエヴァ、なんか汚いな\n思って掃除しとったら、赤いカビ\nみたいなのがはえとったんや。▽\nキレイに掃除したら、\nなくなってもうたけどな。\n\0":
-'???',
-
-# Toji Suzuhara 
-"他のエヴァも汚いから、\n掃除するとええわ。\n\0":
-'???',
-
-# Shinji Ikari
-"カビ？\nエヴァにカビなんてねぇ。▽\nでも、気持ち悪いし、\n誰かに言って掃除してもらうよ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"ほんとにィ〜？\n私の弐号機がカビにやられたなんて\n事になったらいい恥さらしよ。▽\nちょっと、整備員に文句言って\n掃除してもらうわ！\n\0":
-'???',
-
-# Rei Ayanami 
-"そう、ありがとう。\n整備の人に言って掃除してもらうわ。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"僕の機体も見ておくよ。\nとりあえず、掃除はしてもらう\n事にするよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"あのー、ワイのエヴァ、なんか汚いな\n思って掃除しとったら、赤いカビ\nみたいのがはえとったんですケド。▽\nキレイに掃除したら、\nなくなってもうたんです。▽\n他のエヴァも汚いから、\n掃除するとええですよ。\n\0":
-'???',
-
-# Misato Katsuragi 
-"やぁ〜だ、バッチィ。\nでも、すぐ洗浄するように\n言わなきゃね。▽\nすぐ、手配するわ。\n\0":
-'???',
-
-# Gendo Ikari
-"わかった、\n整備班の方には伝えておく。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"そうか。\nすぐに整備班を呼んで始末させよう。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"そう、わかったわ。\n些細な事でもエヴァに\n何かあったらいけないからね。\n\0":
-'???',
-
-# Maya Ibuki 
-"ええっ、本当？\n大変、整備班に言って\n汚れを除去してもらうわね。\n\0":
-'???',
-
-# Makoto Hyuga
-"整備班もずさんだなぁ。\nわかった、こっちからもう一度\n清掃を申し出てみるよ。\n\0":
-'???',
-
-# Shigeru Aoba
-"エヴァの機体にカビ？▽\nおかしいな…、\nとにかく整備の方には\n除去するように言っとくよ。\n\0":
-'???',
-
-# Ryoji Kaji
-"アレにカビが生えるってのは\n異常な事なんだぞ。▽\n見間違いかもしれんが念のため、\n清掃を頼んでおくよ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"来たわねトウジくん、\nじゃあ、エヴァ参号機の起動実験、\n始めるわよ。\n\0":
-'???',
-
-# Maya Ibuki 
-"来たわねトウジくん。\nエヴァ参号機の起動実験、\n行うわよ。▽\nがんばってネ。\n\0":
-'???',
-
-# Female Staff
-"トウジ君、\nエヴァ参号機の起動実験、\n行うわよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"こう、ジメジメしとると、\nあまり気が進まんなあ。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"ではトウジくん、始めるわよ。▽\n第一次接続開始…、\n起動用システム作動…、\n稼働電圧臨界…、\n\0":
-'???',
-
-# Maya Ibuki 
-"ではトウジくん、始めるわね。▽\n第一次接続開始…、\n起動用システム作動…、\n稼働電圧臨界…、\n\0":
-'???',
-
-# Female Staff
-"ではトウジ君、始めます。▽\n第一次接続開始…、\n起動用システム作動…、\n稼働電圧臨界…、\n\0":
-'???',
-
-# Male Staff
-"神経パルス良好、基準値クリア…。\n\0":
-'???',
-
-# Male Staff
-"待って下さい、▽\n…パルス、突然逆流をはじめました！\n\0":
-'???',
-
-# Ritsuko Akagi, Maya Ibuki, Female Staff
-"実験中止！！\n全神経接続…カット！\n\0":
-'???',
-
-# Male Staff
-"駄目です、\n体内に高エネルギー反応！\n\0":
-'???',
-
-# Makoto Hyuga
-"ケイジ内で使徒の反応あり、\nエヴァ参号機が発信源です！\n\0":
-'???',
-
-# Maya Ibuki 
-"エヴァ参号機、コントロール不能、\nエントリープラグも射出出来ません！\n\0":
-'???',
-
-# Gendo Ikari
-"エヴァ参号機をケイジから射出しろ。\n\0":
-'???',
-
-# Maya Ibuki 
-"パイロットが乗ったままです！！\n\0":
-'???',
-
-# Gendo Ikari
-"かまわん、射出だ。\nエヴァンゲリオン参号機は現時刻を\n持って破棄、目標を使徒と識別する。\n\0":
-'???',
-
-# Misato Katsuragi 
-"エヴァ参号機が起動実験中に\n使徒の寄生により暴走。▽\n現在参号機は地上に射出。\nこれより迎撃の用意に入ります。\n戦闘配置についてちょうだい！\n\0":
-'???',
-
-# Ritsuko Akagi 
-"エヴァ参号機が起動実験中に\n暴走を始めたわ。\n使徒に寄生されたようなの。▽\n参号機は地上に射出、\n迎撃の用意に入るから急いで\n戦闘配置についてちょうだい！\n\0":
-'???',
-
-# Female Staff
-"エヴァ参号機が起動実験中に\n暴走しました。▽\n現在参号機は地上に射出、\n使徒に寄生された模様。▽\n現在ネルフは戦闘態勢に\n入っています。▽\n急いで戦闘配置にお願いします。\n\0":
-'???',
-
-# Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Male Staff
-"エヴァ参号機、\n起動実験中に暴走しました。▽\nおそらく使徒に寄生されたものだと\n思われます。▽\n参号機は地上に射出、現在ネルフは\n戦闘態勢に入っています。\n急いで戦闘配置にお願いします。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"エヴァの調子が悪いって\n言ってたじゃない？▽\n機体の洗浄の後、再チェックしたら\n調子よくなってたのよ。\n何だったのかしらね？\n\0":
-'???',
-
-# Misato Katsuragi 
-"あっ、そうそう。\nエヴァの調子が悪いって\n言ってたじゃない？▽\n機体の洗浄の後、再チェックしたら\n調子よくなってたそうよ。\n一体、何が原因だったのかしらね？\n\0":
-'???',
-
-# Female Staff
-"エヴァの調子が悪いって\n言ってたでしょう？▽\n機体の洗浄の後、再チェックしたら\n調子がよくなっていたんですよ。\n何だったんでしょうね？\n\0":
-'???',
-
-# Maya Ibuki, Shigeru Aoba, Male Staff
-"エヴァの調整値に誤差があったので、\n原因を調べていたのですが、\nとうとうわからずじまいです。▽\n今は誤差もなく、\n異常な個所は見られません。▽\n何だったんでしょうね、\n機体の洗浄後に再チェックをしたら\n元に戻っていたんですけど。\n\0":
-'???',
-
-# Makoto Hyuga
-"エヴァの調整値に誤差があったので、\n原因を調べていたのですが、\nとうとうわからずじまいです。▽\n今は誤差もなく、\n異常な個所は見られませんが…。▽\n何だったんでしょうね、\n機体の洗浄後に再チェックをしたら\n元に戻っていたんですけど。\n\0":
-'???',
-
-#
-# ./USRDIR/event/f094.har_EXTRACT/f094.evs
-#
-# [Text Only - No Designated Speaker]
-"これからは、\nこの部屋がシンジの部屋です。\n\0":
-'From now on, this will be Shinji\'s room.\n\0',
-
-# [Text Only - No Designated Speaker]
-"これまでシンジが生活していた\n部屋は、新たな同居人のアスカが\n使用することになりました。\n\0":
-'It\'s been decided that new\n housemate Asuka will use the room\n where Shinji stayed previously.\n\0',
-
-#
-# ./USRDIR/event/bs058.har_EXTRACT/bs058.evs
-#
-# Misato Katsuragi 
-"シンジ君、聞こえるわね？▽\n早速だけど、あなたには\nこのエヴァンゲリオンで人類の敵、\n使徒と戦ってもらいます。\n\0":
-'???',
-
-# Shinji Ikari
-"…で、でも。\nどうすればいいんですか？\n\0":
-'???',
-
-# Misato Katsuragi 
-"ではまず、\nエヴァの操縦方法について\n説明します。▽\nあなたの手元に、\n「アナログパッド」があるでしょ？▽\n操縦は、その「アナログパッド」を\n動かしたい方向へ動かせばいいの。\nやってみて。\n\0":
-'???',
-
-#
-# ./USRDIR/btl/b2event.har_EXTRACT/d067.evs
-#
-# Toji Suzuhara 
-"しばいたるわ！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"見とれよ、ワレェ！！\n\0":
-'???',
-
-# Toji Suzuhara 
-"いっちょ、いわしたろか！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s37.har_EXTRACT/b2s37.evs
-#
-# [Battle Event: Sandalphon/Coolant]
-#
-# Asuka Soryu Langley
-"アンタとは、\nここでお別れよッ！！\n\0":
-'???',
-
-# Rei Ayanami 
-"冷却液の圧力を全て３番に！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"このチャンスを逃してなるか！\n\0":
-'???',
-
-# Shinji Ikari, Asuka Soryu Langley
-"冷却液の圧力を全て\n３番に回して、早くっ！\n\0":
-'???',
-
-# Toji Suzuhara 
-"冷却液の圧力を全部３番に\n回してください、早ぅ！\n\0":
-'???',
-
-# Shinji Ikari
-"やった、効いてる！！\n\0":
-'???',
-
-# Kaworu Nagisa 
-"冷却液の圧力を全て\n３番に回してください。\n急いで！\n\0":
-'???',
-
-# Toji Suzuhara 
-"よっしゃあ！！\n\0":
-'???',
-
-#
-# ./USRDIR/event/b2s11.har_EXTRACT/b2s11.evs
-#
-# Misato Katsuragi 
-"今回は、使徒殲滅の為に\nロンギヌスの槍を使用する事に\nなったわ。▽\n槍は、零号機が使用。\n現在、零号機は槍入手のため\nセントラルドグマに向かっています。▽\n他パイロットは、地上にて使徒の\n動向を見ながら待機になります。▽\n以上です。\n作戦開始！\n\0":
-'???',
-
-# Female Staff
-"今回は、使徒殲滅の為に\nロンギヌスの槍を使用します。▽\n槍は、零号機が使用。\n現在、零号機は槍入手のため\nセントラルドグマに向かっています。▽\n他パイロットは、地上にて使徒の\n動向を見ながら待機。▽\n以上が作戦となります。\nでは、作戦を開始します。\n\0":
-'???',
-
-# Shinji Ikari
-"まだ、射程外か…。\n綾波が到着するまで…、\nあとどの位なんだ。\n\0":
-'???',
-
-# Asuka Soryu Langley
-"もうっ！\nファーストが来る前に片付けて\nやるから、さっさと来なさいよ！\n\0":
-'???',
-
-# Toji Suzuhara 
-"何や…、アイツ。\n街を攻撃するでもなし、\n得体の知れん奴やのー。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"しばらくは、膠着状態か…。\nこちらから、出るか？\nどうする…。\n\0":
 '???',
 }
