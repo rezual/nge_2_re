@@ -16,6 +16,1542 @@
 
 translate_map = {
 #
+# ./USRDIR/event/f051.har_EXTRACT/f051.evs
+#
+# [Character: Scene with Maya]
+#
+# Girlfriends
+"彼氏が、女引っ張り込んできて…、\nね、一日でいいから泊めて。\n\0":
+'???',
+
+# Maya Ibuki [Flashback]
+"またぁ？\n別れたらって言ったのに…。\nまだ、一緒にいたんだ。\n\0":
+'???',
+
+# Girlfriends
+"だってさ〜、\n\0":
+'???',
+
+# Maya Ibuki [Flashback]
+"私がいないと駄目なんだもん、\n…って言うの？▽\nやって行けてるじゃない、\nアンタがいなくっても。\n\0":
+'???',
+
+# Girlfriends
+"マヤは、そのくらい人を好きに\nなった事がないでしょ。\n\0":
+'???',
+
+# Maya Ibuki [Flashback]
+"そのくらい好きになって、\n周りが見えなくなる方が怖いわよ。\n\0":
+'???',
+
+# Girlfriends
+"相変わらずね。\n学生の頃からずっと。\nでも、それじゃあ寂しいでしょ？\n\0":
+'???',
+
+# Maya Ibuki [Flashback]
+"寂しい？\n\0":
+'???',
+
+# Girlfriends
+"そ、まず男作りなよ。\nそれにココ、\n男呼ぶ部屋じゃないわよ。▽\nとりあえず、\n今日は私がいるから寂しくないわよ。\n\0":
+'???',
+
+# Maya Ibuki 
+"何言ってんだか。\n\0":
+'???',
+
+# Maya Ibuki 
+"………。▽\nでも、寂しさを紛らわすのって\nお金かかるなぁ。▽\n彼氏がいたら、\nそんなに寂しくなくなるのかな…。\n\0":
+'???',
+
+# Maya Ibuki 
+"男を呼ぶ部屋ねぇ…。▽\nそんなつもりはないけれど、\nとりあえず、お部屋のインテリア\n変えてみようかしら…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、マヤの姿が頭をよぎった。\n\0":
+'???',
+
+# Shinji Ikari
+"眠そうですね…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"すっごいアクビ。\n眠いんですか？\n\0":
+'???',
+
+# Rei Ayanami 
+"疲れているみたいですね。\n\0":
+'???',
+
+# Makoto Hyuga
+"目が赤いね。\nどうしたの？\n\0":
+'???',
+
+# Shigeru Aoba
+"眠そうだな、どうした？\n\0":
+'???',
+
+# Toji Suzuhara 
+"マヤさーん、\nぼんやりして\nどうしはったんですか？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"眠そうですね、大丈夫ですか？\n\0":
+'???',
+
+# Maya Ibuki 
+"大学時代の友人が泊りに来てね、\n色んな話して、あんまり寝てないの。\n\0":
+'???',
+
+# Shinji Ikari
+"へぇ、楽しかったでしょうね。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ふーん、どんな話をしたんですか？\n\0":
+'???',
+
+# Rei Ayanami 
+"…そうですか。\n\0":
+'???',
+
+# Makoto Hyuga
+"へえ、女性はお喋りが\n好きだもんなぁ。\n\0":
+'???',
+
+# Shigeru Aoba
+"へぇ、いいじゃん。\nお喋りが好きなんて、\nマヤも普通の女の子だな。\n\0":
+'???',
+
+# Toji Suzuhara 
+"マヤさんのお部屋、\nええなぁ〜、お泊りかぁ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"それは、楽しかったでしょうね。\n\0":
+'???',
+
+# Maya Ibuki 
+"私の部屋は、\n男を呼ぶ部屋じゃないって\n言われたのよ。▽\n別に呼ぶつもりなんてないし、\n呼ぶヒマもないわよ。\n\0":
+'???',
+
+# Maya Ibuki 
+"でもね、人が来る事を\n意識していない生活をするのは\n寂しい事だと思ってね…。\n\0":
+'???',
+
+# Maya Ibuki 
+"今度辺り、\nみんなで遊びに来て欲しいわ。\nいいかしら？\n\0":
+'???',
+
+# Shinji Ikari
+"わぁ、いいんですか？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"じゃあ、なんか料理作って下さい。\n\0":
+'???',
+
+# Rei Ayanami 
+"じゃあ、そのうちに行きます。\n\0":
+'???',
+
+# Makoto Hyuga
+"へえ、いいね。\nじゃあ、みんなで\n手巻き寿司パーティーとかしようよ。\n\0":
+'???',
+
+# Shigeru Aoba
+"ああ、行く行く。▽\nそういや、学生時代以来だよ。\nそんな風に、\n誰かの家で遊ぶってのは。\n\0":
+'???',
+
+# Toji Suzuhara 
+"ええんですか？\nうわ〜、嬉しいー！\n絶対、行きます〜。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"そうですね、\nじゃあ今度みんなで\nお邪魔しますよ。\n\0":
+'???',
+
+# Maya Ibuki 
+"フフフ。\n私も生活にハリが出て嬉しいわ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"昨日は何があったのだろう。▽\nマヤの気持ちを変える何かが\nあったのだろうと思うが、\n本当のところはよくわからない。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"マヤが深刻な顔をして、\n何かを読んでいる。▽\nいつもの詩集ではなく、\nインテリア雑誌のようだ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"何を読んでるのっ？\n\0":
+'???',
+
+# Gendo Ikari
+"何を見ている。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"部屋の模様替えかね？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"あら、素敵な家具ね。\n\0":
+'???',
+
+# Ryoji Kaji
+"へぇ、いい部屋だね。\n\0":
+'???',
+
+# Maya Ibuki 
+"帰って寝るだけの家だから、\n私の部屋、寂しいんですよ。▽\n友人も、そんなんじゃ\nお客が呼べないでしょうって\n言うものですから…。▽\nやっぱり、来客を意識するのと\nしないのでは生活はガラリと\n変わるものだと思うんですよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"うんうん、いい事いうわね。\n…私のバアイ、変わらないケド。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"ああ、\nそれは君のいう通りだな。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"本当、そうよね。\n\0":
+'???',
+
+# Ryoji Kaji
+"おや、模様替えが終ったら\n招待していただけるのかな？\n\0":
+'???',
+
+# Maya Ibuki 
+"私、寂しがりやなんです。\nでもそれは、自分から寂しい環境を\n作っていたからだと思います。▽\nだから、これで自分を変える\nきっかけにするんです。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"マヤは、無邪気に笑うと\nはにかみながら雑誌に視線を戻した。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f052.har_EXTRACT/f052.evs
+#
+# Female Staff
+"ああ、日向さん…。\n\0":
+'???',
+
+# Makoto Hyuga
+"ああ、郵便物だね。\nわざわざありがとう。\n\0":
+'???',
+
+# Female Staff
+"それと、これ。\n実家から来てますよ。\n\0":
+'???',
+
+# Makoto Hyuga
+"実家？\n親父からだ…。\nでかいな、何が入ってるんだろう？\n\0":
+'???',
+
+# Makoto Hyuga
+"いっ！？\nこれ、お見合い写真じゃ…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"お見合い写真とともに\n父からの手紙が同封されている。\n震える手で、手紙を開く。▽\nマコトへ。\n私もそろそろ孫が見たい。\n日取りを決めたいので連絡しなさい。\n\0":
+'???',
+
+# Female Staff
+"まあ、ふくよかで\nかわいい人じゃないですか…。▽\n日向さん、この人と\nお見合いしちゃうんですか！？\n\0":
+'???',
+
+# Makoto Hyuga
+"ちょっと待って、\nこれは親父のワナなんだ！！\n\0":
+'???',
+
+# Makoto Hyuga
+"うぅー、\nとうとう実力行使に出るなんて…。▽\nしかも、こんなもの職場に送って\n既成事実を作るつもりだったんだ…。\n\0":
+'???',
+
+# Female Staff
+"おめでたい話じゃないですか。▽\nもしかしたら、日向さんの\n扶養家族が増えるかもって、\n総務課の友達に言っておきますね！\n\0":
+'???',
+
+# Makoto Hyuga
+"待って、待ってくれって………！\n\0":
+'Wait! Wait for me!\n\0',
+
+# Female Staff
+"タイヘン、タイヘ〜ン！！\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"気がつくと、見合い写真を\n持っていかれていた。\nもう、終りだ…。▽\n案の定、あっという間に\n見合いの話は広まった。▽\nそれから僕は、\n興奮して親父に電話をかけた。\n\0":
+'???',
+
+# Makoto Hyuga
+"親父っ！！\nあんなの、職場に送るなって！！\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"でも、多分懲りずにまた、\n送ってくるんだろうな…。▽\n今までも見合いの話はあったけど、\nきっと今回は本気のようだ。▽\n…親父も孫が欲しい年頃か。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、日向の姿が頭をよぎった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"日向が、\n浮かない顔をして歩いている。\n\0":
+'???',
+
+# Shinji Ikari
+"日向さん、\nどうしたんですか？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"あっれー、青ざめた顔して、\nどうしたんですか？\n\0":
+'???',
+
+# Maya Ibuki 
+"どうかしたんですか？\n\0":
+'???',
+
+# Shigeru Aoba
+"日向、どうした？\n\0":
+'???',
+
+# Toji Suzuhara 
+"ぼーっとして\nどないしたんですか？\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"日向は、ビクリと驚いた様子で\nこちらへ振り向いた。▽\n相当何か焦っていたようで、\n手に持っていた書類を落とした。▽\n手伝って、書類を集めていると、\n手紙らしき物が出てきた。\n\0":
+'???',
+
+# Rei Ayanami 
+"…手紙だわ。\n\0":
+'???',
+
+# Maya Ibuki 
+"あら、これ書類じゃないわ。\n\0":
+'???',
+
+# Shigeru Aoba
+"何だ、こりゃ？\n\0":
+'???',
+
+# Toji Suzuhara 
+"何やろ、手紙や。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"手紙だ…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"マコトへ。\n私もそろそろ孫が見たい。\n日取りを決めたいので連絡しなさい。▽\n手紙には、こう書かれていた…。\n\0":
+'???',
+
+# Makoto Hyuga
+"み、見るなよ！！\n\0":
+'???',
+
+# Shinji Ikari
+"日向さん、結婚するの？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ひょっとして、結婚？\n\0":
+'???',
+
+# Rei Ayanami 
+"結婚、ですか？\n\0":
+'???',
+
+# Maya Ibuki 
+"ま、孫…！？\n\0":
+'???',
+
+# Shigeru Aoba
+"日向ぁ…、\nお前一人独身貴族卒業かよ！！\n\0":
+'???',
+
+# Toji Suzuhara 
+"いぃ〜〜〜！！\nけ、け、け、結婚するんスか？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"結婚…？\n\0":
+'???',
+
+# Makoto Hyuga
+"ち、違う！\nこれは、お見合いしろって親父が…。\n\0":
+'???',
+
+# Shinji Ikari
+"へぇぇ、結婚かぁ。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"そっか、\n日向さんも適齢期だもんね〜。\n\0":
+'???',
+
+# Rei Ayanami, Toji Suzuhara
+"おめでとうございます。\n\0":
+'???',
+
+# Maya Ibuki 
+"いいパパになれるんじゃ\nないんですか？\n\0":
+'???',
+
+# Shigeru Aoba
+"相手はどんななんだよ。\nカワイーのか？\n\0":
+'???',
+
+# Toji Suzuhara 
+"そんなん、\n隠さんでもええですよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"それじゃあ、お祝いしなきゃね。\n\0":
+'???',
+
+# Makoto Hyuga
+"まず話を聞けって！！\n俺は、お見合いなんかしない！\n結婚なんかまだしないんだって！！\n\0":
+'???',
+
+# Makoto Hyuga
+"あぁぁ、もう！！\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"日向は、実家に電話をかけ、\nすごい剣幕で見合いを\n一方的に断っていた。▽\n最後には、勘弁してくれと\n半泣きになって電話を切った。▽\nからかってやろうと思ったが、\n本当にまいっていたようなので\n声をかける事が出来なかった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"何気に職員の立ち話に\n耳を立てていると、\n日向の話題を耳にした…。\n\0":
+'???',
+
+# Male Staff
+"ホラ、作戦局第一課の日向さん、\n昨日、見合いだったらしいよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"えっ…！！\n\0":
+'???',
+
+# Female Staff
+"そうそう、総務部の友達がね、\n日向さんの父親がよく電話かける\nから、取り次いでいたって。▽\nそういう事だったのね。\n\0":
+'???',
+
+# Male Staff
+"相当、嫌がっていたようだけど\n実際はどうだったのかな。\n気になるよねぇ。\n\0":
+'???',
+
+# Female Staff
+"そうですね、\n意外とサッサと決めちゃって\n結婚するって事ありますからね。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ふぅぅぅぅん、お見合いねぇ…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"そうか、彼が見合いか…。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"ふーん、彼もなかなかやる\nじゃないの。\n\0":
+'???',
+
+# Ryoji Kaji
+"結婚か…。\nま、親がいるなら結婚が一番の\n親孝行だろうからな…。\n\0":
+'???',
+
+# Makoto Hyuga
+"もちろん、断りましたよ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ア、アラ、日向くん。\nいたの？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"あ、ああ、君か。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"日向くん…。\n\0":
+'???',
+
+# Ryoji Kaji
+"おぉっと、いたのか？\n\0":
+'???',
+
+# Makoto Hyuga
+"親の気が済むだろうと思って、\n行っただけです。▽\n結婚なんて、\nまだ興味ありませんよ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"とは、言われたものの本当の\nところはどうだったのだろう。▽\n気になって、仕方がない…。\n\0":
+'???',
+
+
+#
+# ./USRDIR/event/f053.har_EXTRACT/f053.evs
+#
+# Shigeru Aoba [Flashback]
+"テルオ、また講義サボリかよ。\n\0":
+'???',
+
+# Teruo Kato
+"よう、シゲルじゃん。\n今日は休講だったんだよ。▽\nそうだ、キリコに聞いたよ。\nお前、内定もらったんだって？\n\0":
+'???',
+
+# Shigeru Aoba [Flashback]
+"ああ、まさか受かると思って\nなかったけどさ。\n\0":
+'???',
+
+# Teruo Kato
+"そっかー、よかったな。▽\nシゲルはさ、俺達よりも出来るし、\n色々活躍出来ると思うよ。\n\0":
+'???',
+
+# Shigeru Aoba [Flashback]
+"それよりさ、\n事務所と契約したんだろ。\nどうなんだ？\n\0":
+'???',
+
+# Teruo Kato
+"あー、お前の代わり\n…のギタリストと会わされた。\nで、これでユニット組んでくれって。▽\nユニット名も勝手に変えられてさ、\n「コバルトスカイ」だってよ。\nダッサイの！！▽\n………。▽\nシゲル…さ、\n一緒にやれると思ってたのに、\n本当にいいのかよ？▽\nギターで、食っていくって\nいっつも言ってただろ。▽\nプロデビューのチャンスなんだぜ。\n\0":
+'???',
+
+# Shigeru Aoba [Flashback]
+"………。▽\n俺、本当は事務所からギターの\n才能ないって言われてね。\nだから、俺は外されたんだ。▽\n…それに、音楽で食っていく\nなんて考えていたら…、\n\0":
+'???',
+
+# Shigeru Aoba
+"俺が、大人になれねーしな。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"何を言っている…？\n\0":
+'???',
+
+# Ritsuko Akagi, Shinji Ikari
+"どうしたの…？\n\0":
+'???',
+
+# Maya Ibuki 
+"何さっきからブツブツと…？\n\0":
+'???',
+
+# Makoto Hyuga
+"よう、何言ってるんだ？\n\0":
+'???',
+
+# Misato Katsuragi 
+"青葉クン、どーしたの？\n\0":
+'???',
+
+# Ryoji Kaji
+"何が大人になれないって？\n\0":
+'???',
+
+# Toji Suzuhara
+"ハァ？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"その、自虐的な笑いはナニ？\nまさか、フラれたのかしら？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"大人がどうとかって、\n何ですか？\n\0":
+'???',
+
+# Female Staff
+"何の話なんです、それ？\n\0":
+'???',
+
+# Shigeru Aoba
+"あ、いや…、\n独り言で…。\nこれは、何でも…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、青葉の姿が頭によぎった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ここへ来る途中に、\n素敵な歌を聴いた。▽\n今日発売の「コバルトスカイ」と\nいうユニットの新曲だ。▽\nけれども、ずいぶん前から\nその曲を知っていた。▽\n青葉シゲルがいつも\nこの曲を弾いていたからだ。\n\0":
+'???',
+
+# Shinji Ikari
+"青葉さんのいつも弾いている曲、\n今日聴きました。\nあれって…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"青葉さんがギターで\nいつも弾いてる曲。\n何ていうんですか？\n\0":
+'???',
+
+# Rei Ayanami 
+"青葉さんがいつも弾いてる曲。\n私、ここに来る途中で聴きました。\n\0":
+'???',
+
+# Maya Ibuki 
+"ギターでいつも弾いてる曲、\nテレビで聴いたんですよ。▽\nでも、新曲なのに\n何で知ってるんですか？\n\0":
+'???',
+
+# Makoto Hyuga
+"なぁ、\nいつもギターで弾いてる曲さぁ、\nここに来る時、テレビで聴いたんだ。▽\n新曲らしいけど、\n何で君があの曲知ってるの？\n\0":
+'???',
+
+# Toji Suzuhara 
+"青葉さん、\nいつもギター弾いてはる時の曲、\n今日、新曲でテレビに出てましたよ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"青葉さんのいつも弾いている曲、\nテレビで聴きました。▽\nでも、新曲って言うから、\n青葉さんは知らないはずなのに…。\n\0":
+'???',
+
+# Shigeru Aoba
+"ひょっとして、\n「コバルトスカイ」っていう\nユニットの？\n\0":
+'???',
+
+# Shigeru Aoba
+"へへへ、あれはね、\n実は俺が作った曲なんだ。\n\0":
+'???',
+
+# Shinji Ikari
+"えぇっ！？\nほ、本当なんですか！？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"うそっ！？\nすっごーい！！\n\0":
+'???',
+
+# Rei Ayanami 
+"本当、ですか？\n\0":
+'???',
+
+# Maya Ibuki 
+"うそっ！？\nど、どうして、何でなんですか！！\n\0":
+'???',
+
+# Makoto Hyuga
+"えーーーーーっ！？\nそれ、本当なのかい！？\n\0":
+'???',
+
+# Toji Suzuhara 
+"ま、マジっすか！？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"すごい、\nすごいじゃないですか！！\n\0":
+'???',
+
+# Shigeru Aoba
+"なーんてな、ウソだよ。\nそんな事があるわけないだろ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"青葉は笑って否定したが、\nその後、少し自嘲の笑みを見せた。\n本当は、何かを隠しているようだ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"青葉が、ギターを抱えて歩いている。▽\nヒマな時はいつもギターを手に\n歌っているようだ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"いつも、そのギターと一緒なのね。\n\0":
+'???',
+
+# Gendo Ikari
+"毎日、持ち帰っているようだが、\nそんなに大事なものなのか？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"重そうだな。▽\nしかし、肌身離さず持ち歩くとは\n君にとってよほど、\n大事なものなんだね。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"あら、ギタリストさん。\n休憩かしら？\n今からギターを弾くのね。\n\0":
+'???',
+
+# Ryoji Kaji
+"君は本当にそのギターが\n好きなんだね。▽\n俺なら、そんな重いモノ持って\n出勤なんてとても出来ないよ。\n\0":
+'???',
+
+# Shigeru Aoba
+"ああ、こいつはね、\nもう恋人みたいなもんですよ。▽\n高校２年の時に買って、\nそれからずっと一緒ですね。▽\n本当は、こいつで食っていこう\nなんて思っていた頃もありましたよ。▽\nまあ、夢に終わりましたけど…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"青葉は少し寂しそうに笑って、\nそれから大袈裟なほど敬礼をして、\n歩いていった。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f054.har_EXTRACT/f054.evs
+#
+# Male Staff
+"加持さん。\n総務部に買い物頼まれてた\nでしょう？▽\nこちら、ですよね？\n\0":
+'???',
+
+# Ryoji Kaji
+"ああ、サンキュー。\n重たいのに、すまないな。\n\0":
+'???',
+
+# Male Staff
+"ところで…、\nそれ、肥料ですよね…。\n何に使うんですか？\n\0":
+'???',
+
+# Ryoji Kaji
+"ま、ちょっと使うんだ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ジオフロントの一角に加持が\n作った小さな家庭菜園がある。▽\nずっしりと重く、見事なスイカが\nたくさん実っている。\n\0":
+'???',
+
+# Shinji Ikari, Asuka Soryu Langley
+"加持さん？\n\0":
+'???',
+
+# Toji Suzuhara
+"加持さん…、やないですか？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"いいスイカですね。\n\0":
+'???',
+
+# Rei Ayanami 
+"スイカ…？\n\0":
+'???',
+
+# Female Staff
+"スイカ畑…？\n\0":
+'???',
+
+# Ryoji Kaji
+"君か。\n散歩かい？\n\0":
+'???',
+
+# Shinji Ikari
+"こんなところで、\n何をしているんですか？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"何をしてるんですか？\n\0":
+'???',
+
+# Toji Suzuhara
+"こんなトコで、\n何してはるんですか？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"ここは、加持さんの畑ですか？\n\0":
+'???',
+
+# Rei Ayanami 
+"これ、育てているんですか？\n\0":
+'???',
+
+# Female Staff
+"これは全部、加持さんが？\n\0":
+'???',
+
+# Ryoji Kaji
+"俺の畑さ。▽\nちょいと間借りさせてもらってね。\n毎日こうやって、\n世話してやってるのさ。▽\nスイカ、食べるかい？\nこれは俺の自信作。\nすぐ、切ってやるよ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"スイカをかじると、\nあふれるように果汁が飛び出した。\n二つ、三つ、地面に染みを作る。\n\0":
+'???',
+
+# Shinji Ikari
+"おいしい…です。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"少し、ぬるいけど、\nおいしい…。\n\0":
+'???',
+
+# Toji Suzuhara
+"わ、甘っ！\n\0":
+'???',
+
+# Kaworu Nagisa 
+"おいしいですね。\n\0":
+'???',
+
+# Rei Ayanami 
+"…おいしい。\n\0":
+'???',
+
+# Female Staff
+"わぁ、おいしい…。\n\0":
+'???',
+
+# Ryoji Kaji
+"何かを育てるっていうのが\n俺の趣味なんだ。\n誰にもナイショだったんだがね。▽\n何かを育てるというのは、\n大変な事だが、それより新しい\n発見を得る方が多いんだよ。\n\0":
+'???',
+
+# Ryoji Kaji
+"多くを学ばされるよ。\n世界はちゃんと生きる力を\n与えるように出来ているんだな。▽\nこいつらが育っていくのを見ると\nそれがよくわかる…。\n\0":
+'???',
+
+# Ryoji Kaji
+"戻ろうか、\n俺も仕事があるんでね。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、加持の姿が頭をよぎった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"加持が、重そうな荷物を担いで\n歩いている。\n\0":
+'???',
+
+# Shinji Ikari
+"加持さんだ…。\nどこに行くんだろう？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"あっ、加持さんだ！\nドコに行くのかしら？\n\0":
+'???',
+
+# Misato Katsuragi 
+"うん？\nあんな荷物持って、\nどこに行くつもりかしら？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"どこへ行くのかしら？\n何なのあの荷物…。\n\0":
+'???',
+
+# Maya Ibuki 
+"なぁに、あの大荷物。\nどこ行くつもりかしら？\n\0":
+'???',
+
+# Makoto Hyuga, Kaworu Nagisa
+"加持さん…？\n\0":
+'???',
+
+# Shigeru Aoba
+"あれ、加持さんか…？\n\0":
+'???',
+
+# Toji Suzuhara 
+"加持さんや。\n何やねん、あの荷物。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"加持さんだ。\nどこへ行くのだろう。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"あとをつけていくと、\nジオフロント内に\n小さな家庭菜園があった。▽\n加持が大きな荷物の中から\n藁を取り出し、スイカの下に\n丁寧に敷き詰めていく。\n\0":
+'???',
+
+# Misato Katsuragi, Ritsuko Akagi 
+"加持くん。\n\0":
+'???',
+
+# Ryoji Kaji
+"よう、\nここなら誰にも見つからないと\n思ったけど、見つかっちまったな。▽\nようこそ、俺の畑へ。\nちょうどスイカが収穫の時期でね。\nそこの花も、来週には咲くだろう。\n\0":
+'???',
+
+# Shinji Ikari
+"でも、どうしてこんな事を？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"畑仕事なんて…、どうして？\n\0":
+'???',
+
+# Misato Katsuragi 
+"アンタにこんな才能が\nあったとはね。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"全然、知らなかったわ。\nこんな畑があるなんて…。\n\0":
+'???',
+
+# Maya Ibuki 
+"まあっ、こっちにはトマト…。\n綺麗…。\n\0":
+'???',
+
+# Makoto Hyuga
+"これ、加持さんが一人で？\n\0":
+'???',
+
+# Shigeru Aoba
+"ここに畑があったなんて。\nへぇー、これはオクラかな？\n\0":
+'???',
+
+# Toji Suzuhara 
+"これ、食えるんですよね？\nあんま、害虫もおらんし、\nええ環境でしょうね。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"でも、なぜ畑なんか\n作ったんですか？\n\0":
+'???',
+
+# Ryoji Kaji
+"俺の趣味なんだよ。\nこうやって、何かを育てると\nいうのがね。▽\n何かを育てるというのは、\n大変な事だが、新しい発見を\n得る事もある。▽\nこいつらには多くを学ばされるよ。▽\n世界はちゃんと生きる力を\n与えるように出来ていることを。▽\nこいつらが育っていくのを見ると\nそれがよくわかるんだ…。\n\0":
+'???',
+
+# Ryoji Kaji
+"スイカ、食べて行ってくれ。\n俺の自信作なんでね。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"加持が手際よくスイカを切り分ける。▽\nスイカをかじると\nたくさんの果汁が溢れ出し、\n地面に二つ三つの染みを作った。\n\0":
+'???',
+
+# Shinji Ikari
+"甘い…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"わぁ、おいしー！\n\0":
+'???',
+
+# Rei Ayanami 
+"…甘い、おいしい。\n\0":
+'???',
+
+# Misato Katsuragi 
+"何か、懐かしい味…。\nおいしいわ。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"昔のスイカの味ね。\nおいしいわ…。\n\0":
+'???',
+
+# Maya Ibuki 
+"冷えてなくてもおいしい…。\n水気たっぷりで。\n\0":
+'???',
+
+# Makoto Hyuga
+"あっ、おいしいですねぇ…。\n\0":
+'???',
+
+# Shigeru Aoba
+"イケますね。\nうまいですよ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"うわ、うま〜。\nごっつ、甘い。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"おいしいです。\nもう少しもらってもいいですか？\n\0":
+'???',
+
+# Ryoji Kaji
+"ウマイだろ？\nそら、おかわりしろ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"加持はそう言うと、\n再び畑仕事を始めた。▽\nそこは、水と土の優しい匂いがした。\n\0":
+'???',
+
+# Gendo Ikari, Kozo Fuyutsuki
+"あいつか、どこへ行くつもりだ？\n\0":
+'???',
+
+# Gendo Ikari
+"これは、畑か…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"見事なスイカだな…。\n\0":
+'???',
+
+# Ryoji Kaji
+"ここなら誰にも見つからないと\n思ったんですけど、\nあっさり見つかりましたね。▽\nようこそ、私の畑へ。\nちょうどスイカが収穫の時期でね。\nその花も、来週には咲くんですよ。\n\0":
+'???',
+
+# Gendo Ikari
+"君が畑仕事とはな。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"しかし、いつの間にこんな物を。\n\0":
+'???',
+
+# Ryoji Kaji
+"私の趣味です。\nこうやって、何かを育てると\nいうのがね。▽\n何かを育てるというのは、\n大変な事ですが、新しい発見を\n得る事もあります。▽\nこいつらには実に多くを\n学ばされましたよ。▽\n世界はちゃんと生きる力を\n与えるように出来ていることを。▽\nこいつらが育っていくのを見ると\nそれがよくわかるんです…。\n\0":
+'???',
+
+# Ryoji Kaji
+"お一ついかがですか？\nどうぞ、スイカを食べて行って\n下さい。▽\n私の自信作なんでね。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"加持が手際よくスイカを切り分ける。▽\nスイカをかじると\nたくさんの果汁が溢れ出し、\n地面に二つ、三つの染みを作った。\n\0":
+'???',
+
+# Gendo Ikari
+"ぬるいが、いい味だ。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"このスイカは懐かしい味がするよ。▽\n思えば昔の野菜は、こんな\n滋味あふれる味をしていたな。\n\0":
+'???',
+
+# Ryoji Kaji
+"もう一つ、いかがですか？\n\0":
+'???',
+
+#
+# ./USRDIR/event/f056.har_EXTRACT/f056.evs
+#
+# [Character: Scene with Toji]
+#
+# Toji Suzuhara 
+"ほれ、もっと魚食べぇよ。\n\0":
+'???',
+
+# Toji's Sister
+"あんまり、おいしくない。\n\0":
+'???',
+
+# Toji Suzuhara 
+"まー、そうやな。\n病院のメシって、\n味付け薄いもんな…。\n\0":
+'???',
+
+# Toji's Sister
+"兄ちゃん…。\n\0":
+'???',
+
+# Toji's Sister
+"私…、兄ちゃんの作った\nお好み焼き食べたいわ。▽\nツナがぎょうさん入った、\n兄ちゃんのお好み焼き。\n\0":
+'???',
+
+# Toji Suzuhara 
+"う…、せやけどここは\n持ち込み禁止やしな…。\n\0":
+'???',
+
+# Toji's Sister
+"やっぱ、アカンの…？\n\0":
+'???',
+
+# Toji Suzuhara 
+"治ったら、なんぼでも食えるで。\n\0":
+'???',
+
+# Toji's Sister
+"せや、兄ちゃんな、コレ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"千羽鶴やんか…。\nガッコのトモダチが\n持ってきてくれたんか？\n\0":
+'???',
+
+# Toji's Sister
+"ううん。▽\nウチ、出来る事いうたら、\n折り紙くらいやもん。\n\0":
+'???',
+
+# Toji Suzuhara 
+"こないいっぱい…。\nお前が折ったんか？\n\0":
+'???',
+
+# Toji's Sister
+"うん、キレイやろ。\n一つ一つ願い事書いてんねん。▽\n早う、ようなったら、\nお好み焼き食べたい。\n目玉焼きが乗ったヤキソバも。\n\0":
+'???',
+
+# Toji Suzuhara 
+"ああ、ああ。\n退院出来たら、関東炊きも作る。\n餅入りのタコ焼きも作るわ。\n\0":
+'???',
+
+# Toji's Sister
+"あはっ、嬉しい。\nあんな、兄ちゃん、\nその千羽鶴逃がして。\n\0":
+'???',
+
+# Toji Suzuhara 
+"逃がす？\n\0":
+'???',
+
+# Toji's Sister
+"その鶴、願い事を積んでんねや。\nせやから、叶えてくれるように\n逃がしたって。▽\nな、兄ちゃん…。\n願い事叶ったら、団地の小猫達も\nお母さん、見つかるんよ。▽\n商店街の姉ちゃんも、\n元気な赤ちゃん産めるんや。\nみんなみんな、幸せになるん。▽\n逃がしたってな、兄ちゃん…。\n\0":
+'???',
+
+# Hikari Horaki
+"鈴原、千羽鶴なんか持って\nどうしたの？\n\0":
+'???',
+
+# Kensuke Aida
+"何、その千羽鶴？\n\0":
+'???',
+
+# Shinji Ikari
+"それ、千羽鶴？\n妹に作ったの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"たくさんの鳥。\nこれは、千羽鶴だね。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"なーに、これ？\n折り鶴じゃない。\n千羽鶴ってやつかしら。\n\0":
+'???',
+
+# Rei Ayanami 
+"これ、千羽鶴ね…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"キレイやろ、これはな…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"トウジは、教室の窓を開けると、\nバラした千羽鶴を外へ逃がした。\n\0":
+'???',
+
+# Toji Suzuhara 
+"そら、好きなトコ飛んで行き！！\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"くるくると様々な色の鶴が、\n願いを乗せて舞う。▽\n金色の鶴が２、３度きらりと光り、\n風に吹き飛ばされていった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、トウジの姿が頭をよぎった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"トウジが窓際に佇んでいる。\n手には、千羽鶴を持って…。\n\0":
+'???',
+
+# Shinji Ikari
+"千羽鶴じゃないか。\nどうしたの、それ？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"何でアンタが\n千羽鶴なんか持ってんの？\n\0":
+'???',
+
+# Rei Ayanami 
+"それは、千羽鶴ね…。\n\0":
+'???',
+
+# Hikari Horaki
+"鈴原、\nそれ、千羽鶴？\n\0":
+'???',
+
+# Kensuke Aida
+"トウジ、その千羽鶴は…？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"千羽鶴だね。\n一体どうしたの？\n\0":
+'???',
+
+# Toji Suzuhara 
+"ちょっと、手伝ってんか？\n繋いでる糸を取って、\n一羽一羽バラしてくれへん？\n\0":
+'???',
+
+# Shinji Ikari
+"でも、せっかく作ったのに？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"えぇ？\nバラしてどーすんの？\n\0":
+'???',
+
+# Rei Ayanami 
+"でも、どうするの？\n\0":
+'???',
+
+# Hikari Horaki
+"せっかく作ってあるのに。\nどうして…？\n\0":
+'???',
+
+# Kensuke Aida
+"はぁ？\nま、いいけどさ。\nどーすんの、コレ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"せっかく繋げてあるのにかい？\n\0":
+'???',
+
+# Toji Suzuhara 
+"逃がしたんねん。\n\0":
+'???',
+
+# Shinji Ikari
+"…逃がすって、鶴を？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"これを〜？\n変なの…。\n\0":
+'???',
+
+# Rei Ayanami 
+"なぜ…？\n\0":
+'???',
+
+# Hikari Horaki
+"ふ〜ん…。\nほら、貸して。\n手伝うわ。\n\0":
+'???',
+
+# Kensuke Aida
+"逃がすって、この鶴をかよ？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"そうか。\nわかった、手伝うよ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"これ、入院中の妹が、\n自分で折ったんよ。▽\n一羽一羽、全部に願い事が書いて\nあんねんて。\n\0":
+'???',
+
+# Toji Suzuhara 
+"せやから、叶えてもらうために\nこいつらを逃がしたってって\n言うたんや。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"トウジが窓を開ける。\n強い風が吹いていた。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"トウジは、教室の窓を開けると、\n千羽鶴を逃がした。▽\nくるくると様々な色の鶴が、\n願いを乗せて舞う。▽\n金色の鶴が２、３度きらりと光り、\n風に吹き飛ばされていった。▽\nあの鶴たちには、どんな願いが\n書いてあったのだろう…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f057.har_EXTRACT/f057.evs
+#
+# Kensuke Aida [Flashback]
+"パパ、今日は何時に帰るの？\n\0":
+'???',
+
+# Kensuke's Father
+"いやー、ケンスケ。\n今日は泊りになりそうだよ。\n\0":
+'???',
+
+# Kensuke Aida [Flashback]
+"今日は、じゃなくって\n今日もだろ？▽\nそれに、今日はイタリア料理\n食べに連れて行ってくれる\n約束したじゃんか。\n\0":
+'???',
+
+# Kensuke's Father
+"今日、行けなくっても\n店は逃げたりしないさ。▽\nそれよりケン坊、\nパパのパソコンまた触っただろ？▽\n勝手にパパの仕事を\n見るんじゃないぞ。\n\0":
+'???',
+
+# Kensuke Aida [Flashback]
+"わかったよ、パパ。\nちょっと、ゲームをさせて\nもらっただけだよ。\n\0":
+'???',
+
+# Kensuke's Father
+"ケン坊…。\n\0":
+'???',
+
+# Kensuke Aida [Flashback]
+"なに、パパ。\n\0":
+'???',
+
+# Kensuke's Father
+"エヴァのパイロットはケン坊の\nクラスメイトだそうだな…。\n\0":
+'???',
+
+# Kensuke Aida [Flashback]
+"うん、トモダチなんだ。\n俺も、パイロットになりたいって\n頼んでるけど…、駄目みたい。\n\0":
+'???',
+
+# Kensuke's Father
+"パパはな…、ケンスケにはあんな\nモノには乗らずに大人になって\n欲しいと思っている…。\n\0":
+'???',
+
+# Kensuke Aida [Flashback], Shinji Ikari, Maya Ibuki 
+"…え？\n\0":
+'???',
+
+# Kensuke's Father
+"それじゃ、パパは行くよ。\nあさっての朝は、\nフレンチトーストを食べに行こう。\n\0":
+'???',
+
+# Kensuke Aida [Flashback]
+"えっ、ホント？\nバナナブレッドもつけてね！\n約束だよ、パパ。\n\0":
+'???',
+
+# Kensuke Aida
+"…っても…、エヴァに乗ったって、\n乗らなくったって、\n大人になれるよ…。▽\nパパ、\n何を言いたかったんだろう…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、ケンスケの姿が頭によぎった。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ケンスケは、雑誌を読んでいる。\nいつものミリタリー雑誌…ではなく、\nグルメガイド雑誌のようだ。\n\0":
+'???',
+
+# Shinji Ikari
+"第３新東京市エリア版\nグルメガイド？▽\nケンスケ、\nどーしてこんな本読んでるの？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"あら、この店の…、おいしそ〜。\n\0":
+'???',
+
+# Rei Ayanami 
+"いつものミリタリー雑誌じゃ\nないのね。\n\0":
+'???',
+
+# Hikari Horaki
+"わぁ、高そうなお店。\nこんなところに行くの？\n\0":
+'???',
+
+# Toji Suzuhara 
+"オッヒョ〜、うまそ〜。\nところで、何でお前が\nこんな本読んどるんや？\n\0":
+'???',
+
+# Toji Suzuhara 
+"いつも、読むのってモデルガンとか\n戦艦とかそんなんばっかやんけ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"へえ、色んな店があるんだね。\n\0":
+'???',
+
+# Kensuke Aida
+"パパと久しぶりに外食するんだ。\n二人で食事なんてめったにないから\nとびきりおいしいのを食べようって。\n\0":
+'???',
+
+# Shinji Ikari
+"へえ、いいなぁ。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"へー、この中華の店とか\nどお？\n\0":
+'???',
+
+# Rei Ayanami 
+"そう、そうなの。\n\0":
+'???',
+
+# Hikari Horaki
+"いいわね、家族との食事が\n一番楽しいもの。\n\0":
+'???',
+
+# Toji Suzuhara 
+"へー、\nワイ、こんなこじゃれた店\n行った事ないわ…。▽\n商店街のお好み焼きか、\n焼き肉くらいかのー。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"へぇ、それはいい事だね。\n\0":
+'???',
+
+# Kensuke Aida
+"パパ、仕事が忙しくてさ、\nあんまり家で顔合わす事がないんだ。▽\nだから、こんな機会じゃなきゃ\n話せないしね。\n\0":
+'???',
+
+# Shinji Ikari
+"家族か、いいな…。\n会ったらどんな話するの？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"へー、親子の仲がいいのね。\nどんな話してるの。\n\0":
+'???',
+
+# Rei Ayanami 
+"どんな話をするの？\n\0":
+'???',
+
+# Hikari Horaki
+"お父さんとはどんな話を？\n\0":
+'???',
+
+# Toji Suzuhara 
+"ふーん、親父とどんな話\nするん？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"君は、お父さんと\nどんな話をするの？\n\0":
+'???',
+
+# Kensuke Aida
+"大した事は話さないよ。\n\0":
+'???',
+
+# Kensuke Aida
+"でも、まあ学校の事とか\n話すかな。▽\nそんなに気を使わなくっても\n何でも話すから。\n\0":
+'???',
+
+# Kensuke Aida
+"でも、仕事の話はしないかな。\nあんまりしたがらないんだ…。\n\0":
+'???',
+
+# Shinji Ikari
+"話すのも嫌なほど、\n大変なんだよ。▽\nあのさ、\n何かプレゼントしてみたら？\nヒゲ…剃りとか。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ツライ仕事してるからなんじゃ\nない？▽\nアンタがねぎらってあげたら？\n会った時にプレゼントするとかさ。\n\0":
+'???',
+
+# Rei Ayanami 
+"そう、お父さん、\nネルフの職員だったわね。▽\n何かあげたら？\nお父さんに、いつもの感謝の気持ち。\n\0":
+'???',
+
+# Hikari Horaki
+"そうだわ。\nお父さんにプレゼントしたら？▽\n靴下とか、ハンカチ。\n仕事大変だねって、\nいつもありがとうって。\n\0":
+'???',
+
+# Toji Suzuhara 
+"せや、プレゼントしてやれよ。\n親父によ、日頃の感謝みたいなの。\n喜ぶんちゃう？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"プレゼントなんてどう？\nお父さんにだよ。▽\nきっと、喜ぶと思うよ。\n\0":
+'???',
+
+# Kensuke Aida
+"いい考えだね！\nウン、そうするよ。\nパパを驚かせよう！！\n\0":
+'???',
+
+# Kensuke Aida
+"何がいいかな、\n一緒に考えてくれる？\n\0":
+'???',
+
+# Shinji Ikari
+"うん、いいよ。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"私にまっかせて〜！\n\0":
+'???',
+
+# Rei Ayanami 
+"いいわ。\n何がいいかしら。\n\0":
+'???',
+
+# Hikari Horaki
+"そうね、予算はいくらぐらい？\n\0":
+'???',
+
+# Toji Suzuhara 
+"やっぱ、肩叩き券かな〜。\n…アカンか？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"気持ちがこもっていれば何でも\nいいと思うよ。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"その後もケンスケは、\n父親の事を楽しそうに話した。\nおよそ反抗期とは縁遠いほどに。▽\nケンスケも寂しかったんだなと\n思った。\nそして、少しうらやましくも思った。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f055.har_EXTRACT/f055.evs
+#
+# [Character: Scene with Hikari]
+#
+# [Text Only - No Designated Speaker]
+"ふと、ヒカリの姿が頭をよぎった。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ちょっと、アンタ達こそ\n何様よ。\nこの小市民！\n\0":
+'???',
+
+# Kensuke Aida
+"おぉ〜、女は怖ぇ〜。\nセンセー、怖いよ〜。\n\0":
+'Woooo, women are scaary!\nTeacher, I\'m scaared!\n\0',
+
+# Kaworu Nagisa 
+"君らが出て行けばいいだろ。\n\0":
+'???',
+
+# Shinji Ikari
+"委員長を悪く言うな！\n\0":
+'Don\'t badmouth the class president!\n\0',
+
+# Rei Ayanami 
+"…あなた達、恥ずかしくないの？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"あんな、ブス達の言う事なんか\n気にしないでいいわよ。\n\0":
+'???',
+
+# Kensuke Aida
+"気にするなよ…、イインチョ。\n\0":
+'Don\'t let it get to you, Pres.\n\0',
+
+# Kaworu Nagisa 
+"あんな人たちの言う事を\n気にする事ないからね。\n\0":
+'???',
+
+# Shinji Ikari
+"とんでもない奴等だよ。\n一人じゃ何も言えないくせに。\n\0":
+'???',
+
+# Rei Ayanami 
+"…最低な人達。\n\0":
+'The worst kind of people.\n\0',
+
+# Hikari Horaki
+"でも、あの人達が言ってた事\n本当だから…。\n言い返せなくって…。▽\n………。▽\nゴメン、今日は帰る…。\nお姉ちゃん、昨日家に帰らな\nかったし…。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"幻滅だよ。\nそういう事はやめてくれないかな？\n\0":
+'???',
+
+# Female Classmate
+"ちょっと、行こ…。\n\0":
+'???',
+
+# Female Classmate
+"フン。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"しょせん、ヒカリへのヒガミね。\nヒカリは何も悪くないのに。\n\0":
+'???',
+
+# Kensuke Aida
+"インシツ…。\n俺、男でよかったぜ。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"あーぁ、\n何だか急に不愉快になったよ。\n\0":
+'???',
+
+# Shinji Ikari
+"何が楽しいんだ、\nあんな話ばっかり、一日中…。\n\0":
+'???',
+
+# Hikari Horaki
+"どうかしたの？\n\0":
+'What\'s wrong?\n\0',
+
+# Toji Suzuhara 
+"よぉ、イインチョか。\nんにゃ、何でもねーよ。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"ヒカリ…。\nううん、何でもないわよ。\n\0":
+'???',
+
+# Kensuke Aida
+"え？\n何でもないよ…。\n\0":
+'Hmm?\nIt\'s nothing...\n\0',
+
+# Kaworu Nagisa 
+"委員長か。\nいや、何でもないよ。\n\0":
+'Class President?\nNo, it\'s nothing.\n\0',
+
+# Shinji Ikari
+"ああ、委員長…。\n別に何でもないんだ。\n\0":
+'Oh, President...\nIt\'s nothing in particular.\n\0',
+
+# Rei Ayanami 
+"…何でもないわ。\n\0":
+'...It\'s nothing.\n\0',
+
+#
 # ./USRDIR/event/f058.har_EXTRACT/f058.evs
 #
 # [Psychological: Shinji]
@@ -93,6 +1629,45 @@ translate_map = {
 
 # Shinji Ikari
 "僕は、会えると信じて\nここに帰るんだ…。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f087.har_EXTRACT/f087.evs
+#
+# Asuka Soryu Langley
+"バカシンジ、\n何よ、ボーッとしちゃってさ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"シンちゃん、\n疲れてるんじゃないの。\nダイジョーブ？\n\0":
+'???',
+
+# Pen Pen
+"グワァ。\n\0":
+'???',
+
+# Shinji Ikari
+"ウワッ！？\n\0":
+'???',
+
+# Asuka Soryu Langley
+"やっぱり、最近変よ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"あれから調子はどうなの…？\n何かとね、こっちは心配だから…。\n\0":
+'???',
+
+# Pen Pen
+"クー。\n\0":
+'???',
+
+# Shinji Ikari
+"ううん、僕は何も…。\n大丈夫…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"ふと、シンジの声が\n聞こえた気がした…。\n\0":
 '???',
 
 #
@@ -191,6 +1766,33 @@ translate_map = {
 
 # Misato Katsuragi 
 "不安…。▽\n不安なの…。▽\n不安なんだわ…。\nまた、しばらく、不安なんだわ。\n\0":
+'???',
+
+#
+# ./USRDIR/event/f043.har_EXTRACT/f043.evs
+#
+# [Text Only - No Designated Speaker]
+"校庭には、誰の姿も見当たらない。\n先日、突然開始された集団疎開が\n実行されたためだ。▽\n次に出現する使徒を迎撃するため、\nこの街は放棄される。▽\n出発の時間が近い。\nこの学校の風景を観ることも、\nもうないだろう…。\n\0":
+'???',
+
+# Shinji Ikari
+"もう、誰もいないんだ…。\n疎開が始まるんだったな。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"この学校も閉鎖されたのね。\nま、疎開となりゃあ、\nしょーがないわね。\n\0":
+'???',
+
+# Rei Ayanami 
+"民間人はみな、\n疎開してしまった。▽\nこの学校にも、\nもう誰もいないのね。\n\0":
+'???',
+
+# Toji Suzuhara 
+"めんどいだけやった、授業も\nもう受けられへんのやな…。▽\nみんな、疎開してしもて、\nもう、学校には誰も来ぇへん。\n\0":
+'???',
+
+# Kaworu Nagisa 
+"短い間だったけど、楽しかったな。\nもう、この校舎も使われる事は\nないんだな。▽\n疎開していったみんなは、無事に\n平和に過ごす事が出来ればいいな。\n願うのはそればかりだよ。\n\0":
 '???',
 
 #
@@ -6505,7 +8107,7 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [NOTE] This text block not completed yet. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
-'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nBut it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is. \nOr where something like the human heart is, either. ▽\nBut humanity will forever seek out\nthe existence of the soul.\nJust as it seeks the existence of God.▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
+'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nBut it's a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is. \nOr where something like the human heart is, either. ▽\nBut humanity will forever seek out\nthe existence of the soul.\nJust as it seeks the existence of God.▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs
