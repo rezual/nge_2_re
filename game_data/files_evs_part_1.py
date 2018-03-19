@@ -11569,7 +11569,7 @@ translate_map = {
 '???',
 
 #
-# ./USRDIR/event/bs999.har_EXTRACT/bs999.evs (Unsorted)
+# ./USRDIR/event/bs007.har_EXTRACT/bs007.evs
 #
 # Misato Katsuragi 
 "任せたわよ、シンジ君！\n\0":
@@ -11691,6 +11691,9 @@ translate_map = {
 "四号機に任せたぞ！\n\0":
 'I leave it to Unit-04!\n\0',
 
+#
+# ./USRDIR/event/bs109.har_EXTRACT/bs109.evs
+#
 # Shinji Ikari
 "…こ、こちら初号機。\nエヴァ三号機を肉眼で確認しました。▽\nまさか、敵の使徒って…。\nあの、三号機…！？\n\0":
 '???',
@@ -11707,14 +11710,23 @@ translate_map = {
 "こちら、四号機…。\n目標である使徒を肉眼で確認…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs008.har_EXTRACT/bs008.evs
+#
 # Kozo Fuyutsuki
 "…勝ったな。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs009.har_EXTRACT/bs009.evs
+#
 # Gendo Ikari
 "そろそろだな…。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs011.har_EXTRACT/bs011.evs
+#
 # Maya Ibuki, Female Staff
 "エヴァ初号機の予備電源終了。\n活動限界です。\n\0":
 '???',
@@ -11759,6 +11771,9 @@ translate_map = {
 "エヴァ両機の予備電源終了。\n活動限界です。\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs012.har_EXTRACT/bs012.evs
+#
 # Shinji Ikari, Toji Suzuhara
 "うわぁぁぁぁっ！\n\0":
 '???',
@@ -11859,6 +11874,9 @@ translate_map = {
 "ΑΤフィールドとシンクロ率、\n共に上昇！\n\0":
 '???',
 
+#
+# ./USRDIR/event/bs012.har_EXTRACT/bs013.evs
+#
 # Shinji Ikari
 "…来る。\n落ち着け、落ち着いてやれば…。\n\0":
 '???',
