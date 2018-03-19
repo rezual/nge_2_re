@@ -3512,7 +3512,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001D0840: Data(DataType.String, 24, '???', "に対して微笑んだこと\0"),
     0x001D0858: Data(DataType.String, 24, '???', "に対して同意したこと\0"),
     0x001D0870: Data(DataType.String, 20, 'nodding along\0', "相づちを打ったこと\0"),
-    0x001D0884: Data(DataType.String, 24, 'responding indifferently\0, "気の無い返事をしたこと\0"),
+    0x001D0884: Data(DataType.String, 24, 'responding indifferently\0', "気の無い返事をしたこと\0"),
     0x001D089C: Data(DataType.String, 24, '???', "に対して、あいまいに\0"),
     0x001D08B4: Data(DataType.String, 24, '???', "誤魔化す態度をしたこと\0"),
     0x001D08CC: Data(DataType.String, 24, 'averting their eyes from\0', "から目を逸らしたこと\0"),

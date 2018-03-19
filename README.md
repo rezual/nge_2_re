@@ -5,7 +5,7 @@
 - Text in Writable Section of Game Executable:
 	- [ ] 100.00% translated - See game_app/section_data_translate.py
 - Text in Read-Only Section of Game Executable:
-	- [ ] 47.10% translated - See game_app/section_rodata_translate.py
+	- [ ] 51.63% translated - See game_app/section_rodata_translate.py
 - umd0:/PSP_GAME/USRDIR/game/imtext.bin:
 	- [ ] 0.00% translated (in total)
 		- [ ] 0.00% translated - See game_data/file_imtext_translate_part_1.py
@@ -14,10 +14,10 @@
 		- [ ] 0.00% translated - See game_data/file_imtext_translate_part_4.py
 		- [ ] 0.00% translated - See game_data/file_imtext_translate_part_5.py
 - umd0:/PSP_GAME/USRDIR/*.evs:
-	- [ ] 10.33% translated (in total)
-		- [ ] 15.47% translated - See game_data/files_evs_part_1.py
-		- [ ] 3.43% translated - See game_data/files_evs_part_2.py
-		- [ ] 12.09% translated - See game_data/files_evs_part_3.py
+	- [ ] 11.00% translated (in total)
+		- [ ] 15.61% translated - See game_data/files_evs_part_1.py
+		- [ ] 5.33% translated - See game_data/files_evs_part_2.py
+		- [ ] 12.07% translated - See game_data/files_evs_part_3.py
 - umd0:/PSP_GAME/USRDIR/btl/btimtext.bin:
 	- [ ] 37.28% translated - See game_data/file_btimtext_translate.py
 - umd0:/PSP_GAME/USRDIR/free/f2info.bin:
