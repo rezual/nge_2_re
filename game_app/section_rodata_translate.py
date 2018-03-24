@@ -2550,7 +2550,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001CAC5C: Data(DataType.String, 12, 'Don\'t pay\0', "支払わない\0"),
     0x001CAC70: Data(DataType.String, 32, 'There appears to be crowding in front of the cashier.\0', "レジの前は混雑しているようだ。\0"),
     0x001CACD0: Data(DataType.String, 24, 'Your inventory is full.\0', "持ち物がいっぱいです。\0"),
-    0x001CAD04: Data(DataType.String, 56, 'Because your inventory is full, you cannot hack at the Magi terminal.\0', "アイテムが一杯のため、\nマギ端末にハッキングできません。\0"),。
+    0x001CAD04: Data(DataType.String, 56, 'Because your inventory is full, you cannot hack at the Magi terminal.\0', "アイテムが一杯のため、\nマギ端末にハッキングできません。\0"),
     0x001CAD48: Data(DataType.String, 24, 'Incredible! Information skill +%d\0', "大成功！　情報技能+%d\0"),
     0x001CAD60: Data(DataType.String, 20, 'Very nice! Information skill +%d\0', "成功！　情報技能+%d\0"),
     0x001CAD74: Data(DataType.String, 24, 'Did okay. Information skill +%d\0', "まあまあ　情報技能+%d\0"),
