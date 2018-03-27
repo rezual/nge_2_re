@@ -3354,44 +3354,8 @@ translate_map = {
 #
 # ./USRDIR/event/e001.har_EXTRACT/e001.evs
 #
-# Ryoji Kaji
-"………？？？？▽\nここは、葛城…の。\n\0":
-'...???? ▽\n This is Katsuragi\'s...\n\0',
-
-# Misato Katsuragi 
-"加持くぅん…。\n\0":
-'Kaji-kuun...\n\0',
-
-# Ryoji Kaji
-"葛城…？\n\0":
-'Katsuragi...?\n\0',
-
-# Ritsuko Akagi 
-"誰を見てるってワケでもなく、\n私とも…とはね。▽\n私も、同罪ね。\n今日の事は忘れるわ。\n\0":
-'???',
-
-# Ryoji Kaji
-"リッ…ちゃん…？\n\0":
-'Ritchan...?\n\0',
-
-# Rei Ayanami 
-"おやすみなさい…。\n\0":
-'It\'s time to sleep...\n\0',
-
-# Ryoji Kaji
-"…！！！！▽\nやっぱり…、\nサードインパクトが、\nその時が来たのか…？\n\0":
-'...!!!!▽\nSo has Third Impact\n finally come after all...?\n\0',
-
-# Ritsuko Akagi 
-"レイ、レイなの？\n\0":
-'Rei? Rei, is that you?\n\0',
-
 # Shigeru Aoba, Male Staff
 "使徒、ゼロエリア到達！\n\0":
-'???',
-
-# Hikari Horaki
-"綾波さん…？\n\0":
 '???',
 
 # Maya Ibuki, Female Staff
@@ -3401,42 +3365,6 @@ translate_map = {
 # Rei Ayanami 
 "…間に合わない。\nいえ、行かなければ…。▽\n私の出来る事は一つだけ…。\n\0":
 '???',
-
-# Toji Suzuhara 
-"………あ？▽\n何や、病院…？▽\nせや、妹は、妹は無事なんか？\n\0":
-'???',
-
-# Toji Suzuhara 
-"………？▽\n綾波…、\n何しに来てん…？\n\0":
-'???',
-
-# Rei Ayanami 
-"かえりましょう。\n\0":
-'???',
-
-# Toji Suzuhara 
-"帰るて、おい。▽\nおい！！\n何や、何も見えへん…。\n\0":
-'???',
-
-# Toji's Sister
-"兄ちゃん、帰ろうや。\nなあ、帰ろうよ。\n\0":
-'???',
-
-# Toji Suzuhara 
-"………お前？\n\0":
-'???',
-
-# Asuka Soryu Langley
-"…ファースト？\n…誰？\n\0":
-'...First?\n Who are you?\n\0',
-
-# Kensuke Aida
-"…あれっ？▽\nここは、学校？\n教室…？▽\n何で…、ここへ…。\n\0":
-'???',
-
-# Kensuke Aida, Shinji Ikari, Toji Suzuhara
-"綾波…？\n\0":
-'Ayanami...?\n\0',
 
 # Misato Katsuragi 
 "状況は？\n\0":
@@ -3454,20 +3382,8 @@ translate_map = {
 "エヴァ…、活動停止。\nパイロット、………死亡確認。\n\0":
 '???',
 
-# Kaworu Nagisa 
-"呼んでいる…。\nああ、僕は許されたんだ…。▽\nかえるべき場所が、\n僕にはあったんだ…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"レイ…か？\n\0":
-'???',
-
 # Makoto Hyuga, Female Staff
 "使徒、ジオフロントに進入！\n依然、侵攻中！\n\0":
-'???',
-
-# Gendo Ikari
-"レイ、レイなのか！？\n\0":
 '???',
 
 # Misato Katsuragi 
@@ -3482,38 +3398,6 @@ translate_map = {
 "総員、本部から撤退！！\n繰り返す、\n総員、本部から撤退！！\n\0":
 '???',
 
-# Shigeru Aoba, Maya Ibuki 
-"レイ？\n\0":
-'Rei?\n\0',
-
-# Ryoji Kaji, Misato Katsuragi 
-"レイ…？\n\0":
-'Rei...?\n\0',
-
-# Hikari Horaki
-"綾波さん？\n\0":
-'Ayanami-san?\n\0',
-
-# Kaworu Nagisa , Asuka Soryu Langley
-"ファースト…。\n\0":
-'First...\n\0',
-
-# Rei Ayanami 
-"かえるの、みんな…。\nそして、また巡り会うの。\n\0":
-'???',
-
-# Makoto Hyuga
-"君…か？\n\0":
-'It\'s... you?\n\0',
-
-# Misato Katsuragi 
-"ここは、どこかしら…。\n何も、何もないわ…。\n\0":
-'???',
-
-# Hikari Horaki
-"…？▽\nここは、教室…？▽\nどうして、ここへ…。\n\0":
-'???',
-
 # Makoto Hyuga, Male Staff
 "使徒、ネルフ本部に到達！\nここまで、すぐ来ます！\n\0":
 '???',
@@ -3525,67 +3409,6 @@ translate_map = {
 # Kozo Fuyutsuki
 "もはや、これまでか…。\n\0":
 '???',
-
-# Rei Ayanami 
-"お帰り…、\nお還りなさい…。\n\0":
-'???',
-
-# Shinji Ikari
-"ここはどこ…、\nどこだろう？\n\0":
-'???',
-
-# Rei Ayanami 
-"洞木さん…。\nかえりましょう。\n\0":
-'Horaki-san...\n Let\'s go home.\n\0',
-
-# Rei Ayanami 
-"…あの光が、私だったもの。\nこの波が、碇君…。\n全てが、私を巡っていく…。\n\0":
-'???',
-
-# Gendo Ikari
-"ここは…。\n\0":
-'???',
-
-# Kozo Fuyutsuki
-"何もない…。\n世界は…無に返ったのか？\n\0":
-'???',
-
-# Ritsuko Akagi 
-"私、死んだのかしら？\n何も、見えない…。\nどこなのかしら…。\n\0":
-'Have I died?\n I can\'t see anything...\n I wonder where I am...\n\0',
-
-# Hikari Horaki
-"………………。▽\nえ、ええ…。\n\0":
-'???',
-
-# Makoto Hyuga
-"静かだ…。\nいつからここにいるんだろう。\n真っ暗だ…。\n\0":
-'???',
-
-# Shigeru Aoba
-"ここは…？\n何で、こんなところに？\n\0":
-'???',
-
-# Ryoji Kaji
-"ここは…、\n俺は、死んだのか…？\n\0":
-'???',
-
-# Hikari Horaki
-"ここは、何…？\n何も聞こえない、\nなぜ、何も見えないの？\n\0":
-'???',
-
-# Toji Suzuhara 
-"何や、ここ…。\n何も、見えへんし…。\n\0":
-'???',
-
-# Kensuke Aida
-"な、何だココ？\n暗いし、何もないし…。\n\0":
-'???',
-
-# Kaworu Nagisa 
-"ここは…。\n…そうか、ここは。\n\0":
-'???',
-
 # [Text Only - No Designated Speaker]
 "使徒は、乳濁色の光の霧へとその\n身体を変容させ、光の束となって\n白い巨人の仮面を刺した。\n\0":
 '???',
@@ -3596,26 +3419,6 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "仮面が粉々に砕け散った。\n赤い夕焼けのような光が\n一面に広がる。\n\0":
-'???',
-
-# Rei Ayanami 
-"ほら、これがあなただったもの。▽\n全ての生命は、\nここへ過ぎてはやって来る…。\n\0":
-'???',
-
-# Rei Ayanami 
-"使徒と呼ばれたものも、\nすべてここに。\nあなたと共に…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"人の姿と化した光、使徒とレイが\n巨人の顔の中に、あたかも迎え入れ\nられるように取り込まれていく…。▽\nすっかりレイと光を飲み込んだ白い\n巨人は、磔られていた十字架から、\nずるりと手を引き抜き、動き出した。▽\nそして、巨人の身体が女性の、レイの\nしなやかな身体へと変容する…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"幾多の光、波が通り過ぎていく。\nいや、自分自身が光であり、\n波であった。\n\0":
-'???',
-
-# Rei Ayanami 
-"今は眠りなさい…。▽\nそして、いつの日かふたたび、\nこの惑星を、生命で覆うのよ。\n\0":
 '???',
 
 # Shinji Ikari
@@ -3703,15 +3506,7 @@ translate_map = {
 '???',
 
 # Rei Ayanami 
-"ここは、Σ機関の中。\n巡り巡る力の生まれるところ。▽\nかつて、あなただったものが\n他のものと交差するところ。\n\0":
-'???',
-
-# Rei Ayanami 
 "駄目…、来ては駄目。▽\nそう、許してあげる…。▽\n還るの。▽\n還りなさい…。\n\0":
-'???',
-
-# Maya Ibuki 
-"真っ暗…。\n何もない…。▽\nここは、どこかしら…。\n\0":
 '???',
 
 # Misato Katsuragi 
@@ -3746,10 +3541,6 @@ translate_map = {
 "これは、\nどうしたんだ…！？\n\0":
 '???',
 
-# Rei Ayanami 
-"相田君…。\nかえりましょう。\n\0":
-'Aida-kun...\n Let\'s go home.\n\0',
-
 # Yui Ikari
 "…冬月先生。\n\0":
 '...Fuyutsuki-sensei.\n\0',
@@ -3761,10 +3552,6 @@ translate_map = {
 # Kozo Fuyutsuki
 "…は、\n何が、何が一体…。\n\0":
 '???',
-
-# Kensuke Aida
-"……………。▽\nあ、ああ…。\n\0":
-'...... ▽\n R-right...\n\0',
 
 # Ritsuko Akagi 
 "………？▽\nここ…、さっきまで私は…？\n\0":
@@ -3828,10 +3615,6 @@ translate_map = {
 
 # Maya Ibuki 
 "あれは、私だわ…。\nココに入ったばかりの私…。▽\n夢？\n何が、何が起こってるの…？\n\0":
-'???',
-
-# Rei Ayanami 
-"かえりましょう…。\n\0":
 '???',
 
 # Makoto Hyuga
@@ -3906,9 +3689,225 @@ translate_map = {
 "うっ…！？\nここは、発令所…？\n\0":
 '???',
 
+# Ryoji Kaji
+"………？？？？▽\nここは、葛城…の。\n\0":
+'...???? ▽\n This is Katsuragi\'s...\n\0',
+
+# Misato Katsuragi 
+"加持くぅん…。\n\0":
+'Kaji-kuun...\n\0',
+
+# Ryoji Kaji
+"葛城…？\n\0":
+'Katsuragi...?\n\0',
+
+# Ritsuko Akagi 
+"誰を見てるってワケでもなく、\n私とも…とはね。▽\n私も、同罪ね。\n今日の事は忘れるわ。\n\0":
+'???',
+
+# Ryoji Kaji
+"リッ…ちゃん…？\n\0":
+'Ritchan...?\n\0',
+
+# Ryoji Kaji
+"…！！！！▽\nやっぱり…、\nサードインパクトが、\nその時が来たのか…？\n\0":
+'...!!!!▽\nSo has Third Impact\n finally come after all...?\n\0',
+
+# Hikari Horaki
+"…？▽\nここは、教室…？▽\nどうして、ここへ…。\n\0":
+'???',
+
+# Hikari Horaki
+"綾波さん…？\n\0":
+'???',
+
+# Rei Ayanami 
+"洞木さん…。\nかえりましょう。\n\0":
+'Horaki-san...\n Let\'s go home.\n\0',
+
+# Hikari Horaki
+"………………。▽\nえ、ええ…。\n\0":
+'???',
+
+# Toji Suzuhara 
+"………あ？▽\n何や、病院…？▽\nせや、妹は、妹は無事なんか？\n\0":
+'???',
+
+# Toji Suzuhara 
+"………？▽\n綾波…、\n何しに来てん…？\n\0":
+'???',
+
+# Rei Ayanami 
+"かえりましょう。\n\0":
+'???',
+
+# Toji Suzuhara 
+"帰るて、おい。▽\nおい！！\n何や、何も見えへん…。\n\0":
+'???',
+
+# Toji's Sister
+"兄ちゃん、帰ろうや。\nなあ、帰ろうよ。\n\0":
+'???',
+
+# Toji Suzuhara 
+"………お前？\n\0":
+'???',
+
+# Kensuke Aida
+"…あれっ？▽\nここは、学校？\n教室…？▽\n何で…、ここへ…。\n\0":
+'???',
+
+# Kensuke Aida, Shinji Ikari, Toji Suzuhara
+"綾波…？\n\0":
+'Ayanami...?\n\0',
+
+# Rei Ayanami 
+"相田君…。\nかえりましょう。\n\0":
+'Aida-kun...\n Let\'s go home.\n\0',
+
+# Kensuke Aida
+"……………。▽\nあ、ああ…。\n\0":
+'...... ▽\n R-right...\n\0',
+
+# Kaworu Nagisa 
+"呼んでいる…。\nああ、僕は許されたんだ…。▽\nかえるべき場所が、\n僕にはあったんだ…。\n\0":
+'???',
+
+# Rei Ayanami 
+"かえりましょう…。\n\0":
+'???',
+
+# Asuka Soryu Langley
+"…ファースト？\n…誰？\n\0":
+'...First?\n Who are you?\n\0',
+
+# Ryoji Kaji, Misato Katsuragi 
+"レイ…？\n\0":
+'Rei...?\n\0',
+
+# Gendo Ikari
+"レイ、レイなのか！？\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"レイ…か？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"レイ、レイなの？\n\0":
+'Rei? Rei, is that you?\n\0',
+
+# Shigeru Aoba, Maya Ibuki 
+"レイ？\n\0":
+'Rei?\n\0',
+
+# Makoto Hyuga
+"君…か？\n\0":
+'It\'s... you?\n\0',
+
+# Hikari Horaki
+"綾波さん？\n\0":
+'Ayanami-san?\n\0',
+
+# Kaworu Nagisa , Asuka Soryu Langley
+"ファースト…。\n\0":
+'First...\n\0',
+
+# Rei Ayanami 
+"かえるの、みんな…。\nそして、また巡り会うの。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"人の姿と化した光、使徒とレイが\n巨人の顔の中に、あたかも迎え入れ\nられるように取り込まれていく…。▽\nすっかりレイと光を飲み込んだ白い\n巨人は、磔られていた十字架から、\nずるりと手を引き抜き、動き出した。▽\nそして、巨人の身体が女性の、レイの\nしなやかな身体へと変容する…。\n\0":
+'???',
+
+# Rei Ayanami 
+"お帰り…、\nお還りなさい…。\n\0":
+'???',
+
+# Shinji Ikari
+"ここはどこ…、\nどこだろう？\n\0":
+'???',
+
 # Asuka Soryu Langley
 "ここ、どこなんだろう…。\n\0":
 '???',
+
+# Rei Ayanami 
+"…あの光が、私だったもの。\nこの波が、碇君…。\n全てが、私を巡っていく…。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ここは、どこかしら…。\n何も、何もないわ…。\n\0":
+'???',
+
+# Gendo Ikari
+"ここは…。\n\0":
+'???',
+
+# Kozo Fuyutsuki
+"何もない…。\n世界は…無に返ったのか？\n\0":
+'???',
+
+# Ritsuko Akagi 
+"私、死んだのかしら？\n何も、見えない…。\nどこなのかしら…。\n\0":
+'Have I died?\n I can\'t see anything...\n I wonder where I am...\n\0',
+
+# Maya Ibuki 
+"真っ暗…。\n何もない…。▽\nここは、どこかしら…。\n\0":
+'???',
+
+# Makoto Hyuga
+"静かだ…。\nいつからここにいるんだろう。\n真っ暗だ…。\n\0":
+'???',
+
+# Shigeru Aoba
+"ここは…？\n何で、こんなところに？\n\0":
+'???',
+
+# Ryoji Kaji
+"ここは…、\n俺は、死んだのか…？\n\0":
+'???',
+
+# Toji Suzuhara 
+"何や、ここ…。\n何も、見えへんし…。\n\0":
+'???',
+
+# Kensuke Aida
+"な、何だココ？\n暗いし、何もないし…。\n\0":
+'???',
+
+# Hikari Horaki
+"ここは、何…？\n何も聞こえない、\nなぜ、何も見えないの？\n\0":
+'???',
+
+# Kaworu Nagisa 
+"ここは…。\n…そうか、ここは。\n\0":
+'???',
+
+# Rei Ayanami 
+"ここは、Σ機関の中。\n巡り巡る力の生まれるところ。▽\nかつて、あなただったものが\n他のものと交差するところ。\n\0":
+'???',
+
+# Rei Ayanami 
+"ほら、これがあなただったもの。▽\n全ての生命は、\nここへ過ぎてはやって来る…。\n\0":
+'???',
+
+# Rei Ayanami 
+"使徒と呼ばれたものも、\nすべてここに。\nあなたと共に…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"幾多の光、波が通り過ぎていく。\nいや、自分自身が光であり、\n波であった。\n\0":
+'???',
+
+# Rei Ayanami 
+"今は眠りなさい…。▽\nそして、いつの日かふたたび、\nこの惑星を、生命で覆うのよ。\n\0":
+'???',
+
+# Rei Ayanami 
+"おやすみなさい…。\n\0":
+'It\'s time to sleep...\n\0',
 
 #
 # ./USRDIR/event/e002.har_EXTRACT/e002.evs
@@ -3921,8 +3920,16 @@ translate_map = {
 "ネルフ直上に、未確認飛行物体\n計９機を確認。▽\nネルフ直上に、未確認飛行物体\n計９機を確認。\n\0":
 '???',
 
-# Gendo Ikari
-"エヴァシリーズだな…。▽\n奴等はリリスを…。\nレイ！！\n\0":
+# Female Staff
+"エヴァシリーズ、沈黙しました！\n\0":
+'???',
+
+# Misato Katsuragi 
+"やった…。\nやったわ…。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"発令所の中では、勝利の喜びと\n安堵の声で沸き上がった。\n\0":
 '???',
 
 # Misato Katsuragi 
@@ -3955,6 +3962,10 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "側にいた職員と、\n一人一人握手を交わした。▽\n誰一人うつむくものはおらず、\n凛とした表情でミサトへ敬礼をした。\n\0":
+'???',
+
+# Gendo Ikari
+"エヴァシリーズだな…。▽\n奴等はリリスを…。\nレイ！！\n\0":
 '???',
 
 # Makoto Hyuga, Shigeru Aoba
@@ -4113,18 +4124,6 @@ translate_map = {
 #
 # ./USRDIR/event/e004.har_EXTRACT/e004.evs
 #
-# Female Staff
-"エヴァシリーズ、沈黙しました！\n\0":
-'???',
-
-# Misato Katsuragi 
-"やった…。\nやったわ…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"発令所の中では、勝利の喜びと\n安堵の声で沸き上がった。\n\0":
-'???',
-
 # Misato Katsuragi 
 "さ、パイロットの回収作業に\n入るわよ。\n急いで！！\n\0":
 '???',
@@ -7408,40 +7407,8 @@ translate_map = {
 # ./USRDIR/event/cev0306.har_EXTRACT/cev0306.evs
 #
 # Rei Ayanami 
-"あなたは、\n知恵の実を持っているの？\n\0":
-'You hold the\nFruit of Knowledge?\n\0',
-
-# ??? [Lilith]
-"知恵の実しか、\n手に入れられなかったの。▽\n白い月が持ち去った後、\n残っていたのは\n知恵の実だけだったのよ。▽\nだから、追ったの。\n白い月を。\n生命の実を手に入れるために。\n\0":
-'The Fruit of Knowledge is\nall I could obtain.▽\nThe White Moon took off and left only the Fruit of Knowledge behind.▽\nSo I pursued the White Moon.\nSo that I might take\nthe Fruit of Life in hand.\n\0',
-
-# Rei Ayanami 
-"あなたも生命の実を望むの？\n\0":
-'You also desire the Fruit of Life?\n\0',
-
-# ??? [Lilith]
-"それは、あなたが知っているはず。\nあなたは、私だもの。▽\n私が生み出した生命…。\n人類には生命の実が欠けている。\n不完全な生命体よ。\n\0":
-'You should know that.\nBecause you are me.▽\nLife was created by me.\nHumankind lacks the Fruit of Life.\nThey are imperfect organisms.\n\0',
-
-# Rei Ayanami 
-"人々を完全なものにする為に、\n私は必要なの？\n\0":
-'You need it so you\ncan make people complete?\n\0',
-
-# Rei Ayanami 
 "私が私を見ている。\n私の中にいる、たくさんの私。\n\0":
 'I am looking at myself.\nInside me, there exist several of me.\n\0',
-
-# Rei Ayanami 
-"あなたは、何…？\nどこから来たの？\n\0":
-'What are you?\nWhere did you come from?\n\0',
-
-# ??? [Lilith]
-"この星ではない、別の宇宙。\nもう、故郷はないわ。▽\n新しい故郷を求めて、\n人の姿を捨てて旅立ったの。\n多くの存在と共に。▽\n私の黒い月、他の月もそう…。\n\0":
-'Another universe altogether.\nOur home is gone by now.▽\nSeeking a new one, we abandoned\nhuman form and began our journeys,\naccompanied by a host of existence.▽\nMy Black Moon, and the other Moons likewise...\n\0',
-
-# Rei Ayanami 
-"生命の実を手に入れるの？\n\0":
-'???',
 
 # Teacher
 "えーと、教科書を開いて。\n死の起源神話からだ。▽\n人類の祖先が、\n神、ないし精霊に\n石かバナナかを選ばされ、▽\n人類がバナナを選んだが為に\nバナナの様に短命になった\nという話だ。\n\0":
@@ -7468,16 +7435,8 @@ translate_map = {
 '???',
 
 # ??? [Lilith]
-"そう…。\n白い月の主から奪い取るの。▽\nだから、私は完全にならないと\nいけない。▽\nさあ、戻りなさい…。\n私へ還りなさい…。▽\nあなたはその姿を保てない。\n本来の姿ではないのだから。\n還るところは他にはないのだから。\n\0":
-'Yes...\nI will take it from the master of the White Moon.▽\nRemaining incomplete\nis not an option.▽\nSo, please, come back...\nReturn to me...▽\nYou won\'t last in that form.\nIt\'s not your original form, after all.\nAnd there is nowhere else that you belong.\n\0',
-
-# ??? [Lilith]
 "戻っておいで…、\n戻ってきなさい…。\n\0":
 'Come back...\n Please come back to me...\n\0',
-
-# ??? [Lilith]
-"私の子らは、それを望んでいるわ。\n\0":
-'My children are praying for it.\n\0',
 
 # Rei Ayanami 
 "あなた、誰？\n\0":
@@ -7486,6 +7445,46 @@ translate_map = {
 # ??? [Lilith]
 "あなたは、私。\n私は、あなた。▽\n人類を生み出したもの。\n人はリリスと呼ぶわ。\n\0":
 'You are me.\nI am you.▽\nThe one who birthed humanity.\nPeople call us Lilith.\n\0',
+
+# Rei Ayanami 
+"あなたは、\n知恵の実を持っているの？\n\0":
+'You hold the\nFruit of Knowledge?\n\0',
+
+# ??? [Lilith]
+"知恵の実しか、\n手に入れられなかったの。▽\n白い月が持ち去った後、\n残っていたのは\n知恵の実だけだったのよ。▽\nだから、追ったの。\n白い月を。\n生命の実を手に入れるために。\n\0":
+'The Fruit of Knowledge is\nall I could obtain.▽\nThe White Moon took off and left only the Fruit of Knowledge behind.▽\nSo I pursued the White Moon.\nSo that I might take\nthe Fruit of Life in hand.\n\0',
+
+# Rei Ayanami 
+"あなたも生命の実を望むの？\n\0":
+'You also desire the Fruit of Life?\n\0',
+
+# ??? [Lilith]
+"それは、あなたが知っているはず。\nあなたは、私だもの。▽\n私が生み出した生命…。\n人類には生命の実が欠けている。\n不完全な生命体よ。\n\0":
+'You should know that.\nBecause you are me.▽\nLife was created by me.\nHumankind lacks the Fruit of Life.\nThey are imperfect organisms.\n\0',
+
+# Rei Ayanami 
+"人々を完全なものにする為に、\n私は必要なの？\n\0":
+'You need it so you\ncan make people complete?\n\0',
+
+# ??? [Lilith]
+"私の子らは、それを望んでいるわ。\n\0":
+'My children are praying for it.\n\0',
+
+# Rei Ayanami 
+"あなたは、何…？\nどこから来たの？\n\0":
+'What are you?\nWhere did you come from?\n\0',
+
+# ??? [Lilith]
+"この星ではない、別の宇宙。\nもう、故郷はないわ。▽\n新しい故郷を求めて、\n人の姿を捨てて旅立ったの。\n多くの存在と共に。▽\n私の黒い月、他の月もそう…。\n\0":
+'Another universe altogether.\nOur home is gone by now.▽\nSeeking a new one, we abandoned\nhuman form and began our journeys,\naccompanied by a host of existence.▽\nMy Black Moon, and the other Moons likewise...\n\0',
+
+# Rei Ayanami 
+"生命の実を手に入れるの？\n\0":
+'???',
+
+# ??? [Lilith]
+"そう…。\n白い月の主から奪い取るの。▽\nだから、私は完全にならないと\nいけない。▽\nさあ、戻りなさい…。\n私へ還りなさい…。▽\nあなたはその姿を保てない。\n本来の姿ではないのだから。\n還るところは他にはないのだから。\n\0":
+'Yes...\nI will take it from the master of the White Moon.▽\nRemaining incomplete\nis not an option.▽\nSo, please, come back...\nReturn to me...▽\nYou won\'t last in that form.\nIt\'s not your original form, after all.\nAnd there is nowhere else that you belong.\n\0',
 
 #
 # ./USRDIR/event/cev0307.har_EXTRACT/cev0307.evs
@@ -7528,54 +7527,6 @@ translate_map = {
 #
 # ./USRDIR/event/cev0309.har_EXTRACT/cev0309.evs
 #
-# Rei Ayanami 
-"自分の場所は…、自分で見つける。\n私にはその場所が、あるわ…。\n\0":
-'???',
-
-# Rei Ayanami 
-"待っている人がいる。\n会いたい人がいる。\n\0":
-'There is someone waiting for me.\nSomeone I want to see.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n碇くんの声。\n\0":
-'I heard a voice.\nIkari-kun\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\nセカンドの声。\n\0":
-'I heard a voice.\nThe Second\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\nフィフスの声。\n\0":
-'I heard a voice.\nThe Fifth\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n私の声。\n\0":
-'I heard a voice.\nMy own voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n葛城三佐の声。\n\0":
-'I heard a voice.\nMajor Katsuragi\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n葛城一尉の声。\n\0":
-'I heard a voice.\nCaptain Katsuragi\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n赤木博士の声。\n\0":
-'I heard a voice.\nDr. Akagi\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"会いたい。\n素直にそう思って、駆け出した。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"私の心。\n心の向かう先。\n心の向こうのあの人に…。\n\0":
-'???',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n鈴原くんの声。\n\0":
-'I heard a voice.\nSuzuhara-kun\'s voice.\n\0',
-
 # Gendo Ikari
 "いよいよその時が来た。\nさあ、行こう、レイ。\n\0":
 'The time has come at last.\nLet\'s go, Rei.\n\0',
@@ -7604,14 +7555,6 @@ translate_map = {
 "碇司令…。▽\n人の心を…、\nありがとうございます。▽\nさようなら…。\n\0":
 'Commander Ikari...▽\nThank you,\n for my human heart.▽\nFarewell...\n\0',
 
-# [Text Only - No Designated Speaker]
-"声がした。\n青葉二尉の声。\n\0":
-'I heard a voice.\nLt. Aoba\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n相田くんの声。\n\0":
-'I heard a voice.\nAida-kun\'s voice.\n\0',
-
 # Shigeru Aoba
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影なのか、これは？\n\0":
 'A high energy body\nis ascending from Terminal Dogma!\nIt\'s... humanoid?\n\0',
@@ -7628,14 +7571,6 @@ translate_map = {
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影のようですが…。\n\0":
 'A high energy body\nis ascending from Terminal Dogma!\nAppears to be human-shaped, but...\n\0',
 
-# [Text Only - No Designated Speaker]
-"声がした。\n碇司令の声。\n\0":
-'I heard a voice.\nCommander Ikari\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\nペンペンの声。\n\0":
-'I heard a voice.\nPen Pen\'s voice.\n\0',
-
 # Makoto Hyuga, Shigeru Aoba
 "分析パターン青！\nまさか、使徒！？▽\nいや、違う。\nヒト、人間です！！\n\0":
 'Analysis pattern blue!\nIt can\'t be...an Angel?!▽\nNo, something else.\nIt\'s a person, a human!!\n\0',
@@ -7647,10 +7582,6 @@ translate_map = {
 # Female Staff
 "分析パターン青！\n使徒！？▽\n違う、これは…、\nヒト、人間です！！\n\0":
 'Analysis pattern blue!\n...An Angel?!▽\nNo, it\'s...\nA person, a human!!\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n副司令の声。\n\0":
-'I heard a voice.\nThe deputy commander\'s voice.\n\0',
 
 # ??? [Lilith]
 "どこへ行くの…。\nあなたが還る場所は、\nここしかないのよ。\n\0":
@@ -7672,14 +7603,6 @@ translate_map = {
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
 'Hurry... Return...\nto this body...\nGive me the Fruit of Life......\n\0',
 
-# [Text Only - No Designated Speaker]
-"声がした。\n加持さんの声。\n\0":
-'I heard a voice.\nKaji-san\'s voice.\n\0',
-
-# [Text Only - No Designated Speaker]
-"声がした。\n日向二尉の声。\n\0":
-'I heard a voice.\nLt. Hyuga\'s voice.\n\0',
-
 # ??? [Lilith]
 "もう、あなたの還る場所は…。\n\0":
 'The place you belong is already...\n\0',
@@ -7692,6 +7615,74 @@ translate_map = {
 "…生命の……………………………\n………………実を…………………\n………………………………………。\n\0":
 'The Fruit.........\n.....of Life....\n....Give to.......\n\0',
 
+# Rei Ayanami 
+"自分の場所は…、自分で見つける。\n私にはその場所が、あるわ…。\n\0":
+'???',
+
+# Rei Ayanami 
+"待っている人がいる。\n会いたい人がいる。\n\0":
+'There is someone waiting for me.\nSomeone I want to see.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n碇くんの声。\n\0":
+'I heard a voice.\nIkari-kun\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\nセカンドの声。\n\0":
+'I heard a voice.\nThe Second\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n私の声。\n\0":
+'I heard a voice.\nMy own voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\nフィフスの声。\n\0":
+'I heard a voice.\nThe Fifth\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n葛城三佐の声。\n\0":
+'I heard a voice.\nMajor Katsuragi\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n葛城一尉の声。\n\0":
+'I heard a voice.\nCaptain Katsuragi\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n赤木博士の声。\n\0":
+'I heard a voice.\nDr. Akagi\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n鈴原くんの声。\n\0":
+'I heard a voice.\nSuzuhara-kun\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n青葉二尉の声。\n\0":
+'I heard a voice.\nLt. Aoba\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n相田くんの声。\n\0":
+'I heard a voice.\nAida-kun\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n碇司令の声。\n\0":
+'I heard a voice.\nCommander Ikari\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\nペンペンの声。\n\0":
+'I heard a voice.\nPen Pen\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n副司令の声。\n\0":
+'I heard a voice.\nThe deputy commander\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n加持さんの声。\n\0":
+'I heard a voice.\nKaji-san\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"声がした。\n日向二尉の声。\n\0":
+'I heard a voice.\nLt. Hyuga\'s voice.\n\0',
+
 # [Text Only - No Designated Speaker]
 "声がした。\n伊吹二尉の声。\n\0":
 'I heard a voice.n\Lt. Ibuki\'s voice.\n\0',
@@ -7699,6 +7690,14 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 "声がした。\n洞木さんの声。\n\0":
 'I heard a voice.\nHoraki-san\'s voice.\n\0',
+
+# [Text Only - No Designated Speaker]
+"会いたい。\n素直にそう思って、駆け出した。\n\0":
+'???',
+
+# [Text Only - No Designated Speaker]
+"私の心。\n心の向かう先。\n心の向こうのあの人に…。\n\0":
+'???',
 
 # [Scenario 5: Misato]
 
