@@ -7104,7 +7104,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "お帰り。\n\0":
-'???',
+'I\'m home.\n\0',
 
 # Ryoji Kaji
 "待たずに寝てりゃ\nよかったのに。\n\0":
@@ -7984,32 +7984,36 @@ translate_map = {
 "ユイ…。▽\n全ては、これからだ。\n\0":
 '???',
 
+
+# [Scenario 7: Fuyutsuki]
+
 #
 # ./USRDIR/event/cev0601.har_EXTRACT/cev0601.evs
 #
 # Kozo Fuyutsuki
+# [NOTE] This text block not completed yet. -Reichu
 "例えば、このケース。\n一人の男を被験者として、\n実験を行ったものだ。▽\n誘導催眠において、\n火傷をしたという擬似的な\n記憶を作り出した。▽\n明確な火傷の状況を与えると、\n実験後、身体に火傷の跡が現れた。▽\n一種の体験を作り出し、他人が\nその意識、記憶に干渉する事は\n現在も研究が行われており…。▽\n人は、普段体験している現実と違う\nもう一つの現実を生み出す可能性を\n持っているものだと思われる。\n\0":
-'???',
+'This case, for instance.\nAn experiment was conducted,\nusing a man as the test subject.▽\nThrough induced hypnosis,\nthey generated false memories\nthat he was burnt.▽\n明確な火傷の状況を与えると、\nburn scars appeared on his body after the experiment.▽\nCreating a kind of personal experience, others\ntampering with consciousness and memoryは\n現在も研究が行われており…。▽\nHumans appear to have the potential to\ncreate another reality, one different from\nthat normally being experienced.\n\0',
 
 # Kozo Fuyutsuki
 "時間だ。\n続きは来週にしよう。\n\0":
-'???',
+'Time\'s up.\nWe\'ll resume this next week.\n\0',
 
 # Kozo Fuyutsuki
 "あの時、\n私はただの大学講師だった。\n\0":
-'???',
+'Back then,\nI was a mere college professor.\n\0',
 
 # Kozo Fuyutsuki
 "生物同士による、\n意識のリンクの可能性か。▽\nグループを作った意識が\n進化を喚起させる…ふむ。\n\0":
-'???',
+'"The possibility of linking consciousness between organisms", eh?▽\n"Group consciousness will spur\nevolution forward". Hmmm.\n\0',
 
 # Kozo Fuyutsuki
 "はい、どうぞ。\n\0":
-'???',
+'Yes, come in.\n\0',
 
 # Kozo Fuyutsuki
 "ちょうど今、読ませてもらったよ。\n２、３疑問が残るが面白い着眼点だ。▽\n久しぶりに刺激のある\nレポートだったよ。\n\0":
-'???',
+'I was reading it for you just now.\nThere\'s a couple of things I\'m dubious\nabout, but it\'s a fascinating premise.▽\nI haven\'t seen a report this\nexciting in quite some time.\n\0',
 
 # Yui Ikari
 "ありがとうございます。\n\0":
@@ -8017,7 +8021,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "彼女からは、\nラベンダーの香りがした。\n\0":
-'???',
+'There was the scent of\nlavender about her.\n\0',
 
 # Kozo Fuyutsuki
 "碇ユイ君…だったね？\n君はこの先どうするつもりかね。▽\n就職か？\nそれとも大学院に進んで、\n研究室に入るつもりかな？▽\n推薦状が必要なら、いつでも書くよ。\n\0":
@@ -8037,7 +8041,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "それが、彼女…、\n碇ユイとの出会いだった。\n\0":
-'???',
+'That\'s how I met her...\nYui Ikari.\n\0',
 
 #
 # ./USRDIR/event/cev0602.har_EXTRACT/cev0602.evs
@@ -8075,19 +8079,20 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "だが、彼女はもういない。\n\0":
-'But she\'s not here anymore.\n\0',
+'But she\'s no longer here.\n\0',
 
 # Kozo Fuyutsuki
 "人類補完計画。\n碇が提案したその計画に私は賭けた。▽\n人々の心を一つにし、安らぎの時を\n永遠に生きる。▽\n初号機に宿る彼女の魂さえも\n一つにして…。\n\0":
-'???',
+'The Human Instrumentality Project.\nI took a gamble on the plan that Ikari proposed.▽\nUnifying the hearts of all people,\nwe would live perpetually in peace.▽\nEven joining just with her soul, residing in Unit-01, would be...\n\0',
 
 # Kozo Fuyutsuki
 "２００４年、エヴァ初号機との\n接触実験で被験者となった彼女は、\nそのまま帰らぬ人となった。\n\0":
-'???',
+'In 2004, she became the test subject for the\ncontact experiment with Eva Unit-01.\nAnd right after, she became the one who would never return.\n\0',
 
 # Kozo Fuyutsuki
+# [NOTE] This text block not completed yet. Check それぞれ色が違うというのに. -Reichu
 "久しぶりに、\nあの論文を手に取った。▽\n彼女…、碇ユイの\nあの論文だ。▽\n生物同士による、\n意識のリンクの可能性。▽\nそれぞれ色が違うというのに、\n群れ集まって花のような擬態を\n作り上げる虫がいる。▽\nその虫達の共同体から、一つの\n意識が構成されているという\n仮説があるのだ。▽\n彼女は人間、また他生物も\n同じように意識の繋がりを持ち…、▽\nそれらが干渉しあう事で、\n進化の糸口を生み出すと言う\nものだった。▽\n生物の変性意識を人工的に\n作り出し…、それらを一つにまとめ、\n進化させる。▽\n人類補完計画の雛型となる\n理論となっていた。\n\0":
-'???',
+'For the first time in a while,\nI picked up the thesis.▽\nThe one by her...\nYui Ikari.▽\n"The possibility of linking\nconsciousness between organisms."▽\nThere are insects that produce camouflage\nsimilar to a bed of flowers, even\nthough several colors are different.▽\nThere is a hypothesis that says\na singular awareness is being organized\nfrom the collective of these insects.▽\n彼女は人間、また他生物も\n同じように意識の繋がりを持ち…、▽\nそれらが干渉しあう事で、\n進化の糸口を生み出すと言う\nものだった。▽\nArtificially creating altered organic\nconsciousnesses..., bringing them all\ntogether, and evolving them.▽\n人類補完計画の雛型となる\n理論となっていた。\n\0',
 
 #
 # ./USRDIR/event/cev0604.har_EXTRACT/cev0604.evs
@@ -8098,28 +8103,28 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "人々の心の隙間を埋める補完計画。▽\nゼーレは、サードインパクトに\nより全人類を完全な単体生物へと\n進化させるべくこの計画に乗り、▽\n私と碇は、全人類の心を互いに\n補完する事をこの計画の目的とした。▽\n我々は、ゼーレの老人達を\n欺きながら、お互い異とした\n目的を歩んでいるのだ。▽\n全ての使徒を倒す、その時まで。\n\0":
-'???',
+'The Instrumentality Project, which would fill the voids in humans\' hearts.▽\nSeele followed this plan so that all\nhumanity could be evolved into a\nsingular perfect being via Third Impact.▽\nIkari and I, however, intend for the project\nto mutually complement the hearts of all humanity.▽\nWe deceive the old men of Seele,\nadvancing a goal mutually exclusive\nwith theirs.▽\nUntil such time as all the Angels are defeated.\n\0',
 
 # [Text Only - No Designated Speaker]
+# [Note] Need to figure out how to render 例え here. -Reichu
 "絶対的な存在である神の元へ\n我々は向かう事が出来るのか。▽\n例え賭けであったとしても…、\n彼女に再び会う為には\n私はこの計画に臨む他なかった。\n\0":
-'???',
+'Are we capable of reaching\nthe side of God, the Absolute? ▽\n例えEven if it was a gamble...\nI had no choice but to go into this project\nso I could see her again.\n\0',
 
 # [Text Only - No Designated Speaker]
-# [NOTE] This text block not completed yet. -Reichu
+# [Note] Check verb tenses for accuracy. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
-'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nBut it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is. \nOr where something like the human heart is, either. ▽\nBut humanity will forever seek out\nthe existence of the soul.\nJust as it seeks the existence of God.▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
+'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nYet it's a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs
 #
 # [Text Only - No Designated Speaker]
-# [NOTE] This text block not completed yet. -Reichu
 "彼女の論文を読み返す。\n私には、もはや習慣になっていた。▽\nふと思う。\n彼女は、どういった人類の未来を\n望んでいたのだろうか…。▽\n彼女の望んだ進化…。\n\0":
-'I reread her thesis.\nIt was already becoming a habit.▽\nSuddenly I\'m thinking.\n彼女は、どういった人類の未来を\n望んでいたのだろうか…。▽\nThe evolution she desired...\n\0',
+'I reread her thesis.\nIt had already become a habit.▽\nSuddenly I\'m thinking.\nWhat kind of\nfuture did she want for humanity?▽\nHer desired evolutionary path...\n\0',
 
 # Kozo Fuyutsuki
 "あそこには…、京都には\n彼女の論文がいくつか残されては\nいないだろうか。▽\n京都か…。\n出張計画書が必要だな…。\n\0":
-'???',
+'Were any of her papers\nstill back there,\nin Kyoto?▽\nKyoto, hmm...\nI\'ll need a business trip manifest.\n\0',
 
 #
 # ./USRDIR/event/cev0606.har_EXTRACT/cev0606.evs
@@ -8130,15 +8135,15 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "大学には、多くの論文が\n保管されている。▽\n彼女のものを探すのは、\n結構骨が折れた。\n\0":
-'A great many theses were\nin storage at the university.▽\nI broke enough bones\nlooking for hers.\n\0',
+'A great many papers were\nin storage at the university.▽\nI broke enough bones\nlooking for hers.\n\0',
 
 # Kozo Fuyutsuki
 "これか…？\n碇ユイ。\nこれだ…。\n\0":
-'Is this...?\nYui Ikari.\nGot it.\n\0',
+'Is this...?\nYui Ikari.\nThis is it.\n\0',
 
 # [Text Only - No Designated Speaker]
 "彼女に会えたような喜びだった。\n静かに、彼女の論文をめくる。\n\0":
-'It was like reliving the joy of meeting her.\nQuietly, I went through her thesis.\n\0',
+'It was like reliving the joy of meeting her.\nQuietly, I went through her treatise.\n\0',
 
 # Kozo Fuyutsuki
 "故意に変性意識を\n生み出すには…。▽\n…これは、エヴァとの\nシンクロを促すための\n基礎理論であったものか…？▽\n自己の意識の拡大と\n他者への意識の干渉…。\n精神汚染…。\n\0":
@@ -8147,26 +8152,26 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [NOTE] This text block not completed yet. -Reichu
 "彼女との再会を喜ぶような気持ちで、\nゆっくりとページをめくっていった。\nなんと充実した時間だろう。▽\nこの論文が書かれた時点ではまだ、\n改良の余地はあった。▽\nだが、変性意識を作り出す条件は\nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0":
-'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this thesis was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\nI took her thesis back with me.\n\0\n\0',
+'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this paper was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\nI took her treatise back with me.\n\0\n\0',
 
 #
 # ./USRDIR/event/cev0607.har_EXTRACT/cev0607.evs
 #
 # [Text Only - No Designated Speaker]
 "人体にある特定の\n温度、匂い、音による刺激を\n送り込む事で変性意識を作り出す。▽\nしかし、自分一人で行うとなると\nこの研究は難しい。▽\n一歩間違えば、精神を破壊する\n危険性もある。▽\n被験者、観察者が必要だ。▽\nだが、意を決して\nこの実験は私一人で行う事にした。\n\0":
-'???',
+'I will generate an altered consciousness by\nrelaying stimuli via specific temperatures,\nsmells, and sounds found in the human body.▽\nBut this experiment will be\ndifficult to perform by myself.▽\nThere is also the risk of destroying\nthe mind if a single mistake is made.▽\nIt requires both a test subject and an observer.▽\nEven so, I already resolved that I alone would conduct this experiment.\n\0',
 
 # Kozo Fuyutsuki
 "必要な機材はそろった。\n始めよう。\n\0":
-'The necessary equipment is here.\nLet\'s begin.\n\0',
+'I have the necessary equipment.\nLet\'s get started.\n\0',
 
 # Kozo Fuyutsuki
 "この方向で調整を行っていこう。\n\0":
-'???',
+'I\'ll make adjustments in this direction.\n\0',
 
 # Kozo Fuyutsuki
 "悪夢を見たような、嫌な気分だ。\n実験は失敗か…。\n\0":
-'It\'s a nasty feeling, like having a nightmare.\nThe experiment failed...\n\0',
+'What a nasty feeling, like I had a nightmare.\nThe experiment failed...\n\0',
 
 #
 # ./USRDIR/event/cev0608.har_EXTRACT/cev0608.evs
@@ -8193,11 +8198,11 @@ translate_map = {
 
 # Yui Ikari
 "失礼します。\n\0":
-'???',
+'Pardon me.\0',
 
 # Kozo Fuyutsuki
 "君が碇君？\n\0":
-'???',
+'You are Ikari-kun?\n\0',
 
 # [Text Only - No Designated Speaker]
 "彼女に出会ったあの時、\nそのままだった。\nラベンダーの香りがする。\n\0":
@@ -8469,7 +8474,7 @@ translate_map = {
 
 # (Decision Prompt)
 "戻らない／戻る\0":
-'???',
+'Stay／Go back\0',
 
 # Yui Ikari, Shinji Ikari
 "そうですか。\n\0":
@@ -8539,6 +8544,8 @@ translate_map = {
 # Kozo Fuyutsuki
 "ああ、その時までの\nお別れだ…。\n\0":
 '???',
+
+# [Scenario 8: Ritsuko]
 
 #
 # ./USRDIR/event/cev0701.har_EXTRACT/cev0701.evs
