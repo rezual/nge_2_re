@@ -148,18 +148,18 @@ translate_map = {
 
 # Shinji Ikari
 "逃げちゃ駄目だ。\n逃げちゃ駄目だ。\n逃げちゃ駄目だ………！\n\0":
-'I mustn\'t run away.\n I mustn\'t run away.\n I mustn\'t run away...!\n\0',
+'I mustn\'t run away.\nI mustn\'t run away.\nI mustn\'t run away...!\n\0',
 
 # Shinji Ikari
 "やります。\n僕が乗ります！\n\0":
-'I\'ll do it.\n I\'ll pilot it!\n\0',
+'I\'ll do it.\nI\'ll pilot it!\n\0',
 
 #
 # ./USRDIR/event/tev0102.har_EXTRACT/tev0102.evs
 #
 # Gendo Ikari
 "わかっている。\n人間には時間がないのだ。\n\0":
-'I understand.\n Mankind has no time left.\n\0',
+'I understand.\nMankind has no time left.\n\0',
 
 # Committeeman A
 "使徒再来か。\nあまりに唐突だな。\n\0":
@@ -1856,7 +1856,7 @@ translate_map = {
 
 # Rei Ayanami 
 "信じられないの？\nお父さんの仕事が。\n\0":
-'Don\'t you believe\n in your father\'s work?\n\0',
+'Don\'t you believe\nin your father\'s work?\n\0',
 
 # Shinji Ikari
 "当たり前だよ、\nあんな父親。\n\0":
@@ -2057,7 +2057,7 @@ translate_map = {
 
 # Rei Ayanami 
 "…………………。\n絆だから。\n\0":
-'......\n Because I\'m connected.\n\0',
+'......\nBecause I\'m connected.\n\0',
 
 # Shinji Ikari
 "絆？\n\0":
@@ -2093,7 +2093,7 @@ translate_map = {
 
 # Rei Ayanami 
 "時間よ。\n行きましょ。\n\0":
-'It\'s time.\n Let\'s go.\n\0',
+'It\'s time.\nLet\'s go.\n\0',
 
 # Shinji Ikari, Toji Suzuhara, Kensuke Aida
 "綾波…。\n\0":
@@ -3304,7 +3304,7 @@ translate_map = {
 
 # Gendo Ikari
 "ところで、\n初号機のパイロットはいるか。\n\0":
-'Is the pilot of\n Unit-01 there?\n\0',
+'Is the pilot of\nUnit-01 there?\n\0',
 
 # Gendo Ikari
 "話は聞いた。\nよくやったな、シンジ。\n\0":
@@ -3320,11 +3320,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "シンジ君。\nこの間、聞いたわよね。▽\n私がどうしてネルフに\n入ったのかを…。\n\0":
-'Shinji-kun, you asked me\n something the other day.▽\nAbout why I joined Nerv...\n\0',
+'Shinji-kun, you asked me\nsomething the other day.▽\nAbout why I joined Nerv...\n\0',
 
 # Misato Katsuragi 
 "私の父はね、自分の研究、\n夢に生きる人だったわ。▽\nそんな父を許せなかった。\n憎んでさえいたわ。\n\0":
-'My father, he was someone who\n lived for his research and his dreams.▽\nI could never forgive him for that.\nI could only hate him.\n\0',
+'My father, he was someone who\nlived for his research and his dreams.▽\nI could never forgive him for that.\nI could only hate him.\n\0',
 
 # Shinji Ikari
 "……………。\n（僕の父さんと同じだ。）\n\0":
@@ -3332,11 +3332,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "母や私、家族の事など\n全く構ってくれなかった。▽\n周りの人達は繊細な人だと\n言っていたわ。\n\0":
-'He didn\'t give a damn about\n my mom and me, or the family,\n or anything like that.▽\nPeople always said he was sensitive.\n\0',
+'He didn\'t give a damn about\nmy mom and me, or the family,\nor anything like that.▽\nPeople always said he was sensitive.\n\0',
 
 # Misato Katsuragi 
 "でも、ホントは心の弱い、\n現実から、私達家族という現実から\n逃げてばかりいた人だったのよ。▽\n子供みたいな人だったわ。▽\n母が父と別れた時も、\nすぐに賛成したわ。▽\n母はいつも泣いてばかりだったもの。▽\n父はショックだったみたいだけど、\nその時は自業自得だと笑ったわ。\n\0":
-'But in truth he was just a weak\nperson running away from reality\n — the reality of his family.▽\nHe was like a kid. ▽\n母が父と別れた時も、\nすぐに賛成したわ。▽\n母はいつも泣いてばかりだったもの。▽\n父はショックだったみたいだけど、\nその時は自業自得だと笑ったわ。\n\0',
+'But in truth he was just a weak\nperson running away from reality\n-- the reality of his family.▽\nHe was like a kid. ▽\n母が父と別れた時も、\nすぐに賛成したわ。▽\n母はいつも泣いてばかりだったもの。▽\n父はショックだったみたいだけど、\nその時は自業自得だと笑ったわ。\n\0',
 
 # Misato Katsuragi 
 "けど、最後は私の身代わりになって\n死んだの。\nセカンドインパクトの時にね。\n\0":
@@ -3426,7 +3426,7 @@ translate_map = {
 
 # Gendo Ikari
 "神を殺し、\nまた神を生む力を持った槍…。\n事は我々のシナリオ通りだよ。\n\0":
-'A spear with the power to both kill and birthe gods...\n The situation is in accordance with our scenario.\n\0',
+'A spear with the power to both kill and birthe gods...\nThe situation is in accordance with our scenario.\n\0',
 
 # Misato Katsuragi 
 "どう？\nマギの診察は終わった？\n\0":
@@ -4289,11 +4289,11 @@ translate_map = {
 
 # Keel Lorenz
 "どう思うかね？\n碇君。\n\0":
-'What do you think,\n Ikari-kun?\n\0',
+'What do you think,\nIkari-kun?\n\0',
 
 # Gendo Ikari
 "使徒は知恵をつけ始めています。\n残された時間は…。\n\0":
-'The Angel are beginning to cultivate wisdom.\n The time left to us is...\n\0',
+'The Angel are beginning to cultivate wisdom.\nThe time left to us is...\n\0',
 
 # Keel Lorenz
 "あとわずか、という事か。\n\0":
@@ -4518,7 +4518,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "はい。\n一人速やかに「コア」の準備が\n可能な子供がいます。\n\0":
-'Yes. There is one child\n for whom a core can\n be prepared right away.\n\0',
+'Yes. There is one child\nfor whom a core can\nbe prepared right away.\n\0',
 
 # Gendo Ikari
 "任せる。\n\0":
@@ -4993,11 +4993,11 @@ translate_map = {
 #
 # Shinji Ikari
 "目標…、\n目標の使徒って…。\nエヴァじゃないですか！？\n\0":
-'The target...\n What you\'re calling an Angel...\n It\'s an Eva, isn\'t it?!\n\0',
+'The target...\nWhat you\'re calling an Angel...\nIt\'s an Eva, isn\'t it?!\n\0',
 
 # Gendo Ikari
 "あれはもう、\nエヴァ参号機ではない。\n…使徒だ。\n\0":
-'That is no longer\n Eva Unit-03.\n It\'s an Angel.\n\0',
+'That is no longer\nEva Unit-03.\nIt\'s an Angel.\n\0',
 
 # Asuka Soryu Langley
 "プラグが見える。\nパイロットはあの中なんだわ。\nまさか使徒に乗っ取られるなんてね。\n\0":
@@ -5017,7 +5017,7 @@ translate_map = {
 
 # Shigeru Aoba
 "エヴァ弐号機、完全に沈黙。\n目標移動、零号機へ。\n\0":
-'Eva Unit-02 has gone completely silent.\n Target is moving toward Unit-00.\n\0',
+'Eva Unit-02 has gone completely silent.\nTarget is moving toward Unit-00.\n\0',
 
 # Rei Ayanami 
 "はっ…。\n\0":
@@ -5083,7 +5083,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "あの、参号機のパイロットは、\nフォース・チルドレンは…。\n\0":
-'Unit-03\'s pilot...\n The Fourth Child is...\n\0',
+'Unit-03\'s pilot...\nThe Fourth Child is...\n\0',
 
 # Shinji Ikari
 "…トウジ？\n\0":
@@ -5091,7 +5091,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "シンジ君。\n…シンジ君！\n\0":
-'Shinji-kun.\n Shinji-kun!\n\0',
+'Shinji-kun.\nShinji-kun!\n\0',
 
 # Shinji Ikari
 "うわぁあああああああああ！！\n\0":
@@ -5263,7 +5263,7 @@ translate_map = {
 
 # Shinji Ikari
 "僕は…、\nもう乗らないって決めたんだ。\n\0":
-'I...\n I decided I wouldn\'t pilot anymore.\n\0',
+'I...\nI decided I wouldn\'t pilot anymore.\n\0',
 
 # Ryoji Kaji
 "よォ。\n他は避難したみたいだぞ。\n君はいいのかい？\n\0":
@@ -5299,7 +5299,7 @@ translate_map = {
 
 # Ryoji Kaji
 "そうだ。▽\n使徒がネルフ本部地下に眠る\nアダムと接触すれば、\n人は全て滅びるといわれる。\n\0":
-'That\'s right.▽\nIt\'s said that if an Angel makes contact\n  with Adam, the being asleep beneath H.Q.,\n humanity will be completely wiped out.\n\0',
+'That\'s right.▽\nIt\'s said that if an Angel makes contact\nwith Adam, the being asleep beneath H.Q.,\nhumanity will be completely obliterated.\n\0',
 
 # Ryoji Kaji
 "サードインパクトでね。\n\0":
@@ -5307,7 +5307,7 @@ translate_map = {
 
 # Ryoji Kaji
 "それを阻止出来るのは、\n使徒と同じ力を持つ\nエヴァンゲリオンだけだ。\n\0":
-'Only the Evangelions,\n which have power equal to the Angels,\n are capable of stopping it.\n\0',
+'Only the Evangelions,\nwhich have power equal to the Angels,\nare capable of stopping it.\n\0',
 
 # Shinji Ikari
 "僕は…。\n\0":
@@ -5347,7 +5347,7 @@ translate_map = {
 
 # Shinji Ikari
 "僕は、\n僕はエヴァンゲリオン初号機の\nパイロット、碇シンジです！▽\n僕をエヴァに乗せてください！\n\0":
-'I...\n I\'m the pilot of Evangelion Unit-01, Shinji Ikari!▽\nLet me pilot the Eva, please!\n\0',
+'I...\nI\'m the pilot of Evangelion Unit-01, Shinji Ikari!▽\nLet me pilot the Eva, please!\n\0',
 
 # Shinji Ikari
 "お願いです！\n僕をエヴァに乗せてください！\n\0":
@@ -6536,19 +6536,19 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "…わかっている。\nユイ君によろしくな。\n\0":
-'... I understand.\n Give my regards to Yui-kun.\n\0',
+'... I understand.\nGive my regards to Yui-kun.\n\0',
 
 # Misato Katsuragi 
 "サードインパクトを\n起こすつもりなのよ。▽\n使徒ではなく、\nエヴァシリーズを使ってね。▽\n１５年前のセカンドインパクトは\n人間に仕組まれたものだったわ。\n\0":
-'They plan on triggering\n the Third Impact.▽\n Using not the Angels,\n but the Eva Series instead.▽\n Second Impact, fifteen years ago,\n was something plotted by humans.\n\0',
+'They plan on triggering\nthe Third Impact.▽\nUsing not the Angels,\nbut the Eva Series instead.▽\nSecond Impact, fifteen years ago,\nwas something plotted by humans.\n\0',
 
 # Misato Katsuragi 
 "けどそれは他の使徒が覚醒する前に\nアダムを卵へ還元する事で、被害を\n最小限に食い止める為だったのよ。▽\n私達人間もね、アダムと同じ\nリリスと呼ばれる生命体の源から\n生まれた１８番目の使徒なのよ。\n\0":
-'But that was to minimize the damage\n by reverting Adam to an egg\n before the other Angels awakened.▽\n We humans are the 18th Angel,\n born from the one called Lilith,\n who is a source of life like Adam.\n\0',
+'But that was to minimize the damage\nby reverting Adam to an egg\nbefore the other Angels awakened.▽\nWe humans are the 18th Angel,\nborn from the one called Lilith,\na source of life like Adam.\n\0',
 
 # Misato Katsuragi 
 "他の使徒達は別の可能性だったの。\nヒトの形を捨てた人類の…。▽\nただ、お互いを拒絶するしか\nなかった悲しい存在だったけどね。\n同じ人間同士も。▽\nいい、シンジ君。\nエヴァシリーズを全て\n消滅させるのよ。▽\n生き残る手段はそれしかないしかないわ。\n\0":
-'The other Angels were an alternate possibility.\n Humanity that had abandoned its human form...▽\n But sadly, all we could\n do was reject one another, \neven though we\'re all human.▽ Okay, Shinji-kun?\n You have to destroy the entire Eva Series.▽\n It\'s the only way we\'ll survive.\n\0',
+'The other Angels were an alternate possibility.\nA humanity that abandoned human form...▽\nBut sadly, we couldn\'t help\nbut reject one another,\neven though we\'re all human.▽\nOkay, Shinji-kun?\nYou have to destroy the entire Eva Series.▽\nIt\'s the only way we\'ll survive.\n\0',
 
 # Misato Katsuragi 
 "いい、シンジ君。\nここから先は、\nもう、あなた一人よ。▽\n全て一人で決めなさい。\n誰の助けもなく。\n\0":
@@ -6639,7 +6639,7 @@ translate_map = {
 
 # Gendo Ikari
 "アダムとリリスの、\n禁じられた融合。\n\0":
-'The forbidden fusion\n of Adam and Lilith.\n\0',
+'The forbidden fusion\nof Adam and Lilith.\n\0',
 
 # Gendo Ikari
 "欠けた心の補完。\n不要な身体を捨て、\n全ての魂を今、ひとつに。\n\0":
@@ -6651,7 +6651,7 @@ translate_map = {
 
 # Gendo Ikari
 "始めよう、レイ。\nΑΤフィールドを、\n心の壁を解き放つのだ…。\n\0":
-'Let\'s begin, Rei.\n Release the wall of your heart,\n your A.T. Field...\n\0',
+'Let\'s begin, Rei.\nRelease the wall of your heart,\nyour A.T. Field...\n\0',
 
 # Gendo Ikari
 "どうした、レイ。\n\0":
@@ -6663,7 +6663,7 @@ translate_map = {
 
 # Gendo Ikari
 "頼む！\n待ってくれレイ！！\n\0":
-'Please!\n Wait for me, Rei!!\n\0',
+'Please!\nWait for me, Rei!!\n\0',
 
 # Rei Ayanami 
 "だめ。\n碇君が呼んでる。\n\0":
@@ -6945,11 +6945,11 @@ translate_map = {
 #
 # Shigeru Aoba, Male Staff
 "第$d使徒、第３新東京市\n$fエリア付近に出現。\n\0":
-'The $d Angel has appeared in the\n vicinity of Tokyo-3\'s $f area.\n\0',
+'The $d Angel has appeared in the\nvicinity of Tokyo-3\'s $f area.\n\0',
 
 # Shigeru Aoba, Male Staff
 "目標を映像で確認。\n出ます！\n\0":
-'Target has been visually verified.\n On-screen!\n\0',
+'Target has been visually verified.\nOn-screen!\n\0',
 
 # Misato Katsuragi 
 "ほっほぉー、\nこりゃまた、立派な殿方だこと。▽\nここを目指してまっしぐらね。\n\0":
@@ -7169,15 +7169,15 @@ translate_map = {
 
 # Misato Katsuragi 
 "強力な加粒子砲とΑΤフィールド。\n攻守共にパーペキな空中要塞ね。\n\0":
-'Its particle cannon and A.T. Field are powerful.\n In terms of offense and defense, it\'s the perfect floating fortress.\n\0',
+'Its particle cannon and A.T. Field are powerful.\nIn terms of offense and defense, it\'s the perfect floating fortress.\n\0',
 
 # Kozo Fuyutsuki
 "強力な加粒子砲とΑΤフィールド。\nまさに完璧な空中要塞だな。\n\0":
-'Its particle cannon and A.T. Field are potent.\n Truly a consummate floating fortress.\n\0',
+'Its particle cannon and A.T. Field are potent.\nTruly a consummate floating fortress.\n\0',
 
 # Female Staff
 "強力な加粒子砲とΑΤフィールド。\nまさに完璧な空中要塞ですね。\n\0":
-'Its particle cannon and A.T. Field are powerful.\n It certainly is a perfect floating fortress.\n\0',
+'Its particle cannon and A.T. Field are powerful.\nIt certainly is a perfect floating fortress.\n\0',
 
 # Makoto Hyuga
 "エヴァによる接近戦は\n危険過ぎますね。\nどうします？\n\0":
@@ -7646,7 +7646,7 @@ translate_map = {
 
 # Maya Ibuki, Male Staff
 "弐号機にはエントリープラグが\n挿入されていません。\n無人で動いています！\n\0":
-'Unit-02 has no\n entry plug inserted.\nIt\'s moving unmanned!\n\0',
+'Unit-02 has no\nentry plug inserted.\nIt\'s moving unmanned!\n\0',
 
 # Misato Katsuragi 
 "誰もいない？\nどういう事！！\n\0":
@@ -8966,7 +8966,7 @@ translate_map = {
 #
 # Shinji's Shadow [Leliel]
 "気分はどう？\n\0":
-'???',
+'How do you feel?\n\0',
 
 # Shinji Ikari, Rei Ayanami
 "…誰？\n\0":
@@ -9018,7 +9018,7 @@ translate_map = {
 
 # Asuka's Shadow [Leliel]
 "そうよ。\nあなたも、そう。\n惣流・アスカ・ラングレー。▽\nあなたの中のアスカ。\nみんなの中のアスカ。\nそれが私。▽\nいつも心の奥底で泣いている。\n\0":
-'???',
+'That\'s right.\nIt\'s also you.\nAsuka Soryu Langley.▽\nThe Asuka in you.\nThe Asuka in everyone.\nThat\'s me.▽\nDeep down inside, you\'re always crying.\n\0',
 
 # Asuka's Shadow [Leliel]
 "いつも…、\n一人になる事を恐れている。\n\0":
@@ -9038,15 +9038,15 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "そう、みんなが綾波レイと呼ぶもの。\n偽りの魂と作られた体を持つ、\n人のマネをしている物体。\n\0":
-'???',
+'Yes. Something others call Rei Ayanami.\nAn object with a constructed body and a false soul,\nmerely pretending to be human.\n\0',
 
 # Rei Ayanami 
 "それが私…。\nあなたは本当の私…。\nいつも私を見つめている私？\n\0":
-'???',
+'That is me...\nYou are the real me...\nThe me that always gazes upon myself?\n\0',
 
 # Rei's Shadow [Leliel]
 "あなたの暗くて見えない心を\n私は知りたい…。▽\nあなたは、一体\n何のために生きているの？\n\0":
-'???',
+'You wish to know your own heart,\nobscured in darkness...▽\nFor what possible reason\ndo you exist?\n\0',
 
 # Toji's Shadow [Leliel]
 "…なあ。\n\0":
@@ -9082,27 +9082,28 @@ translate_map = {
 
 # Kaworu Nagisa 
 "これは…？\n\0":
-'???',
+'Is that...?\n\0',
 
 # Kaworu's Shadow [Leliel]
 "僕がわかるかい？\n\0":
-'???',
+'Do you know me?\n\0',
 
 # Kaworu Nagisa 
 "…己の内面。\n弱い部分と向き合うなんて、\n未熟なリリンどもの風習だね…。\n\0":
-'???',
+'My inner self.\nConfronting one\'s own weakness,\n\'tis a custom of the fledgeling Lilin...\n\0',
 
 # Kaworu's Shadow [Leliel]
+# Second sentence's translation too liberal, fix. -Reichu
 "その未熟なリリンの物真似が\n上手になったね。\n内面の弱さまで再現してるんだから。\n\0":
-'???',
+'Oh, but you\'ve grown adept at mimicking those fledgeling Lilin.\nThus, parts of yourself as deeply buried as your inner weakness are returning.\n\0',
 
 # Kaworu Nagisa 
 "………。\n一体、何しに現れたの？\n\0":
-'???',
+'......\nWhat could you possibly have shown up to do?\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ…。\n確認だよ。\n本来の目的を忘れてはいないかい？\n\0":
-'???',
+'Heh heh...\nSo it\'s true.\nYou haven\'t totally forgotten your original purpose, have you?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le005.evs
@@ -9125,7 +9126,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "繰り返すよ。\n本来の目的を忘れてはいないかい？\n\0":
-'???',
+'I\'ll say it again.\nHave you completely forgotten your original purpose?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le006.evs
@@ -9865,7 +9866,7 @@ translate_map = {
 #
 # Asuka Soryu Langley
 "寂しいのは\n私のせいだっていうの…？\n\0":
-'You\'re saying it\'s my\n fault I\'m lonely...?\n\0',
+'You\'re saying it\'s my\nfault I\'m lonely...?\n\0',
 
 # Asuka's Shadow [Leliel]
 "あなたは\n人を遠ざけるために努力した。\n大学を出た、エヴァに乗った…。▽\nそう、\nすべてあなたの努力の成果なのよ。\n\0":
@@ -9920,7 +9921,7 @@ translate_map = {
 #
 # Asuka Soryu Langley
 "誰も…、\n私を守ってくれないの？\n\0":
-'There\'s no one\n protecting me?\n\0',
+'There\'s no one\nprotecting me?\n\0',
 
 # Asuka's Shadow [Leliel]
 "遠ざけるから。\n自分も、他人も。\nだから、本音は誰にも届かない。\n\0":
@@ -9997,106 +9998,107 @@ translate_map = {
 #
 # Rei Ayanami 
 "わからない…。\n心は自分で見えないから。\n\0":
-'???',
+'I don\'t know...\nMy heart is hidden to me.\n\0',
 
 # Rei's Shadow [Leliel]
 "あなたは利用されているだけ。\n本当は誰にも必要とされていない。\n\0":
-'???',
+'You are only being used.\nThe truth is, nobody needs you.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le302.evs
 #
 # Rei Ayanami 
 "私、自分がわからない。\n\0":
-'I don\'t understand myself.\n\0',
+'I don\'t know who I am.\n\0',
 
 # Rei's Shadow [Leliel]
 "自分という存在に興味が無いのね。\n生きる事を放棄している。\n\0":
-'???',
+'You\'re not interested in your own existence.\nYou\'ve given up on the act of living.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le303.evs
 #
 # Rei Ayanami 
 "私には、果たすべき役割がある。\n\0":
-'???',
+'I have duties that I must carry out.\n\0',
 
 # Rei's Shadow [Leliel]
 "果たし終わったら、残るものは何？\n\0":
-'???',
+'And when you\'ve finished them, what will you have left?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le304.evs
 #
 # Rei Ayanami 
 "ちがう…。\n自分がわからないのは…。\n\0":
-'???',
+'No...\nIt\'s not that I don\'t understand myself...\n\0',
 
 # Rei's Shadow [Leliel]
 "空っぽだから。\n何も無いから見えない。\n理解しようがない。▽\nでもそれは…。\nあなたが目を背けているから。▽\n本当は心の奥底に持っている自分を\n見ないようにしているだけ。\n\0":
-'???',
+'It\'s because you\'re empty.\nThere\'s nothing inside -to- see.\nNo point in understanding it.▽\nBut there\'s a reason...\nYou are averting your eyes.▽\nIn truth, you\'re doing it solely so you don\'t see\nthe you that\'s in the depths of your heart.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le305.evs
 #
 # Rei's Shadow [Leliel]
 "自分が無価値である事に\n気が付きたくないだけ…。\n\0":
-'???',
+'You just don\'t want to realize\nthat you\'re worthless...\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le306.evs
 #
 # Rei Ayanami 
 "また次の役目があるわ。\n私にしかできない事が…。\n\0":
-'???',
+There are still the duties to come.\nThings that only I can do. But...\n\0
 
 # Rei's Shadow [Leliel]
 "そんな形でしか、\nあなたは他人に関われないのね…。\n\0":
-'???',
+'It\'s only with a form like that\nthat you can be affected by others...\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le307.evs
 #
 # Rei Ayanami 
 "果たした役割はデータとして残る。\n\0":
-'???',
+'I will leave behind the duties I\'ve performed as data.\n\0',
 
 # Rei's Shadow [Leliel]
+# Reference to spreadsheets added to make translation less stiff. Too unintentionally funny? -Reichu
 "ただの数値の羅列が残るだけ。\n人の想いに関わる事はできない。\n\0":
-'???',
+'Mere numbers in a spreadsheet.\nYou won\'t linger in anyone\'s thoughts.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le308.evs
 #
 # Rei Ayanami 
 "目的なんて無くても\n生きていけるわ。\n\0":
-'???',
+'I\'m capable of living without\nsomething like a purpose.\n\0',
 
 # Rei's Shadow [Leliel]
 "それでは生きているとは言えない。\n存在しないと同じ。\n\0":
-'???',
+'If so, you can\'t really call that living.\nIt\'s like you don\'t exist.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le309.evs
 #
 # Rei Ayanami 
 "それでいい、それで構わない。\n私が生き、ここにいる。\n\0":
-'???',
+'That\'s fine. I see no problem with that.\nI am alive, and I am here.\n\0',
 
 # Rei's Shadow [Leliel]
 "ただ生きていたいだけなら、\n危険なパイロットを\n辞めなければならない。\n\0":
-'???',
+'If being alive is really all you want,\nyou should stop piloting.\nIt\'s dangerous.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le310.evs
 #
 # Rei Ayanami 
 "でも変わると思う。\nそのために私は戦っている。\nエヴァに乗っている。\n\0":
-'???',
+'But I think I will change.\nThat\'s why I\'m fighting.\nWhy I pilot the Eva.\n\0',
 
 # Rei's Shadow [Leliel]
 "使徒をすべて倒した後の事を\n言っているのね。\nそんな事、あなたにできると思う？\n\0":
-'???',
+'You're talking about after\nall the Angels are defeated.\nYou think you\'re capable of something like that?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le311.evs
@@ -10672,18 +10674,18 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "純粋な興味さ。\nヒトを知らないと、\nヒトに交われないからね。\n\0":
-'???',
+'It\'s genuine curiosity.\nIf I don\'t know anyone,\nI cannot interact with them.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "悪影響を受けているようにしか\n見えない…、いや、他人に\n交わりつつ自分を変える…。▽\nそれは、リリンならではの行為だよ。\n\0":
-'???',
+'Looks to me like you\'re suffering ill effect...\nNo, rather, you yourself change\nas you mingle with others...▽\nThat is characteristic Lilin behavior.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le521.evs
 #
 # Kaworu Nagisa 
 "そうじゃない！\n僕はヒトを知るために、\nヒトと接していただけだ。\n\0":
-'???',
+'That\'s not true!\nI only came in contact with humans\nso that I could know them.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ、そうは見えないよ。▽\nリリンの中は暖かくて、\n気持ちよかったんだろ？\nもう、すべてを忘れてしまうほどに。\n\0":
@@ -10754,7 +10756,7 @@ translate_map = {
 
 # Kyoko Soryu Zeppelin 
 "アスカ…。\nアスカちゃん…。\n\0":
-'Asuka...\n Asuka-chan...\n\0',
+'Asuka...\nAsuka-chan...\n\0',
 
 # Asuka Soryu Langley
 "ママ？\n\0":
@@ -10766,15 +10768,15 @@ translate_map = {
 
 # Asuka Soryu Langley
 "ママ…、ママぁ…。\nどこに行ってたの、ママ。▽\nもう行かないで、そばにいて！\nママ…。\n\0":
-'???',
+'Mama... Mama!\nWhere have you been, Mama?▽\nDon\'t go away again, stay with me!\nMama...\n\0',
 
 # Kyoko Soryu Zeppelin 
 "一緒よ、ずっと…。\nでも、それでいいのね？\n\0":
-'???',
+'I\'m with you, always...\nBut is that alright?\n\0',
 
 # Asuka Soryu Langley
 "うん、いいの。\nママのところがいいの。\nずっとずっと、一緒にいる。\n\0":
-'???',
+'Yes, it\'s fine.\nI\'m okay being with Mama.\nTogether, forever and ever.\n\0',
 
 # Kyoko Soryu Zeppelin 
 "そう…、いいのよ。\nママはずっと一緒にいるわ。▽\nアスカちゃん…。\n\0":
@@ -10782,7 +10784,7 @@ translate_map = {
 
 # Rei Ayanami 
 "もう、何も見えない。\n何も聞こえない…。▽\n思い出すのは、ただ暗闇の中。\n\0":
-'???',
+'I can no longer see anything.\nNor hear anything...▽\nBeing shrouded in darkness, it\'s all I remember.\n\0',
 
 # Rei Ayanami 
 "もう、帰してもらえるかしら。\n無へと…帰してもらえるのかしら。\n\0":
@@ -10790,7 +10792,7 @@ translate_map = {
 
 # Rei Ayanami 
 "この身体も、もう終わり…。▽\n時間ね…。\n\0":
-'???',
+'Even this body is already at its end...▽\nAny time now...\n\0',
 
 # Toji Suzuhara 
 "寒ぅ…。\nもう、プラグの機能も\n限界なんやな…。\n\0":
@@ -10798,11 +10800,11 @@ translate_map = {
 
 # Toji Suzuhara 
 "……………………。▽\n妹、無事なんかな…。▽\nごめんな。\n兄ちゃん、戻られへんわ。\n\0":
-'???',
+'.........▽\nSis,無事なんかな…。▽\nI\'m sorry.\nYour big brother won\'t be coming back.\n\0',
 
 # Toji Suzuhara 
 "おかん…。\nもう、ワシ…。\n\0":
-'???',
+'Mom...\nSo I\'m already...\n\0',
 
 # Toji's Mother
 "しんどかったなぁ、もうええねんで。\n\0":
@@ -10814,14 +10816,14 @@ translate_map = {
 
 # Toji's Mother
 "さあ眠り…、お母ちゃんが\n温めてあげるわ…。\n\0":
-'???',
+'Go on, sleep... And\nMommy will keep you warm...\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le008.evs
 #
 # Shinji Ikari
 "会いたい。▽\nもう、一度。\n\0":
-'???',
+'I want to see them again.▽\nJust one more time.\n\0',
 
 # Kyoko Soryu Zeppelin 
 "あなたを待っている人がいるわ。\n\0":
@@ -10833,15 +10835,15 @@ translate_map = {
 
 # ??? [Lilith]
 "そうはいかないわ。\n\0":
-'???',
+'That\'s not happening.\n\0',
 
 # Rei Ayanami, Shinji Ikari
 "誰…？\n\0":
-'???',
+'Who is it...?\n\0',
 
 # ??? [Lilith]
 "生命の実をこの手に…。\nアダムの民から奪い返すまでは。\n\0":
-'???',
+'Take the Fruit of Life in hand...\nDon\'t stop until you wrest it back from Adam\'s people.\n\0',
 
 # Toji's Mother
 "泣いたらアカンよ…。\nさあ、帰るで…。\n\0":
@@ -12438,130 +12440,130 @@ translate_map = {
 #
 # Misato Katsuragi 
 "初号機、\n$fエリアに移動して！\n\0":
-'Unit-01,\n move to Area $f!\n\0',
+'Unit-01,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "初号機、\n$fエリアに移動！\n\0":
-'Unit-01,\n move to Area $f!\n\0',
+'Unit-01,\nmove to Area $f!\n\0',
 
 # Female Staff
 "初号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-01, please\n move to Area $f!\n\0',
+'Unit-01, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "弐号機、\n$fエリアに移動して！\n\0":
-'Unit-02,\n move to Area $f!\n\0',
+'Unit-02,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機、\n$fエリアに移動！\n\0":
-'Unit-02,\n move to Area $f!\n\0',
+'Unit-02,\nmove to Area $f!\n\0',
 
 # Female Staff
 "弐号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-02, please\n move to Area $f!\n\0',
+'Unit-02, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "零号機、\n$fエリアに移動して！\n\0":
-'Unit-00,\n move to Area $f!\n\0',
+'Unit-00,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "零号機、\n$fエリアに移動！\n\0":
-'Unit-00,\n move to Area $f!\n\0',
+'Unit-00,\nmove to Area $f!\n\0',
 
 # Female Staff
 "零号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-00, please\n move to Area $f!\n\0',
+'Unit-00, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "参号機、\n$fエリアに移動して！\n\0":
-'Unit-03,\n move to Area $f!\n\0',
+'Unit-03,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "参号機、\n$fエリアに移動！\n\0":
-'Unit-03,\n move to Area $f!\n\0',
+'Unit-03,\nmove to Area $f!\n\0',
 
 # Female Staff
 "参号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-03, please\n move to Area $f!\n\0',
+'Unit-03, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "四号機、\n$fエリアに移動して！\n\0":
-'Unit-04,\n move to Area $f!\n\0',
+'Unit-04,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "四号機、\n$fエリアに移動！\n\0":
-'Unit-04,\n move to Area $f!\n\0',
+'Unit-04,\nmove to Area $f!\n\0',
 
 # Female Staff
 "四号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-04, please\n move to Area $f!\n\0',
+'Unit-04, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、\n$fエリアに移動して！\n\0":
-'Both Evas,\n move to Area $f!\n\0',
+'Both Evas,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "エヴァ両機、\n$fエリアに移動！\n\0":
-'Both Evas,\n move to Area $f!',
+'Both Evas,\nmove to Area $f!',
 
 # Female Staff
 "エヴァ両機、$fエリアに\n移動して下さい！\n\0":
-'Both Evas, please\n move to Area $f!\n\0',
+'Both Evas, please\nmove to Area $f!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba009.evs
 #
 # Makoto Hyuga, Male Staff
 "エヴァ初号機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Eva Unit-01\'s attack did\n $j damage to the Angel!\n\0',
+'Eva Unit-01\'s attack did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ弐号機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Eva Unit-02\'s attack did\n $j damage to the Angel!\n\0',
+'Eva Unit-02\'s attack did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ零号機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Eva Unit-00\'s attack did\n $j damage to the Angel!\n\0',
+'Eva Unit-00\'s attack did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ参号機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Eva Unit-03\'s attack did\n $j damage to the Angel!\n\0',
+'Eva Unit-03\'s attack did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ四号機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Eva Unit-04\'s attack did\n $j damage to the Angel!\n\0',
+'Eva Unit-04\'s attack did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ両機の攻撃、\n使徒に$jのダメージ！\n\0":
-'Both Evas\' attacks did\n $j damage to the Angel!\n\0',
+'Both Evas\' attacks did\n$j damage to the Angel!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、初号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to the Unit-01!\n\0',
+'The Angel\'s attack did\n$j damage to the Unit-01!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、弐号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to the Unit-02!\n\0',
+'The Angel\'s attack did\n$j damage to the Unit-02!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、零号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to the Unit-00!\n\0',
+'The Angel\'s attack did\n$j damage to the Unit-00!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、参号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to the Unit-03!\n\0',
+'The Angel\'s attack did\n$j damage to the Unit-03!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、四号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to the Unit-04!\n\0',
+'The Angel\'s attack did\n$j damage to the Unit-04!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、エヴァ両機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n $j damage to both Evas!\n\0',
+'The Angel\'s attack did\n$j damage to both Evas!\n\0',
 
 # Makoto Hyuga, Male Staff
 "ΑΤフィールドとシンクロ率、\n共に低下！\n\0":
-'A.T. Field and synch ratio\n both dropped!\n\0',
+'A.T. Field and synch ratio\nare both down!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba011.evs
@@ -12575,49 +12577,49 @@ translate_map = {
 #
 # Shigeru Aoba, Male Staff
 "$fエリア電源ビル、\n使徒の攻撃により、$jのダメージ！\n\0":
-'The power building in Area $f\n received $j damage from the Angel!\n\0',
+'The power building in Area $f\nreceived $j damage from the Angel!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア武器庫ビル、\n使徒の攻撃により、$jのダメージ！\n\0":
-'The armory building in Area $f\n received $j damage from the Angel!\n\0',
+'The armory building in Area $f\nreceived $j damage from the Angel!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア兵装ビル、\n使徒の攻撃により、$jのダメージ！\n\0":
-'The armament building in Area $f\n received $j damage from the Angel!\n\0',
+'The armament building in Area $f\nreceived $j damage from the Angel!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア防御施設、\n使徒の攻撃により、$jのダメージ！\n\0":
-'The defense facility in Area $f\n received $j damage from the Angel!\n\0',
+'The defense facility in Area $f\nreceived $j damage from the Angel!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba013.evs
 #
 # Shigeru Aoba, Male Staff
 "$fエリア、国連軍、攻撃！\n使徒、$jのダメージ！\n\0":
-'Attack by U.N. forces in Area $f!\n $j damage to the Angel!\n\0',
+'Attack by U.N. forces in Area $f!\n$j damage to the Angel!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア、国連軍、\n使徒の攻撃により、$jのダメージ！\n\0":
-'U.N. forces in Area $f\n received $j damage from the Angel!\n\0',
+'U.N. forces in Area $f\nreceived $j damage from the Angel!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba015.evs
 #
 # Shigeru Aoba, Male Staff
 "$fエリア電源ビル、\n破壊されました！\n\0":
-'The power building in Area $f\n has been destroyed!\n\0',
+'The power building in Area $f\nhas been destroyed!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア武器庫ビル、\n破壊されました！\n\0":
-'The armory building in Area $f\n has been destroyed!\n\0',
+'The armory building in Area $f\nhas been destroyed!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア兵装ビル、\n破壊されました！\n\0":
-'The armament building in Area $f\n has been destroyed!\n\0',
+'The armament building in Area $f\nhas been destroyed!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア防御施設、\n破壊されました！\n\0":
-'The defense facility in Area $f\n has been destroyed!\n\0',
+'The defense facility in Area $f\nhas been destroyed!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba016.evs
@@ -12631,51 +12633,51 @@ translate_map = {
 #
 # Maya Ibuki, Female Staff
 "エヴァ初号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-01\'s umbilical cable\n is disconnected!\n\0',
+'Eva Unit-01\'s umbilical cable\nis disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ弐号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-02\'s umbilical cable\n is disconnected!\n\0',
+'Eva Unit-02\'s umbilical cable\nis disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ零号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-00\'s umbilical cable\n is disconnected!\n\0',
+'Eva Unit-00\'s umbilical cable\nis disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ参号機のアンビリカルケーブル、\n切断しました！\n\0":
-'???',
+'Eva Unit-03\'s umbilical cable\nis disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ四号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-04\'s umbilical cable\n is disconnected!\n\0',
+'Eva Unit-04\'s umbilical cable\nis disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ両機のアンビリカルケーブル、\n切断しました！\n\0":
-'Both Evas\' umbilical cables\n are disconnected!\n\0',
+'Both Evas\' umbilical cables\nare disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ初号機、\nアンビリカルケーブル接続。\n\0":
-'Eva Unit-01, umbilical cable connected.\n\0',
+'Eva Unit-01,\numbilical cable connected.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ弐号機、\nアンビリカルケーブル接続。\n\0":
-'Eva Unit-02, umbilical cable connected.\n\0',
+'Eva Unit-02,\numbilical cable connected.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ零号機、\nアンビリカルケーブル接続。\n\0":
-'Eva Unit-00, umbilical cable connected.\n\0',
+'Eva Unit-00,\numbilical cable connected.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ参号機、\nアンビリカルケーブル接続。\n\0":
-'Eva Unit-03, umbilical cable connected.\n\0',
+'Eva Unit-03,\numbilical cable connected.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ四号機、\nアンビリカルケーブル接続。\n\0":
-'Eva Unit-04, umbilical cable connected.\n\0',
+'Eva Unit-04,\numbilical cable connected.\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ両機、\nアンビリカルケーブル接続。\n\0":
-'Both Evas, umbilical cables connected.\n\0',
+'Both Evas,\numbilical cables connected.\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba021.evs
@@ -12689,43 +12691,43 @@ translate_map = {
 # 
 # Maya Ibuki 
 "エヴァ初号機、\nポジトロンスナイパーライフル発射！\n\0":
-'Eva Unit-01 has discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-01 has discharged\nthe positron sniper rifle!\n\0',
 
 # Male Staff
 "エヴァ初号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
-'Eva Unit-01 successfully discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-01 successfully discharged\nthe positron sniper rifle!\n\0',
 
 # Maya Ibuki 
 "エヴァ弐号機、\nポジトロンスナイパーライフル発射！\n\0":
-'Eva Unit-02 has discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-02 has discharged\nthe positron sniper rifle!\n\0',
 
 # Male Staff
 "エヴァ弐号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
-'Eva Unit-02 successfully discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-02 successfully discharged\nthe positron sniper rifle!\n\0',
 
 # Maya Ibuki 
 "エヴァ零号機、\nポジトロンスナイパーライフル発射！\n\0":
-'Eva Unit-00 has discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-00 has discharged\nthe positron sniper rifle!\n\0',
 
 # Male Staff
 "エヴァ零号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
-'Eva Unit-00 successfully discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-00 successfully discharged\nthe positron sniper rifle!\n\0',
 
 # Maya Ibuki 
 "エヴァ参号機、\nポジトロンスナイパーライフル発射！\n\0":
-'Eva Unit-03 has discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-03 has discharged\nthe positron sniper rifle!\n\0',
 
 # Male Staff
 "エヴァ参号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
-'Eva Unit-03 successfully discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-03 successfully discharged\nthe positron sniper rifle!\n\0',
 
 # Maya Ibuki 
 "エヴァ四号機、\nポジトロンスナイパーライフル発射！\n\0":
-'Eva Unit-04 has discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-04 has discharged\nthe positron sniper rifle!\n\0',
 
 # Male Staff
 "エヴァ四号機、ポジトロンスナイパー\nライフルの発射に成功しました！\n\0":
-'Eva Unit-04 successfully discharged\n the positron sniper rifle!\n\0',
+'Eva Unit-04 successfully discharged\nthe positron sniper rifle!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba030.evs
@@ -12775,84 +12777,84 @@ translate_map = {
 # 
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n$jのダメージ！\n\0":
-'Armory building has attacked!\n It did $j damage!\n\0',
+'Armory building has attacked!\nIt did $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba034.evs
 # 
 # Shigeru Aoba, Male Staff
 "電源ビル、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
-'Power building has been\n destroyed by the Eva Series!\n\0',
+'Power building has been\ndestroyed by the Eva Series!\n\0',
 
 # Shigeru Aoba, Male Staff
 "武器庫ビル、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
-'Armory building has been\n destroyed by the Eva Series!\n\0',
+'Armory building has been\ndestroyed by the Eva Series!\n\0',
 
 # Shigeru Aoba, Male Staff
 "兵装ビル、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
-'Armament building has been\n destroyed by the Eva Series!\n\0',
+'Armament building has been\ndestroyed by the Eva Series!\n\0',
 
 # Shigeru Aoba, Male Staff
 "防御施設、エヴァシリーズの\n攻撃により、破壊されました！\n\0":
-'Defense facility has been\n destroyed by the Eva Series!\n\0',
+'Defense facility has been\ndestroyed by the Eva Series!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba035.evs
 # 
 # Makoto Hyuga, Male Staff
 "ΘΑ改、攻撃！\n$jのダメージ！\n\0":
-'ΘΑ2 has attacked!\n It did $j damage!\n\0',
+'ΘΑ2 has attacked!\nIt did $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba036.evs
 # 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\nΘΑ改に$jのダメージ！\n\0":
-'Attack by Eva Series unit\n did $j damage to ΘΑ2!\n\0',
+'Attack by Eva Series unit\ndid $j damage to ΘΑ2!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba037.evs
 # 
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n使徒に$jのダメージ！\n\0":
-'Armament building attacked!\n $j damage to the Angel!\n\0',
+'Armament building attacked!\n$j damage to the Angel!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba038.evs
 # 
 # Shigeru Aoba, Male Staff
 "電源ビル、\n$jのダメージ！\n\0":
-'Power building has\n taken $j damage!\n\0',
+'Power building has\ntaken $j damage!\n\0',
 
 # Shigeru Aoba, Male Staff
 "武器庫ビル、\n$jのダメージ！\n\0":
-'Armory building has\n taken $j damage!\n\0',
+'Armory building has\ntaken $j damage!\n\0',
 
 # Shigeru Aoba, Male Staff
 "兵装ビル、\n$jのダメージ！\n\0":
-'Armament building has\n taken $j damage!\n\0',
+'Armament building has\ntaken $j damage!\n\0',
 
 # Shigeru Aoba, Male Staff
 "防御施設、\n$jのダメージ！\n\0":
-'Defense facility has\n taken $j damage!\n\0',
+'Defense facility has\ntaken $j damage!\n\0',
 
 # Shigeru Aoba, Male Staff
 "ネルフ本部、\n$jのダメージ！\n\0":
-'Nerv H.Q. has\n taken $j damage!\n\0',
+'Nerv H.Q. has\ntaken $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba039.evs
 # 
 # Shigeru Aoba, Male Staff
 "国連軍、攻撃！\n使徒、$jのダメージ！\n\0":
-'Attack by U.N. forces!\n $j damage to the Angel!\n\0',
+'Attack by U.N. forces!\n$j damage to the Angel!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba040.evs
 # 
 # Shigeru Aoba, Male Staff
 "国連軍、\n$jのダメージ！\n\0":
-'U.N. forces have\n taken $j damage!\n\0',
+'U.N. forces have\ntaken $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba041.evs
@@ -12878,7 +12880,7 @@ translate_map = {
 # 
 # Shigeru Aoba, Male Staff
 "国連軍、\n掃滅しました！\n\0":
-'U.N. forces have\n been annihilated!\n\0',
+'U.N. forces have\nbeen annihilated!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba043.evs
