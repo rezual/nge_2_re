@@ -8112,7 +8112,7 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [Note] Check verb tenses for accuracy. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
-'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nYet it's a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
+'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nYet it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs

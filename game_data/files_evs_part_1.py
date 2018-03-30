@@ -10049,7 +10049,7 @@ translate_map = {
 #
 # Rei Ayanami 
 "また次の役目があるわ。\n私にしかできない事が…。\n\0":
-There are still the duties to come.\nThings that only I can do. But...\n\0
+'There are still the duties to come.\nThings that only I can do. But...\n\0',
 
 # Rei's Shadow [Leliel]
 "そんな形でしか、\nあなたは他人に関われないのね…。\n\0":
@@ -10098,7 +10098,7 @@ There are still the duties to come.\nThings that only I can do. But...\n\0
 
 # Rei's Shadow [Leliel]
 "使徒をすべて倒した後の事を\n言っているのね。\nそんな事、あなたにできると思う？\n\0":
-'You're talking about after\nall the Angels are defeated.\nYou think you\'re capable of something like that?\n\0',
+'You\'re talking about after\nall the Angels are defeated.\nYou think you\'re capable of something like that?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le311.evs

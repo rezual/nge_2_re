@@ -2060,8 +2060,9 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001C41D8: Data(DataType.String, 28, '???', "抱き付き放題になりました。\0"),
     0x001C41F4: Data(DataType.String, 16, '???', "誰に対する？\0"),
     0x001C4204: Data(DataType.String, 24, '???', "誰の心に入りますか？\0"),
+    0x001C421C: Data(DataType.String, 56, '???', "%s\n\nＰＣ能動者：%6d\nＰＣ受動者：%6d\nＮＰＣ同士：%6d\n\0"),
     0x001C45A8: Data(DataType.String, 64, 'As a result of Dr. Akagi\'s research,\nthe dummy plug was successfully developed.\0', "赤木博士の研究成果により、\nダミープラグの開発に成功しました。\0"),
-    0x001C45E8: Data(DataType.String, 68, 'As a result of Dr. Akagi\'s research,\nthe Evas\' operation time was\nsuccessfully extended.\0', "赤木博士の研究成果により、\nエヴァ稼動時間の延長に\n成功しました。\0"), 移動　
+    0x001C45E8: Data(DataType.String, 68, 'As a result of Dr. Akagi\'s research,\nthe Evas\' operation time was\nsuccessfully extended.\0', "赤木博士の研究成果により、\nエヴァ稼動時間の延長に\n成功しました。\0"),
     0x001C462C: Data(DataType.String, 68, 'As a result of Dr. Akagi\'s research,\nA.T. Field morphing was\nsuccessfully tested.\0', "赤木博士の研究成果により、\nΑΤフィールド変形試験に\n成功しました。\0"),
     0x001C4670: Data(DataType.String, 68, 'As a result of Dr. Akagi\'s research,\nA.T. Field amplification was\nsuccessfully tested.\0', "赤木博士の研究成果により、\nΑΤフィールド増幅試験に\n成功しました。\0"),
     0x001C46B4: Data(DataType.String, 16, '(Unknown Map)\0', "（不明マップ）\0"),
