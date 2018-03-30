@@ -1,8 +1,9 @@
 (...) means a gap in the values that will be filled in later.
+_ Used to indicate a sub-range. (So, e.g., 0x001BFA70 to 0x001BFA9C is found within 0x001BE9A0 to 0x001C00CC.)
 
 0x001B1540 		 Yes No (for scenario selection screen?)
-0x001B1880 to 0x001B1D9C Scenario descriptions
-0x001B1E98 to 0x001B205C Scenario titles
+0x001B1880 to 0x001B1D9C Scenario descriptions.
+0x001B1E98 to 0x001B205C Scenario titles.
 0x001B236C to 0x001B24D0 Location names. Unsure of function, as they seem more specific than how things are labeled in actual game. For programmers' use? 
 0x001B24DC to 0x001B250C Unknown
 0x001B2518 to 0x001B2540 Map screen stuff?
@@ -10,7 +11,7 @@
 0x001B2B84 to 0x001B2F34 Probably for the end-of-chapter battle reports narrated by Misato. 
 0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Will need to know exact context in order to translate properly; can only put in a rough approximation for now.
 0x001B3254 to 0x001B3260 Debug on / off
-0x001B326C 		 No idea. (Fire and fighting spirit? Wha?)
+0x001B326C 		 Unknown. (Fire and fighting spirit? Wha?)
 0x001B328C to 0x001B330C Character names. Basic forms. Used for character relationship graphs? 
 0x001B334C to 0x001B3544 Labels for friendly units, hostile units, facilities, etc., in the battle mode? 
 0x001B3810 to 0x001B390C Character names. The label that pops up when you approach someone in the open world?
@@ -48,7 +49,8 @@ _ 0x001BF918 Talk to random Nerv staff? (Not one of the named characters.)
 _ 0x001BF930 to 0x001BF978 First presumably initiates the PC into a school lesson. Next five are actions available during said lesson. (Pay attention, fuck around, etc.)
 _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/work, or to accept an NPC's invitation to go to school/work.
 (...)
-0x001C46C4 to 0x001C4D68 Map screen selections. In-game, Δ becomes a right-pointing white triangle.
+0x001C46C4 to 0x001C496C Map screen selections. In-game, Δ becomes a right-pointing white triangle.
+0x001C4D68　Command to leave Misato's apartment
 (...)
 0x001C8448 to 0x001C84A8 Probably labels for the nine main types of character portraits.
 0x001C84B4 to 0x001C8514 As a corollary of the above: labels for special types of character portraits.
@@ -56,6 +58,17 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 0x001C8828 Message displays when someone is at the door.
 (...)
 0x001C920C to 0x001C9350 Characters being addressed in different ways. Plugged into certain kinds of dialogue [what dialogue? where??] depending on who's talking and being talked to.
+(...)
+0x001C9784 to 0x001C9BFC Probably for the feature where you can call Section 2 and have them tell you someone's current location.
+0x001CA3E8 to 0x001CA43C In-game system messages.
+0x001CA468 to 0x001CA490 For Pen Pen's scenario?
+0x001CA4A8 to 0x001CA4E4 System messages, not sure what for.
+0x001CA580 to 0x001CA5BC Meals available at the Nerv Cafeteria.
+(...) 
+0x001CC12C to 0x001D1274 Sentence fragments used to piece together possible "things that happened" (see 0x001D1368). For additional documentation on this, see Item C in this post: http://forum.evageeks.org/post/875590/GAME-Neon-Genesis-Evangelion-2-Another-Cases/#875590
+0x001D127C to 0x001D12B8 Options to bring up additional lists of "things that happened" to tell an NPC. もう一度考え直す brings you back to the original list.
+0x001D12DC to 0x001D133C Come back to these later... -Reichu
+0x001D135C to 0x001D1364 For "things that happened" (0x001D1368).
 (...)
 0x001D0C4C "Illegal Map Name" - unknown
 (...)
@@ -71,4 +84,4 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 0x001D720C to 0x001D7214 ???
 0x001D72A4 Last part of J.A. instructions.
 (...)
-0x001D77D8 to 0x001D8120 Dialogue choices for Leliel "battle". Starts with Shinji; ends with Kaworu.
+0x001D77D8 to 0x001D8120 Dialogue choices for Leliel "battle". Order is: Shinji, Asuka, Rei, Toji, Kaworu.
