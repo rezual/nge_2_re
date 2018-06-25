@@ -1,23 +1,24 @@
 (...) means a gap in the values that will be filled in later.
+_ Used to indicate a sub-range. (So, e.g., 0x001BFA70 to 0x001BFA9C is found within 0x001BE9A0 to 0x001C00CC.)
 
 0x001B1540 		 Yes No (for scenario selection screen?)
-0x001B1880 to 0x001B1D9C Scenario descriptions
-0x001B1E98 to 0x001B205C Scenario titles
+0x001B1880 to 0x001B1D9C Scenario descriptions.
+0x001B1E98 to 0x001B205C Scenario titles.
 0x001B236C to 0x001B24D0 Location names. Unsure of function, as they seem more specific than how things are labeled in actual game. For programmers' use? 
 0x001B24DC to 0x001B250C Unknown
 0x001B2518 to 0x001B2540 Map screen stuff?
 0x001B2548 to 0x001B2598 Unknown
-0x001B2B84 to 0x001B2F34 Probably for the end-of-chapter battle reports narrated by Misato. 
-0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Will need to know exact context in order to translate properly; can only put in a rough approximation for now.
+0x001B2B84 to 0x001B2F34 Possibly for the end-of-chapter battle reports narrated by Misato. 
+0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Need to find exact context in-game so these can be translated properly. Rough approximations will suffice for now.
 0x001B3254 to 0x001B3260 Debug on / off
-0x001B326C 		 No idea. (Fire and fighting spirit? Wha?)
+0x001B326C 		 Unknown. (Fire and fighting spirit? Wha?)
 0x001B328C to 0x001B330C Character names. Basic forms. Used for character relationship graphs? 
 0x001B334C to 0x001B3544 Labels for friendly units, hostile units, facilities, etc., in the battle mode? 
 0x001B3810 to 0x001B390C Character names. The label that pops up when you approach someone in the open world?
 0x001B391C to 0x001B3E40 Designate the speaker of dialogue in cut scenes.
 0x001B3E7C to 0x001B64D0 Item menu; item names; item descriptions; text that appears when item is used.
-0x001B64F0 to 0x001B6688 Runs through basic character names, Evas, and Angels, plus something called Theta-Alpha(??). Not sure what these are for.
-0x001B6690 to 0x001B6AB0 Characters/Evas/Angels being addressed in different ways. Plugged into certain kinds of dialogue depending on who's talking and being talked to.
+0x001B64F0 to 0x001B6688 Runs through basic character names, Evas, Angels, and J.A. Used in-game somewhere.
+0x001B6690 to 0x001B6AB0 Characters/Evas/Angels being addressed in different ways. Plugged into certain kinds of dialogue [what dialogue? where??] depending on who's talking and being talked to.
 0x001B6ABC to 0x001B6AF0 Possible levels of damage to Tokyo-3. Used for "Battle Results". 
 0x001B6B00               Question marks. 
 0x001B6B08 to 0x001B6B7C Seem to be variables for individual characters' in-game "availability". (Ex.: Have they shown up in your playthrough yet? Are they in the hospital? Were they killed in battle? Assassinated for asking too many questions?) 
@@ -28,7 +29,7 @@
 0x001B8FA0 to 0x001B907C Settings menu.
 0x001B9554 		 無効 means "invalid" in computing. Dunno if it's being used that way here and back at 0x001B6B24.
 0x001B955C to 0x001B9648 Status screen, used to describe a character's current "Emotion". 
-0x001B9728 to 0x001BA6CC Big mess of battle stuff. A bunch looks like labels and descriptions for when Misato is managing the Evas before battle. Some of these I recognize as battle commands not present in section_data. There's some dialogue for special Shinji and Asuka events. All of the attacks for the Angels and JA2 are listed as well, even though AFAIK they can never be played-controlled, nor do I remember them ever being announced by name in-game. The section that includes these might have been used by the programmers to keep track of the battle animations?z
+0x001B9728 to 0x001BA6CC Big mess of battle stuff. A bunch looks like labels and descriptions for when Misato is managing the Evas before battle. Some of these I recognize as battle commands not present in section_data. There's some dialogue for special Shinji and Asuka events. All of the attacks for the Angels and JA2 are listed as well, even though AFAIK they can never be played-controlled, nor do I remember them ever being announced by name in-game. The section that includes these might have been used by the programmers to keep track of the battle animations?
 0x001BA6E4 to 0x001BA6F8 Unknown. (Hop, Step, Jump??)
 0x001BA704 to 0x001BB6B8 Related to save screen, maybe.
 0x001BB720 to 0x001BB7A0 List of the sixteen playable characters.
@@ -48,7 +49,8 @@ _ 0x001BF918 Talk to random Nerv staff? (Not one of the named characters.)
 _ 0x001BF930 to 0x001BF978 First presumably initiates the PC into a school lesson. Next five are actions available during said lesson. (Pay attention, fuck around, etc.)
 _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/work, or to accept an NPC's invitation to go to school/work.
 (...)
-0x001C46C4 to 0x001C4D68 Map screen selections. In-game, Δ becomes a right-pointing white triangle.
+0x001C46C4 to 0x001C496C Map screen selections. In-game, Δ becomes a right-pointing white triangle.
+0x001C4D68　Command to leave Misato's apartment
 (...)
 0x001C8448 to 0x001C84A8 Probably labels for the nine main types of character portraits.
 0x001C84B4 to 0x001C8514 As a corollary of the above: labels for special types of character portraits.
@@ -57,9 +59,19 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 (...)
 0x001C920C to 0x001C9350 Characters being addressed in different ways. Plugged into certain kinds of dialogue [what dialogue? where??] depending on who's talking and being talked to.
 (...)
-0x001D0C4C "Illegal Map Name" - unknown
-(...)
-0x001D12DC to 0x001D1368 Supplemental blurbs that pop up during certain character interactions. Couple in here that point to multiple modifiers. Will add more as I see how they're used in the game. -Reichu
+0x001C9784 to 0x001C9BFC Probably for the feature where you can call Section 2 and have them tell you someone's current location.
+0x001CA3E8 to 0x001CA43C In-game system messages.
+0x001CA468 to 0x001CA490 For Pen Pen's scenario?
+0x001CA4A8 to 0x001CA4E4 System messages, not sure what for.
+0x001CA580 to 0x001CA5BC Meals available at the Nerv Cafeteria.
+(...) 
+0x001CC12C to 0x001D1274 Sentence fragments used to piece together possible "things that happened" (see 0x001D1368). For additional documentation on this, see Item C in this post: http://forum.evageeks.org/post/875590/GAME-Neon-Genesis-Evangelion-2-Another-Cases/#875590
+_ 0x001D0C4C to 0x001D1188: Specify the place where something happened. Some of these refer to parameters not used in-game (such as "Illegal Map Name").
+0x001D127C to 0x001D12B8 Options to bring up additional lists of "things that happened" to tell an NPC. もう一度考え直す brings you back to the original list.
+0x001D12DC to 0x001D133C Come back to these later... -Reichu
+0x001D135C to 0x001D1364 Particles following character names, used for "things that happened" (0x001D1368).
+0x001D1368 Assembly template for "things that happened". 
+0x001D13A4 to 0x001D13B8 Latter two used for 0x001D1368; presumably first two are, as well.
 (...)
 0x001D41A4 to 0x001D4530 Shinji's dialogue/actions for Tabris & Eva-02 battle
 (...)
@@ -71,4 +83,4 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 0x001D720C to 0x001D7214 ???
 0x001D72A4 Last part of J.A. instructions.
 (...)
-0x001D77D8 to 0x001D8120 Dialogue choices for Leliel "battle". Starts with Shinji; ends with Kaworu.
+0x001D77D8 to 0x001D8120 Dialogue choices for Leliel "battle". Order is: Shinji, Asuka, Rei, Toji, Kaworu.
