@@ -98,6 +98,8 @@
 	- Parse .bin files with a magic header of TEXT or BIND
 - game_data/wave.py
 	- Pack/Unpack .bin files in the umd0:/PSP_GAME/USRDIR/voice/ folder
+	- You will need an atrac3plus codec to listen to the unpacked .wav files
+		- ffmpeg -i ?.wav ?.mp3 works
 
 ###### Misc. Cheats:
 These are the cheats made in the course of this project:
