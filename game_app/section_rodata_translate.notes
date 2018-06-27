@@ -8,7 +8,7 @@ _ Used to indicate a sub-range. (So, e.g., 0x001BFA70 to 0x001BFA9C is found wit
 0x001B24DC to 0x001B250C Unknown
 0x001B2518 to 0x001B2540 Map screen stuff?
 0x001B2548 to 0x001B2598 Unknown
-0x001B2B84 to 0x001B2F34 Possibly for the end-of-chapter battle reports narrated by Misato. 
+0x001B2B84 to 0x001B2F34 Non-gameplay text. Each one seems to correspond to a specific gameplay variable during battle mode.
 0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Need to find exact context in-game so these can be translated properly. Rough approximations will suffice for now.
 0x001B3254 to 0x001B3260 Debug on / off
 0x001B326C 		 Unknown. (Fire and fighting spirit? Wha?)
@@ -55,6 +55,7 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 0x001C8448 to 0x001C84A8 Probably labels for the nine main types of character portraits.
 0x001C84B4 to 0x001C8514 As a corollary of the above: labels for special types of character portraits.
 (...)
+0x001C880C Message pops up when another character is looking at you (as by using command 'Look at PsvChr').
 0x001C8828 Message displays when someone is at the door.
 (...)
 0x001C920C to 0x001C9350 Characters being addressed in different ways. Plugged into certain kinds of dialogue [what dialogue? where??] depending on who's talking and being talked to.
