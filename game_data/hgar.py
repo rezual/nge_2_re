@@ -179,11 +179,16 @@ class HGArchive(object):
 			
 			print ''
 		
-	def replace(self, file_to_replace, file_content):
+	def replace(self, file_to_replace, file_content, is_compressed=None):
 		for file in self.files:
 			if file.get_viable_name() == file_to_replace:
 				file.content = file_content
 				file.size = len(file_content)
+
+				if is_compressed is False:
+					# Toggle off the compression flag
+					file.encoded_identifier &= 0x7FFFFFFF
+
 				return
 
 		raise Exception('Could not replace "%s", not found in archive!' % file_to_replace)
@@ -325,6 +330,7 @@ if __name__ == '__main__':
 		print 'hgar.py --extract <archive.har>'
 		print 'hgar.py --decompress <archive.har>'
 		print 'hgar.py --replace <archive.har> <file_to_replace> <file_to_inject>'
+		print 'hgar.py --replace-raw <archive.har> <file_to_replace> <file_to_inject>'
 		sys.exit(0)
 
 	action = sys.argv[1]
@@ -375,6 +381,35 @@ if __name__ == '__main__':
 			print 'Error: %s' % e
 			sys.exit(-1)
 
+	elif action in ('-rr', '--replace-raw'):
+
+		if len(sys.argv) < 5:
+			print 'hgar.py --replace-raw <archive.har> <file_to_replace> <file_to_inject>'
+			sys.exit(0)
+
+		file_to_replace = sys.argv[3]
+		file_to_inject = sys.argv[4]
+
+		try:
+			print 'Opening %s:' % input_path
+
+			hgar = HGArchive()
+			hgar.open(input_path)
+
+			print '\tLoading %s' % file_to_inject
+			file_content = ''
+			with open(file_to_inject, 'rb') as f:
+				file_content = f.read()
+			
+			print '\tReplacing %s' % file_to_replace
+			hgar.replace(file_to_replace, file_content, is_compressed=False)
+
+			hgar.save(input_path + '_REPLACE')
+
+		except Exception, e:
+			print 'Error: %s' % e
+			sys.exit(-1)
+
 	elif action in ('-e', '--extract'):
 		try:
 			print 'Opening %s:' % input_path
@@ -400,8 +435,8 @@ if __name__ == '__main__':
 	elif action in ('-d', '--decompress'):
 		# Import the zipped module only if decompressing
 		# to save on load time for other use cases
-		from zipped import Zipped
-		zipped = Zipped()
+		from zipped import ZipWrapper
+		zip_wrapper = ZipWrapper()
 
 		try:
 			print 'Opening %s:' % input_path
@@ -422,7 +457,7 @@ if __name__ == '__main__':
 
 				# Decompress as well?
 				if file.is_compressed:
-					zipped.decompress(output_path + file.get_viable_name())
+					zip_wrapper.decompress(output_path + file.get_viable_name())
 
 		except Exception, e:
 			print 'Error: %s' % e
