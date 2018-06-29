@@ -140,6 +140,17 @@ class WordPlay(object):
 		return WordPlay.sanitize_word((word_value << (32 - rotate_amount)) | (word_value >> rotate_amount))
 
 	@staticmethod
+	def count_leading_zeroes(word_value):
+		mask = (1 << 31)
+		counter = 0
+		while mask:
+			if (word_value & mask):
+				return counter
+			mask >>= 1
+			counter += 1
+		return 32
+
+	@staticmethod
 	def as_signed(word_value):
 		if word_value & 0x80000000:
 			return -(WordPlay.not_word(word_value) + 1)
@@ -259,6 +270,9 @@ class CPUIntegerRegister(object):
 
 	def rotate_right(self, rotate_amount):
 		return WordPlay.rotate_right(self.value, rotate_amount)
+
+	def count_leading_zeroes(self):
+		return WordPlay.count_leading_zeroes(self.value)
 
 class CPUZeroRegister(CPUIntegerRegister):
 	def __init__(self, name):
@@ -502,7 +516,7 @@ class CPU(object):
 			self._opcode_look_up_table[field_opcode](field_rs, field_rt, field_rd, field_shamt, field_funct, field_imm)
 
 		except (UnknownOpcodeException, TypeError, IndexError):
-			raise Exception('Unknwon opcode at 0x%s:\n\tOpcode: %s\n\tRs: %s\n\tRt: %s\n\tRd: %s\n\tShift Amount: %s\n\tFunct: %s' % (
+			raise Exception('Unknown opcode at 0x%s:\n\tOpcode: %s\n\tRs: %s\n\tRt: %s\n\tRd: %s\n\tShift Amount: %s\n\tFunct: %s' % (
 					format(current_fetch_address, '08X'), 
 					field_opcode,
 					field_rs,
@@ -595,12 +609,7 @@ class CPU(object):
 	def opcode_00_funct_16(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
 		# clz: 000000 sssss 00000 ddddd 00000 010110
 		if field_shamt == 0x00 and field_rt == 0x00:
-			temp = 32
-			for i in xrange(31, -1, -1):
-				if (self.regs.gp[field_rs].get() >> i) & 1 == 1:
-					temp = 31 - i
-					break
-			self.regs.gp[field_rd].set(temp)
+			self.regs.gp[field_rd].set(self.regs.gp[field_rs].count_leading_zeroes())
 
 		else:
 			raise UnknownOpcodeException()
@@ -640,7 +649,7 @@ class CPU(object):
 	def opcode_00_funct_27(self, field_rs, field_rt, field_rd, field_shamt, field_imm):
 		# not: 000000 sssss 00000 ddddd 00000 100111
 		if field_shamt == 0x00:
-			self.regs.gp[field_rd].set(self.regs.gp[field_rs].not_word())
+			self.regs.gp[field_rd].set(WordPlay.not_word(self.regs.gp[field_rs].get()))
 
 		else:
 			raise UnknownOpcodeException()
@@ -847,8 +856,8 @@ class CPU(object):
 
 		byte_counter = 0
 		while unaligned_source_address >= word_aligned_end_address:
-			byte_read = self.memory.get_byte(unaligned_source_address, 0x00)
-			self.regs.gp[field_rt].set((self.regs.gp[field_rt].get() & not_word(0xFF << (8 * byte_counter))) | (byte_read << (8 * byte_counter)))
+			byte_read = self.memory.get_byte(unaligned_source_address)
+			self.regs.gp[field_rt].set((self.regs.gp[field_rt].get() & WordPlay.not_word(0xFF << (8 * byte_counter))) | (byte_read << (8 * byte_counter)))
 			unaligned_source_address -= 1
 			byte_counter += 1
 
