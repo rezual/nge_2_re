@@ -13,6 +13,7 @@
 
 import os
 import struct
+import json
 import png
 import common
 
@@ -84,7 +85,19 @@ class PictureWrapper(object):
 	def __init__(self):
 		self.pp_header = 0x000005050
 		self.ppd_header = 0x000445050
-		self.ppc_header = None
+		self.ppc_header = 0x000435050
+
+		self.pp_offset = 0x0
+		self.pp_format = 0x0
+
+		self.ppd_format = 0x0
+
+		self.ppd_size = 0
+		self.calculated_ppd_size = 0
+
+		self.division_size = 0
+		self.calculated_division_size_with_8 = 0
+		self.calculated_division_size_with_16 = 0
 
 		self.unknown_one = 0x0001
 		self.unknown_two = None     # 00 00 00 00 in zero-division pictures; ff ff ff ff in pics with multiple divisions
@@ -105,12 +118,19 @@ class PictureWrapper(object):
 		self.unknown_eleven = 0x00000000  # Only on paletted PSP pictures
 		self.unknown_twelve = 0x00000000  # Only on paletted PSP pictures
 
+		self.warnings = []
+
 		self.width = 0
 		self.height = 0
 		self.palette = []
 		self.division_name = '\0' * 8
 		self.divisions = []
 		self.content = []
+
+	def warn(self, message):
+		# Temporary debug helper to track warning messages in metadata
+		self.warning.append(message)
+		print message
 
 	def info(self):
 		pass
@@ -254,7 +274,7 @@ class PictureWrapper(object):
 				for x in xrange(0, storage_width):
 					write_pixel(f, tiled_data[y * storage_width + x], palette_total)
 
-			# Wrie palette
+			# Write palette
 			if picture_format == 0x88:
 				# There is no palette
 				pass
@@ -288,40 +308,58 @@ class PictureWrapper(object):
 		with open(file_path, 'rb') as f:
 			file_size = os.fstat(f.fileno()).st_size
 
-			# Not exposed to users, but for development purposes
-			ps2_version = False
-
+			# Read magic header
 			magic_number = f.read(4)
 			if magic_number != 'HGPT':
 				raise Exception('Not an HGPT file! Missing HGPT header id.')
 
-			pp_offset = read_uint16(f)
-			has_multiple_divisions = read_uint16(f)
-
-			if has_multiple_divisions not in (0, 1):
-				raise Exception('Unknown has_multiple_divisions value: %s' % has_multiple_divisions)
-			print 'Has multiple divisions: %s' % (has_multiple_divisions == 1)
-
-			if pp_offset < 0x10:
+			# Read pp offset
+			self.pp_offset = read_uint16(f)
+			if self.pp_offset < 0x10:
 				raise Exception('PP offset less than 0x10, PS2 variant not supported!')
 
+			# Read if it has multiple divisions
+			has_multiple_divisions = read_uint16(f)
+			if has_multiple_divisions not in (0, 1):
+				raise Exception('Unknown has_multiple_divisions value: %s' % has_multiple_divisions)
+
+			# Read number of divisions
 			number_of_divisions = read_uint16(f)
-			self.unknown_one = read_uint16(f) #  01 00
+			if (number_of_divisions == 0 and has_multiple_divisions == 1) or (number_of_divisions != 0 and has_multiple_divisions == 0):
+				msg='# Warning: Conflicting values between number_of_divisions (%s) and has_multiple_divisions (%s)' % (number_of_divisions, has_multiple_divisions)
+				self.warn(msg)
 
+			# Read unknowns
+			self.unknown_one = read_uint16(f) # 01 00
+			if self.unknown_one != 0x0001:
+				msg='# Warning: UnknownOne is not 0x0001'
+				self.warn(msg)
 			self.unknown_two = read_uint32(f) # 00 00 00 00 in zero-division pictures; ff ff ff ff in pics with multiple divisions
+			if (has_multiple_divisions == 1 and self.unknown_two != 0xFFFFFFFF) or (has_multiple_divisions == 0 and self.unknown_two != 0x00000000):
+				msg='# Warning: UnknownTwo (0x%08X) doesn\'t match expected value along with has_multiple_divisions (%s)' % (self.unknown_two, has_multiple_divisions)		
+				self.warn(msg)
 
+			# Store the current position (for calculating division padding)
+			pre_division_position = f.tell()
+
+			# Load divisions
 			if has_multiple_divisions == 1:
+				# Read number of divisions (again)
 				number_of_divisions_repeat = read_uint16(f)
-				self.unknown_three = read_uint16(f) # 13 00
-
-				if self.unknown_three != 0x0013:
-					print 'Warning: Unknown #3 != 0x0013'
-
 				if number_of_divisions != number_of_divisions_repeat:
-					print 'Warning: Number of divisions and it\'s repeat don\'t match: 0x%04X != 0x%04X' % (number_of_divisions, number_of_divisions_repeat)
+					msg='# Warning: Number of divisions and its repeat don\'t match: 0x%04X != 0x%04X' % (number_of_divisions, number_of_divisions_repeat)
+					self.warn(msg)
 
-				name = f.read(8)
+				# Read unknown
+				self.unknown_three = read_uint16(f) # 13 00
+				if self.unknown_three != 0x0013:
+					msg='# Warning: UnknownThree (0x%X) != 0x0013' % self.unknown_three
+					self.warn(msg)
 
+				# Read division name
+				self.division_name = (f.read(8) + '\0' * 8)[0:8]
+
+				# Read divisions
 				for i in xrange(0, number_of_divisions):
 					division_start_x = read_uint16(f) 
 					division_start_y = read_uint16(f)
@@ -330,140 +368,169 @@ class PictureWrapper(object):
 
 					self.divisions.append((division_start_x, division_start_y, division_width, division_height))
 
-				# Null padding seems to be based on offset after 0xFFFFFFFF, being divisible by either 8 or 16
+				# What follows is null padding,
+				# which seems to be a number of bytes after self.unknown_two till the end of the section,
+				# to the effect that it's divisible by either 8 or 16 - not sure which yet; going with 8 atm
 
-				for i in divisions:
-					print i
-			
-			# PP header
-			f.seek(pp_offset)
+			# Skip to PP header
+			f.seek(self.pp_offset)
 
+			# Measure and calculate division size so we can figure out which is correct
+			self.division_size = f.tell() - pre_division_position
+			self.calculated_division_size_with_8 = 0
+			self.calculated_division_size_with_16 = 0
+			if has_multiple_divisions == 1:
+				calculated_division_size = 12 + len(self.divisions) * 8
+				self.calculated_division_size_with_8 = common.align_size(calculated_division_size, 8)
+				self.calculated_division_size_with_16 = common.align_size(calculated_division_size, 16)
+
+			# Read pp header
 			self.pp_header = read_uint32(f)
 			if self.pp_header & 0x000005050 != 0x000005050:
 				raise Exception('Missing pp header!')
 
-			print 'PP header: 0x%08X' % self.pp_header
-			
-			picture_format = (self.pp_header >> 24) & 0xFF
-			print 'Picture format: %02X' % picture_format
+			# Decipher pp format
+			self.pp_format = (self.pp_header >> 24) & 0xFF
 
-			self.width = display_width = read_uint16(f)
-			self.height = display_height = read_uint16(f)
+			# Read picture display dimensions
+			self.width = pp_display_width = read_uint16(f)
+			self.height = pp_display_height = read_uint16(f)
 
-			self.unknown_four = read_uint32(f) # 00 00 00 00
-			self.unknown_five = read_uint32(f) # 00 00 00 00
+			# Read unknowns
+			self.unknown_four = read_uint32(f)
+			self.unknown_five = read_uint32(f)
+			if self.unknown_four != 0:
+				msg='# Warning: UnknownFour (0x%08X) is not zero' % self.unknown_four
+				self.warn(msg)
+			if self.unknown_five != 0:
+				msg='# Warning: UnknownFive (0x%08X) is not zero' % self.unknown_five
+				self.warn(msg)
 
-			print 'Display Resolution: %s x %s' % (display_width, display_height)
-			
-			# Calculate storage resolution
-			storage_width = align_size(display_width, 16)
-			storage_height = align_size(display_height, 8)
-
-			print 'On-Disk Resolution: %s x %s' % (storage_width, storage_height)
-
-			# PPD header
+			# Read ppd header
 			self.ppd_header = read_uint32(f)
 			if self.ppd_header & 0x000445050 != 0x000445050:
 				raise Exception('Missing ppd header!')
 
-			print 'PPD header: 0x%08X' % self.ppd_header
+			# Decipher ppd format
+			self.ppd_format = self.pp_format = (self.ppd_header >> 24) & 0xFF
+			if self.ppd_format not in (0x13, 0x14, 0x00):
+				# We don't actually uses the pp format or ppd format,
+				# but instead we figure the picture format by skipping to the palette
+				# Though, it's still good to know this stuff so we can do it properly
+				# sometime later
+				msg='# Warning: PPD format (0x%X) is unknown' % self.ppd_format
+				self.warn(msg)
 
-			"""ppd_version = read_uint8(f)
-			if ppd_version not in (0x13, 0x14, 0x00):
-				raise Exception('Unknown ppd version: %s!' % format(ppd_version, '02X'))
-
-			if (pp_version & 0xFF) != ppd_version:
-				raise Exception('pp version (%s) doesn\'t match ppd version (%s)!' % (format((pp_version & 0xFF) , '02X'), format(ppd_version, '02X')))
-
-			# Figure out number of colors
-			if pp_version == 0x13:
-				color_total = 256
-				tile_width = 16
-			elif pp_version == 0x14:
-				color_total = 16
-				tile_width = 32
-			elif pp_version == 0x8800:
-				color_total = 0
-				tile_width = 16"""
-
+			# Read ppd display resolution
 			ppd_display_width = read_uint16(f)
 			ppd_display_height = read_uint16(f)
-			print 'PPD Display Resolution: %s x %s' % (ppd_display_width, ppd_display_height)
+			if pp_display_width != ppd_display_width:
+				msg='# Warning: PP display width (%s) != PPD display width (%s)' % (pp_display_width, ppd_display_width)
+				self.warn(msg)
+			if pp_display_height != ppd_display_height:
+				msg='# Warning: PP display width (%s) != PPD display width (%s)' % (pp_display_height, ppd_display_height)
+				self.warn(msg)
 
+			# Read unknown
 			self.unknown_six = read_uint32(f) # 00 00 00 00
+			if self.unknown_six != 0:
+				msg='# Warning: UnknownSix (0x%08X) is not zero' % self.unknown_six
+				self.warn(msg)
 
+			# Read ppd storage resolution
 			ppd_storage_width = read_uint16(f)
 			ppd_storage_height = read_uint16(f)
-			print 'PPD Storage Resolution: %s x %s' % (ppd_storage_width, ppd_storage_height)
 
+			# Calculate storage resolution (using the pp_display resolution)
+			# If the ppd_display resolution doesn't match the pp_display resolution,
+			# then this is not relevant
+			storage_width = align_size(pp_display_width, 16)
+			storage_height = align_size(pp_display_height, 8)
+
+			if (storage_width != ppd_storage_width) or (storage_height != ppd_storage_height):
+				msg='# Warning: PPD storage resolution (%s x %s) doesn\'t match the calculated storage resolution (%s x %s)' % (ppd_storage_width, ppd_storage_height, storage_width, storage_height)
+				self.warn(msg)
+
+			# TODO: Below comment is confusing since what about files with divisions that change header size?
 			# In the disassembly, they increment BASE (pointing to the start of the file) by 0x20
 			# They then read BASE[0x10], then add the read value to BASE,
 			# explaining why it's off by 0x20 (since they already added 0x20 to BASE)
-			ppd_size = read_uint32(f) - 0x20 # Technically an offset...
+			self.ppd_size = read_uint32(f) - 0x20 # Technically an offset...
 
 			# Adjust ppd_size based on bpp
 			bytes_per_pixel = 1
-			if picture_format == 0x88:
+			if self.pp_format == 0x88:
 				bytes_per_pixel = 4
-				ppd_size *= 4
+				self.ppd_size *= 4
 
-			print 'Calculated PPD size: %s' % (storage_width * storage_height * bytes_per_pixel)
-			print 'Stored PPD size:     %s' % ppd_size
+			# Calculate ppd size
+			self.calculated_ppd_size = (storage_width * storage_height * bytes_per_pixel)
 
+			# Read unknowns
 			self.unknown_seven = read_uint32(f) # 00 00 00 00
 			self.unknown_eight = read_uint32(f) # 00 00 00 00
 			self.unknown_nine = read_uint32(f) # 00 00 00 00
+			if self.unknown_seven != 0:
+				msg='# Warning: UnknownSeven (0x%08X) is not zero' % self.unknown_seven
+				self.warn(msg)
+			if self.unknown_eight != 0:
+				msg='# Warning: UnknownEight (0x%08X) is not zero' % self.unknown_eight
+				self.warn(msg)
+			if self.unknown_nine != 0:
+				msg='# Warning: UnknownNine (0x%08X) is not zero' % self.unknown_nine
+				self.warn(msg)
 
-			# Image data begins
-			if picture_format == 0x88:
-				palette_total = None
+			# Skip the image data first, and go right away to the palette data
+			# We do this because we're still vague on the details regarding the pixel formats,
+			# and the palette is so far the most accurate method
+			palette_total = None
+			if self.pp_format == 0x88:
 				self.palette = []
 
 			else:
-				tiled_data_offset = f.tell()
-				f.seek(ppd_size, os.SEEK_CUR)
+				# Skip over the image data and go to the palette
+				tiled_image_data_offset = f.tell()
+				f.seek(self.ppd_size, os.SEEK_CUR)
 
-				# PPD or PPC header
-				# Read palette total
+				# Read ppc header
 				self.ppc_header = read_uint32(f)
-				if self.ppc_header & 0x000475050 not in (0x000445050, 0x000435050):
-					print f.tell()
-					raise Exception('Missing ppd/ppc header!')
+				if self.ppc_header & 0x000435050 != 0x000435050:
+					raise Exception('Missing ppc header!')
 
-				print 'PPC header: 0x%08X' % self.ppc_header
+				# Read unknown
+				self.unknown_ten = read_uint16(f) # 00 00
+				if self.unknown_ten != 0:
+					msg='# Warning: UnknownTen (0x%08X) is not zero' % self.unknown_ten
+					self.warn(msg)
 
-				palette_total = 0
-				self.unknown_ten = None
-				if ps2_version:
-					# PS2 version uses a PPD section (used for storing image data) to store palette information
-					palette_width = read_uint16(f)
-					palette_height = read_uint16(f)
-					palette_total = (palette_width * palette_height) / 4
-				else:
-					# PSP version has an unknown hword
-					self.unknown_ten = read_uint16(f) # 00 00
+				# Read the number of palette entries
+				# It needs to be multiplied by 8 - forgot as to why
+				# (We know there's 4 bytes per color entry but that doesn't explain the other 2x)
+				palette_total = read_uint16(f) * 8
 
-					# Then the number of palette entries (but needing to be multiplied by 8)
-					palette_total = read_uint16(f) * 8
+				# Read unknowns
+				self.unknown_eleven = read_uint32(f) # 00 00 00 00
+				if self.unknown_eleven != 0:
+					msg='# Warning: UnknownEleven (0x%08X) is not zero' % self.unknown_eleven
+					self.warn(msg)
+				self.unknown_twelve = read_uint32(f) # 00 00 00 00
+				if self.unknown_twelve != 0:
+					msg='# Warning: UnknownTwelve (0x%08X) is not zero' % self.unknown_twelve
+					self.warn(msg)
 
-				print 'Palette total: %s' % palette_total
-
-				# These two are not present on the PS2 version
-				self.unknown_eleven = None
-				self.unknown_twelve = None
-				if not ps2_version:
-					self.unknown_eleven = read_uint32(f) # 00 00 00 00
-					self.unknown_twelve = read_uint32(f) # 00 00 00 00
-
+				# Read palette
 				self.palette = [(read_uint8(f), read_uint8(f), read_uint8(f), decode_alpha(read_uint8(f))) for i in xrange(0, palette_total)]
 
 				# Go back and read the image data now that we know the palette
-				f.seek(tiled_data_offset)
+				f.seek(tiled_image_data_offset)
 			
-			# Read the image data				
-			tiled_data = [read_pixel(f, palette_total) for y in xrange(0, storage_height) for x in xrange(0, storage_width)]
+			# Read the tiled image data
+			# The image data is stored in a scrambled tiled format, so we'll have to reprocess it	
+			tiled_image_data = [read_pixel(f, palette_total) for y in xrange(0, storage_height) for x in xrange(0, storage_width)]
 
-			# Un-tile
+			# The tile width changes depending on the pixel format,
+			# but instead of finding the pixel format from the pp/ppd headers,
+			# we do it backwards by guessing it from the palette total
 			if palette_total == 16:
 				tile_width = 32
 			elif palette_total == 256:
@@ -473,49 +540,113 @@ class PictureWrapper(object):
 			else:
 				raise Exception('Unknown palette total, %s' % palette_total)
 
-			self.content = [0] * (display_width * display_height)
+			# Un-tile and store the information as the content
+			self.content = [0] * (pp_display_width * pp_display_height)
 			TILE_WIDTH = tile_width
 			TILE_HEIGHT = 8
 			TILE_SIZE = TILE_WIDTH * TILE_HEIGHT
 			TILE_ROW = TILE_SIZE * int(storage_width / TILE_WIDTH)
-			for y in xrange(0, display_height):
-				for x in xrange(0, display_width):
+			for y in xrange(0, pp_display_height):
+				for x in xrange(0, pp_display_width):
 					tile_y = int(y / TILE_HEIGHT)
 					tile_x = int(x / TILE_WIDTH)
 					tile_sub_y = y % TILE_HEIGHT
 					tile_sub_x = x % TILE_WIDTH
-					self.content[y * display_width + x] = tiled_data[tile_y * TILE_ROW + tile_x * TILE_SIZE + tile_sub_y * TILE_WIDTH + tile_sub_x]
+					self.content[y * pp_display_width + x] = tiled_image_data[tile_y * TILE_ROW + tile_x * TILE_SIZE + tile_sub_y * TILE_WIDTH + tile_sub_x]
 
 	def exportpic(self, file_path):
-		# HACK: Extract a division
-		# Should really be a JSON instead
-		"""
-		i=0
-		sx = divisions[i][0]
-		sy = divisions[i][1]
-		xw = divisions[i][2]
-		yh = divisions[i][3]
 
-		untiled_data = [0] * (xw * yh)
-		for y in xrange(0, yh):
-			for x in xrange(0, xw):
-				untiled_data[y * xw + x] = tiled_data[(sy + y) * display_width + (sx + x)]
+		output_path_metadata = file_path + '.EXPORT.json'
+		output_path_helper = file_path + '.EXPORT.HELPER.png' 
+		output_path_picture = file_path + '.EXPORT.png'
 
-		display_width = xw
-		display_height = yh
+		# Write metadata
+		metadata = {
+			"pp": self.pp_header,
+			"ppd": self.ppd_header,
+			"ppc": self.ppc_header,
 
-		tiled_data = untiled_data"""
+			"pp_offset": self.pp_offset,
+			"pp_format": self.pp_format,
 
+			"ppd_format": self.ppd_format,
+
+			"ppd_size": self.ppd_size,
+			"calculated_ppd_size": self.calculated_ppd_size,
+
+			"division_size": self.division_size,
+			"calculated_division_size_with_8": self.calculated_division_size_with_8,
+			"calculated_division_size_with_16": self.calculated_division_size_with_16,
+
+			"unknown_one": self.unknown_one,
+			"unknown_two": self.unknown_two,
+			"unknown_three": self.unknown_three,
+			"unknown_four": self.unknown_four,
+			"unknown_five": self.unknown_five,
+			"unknown_six": self.unknown_six,
+			"unknown_seven": self.unknown_seven,
+			"unknown_eight": self.unknown_eight,
+			"unknown_nine": self.unknown_nine,
+			"unknown_ten": self.unknown_ten,
+			"unknown_eleven": self.unknown_eleven,
+			"unknown_twelve": self.unknown_twelve,
+
+			"width": self.width,
+			"height": self.height,
+
+			"palette_total": len(self.palette),
+			"division_name": self.division_name,
+			"divisions": self.divisions,
+
+			"warnings": self.warnings
+		}
+
+		with open(output_path_metadata, 'wb') as f:
+			f.write(json.dumps(metadata, indent=4))
+
+		# Create a divisions helper file
+		if (self.divisions):
+			# Get background color
+			background_color = common.unique_color(-1, None)
+
+			# Create the canvas
+			canvas = [background_color] * (self.width * self.height)
+
+			# Loop through divisions, plotting them onto the canvas
+			for i, (division_x_pos, division_y_pos, division_width, division_height) in enumerate(self.divisions):
+				# Get a unique color
+				draw_color = common.unique_color(i, len(self.divisions))
+
+				# Draw an empty square
+				try:
+					for y in xrange(0, division_height):	
+						canvas[(division_y_pos + y) * self.width + (division_x_pos + 0)] = draw_color
+						canvas[(division_y_pos + y) * self.width + (division_x_pos + division_width - 1)] = draw_color
+
+					for x in xrange(1, division_width - 1):
+						canvas[(division_y_pos + 0) * self.width + (division_x_pos + x)] = draw_color
+						canvas[(division_y_pos + division_height - 1) * self.width + (division_x_pos + x)] = draw_color
+				except:
+					# Ignore all failures
+					# Most likely bounds failures
+					pass
+
+			# Save resulting canvas
+			with open(output_path_helper, 'wb') as f:
+				pw = png.Writer(self.width, self.height)
+				flattened_helper_data = [color_channel for pixel in canvas for color_channel in pixel]
+				pw.write_array(f, flattened_helper_data)
+		
 		# Output
-		with open('test.png', 'wb') as w:
-			if picture_format == 0x88:
-				pw = png.Writer(display_width, display_height, alpha=True)
-				flattened_tiled_data = [color_channel for pixel in self.content for color_channel in pixel]
-				pw.write_array(w, flattened_tiled_data)
+		with open(output_path_picture, 'wb') as f:
+			if self.pp_format == 0x88:
+				pw = png.Writer(self.width, self.height, alpha=True)
+				flattened_image_data = [color_channel for pixel in self.content for color_channel in pixel]
+				pw.write_array(f, flattened_image_data)
 				
 			else:
-				pw = png.Writer(display_width, display_height, palette=self.palette)
-				pw.write_array(w, self.content)
+				pw = png.Writer(self.width, self.height, palette=self.palette)
+				pw.write_array(f, self.content)
 
 	def importpic(self, file_path):
 		# Open picture (Quick implementation that only does 8bpp paletted for now)
@@ -545,8 +676,8 @@ if __name__ == '__main__':
 		print 'hgpt.py <action> <picture.hpt>'
 		print ''
 		print 'hgpt.py --info <picture.hpt>'
-		print 'hgpt.py --export <picture.hpt> # Output are files picture.hpt.png and picture.hpt.METADATA.json'
-		print 'hgpt.py --import <picture.hpt> # Input are files picture.hpt.png and picture.hpt.METADATA.json'
+		print 'hgpt.py --export <picture.hpt> # Output are files picture.hpt.EXPORT.png and picture.hpt.EXPORT.json'
+		print 'hgpt.py --import <picture.hpt> # Input are files picture.hpt.EXPORT.png and picture.hpt.EXPORT.json'
 		sys.exit(0)
 
 	action = sys.argv[1]
@@ -564,22 +695,26 @@ if __name__ == '__main__':
 			picture_wrapper = PictureWrapper()
 			picture_wrapper.open(input_path)
 			picture_wrapper.info()
-			picture_wrapper.importpic('test.png')
-			picture_wrapper.save(input_path + '.REMIT')
+			#picture_wrapper.importpic('test.png')
+			#picture_wrapper.save(input_path + '.REMIT')
 
 		#except Exception, e:
 		#	print 'Error: %s' % e
 		#	sys.exit(-1)
 
-	elif action in ('-c', '--convert'):
-		"""try:
-			output_path = input_path + '_CONVERTED.ppm'
-			convert(input_path, output_path)
+	elif action in ('-e', '--export'):
+		try:
+			print '# Exporting %s:' % input_path
+			picture_wrapper = PictureWrapper()
+			picture_wrapper.open(input_path)
+
+			output_path = input_path
+
+			picture_wrapper.exportpic(output_path)
 
 		except Exception, e:
 			print 'Error: %s' % e
-			sys.exit(-1)"""
-		pass
+			sys.exit(-1)
 
 	else:
 		print 'Error: Unknown action: %s' % action
