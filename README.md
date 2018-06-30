@@ -40,13 +40,13 @@
 	- [x] Decompressing
 		- See game_data/zipped.py
 	- [ ] Compressing
-		- Skipping. It's unnecessary since we can load modified decompressed files into the game.
+		- TODO.
 - Figure out the game's picture format.
 	- Exporting
 		- [ ] 90% done, some bugs remain
-			- See game_data/hgpt.py
+			- See game_data/hgpt_new.py
 	- Importing
-		- [ ] TODO
+		- [ ] 90% done, some bugs remain.
 - Write a script to re-calculate text pointers so any translated text that can't fit in memory is moved elsewhere
 	- [ ] TODO
 - Figure out format of /USRDIR/game/imtext.bin - where most of the game dialog is stored
@@ -67,8 +67,6 @@
 	- Disassembly code and descriptions
 
 ###### Support Code:
-- game_app/psp.py
-	- Barebones PSP MIPS emulator, just enough implemented to run certain non-floating-point routines
 - game_app/support.py
 	- Shared definitions for various abstractions used by the Game App
 - game_data/png.py
