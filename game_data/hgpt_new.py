@@ -129,7 +129,7 @@ class PictureWrapper(object):
 
 	def warn(self, message):
 		# Temporary debug helper to track warning messages in metadata
-		self.warning.append(message)
+		self.warnings.append(message)
 		print message
 
 	def info(self):
