@@ -1,5 +1,7 @@
 # Contributing to the Neon Genesis Evangelion 2: Another Cases (PSP) translation
 
+** This is a WIP guide. Bunch of formatting issues too; will fix soon **
+
 1. Setting up your development environment
 2. Familiarizing yourself with the game's directory hierarchy
 3. Extracting it all
