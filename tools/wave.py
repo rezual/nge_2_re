@@ -146,10 +146,10 @@ if __name__ == '__main__':
 			else:
 				output_path = input_path
 
-			if not output_path.endswith('.UNPACK'):
-				print 'Error: input path must have a suffix of .UNPACK'
-				sys.exit(-1)
-			output_path = output_path[:-7]
+			suffix = '.UNPACK'
+			if not output_path.endswith(suffix):
+				raise Exception('Input path must have a suffix of %s' % suffix)
+			output_path = output_path[:-len(suffix)]
 
 			counter = 0
 			while True:

@@ -139,6 +139,8 @@ class TextArchive(object):
                     string_content = string_content.decode('utf-8').encode('shift_jis')
                 except UnicodeDecodeError: 
                     pass
+                except UnicodeEncodeError:
+                    print string_content
 
                 # Calculate how much memory this string takes
                 string_padded_size = common.align_size(len(string_content), 4)
@@ -171,6 +173,16 @@ class TextArchive(object):
 
                 # Write the string
                 f.write(string_content)
+
+    def patch(self, patch_file):
+        with open(patch_file) as f:
+            patch_code = compile(f.read(), patch_file, 'exec')
+            exec(patch_code, globals(), locals())
+
+        # Loop through strings, applying the translate_map
+        for string_index, (unknown_first, unknown_second, string_content) in enumerate(self.strings):
+            if translate_map.get(string_content, '???') != '???':
+                self.strings[string_index] = (unknown_first, unknown_second, translate_map[string_content])
 
     def export_text(self, file_path):
 
@@ -229,8 +241,9 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'text.py <action> <archive.bin>'
         print ''
-        print 'text.py --export <archive.bin>           # Output is file archive.bin.TEXT.json'
-        print 'text.py --import <archive.bin.TEXT.json> # Output is file archive.bin'
+        print 'text.py --export <archive.bin>            # Output is file archive.bin.TEXT.json'
+        print 'text.py --import <archive.bin.TEXT.json>  # Output is file archive.bin'
+        print 'text.py --patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
         sys.exit(0)
 
     action = sys.argv[1]
@@ -267,6 +280,32 @@ if __name__ == '__main__':
             if not output_path.endswith(suffix):
                 raise Exception('Input path must have a suffix of %s' % suffix)
             output_path = output_path[:-len(suffix)]
+
+            # Save
+            text_archive.save(output_path)
+
+        except Exception, e:
+            print 'Error: %s' % e
+            sys.exit(-1)
+
+    elif action in ('-p', '--patch'):
+
+        if len(sys.argv) < 4:
+            print 'text.py --patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
+            sys.exit(0)
+
+        patch_path = sys.argv[3]
+
+        try:
+            print '# Patching %s:' % input_path
+
+            text_archive = TextArchive()
+            text_archive.open(input_path)
+
+            text_archive.patch(patch_path)
+
+            # Generate output path
+            output_path = input_path + '.PATCHED'
 
             # Save
             text_archive.save(output_path)
