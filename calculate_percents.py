@@ -73,7 +73,7 @@ avg_imtext = (results[5] + results[6] + results[7] + results[8] + results[9]) / 
 avg_evs = (results[10] + results[11] + results[12]) / 3
 
 print """- Text in Game Executable located at `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`:
-	- [ ] %0.2f%% translated Writable sections - See patches/eboot_data.py
+	- [x] %0.2f%% translated Writable sections - See patches/eboot_data.py
 	- [ ] %0.2f%% translated Read-Only sections - See patches/eboot_rodata.py
 - Conversation text: `umd0:/PSP_GAME/USRDIR/game/imtext.bin`:
 	- [ ] %0.2f%% translated (in total)
