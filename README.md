@@ -99,11 +99,11 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 ## Debug Mode:
 These are pieces of debug mode found in the course of this project:
 1. Player Position & Memory/CPU usage:
-	![](https://i.imgur.com/mWBdZW9.png)
+![](https://i.imgur.com/mWBdZW9.png)
 2. Some kind of map trigger viewer:
-	![](https://i.imgur.com/YgnCVvG.png)
+![](https://i.imgur.com/YgnCVvG.png)
 3. General Debug Menu with various features:
-	![](https://i.imgur.com/mopj0Kh.png)
+![](https://i.imgur.com/mopj0Kh.png)
 
 ## Cheats:
 These are the cheats made in the course of this project:
