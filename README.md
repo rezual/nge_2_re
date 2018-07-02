@@ -11,7 +11,7 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 ## Text Translation Status:
 - Text in Game Executable located at `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`:
 	- [ ] 100.00% translated Writable sections - See patches/eboot_data.py
-	- [ ] 61.31% translated Read-Only sections - See patches/eboot_rodata.py
+	- [ ] 62.74% translated Read-Only sections - See patches/eboot_rodata.py
 - Conversation text: `umd0:/PSP_GAME/USRDIR/game/imtext.bin`:
 	- [ ] 0.00% translated (in total)
 		- [ ] 0.00% translated - See patches/imtext_1.py

@@ -464,7 +464,7 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B4E70: Data(DataType.String, 84, 'If owned by a non-player character,\nmakes them more inclined toward achieving justice.\0 ', "プレイヤー以外のキャラが所持すると、\n正義をなしたい思考が選択されやすくなります。\0"),
     0x001B4EC4: Data(DataType.String, 16, 'Genuine camouflage garb.\0', "本格的な迷彩服\0"),
     0x001B4ED4: Data(DataType.String, 12, 'Mobile Phone\0', "携帯電話\0"),
-    0x001B4EE0: Data(DataType.String, 68, 'When in one\'s possession,\ngives access to a command that allows a specific character's location to be confirmed.\n', "所持していると、\n特定キャラの居場所を確認できる行動が起動できます。\0"),
+    0x001B4EE0: Data(DataType.String, 68, 'When in one\'s possession,\ngives access to a command that allows a specific character\'s location to be confirmed.\n', "所持していると、\n特定キャラの居場所を確認できる行動が起動できます。\0"),
     0x001B4F24: Data(DataType.String, 32, 'You can confirm the whereabouts of a particular individual.\0', "特定の人の居場所を確認出来ます\0"),
     0x001B4F44: Data(DataType.String, 12, 'Fancy Wallet\0', "高級財布\0"),
     0x001B4F50: Data(DataType.String, 84, 'If owned by a non-player character,\ninclines them toward enhancing their reputation.\0', "プレイヤー以外のキャラが所持すると、\n名声を高めたい思考が選択されやすくなります。\0"),
