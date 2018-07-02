@@ -50,8 +50,8 @@
 - Write a script to re-calculate text pointers so any translated text that can't fit in memory is moved elsewhere
 	- [ ] TODO
 - Figure out format of /USRDIR/game/imtext.bin - where most of the game dialog is stored
-	- [ ] 90% done, bare minimum implemented
-		- See tools/bind.py (Currently in game_data, needs to be fixed up)
+	- [ ] 99% done, bare minimum implemented
+		- See tools/bind.py
 		- See tools/text.py
 - Write custom PSP CFW plugin to patch the game and no longer rely on CWCheat
 	- [ ] TODO
@@ -91,8 +91,8 @@
 	- Extract and decompress .har files
 - tools/hgpt.py
 	- Convert to PPM .hpt picture files
-- game_data/bind.py
-	- Parse .bin files with a magic header of TEXT or BIND
+- tools/bind.py
+	- Pack/Unpack .bin files with a magic header of BIND
 - tools/wave.py
 	- Pack/Unpack .bin files in the umd0:/PSP_GAME/USRDIR/voice/ folder
 	- You will need an atrac3plus codec to listen to the unpacked .wav files

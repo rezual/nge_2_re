@@ -178,10 +178,10 @@ The `patches` directory contains the following:
 		```text.py --patch path_to_extracted_game/PSP_GAME/USRDIR/free/f2tuto.bin path_to_toolchain/patches/f2tuto.py```
 - `imtext_#.py`
 	- Translation patches for the TEXT `.bin`'s in the BIND `umd0:/PSP_GAME/USRDIR/game/imtext.bin`
-	- The BIND `.bin` will need to be unpacked with `tools/bind.py` (WIP) and then you can use `text.py` to patch the resulting TEXT `.bin`'s, followed by re-packing the files with `tools/bind.py` again
+	- The BIND `.bin` will need to be unpacked with `tools/bind.py` and then you can use `text.py` to patch the resulting TEXT `.bin`'s, followed by re-packing the files with `tools/bind.py` again
 - `btimtext.py`
 	- Translation patches for the TEXT `.bin`'s in the BIND `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
-	- The BIND `.bin` will need to be unpacked with `tools/bind.py` (WIP) and then you can use `text.py` to patch the resulting TEXT `.bin`'s, followed by re-packing the files with `tools/bind.py` again
+	- The BIND `.bin` will need to be unpacked with `tools/bind.py` and then you can use `text.py` to patch the resulting TEXT `.bin`'s, followed by re-packing the files with `tools/bind.py` again
 - `evs_#.py`
 	- Translation patches for the `.evs` scripts found in unpacked event `.har` files. They'll need to be patched with `tools/evs.py` (WIP) followed by re-injecting the patched `.evs` into the `.har` file using `tools/hgar.py --replace-raw`
 
