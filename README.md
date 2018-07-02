@@ -97,16 +97,30 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - **unused:** These files are no longer used but may be helpful to others
 
 ## Debug Mode:
-These are pieces of debug mode found in the course of this project:
+These are pieces of debug mode found in the course of this project.
+
 1. Player Position & Memory/CPU usage:
 
   ![](https://i.imgur.com/mWBdZW9.png)
+
 2. Some kind of map trigger viewer:
 
   ![](https://i.imgur.com/YgnCVvG.png)
+
 3. General Debug Menu with various features:
 
   ![](https://i.imgur.com/mopj0Kh.png)
+
+  Currently looking into a cleaner way to enter this menu, but to activate:
+  1. Make sure no menus/messageboxes are visible in the game when you enable this, since it hooks unto the menu handler to open up a new menu.
+  2. Set 0x088CB750 to 0x0A226130 ( j 0x088984c0 )
+  3. Go back to the game and press O, the debug menu should pop up.
+
+  To return to the game, since you won't be able to cancel out of the debug menu by pressing X:
+  1. First set 0x088CB750 back to 0x03E00008 to disable the cheat ( jr ra )
+  2. Careful: Press X once, it'll put you into the regular O-menu
+  3. Press O on something (like Items) to load a new menu so it fixes the menu stack, cause pressing X will most likely crash
+  4. Once the new menu loads, now you may use X to exit out of the menu.
 
 ## Cheats:
 These are the cheats made in the course of this project:
