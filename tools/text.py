@@ -97,8 +97,8 @@ class TextArchive(object):
                 # Convert Shift-JIS to UTF-8
                 try:
                     string_content = string_content.decode('shift_jis').encode('utf-8')
-                except UnicodeDecodeError: 
-                    pass
+                except (UnicodeDecodeError, UnicodeEncodeError): 
+                    raise Exception('There seems to be an character that cannot be converted to UTF-8. Check the text:' + string_content)
 
                 # Convert trailing \0's to a single \0
                 string_content = re.sub('\0+$', r'\0', string_content)
@@ -137,10 +137,8 @@ class TextArchive(object):
                 # Convert UTF8 to Shift-JIS
                 try:
                     string_content = string_content.decode('utf-8').encode('shift_jis')
-                except UnicodeDecodeError: 
-                    pass
-                except UnicodeEncodeError:
-                    print string_content
+                except (UnicodeDecodeError, UnicodeEncodeError): 
+                    raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + string_content)
 
                 # Calculate how much memory this string takes
                 string_padded_size = common.align_size(len(string_content), 4)
