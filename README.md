@@ -1,12 +1,17 @@
 # Neon Genesis Evangelion 2: Another Cases (PSP)
 # Reverse Engineering & Translation
+
 ## Foreword
 The translation is still a work in progress, and the tools are aimed at developers/translators,
 and are not the tools the final patch user will ever need to use or install.
 In its final form, the patch will be one or two files and a one-step apply process.
 
+![](https://i.imgur.com/QpQuFsn.png)
+
 ## Contribution
 WIP: Currently ironing out processes before opening up the contribution flood-gates.
+
+![](https://i.imgur.com/GJzfa0b.png)
 
 ## Text Translation Status:
 - Text in Game Executable located at `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`:
