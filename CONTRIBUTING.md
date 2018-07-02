@@ -8,7 +8,7 @@
 4. Familiarizing yourself with the Patches
 5. Technical Considerations
 6. Translation Conventions
-7. Types of game translation crashes
+7. Types of game translation crashes/behaviors
 
 ## Setting up your Development Environment
 
@@ -285,26 +285,26 @@ The `patches` directory contains the following:
 		- `機密` should be Classified Information
 3. **Acronyms:**
 	1. **Expansion:** Do not expand if the source isn't expanded.
-		Do: `JA` to `J.A.`
-		Do Not: `JA` to `Jet Alone`
-	2. **Periods:** Common acronyms that are not organizations/countries should OMIT periods. Non-common/Eva acronyms should maintain periods.
-		Common acronyms: `TV`, `DNA`, `WC`, `UN`, `US`/`USA`
-		Uncommon acronyms: `A.T.`, `J.A.`
+		- Do: `JA` to `J.A.`
+		- Do Not: `JA` to `Jet Alone`
+	2. **Periods:** Common acronyms should OMIT periods. Non-common/Eva acronyms should maintain periods.
+		- Common acronyms: `TV`, `DNA`, `WC`, `UN`, `US`/`USA`
+		- Uncommon acronyms: `A.T.`, `J.A.`
 4. **Abbreviations:**
 	If it's a common word, keep the abbreviation and the period.
 	For non-common/Eva words, keep the abbreviation but leave out the period.
-	Do: Prog Knife
-	Do Not: Prog. Knife
-	Do Not: Progressive Knife
+	- Do: Prog Knife
+	- Do Not: Prog. Knife
+	- Do Not: Progressive Knife
 	Rationale:
-	Usually abbreviations are used for very common words,
-	but Progressive is not common. So if one writes prog. it looks like a sentence end,
-	and as such is jarring.
+	- Usually abbreviations are used for very common words,
+	- but Progressive is not common. So if one writes prog. it looks like a sentence end,
+	- and as such is jarring.
 5. **Word Casing:**
 	Actions should be normal sentences,
-	examples: `Open the door` and `Press button`
+	- Examples: `Open the door` and `Press button`
 	But items and attack names should be capitalized,
-	examples: `Ultra Spin Kick`, `Lightning Storm`, `Cold Pizza`
+	- Examples: `Ultra Spin Kick`, `Lightning Storm`, `Cold Pizza`
 6. **Recurring settled translations:**
 	These are phrases that may appear often,
 	and it was decided that a more natural translation should be used:
@@ -321,7 +321,7 @@ The `patches` directory contains the following:
 	3. Vocal loudness using uppercase: `I did NOT give him the cake.`
 	4. Meaning emphasis using hyphens: `You don't understand, he -lost- the money`
 
-# Types of game translation crashes
+# Types of game translation crashes/behaviors
 If there is a crash after injecting a translation into the game,
 most likely the crash is one of the following classes:
 1. Game crashes/freezes/fails silently because it expected text to be a certain length.
