@@ -44,17 +44,23 @@ class Data(object):
         # a 5 byte string actually takes 8 bytes
 
         if self.type == DataType.String and isinstance(self.value, basestring):
-            length_without_terminator = min(len(self.value), self.size - 1)
+            # Convert UTF8 to Shift-JIS
+            try:
+                string_content = self.value.decode('utf-8').encode('shift_jis')
+            except (UnicodeDecodeError, UnicodeEncodeError): 
+                raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + self.value)
+
+            length_without_terminator = min(len(string_content), self.size - 1)
 
             # Find first occurence of '\0' in the last group of '\0's
             while length_without_terminator >= 1:
-                if self.value[length_without_terminator - 1] != '\0':
+                if string_content[length_without_terminator - 1] != '\0':
                     break
 
                 length_without_terminator -= 1
 
             # Trim value to fit in given size (or better)
-            trimmed_value = self.value[0:length_without_terminator] + '\0\0\0\0'
+            trimmed_value = string_content[0:length_without_terminator] + '\0\0\0\0'
 
             length_with_terminator = 4 * int((length_without_terminator + 4) / 4)
             

@@ -2564,22 +2564,28 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B6EB0: Data(DataType.String, 8, (0x62, 0x32, 0x73, 0x25, 0x30, 0x32, 0x64, 0x00), "b2s%02d\0"),
     0x001B6EB8: Data(DataType.String, 8, (0x62, 0x32, 0x61, 0x25, 0x30, 0x32, 0x64, 0x00), "b2a%02d\0"),
     0x001B6EC0: Data(DataType.Unknown, 4),
-    0x001B6EC4: Data(DataType.Pointer, 4, 0x0003B904, '&text_0003B904'),
-    0x001B6EC8: Data(DataType.Pointer, 4, 0x0003BAB0, '&text_0003BAB0'),
-    0x001B6ECC: Data(DataType.Pointer, 4, 0x0003BAC8, '&text_0003BAC8'),
-    0x001B6ED0: Data(DataType.Pointer, 4, 0x0003BAE0, '&text_0003BAE0'),
-    0x001B6ED4: Data(DataType.Pointer, 4, 0x0003BAF8, '&text_0003BAF8'),
-    0x001B6ED8: Data(DataType.Pointer, 4, 0x0003BB10, '&text_0003BB10'),
-    0x001B6EDC: Data(DataType.Pointer, 4, 0x0003BB28, '&text_0003BB28'),
-    0x001B6EE0: Data(DataType.Pointer, 4, 0x0003BB40, '&text_0003BB40'),
-    0x001B6EE4: Data(DataType.Pointer, 4, 0x0003BB58, '&text_0003BB58'),
-    0x001B6EE8: Data(DataType.Pointer, 4, 0x0003BB70, '&text_0003BB70'),
-    0x001B6EEC: Data(DataType.Pointer, 4, 0x0003BB88, '&text_0003BB88'),
-    0x001B6EF0: Data(DataType.Pointer, 4, 0x0003BBA4, '&text_0003BBA4'),
-    0x001B6EF4: Data(DataType.Pointer, 4, 0x0003BBB4, '&text_0003BBB4'),
-    0x001B6EF8: Data(DataType.Pointer, 4, 0x0003BBC4, '&text_0003BBC4'),
-    0x001B6EFC: Data(DataType.Pointer, 4, 0x0003BBD4, '&text_0003BBD4'),
-    0x001B6F00: Data(DataType.Pointer, 4, 0x0003B968, '&text_0003B968'),
+
+    # Inside sub_0003B8A4, it calls a function in this table based on a0
+    # The goal of the function is to convert the event_type (a0)
+    # to cev, bs, etc.
+    0x001B6EC4: Data(DataType.Pointer, 4, 0x0003B904, '&text_0003B904'), # event_type 0: f
+    0x001B6EC8: Data(DataType.Pointer, 4, 0x0003BAB0, '&text_0003BAB0'), # event_type 1: bs
+    0x001B6ECC: Data(DataType.Pointer, 4, 0x0003BAC8, '&text_0003BAC8'), # event_type 2: ba
+    0x001B6ED0: Data(DataType.Pointer, 4, 0x0003BAE0, '&text_0003BAE0'), # event_type 3: bb
+    0x001B6ED4: Data(DataType.Pointer, 4, 0x0003BAF8, '&text_0003BAF8'), # event_type 4: bk
+    0x001B6ED8: Data(DataType.Pointer, 4, 0x0003BB10, '&text_0003BB10'), # event_type 5: n
+    0x001B6EDC: Data(DataType.Pointer, 4, 0x0003BB28, '&text_0003BB28'), # event_type 6: a
+    0x001B6EE0: Data(DataType.Pointer, 4, 0x0003BB40, '&text_0003BB40'), # event_type 7: s
+    0x001B6EE4: Data(DataType.Pointer, 4, 0x0003BB58, '&text_0003BB58'), # event_type 8: e
+    0x001B6EE8: Data(DataType.Pointer, 4, 0x0003BB70, '&text_0003BB70'), # event_type 9: d
+    0x001B6EEC: Data(DataType.Pointer, 4, 0x0003BB88, '&text_0003BB88'), # event_type A: tev####
+    0x001B6EF0: Data(DataType.Pointer, 4, 0x0003BBA4, '&text_0003BBA4'), # event_type B: cev####
+    0x001B6EF4: Data(DataType.Pointer, 4, 0x0003BBB4, '&text_0003BBB4'), # event_type C: b2s
+    0x001B6EF8: Data(DataType.Pointer, 4, 0x0003BBC4, '&text_0003BBC4'), # event_type D: b2a
+    0x001B6EFC: Data(DataType.Pointer, 4, 0x0003BBD4, '&text_0003BBD4'), # event_type E: le
+    0x001B6F00: Data(DataType.Pointer, 4, 0x0003B968, '&text_0003B968'), # event_type F:  
+
+
     0x001B6F04: Data(DataType.Pointer, 4, 0x0003B968, '&text_0003B968'),
     0x001B6F08: Data(DataType.Pointer, 4, 0x0003B984, '&text_0003B984'),
     0x001B6F0C: Data(DataType.Pointer, 4, 0x0003B968, '&text_0003B968'),
