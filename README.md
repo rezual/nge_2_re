@@ -6,7 +6,7 @@ The translation is still a work in progress, and the tools are aimed at develope
 and are not the tools the final patch user will ever need to use or install.
 In its final form, the patch will be one or two files and a one-step apply process.
 
-![](https://i.imgur.com/QpQuFsn.png)
+![](https://i.imgur.com/jtsF9UV.gif)
 
 ## Contribution
 WIP: Currently ironing out processes before opening up the contribution flood-gates.
