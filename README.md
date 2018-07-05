@@ -53,6 +53,9 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - [x] Modify/Repack BIND `.bin` files
 - [x] Export TEXT `.bin` files
 - [x] Import/Patch TEXT `.bin` files
+- [x] Export `.evs` files
+- [x] Import `.evs` files
+- [ ] Patch `.evs` files
 - [ ] 99.0% Export HGPT pictures 
 - [ ] 90.0% Import HGPT pictures 
 - [ ] Compress `.zpt` files/`.har` entries
