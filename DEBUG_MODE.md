@@ -107,7 +107,7 @@ _L 0x201C97CC 0x088ECD08
 
 ```
 _C0 Debug menu: Daily Special Debug
-_L 0x201C97CC 0x0888984C0
+_L 0x201C97CC 0x088984C0
 ```
 
 ![](https://i.imgur.com/By6iSje.jpg)
