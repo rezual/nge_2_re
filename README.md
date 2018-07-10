@@ -62,7 +62,6 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - [ ] Write custom PSP CFW plugin to apply translation
 	- Replace directly in memory translated text shorter than the original Japanese text (Easy)
 	- Redirect assembly read/writes to other areas of memory for translated text longer than the original Japanese text (Hard)
-	- Instead of allocating a new buffer, possibly
 - [ ] Wait for translators
 - [ ] Release
 
