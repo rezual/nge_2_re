@@ -47,7 +47,7 @@ translate_map = {
 "It's impossible for a new player to understand\n"
 "everything right away.\n"
 "So, to start with, concern yourself only with\n"
-"skimming through the \"Introduction\" entry.\n\0"
+"skimming through the \"Introduction\" entry.\n\0",
 
 ##############################################################################
 
@@ -77,7 +77,7 @@ translate_map = {
 "Progressing in Scenario 1 may depend on things like\n"
 "time elapsing or going to specific locations.\n"
 "If you feel the scenario is not moving ahead, try\n"
-"visiting different places.\n\0"
+"visiting different places.\n\0",
 
 ##############################################################################
 
@@ -103,7 +103,7 @@ translate_map = {
 "Stay on top of forthcoming events.\n"
 "Befriend your favorite characters.$n\n"
 "Backup the pilots and Nerv from behind the scenes.\n"
-"You can also enjoy life in Tokyo-3 aimlessly.\n", 
+"You can also enjoy life in Tokyo-3 aimlessly.\n" 
 "Each objective has its own strategy and fun.$n\n"
 "Through creative use of the various commands possible in the\n"
 "game, go and achieve your goals!\n"

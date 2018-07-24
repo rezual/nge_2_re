@@ -34,7 +34,7 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - Secret Information menu text: `umd0:/PSP_GAME/USRDIR/free/f2info.bin`:
 	- [ ] 25.00% translated - See patches/f2info.py
 - Tutorial menu text: `umd0:/PSP_GAME/USRDIR/free/f2tuto.bin`:
-	- [ ] 0.00% translated - See patches/f2tuto.py
+	- [ ] 20.00% translated - See patches/f2tuto.py
 
 ## Image Translation Status
 - Images with text:
