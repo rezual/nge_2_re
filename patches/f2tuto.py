@@ -34,7 +34,20 @@ translate_map = {
 "まずは「はじめに」の項目に一通り目を通すだけでかまい\n"
 "ません。\n\0":
 
-"???",
+"３\nHow to Use the Tutorial\n"
+"While the basic gameplay is simple, various\n"
+"systems need to be understood and mastered in\n"
+"order to achieve a higher level of play.$n\n"
+"That said, you should first familarize yourself\n"
+"with the game.\n"
+"A deeper understanding of the various systems\n" 
+"becomes necessary while you're playing it, after\n"
+"all.$n\n" 
+"At that time, please make use of this tutorial.\n"
+"It's impossible for a new player to understand\n"
+"everything right away.\n"
+"So, to start with, concern yourself only with\n"
+"skimming through the \"Introduction\" entry.\n\0"
 
 ##############################################################################
 
@@ -52,7 +65,19 @@ translate_map = {
 "シナリオの進行が先に進まないと感じたら、いろんな場所\n"
 "に移動してみましょう。\n\0":
 
-"???",
+"３\nHints for Advancing in the Game\n"
+"This game is light on objectives that must be\n"
+"achieved in order to progress. Within Scenarios 2\n" 
+"and up especially, there are almost no required\n"
+"missions or flags to be raised.$n\n" 
+"It's fine for the player to use the time freely up\n"
+"until an Angel appears.\n"
+#Not sure about following line -Reichu
+"Nothing will prevent you from proceeding further.$n\n"
+"Progressing in Scenario 1 may depend on things like\n"
+"time elapsing or going to specific locations.\n"
+"If you feel the scenario is not moving ahead, try\n"
+"visiting different places.\n\0"
 
 ##############################################################################
 
@@ -70,7 +95,20 @@ translate_map = {
 "最初は各シナリオのイベントをこなしていくのを目的にプ\n"
 "レイするとよろしいでしょう。\n\0":
 
-"???",
+"３\nObjectives of the Game\n"
+"In this game, there are various objectives, and\n" 
+"many ways to have fun.\n"
+"Enjoy both everyday life and fighting against the\n"
+"Angels when playing as a pilot.\n"
+"Stay on top of forthcoming events.\n"
+"Befriend your favorite characters.$n\n"
+"Backup the pilots and Nerv from behind the scenes.\n"
+"You can also enjoy life in Tokyo-3 aimlessly.\n", 
+"Each objective has its own strategy and fun.$n\n"
+"Through creative use of the various commands possible in the\n"
+"game, go and achieve your goals!\n"
+"At first it's probably best to play with a mind toward\n"
+"completing each scenario's events.\n\0",
 
 ##############################################################################
 
@@ -91,7 +129,23 @@ translate_map = {
 "ΑΤを上昇させたり、インパルスを溜めるのも重要な行動\n"
 "です。\n\0":
 
-"???",
+"４\nFlow of Daily Life Part\n"
+"Up until they fight an Angel, the characters\n"
+"conduct their day-to-day lives in Tokyo-3.\n"
+"This life in Tokyo-3 is called the Daily Life Part.$n\n"
+"In the Daily Life Part, students go to school, and\n"
+"Nerv personnel perform their duties at Nerv.\n"
+"Furthermore, the player character can be active up\n"
+"until their nightly bedtime.$n\n"
+"When bedtime arrives, the player character's\n"
+"daytime activities come to an end, and they retire\n"
+"until the following morning.\n"
+"This cycle is repeated until an Angel arrives.$n\n"
+"To boost your abilities during the Daily Life Part,\n"
+"you should engage in communications with other\n"
+"characters.\n"
+"It's also important to accumulate Impulse to make\n"
+"your AT go up.\n\0",
 
 ##############################################################################
 
@@ -112,7 +166,19 @@ translate_map = {
 "ゲーム中では、常にこの状態を維持するよう、心がけてく\n"
 "ださい。\n\0":
 
-"???",
+"AT and Impulse are the most important parameters\n"
+"in this game.\n"
+"They are displayed at the bottom of the screen and\n"
+"visibly change from one moment to the next.$n\n"
+"AT shows how open someone's heart is.\n"
+"The higher someone's AT, the more their heart\n"
+"opens up. The lower the AT, the more their heart\n"
+"is closed off.$n/n"
+"Impulse shows the urge to act, or the energy when\n"
+"doing something. Consuming impulse makes important\n"
+"actions possible.$n\n"
+"A high AT and plentiful impulse are ideal.\n"
+"Always try to maintain both while you're playing.\n\0",
 
 ##############################################################################
 
@@ -134,7 +200,24 @@ translate_map = {
 "ΑΤを上げるには、楽しい出来事を多く経験し、体調を高\n"
 "く保つのがセオリーとなります。\n\0":
 
-"???",
+"４\nBoosting AT\n"
+"AT goes up in response to positive experiences,\n" 
+"while negative ones make it go down.\n"
+"This is because day-to-day events are stored as\n" 
+"memories, from which AT is calculated.$n\n"
+"More frequent enjoyable experiences, or good\n" 
+"memories, will result in a high AT value.\n"
+"Conversely, more frequent bitter experiences, or\n" 
+"bad memories, will result in a low AT value.$n\n"
+"Another element that influences AT is\n" 
+"physical condition.\n"
+"When physical condition is poor, the AT value\n" 
+"plummets. Inversely, when physical condition is\n" 
+"good, AT value escalates.$n\n"
+"Additional shifts in AT value are imposed via the\n"
+"effects of the Anno A.I.\n"
+"To sum up, you boost AT by experiencing plenty of\n"
+"positive events and maintaining good health.\n\0",
 
 ##############################################################################
 
