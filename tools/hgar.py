@@ -404,7 +404,7 @@ if __name__ == '__main__':
 			print '\tReplacing %s' % file_to_replace
 			hgar.replace(file_to_replace, file_content, is_compressed=False)
 
-			hgar.save(input_path + '_REPLACE')
+			hgar.save(input_path + '.HGARPACK')
 
 		except Exception, e:
 			print 'Error: %s' % e
@@ -417,7 +417,7 @@ if __name__ == '__main__':
 			hgar = HGArchive()
 			hgar.open(input_path)
 			
-			output_path = input_path + '_EXTRACT' + os.sep
+			output_path = input_path + '.HGARPACK' + os.sep
 
 			if not os.path.exists(output_path):
 				os.makedirs(output_path)
@@ -444,7 +444,7 @@ if __name__ == '__main__':
 			hgar = HGArchive()
 			hgar.open(input_path)
 			
-			output_path = input_path + '_EXTRACT' + os.sep
+			output_path = input_path + '.HGARPACK' + os.sep
 
 			if not os.path.exists(output_path):
 				os.makedirs(output_path)

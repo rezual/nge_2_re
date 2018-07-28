@@ -1245,12 +1245,63 @@ class ZipWrapper(object):
                         w.write(struct.pack('I', value))
 
 if __name__ == '__main__':
+    import sys
+    
+    if len(sys.argv) < 3:
+        print 'zipped.py <action> <file>'
+        print ''
+        print 'zipped.py --decompress <file>            # Output is file.DECOMPRESSED'
+        print 'zipped.py --compress <file.DECOMPRESSED> # Input is file.DECOMPRESSED'
+        sys.exit(0)
 
-        if len(sys.argv) < 2:
-            print './zipped.py <path to compressed file>'
-            sys.exit(0)
+    action = sys.argv[1]
+    input_path = sys.argv[2]
+    output_path = ''
 
-        input_path = sys.argv[1]
-        print '# Decompressing: %s' % input_path
-        zip_wrapper = ZipWrapper()
-        zip_wrapper.decompress(input_path)
+    if len(input_path) == 0:
+        print 'Error: Empty input path provided'
+        sys.exit(-1)
+
+
+    if action in ('-d', '--decompress'):
+        try:
+            print '# Decompressing %s:' % input_path
+            zip_wrapper = ZipWrapper()
+            zip_wrapper.open(input_path)
+
+            output_path = input_path
+
+            zip_wrapper.decompress(output_path)
+
+        except Exception, e:
+            print 'Error: %s' % e
+            sys.exit(-1)
+
+    elif action in ('-c', '--compress'):
+        try:
+            print '# Compressing %s:' % input_path
+            zip_wrapper = ZipWrapper()
+            
+            # Figure out the output path
+            output_path = input_path
+
+            suffix = '.DECOMPRESSED'
+            if not output_path.endswith(suffix):
+                raise Exception('Input path must have a suffix of %s' % suffix)
+            output_path = output_path[:-len(suffix)]
+
+            #zip_wrapper.compress(output_path)
+
+            # Save
+            #zip_wrapper.save(output_path)
+
+        except Exception, e:
+            print 'Error: %s' % e
+            sys.exit(-1)
+
+    else:
+        print 'Error: Unknown action: %s' % action
+        sys.exit(-1)
+
+    sys.exit(0)
+

@@ -1,15 +1,10 @@
 #!/usr/bin/env python2.7
 
-# WIP as new findings come in
-# Best to clean up duplicates / optimize once unknowns are solved for
-
 # HGPT converter
 
 # Oddities: 
-# im/im124003c.zpt_DECOMPRESSED_CONVERTED has weird alpha
-# im/im059800.zpt_DECOMPRESSED: Is an HGMT file - which seems to be an untiled, HPT file but without the magic numbers
-# event/bs088.har_EXTRACT/fs_21_01.zpt_DECOMPRESSED: Error: Unknown pp version: 8800!
-# event/bs094.har_EXTRACT/fs_21_01.zpt_DECOMPRESSED: Error: Unknown pp version: 8800! (Seems to be 1/4th the color + 8-bit alpha?)
+# im/im059800.zpt_DECOMPRESSED: It's not a HGPT file, but instead is a HGMT file - which seems to be an untiled, HPT file
+# game/system.har/dbgfont.zmt: The second unknown is neither 0x00000000 nor 0xFFFFFFFF, but instead 0x0000F000 
 
 import os
 import struct
@@ -21,41 +16,17 @@ def decode_alpha(encoded_alpha):
     return min(encoded_alpha << 1, 0xFF)
 
 def encode_alpha(alpha):
-    return alpha >> 1
-
-write_pixel_buffer = None
-def write_pixel(file_handle, color, palette_total):
-    global write_pixel_buffer
-
-    if palette_total == 256:
-        common.write_uint8(file_handle, color)
-
-    elif palette_total == 16:
-        """if write_pixel_buffer is None:
-            write_pixel_buffer = common.read_uint8(file_handle)
-            value = write_pixel_buffer & 0xF
-            return value
-
-        else:
-            value = (write_pixel_buffer & 0xF0) >> 4
-            write_pixel_buffer = None
-            return value"""
-        pass
-
-    elif palette_total is None:
-        # Read full RGBA
-        #return (common.read_uint8(file_handle), 
-        #common.read_uint8(file_handle), 
-        #common.read_uint8(file_handle), 
-        #decode_alpha(common.read_uint8(file_handle)))
-        pass
+    alpha >>= 1
+    if alpha == 0x7F:
+        return 0x80
+    return alpha
 
 class PictureWrapper(object):
     def __init__(self):
         self.has_extended_header = True
 
-        self.unknown_two = None     # 00 00 00 00 in zero-division pictures; ff ff ff ff in pics with multiple divisions
-        self.unknown_three = 0x0013  # Only for things with multiple divisions
+        self.unknown_two = 0x00000000
+        self.unknown_three = 0x0013  # Spotted as 0x0013 most of the time; few times 0x0014; only used if extended header is True
 
         self.width = 0
         self.height = 0
@@ -63,183 +34,6 @@ class PictureWrapper(object):
         self.division_name = '\0' * 8
         self.divisions = []
         self.content = []
-
-    def info(self):
-        pass
-
-    def save(self, file_path):
-        print '# Writing %s:' % file_path
-        with open(file_path, 'wb') as f:
-
-            # Calculate various sizes
-            pp_offset = 16
-
-            # Divisions sizes
-            divisions_padded_size = 0
-            divisions_padding = 0
-            if self.has_extended_header:
-                divisions_size = 12 + len(self.divisions) * 8
-                divisions_padded_size = common.align_size(divisions_size, 16)
-                divisions_padding = divisions_padded_size - divisions_size
-            pp_offset += divisions_padded_size
-
-            # Figure out palette_total
-            palette_total = len(self.palette)
-
-            # Set values that depend on the palette total
-            pp_format = 0x13
-            bytes_per_pixel = 1
-            tile_width = 16
-
-            if palette_total == 0:
-                pp_format = 0x8800
-                bytes_per_pixel = 4
-                tile_width = 4
-
-            elif palette_total == 16:
-                pp_format = 0x14
-                bytes_per_pixel = 0.5
-                tile_width = 32
-            
-            elif palette_total == 256:
-                pp_format = 0x13
-                bytes_per_pixel = 1
-                tile_width = 16
-
-            else:
-                raise Exception('Unknown palette total, %s' % palette_total)
-            
-            # Set values that depend on the display resolution
-            ppd_sixteenths_width = common.align_size(self.width, 16)
-            ppd_sixteenths_height = common.align_size(self.height, 8)
-
-            storage_width = common.align_size(self.width, tile_width)
-            storage_height = common.align_size(self.height, 8)
-
-            number_of_pixels = calculated_storage_width * calculated_storage_height
-
-            # The size also includes the PPD header in the count, which is 0x20 bytes in size, add it
-            ppd_size = (storage_width * storage_height * bytes_per_pixel) + 0x20
-
-            # Calculate headers
-            pp_header  = 0x00007070 | (pp_format << 16) & 0xFFFF
-            ppd_header = 0x00647070 | (pp_format << 24) & 0xFF
-            ppc_header = 0x00637070
-
-            # Write magic header
-            f.write('HGPT')
-
-            # Write pp offset
-            common.write_uint16(f, pp_offset)
-
-            # Write if has extended header
-            common.write_uint16(f, 1 if self.has_extended_header else 0)
-
-            # Write number of divisions
-            common.write_uint16(f, len(self.divisions))
-
-            # Write unknowns
-            common.write_uint16(f, 0x0001)
-
-            # ff ff ff ff in pics with extended header; 00 00 00 00 in pictures w/o extended header; 
-            common.write_uint32(f, 0xFFFFFFFF if self.has_extended_header else 0x00000000)
-            
-            if self.has_extended_header:
-                # Write the number of divisions again
-                common.write_uint16(f, len(self.divisions))
-
-                # Write unknowns
-                common.write_uint16(f, self.unknown_three) # 13 00 or 14 00
-
-                # Write division name
-                f.write((self.division_name + '\0' * 8)[0:8])
-
-                # Write divisions
-                for division in self.divisions:
-                    common.write_uint16(f, division[0]) 
-                    common.write_uint16(f, division[1])
-                    common.write_uint16(f, division[2])
-                    common.write_uint16(f, division[3])
-
-                # Add zero padding
-                f.write('\0' * divisions_padding)
-
-            # Write PP header
-            common.write_uint32(f, pp_header)
-
-            # Write display dimensions
-            common.write_uint16(f, self.width)  # display_width
-            common.write_uint16(f, self.height) # display_height
-
-            # Write zero padding
-            f.write('\0' * 8)
-            
-            # Write ppd header
-            common.write_uint32(f, ppd_header)
-
-            # Write display dimensions again
-            common.write_uint16(f, self.width)  # ppd_display_width
-            common.write_uint16(f, self.height) # ppd_display_height
-
-            # Write zero padding
-            f.write('\0' * 4)
-
-            # Write ppd sixteenths dimensions
-            common.write_uint16(f, ppd_sixteenths_width)
-            common.write_uint16(f, ppd_sixteenths_height)
-
-            # Write ppd_size
-            common.write_uint32(f, ppd_size)
-
-            # Write zero padding
-            f.write('\0' * 12)
-
-            # Figure out palette_total
-            palette_total = len(self.palette)
-
-            # Re-tile
-            tiled_data = [0] * number_of_pixels
-            tile_width = tile_width
-            tile_height = 8
-            tile_size = tile_width * tile_height
-            tile_row = tile_size * int(storage_width / tile_width)
-            for y in xrange(0, self.height):
-                for x in xrange(0, self.width):
-                    tile_y = int(y / tile_height)
-                    tile_x = int(x / tile_width)
-                    tile_sub_y = y % tile_height
-                    tile_sub_x = x % tile_width
-                    tiled_data[tile_y * tile_row + tile_x * tile_size + tile_sub_y * tile_width + tile_sub_x] = self.content[y * self.width + x]
-
-            # Write image data
-            for y in xrange(0, storage_height):
-                for x in xrange(0, storage_width):
-                    write_pixel(f, tiled_data[y * storage_width + x], palette_total)
-
-            # Write palette
-            if pp_format == 0x8800:
-                # There is no palette
-                pass
-
-            else:
-                # Write ppc header
-                common.write_uint32(f, ppc_header)
-
-                # Write zero padding
-                f.write('\0' * 2)
-
-                # Write number of palette entries (but needing to be divided by 8)
-                common.write_uint16(f, palette_total / 8)
-
-                # Write zero padding
-                f.write('\0' * 8)
-
-                # Write palette
-                for c in self.palette:
-                    common.write_uint8(f, c[0])
-                    common.write_uint8(f, c[1])
-                    common.write_uint8(f, c[2])
-                    common.write_uint8(f, encode_alpha(c[3]))
 
     def open(self, file_path):
         with open(file_path, 'rb') as f:
@@ -255,7 +49,7 @@ class PictureWrapper(object):
             if pp_offset < 0x10:
                 raise Exception('PP offset less than 0x10, PS2 variant not supported!')
 
-            # Read if it has extended header
+            # Read if it has an extended header
             has_extended_header = common.read_uint16(f)
             if has_extended_header not in (0, 1):
                 raise Exception('Unknown has_extended_header value: %s' % has_extended_header)
@@ -269,20 +63,21 @@ class PictureWrapper(object):
             if unknown_one != 0x0001:
                 raise Exception('First unknown is not 0x0001: %08X' % unknown_one)
 
+            # ff ff ff ff in pics with extended header 
+            # 00 00 00 00 in pictures w/o extended header 
             unknown_two = common.read_uint32(f)
-            # 00 00 00 00 in pics without extended header
-            # ff ff ff ff in pics with extended header
-            # 00 f0 00 00 in /USRDIR/game/system.har/dbgfont.zmt
             
             # Load divisions
-            if has_extended_header == 1:
+            if has_extended_header:
                 # Read number of divisions (again)
                 number_of_divisions_repeat = common.read_uint16(f)
                 if number_of_divisions != number_of_divisions_repeat:
                     raise Exception('Number of divisions and its repeat don\'t match: %s != %s' % (number_of_divisions, number_of_divisions_repeat))
 
                 # Read unknown
-                unknown_three = common.read_uint16(f) # 13 00
+                # 0x0013 is the most common 
+                # 0x0014 is the other occurence 
+                unknown_three = common.read_uint16(f)
                 if unknown_three != 0x0013:
                     print '# Warning: UnknownThree (0x%X) != 0x0013' % unknown_three
 
@@ -305,7 +100,7 @@ class PictureWrapper(object):
 
                 f.seek(divisions_padding, os.SEEK_CUR)
 
-            # Skip to PP header
+            # Check that it's the correct pp_offset
             if f.tell() != pp_offset:
                 raise Exception('Incorrect pp offset')
 
@@ -319,7 +114,7 @@ class PictureWrapper(object):
             if pp_format not in (0x13, 0x14, 0x8800):
                 raise Exception('PP format (0x%X) is unknown' % pp_format)
 
-            # Set values that depend on the pp format
+            # Calculate values that depend on the pp format
             bytes_per_pixel = 1
             tile_width = 16
 
@@ -384,8 +179,8 @@ class PictureWrapper(object):
             number_of_pixels = calculated_storage_width * calculated_storage_height
 
             # Read ppd_size which is the size of the ppd section
-            # The size also includes the PPD header in the count, which is 0x20 bytes in size, subtract it
-            ppd_size = common.read_uint32(f) - 0x20
+            # The size also includes the PPD header in the count, which is 0x20 bytes in size, subtract it (later)
+            ppd_size = common.read_uint32(f)
 
             # Skip padding
             f.seek(3 * 4, os.SEEK_CUR)
@@ -395,7 +190,7 @@ class PictureWrapper(object):
             tiled_image_data = [0] * number_of_pixels
 
             cache_last_pixel = None
-            number_of_bytes = ppd_size
+            number_of_bytes = ppd_size - 0x20 # Subtract the header size
             for i in xrange(0, number_of_pixels):
                 if number_of_bytes <= 0:
                     break
@@ -468,15 +263,212 @@ class PictureWrapper(object):
                                     decode_alpha(common.read_uint8(f))) 
                                 for i in xrange(0, palette_total)]
 
+    def save(self, file_path):
+        with open(file_path, 'wb') as f:
+
+            # Calculate various sizes
+
+            # Divisions sizes
+            divisions_padded_size = 0
+            divisions_padding = 0
+            if self.has_extended_header:
+                divisions_size = 12 + len(self.divisions) * 8
+                divisions_padded_size = common.align_size(divisions_size, 16)
+                divisions_padding = divisions_padded_size - divisions_size
+
+            # PP offset
+            pp_offset = 16 + divisions_padded_size
+
+            # Palette total, PP format, bytes_per_pixel, and tile_width
+            palette_total = len(self.palette)
+            pp_format = 0x13
+            bytes_per_pixel = 1
+            tile_width = 16
+
+            if palette_total == 0:
+                pp_format = 0x8800
+                bytes_per_pixel = 4
+                tile_width = 4
+
+            elif palette_total == 16:
+                pp_format = 0x14
+                bytes_per_pixel = 0.5
+                tile_width = 32
+            
+            elif palette_total == 256:
+                pp_format = 0x13
+                bytes_per_pixel = 1
+                tile_width = 16
+
+            else:
+                raise Exception('Unknown palette total, %s' % palette_total)
+            
+            # Sixteenths resolution and storage resolution
+            ppd_sixteenths_width = common.align_size(self.width, 16)
+            ppd_sixteenths_height = common.align_size(self.height, 8)
+
+            storage_width = common.align_size(self.width, tile_width)
+            storage_height = common.align_size(self.height, 8)
+
+            number_of_pixels = storage_width * storage_height
+
+            # PPD Size
+            # The size also includes the PPD header in the count, which is 0x20 bytes
+            ppd_size = (storage_width * storage_height * bytes_per_pixel) + 0x20
+
+            # Calculate headers
+            pp_header  = 0x00007070 | ((pp_format & 0xFFFF) << 16)
+            ppd_header = 0x00647070 | ((pp_format & 0xFF) << 24) 
+            ppc_header = 0x00637070
+
+            # Begin writing
+            # Write magic header
+            f.write('HGPT')
+
+            # Write pp offset
+            common.write_uint16(f, pp_offset)
+
+            # Write if it has an extended header
+            common.write_uint16(f, 1 if self.has_extended_header else 0)
+
+            # Write number of divisions
+            common.write_uint16(f, len(self.divisions))
+
+            # Write unknowns
+            common.write_uint16(f, 0x0001)
+
+            # ff ff ff ff in pics with extended header 
+            # 00 00 00 00 in pictures w/o extended header 
+            common.write_uint32(f, 0xFFFFFFFF if self.has_extended_header else 0x00000000)
+            
+            if self.has_extended_header:
+                # Write the number of divisions again
+                common.write_uint16(f, len(self.divisions))
+
+                # Write unknown
+                # 0x0013 is the most common 
+                # 0x0014 is the other occurence 
+                common.write_uint16(f, self.unknown_three) 
+
+                # Write division name
+                f.write((self.division_name + '\0' * 8)[0:8])
+
+                # Write divisions
+                for division in self.divisions:
+                    common.write_uint16(f, division[0]) # division_start_x
+                    common.write_uint16(f, division[1]) # division_start_y
+                    common.write_uint16(f, division[2]) # division_width
+                    common.write_uint16(f, division[3]) # division_height
+
+                # Add zero padding
+                f.write('\0' * divisions_padding)
+
+            # Write PP header
+            common.write_uint32(f, pp_header)
+
+            # Write display dimensions
+            common.write_uint16(f, self.width)  # display_width
+            common.write_uint16(f, self.height) # display_height
+
+            # Write zero padding
+            f.write('\0' * 8)
+            
+            # Write ppd header
+            common.write_uint32(f, ppd_header)
+
+            # Write display dimensions again
+            common.write_uint16(f, self.width)  # ppd_display_width
+            common.write_uint16(f, self.height) # ppd_display_height
+
+            # Write zero padding
+            f.write('\0' * 4)
+
+            # Write ppd sixteenths dimensions
+            common.write_uint16(f, ppd_sixteenths_width)
+            common.write_uint16(f, ppd_sixteenths_height)
+
+            # Write ppd_size
+            common.write_uint32(f, ppd_size)
+
+            # Write zero padding
+            f.write('\0' * 12)
+
+            # Re-tile
+            tiled_image_data = [0] * number_of_pixels
+
+            tile_height = 8
+            tile_size = tile_width * tile_height
+            tile_row = tile_size * int(storage_width / tile_width)
+            for y in xrange(0, self.height):
+                for x in xrange(0, self.width):
+                    tile_y = int(y / tile_height)
+                    tile_x = int(x / tile_width)
+                    tile_sub_y = y % tile_height
+                    tile_sub_x = x % tile_width
+                    tiled_image_data[tile_y * tile_row + tile_x * tile_size + tile_sub_y * tile_width + tile_sub_x] = self.content[y * self.width + x]
+
+            # Write image data
+            cache_last_pixel = None
+            number_of_bytes = ppd_size - 0x20 # Subtract the header size
+            for i in xrange(0, number_of_pixels):
+                if number_of_bytes <= 0:
+                    break
+
+                if pp_format == 0x13:
+                    common.write_uint8(f, tiled_image_data[i])
+                    number_of_bytes -= 1
+
+                elif pp_format == 0x14:
+                    if (i & 1) == 0:
+                        # Even write
+                        cache_last_pixel = (tiled_image_data[i] & 0xF)
+                    else:
+                        # Odd write
+                        common.write_uint8(f, cache_last_pixel | ((tiled_image_data[i] & 0xF) << 4))
+                        number_of_bytes -= 1
+
+                elif pp_format == 0x8800:
+                    # Write full RGBA
+                    common.write_uint8(f, tiled_image_data[i][0])
+                    common.write_uint8(f, tiled_image_data[i][1])
+                    common.write_uint8(f, tiled_image_data[i][2])
+                    common.write_uint8(f, encode_alpha(tiled_image_data[i][3]))
+                    number_of_bytes -= 4
+
+            # Write palette
+            if pp_format == 0x8800:
+                # There is no palette
+                pass
+
+            else:
+                # Write ppc header
+                common.write_uint32(f, ppc_header)
+
+                # Write zero padding
+                f.write('\0' * 2)
+
+                # Write number of palette entries (but needing to be divided by 8)
+                common.write_uint16(f, palette_total / 8)
+
+                # Write zero padding
+                f.write('\0' * 8)
+
+                # Write palette
+                for c in self.palette:
+                    common.write_uint8(f, c[0])
+                    common.write_uint8(f, c[1])
+                    common.write_uint8(f, c[2])
+                    common.write_uint8(f, encode_alpha(c[3]))
+
     def export_pic(self, file_path):
 
-        output_path_metadata = file_path + '.EXPORT.json'
-        output_path_helper = file_path + '.EXPORT.HELPER.png' 
-        output_path_picture = file_path + '.EXPORT.png'
+        output_path_metadata = file_path + '.PICTURE.json'
+        output_path_helper = file_path + '.PICTURE.HELPER.png' 
+        output_path_picture = file_path + '.PICTURE.png'
 
         # Write metadata
         metadata = {
-            "extended_header": self.has_extended_header,
+            "has_extended_header": self.has_extended_header,
 
             "unknown_two": self.unknown_two,
             "unknown_three": self.unknown_three,
@@ -537,24 +529,79 @@ class PictureWrapper(object):
                 pw.write_array(f, self.content)
 
     def import_pic(self, file_path):
-        # Open picture (Quick implementation that only does 8bpp paletted for now)
-        f=png.Reader(filename=file_path)
-        pic = f.read()
-        self.width = pic[0]
-        self.height = pic[1]
 
-        self.content = [c for row in pic[2] for c in row]
+        input_path_metadata = file_path + '.PICTURE.json'
+        input_path_picture = file_path + '.PICTURE.png'
 
-        self.palette = pic[3]['palette']
+        # Check if the input file exists
+        if not os.path.exists(input_path_picture):
+            raise Exception('File does not exist: %s' % input_path_picture)
 
-        #with open('test.png', 'wb') as f:
-            #if picture_format == 0x88:
-            #   pw = png.Writer(display_width, display_height, alpha=True)
-            #   flattened_tiled_data = [color_channel for pixel in self.content for color_channel in pixel]
-            #   pw.write_array(w, flattened_tiled_data)
-            #else:
-            #   pw = png.Read(display_width, display_height, palette=self.palette)
-            #   pw.write_array(w, self.content)
+        # Load the JSON
+        metadata = {}
+        if os.path.exists(input_path_metadata):
+            with open(input_path_metadata, 'rb') as f:
+                metadata = f.read()
+
+                try:
+                    metadata = json.loads(metadata)
+                except:
+                    raise Exception('File has invalid JSON data: %s' % input_path_metadata)
+
+        # Set defaults
+        self.has_extended_header = metadata.get('has_extended_header', False)
+        self.unknown_two         = metadata.get('unknown_two', 0x00000000)
+        self.unknown_three       = metadata.get('unknown_three', 0x0013)
+        self.width               = metadata.get('width', 0)
+        self.height              = metadata.get('height', 0)
+        self.division_name       = metadata.get('division_name', '\0' * 8)
+        self.divisions           = metadata.get('divisions', [])
+
+        palette_total = metadata.get('palette_total', 0)
+
+        # Open picture
+        pr = png.Reader(filename=input_path_picture)
+        pic = pr.read()
+
+        # Check dimensions for changes
+        new_width = pic[0]
+        new_height = pic[1]
+
+        if new_width != self.width or new_height != self.height:
+            print '# Warning: Picture dimensions have changed, old: (%s x %s), new: (%s x %s)' % (self.width, self.height, new_width, new_height)
+
+        self.width = new_width
+        self.height = new_height
+
+        # Check palette for changes
+        new_palette = pic[3].get('palette', [])
+
+        if palette_total != len(new_palette):
+            print '# Warning: Picture palette count has changed, old: %s, new %s' % (palette_total, len(new_palette))
+
+        self.palette = [(c[0], c[1], c[2], (0xFF if len(c) == 3 else c[3])) for c in new_palette]
+
+        # Load content
+        if len(new_palette) == 0:
+            self.content = []
+            color_channel_buffer = [0] * 4
+            color_channel_buffer[3] = 0xFF
+            i = 0
+            for row in pic[2]:
+                for color_channel in row:
+                    color_channel_buffer[i] = color_channel
+                    i += 1
+
+                    if (pic[3]['alpha'] and i == 4) or (not pic[3]['alpha'] and i == 3):
+                        self.content.append((
+                            color_channel_buffer[0],
+                            color_channel_buffer[1],
+                            color_channel_buffer[2],
+                            color_channel_buffer[3]))
+                        i = 0
+
+        else:
+            self.content = [c for row in pic[2] for c in row]
 
 
 if __name__ == '__main__':
@@ -563,9 +610,8 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'hgpt.py <action> <picture.hpt>'
         print ''
-        print 'hgpt.py --info <picture.hpt>'
-        print 'hgpt.py --export <picture.hpt> # Output are files picture.hpt.EXPORT.png and picture.hpt.EXPORT.json'
-        print 'hgpt.py --import <picture.hpt> # Input are files picture.hpt.EXPORT.png and picture.hpt.EXPORT.json'
+        print 'hgpt.py --export <picture.hpt>             # Output are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
+        print 'hgpt.py --import <picture.hpt.PICTURE.png> # Input are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
         sys.exit(0)
 
     action = sys.argv[1]
@@ -577,20 +623,7 @@ if __name__ == '__main__':
         sys.exit(-1)
 
 
-    if action in ('-i', '--info'):
-        #try:
-            print '# Infoing %s:' % input_path
-            picture_wrapper = PictureWrapper()
-            picture_wrapper.open(input_path)
-            picture_wrapper.info()
-            #picture_wrapper.import_pic('test.png')
-            #picture_wrapper.save(input_path + '.REMIT')
-
-        #except Exception, e:
-        #   print 'Error: %s' % e
-        #   sys.exit(-1)
-
-    elif action in ('-e', '--export'):
+    if action in ('-e', '--export'):
         try:
             print '# Exporting %s:' % input_path
             picture_wrapper = PictureWrapper()
@@ -599,6 +632,34 @@ if __name__ == '__main__':
             output_path = input_path
 
             picture_wrapper.export_pic(output_path)
+
+        except Exception, e:
+            print 'Error: %s' % e
+            sys.exit(-1)
+
+    elif action in ('-i', '--import'):
+        try:
+            print '# Importing %s:' % input_path
+            picture_wrapper = PictureWrapper()
+            
+            # Figure out the output path
+            output_path = input_path
+
+            suffix_a = '.PICTURE.json'
+            suffix_b = '.PICTURE.png'
+            if output_path.endswith(suffix_a):
+                output_path = output_path[:-len(suffix_a)]
+
+            elif output_path.endswith(suffix_b):
+                output_path = output_path[:-len(suffix_b)]
+                
+            else:
+                raise Exception('Input path must have a suffix of %s or %s' % (suffix_a, suffix_b))
+
+            picture_wrapper.import_pic(output_path)
+
+            # Save
+            picture_wrapper.save(output_path)
 
         except Exception, e:
             print 'Error: %s' % e

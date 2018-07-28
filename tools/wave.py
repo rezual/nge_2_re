@@ -65,7 +65,7 @@ class WaveArchive(object):
     def unpack(self, file_path):
         counter = 0
         for entry in self.entries:
-            output_file = output_path + ('%s.wav' % counter)
+            output_file = file_path + ('%s.wav' % counter)
             print '#\tWriting %s:' % output_file
             with open(output_file, 'wb') as w:
                 w.write(entry.content)
@@ -74,7 +74,7 @@ class WaveArchive(object):
     def pack(self, file_path):
         counter = 0
         while True:
-            input_file = input_path + ('%s.wav' % counter)
+            input_file = file_path + ('%s.wav' % counter)
             print '#\tReading %s:' % input_file
             if not os.path.exists(input_file):
                 print '#\t\tDoesn\'t exist, no more files to pack'
