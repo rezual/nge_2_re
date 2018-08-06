@@ -1,10 +1,10 @@
 #!/usr/bin/env python2.7
 
-# HGPT converter
-
 # Oddities: 
-# im/im059800.zpt_DECOMPRESSED: It's not a HGPT file, but instead is a HGMT file - which seems to be an untiled, HPT file
-# game/system.har/dbgfont.zmt: The second unknown is neither 0x00000000 nor 0xFFFFFFFF, but instead 0x0000F000 
+# im/im059800.zpt.DECOMPRESSED: It's not a HGPT file, but instead is a HGMT file - which seems to be an untiled, HPT file
+# game/system.har.HGARPACK/dbgfont.zmt.DECOMPRESSED: The second unknown is neither 0x00000000 nor 0xFFFFFFFF, but instead 0x0000F000 
+# game/ja.har.HGARPACK/f013_15a.hpt.DECOMPRESSED: This seems to be a prototype HGPT encoding that uses full 0xFF for alpha and swaps byte order,
+#   with the final one being in event/f013.har.HGARPACK/f013_15a.zpt.DECOMPRESSED
 
 import os
 import struct
@@ -21,7 +21,7 @@ def encode_alpha(alpha):
         return 0x80
     return alpha
 
-class PictureWrapper(object):
+class HgptWrapper(object):
     def __init__(self):
         self.has_extended_header = True
 
@@ -63,7 +63,7 @@ class PictureWrapper(object):
             if unknown_one != 0x0001:
                 raise Exception('First unknown is not 0x0001: %08X' % unknown_one)
 
-            # ff ff ff ff in pics with extended header 
+            # ff ff ff ff in pictures with extended header 
             # 00 00 00 00 in pictures w/o extended header 
             unknown_two = common.read_uint32(f)
             
@@ -116,18 +116,22 @@ class PictureWrapper(object):
 
             # Calculate values that depend on the pp format
             bytes_per_pixel = 1
+            bytes_per_pixel_ppd_size = bytes_per_pixel
             tile_width = 16
 
             if pp_format == 0x8800:
                 bytes_per_pixel = 4
+                bytes_per_pixel_ppd_size = 1
                 tile_width = 4
 
             elif pp_format == 0x13:
                 bytes_per_pixel = 1
+                bytes_per_pixel_ppd_size = bytes_per_pixel
                 tile_width = 16
 
             elif pp_format == 0x14:
                 bytes_per_pixel = 0.5
+                bytes_per_pixel_ppd_size = bytes_per_pixel
                 tile_width = 32
 
             # Read picture display dimensions
@@ -178,9 +182,16 @@ class PictureWrapper(object):
 
             number_of_pixels = calculated_storage_width * calculated_storage_height
 
-            # Read ppd_size which is the size of the ppd section
-            # The size also includes the PPD header in the count, which is 0x20 bytes in size, subtract it (later)
+            # Read ppd_size which is the size of the ppd header + number of pixels
+            # The ppd header which is 0x20 bytes in size
             ppd_size = common.read_uint32(f)
+
+            calculated_ppd_size = int(number_of_pixels * bytes_per_pixel_ppd_size) + 0x20
+            if (calculated_ppd_size != ppd_size):
+                raise Exception ('PPD size %s does not match the calculated ppd size %s' % (ppd_size, calculated_ppd_size))
+
+            # Calculate the number of bytes
+            number_of_bytes = int(number_of_pixels * bytes_per_pixel)
 
             # Skip padding
             f.seek(3 * 4, os.SEEK_CUR)
@@ -188,9 +199,8 @@ class PictureWrapper(object):
             # Read the tiled image data
             # The image data is stored in a scrambled tiled format, so we'll have to reprocess it   
             tiled_image_data = [0] * number_of_pixels
-
             cache_last_pixel = None
-            number_of_bytes = ppd_size - 0x20 # Subtract the header size
+            
             for i in xrange(0, number_of_pixels):
                 if number_of_bytes <= 0:
                     break
@@ -283,21 +293,25 @@ class PictureWrapper(object):
             palette_total = len(self.palette)
             pp_format = 0x13
             bytes_per_pixel = 1
+            bytes_per_pixel_ppd_size = bytes_per_pixel
             tile_width = 16
 
             if palette_total == 0:
                 pp_format = 0x8800
                 bytes_per_pixel = 4
+                bytes_per_pixel_ppd_size = 1 
                 tile_width = 4
 
             elif palette_total == 16:
                 pp_format = 0x14
                 bytes_per_pixel = 0.5
+                bytes_per_pixel_ppd_size = bytes_per_pixel
                 tile_width = 32
             
             elif palette_total == 256:
                 pp_format = 0x13
                 bytes_per_pixel = 1
+                bytes_per_pixel_ppd_size = bytes_per_pixel
                 tile_width = 16
 
             else:
@@ -314,7 +328,10 @@ class PictureWrapper(object):
 
             # PPD Size
             # The size also includes the PPD header in the count, which is 0x20 bytes
-            ppd_size = (storage_width * storage_height * bytes_per_pixel) + 0x20
+            ppd_size = int(number_of_pixels * bytes_per_pixel_ppd_size) + 0x20
+
+            # Calculate the number of bytes
+            number_of_bytes = int(number_of_pixels * bytes_per_pixel)
 
             # Calculate headers
             pp_header  = 0x00007070 | ((pp_format & 0xFFFF) << 16)
@@ -409,7 +426,7 @@ class PictureWrapper(object):
 
             # Write image data
             cache_last_pixel = None
-            number_of_bytes = ppd_size - 0x20 # Subtract the header size
+
             for i in xrange(0, number_of_pixels):
                 if number_of_bytes <= 0:
                     break
@@ -460,7 +477,7 @@ class PictureWrapper(object):
                     common.write_uint8(f, c[2])
                     common.write_uint8(f, encode_alpha(c[3]))
 
-    def export_pic(self, file_path):
+    def export_hgpt(self, file_path):
 
         output_path_metadata = file_path + '.PICTURE.json'
         output_path_helper = file_path + '.PICTURE.HELPER.png' 
@@ -492,24 +509,29 @@ class PictureWrapper(object):
             # Create the canvas
             canvas = [background_color] * (self.width * self.height)
 
+            def is_in_bounds(x, y, width, height):
+                return (x >= 0) and (x < width) and (y >= 0) and (y < height)
+
             # Loop through divisions, plotting them onto the canvas
             for i, (division_x_pos, division_y_pos, division_width, division_height) in enumerate(self.divisions):
+
                 # Get a unique color
                 draw_color = common.unique_color(i, len(self.divisions))
 
                 # Draw an empty square
-                try:
-                    for y in xrange(0, division_height):    
+                for y in xrange(0, division_height):
+                    if is_in_bounds(division_x_pos, division_y_pos + y, self.width, self.height):
                         canvas[(division_y_pos + y) * self.width + (division_x_pos + 0)] = draw_color
+
+                    if is_in_bounds(division_x_pos + division_width - 1, division_y_pos + y, self.width, self.height):
                         canvas[(division_y_pos + y) * self.width + (division_x_pos + division_width - 1)] = draw_color
 
-                    for x in xrange(1, division_width - 1):
+                for x in xrange(1, division_width - 1):
+                    if is_in_bounds(division_x_pos + x, division_y_pos, self.width, self.height):
                         canvas[(division_y_pos + 0) * self.width + (division_x_pos + x)] = draw_color
+
+                    if is_in_bounds(division_x_pos + x, division_y_pos + division_height - 1, self.width, self.height):
                         canvas[(division_y_pos + division_height - 1) * self.width + (division_x_pos + x)] = draw_color
-                except:
-                    # Ignore all failures
-                    # Most likely bounds failures
-                    pass
 
             # Save resulting canvas
             with open(output_path_helper, 'wb') as f:
@@ -528,7 +550,7 @@ class PictureWrapper(object):
                 pw = png.Writer(self.width, self.height, palette=self.palette)
                 pw.write_array(f, self.content)
 
-    def import_pic(self, file_path):
+    def import_hgpt(self, file_path):
 
         input_path_metadata = file_path + '.PICTURE.json'
         input_path_picture = file_path + '.PICTURE.png'
@@ -603,70 +625,60 @@ class PictureWrapper(object):
         else:
             self.content = [c for row in pic[2] for c in row]
 
-
 if __name__ == '__main__':
     import sys
     
     if len(sys.argv) < 3:
         print 'hgpt.py <action> <picture.hpt>'
         print ''
-        print 'hgpt.py --export <picture.hpt>             # Output are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
-        print 'hgpt.py --import <picture.hpt.PICTURE.png> # Input are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
+        print 'hgpt.py -e,--export <picture.hpt>             # Output are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
+        print 'hgpt.py -i,--import <picture.hpt.PICTURE.png> # Input are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
         sys.exit(0)
 
     action = sys.argv[1]
-    input_path = sys.argv[2]
+    input_path = os.path.normpath(sys.argv[2])
     output_path = ''
 
-    if len(input_path) == 0:
-        print 'Error: Empty input path provided'
-        sys.exit(-1)
+    try:
+        if len(input_path) == 0:
+            raise Exception('Empty input path provided')
 
-
-    if action in ('-e', '--export'):
-        try:
+        if action in ('-e', '--export'):
             print '# Exporting %s:' % input_path
-            picture_wrapper = PictureWrapper()
-            picture_wrapper.open(input_path)
+            hgpt_wrapper = HgptWrapper()
+            hgpt_wrapper.open(input_path)
 
             output_path = input_path
+            hgpt_wrapper.export_hgpt(output_path)
 
-            picture_wrapper.export_pic(output_path)
-
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
-
-    elif action in ('-i', '--import'):
-        try:
+        elif action in ('-i', '--import'):
             print '# Importing %s:' % input_path
-            picture_wrapper = PictureWrapper()
+            hgpt_wrapper = HgptWrapper()
             
-            # Figure out the output path
-            output_path = input_path
-
+            # Figure out the base input path,
+            # which will also serve as the output path
             suffix_a = '.PICTURE.json'
             suffix_b = '.PICTURE.png'
-            if output_path.endswith(suffix_a):
-                output_path = output_path[:-len(suffix_a)]
+            if input_path.lower().endswith(suffix_a.lower()):
+                output_path = input_path = input_path[:-len(suffix_a)]
 
-            elif output_path.endswith(suffix_b):
-                output_path = output_path[:-len(suffix_b)]
+            elif input_path.lower().endswith(suffix_b.lower()):
+                output_path = input_path = input_path[:-len(suffix_b)]
                 
             else:
                 raise Exception('Input path must have a suffix of %s or %s' % (suffix_a, suffix_b))
 
-            picture_wrapper.import_pic(output_path)
+            hgpt_wrapper.import_hgpt(input_path)
+            hgpt_wrapper.save(output_path)
 
-            # Save
-            picture_wrapper.save(output_path)
+        else:
+            raise Exception('Unknown action: %s' % action)
+            
+    except Exception, e:
+        import traceback
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
-
-    else:
-        print 'Error: Unknown action: %s' % action
+        print 'Error: %s' % e
+        traceback.print_exc()
         sys.exit(-1)
 
     sys.exit(0)

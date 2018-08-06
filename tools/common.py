@@ -31,6 +31,14 @@ def get_file_size(file_handle):
 def align_size(unaligned_size, alignment):
     return alignment * int((unaligned_size + alignment - 1) / alignment)
 
+def from_nge2_sjis(content):
+    # Convert nge2 SJIS to UTF8 
+    return content
+
+def to_eva_sjis(content):
+    # Convert UTF8 to nge2 SJIS
+    return content
+
 def unique_color(index, total):
     if index == -1:
         return (0, 0, 0)

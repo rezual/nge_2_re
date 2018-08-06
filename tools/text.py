@@ -239,81 +239,64 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'text.py <action> <archive.bin>'
         print ''
-        print 'text.py --export <archive.bin>            # Output is file archive.bin.TEXT.json'
-        print 'text.py --import <archive.bin.TEXT.json>  # Output is file archive.bin'
-        print 'text.py --patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
+        print 'text.py -e,--export <archive.bin>            # Output is file archive.bin.TEXT.json'
+        print 'text.py -i,--import <archive.bin.TEXT.json>  # Output is file archive.bin'
+        print 'text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
         sys.exit(0)
 
     action = sys.argv[1]
-    input_path = sys.argv[2]
+    input_path = os.path.normpath(sys.argv[2])
     output_path = ''
 
-    if len(input_path) == 0:
-        print 'Error: Empty input path provided'
-        sys.exit(-1)
+    try:
+        if len(input_path) == 0:
+            raise Exception('Empty input path provided')
 
-    if action in ('-e', '--export'):
-        try:
+        if action in ('-e', '--export'):
             print '# Exporting %s:' % input_path
-
             text_archive = TextArchive()
             text_archive.open(input_path)
 
-            text_archive.export_text(input_path)
+            output_path = input_path
+            text_archive.export_text(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
-
-    elif action in ('-i', '--import'):
-        try:
+        elif action in ('-i', '--import'):
             print '# Importing %s:' % input_path
             text_archive = TextArchive()
-            text_archive.import_text(input_path)
-
-            # Figure out the output path
-            output_path = input_path
-
+            
             suffix = '.TEXT.json'
-            if not output_path.endswith(suffix):
+            if not input_path.lower().endswith(suffix.lower()):
                 raise Exception('Input path must have a suffix of %s' % suffix)
-            output_path = output_path[:-len(suffix)]
+            output_path = input_path[:-len(suffix)]
 
-            # Save
+            text_archive.import_text(input_path)
             text_archive.save(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
+        elif action in ('-p', '--patch'):
 
-    elif action in ('-p', '--patch'):
+            if len(sys.argv) < 4:
+                print 'text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
+                sys.exit(0)
 
-        if len(sys.argv) < 4:
-            print 'text.py --patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
-            sys.exit(0)
+            patch_path = os.path.normpath(sys.argv[3])
 
-        patch_path = sys.argv[3]
-
-        try:
             print '# Patching %s:' % input_path
-
             text_archive = TextArchive()
             text_archive.open(input_path)
 
-            text_archive.patch(patch_path)
-
-            # Generate output path
             output_path = input_path + '.PATCHED'
 
-            # Save
+            text_archive.patch(patch_path)
             text_archive.save(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
+        else:
+            raise Exception('Unknown action: %s' % action)
+            
+    except Exception, e:
+        import traceback
 
-    else:
-        print 'Error: Unknown action: %s' % action
+        print 'Error: %s' % e
+        traceback.print_exc()
         sys.exit(-1)
 
     sys.exit(0)

@@ -463,8 +463,8 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'evs.py <action> <file.evs>'
         print ''
-        print 'evs.py --export <file.evs>           # Output is file.evs.EVS.json'
-        print 'evs.py --import <file.evs.EVS.json>  # Output is file.evs'
+        print 'evs.py -e,--export <file.evs>           # Output is file.evs.EVS.json'
+        print 'evs.py -i,--import <file.evs.EVS.json>  # Output is file.evs'
         sys.exit(0)
 
     action = sys.argv[1]

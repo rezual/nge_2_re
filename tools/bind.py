@@ -133,20 +133,26 @@ class BindArchive(object):
     def unpack(self, file_path):
         counter = 0
         for entry in self.entries:
-            output_file = file_path + ('%s.bin' % counter)
+            output_file = os.path.join(file_path, ('%s.bin' % counter))
+
             print '#\tWriting %s:' % output_file
+
             with open(output_file, 'wb') as w:
                 w.write(entry.content)
+
             counter += 1
 
     def pack(self, file_path):
         counter = 0
         while True:
-            input_file = file_path + ('%s.bin' % counter)
+            input_file = os.path.join(file_path, ('%s.bin' % counter))
+
             print '#\tReading %s:' % input_file
+
             if not os.path.exists(input_file):
                 print '#\t\tDoesn\'t exist, no more files to pack'
                 break
+
             with open(input_file, 'rb') as f:
                 content = f.read()
             
@@ -159,60 +165,49 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'bind.py <action> <archive.bin>'
         print ''
-        print 'bind.py --unpack <archive.bin>        # Output is dir archive.bin.BINDPACK'
-        print 'bind.py --pack <archive.bin.BINDPACK> # Output is file archive.bin'
+        print 'bind.py -u,--unpack <archive.bin>        # Output is dir archive.bin.BINDPACK'
+        print 'bind.py -p,--pack <archive.bin.BINDPACK> # Output is file archive.bin'
         sys.exit(0)
 
     action = sys.argv[1]
-    input_path = sys.argv[2]
+    input_path = os.path.normpath(sys.argv[2])
     output_path = ''
 
-    if len(input_path) == 0:
-        print 'Error: Empty input path provided'
-        sys.exit(-1)
+    try:
+        if len(input_path) == 0:
+            raise Exception('Empty input path provided')
 
-    if action in ('-u', '--unpack'):
-        try:
+        if action in ('-u', '--unpack'):
             print '# Unpacking %s:' % input_path
             bind_archive = BindArchive()
             bind_archive.open(input_path)
 
-            output_path = input_path + '.BINDPACK' + os.sep
+            output_path = input_path + '.BINDPACK'
             if not os.path.exists(output_path):
                 os.makedirs(output_path)
 
             bind_archive.unpack(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
-
-    elif action in ('-p', '--pack'):
-        try:
+        elif action in ('-p', '--pack'):
             print '# Packing %s:' % input_path
             bind_archive = BindArchive()
 
-            if input_path[-1] == os.sep:
-                output_path = input_path[0:-1]
-            else:
-                output_path = input_path
-                input_path += os.sep
-
             suffix = '.BINDPACK'
-            if not output_path.endswith(suffix):
+            if not input_path.lower().endswith(suffix.lower()):
                 raise Exception('Input path must have a suffix of %s' % suffix)
-            output_path = output_path[:-len(suffix)]
+            output_path = input_path[:-len(suffix)]
 
             bind_archive.pack(input_path)
-
             bind_archive.save(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
+        else:
+            raise Exception('Unknown action: %s' % action)
 
-    else:
-        print 'Error: Unknown action: %s' % action
+    except Exception, e:
+        import traceback
+
+        print 'Error: %s' % e
+        traceback.print_exc()
         sys.exit(-1)
 
     sys.exit(0)
