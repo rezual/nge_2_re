@@ -308,8 +308,8 @@ The `patches` directory contains the following:
 6. **Recurring settled translations:**
 	- These are phrases that may appear often,
 	and it was decided that a more natural translation should be used:
-        	- 1. 心の迷宮 (kokoro no meikyuu): literally "emotional maze", but instead go with "labyrinth of the heart"
-        	- 2. Keel Lorenz, or Kiel Lorenz? Go with Kiel to be in-line with the most recent official translation of Kiel in the `Evangelion Chronicle`, and it's the more realistic German name.
+		- 1. 心の迷宮 (kokoro no meikyuu): literally "emotional maze", but instead go with "labyrinth of the heart"
+		- 2. Keel Lorenz, or Kiel Lorenz? Go with Kiel to be in-line with the most recent official translation of Kiel in the `Evangelion Chronicle`, and it's the more realistic German name.
 7. **Angel Ordinals:**
 	In the `.evs` files, you'll see `第$d使徒` for "The `$d` Angel." The `$d` just fills in a plain integer, and in Japanese the Kanji `第` makes the integer that follows it an ordinal. When translating, this doesn't work since it'll become `The 4 Angel` instead of `The 4th Angel`. 
 	For now, go with `$dth`. We can revisit it by trying to modify the game code to generate the suffix properly later.
