@@ -1,6 +1,6 @@
 # Contributing to the Neon Genesis Evangelion 2: Another Cases (PSP) translation
 
-**This is a WIP guide. Bunch of formatting issues too; will fix soon**
+**This is a WIP guide. Bunch of formatting issues too; will fix once we want to open up the flood-gates**
 
 1. Setting up your Development Environment
 2. Familiarizing yourself with the Game's file formats and directories
@@ -20,7 +20,7 @@
 ### 1. Setting up a PSP emulator with the official Sony font
 If you don't do this, then fonts within the emulator will be glitched/scrambled.
 
-1. Install the PSP emulator "PPSSPP " from: https://www.ppsspp.org
+1. Install the PSP emulator "PPSSPP" from: https://www.ppsspp.org
 2. Run PPSSPP, then go to File -> Open Memory Stick.
 3. A file explorer window should open, with a single directory called "PSP," enter it.
 4. Create a directory within the "PSP" folder called flash0
@@ -62,8 +62,8 @@ The nge_2_re tooling will enable us to import, export, pack, unpack, and patch f
 but instead this is needed for developing the patch.
 1. Go to https://github.com/rezual/nge_2_re
 2. Click the big green "Clone or download" button
-	If you're familiar with Git, then do a Clone
-	If not, for now, do a Zip download,
+	- If you're familiar with Git, then do a Clone
+	- If not, for now, do a Zip download,
 	but do know that to contribute back you'll need to know how to contribute via Git and Github.
 	(If you want some training using Git and Github, see: https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners )
 3. Extract or clone the contents to a local folder called nge_2_re
@@ -139,13 +139,13 @@ So it's clear from above that a lot of the game's content is hidden in archive f
 - WAVE `.bin`
 - BIND `.bin`
 
-To extract it all:
-- on Windows run: TODO, provide a glue script
-- on MacOS X run: TODO, provide a glue script
+To extract it all, run `tools/unpack-all.py`,
+and drag-and-drop the UMD_DATA.BIN located in your unpacked ISO from the `2. Getting the game from the actual UMD and extracting it` step.
+Don't just unpack UMD_DATA.BIN from the ISO! The rest of the files are needed as well! 
 
 This will take a while. Let it run overnight!
 
-What the extract-all scripts do is:
+What the unpack-all.py script does is:
 1. Ask for the path to where you extracted the contents of the game ISO to
 2. Decompresses the standalone `.zpt` pictures in `umd0:/PSP_GAME/USRDIR/im/` by running `tools/zipped.py` on them
 3. Unpacks and decompresses all the `.har` files in `umd0:/PSP_GAME/USRDIR/` by running `tools/hgar.py --decompress` on them (and calls `tools/zipped.py` for us if necessary)
@@ -208,27 +208,27 @@ The `patches` directory contains the following:
 	- Superscripts `⁰`, `¹`, `²`, etc. 
 	- Subscripts `₀`, `₁`, `₂`, etc.
 3. We use Python quotes for containing the original Japanese and the translated text, and as such you need to understand certain concepts such as escape codes.
-	If a `"` signifies the start of a block of text and another `"` signifies the end,
+	- If a `"` signifies the start of a block of text and another `"` signifies the end,
 	how do we create a block of text that has a `"` as part of the text?
-	Let's say we have the following text that we want to put in quotes:
-		```The man's watch "froze" during the monday\tuesday transition```
-		```when the storm happened.```
-	A naive approach might be:
-		```"The man's watch "```froze```" during the monday\t``` ```uesday transition,```
-		```when the storm happened."```
-	This has a couple of issues:
-	- There's a `"` inside the text that's terminating the text-block early.
-	- The line-break is not encapsulated by the `"` and will instead give errors.
-	- The `\t` in `\tuesday` will actually get treated as a tab.
+	- Let's say we have the following text that we want to put in quotes:
+		- ```The man's watch "froze" during the monday\tuesday transition```
+		- ```when the storm happened.```
+	- A naive approach might be:
+		- ```"The man's watch "```froze```" during the monday\t``` ```uesday transition,```
+		- ```when the storm happened."```
+	- This has a couple of issues:
+		- There's a `"` inside the text that's terminating the text-block early.
+		- The line-break is not encapsulated by the `"` and will instead give errors.
+		- The `\t` in `\tuesday` will actually get treated as a tab.
 	
-	This is because there are a set of sequences common across most programming languages, Python included, that start with a `\` and represent other characters.
-	- To have a `"` that's part of the text, it should actually be written as  `\"`
-	- With `\` being used to start special sequences, how to have a `\` that's part of the text? By doubling it up as `\\`
-	- The other escape codes are a line-break, `\n` and tab, `\t`
-	- And finally `\0` denotes a string terminator
-		- The C programming language automatically adds a `\0`, but for this translation project we initially expected that fine control over `\0` placement will be needed but turns out that's not the case. For now continue placing `\0` manually, but we'll probably revisit this and automatically add `\0`.
+	- This is because there are a set of sequences common across most programming languages, Python included, that start with a `\` and represent other characters.
+		- To have a `"` that's part of the text, it should actually be written as  `\"`
+		- With `\` being used to start special sequences, how to have a `\` that's part of the text? By doubling it up as `\\`
+		- The other escape codes are a line-break, `\n` and tab, `\t`
+		- And finally `\0` denotes a string terminator
+			- The C programming language automatically adds a `\0`, but for this translation project we initially expected that fine control over `\0` placement will be needed but turns out that's not the case. For now continue placing `\0` manually, but we'll probably revisit this and automatically add `\0`.
 	
-	Finally with all that said, the correctly quoted text should be written as:
+	- Finally with all that said, the correctly quoted text should be written as:
 	```"The man's watch \"froze\" during the monday\\tuesday transition\nwhen the storm happened.\0"```
 	
 	And regarding character counts, it's important to keep in mind that when counting the number of characters,
@@ -306,10 +306,10 @@ The `patches` directory contains the following:
 	But items and attack names should be capitalized,
 	- Examples: `Ultra Spin Kick`, `Lightning Storm`, `Cold Pizza`
 6. **Recurring settled translations:**
-	These are phrases that may appear often,
+	- These are phrases that may appear often,
 	and it was decided that a more natural translation should be used:
-        1. 心の迷宮 (kokoro no meikyuu): literally "emotional maze", but instead go with "labyrinth of the heart"
-        2. Keel Lorenz, or Kiel Lorenz? Go with Kiel to be in-line with the most recent official translation of Kiel in the `Evangelion Chronicle`, and it's the more realistic German name.
+        	- 1. 心の迷宮 (kokoro no meikyuu): literally "emotional maze", but instead go with "labyrinth of the heart"
+        	- 2. Keel Lorenz, or Kiel Lorenz? Go with Kiel to be in-line with the most recent official translation of Kiel in the `Evangelion Chronicle`, and it's the more realistic German name.
 7. **Angel Ordinals:**
 	In the `.evs` files, you'll see `第$d使徒` for "The `$d` Angel." The `$d` just fills in a plain integer, and in Japanese the Kanji `第` makes the integer that follows it an ordinal. When translating, this doesn't work since it'll become `The 4 Angel` instead of `The 4th Angel`. 
 	For now, go with `$dth`. We can revisit it by trying to modify the game code to generate the suffix properly later.

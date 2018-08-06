@@ -55,9 +55,9 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - [x] Import/Patch TEXT `.bin` files
 - [x] Export `.evs` files
 - [x] Import `.evs` files
-- [ ] Patch `.evs` files
+- [x] Import HGPT pictures 
 - [ ] 99.0% Export HGPT pictures 
-- [ ] 90.0% Import HGPT pictures 
+- [ ] Patch `.evs` files
 - [ ] Compress `.zpt` files/`.har` entries
 - [ ] Write custom PSP CFW plugin to apply translation
 	- Replace directly in memory translated text shorter than the original Japanese text (Easy)
