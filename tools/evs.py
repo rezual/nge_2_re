@@ -82,6 +82,31 @@ function 154: ???(?, ?)
 
 """
 
+FUNCTION_PARAMETER_SIZE = [
+     None,     3,     1,  None,     1,     1,     1,     1,     1,     1,     3,  None,     1,     1,     1,     1,  # 0x00 - 0x0F
+        2,     1,     1,     1,     1,     3,     3,     3,     3,     2,     2,  None,     2,  None,     2,     2,  # 0x10 - 0x1F
+        4,     4,     2,     2,     2,  None,     4,     4,     3,     4,     4,     3,     4,     3,     3,     2,  # 0x20 - 0x2F
+        2,     2,     2,     3,     3,     3,     3,     3,     4,     3,     2,     2,  None,     2,     2,     2,  # 0x30 - 0x3F
+        2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,     2,  # 0x40 - 0x4F
+        2,     2,     2,     2,     2,     3,     2,     1,     1,     1,     1,     1,     1,     1,     1,     1,  # 0x50 - 0x5F
+        1,     1,     1,     2,     2,     1,  None,     1,     1,     0,     0,     0,     0,     0,     0,     0,  # 0x60 - 0x6F
+        0,     0,     0,     0,     0,     0,     0,     0,     2,     1,     0,     0,     0,     1,     1,     1,  # 0x70 - 0x7F
+        0,     0,  None,  None,  None,     1,     0,     1,  None,  None,  None,  None,     1,     1,     1,     1,  # 0x80 - 0x8F
+        1,     1,     1,     1,     1,     0,  None,     0,     1,     2,     2,     2,     2,     1,     1,     2,  # 0x90 - 0x9F
+        1,     1,     1,     1,     1,     1,     2,     3,     3,     1,     1,     1,     1,     1,     1,     2,  # 0xA0 - 0xAF
+        1,  None,     3,     3,  None,     1,  None,     3,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xB0 - 0xBF
+     None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xC0 - 0xCF
+     None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xD0 - 0xDF
+     None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xE0 - 0xEF
+     None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xF0 - 0xFF
+]
+
+def get_number_of_parameters(entry_type):
+    if entry_type >= len(FUNCTION_PARAMETER_SIZE) or entry_type < 0:
+        return None
+
+    return FUNCTION_PARAMETER_SIZE[entry_type]
+
 class EvsWrapper(object):
     def __init__(self):
         self.entries = []
@@ -114,212 +139,12 @@ class EvsWrapper(object):
                 entry_size = common.read_uint16(f)
 
                 # Read entry
-                include_in_output = True #False
-                number_of_parameters = 0 
-                if entry_type == 0x01:
-                    # Japanese text
-                    number_of_parameters = 3
-                    
-                    include_in_output = True
+                number_of_parameters = get_number_of_parameters(entry_type)
+                has_content_section = entry_type in (0x01, 0x8C, 0x8D, 0xA3, 0x8E, 0x95)
 
-                elif entry_type == 0x02:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x04:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x05:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x07:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x0A:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x0D:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x0E:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x11:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x12:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x13:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x14:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x15:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x16:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x18:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x1A:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x1F:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x28:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x29:
-                    # Unknown
-                    number_of_parameters = 4
-                elif entry_type == 0x2A:
-                    # Unknown
-                    number_of_parameters = 4
-                elif entry_type == 0x2B:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x2C:
-                    # Unknown
-                    number_of_parameters = 4
-                elif entry_type == 0x2E:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x2F:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x30:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x31:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x32:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x33:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x34:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0x51:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x52:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x53:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x54:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x56:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x57:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x60:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x65:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x71:
-                    # Unknown / Terminator?
-                    number_of_parameters = 0
-                elif entry_type == 0x72:
-                    # Unknown / Terminator?
-                    number_of_parameters = 0
-                elif entry_type == 0x78:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x79:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x7A:
-                    # Unknown / Terminator?
-                    number_of_parameters = 0
-                elif entry_type == 0x7B:
-                    # Unknown / Terminator?
-                    number_of_parameters = 0
-                elif entry_type == 0x7D:
-                    # Unknown / Terminator?
-                    number_of_parameters = 1
-                elif entry_type == 0x85:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x86:
-                    # Unknown
-                    number_of_parameters = 0
-                elif entry_type == 0x87:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x8C:
-                    # A .zpt file? (compressed HGPT)
-                    number_of_parameters = 1
-                elif entry_type == 0x8D:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x8E:
-                    # A .zpt file? (titlet19.zpt)
-                    number_of_parameters = 1
-                elif entry_type == 0x8F:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x90:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x91:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x92:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x93:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x94:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x95:
-                    # Parameter-less text?
-                    number_of_parameters = 0
-                    
-                    include_in_output = True
-
-                elif entry_type == 0x98:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0x9A:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x9B:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x99:
-                    # Unknown
-                    number_of_parameters = 2
-                elif entry_type == 0x9E:
-                    # Unknown
-                    number_of_parameters = 1
-                elif entry_type == 0xA3:
-                    # A .bin file?
-                    number_of_parameters = 1
-                elif entry_type == 0xA7:
-                    # Unknown
-                    number_of_parameters = 3
-                elif entry_type == 0xB7:
-                    # Unknown
-                    number_of_parameters = 3
-                else:
+                if number_of_parameters is None:
                     # Commands that I've yet to document the parameter count for
-                    include_in_output = False #True     
+                    raise Exception('Unknown number of parameters for entry type: 0x%X, size: %s' % (entry_type, entry_size))
                 
                 # Read the parameters
                 entry_parameters = []
@@ -327,22 +152,19 @@ class EvsWrapper(object):
                     entry_parameters.append(common.read_uint32(f))
 
                 # Whatever remains after the parameters is the content
-                size_adjust = 4 * number_of_parameters
+                parameter_size = 4 * number_of_parameters
+                remaining_bytes = entry_size - parameter_size
 
-                try:
-                    entry_content = f.read(entry_size - size_adjust).decode('shift_jis').encode('utf-8')
-                except (UnicodeDecodeError, UnicodeEncodeError): 
-                    raise Exception('There seems to be an character that cannot be converted to UTF-8. Check the text:' + entry_content)
+                if remaining_bytes < 0:
+                    raise Exception('Number of parameters overshoots total entry size; entry type: 0x%X, size: %s' % (entry_type, entry_size))
 
-                #json.dumps(content, ensure_ascii=False).replace('\\u0000', '\\0')
+                entry_content = f.read(remaining_bytes)
 
-                """if include_in_output:
-                    parameters = ', '.join([format(u, '08X') for u in entry_parameters])
-                    if parameters != '':
-                        parameters += ', '
-                    parameters += json.dumps(entry_content.decode('shift_jis', 'replace').encode('utf-8'), ensure_ascii=False).replace('\\u0000', '\\0')
-                    print '    0x' + format(i, '08X') + ': %s' % entry_size, 'func_' + format(entry_type, '04X') + '(' + parameters + ')'
-                """
+                # Convert encoding
+                entry_content = common.from_eva_sjis(entry_content)
+
+                if not has_content_section and (entry_size != parameter_size):
+                    raise Exception('Extra unannounced content in entry type: 0x%X, size: %s' % (entry_type, entry_size))
 
                 # Add entry
                 self.entries.append((entry_type, entry_parameters, entry_content))
@@ -368,10 +190,7 @@ class EvsWrapper(object):
                 # Calculate the size of this entry,
                 # so that we know when the next entry starts
                 # Convert UTF8 to Shift-JIS
-                try:
-                    entry_content = entry_content.decode('utf-8').encode('shift_jis')
-                except (UnicodeDecodeError, UnicodeEncodeError): 
-                    raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + entry_content)
+                entry_content = common.to_eva_sjis(entry_content)
 
                 # Calculate the entry_size
                 # parameters + content
@@ -403,6 +222,25 @@ class EvsWrapper(object):
                 # Add padding
                 entry_padding = (common.align_size(entry_size, 4) - entry_size)
                 f.write('\0' * entry_padding)
+
+    def patch(self, patch_file):
+        with open(patch_file) as f:
+            import sys
+            patch_dir = os.path.dirname(patch_file)
+            do_remove = patch_dir not in sys.path
+            if do_remove:
+                sys.path.insert(0, patch_dir)
+
+            patch_code = compile(f.read(), patch_file, 'exec')
+            exec(patch_code, globals(), locals())
+
+            if do_remove:
+                sys.path.remove(patch_dir)
+
+        # Loop through strings, applying the translate_map
+        for entry_index, (entry_type, entry_parameters, entry_content) in enumerate(self.entries):
+            if translate_map.get(entry_content, '???') != '???':
+                self.entries[entry_index] = (entry_type, entry_parameters, translate_map[entry_content])
 
     def export_evs(self, file_path):
 
@@ -463,67 +301,65 @@ if __name__ == '__main__':
     if len(sys.argv) < 3:
         print 'evs.py <action> <file.evs>'
         print ''
-        print 'evs.py -e,--export <file.evs>           # Output is file.evs.EVS.json'
-        print 'evs.py -i,--import <file.evs.EVS.json>  # Output is file.evs'
+        print 'evs.py -e,--export <file.evs>             # Output is file.evs.EVS.json'
+        print 'evs.py -i,--import <file.evs.EVS.json>    # Output is file.evs'
+        print 'evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED'
         sys.exit(0)
 
     action = sys.argv[1]
-    input_path = sys.argv[2]
+    input_path = os.path.normpath(sys.argv[2])
     output_path = ''
 
-    if len(input_path) == 0:
-        print 'Error: Empty input path provided'
-        sys.exit(-1)
-
-    if action in ('-i', '--info'):
-        #try:
-            print '%s:' % input_path
-            evs_wrapper = EvsWrapper()
-            evs_wrapper.open(input_path)
-            evs_wrapper.save(input_path + '.TEST')
-            #evs.info()
-        
-        #except Exception, e:
-        #   print 'Error: %s' % e
-        #   sys.exit(-1)
-
-    if action in ('-e', '--export'):
-        try:
-            print '# Exporting %s:' % input_path
-
-            evs_wrapper = EvsWrapper()
-            evs_wrapper.open(input_path)
-
-            evs_wrapper.export_evs(input_path)
-
-        except Exception, e:
-            print 'Error: %s' % e
+    try:
+        if len(input_path) == 0:
+            print 'Error: Empty input path provided'
             sys.exit(-1)
 
-    elif action in ('-i', '--import'):
-        try:
+        if action in ('-e', '--export'):
+            print '# Exporting %s:' % input_path
+            evs_wrapper = EvsWrapper()
+            evs_wrapper.open(input_path)
+
+            output_path = input_path
+            evs_wrapper.export_evs(output_path)
+
+        elif action in ('-i', '--import'):
             print '# Importing %s:' % input_path
             evs_wrapper = EvsWrapper()
-            evs_wrapper.import_evs(input_path)
-
-            # Figure out the output path
-            output_path = input_path
 
             suffix = '.EVS.json'
-            if not output_path.endswith(suffix):
+            if not input_path.lower().endswith(suffix.lower()):
                 raise Exception('Input path must have a suffix of %s' % suffix)
-            output_path = output_path[:-len(suffix)]
+            output_path = input_path[:-len(suffix)]
 
-            # Save
+            evs_wrapper.import_evs(input_path)
             evs_wrapper.save(output_path)
 
-        except Exception, e:
-            print 'Error: %s' % e
-            sys.exit(-1)
+        elif action in ('-p', '--patch'):
 
+            if len(sys.argv) < 4:
+                print 'evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED'
+                sys.exit(0)
 
-    else:
-        print 'Error: Unknown action: %s' % action
+            patch_path = os.path.normpath(sys.argv[3])
+
+            print '# Patching %s:' % input_path
+            evs_wrapper = EvsWrapper()
+            evs_wrapper.open(input_path)
+
+            output_path = input_path + '.PATCHED'
+
+            evs_wrapper.patch(patch_path)
+            evs_wrapper.save(output_path)
+
+        else:
+            raise Exception('Unknown action: %s' % action)
+
+    except Exception, e:
+        import traceback
+
+        print 'Error: %s' % e
+        traceback.print_exc()
         sys.exit(-1)
 
     sys.exit(0)
