@@ -38,7 +38,7 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 
 ## Image Translation Status
 - Images with text:
-	- [ ] Pick all the images with text that need to be translated
+	- [x] Pick all the images with text that need to be translated
 	- [ ] Write up the text translations of the contents in the images
 	- [ ] Modify images, removing text, replacing it with the background
 	- [ ] Modify images, injecting text with proper font
@@ -56,8 +56,8 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - [x] Export `.evs` files
 - [x] Import `.evs` files
 - [x] Import HGPT pictures 
-- [ ] 99.0% Export HGPT pictures 
-- [ ] Patch `.evs` files
+- [x] Export HGPT pictures 
+- [x] Patch `.evs` files
 - [ ] Compress `.zpt` files/`.har` entries
 - [ ] Write custom PSP CFW plugin to apply translation
 	- Replace directly in memory translated text shorter than the original Japanese text (Easy)
@@ -92,15 +92,15 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 	    -   Translation patches for the TEXT  `.bin`'s in the BIND  `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
 	    -   The BIND  `.bin`  will need to be unpacked with  `tools/bind.py --unpack`  and then you can use  `text.py --patch`  to patch the resulting TEXT  `.bin`'s, followed by re-packing the files with  `tools/bind.py --repack`  again
 	-   `evs_#.py`
-	    -   Translation patches for the  `.evs`  scripts found in unpacked event  `.har`  files. They'll need to be patched with  `tools/evs.py`  (WIP) followed by re-injecting the patched  `.evs`  into the  `.har`  file using  `tools/hgar.py --replace-raw`
+	    -   Translation patches for the  `.evs`  scripts found in unpacked event  `.har`  files. They'll need to be patched with  `tools/evs.py` followed by re-injecting the patched  `.evs`  into the  `.har`  file using  `tools/hgar.py --replace-raw`
 - **tools:**
 	- `wave.py`: Pack/Unpack WAVE `.bin` files in: `umd0:/PSP_GAME/USRDIR/voice/` 
 	- `bind.py`: Pack/Unpack BIND `.bin` files, `umd0:/PSP_GAME/USRDIR/game/imtext.bin` and `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
 	- `text.py`: Export/Import/Patch TEXT `.bin` files, found in BIND `.bin` files after unpacking, and `umd0:/PSP_GAME/USRDIR/free/f2tuto.bin` along with `umd0:/PSP_GAME/USRDIR/free/f2info.bin`
 	- `hgar.py`: Unpack/Modify `.har` files. Uses `zipped.py` to decompress, but cannot recompress. Use `--replace-raw` to replace files & turn-off the compression bit, where-as `--replace` keeps the compression bit on.
 	- `zipped.py`: Decompress `.zpt` files, and in the future, be able to recompress (WIP)
-	- `hgpt.py`: Export/Import Pictures (WIP)
-	- `evs.py`: Export Event Scripts (WIP)
+	- `hgpt.py`: Export/Import Pictures
+	- `evs.py`: Export/Import Event Scripts
 - **unused:** These files are no longer used but may be helpful to others
 
 ## Debug Mode:
