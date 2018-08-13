@@ -47,8 +47,8 @@ def unpack_dir(directory_path):
                     # Decompress as well?
                     if file.is_compressed:
                         zip_wrapper = ZipWrapper()
-                        zip_wrapper.open(output_path)
-                        zip_wrapper.decompress_as(output_path + file.get_viable_name())
+                        zip_wrapper.open(output_path + file.get_viable_name())
+                        zip_wrapper.decompress_as(output_path + file.get_viable_name() + '.DECOMPRESSED')
 
         elif filename.endswith(".zpt"):
             if not os.path.exists(combined_path + '.DECOMPRESSED'):
@@ -69,15 +69,7 @@ def unpack_dir(directory_path):
                 hgpt_wrapper.export_hgpt(combined_path)
                 
         elif filename.endswith(".evs"):
-            if not os.path.exists(combined_path + '.EVS.json') and \
-            ('\\bs020.evs' not in combined_path) and \
-            ('\\cev1503.evs' not in combined_path) and \
-            ('\\cev1504.evs' not in combined_path) and \
-            ('\\f035.evs' not in combined_path) and \
-            ('\\n000.evs' not in combined_path) and \
-            ('\\n001.evs' not in combined_path) and \
-            ('\\n002.evs' not in combined_path) and \
-            ('\\n003.evs' not in combined_path):
+            if not os.path.exists(combined_path + '.EVS.json'):
                 print combined_path
                 num_changed += 1
 
@@ -135,22 +127,47 @@ def unpack_dir(directory_path):
 
     return num_changed
 
-print 'NGE2 content unpacker'
-umd_data_bin_path = raw_input("Please enter the path to the UMD_DATA.BIN file (drag and drop it here):")
 
-with open(umd_data_bin_path, 'rb') as f:
-    data = f.read()
-    umd_id = data.split('|')[0]
+if __name__ == '__main__':
+    import sys
 
-    if umd_id != 'ULJS-00064':
-        raise Exception('Error: This is not NGE2, expected to see ID ULJS-00064 in the umd_data.bin file, instead saw %s' % umd_id)
+    print 'NGE2 content unpacker'
 
-umd_path = os.path.join(os.path.dirname(umd_data_bin_path), 'PSP_GAME', 'USRDIR')
+    umd_data_bin_path = None
+    if len(sys.argv) >= 2:
+        umd_data_bin_path = os.path.normpath(sys.argv[1])
 
-if not os.path.exists(umd_path):
-    raise Exception('Error: The file path "%s" does not exist!' % umd_path)
+    while True:
+        if umd_data_bin_path:
 
-print 'Unpacking all from:', umd_path
-unpack_dir(umd_path)
+            if not os.path.exists(umd_data_bin_path):
+                print 'Error: "%s" does not exist' % umd_data_bin_path
+                umd_data_bin_path = None
+                continue
 
-print 'Success'
+            with open(umd_data_bin_path, 'rb') as f:
+                data = f.read()
+                umd_id = data.split('|')[0]
+
+                if umd_id != 'ULJS-00064':
+                    raise Exception('Error: This is not NGE2, expected to see ID ULJS-00064 in the umd_data.bin file, instead saw %s' % umd_id)
+
+                break
+
+        umd_data_bin_path = raw_input("Please enter the path to the UMD_DATA.BIN file (drag and drop it here):\n")
+        if umd_data_bin_path == '':
+            print 'Blank inputted, exiting'
+            sys.exit(0)
+    
+    umd_path = os.path.join(os.path.dirname(umd_data_bin_path), 'PSP_GAME', 'USRDIR')
+
+    if not os.path.exists(umd_path):
+        raise Exception('Error: The file path "%s" does not exist!' % umd_path)
+
+    print 'Unpacking all from:', umd_path
+    while unpack_dir(umd_path) != 0:
+        pass
+
+    print 'Success'
+
+    sys.exit(0)
