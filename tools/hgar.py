@@ -436,11 +436,10 @@ if __name__ == '__main__':
 		# Import the zipped module only if decompressing
 		# to save on load time for other use cases
 		from zipped import ZipWrapper
-		zip_wrapper = ZipWrapper()
+		
 
 		try:
 			print 'Opening %s:' % input_path
-
 			hgar = HGArchive()
 			hgar.open(input_path)
 			
@@ -457,7 +456,9 @@ if __name__ == '__main__':
 
 				# Decompress as well?
 				if file.is_compressed:
-					zip_wrapper.decompress(output_path + file.get_viable_name())
+					zip_wrapper = ZipWrapper()
+					zip_wrapper.open(output_path + file.get_viable_name())
+					zip_wrapper.decompress_as(output_path + file.get_viable_name() + '.DECOMPRESSED')
 
 		except Exception, e:
 			print 'Error: %s' % e
