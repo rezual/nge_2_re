@@ -95,11 +95,8 @@ class TextArchive(object):
                         break
 
                 # Convert Shift-JIS to UTF-8
-                try:
-                    string_content = string_content.decode('shift_jis').encode('utf-8')
-                except (UnicodeDecodeError, UnicodeEncodeError): 
-                    raise Exception('There seems to be an character that cannot be converted to UTF-8. Check the text:' + string_content)
-
+                string_content = common.from_eva_sjis(string_content)
+ 
                 # Convert trailing \0's to a single \0
                 string_content = re.sub('\0+$', r'\0', string_content)
 
@@ -135,10 +132,7 @@ class TextArchive(object):
                 string_offset = previous_string_end
 
                 # Convert UTF8 to Shift-JIS
-                try:
-                    string_content = string_content.decode('utf-8').encode('shift_jis')
-                except (UnicodeDecodeError, UnicodeEncodeError): 
-                    raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + string_content)
+                string_content = common.to_eva_sjis(string_content)
 
                 # Calculate how much memory this string takes
                 string_padded_size = common.align_size(len(string_content), 4)
@@ -174,8 +168,17 @@ class TextArchive(object):
 
     def patch(self, patch_file):
         with open(patch_file) as f:
+            import sys
+            patch_dir = os.path.dirname(patch_file)
+            do_remove = patch_dir not in sys.path
+            if do_remove:
+                sys.path.insert(0, patch_dir)
+
             patch_code = compile(f.read(), patch_file, 'exec')
             exec(patch_code, globals(), locals())
+
+            if do_remove:
+                sys.path.remove(patch_dir)
 
         # Loop through strings, applying the translate_map
         for string_index, (unknown_first, unknown_second, string_content) in enumerate(self.strings):
