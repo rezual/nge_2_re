@@ -1087,12 +1087,13 @@ translate_map = {
 "???", # TODO
 
 ##############################################################################
-# ???
+# Dummy Plug
 ##############################################################################
 "１\nダミープラグ：広報公開情報\n\n"
 "　該当データなし。\n\0":
 
-"???", # TODO
+"１\nDummy Plug: Public Information\n\n"
+"No available data.\n\0",
 
 ##############################################################################
 
@@ -1101,7 +1102,10 @@ translate_map = {
 "　パイロットがいなくても、エヴァを、パイロットがそこに\n"
 "いるかのように思わせる事で起動させる事が出来る。\n\0":
 
-"???", # TODO
+"１\nDummy Plug: General Information\n\n"
+"An entry plug developed for dummy system use.\n"
+"It can activate even an unmanned Eva by making\n" 
+"the Eva believe a pilot is present.\n\0",
 
 ##############################################################################
 
@@ -1115,7 +1119,21 @@ translate_map = {
 "　その失敗例が、ユイやアスカの母である。$n\n\n"
 "　ダミープラグとは、その途中で生まれてきたものである。\n\0":
 
-"???", # TODO
+"３\nDummy Plug: Confidential Information\n\n"
+"The dummy plug has a personality copied to it.\n"
+"However, this can't be done with a soul.\n"
+"Why can't a soul be copied?\n"
+"How might it be accomplished?$n\n\n"
+"These questions prompted a line of inquiry that\n"
+"Seele and Nerv's technology department consider\n"
+"essential to their search for the Way to God.$n\n\n" 
+"Study into how to handle the problem has spanned\n" 
+"many years.$n\n\n"
+"Among the efforts that failed were those of Yui\n"
+"and Asuka's mother.\n"
+"The dummy plug is something that emerged\n"
+"in the midst of the research into\n"
+"soul-copying.\n\0",
 
 ##############################################################################
 
@@ -1125,7 +1143,12 @@ translate_map = {
 "　ただ機能的には大幅に劣り、エヴァを動かすという程度の\n"
 "機能しか持たせられなかった。\n\0":
 
-"???", # TODO
+"１\nDummy Plug: Top Secret Information\n\n"
+"The dummy system is an artificial soul\n" 
+"developed through extensive research.\n"
+"However, it is limited to the ability to make an\n" 
+"Eva activate, leaving much to be desired from a\n" 
+"functional standpoint.\n\0",
 
 ##############################################################################
 # ???
