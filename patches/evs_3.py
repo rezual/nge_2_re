@@ -235,6 +235,8 @@ translate_map = {
 #
 # ./USRDIR/event/f052.har_EXTRACT/f052.evs
 #
+# [Character: Scene with Hyuga]
+#
 # Female Staff
 "ああ、日向さん…。\n\0":
 '???',
@@ -495,9 +497,10 @@ translate_map = {
 "とは、言われたものの本当の\nところはどうだったのだろう。▽\n気になって、仕方がない…。\n\0":
 '???',
 
-
 #
 # ./USRDIR/event/f053.har_EXTRACT/f053.evs
+#
+# [Character: Scene with Aoba]
 #
 # Shigeru Aoba [Flashback]
 "テルオ、また講義サボリかよ。\n\0":
@@ -689,6 +692,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f054.har_EXTRACT/f054.evs
+#
+# [Character: Scene with Kaji]
 #
 # Male Staff
 "加持さん。\n総務部に買い物頼まれてた\nでしょう？▽\nこちら、ですよね？\n\0":
@@ -1732,6 +1737,8 @@ translate_map = {
 #
 # ./USRDIR/event/f059.har_EXTRACT/f059.evs
 #
+# [Psychological: Misato]
+#
 # [Text Only - No Designated Speaker]
 "ふと、ミサトの声が\n聞こえた気がした。\n\0":
 '???',
@@ -1807,7 +1814,7 @@ translate_map = {
 
 # Kozo Fuyutsuki, Gendo Ikari, Misato Katsuragi, Ryoji Kaji, Male Staff
 "やはり人間の敵は、\n同じ人間だったか…。\n\0":
-'???',
+'All along, the enemy of Man\nwas their fellow man...\n\0',
 
 # Makoto Hyuga, Shigeru Aoba
 "人間の敵は、\n同じ人間って事だったのか…。\n\0":
@@ -3409,6 +3416,7 @@ translate_map = {
 # Kozo Fuyutsuki
 "もはや、これまでか…。\n\0":
 '???',
+
 # [Text Only - No Designated Speaker]
 "使徒は、乳濁色の光の霧へとその\n身体を変容させ、光の束となって\n白い巨人の仮面を刺した。\n\0":
 '???',
@@ -3958,7 +3966,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "自爆作動プログラム、\n決行！！\n\0":
-'???',
+'Activate the\nself-destruct program!\n\0',
 
 # [Text Only - No Designated Speaker]
 "側にいた職員と、\n一人一人握手を交わした。▽\n誰一人うつむくものはおらず、\n凛とした表情でミサトへ敬礼をした。\n\0":
@@ -3966,7 +3974,7 @@ translate_map = {
 
 # Gendo Ikari
 "エヴァシリーズだな…。▽\n奴等はリリスを…。\nレイ！！\n\0":
-'???',
+'So it\'s the Eva Series...▽\nLilith, they\'re going to--\n Rei!\n\0',
 
 # Makoto Hyuga, Shigeru Aoba
 "早く、機体とパイロットの回収を。\n\0":
@@ -3978,7 +3986,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "…次は私の番ね。\n\0":
-'... My number is next.\n\0',
+'...Next is my turn.\n\0',
 
 # Maya Ibuki 
 "そんな、私達…、\nここはどうなるの…？\n\0":
@@ -3994,7 +4002,7 @@ translate_map = {
 
 # Ryoji Kaji
 "人類補完計画が発動する。\n奴等の教義が神への道を開くか…。\n\0":
-'The Human Instrumentality Project is invoked.\n So, their dogma will open the Way to God...\n\0',
+'The Human Instrumentality Project is invoked.\nSo, their dogma will open the Way to God...\n\0',
 
 # Kaworu Nagisa 
 "…わかっている。\n老人達が僕の存在を許したのは\nこの時のために…。\n\0":
@@ -4006,12 +4014,12 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "リリスは、一度空を仰ぎ、そして\nゆっくりと、水をすくうように\n初号機を手の中に納めた。\n\0":
-'Lilith looked skyward for a moment,\n then slowly, like scooping water,\n she took Unit-01 into her hands.\n\0',
+'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\n she took Unit-01 into her hands.\n\0',
 
 # [Text Only - No Designated Speaker]
 # I have no idea what\'s supposed to be going on here. 「水をすくうように手を重ねた」?? -Reichu
 "リリスは、一度空を仰ぎ、\nそしてゆっくりと、\n水をすくうように手を重ねた。▽\nリリスが、優しく微笑みかけると、\nその手の中に失われた初号機が\n姿をあらわした。\n\0":
-'Lilith looked skyward for a moment,\n then slowly, like scooping water,\n she overlapped her hands.▽\nPutting on a gentle smile,\nLilith revealed the lost Unit-01\nwithin her hands.\n\0',
+'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\nshe overlapped her hands.▽\nPutting on a gentle smile,\nLilith revealed the lost Unit-01\nwithin her hands.\n\0',
 
 # Seele 01
 "渚カヲル…、\n己が存在、魂はこの時のために…。\n道標となりて、魂を導くがいい。\n\0":
@@ -7900,6 +7908,8 @@ translate_map = {
 "ここは、大丈夫。\nこの星は、私の子らは大丈夫…。\n\0":
 'It is all right.\nThis world and my children will be just fine...\n\0',
 
+# [Scenario 6: Gendo]
+
 #
 # ./USRDIR/event/cev0501.har_EXTRACT/cev0501.evs
 #
@@ -7977,12 +7987,11 @@ translate_map = {
 
 # Gendo Ikari
 "わかっています。\n\0":
-'???',
+'I understand.\n\0',
 
 # Gendo Ikari
 "ユイ…。▽\n全ては、これからだ。\n\0":
 '???',
-
 
 # [Scenario 7: Fuyutsuki]
 
@@ -8677,7 +8686,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "赤木君…。\n\0":
-'???',
+'Akagi-kun...\n\0',
 
 # Ritsuko Akagi 
 "フフフフフフ…。\n\0":
@@ -11768,7 +11777,7 @@ translate_map = {
 #
 # Toji Suzuhara 
 "よぉ、委員長。\n\0":
-'???',
+'Yo, Class Pres.\n\0',
 
 # Hikari Horaki
 "鈴原？\n\0":
@@ -11795,7 +11804,7 @@ translate_map = {
 
 # Rei Ayanami 
 "…どこか、行くの？\n\0":
-'???',
+'Where are you going?\n\0',
 
 # Toji Suzuhara 
 "んー、ちょっと人には\n言えんところなんやけど…。\n\0":
@@ -11837,11 +11846,11 @@ translate_map = {
 
 # Hikari Horaki
 "ねえ…、綾波さん？\n\0":
-'???',
+'Say... Ayanami-san?\n\0',
 
 # Rei Ayanami, Hikari Horaki
 "何…？\n\0":
-'???',
+'Yes...?\n\0',
 
 # Hikari Horaki
 "鈴原と…どこに行ったの？▽\nほら、あの…。\n委員長として、ちょっと。▽\n鈴原ってあんまりマジメじゃないし。\n何か…綾波さんが迷惑な事\nされたんじゃないかなーって。\n\0":
@@ -11853,14 +11862,14 @@ translate_map = {
 
 # Hikari Horaki
 "あ、そ、そう…。\n何を…？\n\0":
-'???',
+'Ah, yes, I see...\nWhat for?\n\0',
 
 #
 # ./USRDIR/event/cev1406.har_EXTRACT/cev1406.evs
 #
 # Hikari Horaki
 "スズハラぁ〜〜〜〜！！\n\0":
-'???',
+'Su-zu-ha-ra!!\n\0',
 
 # Toji Suzuhara 
 "何や、今日は怒られるような\n悪い事してへんぞ。\n\0":
@@ -12086,7 +12095,7 @@ translate_map = {
 
 # Hikari Horaki
 "す、鈴原、待って！！\n\0":
-'???',
+'Su-Suzuhara, wait!\n\0',
 
 # Toji Suzuhara 
 "…あ？\n\0":
@@ -13159,7 +13168,7 @@ translate_map = {
 
 # Shinji Ikari
 "あ、あの犬…！！\n\0":
-'???',
+'It\'s that dog...!\n\0',
 
 # Asuka Soryu Langley
 "あっ、さっきの犬！\n\0":
@@ -13167,7 +13176,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "さっきの犬だわ…。\n\0":
-'???',
+'The dog from before...\n\0',
 
 # Ryoji Kaji
 "お、おい。\nあの犬だぞ、ペンペン！！\n\0":
@@ -13183,7 +13192,7 @@ translate_map = {
 
 # Kensuke Aida
 "タイムリー！！\nさっきの犬だぞ！！\n\0":
-'???',
+'How timely!\nIt\'s that dog from before!\n\0',
 
 # Rei Ayanami 
 "…あ、今の犬は。\n\0":
@@ -13191,19 +13200,19 @@ translate_map = {
 
 # Pen Pen
 "クゥエ〜〜〜〜〜〜。\n\0":
-'???',
+'Kwe...\n\0',
 
 # Female Announcer
 "モカ君は３歳のオス。\nとってもお利口で様々な演技を\n披露してくれます。\n\0":
-'???',
+'Moga-kun is a three-year-old male.\nとってもお利口で様々な演技を\n披露してくれます。\n\0',
 
 # Pen Pen
 "クェ！？\n\0":
-'???',
+'Wark?!\n\0',
 
 # Misato Katsuragi, Shinji Ikari, Asuka Soryu Langley, Ritsuko Akagi, Ryoji Kaji, Toji Suzuhara, Hikari Horaki, Kensuke Aida, Rei Ayanami
 "…オス？\n\0":
-'???',
+'...Male?\n\0',
 
 # Female Announcer
 "しかも、驚くべき事に\nこの毛皮を脱ぐと…、\n\0":
@@ -13257,11 +13266,11 @@ translate_map = {
 #
 # Shinji Ikari
 "使徒、襲来\n\0":
-'???',
+'Angel Attack\n\0',
 
 # Shinji Ikari
 "でも、この世界が好き\n\0":
-'???',
+'But I Like This World\n\0',
 
 # Hikari Horaki
 "（どうしよう、渡さなきゃ。\n　鈴原の為に作ったお弁当…。\n　早く渡さなきゃ、行っちゃう…。）\n\0":
