@@ -8551,7 +8551,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "アラエル\n\0":
-'???',
+'Arael\n\0',
 
 # Misato Katsuragi, Female Staff
 "槍は第一宇宙速度を突破、月軌道に移行。\n\0":
@@ -8816,7 +8816,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "あぁぁぁ…。\n沈む、沈んでまう…。\n抜けられへん………。\n\0":
-'???',
+'Uhhh...\nI\'m sinking, all the way...\nI can\'t get loose.....\n\0',
 
 # Rei Ayanami 
 "影が…！？\n\0":
@@ -8899,15 +8899,15 @@ translate_map = {
 
 # Toji Suzuhara 
 "出せコラー！！\nワレ、出さんかい！！\nこン野郎〜…！！▽\nどうなっとんねん、\nどこやねんここ？▽\n外は何の反応もないし…。\nワシ、一人なんか！？\n\0":
-'???',
+'Gimme a picture, come on!!\nWhy won\'t you show me anything?!\nPiece of shit...!!▽\nWhat\'s going on?\nWhere am I?▽\nI\'m not getting any kind of readings from outside...\nThat means... I\'m all alone?!\n\0',
 
 # Toji Suzuhara 
 "…どんだけ、時間過ぎてんねやろ。\nここで、死ぬんか…ワシ。\n\0":
-'???',
+'...Man. How long\'ve I been here?\nAm I gonna die here?\n\0',
 
 # Toji Suzuhara 
 "……………チッ。▽\n今日、ナイターあるんやった。\n\0":
-'???',
+'......Crap.▽\nI\'ve got a game tonight.\n\0',
 
 # Kaworu Nagisa 
 "恐らくここは、負のエネルギー空間。\nレーダー電波もソナーも\nここじゃ役に立たないな。\n\0":
@@ -9078,7 +9078,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ…\n\0":
-'Heh heh...\n\0',
+'Hahah...\n\0',
 
 # Kaworu Nagisa 
 "これは…？\n\0":
@@ -9103,7 +9103,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ…。\n確認だよ。\n本来の目的を忘れてはいないかい？\n\0":
-'Heh heh...\nSo it\'s true.\nYou haven\'t totally forgotten your original purpose, have you?\n\0',
+'Haha...\nSo it\'s true.\nYou haven\'t totally forgotten your original purpose, have you?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le005.evs
@@ -9118,7 +9118,7 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "…それで結局、\n何のために生きているの？\n\0":
-'???',
+'...So, ultimately,\nwhy do you exist?\n\0',
 
 # Toji's Shadow [Leliel]
 "なあやっぱり、\n自分を演じていくのんって\nしんどいやろ？\n\0":
@@ -10035,7 +10035,7 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "空っぽだから。\n何も無いから見えない。\n理解しようがない。▽\nでもそれは…。\nあなたが目を背けているから。▽\n本当は心の奥底に持っている自分を\n見ないようにしているだけ。\n\0":
-'It\'s because you\'re empty.\nThere\'s nothing inside -to- see.\nNo point in understanding it.▽\nBut there\'s a reason...\nYou are averting your eyes.▽\nIn truth, you\'re doing it solely so you don\'t see\nthe you that\'s in the depths of your heart.\n\0',
+'It\'s because you\'re empty.\nThere\'s nothing inside -to- see.\nNo point in understanding it.▽\nBut there\'s a reason...\nYou\'re averting your eyes.▽\nIn truth, you\'re doing it solely so you don\'t see\nthe you that\'s in the depths of your heart.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le305.evs
@@ -10076,14 +10076,14 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "それでは生きているとは言えない。\n存在しないと同じ。\n\0":
-'If so, you can\'t really call that living.\nIt\'s like you don\'t exist.\n\0',
+'If so, you can\'t really call that living.\nYou may as well not exist.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le309.evs
 #
 # Rei Ayanami 
 "それでいい、それで構わない。\n私が生き、ここにいる。\n\0":
-'That\'s fine. I see no problem with that.\nI am alive, and I am here.\n\0',
+'That\'s fine. I see no problem with that.\nI am here, living.\n\0',
 
 # Rei's Shadow [Leliel]
 "ただ生きていたいだけなら、\n危険なパイロットを\n辞めなければならない。\n\0":
@@ -10105,121 +10105,124 @@ translate_map = {
 #
 # Rei Ayanami 
 "それは私の役目。\n\0":
-'???',
+'It\'s my duty.\n\0',
 
 # Rei's Shadow [Leliel]
 "報われない仕事ね…。\nこれまで誰もあなたの辛さを\n理解しなかった。\n\0":
-'???',
+'Work without reward, is it...?\nSo far nobody\'s appreciated your hardships.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le312.evs
 #
 # Rei Ayanami 
 "私はエヴァに乗る。\n\0":
-'???',
+'I pilot the Eva.\n\0',
 
 # Rei's Shadow [Leliel]
 "あなたの存在意義は\nそこにしかないもの。\n依存しているのね。\n\0":
-'???',
+'That\'s the only thing that gives meaning to your existence.\nYou depend on it.\n\0,
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le313.evs
 #
 # Rei Ayanami 
 "エヴァは人類の希望よ。\n滅亡するわけにはいかない。\n\0":
-'???',
+'Evas are the hope of humanity.\nWe can\'t let ourselves be wiped out.\n\0',
 
 # Rei's Shadow [Leliel]
+# [NOTE] First sentence is certainly wrong. -Reichu
 "そう吹き込まれて、\n誰かに利用されているのかも…。\nあなたの希望ではないのでしょう？\n\0":
-'???',
+'Spouting propaganda like that,\ncould be someone is using you...\nYou don\'t have any hope of your own, am I right?\n\0'
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le314.evs
 #
 # Rei Ayanami 
 "私一人の力じゃ無理…。\n\0":
-'???',
+'It\'s beyond the power of me alone...\n\0',
 
 # Rei's Shadow [Leliel]
 "自分一人では、\n変化も期待できないのね。\n\0":
-'???',
+'You alone lack\nthe potential to change.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le315.evs
 #
 # Rei Ayanami 
 "私は、私だけの体じゃない…。\n私は絆によってこの形になったの。\n\0":
-'???',
+'My body isn\'t mine alone...\nI assumed this form through the bonds I share.\n\0',
 
 # Rei's Shadow [Leliel]
+# [NOTE] Not sure about this. -Reichu
 "でも中身までは作られなかった。\n\0":
-'???',
+'Yet what\'s been created has no actual substance.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le316.evs
 #
 # Rei Ayanami 
 "それでも私はエヴァに乗っている。▽\n絆のために、\n人と人の結びつきのために、\n私は戦っている。\n\0":
-'???',
+'Even so, I pilot the Eva.▽\nFor the bonds I share,\nfor the connections between people --\nthat\'s why I fight.\n\0 ',
 
 # Rei's Shadow [Leliel]
 "エヴァで得たものは\nいずれ消え失せるわ。\n絆も消え失せる。\n\0":
-'???',
+'What you\'ve gained with the Eva\nwill vanish sooner or later.\nThat includes your bonds.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le317.evs
 #
 # Rei Ayanami 
 "あるわ。\n私はここにいる。\n想いもここにあるもの。\n\0":
-'???',
+'They exist.\nI\'m here.\nBecause my feelings, too, exist here.\n\0',
 
 # Rei's Shadow [Leliel]
+# [NOTE] Come back to trouble sentence later. -Reichu
 "想いは移ろいやすいものよ。\nそんなものを根拠にするの？\n相手の気持ちも変わっていく。\n\0":
-'???',
+'Feelings tend to fade with time.\nそんなものを根拠にするの？\nYour companions\' feelings are changing too.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le318.evs
 #
 # Rei Ayanami 
 "私がいた、という記憶は残る。\nみんな、私を忘れない。\n\0":
-'???',
+'Memories of my existence will remain with them.\nThe others won\'t forget me.\n\0',
 
 # Rei's Shadow [Leliel]
 "思い上がりね。\nあなたは誰の記憶にも留まらない。\nただいなくなるだけ。\n\0":
-'???',
+'You\'re too sure of yourself.\nYou won\'t linger in anyone\'s memory.\nMerely fade away, nothing more.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le319.evs
 #
 # Rei Ayanami 
 "消えたりしない。\n永遠に結びつく。\n\0":
-'???',
+'I won\'t disappear or anything.\nI\'m forever connected.\n\0',
 
 # Rei's Shadow [Leliel]
 "一つになりたいのね。\nその人と結びつくのが\nあなたの本当の目的なの？\n\0":
-'???',
+'So you want to become as one.\nBeing joined with these people\nis your true goal, isn\'t it?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le320.evs
 #
 # Rei Ayanami 
 "結ばれた絆は変わらない。\n\0":
-'???',
+'The ties that bind me won\'t change.\n\0',
 
 # Rei's Shadow [Leliel]
 "変わらない…。\nあなたはそう思い込みたいだけ。\n\0":
-'???',
+'"Won\'t change"...\nYou just WANT to believe that.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le321.evs
 #
 # Rei Ayanami 
 "それでもいい…。それでも…。\n\0":
-'???',
+'That is still fine... And yet...\n\0',
 
 # Rei's Shadow [Leliel]
 "想いは流れていく。\n記憶は薄れていく。▽\nそのすべてにあなたは抗わない。\nそれでは人の心に残れない。\n\0":
-'???',
+'Feelings wash away.\nMemories grow dimmer.▽\nYou can\'t fight all of that.\nThat\'s why you won\'t last within people\'s hearts.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le401.evs
@@ -10498,11 +10501,11 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "覚悟の上さ。\nアダムの肉体を取り戻す事以上に\n大切なものって他に何かあるかい？\n\0":
-'???',
+'I\'m ready, besides.\nIs there anything more important\nthan taking back Adam\'s flesh?\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフフ…。\n嘘をついているね。\nずいぶん躊躇しているはずだよ。\n\0":
-'???',
+'Hehehe...\nYou\'re lying, you know.\nYou should be hesitating a great deal.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le505.evs
@@ -10586,7 +10589,7 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "くっ…、\n言うなっ！\n\0":
-'???',
+'Ngh...\nHold your tongue!\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ…、見て見ぬふりかい？\n自分の事なのに…。▽\nともかく、\n今後君はどうするつもりなのかな？\n\0":
@@ -10689,7 +10692,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ、そうは見えないよ。▽\nリリンの中は暖かくて、\n気持ちよかったんだろ？\nもう、すべてを忘れてしまうほどに。\n\0":
-'???',
+'Heh heh, that\'s not what I see.▽\nDon\'t you feel nice and warm\namong the Lilin?\nSo much that you\'ve already forgotten everything.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le007.evs
@@ -10700,7 +10703,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕の魂は僕のものだ。\n身体が滅びても、\nヒトとして生きた事を忘れても。▽\n僕はアダムの運命はもう、\n歩まない…。\n\0":
-'???',
+'My soul is everything I am.\nEven if my body perishes,\neven if I forget living as a human.▽\nI no longer follow\nAdam\'s fate...\n',
 
 # Kaworu Nagisa 
 "僕は、ヒトとして生きた。\n死ぬ時もヒトとして死のう。▽\nさよなら…、みんな…。\n\0":
@@ -10827,11 +10830,11 @@ translate_map = {
 
 # Kyoko Soryu Zeppelin 
 "あなたを待っている人がいるわ。\n\0":
-'???',
+'There are people waiting for you.\n\0',
 
 # Kyoko Soryu Zeppelin 
 "あなたはまだ、生きるのよ。\nアスカ。\nさあ、行きましょう。\n\0":
-'???',
+'You are still alive.\nAsuka.\nCome along now.\n\0',
 
 # ??? [Lilith]
 "そうはいかないわ。\n\0":
@@ -10851,7 +10854,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "だが、この一度だけ。\n僕はアダムになろう…。\nヒトであり続けるために！\n\0":
-'???',
+'But I will become Adam,\njust one more time...\nSo I may continue being human!\n\0',
 
 # Makoto Hyuga, Female Staff
 "爆雷投下、６０秒前。\n\0":
