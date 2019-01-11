@@ -3178,11 +3178,11 @@ translate_map = {
 
 # Shinji Ikari
 "…こちら初号機、\n発進準備お願いします。\n\0":
-'... Unit-01 here,\n requesting launch preparations.\n\0',
+'... Eva-01 here,\n requesting launch preparations.\n\0',
 
 # Asuka Soryu Langley
 "…こちら弐号機、\n発進準備お願いします。\n\0":
-'... Unit-02 here,\n requesting launch preparations.\n\0',
+'... Eva-02 here,\n requesting launch preparations.\n\0',
 
 # Toji Suzuhara 
 "…こちら参号機、\n発進準備お願いします。\n\0":
@@ -3190,7 +3190,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "…こちら四号機、\n発進準備お願いします。\n\0":
-'... Unit-04 here,\n requesting launch preparations.\n\0',
+'... Eva-04 here,\n requesting launch preparations.\n\0',
 
 # Female Staff
 "了解。\nエヴァンゲリオン、起動。\n\0":
@@ -4014,12 +4014,12 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "リリスは、一度空を仰ぎ、そして\nゆっくりと、水をすくうように\n初号機を手の中に納めた。\n\0":
-'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\n she took Unit-01 into her hands.\n\0',
+'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\n she took Eva-01 into her hands.\n\0',
 
 # [Text Only - No Designated Speaker]
 # I have no idea what\'s supposed to be going on here. 「水をすくうように手を重ねた」?? -Reichu
 "リリスは、一度空を仰ぎ、\nそしてゆっくりと、\n水をすくうように手を重ねた。▽\nリリスが、優しく微笑みかけると、\nその手の中に失われた初号機が\n姿をあらわした。\n\0":
-'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\nshe overlapped her hands.▽\nPutting on a gentle smile,\nLilith revealed the lost Unit-01\nwithin her hands.\n\0',
+'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\nshe overlapped her hands.▽\nPutting on a gentle smile,\nLilith revealed the lost Eva-01\nwithin her hands.\n\0',
 
 # Seele 01
 "渚カヲル…、\n己が存在、魂はこの時のために…。\n道標となりて、魂を導くがいい。\n\0":
@@ -7235,105 +7235,106 @@ translate_map = {
 #
 # Rei Ayanami 
 "私が消える。▽\n私が生まれる。▽\n生きるの？\nここで今しばらく生きるの。\n誰が私をそうしたの…？\n\0":
-'???',
+'I am disappearing.▽\nI am being born.▽\nI am alive?\nFor now I exist here.\nWho did this to me?\n\0',
 
 # Rei Ayanami 
 "渦を描いて再び流れる水。\n\0":
-'???',
+'Water, tracing out eddies and flowing once more.\n\0',
 
 # Rei Ayanami 
 "そこにいるのは誰？▽\n私を呼ぶのは誰？▽\n誰？▽\n誰？\n\0":
-'???',
+'Who is there?▽\nWho calls for me?▽\nWho?▽\nWho??▽\n\0',
 
 # Rei Ayanami 
 "目覚めた朝。▽\n初めて見た光。▽\n流れる水。\n滴り落ちる水。\n\0":
-'???',
+'The morning I awakened.▽\nThe first light I saw.▽\nWater flowing.\nWater droplets falling.\n\0',
 
 # Rei Ayanami 
 "………誰？\n\0":
-'???',
+'...Who is it?\n\0',
 
 # Rei Ayanami 
 "ただよう…。▽\nむすぶ…。▽\nひらく…。▽\nしずむ…。▽\nうかぶ…。\n\0":
-'???',
+'Drifting...▽\nConnecting...▽\nOpening...▽\nSinking...▽\nSurfacing...\n\0',
 
 # Rei Ayanami 
+# The translation should work contextually, though it may not be entirely accurate. Investigate further later. --Reichu 
 "…朝？▽\n…そろそろ、行かないと。\n\0":
-'???',
+'...It\'s morning?▽\nI should head out soon.\n\0',
 
 #
 # ./USRDIR/event/cev0302.har_EXTRACT/cev0302.evs
 #
 # Rei Ayanami 
 "月明かり。\n私の体。\n確かにあるもの。▽\n…心、…魂。\n目に見えないもの。\n確かにあるもの。▽\n続いていくもの…。\n\0":
-'???',
+'Moonlight.\nMy body.\nThings that surely exist.▽\nHeart... Soul...\nThings the eye can\'t see.\nThings that surely exist.▽\nThings that will keep going on...\n\0',
 
 # Rei Ayanami 
 "空っぽの部分。\nその向こうにある私は…。▽\n私は………。\n私は誰…、私は何…。▽\n何…？\n\0":
-'???',
+'A part that\'s empty.\nThe me that exists beyond it is...▽\nI am...\nI am whom? I am what?▽\nWhat??\n\0',
 
 # Rei Ayanami 
 "私にあるもの…。▽\n名前。\nこの姿…。▽\nそして、空っぽの部分。▽\n私の中の、\n切り抜かれているものは…。\nどんな姿…、どんな形…？\n\0":
-'???',
+'Things that exist in me.▽\nA name.\nThis form...▽\nAnd, the part that\'s empty.\nThere was something cut out from within me...\nFrom which shape? Which form?\n\0',
 
 #
 # ./USRDIR/event/cev0303.har_EXTRACT/cev0303.evs
 #
 # Female Staff
 "ロンギヌスの槍、松代より到着。\nジオフロント内へ移送します。\n\0":
-'???',
+'Spear of Longinus has arrived from Matsushiro.\nTransferring it into the Geofront.\n\0',
 
 # Kozo Fuyutsuki
 "来たか。\n碇、人類補完計画どおりに\n計画を進めるんだろう。\n\0":
-'???',
+'So it\'s here.\nIkari, it seems plans are moving forward\nin accordance with the Human Instrumentality Project.\n\0',
 
 # Gendo Ikari
 "もちろんだ。\n計画は問題無く進められる。\n\0":
-'???',
+'Of course.\nThings will proceed without incident.\n\0',
 
 # Male Staff
 "ロンギヌスの槍、\nケイジへの移送終了しました。\n\0":
-'???',
+'Transfer of Spear of Longinus\nto Cage completed.\n\0',
 
 # Rei Ayanami 
 "私、ためらってる…？\nなぜ…、どうして…？\nこの槍を、刺すだけでいいのに。\n\0":
-'???',
+'I\'m... faltering?\nBut why?\nAll I have to do is drive the Spear in.\n\0',
 
 # Rei Ayanami 
 "でも…。\nそれが私の役目なら…！\n\0":
-'???',
+'Even so...\nIt\'s my duty, so I\'ll-!\n\0',
 
 # Gendo Ikari
 "来たか。\n\0":
-'???',
+'So it\'s here.\n\0',
 
 # Gendo Ikari
 "ご苦労。\n後の作業はレイに引き継ぐ。\n\0":
-'???',
+'Good work.\nRei will take it from here.\n\0',
 
 # Gendo Ikari
 "レイ、後は頼むぞ。\n\0":
-'???',
+'Rei, I leave the rest to you.\n\0',
 
 # Gendo Ikari
 "神を殺し、\nまた神を生む力を持った\nロンギヌスの槍…か。\n\0":
-'???',
+'The Spear of Longinus,\nwith the power to both kill gods\nand create them...\n\0',
 
 # Kozo Fuyutsuki
 "とうとうきたな。\nロンギヌスの槍…。\n\0":
-'???',
+'It\'s finally here.\nThe Spear of Longinus...\n\0',
 
 # Kozo Fuyutsuki
 "ご苦労、後の作業はレイに引き継ぐ。\n後は任せたぞ、レイ。\n\0":
-'???',
+'Good work. Rei will take it from here.\nThe rest is up to you, Rei.\n\0',
 
 # Rei Ayanami 
 "はい、冬月副司令。\n\0":
-'???',
+'Understood,\nDeputy Commander Fuyutsuki.\n\0',
 
 # Kozo Fuyutsuki
 "ここまでは、\nゼーレのシナリオ通りだな。\n…さて。\n\0":
-'???',
+'Everything so far\nis according to Seele\'s scenario.\nNow then...\n\0',
 
 # Female Staff
 "零号機パイロットは、\nロンギヌスの槍の最終移送を\nお願いします。\n\0":
@@ -7341,7 +7342,7 @@ translate_map = {
 
 # Male Staff
 "ロンギヌスの槍の移送作業、\n完了しました。\n\0":
-'???',
+'Spear of Longinus transfer procedure\nhas been completed.\n\0',
 
 # Female Staff
 "了解、人類補完委員会への\n作業完了報告を行います。\n\0":
@@ -7364,7 +7365,7 @@ translate_map = {
 #
 # Rei Ayanami 
 "また、私を見てる。\n私が私を見ている。▽\n私は何？\n私は今、どんなモノなの…？ \n\0":
-'I am still looking at myself.\nThe me that looks at myself.▽\nWhat am I?\nWhat is it that I am now...?\n\0',
+'It still watches me.\nThe me that looks upon myself.▽\nWhat am I?\nWhat is it that I am now...?\n\0',
 
 # Rei Ayanami 
 "…。▽\n………。▽\n………………。 \n\0":
@@ -7488,7 +7489,7 @@ translate_map = {
 
 # Rei Ayanami 
 "生命の実を手に入れるの？\n\0":
-'???',
+'Will you obtain the Fruit of Life?\n\0',
 
 # ??? [Lilith]
 "そう…。\n白い月の主から奪い取るの。▽\nだから、私は完全にならないと\nいけない。▽\nさあ、戻りなさい…。\n私へ還りなさい…。▽\nあなたはその姿を保てない。\n本来の姿ではないのだから。\n還るところは他にはないのだから。\n\0":
@@ -7499,30 +7500,30 @@ translate_map = {
 #
 # Rei Ayanami 
 "私は…、私の生き方は…。\n私の望みは……………。\n\0":
-'???',
+'I... The way I live...\nWhat I want is......\n\0',
 
 # Rei Ayanami 
 "私の役目は決まっている…。\n目的を知ろうと知らずとも…、\n誰かの為に生きる事なんだわ。\n\0":
-'???',
+'My duty is a settled matter.\nIt\'s living for someone else, even if\nI\'m unaware there\'s a purpose to know.\n\0',
 
 # Rei Ayanami 
 "心が騒ぐ。\n今まで、私の心には碇司令しか\nいなかったのに。▽\n他の人や…、たくさんの出来事が\n私を変えていく。\n\0":
-'???',
+'I feel uneasy.\nEven though, until now, there was\nno onein my heart but Commander Ikari.▽\nOther people, everything that\'s happened,\nthey\'re changing me.\n'
 
 # Rei Ayanami 
 "私は、還らなければならないの？\n誰かの為に…、誰の為に…？\n\0":
-'???',
+'Do I have to go back?\nFor someone... For whom?\n\0',
 
 #
 # ./USRDIR/event/cev0308.har_EXTRACT/cev0308.evs
 #
 # Rei Ayanami 
 "月明かり。\n夜の風。\n水の匂い…。▽\nまどろみ漂う眠りの海。\n\0":
-'???',
+'Moonlight.\nThe night breeze.\nThe scent of water...▽\nThe slumbering sea, adrift in repose.\n\0',
 
 # Rei Ayanami,[Text Only - No Designated Speaker]
 "私が私でなくなる感じ。\n私の形がわからなくなる瞬間。▽\n…。▽\n………。▽\n………………。\n\0":
-'???',
+'The feeling of losing myself.\nA moment in which I no longer comprehend what I am.▽\n...▽\n......▽\n.........▽\n\0',
 
 # [Text Only - No Designated Speaker], Misato Katsuragi, Ritsuko Akagi, Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Gendo Ikari, Kozo Fuyutsuki, Ryoji Kaji
 "…！！\n\0":
@@ -7609,7 +7610,7 @@ translate_map = {
 
 # ??? [Lilith]
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
-'Hurry... Return...\nto this body...\nGive me the Fruit of Life......\n\0',
+'Hurry... Return...\nto this body...\nFruit of Life, give it......\n\0',
 
 # ??? [Lilith]
 "もう、あなたの還る場所は…。\n\0":
@@ -7621,11 +7622,11 @@ translate_map = {
 
 # ??? [Lilith]
 "…生命の……………………………\n………………実を…………………\n………………………………………。\n\0":
-'The Fruit.........\n.....of Life....\n....Give to.......\n\0',
+'Must have Fruit.........\n.....of Life.......\n..............\n\0',
 
 # Rei Ayanami 
 "自分の場所は…、自分で見つける。\n私にはその場所が、あるわ…。\n\0":
-'???',
+'A place of my own... I\'ll find it myself.\nThat place, it lies within me...\n\0',
 
 # Rei Ayanami 
 "待っている人がいる。\n会いたい人がいる。\n\0":
@@ -7701,11 +7702,11 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "会いたい。\n素直にそう思って、駆け出した。\n\0":
-'???',
+'I want to see them.\nBelieving that sincerely, I ran away.\n\0',
 
 # [Text Only - No Designated Speaker]
 "私の心。\n心の向かう先。\n心の向こうのあの人に…。\n\0":
-'???',
+'My heart.\nThe future before my heart.\nStretching to someone beyond my heart.\n\0',
 
 # [Scenario 5: Misato]
 
@@ -8121,7 +8122,7 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [Note] Check verb tenses for accuracy. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
-'She remained in\nUnit-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Unit-01.▽\nYet it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
+'She remained in\nEva-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Eva-01.▽\nYet it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs
@@ -8452,33 +8453,33 @@ translate_map = {
 #
 # ./USRDIR/event/cev0617.har_EXTRACT/cev0617.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "私は意識を向けた。▽\nここではない、私の現実へ。\n\0":
-'???',
+'I redirected my consciousness.▽\nAway from here, and toward my reality.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "…………………………………。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "…………………………………\n…………………………………。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "…………………………………\n…………………………………\n…………………………………。\n\0":
 '???',
 
 # Yui Ikari
 "先生、これ以上は、\n肉体の維持に関わりますよ。\n\0":
-'???',
+'Sensei, you\'ve reached the limit\nof your physical integrity.\n\0',
 
 # Kozo Fuyutsuki
 "私は生命だ。\n生命そのものだよ。\n君と同じさ。\n\0":
-'???',
+'I am alive.\nThe essence of life itself.\nSame as you.\n\0',
 
 # Yui Ikari
 "もう、いいのですか？\n戻られないのですか？\n\0":
-'???',
+'Is it still okay with you?\nThat there\'s no turning back?\n\0',
 
 # (Decision Prompt)
 "戻らない／戻る\0":
@@ -8486,23 +8487,23 @@ translate_map = {
 
 # Yui Ikari, Shinji Ikari
 "そうですか。\n\0":
-'???',
+'I see.\n\0',
 
 # Kozo Fuyutsuki
 "教えてくれ。\n人はどうなっていくのだ。\n\0":
-'???',
+'Tell me, please.\nWhat will become of mankind?\n\0',
 
 # Yui Ikari
 "それはもう、\n先生は知っているはずです。\n\0":
-'???',
+'You should already know\nthe answer.\n\0',
 
 # Kozo Fuyutsuki
 "君の望んだ、人類の姿か？\n\0":
-'???',
+'The form of humanity that you desired?\n\0',
 
 # Yui Ikari
 "問いも答えも\n同じところにあります。▽\nでは、見に行きましょう。\n手を、どうぞ…。\n\0":
-'???',
+'Where questions exist,\nso too do answers.▽\nWell then, shall we go have a look?\nTake my hand...\n\0',
 
 # [Text Only - No Designated Speaker]
 "彼女が私の手を取った。\n私は強く握り返した。▽\nどうして戻ろうなどと\n思えるだろうか。\n\0":
@@ -8519,11 +8520,11 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # How does と言う affect the meaning here? -Reichu
 "一瞬だけ、初号機の前に佇む\n冬月を見た者がいた。▽\n彼は、初号機へ手を伸ばし、\n次の瞬間には消えていたと言う。\n\0":
-'For just a moment, someone saw\nFuyutsuki standing in front of Unit-01.▽\nHe extended his hands to Unit-01,\nand disappeared an instant later.\n\0',
+'For just a moment, someone saw\nFuyutsuki standing in front of Eva-01.▽\nHe extended a hand to Eva-01,\nand disappeared an instant later.\n\0',
 
 # [Text Only - No Designated Speaker]
 "それが、最後の目撃となった。▽\nその後、冬月の姿を見る者は、\n誰もいなかった。\n\0":
-'That was to be the last sighting.▽\nEver since then,\nno one has seen Fuyutsuki.\n\0',
+'That became the final sighting on record.▽\nNot one soul has seen\nFuyutsuki ever since.\n\0',
 
 # Yui Ikari
 "いずれ会えます。\n先生達や、全ての人々が\nここを訪れるよう…待っています。\n\0":
