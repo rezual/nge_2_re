@@ -5561,7 +5561,7 @@ translate_map = {
 
 # Shinji Ikari
 "ベースギター…ですね。\n\0":
-'A base guitar, huh?\n\0',
+'A bass guitar, huh?\n\0',
 
 # Shigeru Aoba
 "ああ、音階はチェロと同じだ。\n何となくわかるだろ？\n\0":
@@ -7702,7 +7702,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "会いたい。\n素直にそう思って、駆け出した。\n\0":
-'I want to see them.\nBelieving that sincerely, I ran away.\n\0',
+'I want to see them.\nBelieving that with all my heart, I started running.\n\0',
 
 # [Text Only - No Designated Speaker]
 "私の心。\n心の向かう先。\n心の向こうのあの人に…。\n\0":
@@ -7713,6 +7713,26 @@ translate_map = {
 #
 # ./USRDIR/event/cev0401.har_EXTRACT/cev0401.evs
 #
+# Kozo Fuyutsuki
+"………１５年ぶりだな。\n\0":
+'???',
+
+# Gendo Ikari
+"ああ、まちがいない。\n使徒だ。\n\0":
+'Yes. Without a doubt,\nit\'s an Angel.\n\0',
+
+# Misato Katsuragi 
+"碇シンジ君ね。\nごめん、お待たせ！！\n\0":
+'Shinji Ikari, right?\nSorry I\'m late!\n\0',
+
+# Shinji Ikari
+"…あ、あ、あ、あの。\n\0":
+'???',
+
+# Misato Katsuragi 
+"私はミサト、葛城ミサト。\nあなたを迎えに来たの。\n乗って！！\n\0":
+'???',
+
 # Misato Katsuragi 
 "私は葛城ミサト。▽\n特務機関ネルフ、\n戦術作戦部作戦局第一課所属。\n\0":
 '???',
@@ -7729,48 +7749,20 @@ translate_map = {
 "かまいませんね？\n\0":
 '???',
 
-# Kozo Fuyutsuki
-"………１５年ぶりだな。\n\0":
-'???',
-
-# Gendo Ikari
-"ああ、まちがいない。\n使徒だ。\n\0":
-'Yes. Without a doubt,\nit\'s an Angel.\n\0',
-
-# Misato Katsuragi 
-"私の戦いが、始まる…。\n\0":
-'My fight begins...\n\0',
-
 # Gendo Ikari
 "もちろんだ、\n使徒を倒さぬ限り、我々に\n未来はない。\n\0":
 '???',
 
 # Misato Katsuragi 
-"碇シンジ君ね。\nごめん、お待たせ！！\n\0":
-'Shinji Ikari, right?\nSorry I\'m late!\n\0',
-
-# Shinji Ikari
-"…あ、あ、あ、あの。\n\0":
-'???',
-
-# Misato Katsuragi 
-"私はミサト、葛城ミサト。\nあなたを迎えに来たの。\n乗って！！\n\0":
-'???',
+"私の戦いが、始まる…。\n\0":
+'My fight begins...\n\0',
 
 #
 # ./USRDIR/event/cev0402.har_EXTRACT/cev0402.evs
 #
-# [Text Only - No Designated Speaker]
-"使徒との戦いが終わるまで…、\n私はきっと、\n父の姿を追い求めてしまう。\n\0":
-'Until the battle with the Angels is over...\nI know I\'ll be pursuing my father\'s image,\nwith everything I have.\n\0',
-
-# [Text Only - No Designated Speaker]
-"ただ、父の復讐の為だけに\n私は戦っているのかもしれない。▽\nそうやって、\n父からの呪縛を誤魔化す為に。\n\0":
-'Maybe I\'m only fighting\nso I can avenge him.▽\nTo escape the spell\nhe put on me that way.\n\0',
-
 # Misato Katsuragi 
 "いつもいつも、\n母さんは泣いていた。▽\n家に帰らない父さんを\n待ちながら…。\n\0":
-'Mother was always crying.\nAlways.▽\nWhile she waited for my father,\nwho would never come home...\n\0',
+'My mother was always crying.\nAlways.▽\nWhile she waited for my father,\nwho would never come home...\n\0',
 
 # [Text Only - No Designated Speaker]
 "父さんはいつも笑っていた。\nなのに、いつも遠くて。\n母さんや私からは遠くて。▽\n自分の夢の中にばかり\n生きる父を…私は憎んでいた。▽\n嫌いだった。\n家族を放って、笑っていられる\n父が許せなかった。▽\nだけど、最後には、\nセカンドインパクトのあの日には\n私をかばって…父は死んだ。\n\0":
@@ -7791,6 +7783,14 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 "でも、本当は…\n父を求めて、\n父と同じ組織のネルフに入った。\n\0":
 'But really...\nI joined Nerv, the same organization\nas my father\'s, in pursuit of him.\n\0',
+
+# [Text Only - No Designated Speaker]
+"使徒との戦いが終わるまで…、\n私はきっと、\n父の姿を追い求めてしまう。\n\0":
+'Until the battle with the Angels is over...\nI know I\'ll be pursuing my father\'s image,\nwith everything I have.\n\0',
+
+# [Text Only - No Designated Speaker]
+"ただ、父の復讐の為だけに\n私は戦っているのかもしれない。▽\nそうやって、\n父からの呪縛を誤魔化す為に。\n\0":
+'Maybe I\'m only fighting\nso I can avenge him.▽\nTo escape the spell\nhe put on me that way.\n\0',
 
 #
 # ./USRDIR/event/cev0403.har_EXTRACT/cev0403.evs
@@ -7817,16 +7817,8 @@ translate_map = {
 #
 # ./USRDIR/event/cev0405.har_EXTRACT/cev0405.evs
 #
-# Ryoji Kaji
-"ああ、これからだ。\n\0":
-'???',
-
 # Misato Katsuragi 
 "パイロットの回収作業、\n急いで！！▽\nそれから、総員退避。\n\0":
-'???',
-
-# Maya Ibuki 
-"あれ…は、何…。\nレイ！？\n\0":
 '???',
 
 # Makoto Hyuga, Male Staff
@@ -7837,13 +7829,41 @@ translate_map = {
 "半径２０キロ以内の全市民にも\n避難勧告を。▽\nパイロットを救出後、\nエヴァには自爆プログラムを\n急いで！\n\0":
 '???',
 
+# Gendo Ikari
+"人類の母、リリスとの融合を\n果たし、すべてを始まりに還す。\n\0":
+'We will achieve fusion with Lilith, the mother of humanity,\nand everything will be returned to the beginning.\n\0',
+
+# Misato Katsuragi 
+"させません。\n\0":
+'???',
+
+# Misato Katsuragi 
+"ネルフを、\nそして父を利用したあなたを\n私は許さない…。\n\0":
+'???',
+
+# Misato Katsuragi 
+"世界は生き続けるわ。\nどんな事になろうとも。\n一人一人が生きようとする限り。▽\n誰にも侵せない。\n生きていこうとするその思いだけは。▽\n…………………………。\n\0":
+'???',
+
+# Misato Katsuragi 
+"レイ…。\nどこへでも行きなさい。\nあなたは自分の為に生きられるわ。\n\0":
+'???',
+
+# Rei Ayanami 
+"…いいえ。\n私は還るわ。\n私が元いた、あの闇の中へ。▽\n…さよなら。\n\0":
+'???',
+
+# Maya Ibuki 
+"あれ…は、何…。\nレイ！？\n\0":
+'???',
+
 # Male Staff
 "あれは何だ…。\nファースト…！？\n\0":
 '???',
 
-# Gendo Ikari
-"人類の母、リリスとの融合を\n果たし、すべてを始まりに還す。\n\0":
-'We will achieve fusion with Lilith, the mother of humanity,\nand everything will be returned to the beginning.\n\0',
+# Rei Ayanami 
+"ここは、大丈夫。\nこの星は、私の子らは大丈夫…。\n\0":
+'It is all right.\nThis world and my children will be just fine...\n\0',
 
 # Seele 01
 "リリスが…、我等の願いが…\n去っていく…。\n\0":
@@ -7862,18 +7882,6 @@ translate_map = {
 '???',
 
 # Misato Katsuragi 
-"させません。\n\0":
-'???',
-
-# Misato Katsuragi 
-"ネルフを、\nそして父を利用したあなたを\n私は許さない…。\n\0":
-'???',
-
-# Misato Katsuragi 
-"私の戦いはもう…、終わったの…。\n\0":
-'???',
-
-# Misato Katsuragi 
 "もう、終わったのね。\n全部…、何もかも…。\n\0":
 '???',
 
@@ -7885,29 +7893,21 @@ translate_map = {
 "これからなのね…。\n\0":
 '???',
 
+# Ryoji Kaji
+"ああ、これからだ。\n\0":
+'???',
+
+# Misato Katsuragi 
+"私の戦いはもう…、終わったの…。\n\0":
+'My battle is already over...\n\0',
+
 # [Text Only - No Designated Speaker]
 "傷口の紅が、身体を伝う。\n膝を突いて、空を見上げた。\n\0":
 '???',
 
 # Misato Katsuragi 
-"世界は生き続けるわ。\nどんな事になろうとも。\n一人一人が生きようとする限り。▽\n誰にも侵せない。\n生きていこうとするその思いだけは。▽\n…………………………。\n\0":
-'???',
-
-# Misato Katsuragi 
-"レイ…。\nどこへでも行きなさい。\nあなたは自分の為に生きられるわ。\n\0":
-'???',
-
-# Rei Ayanami 
-"…いいえ。\n私は還るわ。\n私が元いた、あの闇の中へ。▽\n…さよなら。\n\0":
-'???',
-
-# Misato Katsuragi 
 "………れた。\nもう…、疲れたわ。▽\n父さん…、みんな…。\nもう、終わったの。\n全部…、何もかも…。\n\0":
 '???',
-
-# Rei Ayanami 
-"ここは、大丈夫。\nこの星は、私の子らは大丈夫…。\n\0":
-'It is all right.\nThis world and my children will be just fine...\n\0',
 
 # [Scenario 6: Gendo]
 
@@ -7916,75 +7916,77 @@ translate_map = {
 #
 # Keel Lorenz
 "かねてより危惧されていた使徒\n出現が、ついに現実の事となった。\n\0":
-'???',
+'As we had feared, the arrival of the\nAngels has finally become reality.\n\0',
 
 # Committeeman A
 "まぁ、予想通り、世界は大混乱、\nというやつだな。\n\0":
-'???',
+'Well, that it plunged the world\ninto chaos was expected.\n\0',
 
 # Committeeman B
 "フン。\n１５年前と同じか。\n\0":
-'???',
+'Hmm.\nSo it\'s the same as fifteen years ago.\n\0',
 
 # Committeeman C
+# [NOTE] Not sure if intended meaning is conveyed. -Reichu
 "予測しえない出来事に対しては、\n昔からパニック以外の手段を\n持たないのが我々人間ですからね。\n\0":
-'???',
+'We humans lack the means\nto predict anything, save\nfor the inevitable panic.\n\0',
 
 # Committeeman D
 "ゲシュタルト崩壊かね。\n当然の事だよ。\n\0":
-'???',
+'Surely the Gestalt will crumble.\nIt\'s a matter of course.\n\0',
 
 # Keel Lorenz
 "かといって、\n何もしないわけにはいかん。\n\0":
-'???',
+'At the same time\nour hands cannot lie idle.\n\0',
 
 # Committeeman A
+# [Note] An older translation. Check it later for accuracy and to condense. -Reichu
 "そうですな。\n今やエヴァの存在までも\n周知の事実となってしまった。▽\n今日まで隠蔽していた\nネルフの組織活動も\nある程度は、公開せざるを得ない。\n\0":
-'???',
+'Indeed.\nNow even the Evas\' existence\nhas become common knowledge.▽\nThe organization Nerv had been kept secret up to this point,\nbut now we have no choice but to disclose\nits activity to the public... to an extent.\n\0',
 
 # Gendo Ikari, Kozo Fuyutsuki, Ritsuko Akagi, Misato Katsuragi, Female Staff
 "使徒の正体、襲来の理由。\n発表しなければならない事は\n山ほどあります。\n\0":
-'???',
+'The nature of the Angels, and why they attack.\nThere\'s much that requires\nan official statement.\n\0',
 
 # Committeeman B
 "ハハハ、\n相手の正体もわからずにかね？\n\0":
-'???',
+'Hahaha,\nwithout even -us- knowing their true nature?\n\0',
 
 # Gendo Ikari
 "もちろん真相は控えます。▽\nが、ネルフでは、考え得る限りの\nダミーのシナリオ、及びシミュレー\nションが既に用意してあります。\n\0":
-'???',
+'Naturally, the truth is being reticent.▽\nBut all conceivable dummy\nscenarios and simulations are\nalready being prepared by Nerv.\n\0',
 
 # Committeeman C
 "まさか、再び現れるとはな。\n\0":
-'???',
+'Their reappearance is beyond belief.\n\0',
 
 # Committeeman A
 "だが、皮肉な事に我々は、この時の\nために巨額の先行投資をしている。\n\0":
-'???',
+'How ironic, then, that we invested so\nmuch toward this very moment.\n\0',
 
 # Committeeman D
 "左様。\n現れませんでした、\nではすまされませんぞ。\n\0":
-'???',
+'Indeed.\nThere was no way they\ncould simply NOT show up.\n\0',
 
 # Committeeman B
 "ネルフとエヴァ、\n無駄にはなりませんでしたな。\n\0":
-'???',
+'Nerv and the Evas\nhave not been for naught.\n\0',
 
 # Keel Lorenz
 "そいつはわからんよ。\n役に立たなければ、同じ事だ。▽\nいずれにせよ、\nセカンドインパクト。▽\nあの悲劇を繰り返すわけにはいかん。\n\0":
-'???',
+'We don\’t know that.\nIf they\'re not useful, it\'s a waste all the same.▽\nIn any event:\nSecond Impact.▽\nThat tragedy cannot be allowed to recur.\n\0',
 
 # Committeeman A
 "賛成だな。\nだがそのための時間と\n人と金をどうするか。\n\0":
-'???',
+'Agreed.\nBut what should be done about the time,\nmanpower, and money required?\n\0',
 
 # Committeeman D
 "頭の痛い問題だな。\n\0":
-'???',
+'It\'s quite the headache.\n\0',
 
 # Keel Lorenz
 "では、ご苦労だったな。\nあとは委員会の仕事だ。▽\n君たちネルフには\n絶大な権限が委譲されている。▽\n今後の進展に期待してるぞ。\n\0":
-'???',
+'Now then, your efforts have been appreciated.\nThe rest is committee business.▽\nYou\'ve been given incredible authority with Nerv.▽\nWe will be expecting further progress.\n\0',
 
 # Gendo Ikari
 "わかっています。\n\0":
@@ -7992,7 +7994,7 @@ translate_map = {
 
 # Gendo Ikari
 "ユイ…。▽\n全ては、これからだ。\n\0":
-'???',
+'Yui...▽\nIt all follows from here.\n\0',
 
 # [Scenario 7: Fuyutsuki]
 
@@ -8000,9 +8002,8 @@ translate_map = {
 # ./USRDIR/event/cev0601.har_EXTRACT/cev0601.evs
 #
 # Kozo Fuyutsuki
-# [NOTE] This text block not completed yet. -Reichu
 "例えば、このケース。\n一人の男を被験者として、\n実験を行ったものだ。▽\n誘導催眠において、\n火傷をしたという擬似的な\n記憶を作り出した。▽\n明確な火傷の状況を与えると、\n実験後、身体に火傷の跡が現れた。▽\n一種の体験を作り出し、他人が\nその意識、記憶に干渉する事は\n現在も研究が行われており…。▽\n人は、普段体験している現実と違う\nもう一つの現実を生み出す可能性を\n持っているものだと思われる。\n\0":
-'This case, for instance.\nAn experiment was conducted,\nusing a man as the test subject.▽\nThrough induced hypnosis,\nthey generated false memories\nthat he was burnt.▽\n明確な火傷の状況を与えると、\nburn scars appeared on his body after the experiment.▽\nCreating a kind of personal experience, others\ntampering with consciousness and memoryは\n現在も研究が行われており…。▽\nHumans appear to have the potential to\ncreate another reality, one different from\nthat normally being experienced.\n\0',
+'This case, for instance.\nAn experiment was conducted,\nusing a man as the test subject.▽\nThrough induced hypnosis,\nthey generated false memories\nthat he had been burnt.▽\nWhen suggested situations that would clearly burn him,\nburn scars appeared on the man\'s body after the experiment.▽\nA sort of personal experience being created;\none\'s consciousness and memory facing outside interference\n-- research on these is being carried out as we speak.▽\nHumans appear to have the potential to\ncreate another reality, one different from\nthat normally being experienced.\n\0',
 
 # Kozo Fuyutsuki
 "時間だ。\n続きは来週にしよう。\n\0":
@@ -8028,17 +8029,17 @@ translate_map = {
 "ありがとうございます。\n\0":
 'Thank you very much.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "彼女からは、\nラベンダーの香りがした。\n\0":
 'There was the scent of\nlavender about her.\n\0',
 
 # Kozo Fuyutsuki
 "碇ユイ君…だったね？\n君はこの先どうするつもりかね。▽\n就職か？\nそれとも大学院に進んで、\n研究室に入るつもりかな？▽\n推薦状が必要なら、いつでも書くよ。\n\0":
-'???',
+'Yui Ikari, was it?\nWhat are your plans for the future?▽\nWill you look for work?\nOr maybe go on to graduate school,\nand join a research lab?▽\nI can write you a letter of recommendation whenever you need one.\n\0',
 
 # Yui Ikari
 "まだそこまで考えてはいません。\nそれに第３の選択もあるんじゃ\nありません？\n\0":
-'???',
+'I still haven\'t thought that far ahead.\nAnd isn\'t there a third option,\nbesides?\n\0',
 
 # Kozo Fuyutsuki
 "第３の選択？\n\0":
@@ -8046,7 +8047,7 @@ translate_map = {
 
 # Yui Ikari
 "家庭に入ろうかと思ってるんですよ。\nいい人がいればの話ですけど。\n\0":
-'???',
+'I\'m considering the domestic life.\nBut that\'s only if I find the right person.\n\0',
 
 # Kozo Fuyutsuki
 "それが、彼女…、\n碇ユイとの出会いだった。\n\0":
@@ -8057,31 +8058,32 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "そのバックボーンとなる組織を\nゼーレと言う。\n\0":
-'???',
+'The organization backing her\nwas called Seele.\n\0',
 
 # Kozo Fuyutsuki
 "碇…か。\n\0":
-'???',
+'Ikari... huh?\n\0',
 
 # Kozo Fuyutsuki
 "だが、碇の思惑がどうあれ…、\n彼女は碇と共に歩く事を\n選んだのだ。\n\0":
-'???',
+'Yet regardless of Ikari\'s motivations...\nshe chose to walk\nbeside him.\n\0',
 
 # Kozo Fuyutsuki
+# Not at all satisfied with the rendition here. Might be totally wrong. -Reichu
 "彼女は…、私には到底、\n届く事の出来ない存在だった。\n\0":
-'???',
+'She was... someone who\ncouldn\'t possibly look my way.\n\0',
 
 # Kozo Fuyutsuki
 "そういえば、あの男の第一印象は\nイヤな男だったな…。▽\nだが、その男に連れ添う\n女性の名を知った時、\n私は驚きを隠せなかった。\n\0":
-'???',
+'On that note, my first impressions\nof him were unpleasant.▽\nBut when I learned the name of she who married that man, I couldn\'t conceal my shock.\n\0',
 
 # Kozo Fuyutsuki
 "彼は、彼女…碇ユイの才能と\nそのバックボーンを目当てに\n近づいたと仲間内では言われていた。\n\0":
-'???',
+'It was rumoured among my peers that\nhe approached Yui Ikari with intentions\nupon both her talent and her backers.\n\0',
 
 # Kozo Fuyutsuki
 "彼女は、そのゼーレ有力者の一人の\n子女であり、碇はそこに目をつけた。\n\0":
-'???',
+'She was the only child of an influential Seele\nmember, a fact Ikari had his sights set on.\n\0',
 
 #
 # ./USRDIR/event/cev0603.har_EXTRACT/cev0603.evs
@@ -8092,16 +8094,16 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "人類補完計画。\n碇が提案したその計画に私は賭けた。▽\n人々の心を一つにし、安らぎの時を\n永遠に生きる。▽\n初号機に宿る彼女の魂さえも\n一つにして…。\n\0":
-'The Human Instrumentality Project.\nI took a gamble on the plan that Ikari proposed.▽\nUnifying the hearts of all people,\nwe would live perpetually in peace.▽\nEven joining just with her soul, residing in Unit-01, would be...\n\0',
+'The Human Instrumentality Project.\nI took a gamble on the plan that Ikari proposed.▽\nUnifying the hearts of all people,\nwe would live perpetually in peace.▽\nEven joining just with her soul, residing in Eva-01, would be...\n\0',
 
 # Kozo Fuyutsuki
 "２００４年、エヴァ初号機との\n接触実験で被験者となった彼女は、\nそのまま帰らぬ人となった。\n\0":
-'In 2004, she became the test subject for the\ncontact experiment with Eva Unit-01.\nAnd right after, she became the one who would never return.\n\0',
+'In 2004, she became the test subject for the\ncontact experiment with Eva Unit-01.\nShe never returned from it.\n\0',
 
 # Kozo Fuyutsuki
-# [NOTE] This text block not completed yet. Check それぞれ色が違うというのに. -Reichu
+# [NOTE] Unsure about それぞれ色が違うというのに. Same with 彼女は．．．と言うものだ。 -Reichu
 "久しぶりに、\nあの論文を手に取った。▽\n彼女…、碇ユイの\nあの論文だ。▽\n生物同士による、\n意識のリンクの可能性。▽\nそれぞれ色が違うというのに、\n群れ集まって花のような擬態を\n作り上げる虫がいる。▽\nその虫達の共同体から、一つの\n意識が構成されているという\n仮説があるのだ。▽\n彼女は人間、また他生物も\n同じように意識の繋がりを持ち…、▽\nそれらが干渉しあう事で、\n進化の糸口を生み出すと言う\nものだった。▽\n生物の変性意識を人工的に\n作り出し…、それらを一つにまとめ、\n進化させる。▽\n人類補完計画の雛型となる\n理論となっていた。\n\0":
-'For the first time in a while,\nI picked up the thesis.▽\nThe one by her...\nYui Ikari.▽\n"The possibility of linking\nconsciousness between organisms."▽\nThere are insects that produce camouflage\nsimilar to a bed of flowers, even\nthough several colors are different.▽\nThere is a hypothesis that says\na singular awareness is being organized\nfrom the collective of these insects.▽\n彼女は人間、また他生物も\n同じように意識の繋がりを持ち…、▽\nそれらが干渉しあう事で、\n進化の糸口を生み出すと言う\nものだった。▽\nArtificially creating altered organic\nconsciousnesses..., bringing them all\ntogether, and evolving them.▽\n人類補完計画の雛型となる\n理論となっていた。\n\0',
+'For the first time in a while,\nI picked the thesis up.▽\nThe one by her...\nYui Ikari.▽\nThe possibility of linking\nconsciousness between organisms.▽\nThere are insects that produce camouflage\nsimilar to a bed of flowers, even\nthough several colors are different.▽\nThere is a hypothesis that says\na singular awareness is being organized\nfrom the collective of these insects.▽\nAccording to her, humans and other organisms\nlikewise possess a chain of consciousness...▽\nFriction between individual minds\nforges a path leading\nto evolution.▽\nArtificially creating altered organic\nconsciousnesses..., bringing them all\ntogether, and evolving them.▽\nIt was the theory that serves as the basis\nfor the Human Instrumentality Project.\n\0',
 
 #
 # ./USRDIR/event/cev0604.har_EXTRACT/cev0604.evs
@@ -8110,39 +8112,39 @@ translate_map = {
 "永遠の存在であるエヴァ。\n今や、彼女と言う魂を得て、\n神となったのだろう。\n\0":
 'The eternal being, Eva.\nRight that moment, in obtaining a soul --\nhers -- I suppose it became a god.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "人々の心の隙間を埋める補完計画。▽\nゼーレは、サードインパクトに\nより全人類を完全な単体生物へと\n進化させるべくこの計画に乗り、▽\n私と碇は、全人類の心を互いに\n補完する事をこの計画の目的とした。▽\n我々は、ゼーレの老人達を\n欺きながら、お互い異とした\n目的を歩んでいるのだ。▽\n全ての使徒を倒す、その時まで。\n\0":
-'The Instrumentality Project, which would fill the voids in humans\' hearts.▽\nSeele followed this plan so that all\nhumanity could be evolved into a\nsingular perfect being via Third Impact.▽\nIkari and I, however, intend for the project\nto mutually complement the hearts of all humanity.▽\nWe deceive the old men of Seele,\nadvancing a goal mutually exclusive\nwith theirs.▽\nUntil such time as all the Angels are defeated.\n\0',
+'The Instrumentality Project, which would fill the voids in peoples\' hearts.▽\nSeele followed this plan so that all\nhumanity could be evolved into a\nsingular perfect being via Third Impact.▽\nIkari and I, however, intend for the project\nto mutually complement the hearts of all humanity.▽\nWe deceive the old men of Seele,\nadvancing a goal mutually exclusive\nwith theirs.▽\nUntil such time as all the Angels are defeated.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 # [Note] Need to figure out how to render 例え here. -Reichu
 "絶対的な存在である神の元へ\n我々は向かう事が出来るのか。▽\n例え賭けであったとしても…、\n彼女に再び会う為には\n私はこの計画に臨む他なかった。\n\0":
-'Are we capable of reaching\nthe side of God, the Absolute? ▽\n例えEven if it was a gamble...\nI had no choice but to go into this project\nso I could see her again.\n\0',
+'Are we capable of reaching\nthe side of God, the Absolute? ▽\nEven if it was a gamble...\nI had no choice but to go into this project\nso I could see her again.\n\0',
 
-# [Text Only - No Designated Speaker]
-# [Note] Check verb tenses for accuracy. -Reichu
+# [Text Only - Fuyutsuki]
+# [Note] Check verb tenses for accuracy, and otherwise look into the problem of Fuyutsuki seemingly contradicting himself here. -Reichu
 "…彼女は、\n人類が生きた証となるべく\n初号機に残った。▽\n彼女はここにいる。\nこの初号機の中に。▽\nだが、我々人間には\n手の届かぬところだ。▽\n魂がどこにあるのかわからない。\n人の心なども、どこにあるのかも。▽\nだが、人類はその魂の存在を\nずっと探し続けていた。\n同時に神の存在も。▽\n人は、不死を願って魂の存在を\nあるものとし、死後永遠の存在で\nあるべく神を必要としたのだ。▽\nだが、科学の力は魂の存在を\n証明した。▽\nそして再び、\n人は神を必要としている。\n\0":
 'She remained in\nEva-01 to become the\nproof that humanity existed.▽\nShe is here.\nInside Eva-01.▽\nYet it\'s a place beyond\nthe reach of us humans.▽\nWe don\'t know where the soul is.\nOr where something like the human heart is, either. ▽\nBut humanity has always sought out\nthe existence of the soul.\nJust as it sought the existence of God.▽\nPeople desired immortality and,\nassuming the existence of the soul,\nrequired God so there would be eternal life after death.▽\nYet the power of science\nproved the existence of the soul.▽\nAnd so once more,\npeople have need for God.\n\0',
 
 #
 # ./USRDIR/event/cev0605.har_EXTRACT/cev0605.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "彼女の論文を読み返す。\n私には、もはや習慣になっていた。▽\nふと思う。\n彼女は、どういった人類の未来を\n望んでいたのだろうか…。▽\n彼女の望んだ進化…。\n\0":
-'I reread her thesis.\nIt had already become a habit.▽\nSuddenly I\'m thinking.\nWhat kind of\nfuture did she want for humanity?▽\nHer desired evolutionary path...\n\0',
+'I reread her thesis.\nIt had already become habit.▽\nSuddenly I\'m thinking.\nWhat kind of\nfuture did she want for humanity?▽\nHer desired evolutionary path...\n\0',
 
 # Kozo Fuyutsuki
 "あそこには…、京都には\n彼女の論文がいくつか残されては\nいないだろうか。▽\n京都か…。\n出張計画書が必要だな…。\n\0":
-'Were any of her papers\nstill back there,\nin Kyoto?▽\nKyoto, hmm...\nI\'ll need a business trip manifest.\n\0',
+'Were any of her papers\nstill back there,\nin Kyoto?▽\nKyoto, hmm.\nI\'ll need a business trip manifest.\n\0',
 
 #
 # ./USRDIR/event/cev0606.har_EXTRACT/cev0606.evs
 #
 # Kozo Fuyutsuki
 "私は京都へ向かった。\nかつて、彼女と出会ったあの土地へ。\n\0":
-'I headed to Kyoto.\nTo the place where I once met her.\n\0',
+'I headed to Kyoto.\nThe place where she and I met.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "大学には、多くの論文が\n保管されている。▽\n彼女のものを探すのは、\n結構骨が折れた。\n\0":
 'A great many papers were\nin storage at the university.▽\nI broke enough bones\nlooking for hers.\n\0',
 
@@ -8150,15 +8152,15 @@ translate_map = {
 "これか…？\n碇ユイ。\nこれだ…。\n\0":
 'Is this...?\nYui Ikari.\nThis is it.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "彼女に会えたような喜びだった。\n静かに、彼女の論文をめくる。\n\0":
 'It was like reliving the joy of meeting her.\nQuietly, I went through her treatise.\n\0',
 
 # Kozo Fuyutsuki
 "故意に変性意識を\n生み出すには…。▽\n…これは、エヴァとの\nシンクロを促すための\n基礎理論であったものか…？▽\n自己の意識の拡大と\n他者への意識の干渉…。\n精神汚染…。\n\0":
-'"Producing an intentionallyn\naltered consciousness..."▽\nWas this the reason there was\na basic theory to promote\nsynching with an Eva?▽\n"If one\'s consciousness were amplified, inference from awareness of other people would...\Mental contamination..."/n/0',
+'Producing an intentionallyn\naltered consciousness...▽\nWas this the reason there was\na basic theory to promote\nsynching with an Eva?▽\nIf one\'s consciousness were amplified, interference from awareness of other people would...\Mental contamination.../n/0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 # [NOTE] This text block not completed yet. -Reichu
 "彼女との再会を喜ぶような気持ちで、\nゆっくりとページをめくっていった。\nなんと充実した時間だろう。▽\nこの論文が書かれた時点ではまだ、\n改良の余地はあった。▽\nだが、変性意識を作り出す条件は\nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\n私は、彼女の論文を持ち帰った。\n\0":
 'Holding onto that joyous feeling,\nI slowly flipped the pages.\nTime more than well spent.▽\nAt the point this paper was written,\nthere was still room for improvements.▽\nBut the conditions for producing altered consciousess \nそう難しい事ではない。▽\nエヴァのパイロットはこれらの\nフォローを受けてシンクロ状態を\n作り出すのだ。▽\nI took her treatise back with me.\n\0\n\0',
@@ -8166,7 +8168,7 @@ translate_map = {
 #
 # ./USRDIR/event/cev0607.har_EXTRACT/cev0607.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "人体にある特定の\n温度、匂い、音による刺激を\n送り込む事で変性意識を作り出す。▽\nしかし、自分一人で行うとなると\nこの研究は難しい。▽\n一歩間違えば、精神を破壊する\n危険性もある。▽\n被験者、観察者が必要だ。▽\nだが、意を決して\nこの実験は私一人で行う事にした。\n\0":
 'I will generate an altered consciousness by\nrelaying stimuli via specific temperatures,\nsmells, and sounds found in the human body.▽\nBut this experiment will be\ndifficult to perform by myself.▽\nThere is also the risk of destroying\nthe mind if a single mistake is made.▽\nIt requires both a test subject and an observer.▽\nEven so, I already resolved that I alone would conduct this experiment.\n\0',
 
@@ -8185,25 +8187,25 @@ translate_map = {
 #
 # ./USRDIR/event/cev0608.har_EXTRACT/cev0608.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "私は、実験を繰り返した。▽\nこの実験は、ひどく精神力を\n消費した。▽\n実験の後は、無気力状態とでも\n言おうか…ひどく思考力が落ちた。▽\nだが、私はこの実験を止める事は\nしなかった。\n\0":
-'???',
+'I repeated the experiment.▽\nThis experiment consumed\mconsiderable mental energy.▽\nTo say I was lethargic afterward...\nMy clarity of mind dropped dramatically.\nBut I wasn\'t stopping\nthis experiment.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "不思議な感覚があった。▽\n身体の輪郭がぼやけ、\nどこまでも自分が広がるような\n感覚を体験する。▽\n波間に漂うような感覚に\n身を任せ、私は意識の移ろいを\n感じていた…すると。\n\0":
-'???',
+'There was a peculiar sensation.▽\nThe borders of my body blurring,\nI physically experience a sensation\nlike I am spreading out everywhere.▽\nEntrusting my body with a feeling like drifting between waves, I was feeling my consciousness waning, and then...\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "突然、別の空間に放り込まれた\nような浮遊感を感じた。\n目の前に様々な映像が現れる。\n\0":
-'???',
+'Abruptly, I felt a floating sensation\nas though being thrown into another space.\nVarious images appeared before my eyes.\n\0',
 
 # Kozo Fuyutsuki
 "これは、走馬灯か…？\n\0":
-'???',
+'My life flashing before me?\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "過去から今までの時間が\n全て噴出し、溢れかえった。\nこれが、変性意識の状態なのか。▽\n私は、かつて己が体験してきた\n時間の中に溺れた。\nそしてその中に…彼女はいた。\n\0":
-'???',
+'I was inundated with a complete rupture\nof time, from past to present.\nSo this was altered consciousness?▽\nI drowned within moments that I\nstarted experiencing long ago.\nAnd then... she was there.\n\0',
 
 # Yui Ikari
 "失礼します。\n\0":
@@ -8213,41 +8215,41 @@ translate_map = {
 "君が碇君？\n\0":
 'You are Ikari-kun?\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "彼女に出会ったあの時、\nそのままだった。\nラベンダーの香りがする。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "その一つの場面に、\n意識をあわせようとするが\nどうも上手くいかない。▽\n彼女がいる場面に手を伸ばそうと\nしたが、まるで急流に押し流される\nように遠ざかってしまう。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "目が覚めた。▽\nそして、実験後の何ともいえない\n疲労感に襲われた。▽\n一つわかった事がある。▽\n最も安定した意識の状態へと\n繋がる為には強靭な精神力を\n必要とする。▽\n実験後は、次の実験の為に\n自分の精神状態を\n高めなくてはならない。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "実験を誤ると、\nとても不快な症状が現れる。\n吐き気、めまい、倦怠感。▽\nどうやら、\n今回は失敗だったようだ。▽\n一つわかった事がある。▽\n最も安定した意識の状態へと\n繋がる為には強靭な精神力を\n必要とする。▽\n実験後は、次の実験の為に\n自分の精神状態を\n高めなくてはならない。\n\0":
 '???',
 
 #
 # ./USRDIR/event/cev0609.har_EXTRACT/cev0609.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "どうやら、\n今回も失敗だったようだ。▽\n最も安定した意識の状態へと\n繋がる為には強靭な精神力を\n必要とする。▽\n実験後は、次の実験の為に\n自分の精神状態を\n高めなくてはならない。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "私は、実験を繰り返した。\n\0":
 '???',
 
 #
 # ./USRDIR/event/cev0611.har_EXTRACT/cev0611.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "目が覚めた。▽\nそして、実験後の何ともいえない\n疲労感に襲われた。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "不思議な感覚があった。▽\n身体の輪郭がぼやけ、\nどこまでも自分が広がるような\n間隔を体験する。▽\n波間に漂うような感覚に\n身を任せ、私は意識の移ろいを\n感じていた…すると。\n\0":
 '???',
 
@@ -8265,7 +8267,7 @@ translate_map = {
 "ユイ君、ユイ君…？\n\0":
 'Yui-kun. Yui-kun...?\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "実験を始める前に、\nアロマオイルを開封する。▽\n部屋中がラベンダーの香りに\n満たされた。▽\nこの思惑は予想外の成果を\n生み出した。\n\0":
 '???',
 
@@ -8273,15 +8275,15 @@ translate_map = {
 "意識が広がるのを感じる。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "前回に比べ、よりリアルな\nヴィジョンが溢れるのを\n私は見た。▽\nラベンダーの香りが、\n私を彼女との出会いの時間へと\n導いた。▽\nヴィジョンの中の私と彼女。\nそれを他人のように自分自身は\n見るのだった。▽\nそれだけでもよかった。\nだが…。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "夢だったのだろうか。\nだが、私は言い知れぬ恍惚感の中\n意識を覚ました…。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "何者かが、自分自身に意識を\n向けているような気がした。\nこちらも意識を向ける。\n\0":
 '???',
 
@@ -8289,7 +8291,7 @@ translate_map = {
 "…君…は？\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "静かな驚きと共に、\n私は喜びを隠せずにいた。\n\0":
 '???',
 
@@ -8315,7 +8317,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "君はここにいたのかね？\n\0":
-'And this is where you are\n\0',
+'And this is where you are?\n\0',
 
 # Yui Ikari
 "そう、とも言えますし、\n違う、とも言えます。▽\nしかし、人類はこの段階まで\n来る事が出来ません。▽\n人々の意識が、\nここに気付かないからです。\n\0":
@@ -8327,7 +8329,7 @@ translate_map = {
 
 # Yui Ikari
 "精神を、心を明らかに\n出来ないからです。▽\n喜び、怒り、苦しみ、悲しみ…、\nこれらの感情に、人の思考は\nとらわれてしまいます。▽\nですが、心をありのままに\n受け止め…、見る事が出来る人は\nここへ来る事が出来ます。\n\0":
-'???',
+'Because you can\'t clear\nyour mind and your heart.▽\nJoy, anger, pain, sorrow...\nHuman thought is a\nslave to these emotions.▽\nBut a person who is able to\naccept and see his heart\nas it is can come here.\n\0',
 
 # Kozo Fuyutsuki
 "では、人類補完計画は…。\n人工的に人類をこのステージへ\n導くもの…か。\n\0":
@@ -8352,30 +8354,30 @@ translate_map = {
 "神…。\n人は神になり得るのか。\n自分自身の力で。\n\0":
 'Gods...\nHumans have the potential to become gods,\nwith their own power.\n\0',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "人々を導く必要など\n無いのだろう。\n選べばよいのだ、自分自身で。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "あの実験は夢だったのか。\nだが、今もあの時の彼女の声は\nはっきりと覚えている。▽\n声は、とてつもない現実感を\n保ったまま、私の中を駆け巡る。▽\n今いるこの現実が、薄っぺらくすら\n感じてしまう。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "彼女はあの世界にいるのだ。▽\nこの初号機の中にいながら、\nあらゆる世界に偏在している\nのではないだろうか。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "私は、一つの思いに心を\n動かされた。\n\0":
 'I could only move my\nheart to a single feeling.\n\0',
 
 #
 # ./USRDIR/event/cev0615.har_EXTRACT/cev0615.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "突然、目の前が暗くなった。▽\n人が集まってくる。\n\0":
 '???',
 
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "実験の繰り返しのせいだろうか。▽\n実験に必要な環境を揃えなくても\n「あの感覚」を私は呼び覚ます事が\n出来た。▽\n私は意識が広がるままに任せた。\n彼女がいるのだ。\n何を恐れる事があるだろう。\n\0":
 '???',
 
@@ -8414,7 +8416,7 @@ translate_map = {
 #
 # ./USRDIR/event/cev0616.har_EXTRACT/cev0616.evs
 #
-# [Text Only - No Designated Speaker]
+# [Text Only - Fuyutsuki]
 "他人の言う事が、遠くにいても\n耳元で聞こえる。\n最近、何となく気付いた事だ。▽\n人が何を考えているのかも\n何となくわかるようになった。\nだからといって、驚きも無かった。▽\n何を言われても、何があっても\nニュートラルな感情を保っている\n自分に、少し驚きはしたのだが。\n\0":
 '???',
 
@@ -8515,12 +8517,11 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "これ、この液体…、\nＬＣＬ！？▽\n副司令は…、副司令は…！？\n\0":
-'This-This fluid...\nL.C.L.?!▽\The deputy commander, he\'s...?!\n\0',
+'Th-This fluid...\nL.C.L.?!▽\The deputy commander, he\'s...?!\n\0',
 
 # [Text Only - No Designated Speaker]
-# How does と言う affect the meaning here? -Reichu
 "一瞬だけ、初号機の前に佇む\n冬月を見た者がいた。▽\n彼は、初号機へ手を伸ばし、\n次の瞬間には消えていたと言う。\n\0":
-'For just a moment, someone saw\nFuyutsuki standing in front of Eva-01.▽\nHe extended a hand to Eva-01,\nand disappeared an instant later.\n\0',
+'For just a moment, someone saw\nFuyutsuki standing in front of Eva-01.▽\nThey say that he extended a hand to Eva-01,\nand disappeared an instant later.\n\0',
 
 # [Text Only - No Designated Speaker]
 "それが、最後の目撃となった。▽\nその後、冬月の姿を見る者は、\n誰もいなかった。\n\0":
@@ -8631,59 +8632,60 @@ translate_map = {
 #
 # Ritsuko Akagi 
 "あの男もそろそろ刈入れ時ね。\n今日は逃がさないわよ。\n\0":
-'???',
+'Time for even that man to pay his dues.\nI won\'t let him get away today.\n\0',
 
 # Ritsuko Akagi 
 "副司令…。\n\0":
-'???',
+'Deputy Commander...\n\0',
 
 # Kozo Fuyutsuki
 "赤木君か…。\n何だね？\n\0":
-'???',
+'Ah, Akagi-kun...\nWhat can I do for you?\n\0',
 
 # Ritsuko Akagi 
 "お話があるのですが。\n私の研究室まで、\nいらしてくださいませんか？\n\0":
-'???',
+'I need to speak with you.\nWould you be able\nto come to my lab?\n\0',
 
 # Kozo Fuyutsuki
 "ふむ、よかろう。\n\0":
-'???',
+'Hmm. Very well.\n\0',
 
 # Ritsuko Akagi 
 "生前の母の事です…。\n副司令から見て、\nどんな女性でしたか？\n\0":
-'???',
+'It\'s about my mother...\nIn your opinion,\nwhat kind of woman was she?\n\0',
 
 # Kozo Fuyutsuki
 "赤木ナオコ君かね？\n\0":
-'???',
+'Naoko Akagi, eh?\n\0',
 
 # Ritsuko Akagi 
+# Not 100% on the second sentence. --Reichu
 "母の命日が近いもので。\n思えば一緒に過ごした思い出が\nないものですから…。\n\0":
-'???',
+'I ask since it\'s almost the anniversary of her death.\nAnd, thinking about it,\nI don\'t have memories of our time together...\n\0',
 
 # Kozo Fuyutsuki
 "そうか…。\nしかし、何から話せばよいかな。\n\0":
-'???',
+'I see...\nBut I wouldn\'t even know where to start.\n\0',
 
 # Ritsuko Akagi 
 "母は美しい女性でしたか。\n\0":
-'???',
+'Was she an attractive woman?\n\0',
 
 # Kozo Fuyutsuki
 "…あまりそんな事には\n気が付かない性格でね。\nだが、優秀ではあったよ。\n\0":
-'???',
+'I\'m not someone who really\nnotices that sort of thing...\nShe was brilliant, though.\n\0',
 
 # Ritsuko Akagi 
 "では、私はどうですか…。\n\0":
-'???',
+'Then, what about me?\n\0',
 
 # Kozo Fuyutsuki
 "あ、赤木君…、君は…。\n\0":
-'???',
+'A-Akagi-kun, you\'re...\n\0',
 
 # Ritsuko Akagi 
 "副司令も…、きっかけを\n待っていたのでしょう？\nフフフフフ…。\n\0":
-'???',
+'Even you, Deputy Commander...\nHaven\'t you been waiting for your chance?\n(tittering)\n\0',
 
 # Kozo Fuyutsuki
 "赤木君…。\n\0":
@@ -8691,11 +8693,12 @@ translate_map = {
 
 # Ritsuko Akagi 
 "フフフフフフ…。\n\0":
-'???',
+'(tittering)\n\0',
 
 # Ritsuko Akagi 
+# Leaving it as "damn fine" entirely optional. Popped into my head as a joke, but it actually fits. -Reichu
 "なかなか立派でしたわよ、\n副司令…。\n\0":
-'???',
+'You were damn fine,\nDeputy Commander...\n\0',
 
 #
 # ./USRDIR/event/cev0704.har_EXTRACT/cev0704.evs
@@ -8918,11 +8921,11 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "あなたは…罪な人だ。\n僕が、この衝動を抑える苦しみを\n知っていながら…。\n\0":
-'???',
+'You are... a sinful person.\nThough I know the anguish\nof suppressing this urge...\n\0',
 
 # Ritsuko Akagi 
 "だったら…、二人で堕ちましょう。\n\0":
-'???',
+'If that\'s true, let\'s be indecent together.\n\0',
 
 # Kaworu Nagisa 
 "赤木博士…。\n\0":
@@ -8934,27 +8937,19 @@ translate_map = {
 
 # Ritsuko Akagi 
 "あなたの白く透き通るような肌。\nうらやましいわ…。\n\0":
-'???',
+'It\'s like your skin is perfectly clear.\nI\'m so jealous.\n\0',
 
 # Kaworu Nagisa 
 "…あんまり、見ないでください。\n\0":
-'???',
+'Please don\'t look so intently.\n\0',
 
 # Ritsuko Akagi 
 "あら、どうして？\n\0":
-'???',
+'Oh? Why?\n\0',
 
 #
 # ./USRDIR/event/cev0709.har_EXTRACT/cev0709.evs
 #
-# Maya Ibuki 
-"私…、私センパイの事を思って\n毎晩…。\n\0":
-'???',
-
-# Ritsuko Akagi 
-"ふぅん、どうしてるの？\n\0":
-'???',
-
 # Ritsuko Akagi 
 "フフフ…、楽しいわ。\n私、あんな男の為に\n何を我慢していたのかしら。▽\nそうね、だったらいっそ…。\n\0":
 '???',
@@ -8973,6 +8968,14 @@ translate_map = {
 
 # Ritsuko Akagi 
 "フフフ…、拒まないのね？\n\0":
+'???',
+
+# Maya Ibuki 
+"私…、私センパイの事を思って\n毎晩…。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"ふぅん、どうしてるの？\n\0":
 '???',
 
 #
