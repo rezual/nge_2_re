@@ -3410,7 +3410,7 @@ translate_map = {
 
 # Gendo Ikari
 "わかった。\n後の作業はレイに引き継ぐ。\n\0":
-'???',
+'Understood.\nRei will handle the rest of the operation.\n\0',
 
 # Gendo Ikari
 "レイ、後は任せた。\n\0":
@@ -3418,15 +3418,15 @@ translate_map = {
 
 # Rei Ayanami 
 "はい、碇司令。\n\0":
-'Yes sir, Commander Ikari.\n\0',
+'Understood, Commander Ikari.\n\0',
 
 # Kozo Fuyutsuki
 "常に血で濡らされた\nロンギヌスの槍…。\n\0":
-'The ever-bloodied Spear of Longinus...\n\0',
+'The ever-bloodied\nSpear of Longinus...\n\0',
 
 # Gendo Ikari
 "神を殺し、\nまた神を生む力を持った槍…。\n事は我々のシナリオ通りだよ。\n\0":
-'A spear with the power to both kill and birthe gods...\nThe situation is in accordance with our scenario.\n\0',
+'A spear with the power\nto both kill and birthe gods...\nThings are going according to our scenario.\n\0',
 
 # Misato Katsuragi 
 "どう？\nマギの診察は終わった？\n\0":
@@ -4163,7 +4163,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、第３新東京市直上に出現！\n\0":
-'???',
+'An Angel has appeared above Tokyo-3!\n\0',
 
 # Makoto Hyuga, Male Staff
 "パターンオレンジ。\nΑΤフィールド反応無し。\n\0":
@@ -8254,7 +8254,7 @@ translate_map = {
 #
 # Misato Katsuragi, Female Staff
 "セントラルドグマに突如出現した使徒の正体は、\n\0":
-'???',
+'An Angel that appeared suddenly in Central Dogma\n\0',
 
 # Misato Katsuragi 
 "目標はエヴァ弐号機を操り、\nターミナルドグマを目指して侵攻しました。\n\0":
@@ -8535,7 +8535,7 @@ translate_map = {
 #
 # Misato Katsuragi, Female Staff
 "これより戦闘結果報告を行います。\n\0":
-'???',
+'I will now provide the battle outcome report.\n\0',
 
 # Female Staff, Misato Katsuragi 
 "「ロンギヌスの槍」の使用が決断されます。\n\0":
@@ -8887,15 +8887,15 @@ translate_map = {
 
 # Rei Ayanami 
 "レーダー電波もソナーも\n反応がない。\n\0":
-'???',
+'No response from\nradar waves or sonar.\n\0',
 
 # Rei Ayanami 
 "生命維持モードは、\nあと４、５時間は持ちそう。\n\0":
-'???',
+'Life support mode will last about\nfour or five more hours.\n\0',
 
 # Rei Ayanami 
 "静かだわ。\n静か過ぎて耳が痛いくらい…。\n\0":
-'???',
+'It\'s quiet.\nSo quiet it hurts my ears...\n\0',
 
 # Toji Suzuhara 
 "出せコラー！！\nワレ、出さんかい！！\nこン野郎〜…！！▽\nどうなっとんねん、\nどこやねんここ？▽\n外は何の反応もないし…。\nワシ、一人なんか！？\n\0":
@@ -9038,7 +9038,7 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "そう、みんなが綾波レイと呼ぶもの。\n偽りの魂と作られた体を持つ、\n人のマネをしている物体。\n\0":
-'Yes. Something others call Rei Ayanami.\nAn object with a constructed body and a false soul,\nmerely pretending to be human.\n\0',
+'Yes. Something others call Rei Ayanami.\nAn object with a fabricated body and a false soul,\nmerely pretending to be human.\n\0',
 
 # Rei Ayanami 
 "それが私…。\nあなたは本当の私…。\nいつも私を見つめている私？\n\0":
@@ -9046,7 +9046,7 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "あなたの暗くて見えない心を\n私は知りたい…。▽\nあなたは、一体\n何のために生きているの？\n\0":
-'You wish to know your own heart,\nobscured in darkness...▽\nFor what possible reason\ndo you exist?\n\0',
+'You wish to know your own heart,\nhidden in darkness...▽\nFor what possible reason\ndo you exist?\n\0',
 
 # Toji's Shadow [Leliel]
 "…なあ。\n\0":
@@ -10009,7 +10009,7 @@ translate_map = {
 #
 # Rei Ayanami 
 "私、自分がわからない。\n\0":
-'I don\'t know who I am.\n\0',
+'I don\'t know myself.\n\0',
 
 # Rei's Shadow [Leliel]
 "自分という存在に興味が無いのね。\n生きる事を放棄している。\n\0":
@@ -10120,7 +10120,7 @@ translate_map = {
 
 # Rei's Shadow [Leliel]
 "あなたの存在意義は\nそこにしかないもの。\n依存しているのね。\n\0":
-'That\'s the only thing that gives meaning to your existence.\nYou depend on it.\n\0,
+'That\'s the only thing that gives meaning to your existence.\nYou depend on it.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le313.evs
@@ -10155,7 +10155,7 @@ translate_map = {
 # Rei's Shadow [Leliel]
 # [NOTE] Not sure about this. -Reichu
 "でも中身までは作られなかった。\n\0":
-'Yet what\'s been created has no actual substance.\n\0',
+'But you\'ve created none with any substance.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le316.evs
@@ -10467,34 +10467,35 @@ translate_map = {
 # ./USRDIR/event/levent.har_EXTRACT/le501.evs
 #
 # Kaworu Nagisa 
+# [NOTE] This is quite liberal, but hopefully nothing of importance is lost. -Reichu
 "フフフ、決まってるだろう？\n彷徨った魂が、本来の肉体に宿る…。\nつまりアダムに還る事さ。\n\0":
-'???',
+'Heh heh heh, isn\'t it obvious?\nSo that a lost soul might inhabit its true flesh...\nReturning to Adam is my purpose.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "構わないのかい？\n君が交じるリリン達の多くを、\n裏切る結果になってしまうだろう。\n\0":
-'???',
+'Don\'t you care?\nWhen all is said and done,\nyou\'ll have betrayed the many Lilin you\'ve met.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le502.evs
 #
 # Kaworu Nagisa 
 "構わないよ。\nそのために僕は\nゼーレの計画に乗ったんだから。\n\0":
-'???',
+'No, I don\'t.\nThat\'s the very reason I\ngot on board with Seele\'s plan.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "ネルフに来て得たもの、知ったもの、\n感じたもの、触れたもの…。\nすべて失う事になっても？\n\0":
-'???',
+'Coming to Nerv, learning,\nfeeling, experiencing...\nYou\'re okay with losing all of that?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le503.evs
 #
 # Kaworu Nagisa 
 "大袈裟だよ。\n彼らもわかってくれるさ。\n\0":
-'???',
+'You exaggerate.\nEven they understand me.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "わかってくれる？\nリリンとアダムは相容れないものさ。\nその事を理解しているくせに…。\n\0":
-'???',
+'Understand you?\nLilin and Adam are incompatible.\nYou know it, too, and yet...\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le504.evs
@@ -10654,23 +10655,24 @@ translate_map = {
 # ./USRDIR/event/levent.har_EXTRACT/le518.evs
 #
 # Kaworu Nagisa 
+# [Note] Not 100% on 種 referring to 生命の種 here. -Reichu
 "いや、僕はアダムだ。\n種の役割を果たすつもりさ。\n\0":
-'???',
+'No, I am Adam.\nI intend to fulfill my Seedly duty.',
 
 # Kaworu's Shadow [Leliel]
 "フフ、本心の言葉じゃないね。\n…いや、自分を言い聞かせようと\nしているのか。\n\0":
-'???',
+'Heh-heh, but you don\'t voice your true feelings.\nNo... You are trying\nto persuade yourself.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le519.evs
 #
 # Kaworu Nagisa 
 "そう…かもしれない…な。\n\0":
-'???',
+'It... could well be so.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ…、でも敵は敵だよ？\n彼らも最終的には絶対に\n君を受け入れないだろうね。\n\0":
-'???',
+'Heh-heh... But an enemy is an enemy, yes?\nIn the end, they won\'t accept\nyou unconditionally, will they?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le520.evs
@@ -10790,12 +10792,13 @@ translate_map = {
 'I can no longer see anything.\nNor hear anything...▽\nBeing shrouded in darkness, it\'s all I remember.\n\0',
 
 # Rei Ayanami 
+# [NOTE] Note sure if -te moraeru is being rendered correctly. -Reichu
 "もう、帰してもらえるかしら。\n無へと…帰してもらえるのかしら。\n\0":
-'???',
+'Will I be able to return soon?\nWill they let me return to nothing?\n\0',
 
 # Rei Ayanami 
 "この身体も、もう終わり…。▽\n時間ね…。\n\0":
-'Even this body is already at its end...▽\nAny time now...\n\0',
+'It\'s already over for this body, too...▽\nAny time now...\n\0',
 
 # Toji Suzuhara 
 "寒ぅ…。\nもう、プラグの機能も\n限界なんやな…。\n\0":
@@ -10858,15 +10861,16 @@ translate_map = {
 
 # Makoto Hyuga, Female Staff
 "爆雷投下、６０秒前。\n\0":
-'???',
+'Dropping depth charges in 60 seconds.\n\0',
 
 # Ritsuko Akagi, Female Staff
+# [NOTE] Second sentence probably wrong is some subtle way. Third sounds utterly inane, not sure how to fix. -Reichu
 "エヴァの機能は既に\n停止していたはず。\nなぜ、エヴァにあんな力が…！▽\n人の息の届かぬところに…、\nエヴァに心があるというの！？\n\0":
-'???',
+'The Eva\'s functions should\nhave suspended already.\nHow does the Eva have such power?!▽\nIs there a mind beyond the reach\nof people\'s breath... inside the Eva?!\n\0',
 
 # Shigeru Aoba, Male Staff
 "目標、殲滅を確認しました。\nパイロット、無事です！\n\0":
-'???',
+'Target has been destroyed.\nPilot is secure!\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le010.evs
