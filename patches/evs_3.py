@@ -1810,11 +1810,11 @@ translate_map = {
 #
 # Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Female Staff
 "先程、第２東京から\nＡ−８０１が出ました。▽\n特務機関ネルフの特例による\n法的保護の破棄。▽\n及び指揮権の日本国政府への\n委譲です。\n\0":
-'???',
+'Tokyo-2 has just\nissued an A-801.▽\nAnnulment of Secret Agency Nerv\'s\nspecial legal protections.▽\nAlso transfers command to\nthe Japanese government.\n\0',
 
 # Kozo Fuyutsuki, Gendo Ikari, Misato Katsuragi, Ryoji Kaji, Male Staff
 "やはり人間の敵は、\n同じ人間だったか…。\n\0":
-'All along, the enemy of Man\nwas their fellow man...\n\0',
+'All along, mankind\'s enemy\nwas their fellow man...\n\0',
 
 # Makoto Hyuga, Shigeru Aoba
 "人間の敵は、\n同じ人間って事だったのか…。\n\0":
@@ -3274,7 +3274,7 @@ translate_map = {
 
 # Gendo Ikari
 "レ、レイ…。\n待て、待つんだ、\n待ってくれ、レイ！！\n\0":
-'???',
+'R-Rei...\nWait, just wait,\nwait for me, Rei!!\n\0',
 
 # Rei Ayanami 
 "駄目。\n私を呼んでる人がいる…。\n\0":
@@ -4014,7 +4014,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "リリスは、一度空を仰ぎ、そして\nゆっくりと、水をすくうように\n初号機を手の中に納めた。\n\0":
-'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\n she took Eva-01 into her hands.\n\0',
+'Lilith looked skyward for a moment,\nthen slowly, like scooping water,\nshe took Eva-01 into her hands.\n\0',
 
 # [Text Only - No Designated Speaker]
 # I have no idea what\'s supposed to be going on here. 「水をすくうように手を重ねた」?? -Reichu
@@ -7228,14 +7228,14 @@ translate_map = {
 #
 # Misato Katsuragi 
 "あ、レイ。\nあなたに教えとくことがあったわ。\n大事な話よ。\n\0":
-'???',
+'Oh, Rei.\nThere\'s something I gotta tell you.\nIt\'s important!\n\0',
 
 #
 # ./USRDIR/event/cev0301.har_EXTRACT/cev0301.evs
 #
 # Rei Ayanami 
 "私が消える。▽\n私が生まれる。▽\n生きるの？\nここで今しばらく生きるの。\n誰が私をそうしたの…？\n\0":
-'I am disappearing.▽\nI am being born.▽\nI am alive?\nFor now I exist here.\nWho did this to me?\n\0',
+'I am disappearing.▽\nI am being born.▽\nI am alive?\nHere, I exist just a little longer.\nWho did this to me?\n\0',
 
 # Rei Ayanami 
 "渦を描いて再び流れる水。\n\0":
@@ -7243,7 +7243,7 @@ translate_map = {
 
 # Rei Ayanami 
 "そこにいるのは誰？▽\n私を呼ぶのは誰？▽\n誰？▽\n誰？\n\0":
-'Who is there?▽\nWho calls for me?▽\nWho?▽\nWho??▽\n\0',
+'Who is there?▽\nWho calls for me?▽\nWho is it?▽\nWho are you?▽\n\0',
 
 # Rei Ayanami 
 "目覚めた朝。▽\n初めて見た光。▽\n流れる水。\n滴り落ちる水。\n\0":
@@ -7251,7 +7251,7 @@ translate_map = {
 
 # Rei Ayanami 
 "………誰？\n\0":
-'...Who is it?\n\0',
+'......Who?\n\0',
 
 # Rei Ayanami 
 "ただよう…。▽\nむすぶ…。▽\nひらく…。▽\nしずむ…。▽\nうかぶ…。\n\0":
@@ -7260,7 +7260,7 @@ translate_map = {
 # Rei Ayanami 
 # The translation should work contextually, though it may not be entirely accurate. Investigate further later. --Reichu 
 "…朝？▽\n…そろそろ、行かないと。\n\0":
-'...It\'s morning?▽\nI should head out soon.\n\0',
+'It\'s morning?▽\nI should head out soon.\n\0',
 
 #
 # ./USRDIR/event/cev0302.har_EXTRACT/cev0302.evs
@@ -7271,7 +7271,7 @@ translate_map = {
 
 # Rei Ayanami 
 "空っぽの部分。\nその向こうにある私は…。▽\n私は………。\n私は誰…、私は何…。▽\n何…？\n\0":
-'A part that\'s empty.\nThe me that exists beyond it is...▽\nI am...\nI am whom? I am what?▽\nWhat??\n\0',
+'A part that\'s empty.\nThe me that exists beyond it is...▽\nI am...\nWho am I? What am I?▽\nWhat?\n\0',
 
 # Rei Ayanami 
 "私にあるもの…。▽\n名前。\nこの姿…。▽\nそして、空っぽの部分。▽\n私の中の、\n切り抜かれているものは…。\nどんな姿…、どんな形…？\n\0":
@@ -7294,7 +7294,7 @@ translate_map = {
 
 # Male Staff
 "ロンギヌスの槍、\nケイジへの移送終了しました。\n\0":
-'Transfer of Spear of Longinus\nto Cage completed.\n\0',
+'Transfer of Spear of Longinus\nto cage completed.\n\0',
 
 # Rei Ayanami 
 "私、ためらってる…？\nなぜ…、どうして…？\nこの槍を、刺すだけでいいのに。\n\0":
@@ -7302,7 +7302,7 @@ translate_map = {
 
 # Rei Ayanami 
 "でも…。\nそれが私の役目なら…！\n\0":
-'Even so...\nIt\'s my duty, so I\'ll-!\n\0',
+'Even so...\nIt\'s my duty, so I\'ll--!\n\0',
 
 # Gendo Ikari
 "来たか。\n\0":
@@ -7338,7 +7338,7 @@ translate_map = {
 
 # Female Staff
 "零号機パイロットは、\nロンギヌスの槍の最終移送を\nお願いします。\n\0":
-'???',
+'Eva-00\'s pilot,\nplease execute Spear of\nLonginus final transfer.\n\0',
 
 # Male Staff
 "ロンギヌスの槍の移送作業、\n完了しました。\n\0":
@@ -7346,19 +7346,19 @@ translate_map = {
 
 # Female Staff
 "了解、人類補完委員会への\n作業完了報告を行います。\n\0":
-'???',
+'Roger. Reporting work completion to\nHuman Instrumentality Committee.\n\0',
 
 #
 # ./USRDIR/event/cev0304.har_EXTRACT/cev0304.evs
 #
 # Rei Ayanami 
 "誰かが見てる。▽\nいいえ、見ているのは私。\n私が私を見ている。▽\n前にもあった、こんな感覚。\nずっと前、ずっと昔。\n私が私になる前に…。\n\0":
-'Someone is looking at me.▽\nNo, the one who\'s looking is me.\nI am looking at myself.▽\nThis feeling, it\'s one I\'ve had before.\nLong ago, deep in the past.\nMe, before I became me...\n\0',
+'Someone is watching me.▽\nNo, the one who\'s watching *is* me.\nI am gazing upon myself.▽\nThis feeling, it\'s one I\'ve had before.\nLong ago, deep in the past.\nMe, before I became me...\n\0',
 
 # Rei Ayanami 
 # [Note] The playthrough I\'m referencing shows an image of Shinji during this part, so あの人 is being rendered "him". It\'s possible this is variable, though, and changes depending on whoever Rei has the best relationship with at the time. Need to double-check. -Reichu
 "あの人を思うと、とても不思議。\n不思議な気持ちになる。▽\nずっと一緒にいたような感じ。\n私が私になる前から。▽\nどうして？\nあの人を見ると、心が動く。\n心…、目に見えないもの。\n\0":
-'When I think of him, it\'s very strange.\nA strange feeling.▽\nOf wanting to be with him forever.\nFrom before I became me.▽\nWhy?\nWhen I look at him, my heart is touched...\nMy heart... Something that cannot be seen.\n\0',
+'When I think of him, it\'s very strange.\nA strange feeling.▽\nOf wanting to be with him forever.\nSince before I became me.▽\nWhy?\nWhen I look at him, my heart is touched...\nMy heart... Something that cannot be seen.\n\0',
 
 #
 # ./USRDIR/event/cev0305.har_EXTRACT/cev0305.evs
@@ -7372,16 +7372,17 @@ translate_map = {
 '...▽\n......▽\n............\n\0',
 
 # Gendo Ikari
+# [NOTE] Bothered by the "mo" after Adam, not sure how to render. -Reichu
 "アダムも我が手に収まった。\nレイ…、来るべき旅立ちは\nもうすぐだ…。\n\0":
-'I have gone as far as placing Adam within my hand.\nRei... Very soon, we will depart\nfor the journey to come...\n\0',
+'I have placed Adam within my hand.\nRei... Very soon, we will depart\nfor the journey to come...\n\0',
 
 # Rei Ayanami 
 "この人は、私を見ている。\n私…、どの私…？ \n\0":
-'This man is looking upon me.\nMe... Which me?\n\0',
+'This man is gazing upon me.\nMe... Which me?\n\0',
 
 # Gendo Ikari
 "お前はその時の為にある\n存在なのだから…。\n\0":
-'Because the coming time\nis the reason you exist.\n\0',
+'Because the coming time\nis your reason for being.\n\0',
 
 # Rei Ayanami 
 "何の為に？\nこの人の為にある私？\nそれは…、本当の私なの…？ \n\0":
@@ -7389,7 +7390,7 @@ translate_map = {
 
 # Gendo Ikari
 "アダムは生命の実を食べ、\n使徒に永遠の生命と力を。▽\nリリスは知恵の実を食べ、\n人類に知恵と死を与えた。▽\n我々は、知恵と死と、\n産み増える事しか\n受け取れなかったのだ。▽\n人々が追い求めて止まない\n永遠の命…、だが使徒も同じく\n知恵の実を求めてリリスを目指す。▽\nアダムとリリスの融合は、\n全てを無にもどし\nまた新たな生命の萌芽となる。▽\n知恵と永遠の生命を携えて…、\n新たな生命となる為に。▽\nだが、その生命に宿るものは\n我々人類か使徒かは…わからん。\n\0":
-'Adam ate the Fruit of Life, giving the Angels eternal life and energy.▽\nLilith ate the Fruit of Knowledge,\n giving humanity wisdom and death.▽\nBeyond those, we received no gift\nbut that of fruitful multiplication.▽\nPeople ceaselessly pursue eternal life...\nbut the Angels likewise target Lilith\nseeking the Fruit of Knowledge.▽\nThe fusion of Adam and Lilith\nwill return all to nil and\nbecome a new germ of life.▽\nFrom this, new life holding both\nwisdom and eternal being will bud.▽\nBut whether it will be we humans or the\nAngels inhabiting that life... I do not know.\n\0',
+'Adam ate the Fruit of Life, giving the Angels eternal life and power.▽\nLilith ate the Fruit of Knowledge,\n giving humanity wisdom and death.▽\nBeyond those, we received no gift\nbut that of fruitful multiplication.▽\nPeople ceaselessly pursue eternal life...\nbut the Angels likewise target Lilith\nseeking the Fruit of Knowledge.▽\nThe fusion of Adam and Lilith\nwill return all to nil and\nbecome a new germ of life.▽\nFrom this, new life holding both\nwisdom and eternal being will bud.▽\nBut whether it will be we humans or the\nAngels inhabiting that life... I do not know.\n\0',
 
 # Rei Ayanami 
 "永遠の命を手にして、\nどうされるのですか？\n\0":
@@ -7397,7 +7398,7 @@ translate_map = {
 
 # Gendo Ikari
 "命が永遠である事が\n重要なのではない。▽\n我々全ての魂を一つにする事が\n重要なのだよ。▽\nレイ、お前はその扉となり、\n全ての心を補完する為の\n道標となるのだ。\n\0":
-'Having eternal life isn\'t\nthe important part.▽\nWhat matters is bringing all souls together as one.▽\nRei, you will become that doorway.\nYou will be the signpost for the\ncomplementation of all hearts.\n\0',
+'Having eternal life isn\'t\nthe important part.▽\nWhat matters is bringing all souls together as one.▽\nRei, you will be that gateway.\nYou will be the signpost for the\ncomplementation of all hearts.\n\0',
 
 # Rei Ayanami 
 "……………。▽\n私はその為にいるんですか？\n\0":
@@ -7406,7 +7407,7 @@ translate_map = {
 # Gendo Ikari
 # [Note] 我々よりも…。 needs to be integrated better. -Reichu
 "…………。▽\nお前は、処置なくしては、\n生き長らえる事が出来ない。\n我々よりも…。▽\nお前にも長生きして欲しい。\n\0":
-'......▽\nYou cannot survive\nwithout treatment.\nMore so than us...▽\nI want you to enjoy a long life, as well.\n\0',
+'......▽\nYou cannot survive\nwithout treatment.\nMore so than us...▽\nI want you, too, to enjoy a long life.\n\0',
 
 # Rei Ayanami 
 "私の欲しい答えは…、\nいつも闇の中。▽\nこの人は何も、\n答えてはくれないのね。\n\0":
@@ -7417,23 +7418,25 @@ translate_map = {
 #
 # Rei Ayanami 
 "私が私を見ている。\n私の中にいる、たくさんの私。\n\0":
-'I am looking at myself.\nInside me, there exist several of me.\n\0',
+'I am watching myself.\nWithin me, there exist several of me.\n\0',
 
 # Teacher
+# [NOTE] Unsure what から in second line is doing. -Reichu
 "えーと、教科書を開いて。\n死の起源神話からだ。▽\n人類の祖先が、\n神、ないし精霊に\n石かバナナかを選ばされ、▽\n人類がバナナを選んだが為に\nバナナの様に短命になった\nという話だ。\n\0":
-'???',
+'Let\'s see now... Open your textbooks.\nWe\'re on myths about the origin of death.▽\nIt says that the Creator made\nhumanity\'s ancestors choose\nbetween a stone and a banana.▽\nBecause humanity chose the\nbanana, it became short-lived\nlike the banana.\n\0',
 
 # Rei Ayanami 
 "生命の実と…、知恵の実。\n\0":
 'The Fruit of Life... and the Fruit of Knowledge.\n\0',
 
 # Teacher
+# [NOTE] No idea what the text in the second screen is supposed to be saying... -Reichu
 "また、神が人間を生成する時に\n石ではなく、やはりバナナや樹木を\n材料にした為、▽\n短命になったのだという神話もある。▽\nまあ、南方系に多く見られる神話だ。▽\n石を選んでいたら、ひょっとしたら\n人間は石のように不死の身体を得て\nいたのかもしれないな。\n\0":
-'???',
+'There is also a myth that says\nthat, rather than using\nstone, the gods made humans▽\nusing the banana and its tree.▽\nWell, it\'s a legend common among southerners.▽\nIf the stone were chosen,\nperhaps humanity would have had\nundying bodies like stone.\n\0',
 
 # Rei Ayanami 
 "私は…、▽\n私は………………………。 \n\0":
-'???',
+'I...▽\nI am.........\n\0',
 
 # Teacher
 "綾波君…？\n大丈夫かね、綾波君…。\n保健室…、いや救急車だ。\n\0":
@@ -7445,7 +7448,7 @@ translate_map = {
 
 # ??? [Lilith]
 "戻っておいで…、\n戻ってきなさい…。\n\0":
-'Come back...\n Please come back to me...\n\0',
+'Come back...\nPlease come back to me...\n\0',
 
 # Rei Ayanami 
 "あなた、誰？\n\0":
@@ -7469,11 +7472,11 @@ translate_map = {
 
 # ??? [Lilith]
 "それは、あなたが知っているはず。\nあなたは、私だもの。▽\n私が生み出した生命…。\n人類には生命の実が欠けている。\n不完全な生命体よ。\n\0":
-'You should know that.\nBecause you are me.▽\nLife was created by me.\nHumankind lacks the Fruit of Life.\nThey are imperfect organisms.\n\0',
+'You should know that.\nBecause you are me.▽\nHumanity, the life I created...\nIt lacks the Fruit of Life.\nThey are imperfect organisms.\n\0',
 
 # Rei Ayanami 
 "人々を完全なものにする為に、\n私は必要なの？\n\0":
-'You need it so you\ncan make people complete?\n\0',
+'I need it so I\ncan make people complete?\n\0',
 
 # ??? [Lilith]
 "私の子らは、それを望んでいるわ。\n\0":
@@ -7493,22 +7496,22 @@ translate_map = {
 
 # ??? [Lilith]
 "そう…。\n白い月の主から奪い取るの。▽\nだから、私は完全にならないと\nいけない。▽\nさあ、戻りなさい…。\n私へ還りなさい…。▽\nあなたはその姿を保てない。\n本来の姿ではないのだから。\n還るところは他にはないのだから。\n\0":
-'Yes...\nI will take it from the master of the White Moon.▽\nRemaining incomplete\nis not an option.▽\nSo, please, come back...\nReturn to me...▽\nYou won\'t last in that form.\nIt\'s not your original form, after all.\nAnd there is nowhere else that you belong.\n\0',
+'Yes...\nI will take it from the master of the White Moon.▽\nRemaining incomplete\nis not an option.▽\nSo, please, come back...\nReturn to me...▽\nYou won\'t last in that form.\nIt\'s not your original one, after all.\nAnd there is nowhere else that you belong.\n\0',
 
 #
 # ./USRDIR/event/cev0307.har_EXTRACT/cev0307.evs
 #
 # Rei Ayanami 
 "私は…、私の生き方は…。\n私の望みは……………。\n\0":
-'I... The way I live...\nWhat I want is......\n\0',
+'I... The way I live...\nWhat I desire is......\n\0',
 
 # Rei Ayanami 
 "私の役目は決まっている…。\n目的を知ろうと知らずとも…、\n誰かの為に生きる事なんだわ。\n\0":
-'My duty is a settled matter.\nIt\'s living for someone else, even if\nI\'m unaware there\'s a purpose to know.\n\0',
+'My duty is a settled matter.\nIt means living for someone else, even if\nI\'m unaware there\'s a purpose to know.\n\0',
 
 # Rei Ayanami 
 "心が騒ぐ。\n今まで、私の心には碇司令しか\nいなかったのに。▽\n他の人や…、たくさんの出来事が\n私を変えていく。\n\0":
-'I feel uneasy.\nEven though, until now, there was\nno onein my heart but Commander Ikari.▽\nOther people, everything that\'s happened,\nthey\'re changing me.\n'
+'I feel uneasy.\nEven though, until now, there was\nno one in my heart but Commander Ikari.▽\nOther people, everything that\'s happened,\nthey\'re changing me.\n'
 
 # Rei Ayanami 
 "私は、還らなければならないの？\n誰かの為に…、誰の為に…？\n\0":
@@ -7527,11 +7530,11 @@ translate_map = {
 
 # [Text Only - No Designated Speaker], Misato Katsuragi, Ritsuko Akagi, Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Gendo Ikari, Kozo Fuyutsuki, Ryoji Kaji
 "…！！\n\0":
-'???',
+'...!!\n\0',
 
 # Rei Ayanami 
 "夢…？\n今のが夢…？▽\n夢の中の私…、知らない私…。\nどうしてあんな夢を…。\n\0":
-'???',
+'A dream?\nWas I dreaming, just now?▽\nThe me within the dream... A me I do not know.\nWhy would I have such a dream?\n\0',
 
 #
 # ./USRDIR/event/cev0309.har_EXTRACT/cev0309.evs
@@ -7574,7 +7577,7 @@ translate_map = {
 
 # Makoto Hyuga
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影か、何だこいつは？\n\0":
-'???',
+'A high energy body\nis ascending from Terminal Dogma!\nThe damn thing is humanoid?\n\0',
 
 # Male Staff
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影のようですが…。\n\0":
@@ -7606,7 +7609,7 @@ translate_map = {
 
 # Rei Ayanami 
 "生命の実なんて要らない。\n私は、あなたじゃない。\n私は私。▽\n私は残された時間を、\n自分の意志で生きるわ。\n\0":
-'I don\'t need something like the Fruit of Life.\n I\'m not you.\nI am me.▽\nI\'ll live by my own free will\n in the time I have left.\n\0',
+'I don\'t need something like the Fruit of Life.\n I\'m not you.\nI am me.▽\nI\'ll live by my own free will\nin the time I have left.\n\0',
 
 # ??? [Lilith]
 "早く…、この身体に…。\n戻って…、\n生命の実を…………………。\n\0":
@@ -8426,27 +8429,28 @@ translate_map = {
 
 # Kozo Fuyutsuki, Toji Suzuhara,[Text Only - No Designated Speaker], Female Staff, Misato Katsuragi, Hikari Horaki, Shinji Ikari, Asuka Soryu Langley, Rei Ayanami, Kaworu Nagisa, Ritsuko Akagi, Maya Ibuki, Ryoji Kaji, Shigeru Aoba, Male Staff, Gendo Ikari,(Unknown Id: 1100, Maybe: Receptionist), Kensuke Aida, Makoto Hyuga,Pen Pen,Shinji's Shadow [Leliel],Asuka's Shadow [Leliel],Rei's Shadow [Leliel],Toji's Shadow [Leliel],Kaworu's Shadow [Leliel]
 "\0":
-'???',
+'\0',
 
 # Shigeru Aoba
 "最近の副司令、絶対変だ。\nまるで夢遊病だよ。\n\0":
-'???',
+'The deputy commander\'s been super weird lately.\nLike he\'s walking in his sleep.\n\0',
 
 # Makoto Hyuga
+# [NOTE] This text block not finished. -Reichu
 "ああ…、でも…。\n表情が柔らかくなったと言うか。▽\n以前みたいに近寄り難い感じが\n無くなったと思う。▽\n何かあったのかな…。\n\0":
-'???',
+'Yeah, but...\nI\'d say he looks more laidback.▽\n以前みたいに近寄り難い感じが\n無くなったと思う。▽\nWonder what\'s going on...\n\0',
 
 # Shigeru Aoba
 "俺、女だと思うな。\n\0":
-'???',
+'I think it\'s a woman.\n\0',
 
 # Makoto Hyuga
 "シッ！！\n副司令が来たぞ！！\n\0":
-'???',
+'Ssh!!\nThe deputy commander\'s here!!\n\0',
 
 # Shigeru Aoba
 "うぉ、やべぇ！！\n\0":
-'???',
+'Oh crap!!\n\0',
 
 # Kozo Fuyutsuki, Rei Ayanami, Gendo Ikari, Hikari Horaki, Misato Katsuragi, Kensuke Aida,Toji's Sister, Shinji Ikari, Asuka Soryu Langley, Shigeru Aoba, Maya Ibuki, Ritsuko Akagi, Kaworu Nagisa, Makoto Hyuga
 "…………………。\n\0":
@@ -8509,7 +8513,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "彼女が私の手を取った。\n私は強く握り返した。▽\nどうして戻ろうなどと\n思えるだろうか。\n\0":
-'???',
+'She took my hand.\nI squeezed back firmly.▽\nどうして戻ろうなどと\n思えるだろうか。\n\0',
 
 # Maya Ibuki, Female Staff
 "副司令の服が、\nどうしてここに…？\n濡れてるわ…。\n\0":
@@ -8537,7 +8541,7 @@ translate_map = {
 
 # Yui Ikari
 "強く生きてください。\n生きる事は、尊いのですから。\nいつでも、どこにあっても…。\n\0":
-'???',
+'Please live strong.\nLiving is precious, after all.\nEven though I\'m always here...\n\0',
 
 # Kozo Fuyutsuki
 "ユイ君！\n\0":
@@ -8545,7 +8549,7 @@ translate_map = {
 
 # Yui Ikari
 "その時まで、お元気で。\n先生…。\n\0":
-'???',
+'Until that time, take care of yourself,\nSensei...\n\0',
 
 # Kozo Fuyutsuki
 "…ユイ君。\n\0":
@@ -8553,7 +8557,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "ああ、その時までの\nお別れだ…。\n\0":
-'???',
+'So, it\'s farewell\nfor now...\n\0',
 
 # [Scenario 8: Ritsuko]
 
@@ -12715,7 +12719,7 @@ translate_map = {
 #
 # Misato Katsuragi 
 "結果、\n碇シンジ、鈴原トウジ両名による、\n目標の説得に成功。\n\0":
-'The outcome was the target\nbeing successfully persuaded by\nboth Shinji Ikari and Toji Suzuhara.\n\0',
+'As a result, Shinji Ikari and\nToji Suzuhara successfully\npersuaded the target.\n\0',
 
 # Misato Katsuragi 
 "第３使徒\n\0":
@@ -12723,7 +12727,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "以後「渚カヲル」は従来通り、\n\0":
-'???',
+'Hereafter "Kaworu Nagisa" as per prior convention,\n\0',
 
 # Misato Katsuragi, Female Staff
 "タブリス\n\0":
@@ -12735,23 +12739,23 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "フィフス・チルドレン\n「渚・カヲル」であることが判明。\n\0":
-'was confirmed as being\nthe Fifth Child "Kaworu Nagisa".\n\0',
+'was confirmed as being\nthe Fifth Child, "Kaworu Nagisa".\n\0',
 
 # Misato Katsuragi 
 "フィフス・チルドレンとして\nエヴァパイロットを\n続行することになりました。\n\0":
-'???',
+'It was decided that he\nwould resume Eva pilot duties\nas the Fifth Child.\n\0',
 
 # Misato Katsuragi 
 "目標はターミナルドグマを目指して\n侵攻しました。\n\0":
-'???',
+'The target invaded with\nthe aim of Terminal Dogma.\n\0',
 
 # Misato Katsuragi 
 "初号機パイロット、碇シンジ及び、\n参号機パイロット、鈴原トウジが\n目標を追撃。\n\0":
-'???',
+'Shinji Ikari, pilot of Eva-01, and\nToji Suzuhara, pilot of Eva-03,\npursued the target.\n\0',
 
 # Misato Katsuragi 
 "接触に成功し、目標に対し説得を\n試みます。\n\0":
-'???',
+'Upon successful contact, persuasion\nwith the target was attempted.\n\0',
 
 #
 # ./USRDIR/event/cev1502.har_EXTRACT/cev1502.evs
@@ -12778,15 +12782,15 @@ translate_map = {
 
 # Kaworu Nagisa 
 "いや…、知ってどうするんだ。\n知って…。\n\0":
-'???',
+'No... I know what I should do.\nI know...\n\0',
 
 # [Text Only - No Designated Speaker]
 "でも、僕が何者なのか。\nその思いは膨らむばかりだ。▽\n僕を生み出した、第一始祖民族。\nあの老人達は…、碇司令は\nその秘密を知っているんだろうか。\n\0":
-'???',
+'But who am I?\nIt\'s the feeling that only gets bigger.▽\nThose who created me: the First Ancestral Race.\nThe old men... Commander Ikari\nseems to know their secrets.\n\0',
 
 # Kaworu Nagisa 
 "僕はどこから来て…。▽\nどこへ行くのだろう…。▽\n第一始祖民族…か。\n何の為に…、僕を…創った？\n\0":
-'Where did I come from...?\nWhere am I going...?▽\nThe First Ancestral Race...\nWhy did they make me?\n\0',
+'Where did I come from?\nWhere am I going?▽\nThe First Ancestral Race...\nWhy did they make me?\n\0',
 
 #
 # ./USRDIR/event/cev1504.har_EXTRACT/cev1504.evs
@@ -12804,7 +12808,7 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "僕は誰だ。\n何者なんだ…。▽\n渚カヲル。\nタブリス。\nアダム…。▽\n僕は、何かを知っている。\n何かを…知っている。\n\0":
-'???',
+'Who am I?\nI am someone...▽\nKaworu Nagisa.\nTabris.\nAdam.▽\nI know something.\nI know I do.\n\0',
 
 #
 # ./USRDIR/event/cev1506.har_EXTRACT/cev1506.evs
@@ -12863,7 +12867,7 @@ translate_map = {
 
 # ??? [Unnamed Seed of Life]
 "今となっては名前もない。\n姿もない。\n生命そのものになった存在さ。▽\n君の魂は、\n生命の実を食べ過ぎて、\n昔の事を忘れたようだ…。\n\0":
-'At this point in time,\nI have neither a name nor a form.\nI exist as the essence of life itself.▽\nYour soul, it seems,\nate too much of the Fruit of Life,\nand forgot things long past...\n\0',
+'At this point in time,\nI have neither name nor form.\nI am but the essence of life itself.▽\nYour soul, it seems,\nate too much of the Fruit of Life,\nand forgot things long past...\n\0',
 
 # Kaworu Nagisa 
 "僕を知ってるの…？\n\0":
@@ -12871,7 +12875,7 @@ translate_map = {
 
 # ??? [Unnamed Seed of Life]
 "故郷を同じくした\n種族だからね。\n\0":
-'Because our species\nhad the same homeworld.\n\0',
+'Because our species had a\nhome in common.\n\0',
 
 # Kaworu Nagisa 
 "第一始祖民族…？\n\0":
@@ -12879,75 +12883,77 @@ translate_map = {
 
 # ??? [Unnamed Seed of Life]
 "そうとも言えるね…。▽\n思い出せない？▽\n僕らは故郷の星を失う事を知り、\n別の生きていくべき星を探して\n宇宙のただなかへ旅に出た…。▽\n生命の根源の姿へ自分達を戻し…。\n多くの民と共に、\nひとつへ交じり合いながら…。▽\nいつか、再び増え栄える為にね。\n\0":
-'???',
+'You could call it that...▽\nYou don\'t remember?▽\nKnowing we would lose our home world,\nwe embarked on a journey into the midst\nof space in search of other planets.▽\nReverting ourselves to the primordial state of life,\nas many peoples\nwere blended into one...▽\nSo that, one day, we might multiply and flourish.\n\0',
 
 # Kaworu Nagisa 
 "僕は知りたいんだ…。\n自分が何者かを…。\n\0":
-'???',
+'I want to know...\nAbout who I am.\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君や僕を含めて、\n故郷の民を乗せたキャリアは\n７つあった。▽\n君や僕は、どこかの星へ着床した後、\n引き連れた民に\nどのような生命として姿を与えるか、▽\n代表してそれを決定する設計者だ。\n\0":
-'???',
+'Seven carriers there were,\nloaded with our home world\'s people,\nthe two of us included.▽\nWe are designers to the people we brought with us.\nAfter implanting into a world somewhere,\nwe either allow them to take shape as any life,▽\nor we decide their forms on their behalf.\n\0',
 
 # Kaworu Nagisa 
 "そうだ…。\n僕は目覚め…、使徒を生み出した。▽\n自分を見失った時の為に、\n計画書…裏死海文書を残して…。\n\0":
-'???',
+'I see now...\nIt was I who birthed the Angels.▽\nI left behind a plan, the Secret Dead Sea\nScrolls, for the time I lost sight of myself...\n\0',
 
 # Kaworu Nagisa 
 "君も…、どこかの星で栄えて…？\n\0":
-'???',
+'And you... Are you thriving on a world somewhere?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "僕らは、まだ旅の途中だ。▽\nどの星へ辿り着いて、\nどんな生命を創り出すのか。\nまだ、わからない…。\n\0":
-'???',
+'We\'re still in the midst of our journey.▽\nToward which world are we struggling?\nWhat kind of life will develop there?\nI don\'t yet know.\n\0',
 
 # Kaworu Nagisa 
 "僕の星は、同じ故郷の命が\n争いあっている。▽\nひとつの星に、二つのキャリアが\n着床した為に。▽\n本当は争いあうべきでは\nなかったんだ。\nお互い忘れてしまっただけなんだ。\n\0":
-'???',
+'Both forms of life that call my world their\nhome are in quarrel with each other.▽\nBecause two carriers implanted on a single world.▽\nIn truth, this conflict only\nhappened because they forgot\nall about each other.\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君がその気なら、\nまた旅をするといい。\n君の民の魂を連れて。\n\0":
-'???',
+'If that\'s how you feel,\nwhy not voyage once more?\nTake the souls of your people along.\n\0',
 
 # Kaworu Nagisa 
 "どうやって？\n\0":
-'???',
+'But how?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君はその姿を捨てなくては\nならないが。▽\n君の子らも、今の姿を捨てて\nキャリアに戻ればいい。▽\nどうだろう。\n僕と一緒に旅をするのは？\n\0":
-'???',
+'Discarding that form of\nyours is an absolute must.▽\nYour children, too, should leave their current\nforms behind and return to a carrier.▽\nHere\'s a thought.\nWhy don\'t you journey with me?/n/o',
 
 # Kaworu Nagisa 
 "ΑΤフィールドを…？\n\0":
-'???',
+'Our A.T. Fields, though?\n\0',
 
 # ??? [Unnamed Seed of Life]
 "槍を呼ぶんだ。\n始まりの時を願って。\nそして君の民の魂を導けばいい。\n\0":
-'???',
+'Call for the spear.\nPray for a time of beginnings.\nThen you may lead your people\'s souls.\n\0',
 
 # Makoto Hyuga, Male Staff
 "ケイジのエヴァが…、\n消失しました！\n\0":
-'???',
+'The caged Evas...\nThey\'ve vanished!\n\0',
 
 # Misato Katsuragi 
 "何ですって！？\n\0":
-'???',
+'What the hell?!\n\0',
 
 # Female Staff
 "そんな、そんなはずは！？\n\0":
-'???',
+'How\'s that even--?!\n\0',
 
 # Shigeru Aoba, Male Staff
 "フィフスもです。\n目標、ロスト！\n\0":
-'???',
+'The Fifth, too.\nTarget\'s been lost!\n\0',
 
 # Misato Katsuragi, Female Staff
 "どういう事…？\n\0":
-'???',
+'What\'s going on...?\n\0',
 
 # Kaworu Nagisa 
 "さあ、行こう。\n僕の子ら。\nそして、リリンのしもべ…。▽\nさよなら、リリス。\nさよなら、リリン。▽\n歌を教えてくれて、ありがとう…。\n\0":
-'???',
+'Now then, let\'s go.\nMy children,\nand servants of the Lilin...▽\nFarewell, Lilith.\nFarewell, Lilin.▽\nThank you, for teaching me about songs...\n\0',
+
+# [Scenario 17: Pen Pen]
 
 #
 # ./USRDIR/event/cev1601.har_EXTRACT/cev1601.evs
