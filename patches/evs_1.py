@@ -6959,10 +6959,6 @@ translate_map = {
 "ゆっくりだが、真っ直ぐここを\n目指しているな。\n\0":
 '???',
 
-# Female Staff
-"目標、現在の速度を保ったまま\n直上地点を目指しています。\n\0":
-'???',
-
 # Makoto Hyuga, Female Staff
 "現在、国連軍と交戦中。\nやはり、通常兵器では\n歯が立たないようですね。\n\0":
 '???',
@@ -7000,7 +6996,7 @@ translate_map = {
 '???',
 
 # Female Staff
-"電波障害のため、\nモニターでは確認出来ません。\n\0":
+"目標、現在の速度を保ったまま\n直上地点を目指しています。\n\0":
 '???',
 
 # Makoto Hyuga, Female Staff
@@ -7037,11 +7033,14 @@ translate_map = {
 
 # Female Staff
 "使徒は、機能を増幅させている\nようですね。▽\nでは、こちらで使徒迎撃のための\n作戦をパイロットに説明します。\n\0":
-'???',
+'The Angel seems to be\nenhancing its functions.▽\nWell, our job is briefing the pilots\non a strategy against the Angel.\n\0',
 
 #
 # ./USRDIR/event/a001.har_EXTRACT/a001.evs
 #
+# [Angel: Shamshel]
+#
+
 # Makoto Hyuga, Male Staff
 "目標は、超低高度で進行中。\n\0":
 '???',
@@ -7719,41 +7718,9 @@ translate_map = {
 #
 # ./USRDIR/event/a010.har_EXTRACT/a010.evs
 #
-# Female Staff
-"マギによる演算結果でも\n勝率は０．００００１パーセント。▽\nしかし、ここを放棄する以外、\n他に手がありません。\n\0":
-'???',
-
-# Male Staff
-"では、パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
-'???',
-
-# Shigeru Aoba, Male Staff
-"エヴァで使徒を\n受け止めるんですか？\n\0":
-'We\'ll catch the Angel\nwith the Evas?\n\0',
-
 # Makoto Hyuga, Male Staff
 "使徒、インド洋上空、\n衛星軌道上に突如出現！\n\0":
 'An Angel appeared suddenly in\nsatellite orbit above the Indian Ocean!\n\0',
-
-# Misato Katsuragi 
-"そうよ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止めるの。\n\0":
-'That\'s right.▽\nWe\'ll arrange the Evas within the target\'s\nestimated drop zone, and they\'ll catch the Angel\ndirectly with their A.T. Fields at maximum.\n\0',
-
-# Kozo Fuyutsuki
-"そうだ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止める。\n\0":
-'???',
-
-# Female Staff
-"目標の落下予測地点にエヴァを\n配置し、ΑΤフィールドで\n直接使徒を受け止めます。\n\0":
-'???',
-
-# Male Staff, Makoto Hyuga
-"しかし、こんなに落下予想範囲が\n広くては…。\n\0":
-'But if the anticipated drop range\nis this spread out...\n\0',
-
-# Ritsuko Akagi 
-"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもないわよ。\nどうするの？\n\0":
-'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nNow what?\n\0',
 
 # Makoto Hyuga
 "こりゃ、すごい！\n\0":
@@ -7762,10 +7729,6 @@ translate_map = {
 # Female Staff
 "これは…すごい！\n\0":
 'That is... incredible!\n\0',
-
-# Ritsuko Akagi 
-"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもありません。\nどうなさるおつもりですか？\n\0":
-'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nWhat are you planning, sir?\n\0',
 
 # Misato Katsuragi 
 "常識を疑うわね。\n\0":
@@ -7779,18 +7742,6 @@ translate_map = {
 "常識を疑いますね。\n\0":
 '???',
 
-# Ritsuko Akagi 
-"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもない。\n\0":
-'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\n\0',
-
-# Male Staff
-"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率は………、\n万に一つもない。\n\0":
-'???',
-
-# Misato Katsuragi 
-"可能性はゼロ、じゃないのよ。\n他に方法がなければ\nやるしかないわ。\n\0":
-'The odds aren\'t zero.\nIf there are no other options,\nyou just have to do it.\n\0',
-
 # Misato Katsuragi 
 "大した破壊力ね。\nさっすがΑΤフィールド。\n\0":
 'Impressive destructive potential, I must say.\nThat\'s an A.T. Field for you.\n\0',
@@ -7802,10 +7753,6 @@ translate_map = {
 # Female Staff
 "スゴイ破壊力ですね。\nさすがはΑΤフィールド。\n\0":
 '???',
-
-# Ritsuko Akagi 
-"パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
-'Send emergency summons to the pilots.\nSoon as preparations are complete, we\'ll commence the operation.\n\0',
 
 # Maya Ibuki, Female Staff
 "落下のエネルギーをも\n利用しています。▽\n使徒そのものが\n爆弾みたいなものですね。\n\0":
@@ -7831,10 +7778,6 @@ translate_map = {
 "来ますね、多分。\n\0":
 '???',
 
-# Kozo Fuyutsuki
-"だが、使徒殲滅が我々の仕事だ。\n…これに賭けよう。\n\0":
-'???',
-
 # Ritsuko Akagi 
 "ええ、次はここに、本体ごとね。\nどうするの？\n\0":
 'Correct, it throws itself on us next.\nWhat do we do?\n\0',
@@ -7849,6 +7792,62 @@ translate_map = {
 
 # Female Staff
 "次はここに本体ごと。\nいったい、どうすれば………？\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"エヴァで使徒を\n受け止めるんですか？\n\0":
+'We\'ll catch the Angel\nwith the Evas?\n\0',
+
+# Misato Katsuragi 
+"そうよ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止めるの。\n\0":
+'That\'s right.▽\nWe\'ll arrange the Evas within the target\'s\nestimated drop zone, and they\'ll catch the Angel\ndirectly with their A.T. Fields at maximum.\n\0',
+
+# Kozo Fuyutsuki
+"そうだ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止める。\n\0":
+'???',
+
+# Female Staff
+"目標の落下予測地点にエヴァを\n配置し、ΑΤフィールドで\n直接使徒を受け止めます。\n\0":
+'???',
+
+# Male Staff, Makoto Hyuga
+"しかし、こんなに落下予想範囲が\n広くては…。\n\0":
+'But if the anticipated drop range\nis this spread out...\n\0',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもないわよ。\nどうするの？\n\0":
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nNow what?\n\0',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもありません。\nどうなさるおつもりですか？\n\0":
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nWhat are you planning, sir?\n\0',
+
+# Ritsuko Akagi 
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもない。\n\0":
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\n\0',
+
+# Male Staff
+"エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率は………、\n万に一つもない。\n\0":
+'???',
+
+# Misato Katsuragi 
+"可能性はゼロ、じゃないのよ。\n他に方法がなければ\nやるしかないわ。\n\0":
+'The odds aren\'t zero.\nIf there are no other options,\nyou just have to do it.\n\0',
+
+# Kozo Fuyutsuki
+"だが、使徒殲滅が我々の仕事だ。\n…これに賭けよう。\n\0":
+'???',
+
+# Female Staff
+"マギによる演算結果でも\n勝率は０．００００１パーセント。▽\nしかし、ここを放棄する以外、\n他に手がありません。\n\0":
+'???',
+
+# Ritsuko Akagi 
+"パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
+'Send emergency summons to the pilots.\nSoon as preparations are complete, we\'ll commence the operation.\n\0',
+
+# Male Staff
+"では、パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
 '???',
 
 #
@@ -8387,13 +8386,33 @@ translate_map = {
 #
 # [Post-Battle Report: Sahaquiel, Success and Failure]
 #
-# Shigeru Aoba, Male Staff
-"エヴァ要撃ポイント、\n予想落下地点から大きく\n外れていきます。\n\0":
-'???',
+# Misato Katsuragi, Female Staff
+"サハクィエル\n\0":
+'Sahaquiel\n\0',
 
 # Misato Katsuragi, Female Staff
-"エヴァは見事使徒を受け止め\n使徒殲滅に成功しましたが\n\0":
-'???',
+"インド洋上空衛星軌道上に目標を発見\n\0":
+'The target was detected in satellite orbit above the Indian Ocean.\n\0',
+
+# Misato Katsuragi, Female Staff
+"Ν航空爆雷の効果も空しく\n\0":
+'Even N2 aerial depth charges had no effect.\n\0',
+
+# Misato Katsuragi, Female Staff
+"ネルフ権限における特別宣言Ｄ−１７\nを発令し、半径５０キロメートルの\n全市民の避難を行う\n\0":
+'Special declaration D-17 was announced\nunder Nerv\'s authority and all\ncitizens within a 50km radius were evacuated.\n\0',
+
+# Misato Katsuragi, Female Staff
+"目標は誤差修正しながら、\n組織の一部を落下させ攻撃開始\n\0":
+'The target, while correcting for error,\nbegan to attack by dropping pieces of body tissue.\n\0',
+
+# Misato Katsuragi, Female Staff
+"予測通り、目標は\n第３新東京市を目掛け、降下\n\0":
+'Following predictions,\nthe target　aimed at Tokyo-3 and descended.\n\0',
+
+# Misato Katsuragi, Female Staff
+"成層圏より飛来する目標に対し\n\0":
+'In response to the target coming down from the stratosphere,\n\0',
 
 # Misato Katsuragi, Female Staff
 "エヴァによる直接要撃を試みました。\n\0":
@@ -8404,20 +8423,24 @@ translate_map = {
 '???',
 
 # Misato Katsuragi, Female Staff
-"サハクィエル\n\0":
-'Sahaquiel\n\0',
+"使徒殲滅に成功しました。\n\0":
+'???',
 
 # Misato Katsuragi, Female Staff
-"使徒殲滅に成功しました。\n\0":
+"エヴァは見事使徒を受け止め\n使徒殲滅に成功しましたが\n\0":
+'???',
+
+# Misato Katsuragi, Female Staff
+"パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
+'???',
+
+# Shigeru Aoba, Male Staff
+"エヴァ要撃ポイント、\n予想落下地点から大きく\n外れていきます。\n\0":
 '???',
 
 # Misato Katsuragi 
 "そんな…！？\nマギに要撃ポイント修正を、\n急いで！\n\0":
 '???',
-
-# Misato Katsuragi, Female Staff
-"インド洋上空衛星軌道上に目標を発見\n\0":
-'The target was detected in satellite orbit above the Indian Ocean.\n\0',
 
 # Female Staff
 "マギに要撃ポイント修正を、\n急いで下さい！\n\0":
@@ -8426,10 +8449,6 @@ translate_map = {
 # Male Staff, Makoto Hyuga
 "ダメです、現在のエヴァの\nポイントからでは間に合いません！\n\0":
 '???',
-
-# Misato Katsuragi, Female Staff
-"Ν航空爆雷の効果も空しく\n\0":
-'Even N2 aerial depth charges had no effect.\n\0',
 
 # Misato Katsuragi 
 "あきらめないわよ…、\n私はあきらめないわよッ！！\n\0":
@@ -8446,26 +8465,6 @@ translate_map = {
 # Female Staff
 "もう、なす術はないの…。\n\0":
 '???',
-
-# Misato Katsuragi, Female Staff
-"パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
-'???',
-
-# Misato Katsuragi, Female Staff
-"目標は誤差修正しながら、\n組織の一部を落下させ攻撃開始\n\0":
-'The target, while correcting for error,\nbegan to attack by dropping pieces of body tissue.\n\0',
-
-# Misato Katsuragi, Female Staff
-"ネルフ権限における特別宣言Ｄ−１７\nを発令し、半径５０キロメートルの\n全市民の避難を行う\n\0":
-'Special declaration D-17 was announced\nunder Nerv\'s authority and all\ncitizens within a 50km radius were evacuated.\n\0',
-
-# Misato Katsuragi, Female Staff
-"予測通り、目標は\n第３新東京市を目掛け、降下\n\0":
-'Following predictions,\nthe target　aimed at Tokyo-3 and descended.\n\0',
-
-# Misato Katsuragi, Female Staff
-"成層圏より飛来する目標に対し\n\0":
-'In response to the target coming down from the stratosphere,\n\0',
 
 #
 # ./USRDIR/event/n011.har_EXTRACT/n011.evs
