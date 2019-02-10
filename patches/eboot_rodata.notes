@@ -11,7 +11,7 @@ _ Used to indicate a sub-range. (So, e.g., 0x001BFA70 to 0x001BFA9C is found wit
 0x001B2B84 to 0x001B2F34 Non-gameplay text. Each one seems to correspond to a specific gameplay variable during battle mode.
 0x001B2F60 to 0x001B3248 Probably modify dialogue with other characters, like "how are you doing?" and "what do you think of [person]?". Need to find exact context in-game so these can be translated properly. Rough approximations will suffice for now.
 0x001B3254 to 0x001B3260 Debug on / off
-0x001B326C 		 Unknown. (Fire and fighting spirit? Wha?)
+0x001B326C 		 Probably continuation of 0x001B2F60 to 0x001B3248
 0x001B328C to 0x001B330C Character names. Basic forms. Used for character relationship graphs? 
 0x001B334C to 0x001B3544 Labels for friendly units, hostile units, facilities, etc., in the battle mode? 
 0x001B3810 to 0x001B390C Character names. The label that pops up when you approach someone in the open world?
@@ -51,6 +51,11 @@ _ 0x001BF980 to 0x001BF9AC Commands for inviting NPCs to go with you to school/w
 (...)
 0x001C46C4 to 0x001C496C Map screen selections. In-game, Δ becomes a right-pointing white triangle.
 0x001C4D68　Command to leave Misato's apartment
+(...)
+0x001C7608 to 0x001C7620 Subsection headers for Tutorial.
+(...)
+0x001C8160 to 0x001C8248 Need to confirm further, but one probable use is for the $o in $cへ\n伝えてほしいんだ…。\n僕が$oと言っていたってね。 (see imtext_1
+)
 (...)
 0x001C8448 to 0x001C84A8 Probably labels for the nine main types of character portraits.
 0x001C84B4 to 0x001C8514 As a corollary of the above: labels for special types of character portraits.
