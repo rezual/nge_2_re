@@ -3304,7 +3304,7 @@ translate_map = {
 
 # Gendo Ikari
 "ところで、\n初号機のパイロットはいるか。\n\0":
-'Is the pilot of\nUnit-01 there?\n\0',
+'Is the pilot of\nEva-01 there?\n\0',
 
 # Gendo Ikari
 "話は聞いた。\nよくやったな、シンジ。\n\0":
@@ -5017,7 +5017,7 @@ translate_map = {
 
 # Shigeru Aoba
 "エヴァ弐号機、完全に沈黙。\n目標移動、零号機へ。\n\0":
-'Eva Unit-02 has gone completely silent.\nTarget is moving toward Unit-00.\n\0',
+'Eva Unit-02 has gone completely silent.\nTarget is moving toward Eva-00.\n\0',
 
 # Rei Ayanami 
 "はっ…。\n\0":
@@ -5083,7 +5083,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "あの、参号機のパイロットは、\nフォース・チルドレンは…。\n\0":
-'Unit-03\'s pilot...\nThe Fourth Child is...\n\0',
+'Eva-03\'s pilot...\nThe Fourth Child is...\n\0',
 
 # Shinji Ikari
 "…トウジ？\n\0":
@@ -5319,7 +5319,7 @@ translate_map = {
 
 # Shigeru Aoba
 "零号機、沈黙！\n使徒、移動を開始しました。\n\0":
-'Unit-00 has gone silent!\nThe Angel has commenced movement.\n\0',
+'Eva-00 has gone silent!\nThe Angel has commenced movement.\n\0',
 
 # Makoto Hyuga
 "最終装甲板、融解！\n\0":
@@ -5331,7 +5331,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "初号機はまだなの？\n\0":
-'Any change with Unit-01?\n\0',
+'Any change with Eva-01?\n\0',
 
 # Maya Ibuki 
 "駄目です。\nダミープラグを拒否しています。\n\0":
@@ -5343,7 +5343,7 @@ translate_map = {
 
 # Shinji Ikari
 "僕を初号機に乗せてください！\n\0":
-'Let me pilot Unit-01!\n\0',
+'Let me pilot Eva-01!\n\0',
 
 # Shinji Ikari
 "僕は、\n僕はエヴァンゲリオン初号機の\nパイロット、碇シンジです！▽\n僕をエヴァに乗せてください！\n\0":
@@ -6204,7 +6204,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "零号機のΑΤフィールドは！？\n\0":
-'What about Unit-00\'s A.T. Field?!\n\0',
+'What about Eva-00\'s A.T. Field?!\n\0',
 
 # Maya Ibuki 
 "展開中！\nしかし、使徒に侵食されています！\n\0":
@@ -6451,11 +6451,11 @@ translate_map = {
 
 # Gendo Ikari
 "エヴァ初号機に追撃させる。\n\0":
-'Pursue with Unit-01.\n\0',
+'Pursue with Eva Unit-01.\n\0',
 
 # Maya Ibuki 
 "無人です！\n弐号機にはエントリープラグは\n挿入されていません！\n\0":
-'It\'s unmanned!\nUnit-02 has no entry plug\ninserted!\n\0',
+'It\'s unmanned!\nEva-02 has no entry plug\ninserted!\n\0',
 
 #
 # ./USRDIR/event/tev1901.har_EXTRACT/tev1901.evs
@@ -6667,11 +6667,11 @@ translate_map = {
 
 # Rei Ayanami 
 "だめ。\n碇君が呼んでる。\n\0":
-'I can\'t.\nIkari-kun is calling.\n\0',
+'I can\'t.\nIkari-kun is calling me.\n\0',
 
 # Rei Ayanami 
 "闇の入り口、\nそして、闇の終り。\nそこは、私が帰る場所。▽\n…ただいま。\n\0":
-'???',
+'The gate of darkness,\nand darkness\' end.\nIt is to there that I return.▽\nI\'m home.\n\0',
 
 # Maya Ibuki 
 "レ…イ………？▽\nひ…ぃぁ、\nいやあああぁああ！\nいいぃやああああああ！！\n\0":
@@ -7642,11 +7642,11 @@ translate_map = {
 
 # Female Staff
 "えっ？\n弐号機が！？\n\0":
-'What?\nUnit-02 is?!\n\0',
+'What?\nEva-02 is?!\n\0',
 
 # Maya Ibuki, Male Staff
 "弐号機にはエントリープラグが\n挿入されていません。\n無人で動いています！\n\0":
-'Unit-02 has no\nentry plug inserted.\nIt\'s moving unmanned!\n\0',
+'Eva-02 has no\nentry plug inserted.\nIt\'s moving unmanned!\n\0',
 
 # Misato Katsuragi 
 "誰もいない？\nどういう事！！\n\0":
@@ -7666,11 +7666,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "弐号機？\n\0":
-'Unit-02?\n\0',
+'Eva-02?\n\0',
 
 # Kozo Fuyutsuki
 "弐号機か？\n\0":
-'Is it Unit-02?\n\0',
+'Is it Eva-02?\n\0',
 
 # Makoto Hyuga, Male Staff
 "パターン青。\n間違いありません。\n使徒です。\n\0":
@@ -7729,15 +7729,15 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "エヴァで使徒を\n受け止めるんですか？\n\0":
-'???',
+'We\'ll catch the Angel\nwith the Evas?\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒、インド洋上空、\n衛星軌道上に突如出現！\n\0":
-'???',
+'An Angel appeared suddenly in\nsatellite orbit above the Indian Ocean!\n\0',
 
 # Misato Katsuragi 
 "そうよ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止めるの。\n\0":
-'???',
+'That\'s right.▽\nWe\'ll arrange the Evas within the target\'s\nestimated drop zone, and they\'ll catch the Angel\ndirectly with their A.T. Fields at maximum.\n\0',
 
 # Kozo Fuyutsuki
 "そうだ。▽\n目標の落下予測地点にエヴァを\n配置し、ΑΤフィールド最大で\n直接使徒を受け止める。\n\0":
@@ -7749,11 +7749,11 @@ translate_map = {
 
 # Male Staff, Makoto Hyuga
 "しかし、こんなに落下予想範囲が\n広くては…。\n\0":
-'???',
+'But if the anticipated drop range\nis this spread out...\n\0',
 
 # Ritsuko Akagi 
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもないわよ。\nどうするの？\n\0":
-'???',
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nNow what?\n\0',
 
 # Makoto Hyuga
 "こりゃ、すごい！\n\0":
@@ -7765,11 +7765,11 @@ translate_map = {
 
 # Ritsuko Akagi 
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもありません。\nどうなさるおつもりですか？\n\0":
-'???',
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\nWhat are you planning, sir?\n\0',
 
 # Misato Katsuragi 
 "常識を疑うわね。\n\0":
-'???',
+'It defies common sense.\n\0',
 
 # Kozo Fuyutsuki
 "また、無茶なヤツだな。\n\0":
@@ -7781,7 +7781,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率はざっと計算して………、\n万に一つもない。\n\0":
-'???',
+'We\'re in the out course soon as\nthe Evas leave their start positions.▽\nApproximating the odds of success...\nIt\'s not even one in 10,000.\n\0',
 
 # Male Staff
 "エヴァの初期配置を\n外した時点でアウト。▽\n当たる確率は………、\n万に一つもない。\n\0":
@@ -7789,11 +7789,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "可能性はゼロ、じゃないのよ。\n他に方法がなければ\nやるしかないわ。\n\0":
-'???',
+'The odds aren\'t zero.\nIf there are no other options,\nyou just have to do it.\n\0',
 
 # Misato Katsuragi 
 "大した破壊力ね。\nさっすがΑΤフィールド。\n\0":
-'???',
+'Impressive destructive potential, I must say.\nThat\'s an A.T. Field for you.\n\0',
 
 # Kozo Fuyutsuki
 "大した破壊力だな。\nやはりΑΤフィールドか。\n\0":
@@ -7805,15 +7805,15 @@ translate_map = {
 
 # Ritsuko Akagi 
 "パイロットに非常召集を。\n準備が出来次第、\n作戦を開始しましょう。\n\0":
-'???',
+'Send emergency summons to the pilots.\nSoon as preparations are complete, we\'ll commence the operation.\n\0',
 
 # Maya Ibuki, Female Staff
 "落下のエネルギーをも\n利用しています。▽\n使徒そのものが\n爆弾みたいなものですね。\n\0":
-'???',
+'It\'s even utilizing the\nenergy of descent.▽\nThe Angel itself is\nsomething like a bomb.\n\0',
 
 # Ritsuko Akagi 
 "とりあえず、\n初弾は太平洋に大ハズレ。\nだけど徐々に狙いを定めてきてるわ。\n\0":
-'???',
+'In any event, the first bomb\nhit the Pacific, a total miss.\nIt\'s been steadily refining its aim since.\n\0',
 
 # Female Staff
 "とりあえず、初弾は\n太平洋に落下していますが…、▽\n徐々に狙いが\n正確になってきています。\n\0":
@@ -7821,7 +7821,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "来るわね、多分。\n\0":
-'???',
+'So it\'s probably coming here.\n\0',
 
 # Kozo Fuyutsuki
 "…来るな。\n\0":
@@ -7837,7 +7837,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "ええ、次はここに、本体ごとね。\nどうするの？\n\0":
-'???',
+'Correct, it throws itself on us next.\nWhat do we do?\n\0',
 
 # Ritsuko Akagi 
 "次はここに、本体ごと。\nどうします？\n\0":
@@ -8113,11 +8113,11 @@ translate_map = {
 #
 # Misato Katsuragi, Female Staff
 "零号機\n\0":
-'Unit-00\n\0',
+'Eva-00\n\0',
 
 # Misato Katsuragi, Female Staff
 "参号機\n\0":
-'???',
+'Eva-03\n\0',
 
 # Female Staff, Misato Katsuragi 
 "かろうじて、使徒殲滅に成功。\n\0":
@@ -8125,7 +8125,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "四号機\n\0":
-'Unit-04\n\0',
+'Eva-04\n\0',
 
 # Misato Katsuragi, Female Staff
 "マトリエル\n\0":
@@ -8157,7 +8157,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "初号機\n\0":
-'Unit-01\n\0',
+'Eva-01\n\0',
 
 # Misato Katsuragi, Female Staff
 "しかし、パイロットを失うという\n致命的な損害を受けてしまいました。\n\0":
@@ -8169,7 +8169,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "弐号機\n\0":
-'Unit-02\n\0',
+'Eva-02\n\0',
 
 #
 # ./USRDIR/event/n005.har_EXTRACT/n005.evs
@@ -8417,7 +8417,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "インド洋上空衛星軌道上に目標を発見\n\0":
-'???',
+'The target was detected in satellite orbit above the Indian Ocean.\n\0',
 
 # Female Staff
 "マギに要撃ポイント修正を、\n急いで下さい！\n\0":
@@ -8429,7 +8429,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "Ν航空爆雷の効果も空しく\n\0":
-'???',
+'Even N2 aerial depth charges had no effect.\n\0',
 
 # Misato Katsuragi 
 "あきらめないわよ…、\n私はあきらめないわよッ！！\n\0":
@@ -8453,19 +8453,19 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "目標は誤差修正しながら、\n組織の一部を落下させ攻撃開始\n\0":
-'???',
+'The target, while correcting for error,\nbegan to attack by dropping pieces of body tissue.\n\0',
 
 # Misato Katsuragi, Female Staff
 "ネルフ権限における特別宣言Ｄ−１７\nを発令し、半径５０キロメートルの\n全市民の避難を行う\n\0":
-'???',
+'Special declaration D-17 was announced\nunder Nerv\'s authority and all\ncitizens within a 50km radius were evacuated.\n\0',
 
 # Misato Katsuragi, Female Staff
 "予測通り、目標は\n第３新東京市を目掛け、降下\n\0":
-'???',
+'Following predictions,\nthe target　aimed at Tokyo-3 and descended.\n\0',
 
 # Misato Katsuragi, Female Staff
 "成層圏より飛来する目標に対し\n\0":
-'???',
+'In response to the target coming down from the stratosphere,\n\0',
 
 #
 # ./USRDIR/event/n011.har_EXTRACT/n011.evs
@@ -8488,7 +8488,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "初号機は消失します。\n\0":
-'Unit-01 disappears.\n\0',
+'Eva-01 disappears.\n\0',
 
 # Misato Katsuragi, Female Staff
 "エヴァ初号機救出のため、強制サルベージ作戦を実行。\n\0":
@@ -8583,7 +8583,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "以上、報告を終わります。\n\0":
-'???',
+'This concludes my report.\n\0',
 
 # Misato Katsuragi, Female Staff
 "この後、目標は心理攻撃を展開\n\0":
@@ -8776,7 +8776,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "今のうちに、\n仕留められるなら…。\n四号機、行きます。\n\0":
-'???',
+'If I can bring it\ndown quickly, then...\nEva-04 is going in.\n\0',
 
 # Kaworu Nagisa 
 "影…！？\nこれは…！\n\0":
@@ -8784,7 +8784,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "ちょっと、待ちなさい！\n危険だわ！！\n\0":
-'???',
+'Wait a minute!\nIt\'s too risky!!\n\0',
 
 # Male Staff
 "危険です。\n待機態勢に戻ってください！\n\0":
@@ -8792,7 +8792,7 @@ translate_map = {
 
 # Ritsuko Akagi 
 "そこは危険だわ！\n影から離れて！！\n\0":
-'???',
+'You\'re in danger there!\nGet away from the shadow!\n\0',
 
 # Makoto Hyuga, Female Staff
 "使徒、消失しました！\n\0":
@@ -8832,11 +8832,11 @@ translate_map = {
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n初号機の真下ですっ！\n\0":
-'Pattern blue!\nDirectly under Unit-01!\n\0',
+'Pattern blue!\nDirectly under Eva-01!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n弐号機の真下ですっ！\n\0":
-'Pattern blue!\nDirectly under Unit-02!\n\0',
+'Pattern blue!\nDirectly under Eva-02!\n\0',
 
 # Shinji Ikari
 "か…、影が？\n何だよこれ！？\nおかしいよ…！\n\0":
@@ -8844,11 +8844,11 @@ translate_map = {
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n零号機の真下ですっ！\n\0":
-'Pattern blue!\nDirectly under Unit-00!\n\0',
+'Pattern blue!\nDirectly under Eva-00!\n\0',
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n参号機の真下ですっ！\n\0":
-'Pattern blue!\nDirectly under Unit-03!\n\0',
+'Pattern blue!\nDirectly under Eva-03!\n\0',
 
 # Asuka Soryu Langley
 "やだ…！！\n沈む、沈んじゃう！！\n誰か！　どうにか出来ないの…。\n\0":
@@ -8856,11 +8856,11 @@ translate_map = {
 
 # Makoto Hyuga, Female Staff
 "パターン青！\n四号機の真下ですっ！\n\0":
-'Pattern blue!\nDirectly under Unit-04!\n\0',
+'Pattern blue!\nDirectly under Eva-04!\n\0',
 
 # Kaworu Nagisa 
 "くっ…、しまった。\n捕らえられたか………。\n\0":
-'???',
+'Ugh... Damnit.\nGuess it has me...',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le003.evs
@@ -8911,15 +8911,15 @@ translate_map = {
 
 # Kaworu Nagisa 
 "恐らくここは、負のエネルギー空間。\nレーダー電波もソナーも\nここじゃ役に立たないな。\n\0":
-'???',
+'This is likely a negative energy space.\nRadar waves and sonar\nare both useless here.\n\0',
 
 # Kaworu Nagisa 
 "生命維持モードは、\nよくて５時間…。\n\0":
-'???',
+'Five hours of life support\nmode, at best...\n\0',
 
 # Kaworu Nagisa 
 "計画の狂いは、\nここまで及ぶ…か。\n\0":
-'???',
+'The plan will deviate no\nfurther than this, I suppose.\n\0',
 
 # Misato Katsuragi 
 "じゃあ、あの影の部分が\n使徒の本体なわけ？\n\0":
@@ -9078,11 +9078,11 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ…\n\0":
-'Hahah...\n\0',
+'Heh heh heh...\n\0',
 
 # Kaworu Nagisa 
 "これは…？\n\0":
-'Is that...?\n\0',
+'Is this...?\n\0',
 
 # Kaworu's Shadow [Leliel]
 "僕がわかるかい？\n\0":
@@ -9090,20 +9090,20 @@ translate_map = {
 
 # Kaworu Nagisa 
 "…己の内面。\n弱い部分と向き合うなんて、\n未熟なリリンどもの風習だね…。\n\0":
-'My inner self.\nConfronting one\'s own weakness,\n\'tis a custom of the fledgeling Lilin...\n\0',
+'My inner self.\nConfronting one\'s own weakness,\n\'tis a custom of the fledgling Lilin...\n\0',
 
 # Kaworu's Shadow [Leliel]
 # Second sentence's translation too liberal, fix. -Reichu
 "その未熟なリリンの物真似が\n上手になったね。\n内面の弱さまで再現してるんだから。\n\0":
-'Oh, but you\'ve grown adept at mimicking those fledgeling Lilin.\nThus, parts of yourself as deeply buried as your inner weakness are returning.\n\0',
+'Oh, but you\'ve grown adept at\nmimicking those fledgling Lilin.\nBecause, you see, even your inner weakness is resurfacing.\n\0',
 
 # Kaworu Nagisa 
 "………。\n一体、何しに現れたの？\n\0":
-'......\nWhat could you possibly have shown up to do?\n\0',
+'......\nWhat could have driven you to show yourself?\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ…。\n確認だよ。\n本来の目的を忘れてはいないかい？\n\0":
-'Haha...\nSo it\'s true.\nYou haven\'t totally forgotten your original purpose, have you?\n\0',
+'Heh heh...\nSo it\'s true.\nDo you remember your original purpose, at least?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le005.evs
@@ -9870,7 +9870,7 @@ translate_map = {
 
 # Asuka's Shadow [Leliel]
 "あなたは\n人を遠ざけるために努力した。\n大学を出た、エヴァに乗った…。▽\nそう、\nすべてあなたの努力の成果なのよ。\n\0":
-'???',
+'You\'ve worked hard to\nkeep people at arm\'s length.\nAttending college, piloting the Eva...▽\nYes, all fruits of your hard work.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le210.evs
@@ -10623,33 +10623,33 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "…何だろうね…。\nフフ、思い出せないよ。\n\0":
-'???',
+'What is it, I wonder...?\nHeh, I\'m drawing a blank.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "ごまかしているね。\n本当はわかってるんだろ？\n\0":
-'???',
+'An evasive one, you are.\nYou actually do know, don\'t you?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le516.evs
 #
 # Kaworu Nagisa 
 "当然だよ。\nフフ、わかってはいるんだけどね…。\n\0":
-'???',
+'Of course I do.\nHeh,わかってはいるんだけどね…。\n\0',
 
 # Kaworu's Shadow [Leliel]
 "ずいぶん曖昧な態度だね。\nリリンに感化されすぎたかな。\n\0":
-'???',
+'Talk about being ambiguous.\nYou\'re suffering too much Lilin influence, I see.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le517.evs
 #
 # Kaworu Nagisa 
 "今は…、忘れておきたいんだ…。\n\0":
-'???',
+'Right now... I wish I could forget.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "リリンと交わる事に\n耽溺しているようだね。\nフフ、背徳的だ…。\n\0":
-'???',
+'Your interactions with the Lilin\nare an indulgence, it seems.\nHeh, how perverse...',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le518.evs
@@ -10661,7 +10661,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ、本心の言葉じゃないね。\n…いや、自分を言い聞かせようと\nしているのか。\n\0":
-'Heh-heh, but you don\'t voice your true feelings.\nNo... You are trying\nto persuade yourself.\n\0',
+'Heh, but you don\'t voice your true feelings.\nNo... You are trying\nto persuade yourself.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le519.evs
@@ -10672,7 +10672,7 @@ translate_map = {
 
 # Kaworu's Shadow [Leliel]
 "フフ…、でも敵は敵だよ？\n彼らも最終的には絶対に\n君を受け入れないだろうね。\n\0":
-'Heh-heh... But an enemy is an enemy, yes?\nIn the end, they won\'t accept\nyou unconditionally, will they?\n\0',
+'Heh... But an enemy is an enemy, yes?\nIn the end, they won\'t accept\nyou unconditionally, will they?\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le520.evs
@@ -10690,26 +10690,26 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "そうじゃない！\n僕はヒトを知るために、\nヒトと接していただけだ。\n\0":
-'That\'s not true!\nI only came in contact with humans\nso that I could know them.\n\0',
+'It\'s not like that!\nI came in contact with humans so\nthat I might know them, that\'s all.\n\0',
 
 # Kaworu's Shadow [Leliel]
 "フフ、そうは見えないよ。▽\nリリンの中は暖かくて、\n気持ちよかったんだろ？\nもう、すべてを忘れてしまうほどに。\n\0":
-'Heh heh, that\'s not what I see.▽\nDon\'t you feel nice and warm\namong the Lilin?\nSo much that you\'ve already forgotten everything.\n\0',
+'Heh heh, that\'s not what I see.▽\nDon\'t you feel warm and cozy\namongst the Lilin?\nSo much that you\'ve already forgotten everything.\n\0',
 
 #
 # ./USRDIR/event/levent.har_EXTRACT/le007.evs
 #
 # Kaworu Nagisa 
 "もう、生命維持も限界か。▽\n…………………。\n\0":
-'???',
+'Life support will fail soon.▽\n............\n\0',
 
 # Kaworu Nagisa 
 "僕の魂は僕のものだ。\n身体が滅びても、\nヒトとして生きた事を忘れても。▽\n僕はアダムの運命はもう、\n歩まない…。\n\0":
-'My soul is everything I am.\nEven if my body perishes,\neven if I forget living as a human.▽\nI no longer follow\nAdam\'s fate...\n',
+'My soul is everything I am.\nEven if my body perishes,\neven if I forget my life as a human...▽\nI no longer follow\nAdam\'s fate.\n',
 
 # Kaworu Nagisa 
 "僕は、ヒトとして生きた。\n死ぬ時もヒトとして死のう。▽\nさよなら…、みんな…。\n\0":
-'I lived as a human.\nShould I ever die, let it also be as a human.▽\nFarewell, everyone...\n\0',
+'I lived as a human.\nIf I\'m to die, let it also be as a human.▽\nFarewell, everyone...\n\0',
 
 # Shinji Ikari
 "………………………。\nもう、保温も酸素の循環も\n切れてる。\n\0":
@@ -10857,7 +10857,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "だが、この一度だけ。\n僕はアダムになろう…。\nヒトであり続けるために！\n\0":
-'But I will become Adam,\njust one more time...\nSo I may continue being human!\n\0',
+'But I will become Adam,\njust one more time...\nSo I may keep being human!\n\0',
 
 # Makoto Hyuga, Female Staff
 "爆雷投下、６０秒前。\n\0":
@@ -11598,7 +11598,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "初号機に任せたぞ！\n\0":
-'I leave it to Unit-01!\n\0',
+'I leave it to Eva-01!\n\0',
 
 # Female Staff
 "了解しました。\n注意して戦闘体制に入って下さい。\n\0":
@@ -11626,7 +11626,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "弐号機に任せたぞ！\n\0":
-'I leave it to Unit-02!\n\0',
+'I leave it to Eva-02!\n\0',
 
 # Rei Ayanami 
 "こちら、零号機。\n目標を肉眼で捕捉しました！\n\0":
@@ -11674,7 +11674,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "参号機に任せたぞ！\n\0":
-'I leave it to Unit-03!\n\0',
+'I leave it to Eva-03!\n\0',
 
 # Kaworu Nagisa 
 "こちら、四号機。\n目標を肉眼で確認しました！\n\0":
@@ -11698,7 +11698,7 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "四号機に任せたぞ！\n\0":
-'I leave it to Unit-04!\n\0',
+'I leave it to Eva-04!\n\0',
 
 #
 # ./USRDIR/event/bs109.har_EXTRACT/bs109.evs
@@ -11967,7 +11967,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nUnit-01, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-01, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ弐号機、\nΑΤフィールド中和開始！\n\0":
@@ -11975,7 +11975,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n弐号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nUnit-02, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-02, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ零号機、\nΑΤフィールド中和開始！\n\0":
@@ -11983,7 +11983,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n零号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nUnit-00, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-00, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ参号機、\nΑΤフィールド中和開始！\n\0":
@@ -11991,7 +11991,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n参号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nUnit-03, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-03, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ四号機、\nΑΤフィールド中和開始！\n\0":
@@ -11999,7 +11999,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-04, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ両機、\nΑΤフィールド中和開始！\n\0":
@@ -12014,14 +12014,14 @@ translate_map = {
 #
 # Shigeru Aoba, Male Staff
 "目標のΑΤフィールド、\n消滅しました！\n\0":
-'Target\'s A.T. Field\nhas gone down!\n\0',
+'Target\'s A.T. Field\nis down!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba002.evs
 #
 # Shigeru Aoba
 "エヴァ初号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Eva Unit-01 has left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ初号機、ΑΤフィールド\n中和距離から離脱。\n\0":
@@ -12029,43 +12029,43 @@ translate_map = {
 
 # Shigeru Aoba
 "エヴァ弐号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Eva Unit-02 has left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ弐号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Eva Unit-01 no longer within\nA.T. Field neutralization range.\n\0',
 
 # Shigeru Aoba
 "エヴァ零号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Eva Unit-00 has left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ零号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Eva Unit-00 no longer within\nA.T. Field neutralization range.',
 
 # Shigeru Aoba
 "エヴァ参号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Eva Unit-03 has left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ参号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Eva Unit-03 no longer within\nA.T. Field neutralization range.',
 
 # Shigeru Aoba
 "エヴァ四号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Eva Unit-04 has left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ四号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Eva Unit-04 no longer within\nA.T. Field neutralization range.',
 
 # Shigeru Aoba
 "エヴァ両機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
-'???',
+'Both Evas have left A.T.\nField neutralization range.\n\0',
 
 # Male Staff
 "エヴァ両機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Both units no longer within\nA.T. Field neutralization range.',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba003.evs
@@ -12301,11 +12301,11 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "初号機パイロット、\n射撃開始！\n\0":
-'Pilot of Unit-01,\ncommence firing!\n\0',
+'Pilot of Eva-01,\ncommence firing!\n\0',
 
 # Female Staff
 "初号機パイロットは、\n射撃開始！\n\0":
-'Pilot of Unit-01,\ncommence firing!\n\0',
+'Pilot of Eva-01,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "アスカ、射撃開始！\n\0":
@@ -12313,11 +12313,11 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "弐号機パイロット、\n射撃開始！\n\0":
-'Pilot of Unit-02,\ncommence firing!\n\0',
+'Pilot of Eva-02,\ncommence firing!\n\0',
 
 # Female Staff
 "弐号機パイロットは、\n射撃開始！\n\0":
-'Pilot of Unit-02,\ncommence firing!\n\0',
+'Pilot of Eva-02,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "レイ、射撃開始！\n\0":
@@ -12325,11 +12325,11 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "零号機パイロット、\n射撃開始！\n\0":
-'Pilot of Unit-00,\ncommence firing!\n\0',
+'Pilot of Eva-00,\ncommence firing!\n\0',
 
 # Female Staff
 "零号機パイロットは、\n射撃開始！\n\0":
-'Pilot of Unit-00,\ncommence firing!\n\0',
+'Pilot of Eva-00,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "トウジ君、射撃開始！\n\0":
@@ -12337,11 +12337,11 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "参号機パイロット、\n射撃開始！\n\0":
-'Pilot of Unit-03,\ncommence firing!\n\0',
+'Pilot of Eva-03,\ncommence firing!\n\0',
 
 # Female Staff
 "参号機パイロットは、\n射撃開始！\n\0":
-'Pilot of Unit-03,\ncommence firing!\n\0',
+'Pilot of Eva-03,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "カヲル君、射撃開始！\n\0":
@@ -12349,11 +12349,11 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "四号機パイロット、\n射撃開始！\n\0":
-'Pilot of Unit-04,\ncommence firing!\n\0',
+'Pilot of Eva-04,\ncommence firing!\n\0',
 
 # Female Staff
 "四号機パイロットは、\n射撃開始！\n\0":
-'Pilot of Unit-04,\ncommence firing!\n\0',
+'Pilot of Eva-04,\ncommence firing!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、射撃開始！\n\0":
@@ -12447,63 +12447,63 @@ translate_map = {
 #
 # Misato Katsuragi 
 "初号機、\n$fエリアに移動して！\n\0":
-'Unit-01,\nmove to Area $f!\n\0',
+'Eva-01,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "初号機、\n$fエリアに移動！\n\0":
-'Unit-01,\nmove to Area $f!\n\0',
+'Eva-01,\nmove to Area $f!\n\0',
 
 # Female Staff
 "初号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-01, please\nmove to Area $f!\n\0',
+'Eva-01, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "弐号機、\n$fエリアに移動して！\n\0":
-'Unit-02,\nmove to Area $f!\n\0',
+'Eva-02,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機、\n$fエリアに移動！\n\0":
-'Unit-02,\nmove to Area $f!\n\0',
+'Eva-02,\nmove to Area $f!\n\0',
 
 # Female Staff
 "弐号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-02, please\nmove to Area $f!\n\0',
+'Eva-02, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "零号機、\n$fエリアに移動して！\n\0":
-'Unit-00,\nmove to Area $f!\n\0',
+'Eva-00,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "零号機、\n$fエリアに移動！\n\0":
-'Unit-00,\nmove to Area $f!\n\0',
+'Eva-00,\nmove to Area $f!\n\0',
 
 # Female Staff
 "零号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-00, please\nmove to Area $f!\n\0',
+'Eva-00, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "参号機、\n$fエリアに移動して！\n\0":
-'Unit-03,\nmove to Area $f!\n\0',
+'Eva-03,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "参号機、\n$fエリアに移動！\n\0":
-'Unit-03,\nmove to Area $f!\n\0',
+'Eva-03,\nmove to Area $f!\n\0',
 
 # Female Staff
 "参号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-03, please\nmove to Area $f!\n\0',
+'Eva-03, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "四号機、\n$fエリアに移動して！\n\0":
-'Unit-04,\nmove to Area $f!\n\0',
+'Eva-04,\nmove to Area $f!\n\0',
 
 # Kozo Fuyutsuki
 "四号機、\n$fエリアに移動！\n\0":
-'Unit-04,\nmove to Area $f!\n\0',
+'Eva-04,\nmove to Area $f!\n\0',
 
 # Female Staff
 "四号機、$fエリアに\n移動して下さい！\n\0":
-'Unit-04, please\nmove to Area $f!\n\0',
+'Eva-04, please\nmove to Area $f!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、\n$fエリアに移動して！\n\0":
@@ -12546,23 +12546,23 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、初号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Unit-01!\n\0',
+'The Angel\'s attack did\n$j damage to the Eva-01!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、弐号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Unit-02!\n\0',
+'The Angel\'s attack did\n$j damage to the Eva-02!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、零号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Unit-00!\n\0',
+'The Angel\'s attack did\n$j damage to the Eva-00!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、参号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Unit-03!\n\0',
+'The Angel\'s attack did\n$j damage to the Eva-03!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、四号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Unit-04!\n\0',
+'The Angel\'s attack did\n$j damage to the Eva-04!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、エヴァ両機に\n$jのダメージ！\n\0":
@@ -12761,30 +12761,30 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\n初号機に$jのダメージ！\n\0":
-'Attack by Eva Series unit did\n$j damage to Unit-01!\n\0',
+'Attack by Eva Series unit did\n$j damage to Eva-01!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\n弐号機に$jのダメージ！\n\0":
-'Attack by Eva Series unit did\n$j damage to Unit-02!\n\0',
+'Attack by Eva Series unit did\n$j damage to Eva-02!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\n零号機に$jのダメージ！\n\0":
-'Attack by Eva Series unit did\n$j damage to Unit-00!\n\0',
+'Attack by Eva Series unit did\n$j damage to Eva-00!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\n参号機に$jのダメージ！\n\0":
-'Attack by Eva Series unit did\n$j damage to Unit-03!\n\0',
+'Attack by Eva Series unit did\n$j damage to Eva-03!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァシリーズの攻撃、\n四号機に$jのダメージ！\n\0":
-'Attack by Eva Series unit did\n$j damage to Unit-04!\n\0',
+'Attack by Eva Series unit did\n$j damage to Eva-04!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba032.evs
 # 
 # Shigeru Aoba, Male Staff
 "兵装ビル、攻撃！\n$jのダメージ！\n\0":
-'Armory building has attacked!\nIt did $j damage!\n\0',
+'Armament building has attacked!\nIt did $j damage!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba034.evs
@@ -12948,109 +12948,109 @@ translate_map = {
 # 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
-'Mass production unit, remaining A.T. Field at $g.\nUnit-01, remaining A.T. Field at $h.\n\0',
+'Mass production unit, remaining A.T. Field at $g.\nEva-01, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n弐号機、残留ΑΤフィールド$h。\n\0":
-'Mass production unit, remaining A.T. Field at $g.\nUnit-02, remaining A.T. Field at $h.\n\0',
+'Mass production unit, remaining A.T. Field at $g.\nEva-02, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n零号機、残留ΑΤフィールド$h。\n\0":
-'Mass production unit, remaining A.T. Field at $g.\nUnit-00, remaining A.T. Field at $h.\n\0',
+'Mass production unit, remaining A.T. Field at $g.\nEva-00, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n参号機、残留ΑΤフィールド$h。\n\0":
-'Mass production unit, remaining A.T. Field at $g.\nUnit-03, remaining A.T. Field at $h.\n\0',
+'Mass production unit, remaining A.T. Field at $g.\nEva-03, remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "量産機、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
-'Mass production unit, remaining A.T. Field at $g.\nUnit-04, remaining A.T. Field at $h.\n\0',
+'Mass production unit, remaining A.T. Field at $g.\nEva-04, remaining A.T. Field at $h.\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba047.evs
 #
 # Maya Ibuki, Female Staff
 "参号機のシールドが\n破壊されました！\n\0":
-'Unit-03\'s shield has been destroyed!\n\0',
+'Eva-03\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "初号機のシールドが\n破壊されました！\n\0":
-'Unit-01\'s shield has been destroyed!\n\0',
+'Eva-01\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "四号機のシールドが\n破壊されました！\n\0":
-'Unit-04\'s shield has been destroyed!\n\0',
+'Eva-04\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "弐号機のシールドが\n破壊されました！\n\0":
-'Unit-02\'s shield has been destroyed!\n\0',
+'Eva-02\'s shield has been destroyed!\n\0',
 
 # Maya Ibuki, Female Staff
 "零号機のシールドが\n破壊されました！\n\0":
-'Unit-00\'s shield has been destroyed!\n\0',
+'Eva-00\'s shield has been destroyed!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba048.evs
 # 
 # Misato Katsuragi 
 "初号機、移動して！\n\0":
-'Unit-01, relocate!\n\0',
+'Eva-01, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "初号機、移動！\n\0":
-'Unit-01, relocate!\n\0',
+'Eva-01, relocate!\n\0',
 
 # Female Staff
 "初号機、移動して下さい！\n\0":
-'Unit-01, please relocate!\n\0',
+'Eva-01, please relocate!\n\0',
 
 # Misato Katsuragi 
 "弐号機、移動して！\n\0":
-'Unit-02, relocate!\n\0',
+'Eva-02, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "弐号機、移動！\n\0":
-'Unit-02, relocate!\n\0',
+'Eva-02, relocate!\n\0',
 
 # Female Staff
 "弐号機、移動して下さい！\n\0":
-'Unit-02, please relocate!\n\0',
+'Eva-02, please relocate!\n\0',
 
 # Misato Katsuragi 
 "零号機、移動して！\n\0":
-'Unit-00, relocate!\n\0',
+'Eva-00, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "零号機、移動！\n\0":
-'Unit-00, relocate!\n\0',
+'Eva-00, relocate!\n\0',
 
 # Female Staff
 "零号機、移動して下さい！\n\0":
-'Unit-00, please relocate!\n\0',
+'Eva-00, please relocate!\n\0',
 
 # Misato Katsuragi 
 "参号機、移動して！\n\0":
-'Unit-03, relocate!\n\0',
+'Eva-03, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "参号機、移動！\n\0":
-'Unit-03, relocate!\n\0',
+'Eva-03, relocate!\n\0',
 
 # Female Staff
 "参号機、移動して下さい！\n\0":
-'Unit-03, please relocate!\n\0',
+'Eva-03, please relocate!\n\0',
 
 # Misato Katsuragi 
 "四号機、移動して！\n\0":
-'Unit-04, relocate!\n\0',
+'Eva-04, relocate!\n\0',
 
 # Kozo Fuyutsuki
 "四号機、移動！\n\0":
-'Unit-04, relocate!\n\0',
+'Eva-04, relocate!\n\0',
 
 # Female Staff
 "四号機、移動して下さい！\n\0":
-'Unit-04, please relocate!\n\0',
+'Eva-04, please relocate!\n\0',
 
 # Misato Katsuragi 
 "エヴァ両機、移動して！\n\0":
@@ -13142,35 +13142,36 @@ translate_map = {
 #
 # Shinji Ikari
 "このぉ！\n\0":
-'???',
+'Take this!\n\0',
 
 # Shinji Ikari
 "行けぇ！！\n\0":
-'???',
+'Move it!\n\0',
 
 # Shinji Ikari
 "よぉし！！\n\0":
-'???',
+'Alright!\n\0',
 
 # Asuka Soryu Langley
+# [NOTE] Not 100% about this. -Reichu
 "見てらっしゃい！！\n\0":
-'???',
+'Check this out!\n\0',
 
 # Asuka Soryu Langley
 "覚悟なさい！！\n\0":
-'???',
+'Prepare yourself!\n\0',
 
 # Asuka Soryu Langley
 "これでも食らえ！！\n\0":
-'???',
+'Eat this, too!!\n\0',
 
 # Rei Ayanami 
 "零号機、行きます…。\n\0":
-'???',
+'Eva-00, here we go...\n\0',
 
 # Rei Ayanami 
 "今だわ…。\n\0":
-'???',
+'I act now...\n\0',
 
 # Rei Ayanami 
 "捉えた…。\n\0":
@@ -13186,7 +13187,7 @@ translate_map = {
 
 # Toji Suzuhara 
 "なめんなァ！！\n\0":
-'???',
+'Don\'t give me that!\n\0',
 
 # Kaworu Nagisa 
 "今だ…。\n\0":
