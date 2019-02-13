@@ -389,7 +389,7 @@ translate_map = {
 '???',
 
 "そういえば、この街の高校、\n詳しくないですか？$n\n高校、やっぱ公立がええんですけど、\n工業系の勉強出来るとこ、\nどっか探さなアカンのですわ。\n\0\0\0":
-'???',
+'That reminds me, are you familiar\nwith the high schools in town?$n\nThe public one is good, natch, but I\noughta find a place I can do technical studies.\n\0\0\0',
 
 "そういえば、この街の高校、\n詳しないか？$n\n高校、やっぱ公立がええんやけど、\n工業系の勉強出来るとこ、\nどっか探さなアカンわ。\n\0":
 '???',
@@ -515,7 +515,7 @@ translate_map = {
 '???',
 
 "あのさ、\n聞きたい事があるんだ。\n\0\0\0\0":
-'???',
+'So, uh, there\'s something I want to ask.\n\0\0\0\0',
 
 "ちょっと聞きたい事が\nあるんですけど…。\n\0\0\0\0":
 '???',
@@ -545,7 +545,7 @@ translate_map = {
 '???',
 
 "あのね、尋ねたい事があるのよ。\n\0":
-'???',
+'Hey, there\'s something I want to ask you.\n\0',
 
 "あの、お伺いしたい事が\nあるんですけど…。\n\0\0":
 '???',
@@ -563,7 +563,7 @@ translate_map = {
 '???',
 
 "あのさ、ちょっと\n聞きたい事があるんだ。\n\0\0\0\0":
-'???',
+'Hey there.\nA little something I wanted to ask.\n\0\0\0\0',
 
 "ちょっといいですかね？\n聞いておきたい事があるんです。\n\0\0":
 '???',
@@ -854,7 +854,7 @@ translate_map = {
 '???',
 
 "今の気分は？\n…どう？\n\0\0":
-'???',
+'How\'re you feeling,\nright now?\n\0\0',
 
 "今の気分はどうですか？\n\0":
 '???',
@@ -884,7 +884,7 @@ translate_map = {
 '???',
 
 "今の気分はどうかしら？\n\0":
-'???',
+'How\'s your mood right now?\n\0',
 
 "今の気分は、どうでしょうか？\n\0\0\0":
 '???',
@@ -977,7 +977,7 @@ translate_map = {
 '???',
 
 "今の体調はどう？\n\0\0\0":
-'???',
+'How\'s your health right now?\n\0\0\0',
 
 "今の体調について、\n聞かせていただけないでしょうか？\n\0\0\0\0":
 '???',
@@ -1046,7 +1046,7 @@ translate_map = {
 '???',
 
 "$aは、$bに近づいた！\n\0\0\0":
-'???',
+'$a approached $b!\n\0\0\0',
 
 "あの、僕に何か用ですか？\n\0\0\0":
 '???',
@@ -1076,13 +1076,13 @@ translate_map = {
 '???',
 
 "………。$n\n何か用？\n\0\0\0\0":
-'???',
+'......$n\nCan I help you?\n\0\0\0\0',
 
 "それから…？$n\n本当は、何が言いたいのですか？\n\0\0":
 '???',
 
 "それから…？$n\n本当は何が言いたいの…？\n\0\0\0\0":
-'???',
+'Yes, and...?$n\nWhat do you really want to say?\n\0\0\0\0',
 
 "そんな事ではないんでしょう、\n私に言いたい事って…。\n\0\0\0\0":
 '???',
@@ -1118,7 +1118,7 @@ translate_map = {
 '???',
 
 "何か用だったんでしょ、私に。\n\0\0\0":
-'???',
+'Is there something I can help you with?\n\0\0\0',
 
 "…？$n\nあの、他に…用があったんじゃ\nないんですか？\n\0":
 '???',
@@ -1136,7 +1136,7 @@ translate_map = {
 '???',
 
 "…。$n\nあ、ところでさ…、えーと。\n俺に何か用？\n\0":
-'???',
+'...$n\nUm, by the way... errr...\nCan I help you?n\0',
 
 "…ほう、それは…。$n\n…で、\n…本題を聞きましょうか？\n\0\0\0":
 '???',
@@ -1166,7 +1166,7 @@ translate_map = {
 '???',
 
 "さて、本題に入ろうか…。\n話って何だい？\n\0\0\0\0":
-'???',
+'Come, let us cut to the chase...\nWhat will we discuss?\n\0\0\0\0',
 
 "クゥァ？$m\nペンペンは、\n何か用かと思っているようだ。\n\0\0\0":
 '???',
@@ -1547,7 +1547,7 @@ translate_map = {
 '???',
 
 "僕かい？\n特に、どんな感情も…。\n普通だよ。\n\0":
-'???',
+'Me?\nNot feeling any way in particular...\nNormal, I\'d say.\n\0',
 
 "クワ〜ゥ〜…クァッア。$m\nペンペンの気分は、\nいたって普通のようだ。\n\0":
 '???',
@@ -2756,10 +2756,10 @@ translate_map = {
 '???',
 
 "複雑な気分です…。\n自分でもよくわからないような、\n複雑な気分なんです。\n\0":
-'???',
+'I have mixed feelings...\nComplicated emotions, as though I\nmyself don\'t understand them well.\n\0',
 
 "複雑な気分…。\n自分でもよくわからないような、\n複雑な気分なんだよ。\n\0":
-'???',
+'I have mixed feelings...\nComplex emotions, like I don\'t\nunderstand them well myself.\n\0',
 
 "クェ…。$m\nペンペンは、複雑な気持ちのようだ。\n\0\0":
 '???',
@@ -4472,7 +4472,7 @@ translate_map = {
 '???',
 
 "特に、変わったところはありません。\n\0":
-'???',
+'It\'s nothing all that interesting.\n\0',
 
 "特に変わったところはないよ。\n\0\0\0":
 '???',
@@ -6803,10 +6803,10 @@ translate_map = {
 '???',
 
 "$aは、$bの手を\n見ている。\n\0\0":
-'???',
+'$a is looking at $b\'s hand.\n\0\0',
 
 "$aは、$bを見ている。\n\0\0\0":
-'???',
+'$a is looking at $b.\n\0\0\0',
 
 "$aは、$bの視線に\n気付かなかった。\n\0\0":
 '???',
@@ -6815,7 +6815,7 @@ translate_map = {
 '???',
 
 "$aは、$bの視線を\n見返した。\n\0\0\0\0":
-'???',
+'$a looked back into $b\'s eyes.\n\0\0\0\0',
 
 "…あ。$m\nシンジは、照れた。\n\0\0\0\0":
 '???',
@@ -8171,7 +8171,7 @@ translate_map = {
 '???',
 
 "ヘヘッ。$m\nトウジは、微笑みかけた。\n\0\0\0\0":
-'???',
+'Heehee.$m\nToji is smiling at you.\n\0\0\0\0',
 
 "…へへ。$m\nケンスケは、微笑みかけた。\n\0\0":
 '???',
@@ -8216,7 +8216,7 @@ translate_map = {
 '???',
 
 "そう、ありがとう。\n\0":
-'???',
+'I see. Thank you.\n\0',
 
 "ああ、そうなんですか。\nありがとうございます。\n\0\0":
 '???',
@@ -9116,7 +9116,7 @@ translate_map = {
 '???',
 
 "変な話。\n聞かない方がよかったかしら…。\n\0\0\0\0":
-'???',
+'Strange story.\nPerhaps I shouldn\'t have asked...\n\0\0\0\0',
 
 "ああ、そう。\n何だか聞かない方が\nよかったみたい…。\n\0":
 '???',
@@ -9131,13 +9131,14 @@ translate_map = {
 '???',
 
 "いや…僕はそんな話が\n聞きたかったんじゃないんだよ。\n\0\0\0\0":
-'???',
+'No... That\'s not the\nkind of story I wanted to hear.\n\0\0\0\0',
 
 "ああ、そうですか。\n…で、別の話がいいんですけど。\n\0\0":
 '???',
 
+# Not sure what 他の話 specifically means in this context...
 "ああ、そう。\nでも、他の話を聞きたいんだけどな。\n\0\0\0\0":
-'???',
+'Ah, I see.\nBut I wanted to hear another story, y\'know.\n\0\0\0\0',
 
 "あれ、もっと面白い話を\nしてくれるんじゃないんですか？\n\0\0":
 '???',
@@ -9176,7 +9177,7 @@ translate_map = {
 '???',
 
 "ええっ！？\nそれウソだろ？\n\0\0":
-'???',
+'For real?!\nAre you sure?\n\0\0',
 
 "はぁ？\nそういう風には見えませんけど？\n\0\0":
 '???',
@@ -9308,7 +9309,7 @@ translate_map = {
 '???',
 
 "$aは、優しく微笑んだ。\n\0":
-'???',
+'$a smiled warmly.\n\0',
 
 "え、それほどの事でもないし…。\n役に立ったんなら…。\n\0\0\0\0":
 '???',
@@ -10136,7 +10137,7 @@ translate_map = {
 '???',
 
 "僕に話してくれませんか…？\nあなたなら、知っているでしょう\nから。\n\0\0\0":
-'???',
+'Might you be able to indulge me?\nSince it\'s you, I feel\nyou would be in the know...\n\0\0\0',
 
 "僕に話してくれないかな。\n君なら知っていると思うんだけど…。\n\0\0\0\0":
 '???',
@@ -10280,7 +10281,7 @@ translate_map = {
 '???',
 
 "頼みがあるんだ…。\n\0":
-'???',
+'I have a request...\n\0',
 
 "言いにくいんですけど…、\nお願いがあって…。\n\0\0\0\0":
 '???',
@@ -10304,7 +10305,7 @@ translate_map = {
 '???',
 
 "頼み、…あるんやけど。\nま、聞いてーや。\n\0\0\0\0":
-'???',
+'I\'ve got a favor to ask.\nWill ya hear me out?\n\0\0\0\0',
 
 "お願いがあって…。\nこういうのもナンですけど…。\n\0\0\0\0":
 '???',
@@ -10751,10 +10752,14 @@ translate_map = {
 '???',
 
 "月光を浴びるには夜が、\n虹を見るには雨がなくては\nならない…。$n\nそう$cに\n伝えて下さい。\n僕からの励ましの言葉ですよ。\n\0\0\0\0":
-'???',
+'A night bathed in moonlight,\na rain where a rainbow appears,\nthese things we cannot do without...$n\nPlease impart this to $c.\nThey are words of\nencouragement from me.\n\0\0\0\0',
 
 "クゥァ〜。$m\nペンペンは、$cを\n励ましてほしいようだ。\n\0\0\0":
 '???',
+
+# "Tell [person] for me"
+
+# [NOTE] Does $o use rodata rows 0x001C8160 to 0x001C8248? Confirm within PSP version.
 
 "あの…、\n$cに伝えてください。$n\n僕が$cの事、\n$oって。\n\0\0":
 '???',
@@ -10826,7 +10831,7 @@ translate_map = {
 '???',
 
 "あんなー、\n$cに伝えてほしい事が\nあんねん。$n\nワシが、$oって\n言うとったと伝えてくれ。\n\0\0\0":
-'???',
+'So, hey,\nI got somethin\' I want ya to tell $c.$n\nTell them for me, I was sayin\' $o.\n\0\0\0',
 
 "$cに伝えてほしい事が\nあるんです。\n俺の代わりに…。$n\n俺、$cの事、\n$oって。\n伝えておいて下さいね。\n\0\0":
 '???',
@@ -10838,10 +10843,12 @@ translate_map = {
 '???',
 
 "$cへ\n伝えてほしいんだ…。\n僕が$oと言っていたってね。\n\0\0\0":
-'???',
+'I\'d like you to tell $c something...\nTell them I said $o,\nwould you?\n\0\0\0',
 
 "クゥァ〜。$m\nペンペンは、$cに\n$oと伝えてほしい\nようだ。\n\0\0\0\0":
 '???',
+
+# end set
 
 "$cに、最近無理が多いみたい\nだから、気を付けてと伝えて下さい。\n\0\0":
 '???',
@@ -11021,7 +11028,7 @@ translate_map = {
 '???',
 
 "相談に乗ってよ…。\n\0":
-'???',
+'I need advice...\n\0',
 
 "相談に乗ってほしいん\nですけど。\n\0\0\0\0":
 '???',
@@ -11095,11 +11102,13 @@ translate_map = {
 "ちょっと、相談があるんだ。\n\0":
 '???',
 
+# [TL] What is the が implying? 
+# Also, any way to include the いい without it implicitly sounding like "this better not be BAD..."?
 "相談したい事があるんですが。\nいい知恵を貸して下さいよ。\n\0\0\0\0":
-'???',
+'I\'d like to ask your advice about something...\nPlease lend me your wisdom.\n\0\0\0\0',
 
 "一緒に相談に乗ってくれないかな？\n\0\0\0":
-'???',
+'Might we put our heads together?\n\0\0\0',
 
 "クワァ〜ゥ、クァックァ。$m\nペンペンは、悩みがあるようだ。\n\0\0":
 '???',
@@ -11264,7 +11273,7 @@ translate_map = {
 '???',
 
 "僕、恋をしているんです。\nこの想いを、自分では抱えきれなく\nなりました…。$n\n苦しいです。\n僕を助けて下さい…。\n\0\0\0":
-'???',
+'I\'m falling in love, you see.\nThese feelings, I can\'t\ndeal with them any longer...$n\nIt\'s agony.\nPlease help me...\n\0\0\0',
 
 "とても好きな人がいるんだ。\nいや、愛する人と言うべきかな。$n\nけれど、想うだけで\nどうにも出来ないんだよ。\n…僕は、どうしたらいい？\n\0\0\0":
 '???',
@@ -11276,7 +11285,7 @@ translate_map = {
 '???',
 
 "他人とうまく付き合えないんだ。\n気疲れするし…。$n\n一人でいるのは楽だけど、\nやっぱり、寂しいよ。\n\0\0\0\0":
-'???',
+'I don\'t deal with social situations very well.\nThey\'re so stressful...\nBeing by myself is easy,\nbut it\'s lonely, too.\n\0\0\0\0',
 
 "私、他人と仲良くしてるつもりでも、\n相手が離れていく事が多いんです\nよね…。$n\n言い方がキツイのかな…。\n\0\0":
 '???',
@@ -11435,10 +11444,10 @@ translate_map = {
 '???',
 
 "これから先、\nどうなると思います？$n\nすべては、シナリオ通りに\n動くんでしょうか？\n\0\0\0\0":
-'???',
+'What do you think will come of this world?$n\nDoes everything seem to be going according to the scenario?\n\0\0\0\0',
 
 "この世界はどうなると思う？\n僕達も…、\n一体どうなるのだろうね…。\n\0\0\0":
-'???',
+'What do you think will come of this world?\nAnd also...\ndo you ever wonder what will happen to us...?\n\0\0\0',
 
 "キュゥウゥ〜。$m\nペンペンは、今後の事が心配らしい。\n\0\0\0\0":
 '???',
@@ -11984,7 +11993,7 @@ translate_map = {
 '???',
 
 "わかったわ。\n$cを励ませばいいのね。\n\0\0\0\0":
-'???',
+'Understood.\nMaking $c cheer up would be good.\n\0\0\0\0',
 
 "了解しました。\nそう、$cに言って\n励ましておきます。\n\0":
 '???',
@@ -12071,7 +12080,7 @@ translate_map = {
 '???',
 
 "$cに$oと\n伝えればいいのね。\n\0\0\0\0":
-'???',
+'So I should tell $c\nyou said $o, correct?\n\0\0\0\0',
 
 "承知しました。\n$cに$oと\n伝えます。\n\0":
 '???',
@@ -12137,7 +12146,7 @@ translate_map = {
 '???',
 
 "気が進まないけど、わかったよ。\n$cに$oと\n伝えればいいんだね。\n\0\0\0":
-'???',
+'While reluctant, I do understand.\nI should convey to $c that you $o, yes?\n\0\0\0',
 
 "わかりました。\n気を付けるように言っておきます。\n\0\0\0\0":
 '???',
@@ -12413,7 +12422,7 @@ translate_map = {
 '???',
 
 "ほな、頼んだで。\n\0\0\0":
-'???',
+'Then I\'m countin\' on ya!\n\0\0\0',
 
 "それじゃあ、頼んだよ。\n\0":
 '???',
@@ -12422,7 +12431,7 @@ translate_map = {
 '???',
 
 "頼んだよ。\n\0":
-'???',
+'I\'m counting on you.\n\0',
 
 "それは…駄目なんです。\nすいません…。\n\0\0":
 '???',
@@ -12530,7 +12539,7 @@ translate_map = {
 '???',
 
 "…考えさせて。\n\0":
-'???',
+'Let me consider it.\n\0',
 
 "そう言われても、\n私には…ちょっと…。\n\0\0":
 '???',
@@ -12998,7 +13007,7 @@ translate_map = {
 '???',
 
 "相手にいい印象を与える事！\nそういう努力の積み重ねが\n実を結ぶんだよ。\n\0\0\0":
-'???',
+'Making a good impression on others!\nYou\'ll get results by stacking up efforts like that.\n\0\0\0',
 
 "まあ、頑張り次第なんですが…。\n相手の望む事は、かなえてあげる\nとか…。\n\0":
 '???',
@@ -13286,7 +13295,7 @@ translate_map = {
 '???',
 
 "普通に誰とでも付き合えてるし、\nそんなに臆病にならなくても\nいいんじゃないかな。\n\0":
-'???',
+'You usually get along with everyone,\nso you don\'t have to be nervous\nlike that, right?\n\0',
 
 "グェ！！　グァ！！$m\nペンペンは、頭をひねった。\n\0\0\0\0":
 '???',
@@ -13469,19 +13478,19 @@ translate_map = {
 '???',
 
 "さあね、\n戦局は微妙な状況みたいだし。\n\0\0":
-'???',
+'Let\'s see...\nThe war situation looks dicey.\n\0\0',
 
 "これから、というところでしょう。\n戦局は、流動的ですから。\n\0\0":
 '???',
 
 "戦局は、流動的だから。\nこれから、というところなのかも。\n\0\0\0\0":
-'???',
+'The tide of the war is fluid.\nSo it will probably stay that way.\n\0\0\0\0',
 
 "今まで最善を尽くしては来ましたが、\n戦況は微妙ですね。\n\0\0":
-'???',
+'We\'ve been doing our best so far,\nbut we\'re in a difficult war situation, don\'t you think?\n\0\0',
 
 "今まで最善を尽くして来たけど、\n戦況は微妙なところよ。\n頼りない事を言って、ゴメンね。\n\0\0\0":
-'???',
+'We\'ve been doing our best so far,\nbut the state of war is a touchy subject.\nThat was a flaky thing to say, I\'m sorry.\n\0\0\0',
 
 "戦局か…。\n微妙だな。\n\0\0":
 '???',
@@ -13511,7 +13520,7 @@ translate_map = {
 '???',
 
 "一概には言えないよな。\n戦局は微妙だから。\n\0\0":
-'???',
+'There\'s no real way to say.\nWar is a tricky thing, after all.\n\0\0',
 
 "どうでしょうかね。\nこちらが聞きたいところですがね。\n\0\0\0\0":
 '???',
@@ -14051,7 +14060,7 @@ translate_map = {
 '???',
 
 "また何かあったら話すよ。\nそれじゃ。\n\0\0\0\0":
-'???',
+'We\'ll talk again if something comes up.\nUntil then.\n\0\0\0\0',
 
 "話って言っても、それくらいです。\nそれじゃ、また。\n\0\0":
 '???',
@@ -14576,7 +14585,7 @@ translate_map = {
 '???',
 
 "…じゃあ、あなたには話すわ。\n\0\0\0":
-'???',
+'... I\'ll tell you, then.\n\0\0\0',
 
 "私が知っている事でよければ。\n…ええ、お話します。\n\0\0":
 '???',
