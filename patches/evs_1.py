@@ -8416,15 +8416,15 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "エヴァによる直接要撃を試みました。\n\0":
-'???',
+'we attempted a direct intercept with the Evas.\n\0',
 
 # Female Staff, Misato Katsuragi 
 "エヴァは見事使徒を受け止め\n\0":
-'???',
+'The Evas masterfully caught the Angel.\n\0',
 
 # Misato Katsuragi, Female Staff
 "使徒殲滅に成功しました。\n\0":
-'???',
+'The Angel was successfully destroyed.\n\0',
 
 # Misato Katsuragi, Female Staff
 "エヴァは見事使徒を受け止め\n使徒殲滅に成功しましたが\n\0":
@@ -13126,15 +13126,16 @@ translate_map = {
 #
 # Toji Suzuhara 
 "しばいたるわ！！\n\0":
-'???',
+'I got this one!\n\0',
 
 # Toji Suzuhara 
 "見とれよ、ワレェ！！\n\0":
-'???',
+'Eyes over here!\n\0',
 
+# Not 100% about this one...
 # Toji Suzuhara 
 "いっちょ、いわしたろか！！\n\0":
-'???',
+'I\'ll mess this one up!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/d080.evs
@@ -13190,15 +13191,15 @@ translate_map = {
 
 # Kaworu Nagisa 
 "今だ…。\n\0":
-'???',
+'The time is now...\n\0',
 
 # Kaworu Nagisa 
 "手加減なしだよ…。\n\0":
-'???',
+'I won\'t go easy...\n\0',
 
 # Kaworu Nagisa 
 "チャンス！！\n\0":
-'???',
+'My chance!\n\0',
 
 #
 # ./USRDIR/event/bb008.har_EXTRACT/bb008.evs
