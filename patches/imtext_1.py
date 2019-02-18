@@ -536,7 +536,7 @@ translate_map = {
 '???',
 
 "…確認したい事がある。\n\0":
-'???',
+'I want to verify something.\n\0',
 
 "君に、尋ねたい事があるんだが。\n\0":
 '???',
@@ -590,7 +590,7 @@ translate_map = {
 '???',
 
 "ああ、ちょっと…、\n聞きたい事があって…。\n\0\0":
-'???',
+'Oh, there\'s just a\nlittle thing I want to ask...\n\0\0',
 
 "ああ、君に聞きたい事があってね…。\n\0":
 '???',
@@ -692,7 +692,7 @@ translate_map = {
 '???',
 
 "$oって、\nどんな人なの？\n\0\0\0\0":
-'???',
+'What kind of person\nis $o?\n\0\0\0\0',
 
 "$oは…、\nどんな人ですか？\n\0\0":
 '???',
@@ -875,7 +875,7 @@ translate_map = {
 '???',
 
 "今の気分はどうだ？\n\0":
-'???',
+'How is your current mood?\n\0',
 
 "今の気分はどうかね？\n\0\0\0":
 '???',
@@ -1007,7 +1007,7 @@ translate_map = {
 '???',
 
 "今、何をしたい気分ですか？\n\0":
-'???',
+'What do you feel like doing right now?\n\0',
 
 "今、何をしたい気分…？\n\0":
 '???',
@@ -1175,7 +1175,7 @@ translate_map = {
 '???',
 
 "ふうん。$m\n$aは、そっけない返事をした。\n\0\0\0\0":
-'???',
+'Hmm.$m\n$a responded dismissively.\n\0\0\0\0',
 
 "そ、そうだね…。$m\n$aは、そっけない返事をした。\n\0\0\0\0":
 '???',
@@ -1286,7 +1286,7 @@ translate_map = {
 '???',
 
 "ふぅん、そう。$m\n$aは、そっけない返事をした。\n\0\0":
-'???',
+'Huh, I see.$m\$a responded dismissively.\n\0\0',
 
 "そ、そうですね…。$m\n$aは、そっけない返事をした。\n\0\0":
 '???',
@@ -2150,7 +2150,7 @@ translate_map = {
 '???',
 
 "特に思う事はないです。\nまあ、普通にしてますよ。\n\0\0\0\0":
-'???',
+'I don\'t feel out of the ordinary.\nJust going about my day, I guess.\n\0\0\0\0',
 
 "特に思う事はないです。\nまあ、普通にしてるけどね。\n\0\0":
 '???',
@@ -3433,8 +3433,9 @@ translate_map = {
 "あれでもなかなか\n可愛いところがあるよねぇ。\n人に好かれるタイプかな。\n\0\0\0":
 '???',
 
+# This sounds really off. Can't be right... -Reichu
 "何をやっても許せるって言うか、\nお茶目な人ですね。\n可愛い人というべきかな。\n\0":
-'???',
+'They forgive you no matter what, or, more precisely, they\'re a mischievous sort. A cute person, I should say.\n\0',
 
 "何をやっても許せるって言うか、\nお茶目な人だよ。\n可愛い人というべきかな。\n\0\0\0":
 '???',
@@ -5768,7 +5769,7 @@ translate_map = {
 '???',
 
 "自分にとって、\nかけがえのない者と\n一緒に居たい気分だ。\n\0":
-'???',
+'Speaking for myself,\nI feel like being with\nsomeone precious to me.\n\0',
 
 "心から大事な人と、\n一緒に過ごしたい気分だよ。\n\0\0":
 '???',
@@ -6815,7 +6816,7 @@ translate_map = {
 '???',
 
 "$aは、$bの視線を\n見返した。\n\0\0\0\0":
-'$a looked back into $b\'s eyes.\n\0\0\0\0',
+'$a returned $b\'s gaze.\n\0\0\0\0',
 
 "…あ。$m\nシンジは、照れた。\n\0\0\0\0":
 '???',
@@ -6830,13 +6831,13 @@ translate_map = {
 '???',
 
 "…。$m\nゲンドウは、照れた。\n\0\0\0\0":
-'???',
+'....$m\nGendo is embarrassed.\n\0\0\0\0',
 
 "…ケホ、コホン！$m\n冬月は、照れた。\n\0\0\0\0":
 '???',
 
 "フフフ…。$m\nリツコは、照れた。\n\0\0\0\0":
-'???',
+'*Giggling*$m\nRitsuko is embarrassed.\n\0\0\0\0',
 
 "やだ…、…もう。$m\nマヤは、照れた。\n\0\0\0\0":
 '???',
@@ -8207,7 +8208,7 @@ translate_map = {
 '???',
 
 "…そうか、礼を言う。\n\0\0\0":
-'???',
+'I see. Thank you.\n\0\0\0',
 
 "そうか。\n答えてもらって嬉しいよ。\n\0\0":
 '???',
@@ -8261,10 +8262,10 @@ translate_map = {
 '???',
 
 "サンキュ。\nそれ、聞きたかったんだ。\n\0\0\0\0":
-'???',
+'Thanks for filling me in.\n\0\0\0\0',
 
 "…質問に答えてもらって感謝します。\n\0":
-'???',
+'Thank you for answering my question.\n\0',
 
 "…ありがとう、答えてくれて。\n\0\0\0":
 '???',
@@ -9332,8 +9333,9 @@ translate_map = {
 "やだ、いいのよォ、\nそのくら〜い。\n\0\0":
 '???',
 
+# As in, no need for more than a simple thank you. -R
 "…礼はいい。\n\0\0\0":
-'???',
+'No need for that.\n\0\0\0',
 
 "…構わんよ。\n\0\0\0":
 '???',
@@ -9387,10 +9389,10 @@ translate_map = {
 '???',
 
 "いいんですよ。\n…でも、好意は受け取っておきます。\n\0\0":
-'???',
+'It\'s fine.\nBut I do accept the courtesy.\n\0\0',
 
 "別にいいさ。\nそんなによろこんでくれるなんて\n思わなかったよ。\n\0\0\0":
-'???',
+'Not a problem.\nIt was a pleasure\nI didn\'t anticipate.\n\0\0\0',
 
 "クァゥ、クァックァ。$m\nペンペンは、好意を持って返礼した。\n\0\0":
 '???',
@@ -9786,7 +9788,7 @@ translate_map = {
 '???',
 
 "…。$m\nカヲルは、ムッとして目を細めた。\n\0\0\0\0":
-'???',
+'...$m\nKaworu narrowed his eyes sullenly.\n\0\0\0\0',
 
 "…。$m\nペンペンは、ムスッとしている。\n\0\0":
 '???',
@@ -10932,7 +10934,7 @@ translate_map = {
 '???',
 
 "$cに、目立つような\n行動は起こさない方がいい、\n気を付けてと、伝えてくれる？\n\0":
-'???',
+'Could you tell $c\nto be careful, and not behave\nin such a conspicuous manner?\n\0',
 
 "クゥァ〜。$m\nペンペンは、$cに\n気を付けてと伝えてほしいようだ。\n\0":
 '???',
@@ -12164,7 +12166,7 @@ translate_map = {
 '???',
 
 "そう、伝えればいいのね。\n\0\0\0":
-'???',
+'I see. So I\'ll convey that.\n\0\0\0',
 
 "承知しました。\n忠告しておきます。\n\0\0":
 '???',
@@ -13730,7 +13732,7 @@ translate_map = {
 '???',
 
 "え！？\nそ、そう？\n\0\0":
-'???',
+'What?!\nR-Really?\n\0\0',
 
 "そ、そうですか？\n\0\0\0":
 '???',
@@ -13978,8 +13980,9 @@ translate_map = {
 "大浴場で何を歌っているんですか？\n意味不明な上に、下手ですね。\n\0\0":
 '???',
 
+# Really unsure about second sentence. -R
 "やたら僕のあとをつけるよね。\n何が好きでそういう事するんだい？\n\0\0":
-'???',
+'You follow me around blindly, you know.\nIs that what you do for the things you like?\n\0\0',
 
 "クゥァァァ、クゥァァァ、\nクァッ、クァッ、クァッ。$m\nペンペンは、$bを\n笑っているようだ。\n\0\0\0\0":
 '???',
@@ -14066,7 +14069,7 @@ translate_map = {
 '???',
 
 "それが君の処世術？\nまあいいや、またね。\n\0\0\0\0":
-'???',
+'Is that your secret to success?\nOh well, see you later.\n\0\0\0\0',
 
 "クェ…。$m\nペンペンは、会話に飽きたようだ。\n\0\0\0\0":
 '???',
@@ -14459,7 +14462,7 @@ translate_map = {
 '???',
 
 "ハ、ハ、ハハハ…。$m\nカヲルは、引きつりながら\n笑った。\n\0":
-'???',
+'Hah, hah, hahahaha...$m\nKaworu laughed nervously\nwhile smiling.\n\0',
 
 "クゥァァァ、クゥァァァ、\nクァッ、クァッ、クァッ。$m\nペンペンは、引きつりながら笑った。\n\0":
 '???',
@@ -14636,10 +14639,10 @@ translate_map = {
 '???',
 
 "$aは、$oに\n関する$pを教えた。\n\0\0":
-'???',
+'$a told you $p\nabout $o.\n\0\0',
 
 "$oに関する情報が\n$qから$pに\n上がりました。\n\0":
-'???',
+'Intelligence pertaining to $o advanced from $q to $p.\n\0',
 
 "フッ…。$m\nシンジは、鼻で笑った。\n\0\0":
 '???',
