@@ -1810,7 +1810,7 @@ translate_map = {
 #
 # Makoto Hyuga, Shigeru Aoba, Maya Ibuki, Female Staff
 "先程、第２東京から\nＡ−８０１が出ました。▽\n特務機関ネルフの特例による\n法的保護の破棄。▽\n及び指揮権の日本国政府への\n委譲です。\n\0":
-'Tokyo-2 has just\nissued an A-801.▽\nAnnulment of Secret Agency Nerv\'s\nspecial legal protections.▽\nAlso transfers command to\nthe Japanese government.\n\0',
+'Tokyo-2 has just\nissued an A-801.▽\Secret Agency Nerv\'s special\nlegal protections　are revoked.▽\nIn addition, right of command is\ntransferred to the Japanese government.\n\0',
 
 # Kozo Fuyutsuki, Gendo Ikari, Misato Katsuragi, Ryoji Kaji, Male Staff
 "やはり人間の敵は、\n同じ人間だったか…。\n\0":
@@ -1954,7 +1954,7 @@ translate_map = {
 
 # Maya Ibuki, Female Staff
 "ネルフ施設内に多数の侵入者あり、\n通信も各所不通です！\n\0":
-'???',
+'Large invading force present inside Nerv\'s facilities.\nLoss of communications at multiple sites as well!',
 
 # Misato Katsuragi 
 "クッ、ネルフの対人施設の予算が\n削られていたのは、このためなのね！\n\0":
@@ -1970,7 +1970,7 @@ translate_map = {
 
 # Male Staff
 "ある程度ネルフの対人施設は\n機能しているはずだが…。\n食い止められるか…。\n\0":
-'???',
+'Nerv\'s interpersonal facilities should\nstill be functional to some extent...\nBut can we hold our ground?\n\0',
 
 # Misato Katsuragi 
 "こんな事もあろうかと、\nネルフの対人防御能力を\n高めていて正解だったわ。\n\0":
@@ -1994,15 +1994,15 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "とうとう始まったか…。\n\0":
-'???',
+'It\'s finally begun...\n\0',
 
 # Gendo Ikari
 "いよいよその時が来たようだな、\n後は任せましたよ、冬月先生。\n\0":
-'???',
+'It seems the time had come at last.\nI leave the rest to you, Fuyutsuki-sensei.\n\0',
 
 # Gendo Ikari
 "いよいよこの時が来たか。\n\0":
-'???',
+'It seems the time had come at last.\n\0',
 
 # Maya Ibuki 
 "シンジ君が、\nＢ地区で孤立しています！\n\0":
@@ -2726,15 +2726,15 @@ translate_map = {
 
 # Kaworu Nagisa 
 "ゼーレが決断を下したようだ。\nという事は、まず僕は\n消されるだろうな…。\n\0":
-'???',
+'It seems Seele has handed down their verdict.\nWhich is to say, they\'ll\nprobably start by erasing me...\n\0',
 
 # Kaworu Nagisa 
 "ゼーレが決断を下したようだ。\nという事は、まず僕は消される\nだろうな…。\n\0":
-'???',
+'It seems Seele has handed down their verdict.\nWhich is to say, they\'ll\nprobably\nstart by erasing me...\n\0',
 
 # JSSDF Staff
 "いたぞ、\nエヴァ搭乗パイロットだ。\n\0":
-'???',
+'There!\nThe designated Eva pilot!\n\0',
 
 # [Text Only - No Designated Speaker]
 "必死で走った。▽\n何がどうなっているのかなんて、\nもう、わからない。▽\n走っていく先々には、昨日まで\n会えば挨拶を交わしていた人達が\n息絶えていた。▽\n夢なら覚めてくれと、走りつづけた。\n\0":
@@ -2762,7 +2762,7 @@ translate_map = {
 
 # JSSDF Staff
 "これより、排除する。▽\n…悪く思うなよ。\n\0":
-'???',
+'We\'ll eliminate them from here.▽\n...Nothing personal.\n\0',
 
 # Shinji Ikari
 "あ、あれ、生きてる…？\n\0":
@@ -2794,7 +2794,7 @@ translate_map = {
 
 # Maya Ibuki 
 "無事だったのね、\nここは危険よ、走って！！\n\0":
-'???',
+'So you\'re in one piece.\nBut it\'s not safe here. Hurry!!\n\0',
 
 # Toji Suzuhara , Hikari Horaki, Shinji Ikari, Kaworu Nagisa
 "ミサトさん…。\n\0":
@@ -2850,15 +2850,15 @@ translate_map = {
 
 # Maya Ibuki 
 "戦略自衛隊が、ここを\n占拠するために侵攻してきたの。\nあちこちで交戦してるわ。▽\n行きましょう、発令所に。\nちょっと連絡するから待っててね。\n\0":
-'???',
+'The JSSDF invaded us so\nthey could seize control here.\nThere are engagements all over the place.▽\nCome on, let\'s get to the command center.\nJust wait a second while I contact them.\n\0',
 
 # Maya Ibuki 
 "伊吹です、ただ今より帰還します。\nええ、パイロットも一緒です。\n………。▽\n何ですって…、それじゃ…！！\n\0":
-'???',
+'This is Ibuki, heading back henceforth.\nYes, I have the pilot with me.\n.........▽\nYou said...? But that--!\n\0',
 
 # Female Staff
 "ええ、全部で９機。\nエヴァ量産機、エヴァシリーズです。\nただ今、ネルフ直上を旋回中。\n\0":
-'???',
+'Yes, nine altogether.\nThey\'re the Eva Mass Production Models... the Eva Series.\nCurrently in the process of circling above Nerv.\n\0',
 
 # Asuka Soryu Langley
 "ねえ、何かあったの？\n\0":
@@ -2886,7 +2886,7 @@ translate_map = {
 
 # Maya Ibuki 
 "ごめんなさい、あなたには\nこれからエヴァに乗って戦って\nもらわないといけないの…。\n\0":
-'???',
+'I\'m so sorry. After this\nI need you to get in\nthe Eva and fight.\n\0',
 
 # Shinji Ikari
 "じゃ、じゃあ、また使徒が…。\n\0":
@@ -2918,7 +2918,7 @@ translate_map = {
 
 # Maya Ibuki 
 "今、エヴァ量産機を発令所の方で\n確認したそうなの。\n全部で９機。▽\nあなたには、エヴァに乗って\n量産機エヴァシリーズを\n全部殲滅して欲しいの。\n\0":
-'???',
+'It looks like Eva mass production models\nwere identified by the command center just now.\nThere\'s nine units total.▽\nI want you to pilot your\nEva and destroy the entire\nmass-produced Eva Series.\n\0',
 
 # Shinji Ikari
 "９機…？\nそんな数を相手に…。\n\0":
@@ -2934,7 +2934,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "９体も…。\nしかも、あのエヴァシリーズか。\n\0":
-'???',
+'A whole nine...\nAnd of the Eva Series at that.\n\0',
 
 # Misato Katsuragi 
 "でも、勝たなきゃいけないの。\nここで行かなければ、負けるだけよ。\n\0":
@@ -2970,15 +2970,15 @@ translate_map = {
 
 # Maya Ibuki 
 "私は知ってるわ。\nあなたがどんなに優れた\nパイロットなのかを。▽\n大丈夫、あなたは勝つわ。\n…ね、みんなで待ってるわ。\nあなたが帰ってくるのを。\n\0":
-'???',
+'I have every confidence in you.\nIn how much of a\ngreat pilot you are.▽\nYou\'ll beat them for sure.\nAnd, everyone will be waiting\nfor your return.\n\0',
 
 # Maya Ibuki 
 "…さあ、\n急ぎましょう、ケイジへ。\n\0":
-'???',
+'All right,\nlet\'s hurry to the cage.\n\0',
 
 # JSSDF Staff
 "発見次第、片づけろ。\n\0":
-'???',
+'Kill them on sight.\n\0',
 
 # Misato Katsuragi 
 "伏せてっ！！\n\0":
@@ -2998,7 +2998,7 @@ translate_map = {
 
 # Maya Ibuki 
 "伏せて！！\n\0":
-'???',
+'Get down!!\n\0',
 
 # Misato Katsuragi 
 "今よ、走りなさい！！\n\0":
@@ -3018,7 +3018,7 @@ translate_map = {
 
 # Maya Ibuki 
 "走るのよ、すぐ行くわ！！\n\0":
-'???',
+'Hurry, this way!\n\0',
 
 # [Text Only - No Designated Speaker]
 "ミサトがフロアに設置された\n爆破装置に手をかけた。▽\n自分が遠くに行ったのを確認して、\nパスワードを入力する。\n\0":
@@ -3030,7 +3030,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "マヤがフロアに設置された\n爆破装置に手をかけた。▽\n自分が遠くに行ったのを確認して、\nパスワードを入力する。\n\0":
-'???',
+'Maya placed an explosive device\non the floor and operated it.▽\nAfter ensuring I had gotten\nfar away, she input a password.\n\0',
 
 # [Text Only - No Designated Speaker]
 "日向がフロアに設置された\n爆破装置に手をかけた。▽\n自分が遠くに行ったのを確認して、\nパスワードを入力する。\n\0":
@@ -3058,7 +3058,7 @@ translate_map = {
 
 # Maya Ibuki 
 "大丈夫よ、もうこの先は\n追ってこないでしょうから…。\n\0":
-'???',
+'It\'s okay. From here on, I don\'t think\nthey\'ll be pursuing you anymore...\n\0',
 
 # Shinji Ikari
 "…血が。\n\0":
@@ -3074,7 +3074,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "血が…。\n待って、すぐに発令所まで\n行きますから。\n\0":
-'???',
+'You\'re bleeding...\nHold on, the command\ncenter is just ahead.\n\0',
 
 # Misato Katsuragi 
 "私なら大丈夫、\n待ってて、このエレベーターで\nケイジに行けるから…。\n\0":
@@ -3094,7 +3094,7 @@ translate_map = {
 
 # Maya Ibuki 
 "大丈夫…、私は大丈夫。\n早く、このエレベーターに乗って\nケイジへ、みんなを助けて…。\n\0":
-'???',
+'It\'s okay... I\'ll be okay.\nHurry, take the elevator to\nthe cage. Save everybody..\n\0',
 
 # Shinji Ikari
 "置いていくなんて出来ないよ！\n\0":
@@ -3106,7 +3106,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕は出来ない、\nあなたを置いていくなんて\n出来ません。\n\0":
-'???',
+'I can\'t do that.\nI can\'t just go and\nleave you behind.\n\0',
 
 # Misato Katsuragi 
 "行きなさい、命令よ。\n行かなければ、犠牲者が増える。\n急ぎなさい。\n\0":
@@ -3126,7 +3126,7 @@ translate_map = {
 
 # Maya Ibuki 
 "ごめんね、あとは一人で\n行ってね…。▽\nごめんね…。\n\0":
-'???',
+'Forgive me. You\'re on\nyour own after this...▽\nForgive me...\n\0',
 
 # [Text Only - No Designated Speaker]
 "そう言うとミサトは、ぐらりと傾き\n糸の切れた操り人形のように\n崩れ落ちた。\n\0":
@@ -3150,11 +3150,11 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "そう言うとマヤは、ぐらりと傾き\n糸の切れた操り人形のように\n崩れ落ちた。\n\0":
-'???',
+'And, with that, Maya\ncollapsed like a marionette\ncut from tilted, shaky strings.\n\0',
 
 # [Text Only - No Designated Speaker]
 "そう言うと$bは、ぐらりと傾き\n糸の切れた操り人形のように\n崩れ落ちた。▽\n床にはおびただしい量の\n血だまりが出来ていた…。\n\0":
-'???',
+'And, with that, $b\ncollapsed like a marionette\ncut from tilted, shaky strings.▽\nAn enormous puddle of blood\npooled onto the floor...\n\0',
 
 # Shinji Ikari
 "必ず、勝つよ…。\n必ず…。\n行ってきます…。\n\0":
@@ -3170,11 +3170,11 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕、行きます…。\nそして、必ず勝って見せます。\n\0":
-'???',
+'I will go...\nAnd, I will surely win, no matter what.\n\0',
 
 # [Text Only - No Designated Speaker]
 "ごめんなさい…。\n何度もそうつぶやいた。▽\n自分なんか、居なくなればいい。\n消えてしまえばいい。▽\nいつもそんな事ばかり考えていた\n自分を、命を捨ててまで助けて\nくれた。▽\nごめんなさい、ありがとう。\nもう、そんな馬鹿な事は考えない。\nそんな迷いには屈しない。▽\nただ今は、この現実を真っ向から\n受け止めよう。\nそして、勝とう…。\n\0":
-'???',
+'I\'m sorry...\nI murmured those words so many times.▽\n"Someone like me should disappear.\nI should vanish completely."▽\nEven though I was always\nthinking things like that, you\nsacrificed your life to save me.▽\nI\'m so sorry, and thank you.\nI won\'t think such foolish things anymore.\nI won\'t give in to doubt like that.▽\nRight now, I\'ll come to grips with\nthe reality right in front of me.\nThen, I\'ll be victorious...▽\n',
 
 # Shinji Ikari
 "…こちら初号機、\n発進準備お願いします。\n\0":
@@ -3194,7 +3194,7 @@ translate_map = {
 
 # Female Staff
 "了解。\nエヴァンゲリオン、起動。\n\0":
-'???',
+'Roger.\nEvangelion, starting up.\n\0',
 
 # Makoto Hyuga
 "このエレベーターでなら、\nケイジまですぐだよ。\nさあ、乗って。\n\0":
@@ -3262,7 +3262,7 @@ translate_map = {
 
 # Gendo Ikari
 "やはりここにいたか。\nさあ、行こう、レイ。\n\0":
-'???',
+'I knew you\'d be here.\nCome along now, Rei.\n\0',
 
 # (Decision Prompt)
 "ゲンドウについていく／…私を呼んでいる\0":
@@ -3431,15 +3431,15 @@ translate_map = {
 
 # Shinji Ikari
 "あれ、どうしてここに…？\n\0":
-'???',
+'Huh? Why am I here?\n\0',
 
 # Shinji Ikari
 "何で…、\nここにいるんだろう…？\n\0":
-'???',
+'HOW did\nI get here...?\n\0',
 
 # Asuka Soryu Langley
 "バカシンジ。\n何よ、ボーッとしちゃってさ。\n\0":
-'???',
+'Stupid Shinji.\nWhat are you spacing out for?\n\0',
 
 # Misato Katsuragi 
 "シンちゃん。\n\0":
@@ -3447,11 +3447,11 @@ translate_map = {
 
 # Shinji Ikari
 "アスカ…？\nミサトさん…？\n\0":
-'Asuka...?\nMisato-san?\n\0',
+'Asuka...?\nMisato-san...?\n\0',
 
 # Gendo Ikari
 "来ていたか、シンジ。\n\0":
-'???',
+'So you\'re here, Shinji.\n\0',
 
 # Shinji Ikari
 "父さん…。\n\0":
@@ -3467,7 +3467,7 @@ translate_map = {
 
 # Yui Ikari,Yui Ikari [Flashback]
 "シンちゃん…、\n泣いてばかりね。\n\0":
-'???',
+'Shin-chan...\nYou\'re always crying, aren\'t you?\n\0',
 
 # Asuka Soryu Langley
 "私の部屋…？\n\0":
@@ -3475,11 +3475,11 @@ translate_map = {
 
 # Asuka Soryu Langley
 "あれ、でも私…。\n\0":
-'???',
+'Huh? But I\'m...\n\0',
 
 # Misato Katsuragi 
 "どうしたのよ、アスカ。\n\0":
-'???',
+'What\'s wrong, Asuka?\n\0',
 
 # Ritsuko Akagi 
 "あら、アスカ。\n\0":
@@ -3487,31 +3487,32 @@ translate_map = {
 
 # Ryoji Kaji
 "今日は元気ないな、\nどうした…？\n\0":
-'???',
+'You seem out of sorts today.\nWhat\'s going on?\n\0',
 
 # Hikari Horaki
 "アスカ…、どうかしたの？\n何かあったら話して…。\n\0":
-'???',
+'Asuka, is something wrong?\nIf there is, you can tell me...\0',
 
 # Toji Suzuhara 
 "今日は、どないしたんや…。\n\0":
-'???',
+'What\'s with you today?\n\0',
 
 # Kensuke Aida
 "アスカがそんな顔するのって\n珍しいね。\n\0":
-'???',
+'Asuka, it’s not like you\nto be so worked up.\n\0',
 
 # Shinji Ikari
+# [NOTE] This barely makes any sense in context. What am I missing? -Reichu
 "今、何か言ってなかった…？\n\0":
-'???',
+'Did I not say anything, just now...?\n\0',
 
 # Rei Ayanami 
 "何か言いたそう…。\n…違うの？\n\0":
-'???',
+'It seems that you did.\nAm I wrong?\n\0',
 
 # Asuka Soryu Langley,Toji's Sister, Maya Ibuki, Shinji Ikari
 "……………………………。\n\0":
-'???',
+'...............\n\0',
 
 # Rei Ayanami 
 "駄目…、来ては駄目。▽\nそう、許してあげる…。▽\n還るの。▽\n還りなさい…。\n\0":
@@ -3519,35 +3520,35 @@ translate_map = {
 
 # Misato Katsuragi 
 "…？▽\n私の部屋？▽\nペンペン…？\n\0":
-'???',
+'...?▽\nMy room?▽\nPen Pen...?\n\0',
 
 # Misato Katsuragi 
 "何…、待って、\nここは…！？\n\0":
-'???',
+'What the-- Wait,\nam I at--?!\n\0',
 
 # Misato Katsuragi 
 "私…は、…ここは？\n\0":
-'???',
+'What am I doing here?\n\0',
 
 # Gendo Ikari
 "ユイ！？▽\nいや、あれは…、かつての…。\n\0":
-'???',
+'Yui?!▽\No, that\'s... how things used--\n\0',
 
 # Gendo Ikari
 "ここは…、レイの…。▽\nレイ、…レイ！！\n\0":
-'???',
+'I\'m in... Rei\'s...▽\nRei, Rei!!\n\0',
 
 # Gendo Ikari
 "シンジ…？\n\0":
-'???',
+'Shinji...?\n\0',
 
 # Kozo Fuyutsuki
 "…！！！！▽\nここは…、さっきまで私は…？\n\0":
-'???',
+'...!!!!▽\nHow\'d I... get all the way here?\n\0',
 
 # Kozo Fuyutsuki
 "これは、\nどうしたんだ…！？\n\0":
-'???',
+'How did\nthis happen?!\n\0',
 
 # Yui Ikari
 "…冬月先生。\n\0":
@@ -3555,51 +3556,51 @@ translate_map = {
 
 # Kozo Fuyutsuki
 "…ユイ君！？\n君か、君なのか！？\n\0":
-'???',
+'Yui-kun?!\nIs that really you?!\n\0',
 
 # Kozo Fuyutsuki
 "…は、\n何が、何が一体…。\n\0":
-'???',
+'...Wuh.\nWhat in the world is going on?\n\0',
 
 # Ritsuko Akagi 
 "………？▽\nここ…、さっきまで私は…？\n\0":
-'???',
+'......?▽\nWhat am I doing out here?\n\0',
 
 # Naoko Akagi [for her one line from the PS2 version],Naoko Akagi
 "どこ行くの？\n\0":
-'???',
+'Where are you going?\n\0',
 
 # Ritsuko Akagi, Ritsuko Akagi [Flashback]
 "散歩よ。\n母さんこそ、どこに行くの？\n\0":
-'???',
+'For a walk.\nWhat about you, Mom?\n\0',
 
 # Ritsuko Akagi 
 "はっ！？\nな、何、どうしたのよ！！\n何が起こってるの…？\n\0":
-'???',
+'Wha?!\nWh-what happened?!\nWhat\'s going on...?\n\0',
 
 # Maya Ibuki 
 "どこに行くんですか？\n\0":
-'???',
+'Where are you going, ma\'am?\n\0',
 
 # Makoto Hyuga
 "どこ行かれるんです？\n\0":
-'???',
+'Where you off to, ma\'am?\n\0',
 
 # Shigeru Aoba, Female Staff
 "どこに行かれるんですか？\n\0":
-'???',
+'Where are you heading, ma\'am?\n\0',
 
 # Ryoji Kaji
 "どこに行くんだ？\n\0":
-'???',
+'Where you going?\n\0',
 
 # Misato Katsuragi 
 "どこ行くの…？\n\0":
-'???',
+'Where ya headin\'?\n\0',
 
 # Ritsuko Akagi, Asuka Soryu Langley, Toji Suzuhara, Kaworu Nagisa, Shinji Ikari
 "…あ。\n\0":
-'???',
+'...Uh.\n\0',
 
 # Maya Ibuki 
 "…あれ、何でこんなところに？\n\0":
@@ -3627,47 +3628,48 @@ translate_map = {
 
 # Makoto Hyuga
 "な…！？\n何でここに…？▽\n発令所にいたはずなのに！？\n\0":
-'???',
+'Wha--?!\nHow did I get here?▽\nShouldn\'t I be at the command center?!\n\0',
 
 # Makoto Hyuga
 "えっ、ここは…？\n\0":
-'???',
+'Eh? Is this--?\n\0',
 
 # Misato Katsuragi 
 "送ってくれてありがとう。\n\0":
-'???',
+'Thanks for giving me a lift.\n\0',
 
 # Makoto Hyuga
 "いえ、構いませんよ。\n\0":
-'???',
+'It was no problem at all.\n\0',
 
 # Makoto Hyuga
 "な、なんだ…？\nあれは、僕…？\n\0":
-'???',
+'What\'s going on?\nIs that me...?\n\0',
 
 # Misato Katsuragi 
 "上がってかない？\nお茶くらいだすわ。\n\0":
-'???',
+'Won\'t you come up?\nI could at least serve you tea.\n\0',
 
 # Makoto Hyuga
+# [NOTE] He doesn't actually say "should" or anything, but his line feels really weak otherwise. Am I missing something here? -R
 "えっ…、ああ、\nでも今日は戻ります。\n\0":
-'???',
+'Eh...? Oh,\nbut I should get back today.\n\0',
 
 # Misato Katsuragi 
 "…そう。\n\0":
-'???',
+' ...I see.\n\0',
 
 # Makoto Hyuga
 "あの時、なぜ誘いを断ったんだろう。\nあんな切ない目を…。\nでも、誘われるままだったら、▽\nミサトさんが見ているのは\n僕じゃないと思い知らされて\nいたかもしれない…。▽\nそれが怖かった…。\n\0":
-'???',
+'I wonder why I turned down her offer back then.\nSuch painfully sad eyes...\nStill, when she left it at that,▽\nit made me realize that\nI probably wasn\'t the one\nMisato-san was looking for.▽\nThat scared me...\n\0',
 
 # Makoto Hyuga
 "………？▽\n何だったんだ、今のは…？\n\0":
-'???',
+'......?▽\n',
 
 # Shigeru Aoba
 "ここは！？\n\0":
-'???',
+'I’m here?!\n\0',
 
 # Shigeru Aoba [Flashback], Shigeru Aoba
 "やっぱ駄目だわ。\n俺、才能ないって言われた。\n\0":
@@ -3783,7 +3785,7 @@ translate_map = {
 
 # Rei Ayanami 
 "かえりましょう…。\n\0":
-'???',
+'Welcome home...\n\0',
 
 # Asuka Soryu Langley
 "…ファースト？\n…誰？\n\0":
@@ -3823,7 +3825,7 @@ translate_map = {
 
 # Rei Ayanami 
 "かえるの、みんな…。\nそして、また巡り会うの。\n\0":
-'???',
+'Come home, everyone…\nAnd meet each other once again.\n\0',
 
 # [Text Only - No Designated Speaker]
 "人の姿と化した光、使徒とレイが\n巨人の顔の中に、あたかも迎え入れ\nられるように取り込まれていく…。▽\nすっかりレイと光を飲み込んだ白い\n巨人は、磔られていた十字架から、\nずるりと手を引き抜き、動き出した。▽\nそして、巨人の身体が女性の、レイの\nしなやかな身体へと変容する…。\n\0":
@@ -3926,7 +3928,7 @@ translate_map = {
 
 # Local Announcement
 "ネルフ直上に、未確認飛行物体\n計９機を確認。▽\nネルフ直上に、未確認飛行物体\n計９機を確認。\n\0":
-'???',
+'Unidentified flying bodies confirmed\nabove Nerv,　nine total units.▽\nUnidentified flying bodies confirmed\nabove Nerv,　nine total units.\n\0',
 
 # Female Staff
 "エヴァシリーズ、沈黙しました！\n\0":
@@ -3974,7 +3976,7 @@ translate_map = {
 
 # Gendo Ikari
 "エヴァシリーズだな…。▽\n奴等はリリスを…。\nレイ！！\n\0":
-'So it\'s the Eva Series...▽\nLilith, they\'re going to--\n Rei!\n\0',
+'So it\'s the Eva Series...▽\nLilith... They\'re going to--\n Rei!\n\0',
 
 # Makoto Hyuga, Shigeru Aoba
 "早く、機体とパイロットの回収を。\n\0":
@@ -4010,7 +4012,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "その時、白く細い巨大な人の\nシルエットが発令所に姿を\nあらわした。▽\nそれは、レイへと姿を変えた\nリリスであった。▽\nそのシルエットは、何事もない\nように壁をすり抜けながら\nジオフロント外へ向かって歩み出た。\n\0":
-'???',
+'Just then, a slender, white\nhuman silhouette appeared\nin the command center.▽\nIt was Lilith,\nher form changed into Rei\'s.▽\nThe silhouette, going through the walls\nlike they were nothing, set\noff toward the Geofront exterior.\n\0',
 
 # [Text Only - No Designated Speaker]
 "リリスは、一度空を仰ぎ、そして\nゆっくりと、水をすくうように\n初号機を手の中に納めた。\n\0":
@@ -4023,19 +4025,19 @@ translate_map = {
 
 # Seele 01
 "渚カヲル…、\n己が存在、魂はこの時のために…。\n道標となりて、魂を導くがいい。\n\0":
-'???',
+'Kaworu Nagisa...\nYour being and soul have existed for this day...\nBecome the waymark, and lead our souls.\n\0',
 
 # Kaworu Nagisa 
 "…リリンがリリスに還る時が。\nいや、そのほとんどは無へと帰する。▽\n一部の選ばれし民を除いて…。\n\0":
-'???',
+'It is time that the Lilin return to Lilith...\nNo -- most all of them will come to nothing.▽\nSave for some of the chosen people...\n\0',
 
 # Maya Ibuki 
 "エヴァシリーズ、Σ機関を解放。\nこれは、セカンドインパクトの\n初期現象と同じだわ！！▽\nアンチΑΤフィールド、\n物質化します。\n\0":
-'???',
+'The Eva Series are releasing their Σ engines.\nThis is phenomologically identical\nto the initial stages of Second Impact!▽\nAn anti-A.T. Field\nis materializing.\n\0',
 
 # Makoto Hyuga
 "エヴァシリーズ、Σ機関を解放。\nこれは、セカンドインパクトの\n初期現象と同じだ！！▽\nアンチΑΤフィールド、\n物質化します。\n\0":
-'???',
+'The Eva Series have unleashed their S2 engines.\nThis is phenomologically the same\nas the first stages of Second Impact!▽\nAn anti-A.T. Field\nis materializing.\n\0',
 
 # Shigeru Aoba
 "エヴァシリーズ、Σ機関を解放。\nセカンドインパクトの初期現象と\n同じ現象が起こっています！！▽\nアンチΑΤフィールド、物質化！\n\0":
@@ -4055,7 +4057,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "リリスは身体を大気圏外へ起こし\n恍惚の表情を浮かべ、\n１２枚の羽を広げはじめた。▽\nリリスを中心に、\n光が地球を覆いはじめる。\n\0":
-'???',
+'Lilith brought her body beyond the atmosphere.\nBearing an expression of ecstasy,\nshe began to extend twelve wings.▽\nLights started covering the earth --\nwith Lilith at the center of it all.\n\0',
 
 # [Text Only - No Designated Speaker]
 "やがて、リリスに導かれるように\n人々の魂は初号機へ向かった…。\n\0":
@@ -4079,15 +4081,16 @@ translate_map = {
 
 # Gendo Ikari
 "…ユイ。\n\0":
-'...Yui.\n\0',
+'Yui...\n\0',
 
 # Gendo Ikari
 "ようやく会えた…。▽\nこうしてお前に会える日を\nただただ待ち続けていたよ。\n\0":
-'???',
+'I get to see you at last...▽\nI\'ve done nothing but wait for the\nday we could meet like this.\n\0',
 
 # Yui Ikari
+# [NOTE] Use of the passive in second sentence throws me off a bit. Using the translation that makes more contextual sense. -Reichu
 "人を傷付けるだけの自分が\n怖かったのね。▽\n自分から、救われたいと\n思っていた。\n\0":
-'???',
+'You were afraid that you only hurt others, weren\'t you?▽\nYou felt the need to save people from yourself.\n\0',
 
 # Gendo Ikari
 "何もすべきではないと、\nシンジにも…、\n傷つけるくらいなら…。\n\0":
@@ -4095,11 +4098,11 @@ translate_map = {
 
 # Yui Ikari
 "シンジはあなたを望んでいたわ。\n傷ついたって、いつだって…。\n\0":
-'???',
+'Shinji was holding out hope for you.\nHurting, all the meanwhile...\n\0',
 
 # Gendo Ikari
 "…そうか。\n\0":
-'???',
+'Indeed...?\n\0',
 
 # [Text Only - No Designated Speaker]
 "最後の赤い光が初号機へと\n消えていった。▽\n人々の心は補完され、\n安らぎの中に、永遠の刻を\n生きる事になるだろう…。\n\0":
@@ -4150,7 +4153,7 @@ translate_map = {
 
 # Seele 01
 "不要な身体を捨て、神と一つに。\n我々の導きにより、全ての生命を\n終末と再生の道を。\n\0":
-'???',
+'Casting off our useless bodies, we shall unify with God.\nBy our guiding hand, the path by which\nall life ends and is reborn is opened.\n\0',
 
 # Ryoji Kaji
 "勝ったな…。\nゼーレのシナリオも\n無に帰す時が来たか…。\n\0":
@@ -4162,11 +4165,11 @@ translate_map = {
 
 # Makoto Hyuga, Shigeru Aoba
 "早く、機体とパイロットの\n回収を。\n\0":
-'???',
+'Retrieve the Evas and pilots,\nquickly!\n\0',
 
 # [Text Only - No Designated Speaker]
 "人々はΑΤフィールドを失い、\n生命誕生前のＬＣＬと化していく。▽\n人々の魂だけが、頼りなく\n漂うように地表を流れゆく…。\n\0":
-'???',
+'People lose their A.T. Fields,\nchanging into abiogenetic LCL.▽\nOnly their souls go on to stream over\nthe surface, as though helplessly adrift.\n\0',
 
 # Maya Ibuki 
 "…！？▽\nそんな、倒したはずの\nエヴァシリーズが…。▽\nエヴァシリーズ、Σ機関を解放。\nこれは、セカンドインパクトの\n初期現象と同じだわ！！▽\nアンチΑΤフィールド、\n物質化します。\n\0":
@@ -4174,7 +4177,7 @@ translate_map = {
 
 # Makoto Hyuga
 "…！？▽\n倒したはずのエヴァシリーズが…。▽\nエヴァシリーズ、Σ機関を解放。\nこれは、セカンドインパクトの\n初期現象と同じだ！！▽\nアンチΑΤフィールド、\n物質化します。\n\0":
-'???',
+'...Huh?!▽\nThe Eva Series should be down, but...▽\nThe Eva Series have unleashed their Σ engines.\nThis is phenomologically the same\nas the first stages of Second Impact!▽\nAn anti-A.T. Field\nis materializing.\n\0',
 
 # Shigeru Aoba
 "…！？▽\nまさか、倒したはずの\nエヴァシリーズが…。▽\nエヴァシリーズ、Σ機関を解放。\nセカンドインパクトの初期現象と\n同じ現象が起こっています！！▽\nアンチΑΤフィールド、物質化！\n\0":
@@ -4198,7 +4201,7 @@ translate_map = {
 
 # Maya Ibuki, Makoto Hyuga, Shigeru Aoba, Female Staff
 "アンチΑΤフィールド、\n臨界点を突破！▽\nこのままでは、個体生命の形が\n維持できません！\n\0":
-'???',
+'The anti-A.T. Field has\nbreached the critical point!▽\nAt this rate, individual organisms will\nbe unable to maintain their forms!\n\0',
 
 # Kaworu Nagisa 
 "…リリス、\n…そうか、僕は許されるのか。▽\nありがとう、リリン…。\n\0":
@@ -7464,7 +7467,7 @@ translate_map = {
 
 # ??? [Lilith]
 "知恵の実しか、\n手に入れられなかったの。▽\n白い月が持ち去った後、\n残っていたのは\n知恵の実だけだったのよ。▽\nだから、追ったの。\n白い月を。\n生命の実を手に入れるために。\n\0":
-'The Fruit of Knowledge is\nall I could obtain.▽\nThe White Moon took off and left only the Fruit of Knowledge behind.▽\nSo I pursued the White Moon.\nSo that I might take\nthe Fruit of Life in hand.\n\0',
+'The Fruit of Knowledge is\nall I could obtain.▽\nThe White Moon took off and left only the Fruit of Knowledge behind.▽\nSo I pursued the White Moon.\nTo take the Fruit\nof Life in hand.\n\0',
 
 # Rei Ayanami 
 "あなたも生命の実を望むの？\n\0":
@@ -7569,7 +7572,7 @@ translate_map = {
 
 # Shigeru Aoba
 "ターミナルドグマより\n高エネルギー体が上昇中！\n人の影なのか、これは？\n\0":
-'A high energy body\nis ascending from Terminal Dogma!\nIt\'s... humanoid?\n\0',
+'A high energy body\nis ascending from Terminal Dogma!\nIt\'s... got a human shape?\n\0',
 
 # Maya Ibuki 
 "ターミナルドグマより\n高エネルギー体が上昇中！\n何これ…、人の影？\n\0":
@@ -7585,7 +7588,7 @@ translate_map = {
 
 # Makoto Hyuga, Shigeru Aoba
 "分析パターン青！\nまさか、使徒！？▽\nいや、違う。\nヒト、人間です！！\n\0":
-'Analysis pattern blue!\nIt can\'t be...an Angel?!▽\nNo, something else.\nIt\'s a person, a human!!\n\0',
+'Analysis pattern blue!\nIt can\'t be...　an Angel?!▽\nNo, something else.\nIt\'s a person, a human!!\n\0',
 
 # Maya Ibuki 
 "分析パターン青！\n…使徒！？▽\nいえ、違う。\nこれ…、ヒト、人間です！！\n\0":
@@ -7605,7 +7608,7 @@ translate_map = {
 
 # Rei Ayanami 
 "私の役割は…、\n私の生き方は自分で決める。▽\n例え…、長くは生きられなくとも…。\n\0":
-'The role I play, the way I live my life\n -- they\'re things I decide. ▽\nFor instance... even if I\'m not alive long...\n\0',
+'The role I play, the way I live my life\n -- they\'re things I decide. ▽\nSo, even if I\'m not alive long...\n\0',
 
 # Rei Ayanami 
 "生命の実なんて要らない。\n私は、あなたじゃない。\n私は私。▽\n私は残された時間を、\n自分の意志で生きるわ。\n\0":
@@ -12718,16 +12721,8 @@ translate_map = {
 # ./USRDIR/event/cev1501.har_EXTRACT/cev1501.evs
 #
 # Misato Katsuragi 
-"結果、\n碇シンジ、鈴原トウジ両名による、\n目標の説得に成功。\n\0":
-'As a result, Shinji Ikari and\nToji Suzuhara successfully\npersuaded the target.\n\0',
-
-# Misato Katsuragi 
 "第３使徒\n\0":
 'The Third Angel\n\0',
-
-# Misato Katsuragi 
-"以後「渚カヲル」は従来通り、\n\0":
-'Hereafter "Kaworu Nagisa" as per prior convention,\n\0',
 
 # Misato Katsuragi, Female Staff
 "タブリス\n\0":
@@ -12739,15 +12734,11 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "フィフス・チルドレン\n「渚・カヲル」であることが判明。\n\0":
-'was confirmed as being\nthe Fifth Child, "Kaworu Nagisa".\n\0',
-
-# Misato Katsuragi 
-"フィフス・チルドレンとして\nエヴァパイロットを\n続行することになりました。\n\0":
-'It was decided that he\nwould resume Eva pilot duties\nas the Fifth Child.\n\0',
+'was confirmed to be\nthe Fifth Child, "Kaworu Nagisa".\n\0',
 
 # Misato Katsuragi 
 "目標はターミナルドグマを目指して\n侵攻しました。\n\0":
-'The target invaded with\nthe aim of Terminal Dogma.\n\0',
+'The target invaded, with\nTerminal Dogma as its goal.\n\0',
 
 # Misato Katsuragi 
 "初号機パイロット、碇シンジ及び、\n参号機パイロット、鈴原トウジが\n目標を追撃。\n\0":
@@ -12756,6 +12747,18 @@ translate_map = {
 # Misato Katsuragi 
 "接触に成功し、目標に対し説得を\n試みます。\n\0":
 'Upon successful contact, persuasion\nwith the target was attempted.\n\0',
+
+# Misato Katsuragi 
+"結果、\n碇シンジ、鈴原トウジ両名による、\n目標の説得に成功。\n\0":
+'As a result, Shinji Ikari and\nToji Suzuhara successfully\npersuaded the target.\n\0',
+
+# Misato Katsuragi 
+"以後「渚カヲル」は従来通り、\n\0":
+'Hereafter, "Kaworu Nagisa" as per prior convention\n\0',
+
+# Misato Katsuragi 
+"フィフス・チルドレンとして\nエヴァパイロットを\n続行することになりました。\n\0":
+'has been allowed to\nresume Eva pilot duties\nas the Fifth Child.\n\0',
 
 #
 # ./USRDIR/event/cev1502.har_EXTRACT/cev1502.evs
@@ -12766,7 +12769,7 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "いつから僕は、\n僕になったのだろう…。▽\nヒト…、リリン…。\nヒトの中で僕は生きている。▽\nあそこで死んでもよかったんだ。\n使徒として。▽\nでも…。\n僕は、生きていく事を選択した。▽\n生きる、意味。▽\nリリンであれ、使徒であれ…\nそれは同じかもしれないけど。\n\0":
-'How long has it been\nsince I became me?▽\nHumans... Lilin...\nI am living among humans.▽\nI was fine with dying back there,\nas an Angel.▽\nBut...\nI decided to keep living.▽\nBeing alive has meaning.▽\nWhether as a Lilin or as an Angel... Even though they might be the same.\n\0',
+'How long has it been\nsince I became me?▽\nHumans... Lilin...\nI am living among humans.▽\nI was fine with dying back there,\nas an Angel.▽\nHowever...\nI decided to keep living.▽\nBeing alive has meaning.▽\nWhether as a Lilin or as an Angel... Even though they might be the same.\n\0',
 
 # Kaworu Nagisa 
 "…………………………。▽\n忘れてしまおう。\n何もかも。▽\n僕は、ヒトとして生きる事を\n選んだんだ…。\n\0":
@@ -12778,7 +12781,7 @@ translate_map = {
 # [Text Only - No Designated Speaker]
 # [Note] Check どれも、ヒトがそう呼んだだけだ。 -Reichu
 "僕…。▽\n僕は…、渚カヲル。\nタブリス。\nアダム…。▽\nどれも、\nヒトがそう呼んだだけだ。▽\n僕の姿。▽\nヒトの形。\n魂がとらわれている器。\nヒトが用意した姿。▽\n仕組まれた姿。\n仕組まれた子供。▽\n本当の僕はどこにある。\n僕の本当の身体はどこにある。\n\0":
-'I...▽\nI am... Kaworu Nagisa.\nTabris.\nAdam...▽\nAll are but\nnames that humans gave me.▽\nMy shape.▽\nHuman form.\nThe vessel that imprisons my soul.\nA shape that humans prepared.▽\nA shape that was part of the plan.\nChildren who are part of the plan.▽\nThe real me exists somewhere.\nMy real body exists somewhere.\n\0',
+'I...▽\nI am... Kaworu Nagisa.\nTabris.\nAdam...▽\nAll are but names\nthat humans gave me.▽\nMy form.▽\nHuman in shape.\nThe vessel that imprisons my soul.\nA form that humans prepared.▽\nA form that was part of the plan.\nChildren who are part of the plan.▽\nThe real me exists somewhere.\nMy real body exists somewhere.\n\0',
 
 # Kaworu Nagisa 
 "いや…、知ってどうするんだ。\n知って…。\n\0":
@@ -12786,18 +12789,18 @@ translate_map = {
 
 # [Text Only - No Designated Speaker]
 "でも、僕が何者なのか。\nその思いは膨らむばかりだ。▽\n僕を生み出した、第一始祖民族。\nあの老人達は…、碇司令は\nその秘密を知っているんだろうか。\n\0":
-'But who am I?\nIt\'s the feeling that only gets bigger.▽\nThose who created me: the First Ancestral Race.\nThe old men... Commander Ikari\nseems to know their secrets.\n\0',
+'But who am I?\nThe thought consumes my mind.▽\nThose who created me, the First Ancestral Race.\nThe old men... Commander Ikari\nseems to know their secrets.\n\0',
 
 # Kaworu Nagisa 
 "僕はどこから来て…。▽\nどこへ行くのだろう…。▽\n第一始祖民族…か。\n何の為に…、僕を…創った？\n\0":
-'Where did I come from?\nWhere am I going?▽\nThe First Ancestral Race...\nWhy did they make me?\n\0',
+'Where did I come from?\nWhere am I going?▽\nThe First Ancestral Race... is it?\nWhy did they make me?\n\0',
 
 #
 # ./USRDIR/event/cev1504.har_EXTRACT/cev1504.evs
 #
 # [Text Only - No Designated Speaker]
 "この星空の彼方。\nずっと向こう。\n僕を送り出した神がいる。\n\0":
-'Beyond these starry skies.\nForever past them.\nThere, the God that dispatched me lay.\n\0',
+'Beyond these starry skies.\nForever yonder.\nThere, the God that dispatched me lay.\n\0',
 
 # [Text Only - No Designated Speaker]
 "ゼーレは、神になろうとした。\n人類の補完、不老不死の存在。▽\nでも、本当の神は違う。\n僕や、リリスを創り出した存在。\n第一始祖民族…。\n\0":
@@ -12808,7 +12811,7 @@ translate_map = {
 #
 # Kaworu Nagisa 
 "僕は誰だ。\n何者なんだ…。▽\n渚カヲル。\nタブリス。\nアダム…。▽\n僕は、何かを知っている。\n何かを…知っている。\n\0":
-'Who am I?\nI am someone...▽\nKaworu Nagisa.\nTabris.\nAdam.▽\nI know something.\nI know I do.\n\0',
+'Who am I?\nWho am I really...?▽\nKaworu Nagisa.\nTabris.\nAdam.▽\nI know something.\nI know I do.\n\0',
 
 #
 # ./USRDIR/event/cev1506.har_EXTRACT/cev1506.evs
@@ -12843,15 +12846,15 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "やはり…、使徒なのか？\nあの苛酷な宇宙環境に、\n生身の身体でいられるなんて…。\n\0":
-'So he\'s an Angel after all?\nAmazing to think a body of flesh and blood\ncan tolerate the conditions in space...\n\0',
+'So, he\'s an Angel after all?\nAmazing to think an organic body\ncan tolerate the conditions in space...\n\0',
 
 # Kaworu Nagisa 
 "……………………。▽\n…静かだ。▽\n僕はこの静寂を知っている。\nずっと、昔から…。▽\nこの大きな安らぎを、\n僕は知っている…。▽\n僕が、僕になるずっと前から…。\n\0":
-'............▽\nSo quiet.▽\nI know this silence,\nfrom deep in the past.▽\nI know this great\nfeeling of serenity.▽\nAnd I have since long\nbefore I became me.\n\0',
+'............▽\nSo quiet...▽\nI know this silence,\nfrom long, long ago.▽\nI know this great\nfeeling of serenity.▽\nI know it from long\nbefore I became me...\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君や、君の子孫達の約束の土地。\nそれがあの星だったのかい？\n\0":
-'You and your progeny\'s Promised Land.\nIt was that world down there?\n\0',
+'You and your progeny\'s Promised Land...\nIt was that world down there?\n\0',
 
 # Kaworu Nagisa 
 "………。▽\n誰…？\n\0":
@@ -12867,7 +12870,7 @@ translate_map = {
 
 # ??? [Unnamed Seed of Life]
 "今となっては名前もない。\n姿もない。\n生命そのものになった存在さ。▽\n君の魂は、\n生命の実を食べ過ぎて、\n昔の事を忘れたようだ…。\n\0":
-'At this point in time,\nI have neither name nor form.\nI am but the essence of life itself.▽\nYour soul, it seems,\nate too much of the Fruit of Life,\nand forgot things long past...\n\0',
+'At this point in time,\nI have neither name nor form.\nI am but the essence of life itself.▽\nYour soul, it seems,\nate too much of the Fruit of Life,\nand forgot about things long past...\n\0',
 
 # Kaworu Nagisa 
 "僕を知ってるの…？\n\0":
@@ -12895,7 +12898,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "そうだ…。\n僕は目覚め…、使徒を生み出した。▽\n自分を見失った時の為に、\n計画書…裏死海文書を残して…。\n\0":
-'I see now...\nIt was I who birthed the Angels.▽\nI left behind a plan, the Secret Dead Sea\nScrolls, for the time I lost sight of myself...\n\0',
+'I see now...\nIt was I who birthed the Angels.▽\nI left behind a plan, the Secret Dead Sea\nScrolls, in the event I lost sight of myself...\n\0',
 
 # Kaworu Nagisa 
 "君も…、どこかの星で栄えて…？\n\0":
@@ -12907,7 +12910,7 @@ translate_map = {
 
 # Kaworu Nagisa 
 "僕の星は、同じ故郷の命が\n争いあっている。▽\nひとつの星に、二つのキャリアが\n着床した為に。▽\n本当は争いあうべきでは\nなかったんだ。\nお互い忘れてしまっただけなんだ。\n\0":
-'Both forms of life that call my world their\nhome are in quarrel with each other.▽\nBecause two carriers implanted on a single world.▽\nIn truth, this conflict only\nhappened because they forgot\nall about each other.\n\0',
+'Both forms of life that call my world their\nhome are in quarrel with each other.▽\nBecause two carriers implanted on a single world.▽\nIn truth, this conflict only\nhappened because they\ncompletely forgot about one other.\n\0',
 
 # ??? [Unnamed Seed of Life]
 "君がその気なら、\nまた旅をするといい。\n君の民の魂を連れて。\n\0":
