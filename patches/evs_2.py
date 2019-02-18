@@ -589,39 +589,39 @@ translate_map = {
 
 # Shigeru Aoba
 "エヴァシリーズ、\n全機沈黙しました！\n\0":
-'???',
+'All Eva Series units\nhave gone silent!\n\0',
 
 # Male Staff
 "エヴァシリーズ、\n全機破壊しました！\n\0":
-'???',
+'All Eva Series units\nhave gone silent!\n\0',
 
 # Misato Katsuragi, Female Staff
 "やった！\n\0":
-'???',
+'We did it!\n\0',
 
 # Kozo Fuyutsuki
 "やったか！\n\0":
-'???',
+'We did it?!\n\0',
 
 # Maya Ibuki 
 "何これ………………！？\n倒したはずのエヴァシリーズが！\n\0":
-'???',
+'What in the......?!\nThe Eva Series units\nwe thought were defeated are--!\n\0',
 
 # Female Staff
 "これは………………！？\n倒したはずのエヴァシリーズが…！\n\0":
-'???',
+'This means......?!\nThe Eva Series units\nwe thought were defeated are...!\n\0',
 
 # Maya Ibuki 
 "エヴァシリーズ、活動再開…。\n\0":
-'???',
+'Eva Series units...\nhave reactivated.\n\0',
 
 # Female Staff
 "エヴァシリーズ、全機、\n活動再開しました………。\n\0":
-'???',
+'All Eva Series units\nhave reactivated......\n\0',
 
 # Misato Katsuragi 
 "そんな………。\nヤツらを倒す方法はないの！？\n\0":
-'???',
+'The hell......\nThere\'s no way to beat them?!\n\0',
 
 # Kozo Fuyutsuki
 "やはりそうか、\nΣ機関による力だな。\n\0":
@@ -629,7 +629,7 @@ translate_map = {
 
 # Female Staff
 "そんな…、どうすれば………？\n\0":
-'???',
+'What on... How are we supposed to--?\n\0',
 
 # ./USRDIR/event/bs019.har_EXTRACT/bs019.evs
 #
@@ -873,7 +873,7 @@ translate_map = {
 #
 # Shigeru Aoba, Male Staff
 "目標、移動開始しました！\n\0":
-'???',
+'Target has started moving!\n\0',
 
 # Shigeru Aoba, Male Staff
 "目標、再び形態変化。\n今度は、一本の紐状になりました。\n\0":
@@ -965,11 +965,11 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "エヴァシリーズ、\n移動開始しました！\n\0":
-'???',
+'The Eva Series units\nare on the move!\n\0',
 
 # Misato Katsuragi 
 "全部で９機か…。\nいい、必ず全機殲滅するのよ！\n\0":
-'???',
+'\n\0',
 
 # Kozo Fuyutsuki
 "全部で９機、全機殲滅しろ！\nいいか、全機殲滅だ！！\n\0":
@@ -985,15 +985,15 @@ translate_map = {
 #
 # Shinji Ikari
 "わぁぁぁぁぁぁぁぁぁぁ！！\n\0":
-'???',
+'Uwahhhhhhhh!!\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ初号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
+'Eva Unit-01 at its limit.\nEntry plug,\nemergency-ejected!\n\0',
 
 # Shigeru Aoba, Male Staff
 "回収班より連絡。\n初号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
+'Message from recovery team.\nEva-01\'s pilot found\nand safely recovered.\n\0',
 
 # Asuka Soryu Langley
 "うああああああああああ…！！\n\0":
@@ -1001,11 +1001,11 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァ弐号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
+'Eva Unit-02 at its limit.\nEntry plug,\nemergency-ejected!\n\0',
 
 # Shigeru Aoba, Male Staff
 "回収班より連絡。\n弐号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
+'Message from recovery team.\nEva-02\'s pilot found\nand safely recovered.\n\0',
 
 # Rei Ayanami 
 "きゃああああああっ！！！\n\0":
@@ -1013,11 +1013,11 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァ零号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
+'Eva Unit-00 at its limit.\nEntry plug,\nemergency-ejected!\n\0',
 
 # Shigeru Aoba, Male Staff
 "回収班より連絡。\n零号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
+'Message from recovery team.\nEva-00\'s pilot found\nand safely recovered.\n\0',
 
 # Toji Suzuhara 
 "うわぁぁぁぁぁぁぁぁ！\n\0":
@@ -1025,11 +1025,11 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァ参号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
+'Eva Unit-03 at its limit.\nEntry plug,\nemergency-ejected!\n\0',
 
 # Shigeru Aoba, Male Staff
 "回収班より連絡。\n参号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
+'Message from recovery team.\nEva-03\'s pilot found\nand safely recovered.\n\0',
 
 # Kaworu Nagisa 
 "そんな…バカな………………。\n\0":
@@ -1037,15 +1037,15 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "エヴァ四号機、限界です。\nエントリープラグ、\n緊急射出します！\n\0":
-'???',
+'Eva Unit-04 at its limit.\nEntry plug,\nemergency-ejected!\n\0',
 
 # Shigeru Aoba, Male Staff
 "回収班より連絡。\n四号機パイロットを発見、\n無事回収しました！\n\0":
-'???',
+'Message from recovery team.\nEva-04\'s pilot found\nand safely recovered.\n\0',
 
 # Makoto Hyuga, Male Staff
 "エヴァ両機、活動限界です。\n\0":
-'???',
+'Both Evas are at their limit.\n\0',
 
 # Kozo Fuyutsuki, Shigeru Aoba
 "万策尽きたか…。\n\0":
@@ -1068,7 +1068,7 @@ translate_map = {
 #
 # Makoto Hyuga, Male Staff
 "エヴァシリーズ、１機撃破！\n\0":
-'First Eva Series unit down!\n\0',
+'Eva Series, one unit down!\n\0',
 
 # Makoto Hyuga, Male Staff
 "２機目撃破！\n\0":
@@ -1088,7 +1088,7 @@ translate_map = {
 
 # Shigeru Aoba
 "気味の悪い奴等だ。\nまた活動を再開してきたら、\nどうする…。\n\0":
-'???',
+'What a bunch of creepers.\nIf they reactivate again,\n*then* what...?',
 
 # Male Staff
 "まさか、\nまた活動を再開したら…。\n\0":
@@ -1104,7 +1104,7 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "８機目撃破！\nあと１機！\n\0":
-'Eighth unit down!\n\0',
+'Eighth unit down!\nOne remaining!\n\0',
 
 #
 # ./USRDIR/event/bs039.har_EXTRACT/bs039.evs
@@ -2039,31 +2039,32 @@ translate_map = {
 #
 # Makoto Hyuga, Male Staff
 "ΘΑ改、活動限界！！\n機能停止しました！！\n\0":
-'???',
+'ΘΑ2, activational limit reached!\nFunctions have been suspended!\n\0',
 
 # Shiro Tokita
 "…あ、…あぁ、\nチクショウめ！！\nここまでなのか…。\n\0":
-'???',
+'Uh... uh...\nSon of a bitch!!\nWhen we\'ve come this far...?\n\0',
 
 # Toji Suzuhara
 "オッチャン、\nようやったやんけ！！▽\nこっちゃ、ごっつい助かっとんねん。\nあとはワシがどないかするさかい、\nはよ安全なトコ行き！！\n\0":
-'???',
+'Ya did good, Unc,\ndoncha think?▽\Fact is, you really saved our asses.\nI\'ll take it from here, so\nyou get somewhere safe quick!\n\0',
 
 # Asuka Soryu Langley
 "そこは危険よ！！\nオジサン、早く逃げて！！\n\0":
-'???',
+'You\'re in danger!\nOld man, get out of here!!\n\0',
 
 # Shinji Ikari
 "おじさん、早く逃げて！！\n\0":
-'???',
+'Hurry, Mister! Escape!\n\0',
 
 # Kaworu Nagisa
 "早く、早くここから逃げて！\n助けてくれてありがとう、\nあなたの好意は忘れないよ。\n\0":
 '???',
 
 # Misato Katsuragi 
+# [NOTE] ああ言ってる probably rendered wrong. -Reichu
 "時田さん、パイロットも\nああ言ってるわ。\n早く避難して！！\n\0":
-'???',
+'Tokita-san, our pilot\nhas the right idea.\nGet to safety, quickly!\n\0',
 
 # Female Staff
 "時田さん、そこは危険です。\n早く避難して下さい。\n\0":
@@ -2071,15 +2072,17 @@ translate_map = {
 
 # Shiro Tokita
 "………し、しかし。\n\0":
-'???',
+'B-but, I......\n\0',
 
 # Toji Suzuhara
+# [NOTE] Not sure about this at all... -Reichu
 "オッチャン、\nまたええの作ったらよぉ、\n次はワイが勝負したらぁよ。▽\nせやから、今はワシがきばるわ。\n頑張りや、オッチャン。\n楽しみにしとるでぇ！！\n\0":
-'???',
+'Unc, if you\nmake something cool again, maybe\nI\'ll try my luck next time.▽\nThat\'s why I\'m going all out now.\nKeep at it, Unc.\nI\'m looking forward to it!\n\0',
 
 # Asuka Soryu Langley
+# [NOTE] Not 100% on this one... -Reichu
 "また新しいロボットを\n作ってらっしゃい！！\n私が勝負してあげるから。\n\0":
-'???',
+'And keep making\nnew robots!\nI\'ll fight this one for you, win or lose!\n\0',
 
 # Shinji Ikari
 "今は逃げて！\nそしてまたみんなのために\nΘΑを作ってよ。▽\nだから今は逃げて！！\n\0":
@@ -2090,8 +2093,9 @@ translate_map = {
 '???',
 
 # Shiro Tokita
+# [NOTE] His first line doesn't seem right at all, but I'm not sure what he means that makes contextual sense... -Reichu
 "………。▽\n…勝てないのはやはり、\n人の心…、か。▽\nよし、ここは君に任せた！！\n頑張れよ、頑張れよー！！\n\0":
-'???',
+'.........▽\nSo what I couldn\'t win were\nthe people\'s hearts after all...▽\nOkay, I trust you with this!\nDo your best! Don\'t give up!!\n\0',
 
 #
 # ./USRDIR/event/bs092.har_EXTRACT/bs091.evs
@@ -2271,11 +2275,11 @@ translate_map = {
 #
 # Toji Suzuhara
 "くっそー、勝てるんかホンマに…。\n\0":
-'???',
+'Shit! Can we really win?\n\0',
 
 # Asuka Soryu Langley
 "向こうはΣ機関搭載か…。\n勝てるかしら…。\n\0":
-'???',
+'They\'ve got Σ engines?\nWonder if we can win...\n\0',
 
 # Shinji Ikari
 "９機…、\nどう考えたって不利だ…。\n\0":
@@ -2287,7 +2291,7 @@ translate_map = {
 
 # Shiro Tokita
 "ジェットアローン改、\n起動スタンバイ！！\n\0":
-'Jet Alone 2,\nstand by for activation!!\n\0',
+'Jet Alone 2,\nstand by for activation!\n\0',
 
 # Toji Suzuhara
 "な、何やアレ！？\n\0":
@@ -2295,7 +2299,7 @@ translate_map = {
 
 # Asuka Soryu Langley
 "もう一体来るの…？\n\0":
-'The hell is it now...?\0',
+'Another one already...?\n\0',
 
 # Shinji Ikari
 "な、何か降りてくる！？\n\0":
@@ -2311,15 +2315,15 @@ translate_map = {
 
 # Female Staff
 "これは…、ΘΑ！？\nジェットアローンです！！▽\nジェットアローンと同じ識別番号を\n持つ機体が現れました！！\n\0":
-'???',
+'Is that... J.A.?!\nIt\'s Jet Alone!▽\nA unit with the same I.D. number\nas Jet Alone has appeared!\n\0',
 
 # Shiro Tokita
 "元日本重化学工業共同体代表、\n時田シロウだ。▽\n配備計画は廃案されたが、\nこのジェットアローン改は\n私の意地と執念の賜物だ。▽\n君達の役に立てれば幸いだ、\n使ってくれ…、パスワードは\nあの言葉だ！！\n\0":
-'???',
+'Shiro Tokita here, on behalf of the\nformer Japan Heavy Chemical Industries.▽\nWhile the deployment program was rejected,\nI stubbornly persisted,\nresulting in this improved Jet Alone 2.▽\nIt is my pleasure to assist you,\nso put us to work...\nYou know the password!\n\0',
 
 # Misato Katsuragi 
 "………。▽\n時田さん、あなた、\nなかなかの男じゃないの。▽\nそれじゃあ\n遠慮なく使わせてもらうわ！！▽\n操作チャンネルを設定して！\nパスワードは「希望」よ！！\n\0":
-'???',
+'......▽\nTokita-san, you\'re\nquite a guy, aren\'t you?▽\nWell then, we\'ll accept\nyour offer without hesitation!▽\nConfigure the controls channel!\nThe password is "HOPE"!!\n\0',
 
 # Female Staff
 "わかりました、\n操作チャンネルを設定して下さい。\nパスワードは「希望」！！\n\0":
@@ -2327,11 +2331,12 @@ translate_map = {
 
 # Toji Suzuhara, Toji Suzuhara
 "助太刀か、\nかっこええのぉ、オッチャン！\nほな、行こかい！！\n\0":
-'???',
+'Battlefield assistance, huh?\nKick-ass, Unc!\nAlright, let\'s move it!!\n\0',
 
 # Asuka Soryu Langley
+# [NOTE] Not sure about こうとなったら.
 "あの人…、こんな時に\n逃げないで…。▽\nよぉし、こうとなったら\n負けてらんないわ！！\n\0":
-'???',
+'He\'s not running away\nat a time like this...▽\nAlright! If that\'s how we\'re playin\',\nthere\'s no way I can lose!!\n\0',
 
 # Shinji Ikari
 "おじさんは…。\nこんな危険を冒してまでここへ…？▽\nよし、僕だって…、\n僕だってやってやる！！\n\0":
@@ -2550,7 +2555,7 @@ translate_map = {
 
 # Misato Katsuragi 
 "これは、兵装ビル。\n\0":
-'???',
+'This is an armament building.\n\0',
 
 # Shinji Ikari
 "兵装ビル…？\n…武器庫ビルと\nどう違うんですか？\n\0":
@@ -13546,7 +13551,7 @@ translate_map = {
 
 # Yui Ikari [Flashback]
 "注目すべきところは、ここね。▽\n被験者と長期間接触した人間も\n同様に遺伝子レベルから変化が\n起こっている。▽\n他生物による進化の可能性を\n垣間見る事が出来るわね。\n精神汚染とも言うべき、この…、▽\nごめんなさい、帰ってから\nゆっくり読めるわよね…。\n\0":
-'Here\'s where you should take notice.▽\n Change is occurring at the genetic level,\n same as in the people who engaged in\n prolonged contact with the test subject.▽\n One can certainly glimpse the\n evolutionary possibilities via other organisms.\n In what can only be called mental contamination, this...▽\n Forgive me, ever since you got\n back my reading\'s been slow...\n\0',
+'Here\'s the important part.▽\n Change is occurring at the genetic level,\n same as in the people who engaged in\n prolonged contact with the test subject.▽\n One can certainly glimpse the\n evolutionary possibilities via other organisms.\n In what can only be called mental contamination, this...▽\n Forgive me, ever since you got\n back my reading\'s been slow...\n\0',
 
 # Gendo Rokubungi
 "構わない。\n喜んでもらえてよかったよ。\n明日は冬月先生と約束があるとか。\n\0":
@@ -13606,7 +13611,7 @@ translate_map = {
 
 # Gendo Rokubungi
 "そのつもりだ。\n今、スポンサーを探している。▽\nそして、出来れば…、\n君…、\nユイにも手伝ってもらいたい。\n\0":
-'That\'s the plan.\nI\'m currently looking for a sponsor.▽\n And, if I find one...\nI also want to help you,\n Yui.\n\0',
+'That\'s the plan.\nI\'m currently looking for a sponsor.▽\n And, if I find one...\nI also want you\nto help me, Yui.\n\0',
 
 # Yui Ikari [Flashback]
 "ええ、喜んで。\nその話、受けさせてもらいます。\n\0":
@@ -13733,6 +13738,8 @@ translate_map = {
 
 #
 # ./USRDIR/event/f050.har_EXTRACT/f050.evs
+#
+# [Character: Scene with Ritsuko]
 #
 # Naoko Akagi
 "母さんは仕事。\n今から出勤なの。\n\0":
