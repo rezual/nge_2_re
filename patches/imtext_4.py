@@ -80,7 +80,7 @@ translate_map = {
 '???',
 
 "$oの\n入手に成功しました。\n\0\0":
-'???',
+'Successfully obtained\n$o.\n\0\0',
 
 "情報を得ることは出来なかった。\n\0":
 '???',
@@ -2090,7 +2090,7 @@ translate_map = {
 '???',
 
 "マギ端末に\nハッキングします。\n\0\0":
-'???',
+'You\'ll hack into the MAGI terminal.\n\0\0',
 
 "…あった…！！\n探してたのはこれだ…。\n\0\0":
 '???',
@@ -2128,8 +2128,9 @@ translate_map = {
 "…うっそ、成功してるやん。\nほな、いただいて行こ！\n\0\0":
 '???',
 
+# Probably wrong, check again later. -Reichu
 "こんなところに隠してあったか…。\n後でゆっくり見せてもらうよ。\n\0\0":
-'???',
+'So, hidden here of all places...?\nIt\'ll be an easy reveal later.\n\0\0',
 
 "もう、時間がない…。\nこれ以上は危険だ…。\n\0\0":
 '???',
@@ -3086,7 +3087,7 @@ translate_map = {
 '???',
 
 "あの、僕さ、電話って苦手なんだ。\n相手の顔が見えないから。$n\n見えない方がいいって時も\nあるけどね…。\n\0\0\0\0":
-'???',
+'Hey, y\'know... phones just don\'t work for me.\nYou can\'t see the other person\'s face.$n\nSometimes it\'s better that way, though...\n\0\0\0\0',
 
 "ああそうだ…。\n制服のほつれ直したいけど、\n裁縫とかあんまり得意じゃないし…。\n\0\0\0":
 '???',
@@ -3365,7 +3366,7 @@ translate_map = {
 '???',
 
 "エヴァとネルフの足かせが無ければ、\n世界の経済はもっと成長していた\nだろうな。$n\n戦争特需なんて、昔の話だ。\n\0\0":
-'???',
+'If nothing encumbered the Evas and Nerv,\nthe world economy could probably\ngrow even more.$n\nEmergency war demands, and all;\nit\'s the same old story.\n\0\0',
 
 "ネルフの空調が寒いのは、\nマギのためだ。せいぜい人間は\n厚着でもするがいいさ。\n\0\0\0":
 '???',
@@ -3839,7 +3840,7 @@ translate_map = {
 '???',
 
 "僕には不思議だな…。$n\n人々が、物事を複雑にしている。\nまっすぐものを見るのが怖いから\nなのかな？\n\0\0\0\0":
-'???',
+'It\'s strange to me...$n\nPeople have mixed feelings toward things.\nIs it because they\'re afraid\nof taking a hard, honest look?\n\0\0\0\0',
 
 "僕には不思議だよ…。\n人々が、物事を複雑にしている。\nまっすぐものを見るのが怖いから？\n\0\0\0":
 '???',
@@ -3848,10 +3849,10 @@ translate_map = {
 '???',
 
 "君は先の見えない苦痛が恐いかい？$n\nなに、苦痛へ落ちる時も楽しめば\nいい。…急流くだりだよ。\n終ってしまえば、なんて事もない。\n\0\0\0\0":
-'???',
+'Do you fear pain that is uncertain?$n\nCome now. You can find pleasure even\nwhen falling into pain\'s clutches.\nIt\'s a swift downhill current. No big deal when it\'s all over.\n\0\0\0\0',
 
 "僕、見ていて思うんです。$n\nみんな沢山の負けを知って、\nそして、少しでも負けない為の\n生き方を見つけたいともがいている。\n\0\0":
-'???',
+'I think I see.$n\nEveryone knows defeat all too well.\nThus they desperately try to live such\nthat even the smallest defeats don\'t happen.n\0\0',
 
 "僕、見ていて思うんだ。$n\nみんな沢山の負けを知るよね。\nそして、少しでも負けない為の\n生き方を見つけたいともがいている。\n\0\0":
 '???',
@@ -3860,16 +3861,17 @@ translate_map = {
 '???',
 
 "恐れは先を予測する事で生まれる。\nその予測するヒマをなくせば、\nラクになれるんじゃない？\n\0":
-'???',
+'Fear is born from predicting the future.\nIf any such opportunities are removed,\nwill one not be better off?\n\0',
 
+# [NOTE] Very uncertain about what ツイている is supposed to mean. -Reichu
 "そういえば、\n昼の３時は不思議な時間ですよね。$n\n一日の色が決まったような、\nそんな時間。$n\nツイているとか、\nツイてなかったとか…。\n様々な思いが入り交じる時間。\n\0":
-'???',
+'That reminds me,\nthree in the afternoon is a curious time, no?$n\nSuch a time as though\nthe day\'s character has been decided...$n\nWill you be lucky,\nor will you not be?\nAn hour of many intermingling sentiments.\n\0',
 
 "そういえば、\n昼の３時は不思議な時間だよ。$n\n一日の色が決まったような、\nそんな時間。$n\nツイているとか、\nツイてなかったとか…。\n様々な思いが入り交じる時間。\n\0":
 '???',
 
 "みんな、過ちは償えると\n錯覚しているんですね。$n\n無理ですよ。\n償うという行為は、過去へ\n戻らなければ出来やしない。$n\nそう、\n過去へ戻す事が出来なければ…。\n\0\0\0":
-'???',
+'Everyone is under the illusion that\nyou can make up for mistakes.$n\nBut it\'s impossible.\nThe act of redeeming oneself quite simply\n*requires* being able to return to the past.$n\nAnd,\nif there is no way to do *that*...\n\0\0\0',
 
 "みんな、過ちは償えると\n錯覚しているんだね。$n\n無理だよ。\n償うという行為は、\n過去へ戻らなければ出来やしない。$n\nそう、\n過去へ戻す事が出来なければ…。\n\0\0\0":
 '???',
@@ -3881,10 +3883,10 @@ translate_map = {
 '???',
 
 "…世界は全てを与えているのに。\n満ち足りないのは、自分自身が\n受け止めようとしないからですよ。\n\0\0\0":
-'???',
+'The world gives us all we need...\nAnd yet one will never be satisfied if\nself-acceptance isn\'t practiced.\n\0\0\0',
 
 "…世界は全てを与えているよ。\n満ち足りないのは、自分自身が\n受け止めようとしないからさ。\n\0":
-'???',
+'The world provides us with everything...\nThose who are unsatisfied don\'t\ntry to accept their very selves.\n\0',
 
 "クワァ〜ゥ、クァックァ。$m\nペンペンは、何か話したいようだ。\n\0\0\0\0":
 '???',
@@ -3947,7 +3949,7 @@ translate_map = {
 '???',
 
 "あのさ、\nちょっと聞きたいんだけど。\n\0\0\0\0":
-'???',
+'Oh hey,\ngot a little something to ask.\n\0\0\0\0',
 
 "ああ、君に、\n聞きたい事があってね…。\n\0\0":
 '???',
@@ -4337,13 +4339,13 @@ translate_map = {
 '???',
 
 "ねえ、\n何の話をしているのかしら？\n\0\0":
-'???',
+'Say,\nwhat might you be talking about?\n\0\0',
 
 "…あの、その話なんだけど、\nちょっと…いい？\n\0\0\0\0":
 '???',
 
 "あの…、\n何の…話なのかな？\n\0\0\0\0":
-'???',
+'Scuse me...\nWhat are you talking about?\n\0\0\0\0',
 
 "ちょっと…さ、\nその話に意見…したいんだけど。\n\0\0":
 '???',
@@ -4451,7 +4453,7 @@ translate_map = {
 '???',
 
 "$cは、会話に割り込んだ。\n\0\0\0":
-'???',
+'$c interrupted the conversation.\n\0\0\0',
 
 "あの…、ちょっと、\n聞いてもらえますか？\n\0\0\0\0":
 '???',
@@ -4532,13 +4534,13 @@ translate_map = {
 '???',
 
 "ああ、いいところに…。\n\0":
-'???',
+'Ah, perfect timing...\n\0',
 
 "ああ、君か…。\nいいところに来たね。\n\0\0\0\0":
 '???',
 
 "ああ、今の話、聞いてました？\n\0\0\0":
-'???',
+'Oh, you heard us talking just now?\n\0\0\0',
 
 "ああ、今の話聞いてた？\n\0":
 '???',
@@ -4574,7 +4576,7 @@ translate_map = {
 '???',
 
 "あら、聞こえました？\n\0\0\0":
-'???',
+'Oh, you overheard us?\n\0\0\0',
 
 "あら、聞いてたの？\n\0":
 '???',
@@ -4616,7 +4618,7 @@ translate_map = {
 '???',
 
 "ああ、\nちょっとうるさかったですか？\n\0\0\0\0":
-'???',
+'Ah,\nwere we too loud?\n\0\0\0\0',
 
 "ああ、\nちょっとうるさかった？\n\0\0":
 '???',
@@ -4706,7 +4708,7 @@ translate_map = {
 '???',
 
 "３人の会話は、\n明るい雰囲気だった。\n\0\0\0\0":
-'???',
+'The three-way conversation\nhad a cheerful atmosphere.\n\0\0\0\0',
 
 "３人の会話は、\nぎこちない雰囲気だった。\n\0\0\0\0":
 '???',
@@ -6428,7 +6430,7 @@ translate_map = {
 '???',
 
 "あの…、\n今、見ているのは\nひょっとして…。\n\0":
-'???',
+'Um...\nAre you looking at me, by chance...?\n\0',
 
 "あの…、\n今、見ているのって、\nひょっとしてさぁ…。\n\0":
 '???',
@@ -6665,7 +6667,7 @@ translate_map = {
 '???',
 
 "あ、あの…私は…。\n\0":
-'???',
+'Er, uh... I...\n\0',
 
 "び、びっくりした…。\nあの、私はそんな…。\n\0\0":
 '???',
@@ -6764,7 +6766,7 @@ translate_map = {
 '???',
 
 "$aからの視線が\n感じられなくなった。\n\0\0\0\0":
-'???',
+'$a can no longer\nsee you.\n\0\0\0\0',
 
 "$cが、\n話し掛けてきた！\n\0\0\0\0":
 '???',
