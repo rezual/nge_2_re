@@ -164,7 +164,7 @@ translate_map = {
 '???',
 
 "いただきます。\n\0":
-'???',
+'Thanks for the food.\n\0',
 
 "いっただきま〜す。\n\0":
 '???',
@@ -905,7 +905,7 @@ translate_map = {
 '???',
 
 "どうかしたの？\n気分が悪いようではない\nようだけど…。\n\0\0\0":
-'???',
+'What\'s the matter?\nYou appear to be in fine spirits,\nbut...\n\0\0\0',
 
 "あ、いえ…。\n何でもありませんから…。\n\0\0":
 '???',
@@ -980,7 +980,7 @@ translate_map = {
 '???',
 
 "実はΑΤが低くて…。\nでも、どうすれば上がるのか\nわからないんだ。\n\0\0\0":
-'???',
+'To be honest, my A.T. is pretty low...\nBut I don\'t know how to make it go up.\n\0\0\0',
 
 "ΑΤが低いから、何もやる気が\n起きなくて…。\n\0\0\0\0":
 '???',
@@ -1225,8 +1225,9 @@ translate_map = {
 "他人からちやほやされると、\n気分がいいですよ。$n\nまあ、そのための努力でもしたら\nいいと思いますけどね。\n\0\0":
 '???',
 
+# Not 100% on second sentence. -Reichu
 "他人からちやほやされると\n気分がいいよ。$n\nまあ、そのための努力でもしたら\nいいと思うけどね。\n\0\0\0\0":
-'???',
+'It\'s nice to have\nothers fuss over you.$n\nWell, I think it\'s fine, if you\'ve worked hard to earn it.\n\0\0\0\0',
 
 "じゃあ仕事に打ち込めばいいですよ。\n少しずつでもいいですから。\n\0\0":
 '???',
@@ -1340,7 +1341,7 @@ translate_map = {
 '???',
 
 "そうか、ありがとう。\n\0\0\0":
-'???',
+'I see. Thank you.\n\0\0\0',
 
 "ありがとうございます！\n\0":
 '???',
@@ -1367,7 +1368,7 @@ translate_map = {
 '???',
 
 "そうですか。ありがとうございます。\n何だか、みんなに好かれたいと\n思うようになりました。\n\0":
-'???',
+'You\'re right... Thank you.\nI\'ve come to think that\nI want to be liked by everyone.\n\0',
 
 "そっかぁ…、ありがとう。\n何だか、みんなに好かれたいと\n思えるようになったよ。\n\0\0\0":
 '???',
@@ -5108,7 +5109,7 @@ translate_map = {
 '???',
 
 "あら、今日のあなたは\nなかなかのいい男ね。\nどうしたのかしら？\n\0\0\0":
-'???',
+'My, aren\'t you\nlooking good today.\nWhat\'s going on?\n\0\0\0',
 
 "何だか今日は、素敵ですね…。\n\0\0\0":
 '???',
@@ -5198,7 +5199,7 @@ translate_map = {
 '???',
 
 "美しいですね。\nあなたのように輝いている人を、\n僕は見たことがない。\n\0":
-'???',
+'You are so beautiful.\nI have never seen\nsomeone as splendid as you.\n\0',
 
 "君はとても魅力的だよ。\n目も髪も全てさ。\n…綺麗だね。\n\0\0\0":
 '???',
@@ -5240,7 +5241,7 @@ translate_map = {
 '???',
 
 "まあ、お世辞ね。\nでも悪い気しないわね。\n\0\0\0\0":
-'???',
+'Oh, you flatter me.\nBut it does make me feel better.\n\0\0\0\0',
 
 "もぉ…、冗談ばっかり。\nでも、嬉しいです。\n\0\0":
 '???',
@@ -5285,7 +5286,7 @@ translate_map = {
 '???',
 
 "フフ、よく言われますよ。\n\0\0\0":
-'???',
+'Heh, I get that a lot.\n\0\0\0',
 
 "うん。\nその通りなんだろうね。\nよく言われているんだ。\n\0\0\0":
 '???',
@@ -5525,7 +5526,7 @@ translate_map = {
 '???',
 
 "あなたの美しさを見る事が出来た。\n僕は幸運だ。\n\0\0":
-'???',
+'I am capable of seeing your beauty.\nSuch is my good fortune.\n\0\0',
 
 "君はまるで…、そう、\n咲き誇る花のようだ。\n\0\0":
 '???',
@@ -5696,7 +5697,7 @@ translate_map = {
 '???',
 
 "フフフフフ…。$m\nリツコは、上機嫌のようだ。\n\0\0\0\0":
-'???',
+'*Giggles*$m\nRitsuko seems to be in a good mood.\n\0\0\0\0',
 
 "じゃ、じゃあ、\nもっと自信持って、\nオシャレしてみようと思います。\n\0\0\0":
 '???',
@@ -7655,7 +7656,7 @@ translate_map = {
 '???',
 
 "…いいわよ、入っても。\n\0":
-'???',
+'It\'s fine if you come in.\n\0',
 
 "はいはい、どーぞ。\nあがってちょーだい！\n\0\0\0\0":
 '???',
@@ -8087,7 +8088,7 @@ translate_map = {
 '???',
 
 "いいもの、見せてあげようか？\n\0\0\0":
-'???',
+'Can I show you something cool?\n\0\0\0',
 
 "ちょっと、コレなんですけど。\n見てもらえませんか？\n\0\0":
 '???',
@@ -8120,7 +8121,7 @@ translate_map = {
 '???',
 
 "いいものを持っているんです。\n見せましょうか…？\n\0\0\0\0":
-'???',
+'I have something nice.\nShall I show you...?\n\0\0\0\0',
 
 "いいものを持ってるんだ。\n見せようか…？\n\0\0\0\0":
 '???',
@@ -8129,13 +8130,13 @@ translate_map = {
 '???',
 
 "$aは、$bに\n$oを見せた。\n\0\0\0\0":
-'???',
+'$a showed %b\nthe $o.\n\0\0\0\0',
 
 "えっ、えっ？\nこれが、何か…？\n\0\0":
 '???',
 
 "えっ、これ…。\nこれが、どうしたの？\n\0\0\0\0":
-'???',
+'Er, what\'s...\nWhat is this for?\n\0\0\0\0',
 
 "…でも、\nこれがどうかしましたか？\n\0\0":
 '???',
@@ -8156,7 +8157,7 @@ translate_map = {
 '???',
 
 "それがどうした…。\n\0":
-'???',
+'What is this for...?\n\0',
 
 "で、何かね？\n\0\0\0":
 '???',
@@ -8210,7 +8211,7 @@ translate_map = {
 '???',
 
 "これが、何か…？\n\0\0\0":
-'???',
+'What is it...?\n\0\0\0',
 
 "これが、どうかしたのかい？\n\0":
 '???',
@@ -8261,7 +8262,7 @@ translate_map = {
 '???',
 
 "いらないよ。\n\0\0\0":
-'???',
+'Don\'t want it.\n\0\0\0',
 
 "結構です。\n\0":
 '???',
@@ -8327,7 +8328,7 @@ translate_map = {
 '???',
 
 "これは、僕からのプレゼントだよ。\n\0\0\0":
-'???',
+'It\'s a present from me.\n\0\0\0',
 
 "あの、プレゼントです。\nこのまま受け取って下さい。\n\0\0":
 '???',
@@ -8360,10 +8361,10 @@ translate_map = {
 '???',
 
 "これは僕からのプレゼントです。\n僕の気持ち、\n受け取ってもらえますか？\n\0\0\0":
-'???',
+'It\'s a present from me.\nMy feelings, are you able to accept them?\n\0\0\0',
 
 "これは僕からのプレゼント。\n僕の気持ち、\n受け取ってもらえるかな？\n\0\0\0":
-'???',
+'It\'s a present from me.\nMy feelings, are you able to accept them?\n\0\0\0',
 
 "グワァ〜ァ、\nグァッグァッグァッ。$m\nペンペンは、\nプレゼントをしたいようだ。\n\0\0\0\0":
 '???',
@@ -8617,8 +8618,9 @@ translate_map = {
 "そんな事言ったって…。\n俺、あげるなんて言ってないよ。\n\0\0":
 '???',
 
+# [TL] Check second sentence for accuracy later. -Reichu
 "せっかちですね。\n僕、これを渡すなんて事は\n言っていませんけど…。\n\0\0\0":
-'???',
+'Rather hasty, no?\nI didn\'t even say anything\nabout giving it to you...',
 
 "せっかちだなぁ…。\n僕、これを渡すなんて事は\n言ったつもりはないんだけど。\n\0\0\0":
 '???',
@@ -8698,8 +8700,9 @@ translate_map = {
 "ちょうだい、ちょうだい！\nヘヘヘ、ありがとー！\n\0\0":
 '???',
 
+# Awkward, fix later.
 "うれしいです…、\nプレゼントをもらう事が\n出来るなんて…。\n\0\0\0":
-'???',
+'It makes me happy,\nthat I\'m able to\naccept your gift.\n\0\0\0',
 
 "うれしいな…、\nプレゼントをもらう事が\n出来るなんて…。\n\0":
 '???',
@@ -8708,13 +8711,13 @@ translate_map = {
 '???',
 
 "$bは、$aに\n$oを渡しました。\n\0\0\0\0":
-'???',
+'$b gave the\n$o to $a.\n\0\0\0\0',
 
 "そんなもの、\n別に欲しくないです…。\n\0\0\0\0":
 '???',
 
 "そんなもの、\n別に欲しくないよ…。\n\0\0":
-'???',
+'I don\'t really\nneed stuff like that...\n\0\0',
 
 "コレ？\nいりませ〜ん。\n\0\0":
 '???',
@@ -8906,7 +8909,7 @@ translate_map = {
 '???',
 
 "こっちも嬉しいよ。\n喜んでくれてさ。\n\0\0\0\0":
-'???',
+'The feeling\'s mutual.\nGlad you like it.\n\0\0\0\0',
 
 "こちらこそ、喜んでいただいて\n嬉しく思っています。\n\0\0":
 '???',
@@ -9029,7 +9032,7 @@ translate_map = {
 '???',
 
 "そんなに言わないでさ、\n持っていてくれないかな？\n\0\0\0\0":
-'???',
+'Don\'t say such things.\nWon\'t you take it, for me?\n\0\0\0\0',
 
 "クワァ〜ゥ、クァックァ。$m\nペンペンは、プレゼントを\n受け取ってほしいようだ。\n\0\0\0":
 '???',
@@ -9251,7 +9254,7 @@ translate_map = {
 '???',
 
 "（プレゼント…か。\n　いいね、何だか家族が出来た\n　みたいだな。）\n\0\0\0":
-'???',
+'(A present, huh?\nIt\'s nice. Sort of like\nwe\'ve become family.)\n\0',
 
 "クワァ〜、クワァ〜\nクァクァクァ！$m\nペンペンは、\nまんざらでもないようだ。\n\0\0":
 '???',
@@ -9281,7 +9284,7 @@ translate_map = {
 '???',
 
 "私が欲しかったのは、これなんだ。\n感謝するよ。\n\0\0":
-'???',
+'This is something I\'ve wanted.\nI appreciate it.\n\0\0',
 
 "実はね、これを手に入れたいと\n思っていたんだよ。\nいや、手に入って嬉しいよ。\n\0":
 '???',
@@ -9469,8 +9472,9 @@ translate_map = {
 "…あの、じゃあ、\nいただきます。\n\0\0\0\0":
 '???',
 
+# Don't know if there's any way to reflect the おく in the translation.
 "…じゃあ、もらっておくよ。\n\0":
-'???',
+'Okay, I\'ll accept it.\n\0',
 
 "あの、それじゃ、\nいただいておきますから…。\n\0\0\0\0":
 '???',
@@ -9593,7 +9597,7 @@ translate_map = {
 '???',
 
 "よかった、\n受け取ってくれるんだね。\n\0\0\0\0":
-'???',
+'I\'m so glad\nthat you accepted it.\n\0\0\0\0',
 
 "クゥァァァ、クゥァァァ、\nクァッ、クァッ、クァッ。$m\nペンペンは、嬉しそうだ。\n\0\0\0":
 '???',
@@ -9974,7 +9978,7 @@ translate_map = {
 '???',
 
 "………。$n\nあっ、そーかい。\n\0\0\0\0":
-'???',
+'......$n\Oh, that a fact?\n\0\0\0\0',
 
 "………。$n\nあっそ、そうか…。\n\0\0":
 '???',
@@ -10282,32 +10286,35 @@ translate_map = {
 "ようやっと退院出来たわ。\nちっと、体がなまったかもしれへん。\n\0\0\0\0":
 '???',
 
+# [TL] Note sure about second sentence. -Reichu
 "…退院しました。\nこれからまた、お世話になります。\n\0\0":
-'???',
+'I\'m out of the hospital.\nThank you for your help again, and in the future.\n\0\0',
 
 "元気にしていたかい？\n僕もやっと、退院出来たんだよ。\n\0\0\0\0":
-'???',
+'How\'ve you been?\nI finally got out of the hospital, myself.\n\0\0\0\0',
+
+# (Response) "Are you okay?"
 
 "もう大丈夫なの？\n退院したからといって、\n無理はよくないよ。\n\0":
-'???',
+'Are you better now?\nYou shouldn\'t push yourself\njust because you were discharged.\n\0',
 
 "あら、もう大丈夫なの？\n他にも挨拶した？\nみんな心配してたわよ。\n\0":
 '???',
 
 "もう、いいの？\n\0":
-'???',
+'Are you okay?\n\0',
 
 "もう、痛むところはないの？\n大丈夫？\n\0\0\0\0":
 '???',
 
 "もう、いいのか？\n\0\0\0":
-'???',
+'Are you alright?\n\0\0\0',
 
 "しばらくは、何事も無理しない\n程度にな。\n\0\0\0\0":
 '???',
 
 "もう大丈夫なの？\nまだゆっくりしていても\nよかったのよ。\n\0":
-'???',
+'You\'re already better?\NYou should keep taking things slow.\n\0',
 
 "あらっ、もう大丈夫なの？\n\0\0\0":
 '???',
@@ -10316,7 +10323,7 @@ translate_map = {
 '???',
 
 "もう、治ったんだ。\nでも、しばらくは無理しない方が\nいいよ。\n\0":
-'???',
+'So you\'re already better.\nBut you shouldn\'t push yourself\nfor a while.\n\0',
 
 "よう、もういいのかい？\n心配したぞ。\n\0\0\0\0":
 '???',
@@ -10361,10 +10368,10 @@ translate_map = {
 '???',
 
 "そういえば、\n今の状況について、\n教えてくれませんか？\n\0\0\0":
-'???',
+'Come to think of it,\ncould you tell me about\nwhat\'s been going on?\n\0\0\0',
 
 "今の状況について、\n何か教えてくれないか。\n一体どうなってるんだい？\n\0":
-'???',
+'Could you tell me a\nlittle about things?\nWhat in the world\'s going on?\n\0',
 
 "心配ですか？\nもう大丈夫ですよ。\n気遣い、ありがとうございます。\n\0":
 '???',
@@ -10391,19 +10398,19 @@ translate_map = {
 '???',
 
 "心配してくれてたんですね。\nありがとうございます。\n…なんだかうれしいな。\n\0\0\0":
-'???',
+'You were worried for me?\nThank you so much.\n...That warms my heart a little.\n\0\0\0',
 
 "心配してくれたんだ。\nありがとう。\n…なんだかうれしいな。\n\0\0\0":
 '???',
 
 "僕がいない間、大変でしたか？\n\0\0\0":
-'???',
+'Did you have much trouble while I was gone?\n\0\0\0',
 
 "僕がいない間、\n大変だったんじゃない？\n\0\0":
 '???',
 
 "私がいない間、\n大変だったんじゃないですか？\n\0\0\0\0":
-'???',
+'There weren\'t many problems\nwhile I was away, were there?\n\0',
 
 "…でさ、私がいなくなって、\nかなり大変だったんじゃない？\n\0\0\0\0":
 '???',
@@ -10424,7 +10431,7 @@ translate_map = {
 '???',
 
 "僕がいなくて、\n大変だったんじゃない？\n\0\0":
-'???',
+'Was there much trouble\nwhile I was gone?\n\0\0',
 
 "ああ…それは、私じゃないわ。\n\0\0\0":
 '???',
@@ -10460,7 +10467,7 @@ translate_map = {
 '???',
 
 "そうね。\nあまりいい状況ではないわ。\n\0\0\0\0":
-'???',
+'I see.\nThe situation isn\'t too good.\n\0\0\0\0',
 
 "それが、\nあまりいい状況じゃないのよね…。\n\0\0":
 '???',
@@ -10514,7 +10521,7 @@ translate_map = {
 '???',
 
 "問題ない。\n今はいい状況だ。\n\0\0\0\0":
-'???',
+'No problems.\nThe situation is good right now.\n\0\0\0\0',
 
 "いや、かなりいい状況だよ。\nいつも、こうありたいものだな。\n\0\0":
 '???',
@@ -10613,7 +10620,7 @@ translate_map = {
 '???',
 
 "一番避けたいのは、\nパイロットが不在という事なの。\n気を付けてちょうだいね。\n\0":
-'???',
+'The pilots\' absence is the\n#1 thing we want to avoid.\nPlease be careful out there.\n\0',
 
 "今度から、気を付けてね。\nもう入院なんてこりごりでしょ？\n\0\0\0\0":
 '???',
@@ -10691,7 +10698,7 @@ translate_map = {
 '???',
 
 "ああ、そう…。\nちょっと、つらかったよ。\n\0\0\0\0":
-'???',
+'Oh, right...\nThings got a little hairy.\n\0\0\0\0',
 
 "そうなのよ。\nアンタいなくて、\nちょっぴりキツかったわ。\n\0":
 '???',
@@ -10718,7 +10725,7 @@ translate_map = {
 '???',
 
 "ああ…、\nちょっとつらかったね。\n\0\0\0\0":
-'???',
+'Oh...\nIt was a little tough, y\'know?\n\0\0\0\0',
 
 "知ってたのかい？\nいや、少しばかり大変だったんだよ。\n\0\0\0\0":
 '???',
@@ -13616,7 +13623,7 @@ translate_map = {
 '???',
 
 "…こんにちは。\n\0":
-'???',
+'... Hello.\n\0',
 
 "ハロ〜ォ。\n\0":
 '???',
@@ -13646,10 +13653,10 @@ translate_map = {
 '???',
 
 "よ、元気か？\n\0\0\0":
-'???',
+'Yo, how\'s it going?\n\0\0\0',
 
 "やぁ、こんにちは。\n\0":
-'???',
+'Heya, good afternoon.\n\0',
 
 "今日も暑かったね…。\n\0\0\0":
 '???',
