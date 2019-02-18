@@ -92,13 +92,13 @@ translate_map = {
 'How\'s your unit\'s condition?\n I\'m curious.\n\0',
 
 "初号機？\nうん、調子いいよ。\n\0\0\0\0":
-'Unit-01?\nYeah, it\'s in good shape.\n\0',
+'Eva-01?\nYeah, it\'s in good shape.\n\0',
 
 "調子いいわよ。\n弐号機をナメてもらっちゃあ\n困るわよ。\n\0\0\0":
 '???',
 
 "こっち、零号機は順調よ。\n\0\0\0":
-'Unit-00 here is faring well.\n\0',
+'Eva-00 here is faring well.\n\0',
 
 "おう、すこぶるええで。\n\0":
 'Yeah, doing really great.\n\0',
@@ -332,7 +332,7 @@ translate_map = {
 '???',
 
 "参号機の内部に潜む、あの\n使徒の正体ともいえる粘菌\nみたいなのが気になるわね。$n\nなるべくアレに接触したくないわね。$n\n粘菌はね、他の栄養を発見したら\nそれに向かって移動を始める生物\nなのよ。\n\0":
-'I\'m worried about the stuff that looks like slime mold.\n It\'s the true form of the Angel,\n hiding itself in Unit-03\'s interior. $n\nYou want to come in contact with it as little as\n possible. The slime mold is an organism that, if it detects\n another source of sustenance, starts moving toward it.\n\0',
+'I\'m worried about the stuff that looks like slime mold.\n It\'s the true form of the Angel,\n hiding itself in Eva-03\'s interior. $n\nYou want to come in contact with it as little as\n possible. The slime mold is an organism that, if it detects\n another source of sustenance, starts moving toward it.\n\0',
 
 "姿はエヴァでも正体は使徒よ。\nどんな攻撃を出してくるか\nわからないわ。$n\n遠距離射撃が安全ね。\n武器庫ビルを確認しておきなさい。\n\0\0\0":
 'It looks like an Eva, but it\'s really an Angel.\n We don\'t know what kind of attacks\n it will send our way.$n\n So firing from a distance is the safest bet.\n Please check the armory buildings first thing.\n',
@@ -518,19 +518,19 @@ translate_map = {
 '???',
 
 "初号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'Unit-01 has reached the end\n of its umbilical cable.\n\0',
+'Eva-01 has reached the end\n of its umbilical cable.\n\0',
 
 "弐号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'Unit-02 has reached the end\n of its umbilical cable.\n\0',
+'Eva-02 has reached the end\n of its umbilical cable.\n\0',
 
 "零号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'Unit-00 has reached the end\n of its umbilical cable.\n\0',
+'Eva-00 has reached the end\n of its umbilical cable.\n\0',
 
 "参号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'Unit-03 has reached the end\n of its umbilical cable.\n\0',
+'Eva-03 has reached the end\n of its umbilical cable.\n\0',
 
 "四号機のアンビリカルケーブルの\n残りが無くなりました。\n\0\0":
-'Unit-04 has reached the end\n of its umbilical cable.\n\0',
+'Eva-04 has reached the end\n of its umbilical cable.\n\0',
 
 "エヴァ両機のアンビリカル\nケーブルの残りが無くなりました。\n\0\0":
 'Both Evas have reached the\n ends of their umbilical cables.\n\0',
@@ -542,31 +542,31 @@ translate_map = {
 'Eva Unit-01 umbilical cable,\n disconnected.\n\0',
 
 "エヴァ初号機のアンビリカル\nケーブルを切断しました。\n\0\0\0\0":
-'Unit-01\'s umbilical cable\n has been disconnected.\n\0',
+'Eva-01\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ弐号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
 'Eva Unit-02 umbilical cable,\n disconnected.\n\0',
 
 "弐号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'Unit-02\'s umbilical cable\n has been disconnected.\n\0',
+'Eva-02\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ零号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
 'Eva Unit-00 umbilical cable,\n disconnected.\n\0',
 
 "零号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'Unit-00\'s umbilical cable\n has been disconnected.\n\0',
+'Eva-00\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ参号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
 'Eva Unit-03 umbilical cable,\n disconnected.\n\0',
 
 "参号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'Unit-03\'s umbilical cable\n has been disconnected.\n\0',
+'Eva-03\'s umbilical cable\n has been disconnected.\n\0',
 
 "エヴァ四号機のアンビリカル\nケーブル、切断しました。\n\0\0\0\0":
 'Eva Unit-04 umbilical cable,\n disconnected.\n\0',
 
 "四号機のアンビリカルケーブルを\n切断しました。\n\0\0":
-'Eva Unit-04\'s umbilical cable has been disconnected.\n\0',
+'Eva-04\'s umbilical cable has been disconnected.\n\0',
 
 "エヴァ両機のアンビリカル\nケーブル、切断しました。\n\0\0":
 'Both Eva units\' umbilical cables,\n disconnected.\n\0',
@@ -575,52 +575,52 @@ translate_map = {
 'Both Eva units\' umbilical cables have been disconnected.\n\0',
 
 "初号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'Unit-01, connected to\n  umbilical cable. Internal power\n supply no longer depleting.\n\0',
+'Eva-01, connected to\n  umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "弐号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'Unit-02, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
+'Eva-02, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "零号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'Unit-00, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
+'Eva-00, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "参号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'Unit-03, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
+'Eva-03, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "四号機、アンビリカルケーブルを\n接続しました。\n内部電源、減少停止。\n\0":
-'Unit-04, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
+'Eva-04, connected to\n umbilical cable. Internal power\n supply no longer depleting.\n\0',
 
 "エヴァ両機、アンビリカル\nケーブルを接続しました。\n内部電源、減少停止。\n\0":
 'Both Eva units, connected to\n umbilical cables. Internal power\n supplies no longer depleting.\n\0',
 
 "初号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'Unit-01, umbilical cable exchanged.\n\0',
+'Eva-01, umbilical cable exchanged.\n\0',
 
 "初号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'Unit-01 has exchanged\n its umbilical cable.\n\0',
+'Eva-01 has exchanged\n its umbilical cable.\n\0',
 
 "弐号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'Unit-02, umbilical cable exchanged.\n\0',
+'Eva-02, umbilical cable exchanged.\n\0',
 
 "弐号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'Unit-02 has exchanged\n its umbilical cable.\n\0',
+'Eva-02 has exchanged\n its umbilical cable.\n\0',
 
 "零号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'Unit-00, umbilical cable exchanged.\n\0',
+'Eva-00, umbilical cable exchanged.\n\0',
 
 "零号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'Unit-00 has exchanged\n its umbilical cable.\n\0',
+'Eva-00 has exchanged\n its umbilical cable.\n\0',
 
 "参号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'Unit-03, umbilical cable exchanged.\n\0',
+'Eva-03, umbilical cable exchanged.\n\0',
 
 "参号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'Unit-03 has exchanged\n its umbilical cable.\n\0',
+'Eva-03 has exchanged\n its umbilical cable.\n\0',
 
 "四号機、アンビリカルケーブル、\n交換しました。\n\0\0":
-'Unit-04, umbilical cable exchanged.\n\0',
+'Eva-04, umbilical cable exchanged.\n\0',
 
 "四号機、アンビリカルケーブルを\n交換しました。\n\0\0":
-'Unit-04 has exchanged\n its umbilical cable.\n\0',
+'Eva-04 has exchanged\n its umbilical cable.\n\0',
 
 "エヴァ両機、\nアンビリカルケーブル、\n交換しました。\n\0":
 'Both Eva units,\n umbilical cables exchanged.\n\0',
@@ -641,7 +641,7 @@ translate_map = {
 'There is no weapon inside\n adjacent armory building.\n\0',
 
 "エヴァシリーズの剣を拾いますか？\n現在:%s\n\0\0\0":
-'Pick up Eva Series\' sword?\n Current Time:%s\n\0',
+'Pick up Eva Series\' sword?\n Current Equip:%s\n\0',
 
 "%sを破棄しますか？\n\0":
 'Discard %s?\n\0',
@@ -734,28 +734,28 @@ translate_map = {
 'Move it!!\n\0',
 
 "よぉし！！\n\0":
-'???',
+'Alright!\n\0',
 
 "行かせない、\n行かせはしない！！\n\0\0\0\0":
 '???',
 
 "見てらっしゃい！！\n\0":
-'???',
+'Check this out!\n\0',
 
 "覚悟なさい！！\n\0":
-'Get ready!!n\\0',
+'Prepare yourself!\n\0',
 
 "これでも食らえ！！\n\0":
-'Eat this!!\n\0',
+'Eat this too!!\n\0',
 
 "さぁ、行かせてもらうわよ！\n\0":
 '???',
 
 "零号機、行きます…。\n\0\0\0":
-'???',
+'Eva-00, here we go...\n\0',
 
 "今だわ…。\n\0":
-'???',
+'I act now...\n\0',
 
 "あそこね…。\n\0\0\0":
 '???',
@@ -767,13 +767,13 @@ translate_map = {
 '???',
 
 "見とれよ、ワレェ！！\n\0\0\0":
-'???',
+'Eyes over here!\n\0',
 
 "へへっ、\nコレ食らったら目ェ回す\nでぇ〜！！\n\0":
 '???',
 
 "いっちょ、いわしたろか！！\n\0":
-'???',
+'I\'ll mess this one up!\n\0',
 
 "おんどりゃああ！！\n\0":
 '???',
@@ -782,10 +782,10 @@ translate_map = {
 '???',
 
 "なめんなァ！！\n\0":
-'???',
+'Don\'t give me that!\n\0',
 
 "今だ…。\n\0\0\0":
-'One more time...\n\0',
+'The time is now...\n\0',
 
 "手加減なしだよ…。\n\0":
 'I won\'t go easy...\n\0',
@@ -794,7 +794,7 @@ translate_map = {
 '???',
 
 "チャンス！！\n\0\0\0":
-'My chance!!\n\0',
+'My chance!\n\0',
 
 "ようし、ΑΤフィールド全開！\n\0\0\0":
 '???',
