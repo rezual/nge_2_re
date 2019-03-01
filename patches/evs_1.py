@@ -20,83 +20,103 @@ translate_map = {
 #
 # Evacuation Announcement
 "本日１２時３０分。▽\n\0":
-'???',
+'Today at 12:30 PM...▽\n\0',
 
 # Evacuation Announcement
 "東海地方を中心とした関東、\n中部全域に特別非常事態宣言が\n発令されました。▽\n\0":
-'???',
+'A special state of emergency was　officially\ndeclared throughout Kanto and Chubu,\nfocused on the Tokai Region.▽\n\0',
 
 # Evacuation Announcement
 "住民の方々は速やかに指定の\nシェルターへ避難してください。\n繰り返しお伝えします。\n\0":
-'???',
+'All citizens, please evacuate\npromptly to your designated shelters.\nMessage will repeat.\n\0',
 
 # Emergency Phone Announcement
 "特別非常事態宣言発令のため、\n現在、全ての回線は\n不通となっております。\n\0":
-'???',
+'Due to the special\ndeclaration of emergency,\nall lines are currently down.\n\0',
 
 # Shinji Ikari
 "やっぱり、来るんじゃなかった。\n\0":
-'???',
+'I knew I shouldn\'t have come.\n\0',
 
 # Shinji Ikari
 "駄目か…。\n待ち合わせは無理か。▽\nしょうがない、\nシェルターに行こう。\n\0":
-'???',
+'All for nothing, huh...\nGuess meeting up here is out.▽\nNo way around it...\nI better get to a shelter.\n\0',
 
 # Shinji Ikari
 "な…んだ、あれ…？\n\0":
-'???',
+'What IS that...?\n\0',
 
 # Kozo Fuyutsuki
 "………１５年ぶりだね。\n\0":
-'???',
+'...... It\'s been fifteen years, hasn\'t it?\n\0',
+
+# Gendo Ikari
+"ああ、まちがいない。\n使徒だ。\n\0":
+'Indeed, there can be no doubt.\nIt\'s an Angel.\n\0',
+
+# Misato Katsuragi 
+"碇シンジ君ね。\nごめん、お待たせ！！\n\0":
+'Shinji Ikari, right?\nSorry I\'m late!\n\0',
+
+# Shinji Ikari
+"…あ、あ、あ、あの。\n\0":
+'...B-but, er, I--\n\0',
+
+# Misato Katsuragi 
+"私はミサト、葛城ミサト。\nあなたを迎えに来たの。\n乗って！！\n\0":
+'I\'m Misato. Misato Katsuragi.\nI\'m here to pick you up.\nGet in!!\n\0',
 
 # Shinji Ikari
 "特務機関、ネルフ？\n\0":
-'???',
+'Secret Agency Nerv?\n\0',
 
 # Misato Katsuragi 
 "そう、国連直属の非公開組織。\n\0":
-'???',
+'Right, a non-public organization under U.N. supervision.\n\0',
 
 # Shinji Ikari
 "父のいるところですね。\n\0":
-'???',
+'Where my father is, right?\n\0',
 
 # Misato Katsuragi 
 "まぁね。\nお父さんの仕事、知ってる？\n\0":
-'???',
+'Well, yeah.\nDo you know about your father\'s work?\n\0',
 
 # Shinji Ikari
 "人類を守る大事な仕事だと、\n聞いてはいます…。\n\0":
-'???',
+'I heard it was important for\nprotecting the human race...\n\0',
+
+# Misato Katsuragi, Ritsuko Akagi, Rei Ayanami
+"そう。\n\0":
+'That\'s right.\n\0',
 
 # Shinji Ikari
 "これから父のところへ\n行くんですか？\n\0":
-'???',
+'Are we going to\nmy father now?\n\0',
 
 # Misato Katsuragi 
 "そうね、そうなるわね。\n何か聞いてる？\n\0":
-'???',
+'Yeah, sure are.\nHear anything from him?\n\0',
 
 # Shinji Ikari
 "父から聞いているのは、\n用がある…とだけ…。\n\0":
-'???',
+'I only ever do...\nif he wants something...',
 
 # Gendo Ikari
 "では、後を頼む。\n\0":
-'???',
+'I\'m leaving the rest to you.\n\0',
 
 # Kozo Fuyutsuki, Shigeru Aoba, Gendo Ikari, Ryoji Kaji
 "ああ。\n\0":
-'???',
+'Will do.\n\0',
 
 # Kozo Fuyutsuki
 "３年ぶりの、\n親子の対面か…。\n\0":
-'???',
+'It\'s been three years\nsince he saw his son...\n\0',
 
 # Misato Katsuragi 
 "着いたわよ、シンジ君。\n\0":
-'???',
+'We\'re here, Shinji-kun.\n\0',
 
 # Shinji Ikari
 "顔…巨大ロボット？\n\0":
@@ -104,11 +124,11 @@ translate_map = {
 
 # Misato Katsuragi 
 "人の作り出した究極の汎用決戦兵器。\n人造人間エヴァンゲリオン。\nその初号機。▽\n建造は極秘裏に行われた。\n我々人類の最後の切り札よ。\n\0":
-'???',
+'The ultimate general-purpose decisive weapon made\nby our species: the Artificial Human Evangelion.\nThat is Eva-01.▽\nConstructed in total secrecy,\nit is the ace up humanity\'s sleeve.\n\0',
 
 # Shinji Ikari
 "これも父の仕事ですか？\n\0":
-'???',
+'This is also my father\'s work?\n\0',
 
 # Gendo Ikari
 "そうだ。\n\0":
@@ -120,15 +140,15 @@ translate_map = {
 
 # Gendo Ikari
 "乗れ。\n出撃だ。\n\0":
-'???',
+'Get in.\nYou\'re sortieing.\n\0',
 
 # Shinji Ikari
 "…！？▽\n父さん…用って、\nこのために僕を呼んだの？▽\n僕がこれに乗って、\nさっきのと戦えっていうの！？\n\0":
-'???',
+'...?!▽\nFather... You only called me\nhere to do something for you?▽\nTo get in this, and\nfight that thing from earlier?!\n\0',
 
 # Gendo Ikari
 "乗るなら早くしろ。\nでなければ帰れ！\n\0":
-'???',
+'If you\'re doing it, do it quickly.\nIf not, run back home!',
 
 # Shinji Ikari
 "無理だよ、そんなの！\nこんなの…乗れるわけないよ！\n\0":
@@ -140,11 +160,11 @@ translate_map = {
 
 # Gendo Ikari
 "予備が使えなくなった。\nもう一度だ。\n\0":
-'???',
+'Your backup is unusable.\nYou\'ll do it again.\n\0',
 
 # Misato Katsuragi 
 "駄目よ、逃げちゃ。\nお父さんから…何よりも自分から。\n\0":
-'???',
+'You mustn\'t run away.\nNot from your father... And not from yourself, most of all.\n\0',
 
 # Shinji Ikari
 "逃げちゃ駄目だ。\n逃げちゃ駄目だ。\n逃げちゃ駄目だ………！\n\0":
@@ -159,110 +179,110 @@ translate_map = {
 #
 # Gendo Ikari
 "わかっている。\n人間には時間がないのだ。\n\0":
-'I understand.\nMankind has no time left.\n\0',
+'I know.\nMankind has no time left.\n\0',
 
 # Committeeman A
 "使徒再来か。\nあまりに唐突だな。\n\0":
-'???',
+'So the Angels are back.\nIt\'s too sudden.\n\0',
 
 # Committeeman B
 "１５年前と同じだよ。\n災いは何の前触れもなく\n訪れるものだ。\n\0":
-'???',
+'No different from fifteen years ago.\nCatastrophe never gives\nforewarning of its arrival.\n\0',
 
 # Committeeman C
 "幸いとも言える。\n我々の先行投資が\n無駄にならなかった点においてはな。\n\0":
-'???',
+'You might even say it\'s a blessing, in that our prior investments were not in vain.',
 
 # Committeeman D
 "そいつはまだわからんよ。\n役に立たなければ無駄と同じだ。\n\0":
-'???',
+'We still don\'t know that.\nIf it\'s all to no avail, they\'re as good as useless.\n\0',
 
 # Committeeman B
 "左様。\n今や周知の事実となってしまった\n使徒の処置、情報操作…、▽\nネルフの運用は全て、適切かつ\n迅速に処理してもらわんと困るよ。\n\0":
-'???',
+'Quite right.\nAs of now the public is fully aware of the anti-\nAngel measures and surrounding PR spin...▽\nAll of Nerv needs to be put to work dealing\nwith this appropriately yet expediently.',
 
 # Gendo Ikari
 "その件に関しては\n既に対処済みです。\nご安心を。\n\0":
-'???',
+'The matter is already\nbeing dealt with.\nRest assured.\n\0',
 
 # Committeeman A
 "しかし碇君。\nネルフとエヴァ、\nもう少しうまく使えんのかね。\n\0":
-'???',
+'But, Ikari-kun...\nNerv and the Evas could\nbe used somewhat more efficiently, no?\n\0',
 
 # Committeeman B
 "零号機に引き続き、\n君らが初陣で壊した初号機の修理代。\n国が１つ傾くよ。\n\0":
-'???',
+'The ongoing repairs to Eva-00, and now to\nEva-01, wrecked by Nerv in its first battle.\nIt would devastate an entire country.\n\0',
 
 # Committeeman C
 "聞けば、あのおもちゃは\n君の息子に与えたそうではないか。\n\0":
-'???',
+'And is it not the case that\nyou gave that toy to your son?\n\0',
 
 # Committeeman D
 "人、時間、そして金。\n親子そろっていくら使ったら\n気が済むのかね。\n\0":
-'???',
+'Human resources, time, and money.\nHow much more will you waste on yourself\nand your son before you\'re satisfied?\n\0',
 
 # Committeeman C
 "それに君の仕事は\nこれだけではあるまい。▽\n人類補完計画、\nこれこそが君の急務だ。\n\0":
-'???',
+'Your job isn\'t limited to\nthese things, besides.▽\nThe Humanity Instrumentality Project,\nTHIS is your top priority.\n\0',
 
 # Committeeman B
 "左様。▽\nその計画こそが、\nこの絶望的状況下における、\n唯一の希望なのだ。▽\n我々のね。\n\0":
-'???',
+'Just so.▽\nUnder these dire\ncircumstances, that plan\nis our only hope.▽\nIt\'s all we have.\n\0',
 
 # Keel Lorenz
 "いずれにせよ、使徒再来における\n計画スケジュールの遅延は\n認められん。▽\n予算については、一考しよう。\n\0":
-'???',
+'In any event, when it comes to\nthe Angels\' return, there can be\nno delays in the project\'s schedule.▽\nLet us think over the budget.\n\0',
 
 # Committeeman D
 "では、あとは委員会の仕事だ。\n\0":
-'???',
+'Now then, the rest concerns only the committee.\n\0',
 
 # Committeeman B
 "碇君、ご苦労だったな。\n\0":
-'???',
+'Ikari-kun, your efforts are appreciated.\n\0',
 
 # Keel Lorenz
 "碇、後戻りはできんぞ。\n\0":
-'???',
+'Ikari, there is no turning back.\n\0',
 
 #
 # ./USRDIR/event/tev0201.har_EXTRACT/tev0201.evs
 #
 # Shinji Ikari
 "ここは…？\n\0":
-'???',
+'Where am I...?\n\0',
 
 # Shinji Ikari
 "…知らない天井だ。\n\0":
-'???',
+'It\'s a ceiling I don\'t know.\n\0',
 
 # Misato Katsuragi 
 "お目覚めかしら？\n\0":
-'???',
+'You up and about?\n\0',
 
 # Shinji Ikari
 "はい…。\nカツラギ、さん…でしたよね？\n\0":
-'???',
+'Yes, ma\'am...\nKatsuragi-san, wasn\'t it?\n\0',
 
 # Misato Katsuragi 
 "ええ、葛城ミサト。\nミサトでいいのよ。▽\nあなたが気が付いたって連絡が\nあったから、迎えに来たの。▽\nで、どう？\n気分は…。\n\0":
-'???',
+'Yep, Misato Katsuragi.\n"Misato" will do.▽\nI got word that you recovered\nconsciousness, so I came to get you.▽\nSo, how are you?\nHow d\'ya feel?\n\0',
 
 # Shinji Ikari
 "ええ、まあ…。\n\0":
-'???',
+'Eh, okay...\n\0',
 
 # Misato Katsuragi 
 "ん、快調そうね。\n今日はあなたをネルフ本部へ\n案内するわ。\n\0":
-'???',
+'Mm, you do seem just fine.\nToday I\'m giving you a\ntour of Nerv Headquarters.\n\0',
 
 # Shinji Ikari
 "父の職場ですか？\n\0":
-'???',
+'That\'s where my dad works?\n\0',
 
 # Misato Katsuragi 
 "私やあなた、\nシンジ君の仕事の場でもあるのよ？\nさっ、行きましょう。\n\0":
-'???',
+'But also me, you, and plenty\nof others, right, Shinji-kun?\nCome on, let\'s go.\n\0',
 
 # Shinji Ikari
 "僕の？\n\0":
@@ -270,18 +290,18 @@ translate_map = {
 
 # Misato Katsuragi 
 "そうよ。\nあなたは、エヴァンゲリオン\n初号機のパイロットなのだから。▽\nだから、\nあなたの仕事場でもあるのよ。\n\0":
-'???',
+'That\'s right!\nYou ARE the pilot of\nEvangelion Unit-01.▽\nSo,\nYOU work here, too!\n\0',
 
 # Shinji Ikari
 "（また、アレに乗んなきゃ\n　いけないのか…。）\n\0":
-'???',
+'(So I have to get inside\nthat thing again...?)\n\0',
 
 #
 # ./USRDIR/event/tev0202.har_EXTRACT/tev0202.evs
 #
 # Misato Katsuragi 
 "ここが、私達の秘密基地、\nネルフ本部。\n世界再建の要となるところよ。▽\nさて、まずは…\n私の仕事部屋へ行きましょうか。\n\0":
-'???',
+'This is our secret base,\nNerv H.Q.\nThe keystone of global reconstruction efforts.▽\nSo, first things first..\nWhy don\'t we go to my workroom?\n\0',
 
 #
 # ./USRDIR/event/tev0206.har_EXTRACT/tev0206.evs
@@ -363,15 +383,15 @@ translate_map = {
 #
 # Shinji Ikari
 "これ…。\n\0":
-'???',
+'Is this...?\n\0',
 
 # Misato Katsuragi 
 "そう、あなたが搭乗した、\nそしてこれからも搭乗する事に\nなるエヴァ初号機よ。▽\nあ、コッチ来て。\n\0":
-'???',
+'Sure is. You already piloted it,\nand turns out you\'re assigned to\nit, too. It\'s Eva Unit-01.▽\nAh, right this way.\n\0',
 
 # Misato Katsuragi 
 "この場所で、エヴァに関する情報を\n確認する事が出来るの。\n\0":
-'???',
+'Here, you can verify\ninformation concerning the Evas.\n\0',
 
 # Shinji Ikari
 "さっき教えてもらった様に、\nこういった場所で%1iボタンを\n押せばいいんですね？\n\0":
@@ -804,95 +824,95 @@ translate_map = {
 #
 # Misato Katsuragi 
 "改めて、ようこそ第３新東京市へ。\nこの画面は第３新東京市マップ。▽\n第３新東京市の中から、\n移動先を選択出来るの。\nとは言っても、今はネルフだけ。▽\nそのうち、学校も行けるから。\n転入手続きが終わるまで\nもちっと待ってね！\n\0":
-'???',
+'Welcome again to Tokyo-3.\nこThis screen is the Tokyo-3 map.▽\nIt lets you choose a\ndestination within Tokyo-3.\nThat said, Nerv is your only choice right now.▽\nSoon enough, you\'ll have access to the school.\nYou just need to wait for them\nto finish transferring you over!\n\0',
 
 # Misato Katsuragi 
 "それから、この画面の時に\nセーブが出来るわ。▽\n%4iボタンでシステムメニューを\n表示して、「データセーブ」を\n選ぶといいわ。\n\0":
-'???',
+'Also, you can save the\ngame at this screen.▽\nBring up the system menu\nwith the %4i button, and\nthen choose "Save Data".\n\0',
 
 # Misato Katsuragi 
 "今セーブをしておいてもいいし、\nこのままネルフへ移動しても\nいいわよ。\n\0":
-'???',
+'You should save now just\nin case, and then we\'ll be\ngood to go to Nerv.\n\0',
 
 #
 # ./USRDIR/event/tev0216.har_EXTRACT/tev0216.evs
 #
 # Misato Katsuragi 
 "さて、今からネルフ施設を案内する\n前に、快適に生活していく秘訣を\nあなたに教えるわね。\n\0":
-'???',
+'Alrighty, so before I show\nyou around Nerv, I\'ll teach\nyou the key to easy living.\n\0',
 
 # Misato Katsuragi 
 "まずは「行動」から。\nあなたが取れる行動は、\n数多くあるわ。▽\n人と話す。\n食事をとる。\n技能を訓練する…などね。▽\n行動の基本は、%1iボタン。\n\0":
-'???',
+'Let\'s start with [Actions].\nYou have any number of\nactions you can take.▽\nTalk to someone,\neat a meal,\npractice a skill... stuff like that.▽\nBasic to actions is the %1i button.\n\0',
 
 #
 # ./USRDIR/event/tev0217.har_EXTRACT/tev0217.evs
 #
 # Misato Katsuragi 
 "%1iボタンを押すと、\n今のあなたはコレだけの行動を\nとれる事がわかるわ。▽\nこの行動の選択肢は、\nあなたの状態や\n周囲の状況によって変化するの。\n\0":
-'???',
+'When you press the %1i button,\nsee how this is the\nonly action you can take?▽\nYour options change depending\non your current status and\nthe state of the world around you.\n\0',
 
 # Misato Katsuragi 
 "例えば今、「ミサトに話しかける」\nという行動が表示されているでしょ。\n\0":
-'???',
+'For instance, right now the action\n"Talk to Misato" is being displayed, right?\n\0',
 
 #
 # ./USRDIR/event/tev0219.har_EXTRACT/tev0219.evs
 #
 # Misato Katsuragi 
 "で、私がこの距離まで\n離れている時に\n%1iボタンを押した時は…。\n\0":
-'???',
+'But then, if you press\nthe %1i button when\nI\'m over here...\n\0',
 
 #
 # ./USRDIR/event/tev0220.har_EXTRACT/tev0220.evs
 #
 # Misato Katsuragi 
 "話しかけるには\n距離が離れているから、\n見る事しか出来ないの。\n\0":
-'???',
+'We\'re too far apart\nto talk, so all you\ncan do is look.\n\0',
 
 #
 # ./USRDIR/event/tev0221.har_EXTRACT/tev0221.evs
 #
 # Misato Katsuragi 
 "この場合、他人に関わろうとする\n行動は、相手との距離によって\n選択肢が変化するのがわかるわね？\n\0":
-'???',
+'In this case, the actions you can use to\ninteract with others will change depending on the\ndistance between participants. Follow me?\n\0',
 
 # Misato Katsuragi 
 "次に、特定の場所で起こす\n行動について説明するわね。▽\nマップの各所には、何らかの行動を\n行えるトイレの様な場所や\n冷蔵庫の様な物などがあるわ。▽\nそこで%1iボタンを押すと、\n行動選択肢にその場所で\n出来る行動が表示されます。\n\0":
-'???',
+'Next, I\'ll explain actions that\npop up in specific locations.▽\nIn the various area maps, there are spots like\nthe bathroom, objects like the fridge, and so\non where some kind of action can be performed.▽\nSo, when you press %1i, whatever\nactions are possible there will\nappear in your choice of actions.\n\0',
 
 # Misato Katsuragi 
 "そうね、この私の部屋では…。\nシンジ君、このデスクの\n椅子の所へ来てちょうだい。\n\0":
-'???',
+'So let\'s see, in my room here we have...\nShinji-kun, kindly come over\nto where my desk chair is.\n\0',
 
 #
 # ./USRDIR/event/tev0222.har_EXTRACT/tev0222.evs
 #
 # Misato Katsuragi 
 "ここで%1iボタンを押すと、\n\0":
-'When you press the %1i button here,\n\0',
+'If you press the %1i button here,\n\0',
 
 #
 # ./USRDIR/event/tev0223.har_EXTRACT/tev0223.evs
 #
 # Misato Katsuragi 
 "ホラ、「椅子に座る」という\n行動が出たでしょ？\n\0":
-'???',
+'Check it out, the action\n"Sit in chair" comes up, yeah?\n\0',
 
 #
 # ./USRDIR/event/tev0224.har_EXTRACT/tev0224.evs
 #
 # Misato Katsuragi 
 "そういった、行動に関わる\n場所や物に近づくと、\nそこで出来る行動が表示されるの。\n\0":
-'???',
+'So just like that, if you approach places\nand objects associated with actions, the\nactions allowed there will be displayed.\n\0',
 
 # Misato Katsuragi 
 "こういう場所は、\nマップのあちこちにあるから、\n%1iボタンを押して試してみてね。\n\0":
-'???',
+'Since there are spots like\nthis all over the maps, press %1i\nand give it a try, \'kay?\n\0',
 
 # Misato Katsuragi 
 "じゃあ、次は\n初号機ケイジへ行きましょうか。\n\0":
-'???',
+'So, next up,\nwe\'ll go to Eva-01\'s cage.\n\0',
 
 #
 # ./USRDIR/event/tev0226.har_EXTRACT/tev0226.evs
@@ -4019,10 +4039,6 @@ translate_map = {
 "さて、そろそろ\nおいとまするわね。\n\0":
 '???',
 
-# Misato Katsuragi, Ritsuko Akagi, Rei Ayanami
-"そう。\n\0":
-'???',
-
 # Ryoji Kaji
 "残念だな。\nもう少しゆっくり出来ると\n思ったのに。\n\0":
 '???',
@@ -6643,15 +6659,15 @@ translate_map = {
 
 # Gendo Ikari
 "欠けた心の補完。\n不要な身体を捨て、\n全ての魂を今、ひとつに。\n\0":
-'???',
+'The complementation of imperfect hearts.\nSoon we will discard our inessential\nbodies, and all souls will be made one.\n\0',
 
 # Gendo Ikari
 "そして、ユイのもとへ行こう。\n\0":
-'And then, we\'ll go where Yui is.\n\0',
+'And then, we\'ll go to where Yui is.\n\0',
 
 # Gendo Ikari
 "始めよう、レイ。\nΑΤフィールドを、\n心の壁を解き放つのだ…。\n\0":
-'Let\'s begin, Rei.\nRelease the wall of your heart,\nyour A.T. Field...\n\0',
+'Let\'s begin, Rei.\nRelease your A.T. Field,\nthe wall around your heart...\n\0',
 
 # Gendo Ikari
 "どうした、レイ。\n\0":
@@ -11723,7 +11739,11 @@ translate_map = {
 #
 # Kozo Fuyutsuki
 "…勝ったな。\n\0":
-'???',
+'Looks like a win.\n\0',
+
+# Gendo Ikari
+"ああ…。\n\0":
+'Indeed...\n\0',
 
 #
 # ./USRDIR/event/bs009.har_EXTRACT/bs009.evs
@@ -11966,7 +11986,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n初号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nEva-01, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-01\'s remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ弐号機、\nΑΤフィールド中和開始！\n\0":
@@ -11974,7 +11994,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n弐号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nEva-02, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-02\'s remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ零号機、\nΑΤフィールド中和開始！\n\0":
@@ -11982,7 +12002,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n零号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nEva-00, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-00\'s remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ参号機、\nΑΤフィールド中和開始！\n\0":
@@ -11990,7 +12010,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n参号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nEva-03, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-03\'s remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ四号機、\nΑΤフィールド中和開始！\n\0":
@@ -11998,7 +12018,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "使徒、残留ΑΤフィールド$g。\n四号機、残留ΑΤフィールド$h。\n\0":
-'Angel\'s remaining A.T. Field at $g.\nEva-04, remaining A.T. Field at $h.\n\0',
+'Angel\'s remaining A.T. Field at $g.\nEva-04\'s remaining A.T. Field at $h.\n\0',
 
 # Shigeru Aoba, Male Staff
 "エヴァ両機、\nΑΤフィールド中和開始！\n\0":
@@ -12024,7 +12044,7 @@ translate_map = {
 
 # Male Staff
 "エヴァ初号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'???',
+'Eva Unit-01 no longer within\nA.T. Field neutralization range.\n\0',
 
 # Shigeru Aoba
 "エヴァ弐号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
@@ -12032,7 +12052,7 @@ translate_map = {
 
 # Male Staff
 "エヴァ弐号機、ΑΤフィールド\n中和距離から離脱。\n\0":
-'Eva Unit-01 no longer within\nA.T. Field neutralization range.\n\0',
+'Eva Unit-02 no longer within\nA.T. Field neutralization range.\n\0',
 
 # Shigeru Aoba
 "エヴァ零号機、ΑΤフィールド\n中和距離から離脱しました。\n\0":
@@ -12545,23 +12565,23 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、初号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Eva-01!\n\0',
+'The Angel\'s attack did\n$j damage to Eva-01!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、弐号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Eva-02!\n\0',
+'The Angel\'s attack did\n$j damage to Eva-02!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、零号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Eva-00!\n\0',
+'The Angel\'s attack did\n$j damage to Eva-00!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、参号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Eva-03!\n\0',
+'The Angel\'s attack did\n$j damage to Eva-03!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、四号機に\n$jのダメージ！\n\0":
-'The Angel\'s attack did\n$j damage to the Eva-04!\n\0',
+'The Angel\'s attack did\n$j damage to Eva-04!\n\0',
 
 # Makoto Hyuga, Male Staff
 "使徒の攻撃、エヴァ両機に\n$jのダメージ！\n\0":
@@ -12569,7 +12589,7 @@ translate_map = {
 
 # Makoto Hyuga, Male Staff
 "ΑΤフィールドとシンクロ率、\n共に低下！\n\0":
-'A.T. Field and synch ratio\nare both down!\n\0',
+'A.T. Field and sync ratio\nare both down!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba011.evs
@@ -12621,7 +12641,7 @@ translate_map = {
 
 # Shigeru Aoba, Male Staff
 "$fエリア兵装ビル、\n破壊されました！\n\0":
-'The armament building in Area $f\nhas been destroyed!\n\0',
+'Armament building in Area $f\nhas been destroyed!\n\0',
 
 # Shigeru Aoba, Male Staff
 "$fエリア防御施設、\n破壊されました！\n\0":
@@ -12632,34 +12652,34 @@ translate_map = {
 #
 # Shigeru Aoba, Male Staff
 "$fエリア、国連軍、\n掃滅しました！\n\0":
-'???',
+'U.N. Forces in Area $f\nhave been wiped out!\n\0',
 
 #
 # ./USRDIR/btl/bevent.har_EXTRACT/ba017.evs
 #
 # Maya Ibuki, Female Staff
 "エヴァ初号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-01\'s umbilical cable\nis disconnected!\n\0',
+'Eva Unit-01\'s umbilical cable\nhas been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ弐号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-02\'s umbilical cable\nis disconnected!\n\0',
+'Eva Unit-02\'s umbilical cable\nhas been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ零号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-00\'s umbilical cable\nis disconnected!\n\0',
+'Eva Unit-00\'s umbilical cable\nhas been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ参号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-03\'s umbilical cable\nis disconnected!\n\0',
+'Eva Unit-03\'s umbilical cable\nhas been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ四号機のアンビリカルケーブル、\n切断しました！\n\0":
-'Eva Unit-04\'s umbilical cable\nis disconnected!\n\0',
+'Eva Unit-04\'s umbilical cable\nhas been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ両機のアンビリカルケーブル、\n切断しました！\n\0":
-'Both Evas\' umbilical cables\nare disconnected!\n\0',
+'Both Evas\' umbilical cables\nhave been disconnected!\n\0',
 
 # Maya Ibuki, Female Staff
 "エヴァ初号機、\nアンビリカルケーブル接続。\n\0":
