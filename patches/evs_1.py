@@ -286,7 +286,7 @@ translate_map = {
 
 # Shinji Ikari
 "僕の？\n\0":
-'???',
+'Me?\n\0',
 
 # Misato Katsuragi 
 "そうよ。\nあなたは、エヴァンゲリオン\n初号機のパイロットなのだから。▽\nだから、\nあなたの仕事場でもあるのよ。\n\0":
@@ -395,93 +395,100 @@ translate_map = {
 
 # Shinji Ikari
 "さっき教えてもらった様に、\nこういった場所で%1iボタンを\n押せばいいんですね？\n\0":
-'???',
+'I should press %1i at\nthese sorts of places, like\nyou mentioned earlier, right?\n\0',
 
 # Misato Katsuragi 
 "そ！\nまだまだこういう場所は\nいっぱいあるわ。\n\0":
-'???',
+'Yup!\nThere are plenty of places\nlike this still to come.\n\0',
 
 # Misato Katsuragi 
+# [NOTE] This dialogue probably a redundancy. Make sure revisions go to the main version too. -R
 "あらら…、大変。\n肝心な事を教えてなかったわね。\n一番重要なパラメーターよ。\n\0":
-'???',
+'Whoopsie... My bad.\nGuess I didn\'t teach you one of the basics.\nIt\'s the most important parameter.\n\0',
 
 # Misato Katsuragi 
+# [NOTE] This dialogue probably a redundancy. Make sure revisions go to the main version too. -R
 "ΑΤが低い時こそ\n出来る行動ってのもあるけど…。▽\n普段から目安として、５０くらい。\n普通の状態を保っておいて\n欲しいわねー。\n\0":
-'???',
+'But there ARE actions you can\ndo even when your A.T. is low...▽\As a general rule, it should be around 50.\nYou\'ll want to proactively maintain\nthis as the norm, get me?\n\0',
 
 # Misato Katsuragi 
+# [NOTE] This dialogue probably a redundancy. Make sure revisions go to the main version too. -R
 "そう、これはインパルス。\n衝動力、もしくは動機とでも\n言えばいいかしら。▽\n特殊な行動を実行する為の\n「後押し・きっかけ」を表すの。▽\nインパルスは何かしらの行動により\n蓄積されていくパラメータよ。▽\nインパルスの特徴として、\nΑΤが低い程、辛い体験を行う程\nインパルスは上がりやすくなるの。▽\nインパルスを消費する事で、\n特定の行動や戦闘行動が出来るわ。▽\nまぁ…、溜まったうっぷんを\nここぞという時吐き出して、\n上手く有効利用しなさいって事よ。\n\0":
-'???',
+'Yeah, that\'s impulse.\nYou could even call it\ndriving force, or motive.▽\nIt represents the "kick in the\npants" for carrying out special actions.▽\nImpulse is a parameter that\'s accumulated\ncontinuously as a result of certain actions.▽\nOne feature of impulse is that it goes up\nmore easily the lower your A.T. is or the\nmore difficult your experiences are.▽\nYou can perform special actions, combat\nactions, and so on by consuming impulse.▽\nHmm... I hear that unleashing one\'s\npent-up rage at critical moments has\na lot of benefits if you do it right.\n\0',
 
 #
 # ./USRDIR/event/tev0204.har_EXTRACT/tev0204.evs
 #
 # Misato Katsuragi 
 "さぁさ、遠慮なく。\nここでの食事はタダなんだから。\n\0":
-'???',
+'Come, come, don\'t be shy.\nEverybody eats here, after all.\n\0',
 
 # Misato Katsuragi 
+# [NOTE] A redundancy of tev0232.evs with slightly different wording in one spot. Make sure revisions go to the main version too. -R
 "ごちそうさま。▽\nこうやって、食事をとったり\n水分をとったり、眠ったり…。▽\nきちんと自分の体調を管理するのも\n大事なパイロットの仕事よ。▽\nどう、食事をしたら\n元気になってきたでしょう？\n\0":
-'???',
+'All done.▽\nIn this way, you\'ll eat,\nquench your thirst, sleep...▽\nTaking good care of\nyourself is an important\npart of being a pilot, too.▽\nSo, don\'t you feel\nbetter after eating?\n\0',
 
 # Misato Katsuragi 
+# [NOTE] A redundancy of tev0236.evs. Make sure revisions go to the main version too. -R
 "他も大体同じ。▽\n水分を回復するには、\n飲み物を飲む。▽\n眠気を回復するには、\n部屋で眠る。▽\nＷＣを回復するには、\nトイレで用を足す。▽\n風呂を回復するには、\nお風呂に入る。▽\nそうすれば、\n体調管理はバッチリよ！\n\0":
-'???',
+'Same basic idea for the others.▽\nTo restore Thirst,\ndrink a beverage.▽\nTo restore Sleepiness,\ngo to bed at home.▽\nTo restore Toilet,\ngo to the bathroom.▽\nTo restore Cleanliness,\ntake a bath.▽\nDo all that, and you\'ll keep\nyourself in tip-top shape, no problem!\n\0',
 
 #
 # ./USRDIR/event/tev0205.har_EXTRACT/tev0205.evs
 #
 # Misato Katsuragi 
 "ここは、自販機コーナーよ。\n水分を回復するには…。\n\0":
-'???',
+'This here\'s the vending machine corner.\nTo restore your Thirst...\n\0',
 
 # Shinji Ikari
 "あの自販機の前で\n%1iボタン。▽\nジュースを買って\n飲めばいいんですね。\n\0":
-'???',
+'...press the %1i button in\nfront of a vending machine.▽\nI should buy a juice\nand drink it, right?\n\0',
 
 # Misato Katsuragi 
 "そうよ。\nあ、チト…トイレ。\n\0":
-'???',
+'That\'s right.\nUh, need a sec... Nature calls.\n\0',
 
 # Maya Ibuki 
 "あら、あなたシンジ君ね。\n私は、伊吹マヤ。▽\nオペレーターをしてるの。\nよろしく。\n\0":
-'???',
+'Oh, you\'re Shinji-kun, right?\nI\'m Maya Ibuki.▽\nI\'m an operator here.\nNice to meet you.\n\0',
 
 # Shinji Ikari
 "あ、よろしくお願いします。\n\0":
-'???',
+'Oh, nice to meet you, too.\n\0',
 
 # Maya Ibuki 
 "一人？\n\0":
-'???',
+'By yourself?\n\0',
 
 # Shinji Ikari
 "いえ、ミサトさんがトイレに。\nここで待っているんです。\n\0":
-'???',
+'No, Misato-san\'s in the bathroom.\nI\'m waiting here for her.\n\0',
 
 # Maya Ibuki 
 "何か、わからない事はある？\n\0":
-'???',
+'Do you have questions about anything?\n\0',
 
 # Shinji Ikari
 "さっきΑΤの事を教わったん\nですけど…まだ、いまいち。▽\nΑΤを普段から５０くらいにして\nおくように言われたんですけど。\nどうすればいいんでしょうか？\n\0":
-'???',
+'She taught me about A.T. earlier,\nbut... I still don\'t get it.▽\nShe told me I should aim to\nkeep my A.T. around 50, but...\nhow do I go about doing that?\n\0',
 
 # Maya Ibuki 
+# [NOTE] This dialogue is a redundancy. (Version used in-game has 話しかけて and not 話し掛けて.) Make sure revisions go to the main version too. -R
 "そうね…、\nΑΤは、快適な体験によって\n上昇しやすい傾向にあるの。▽\n例えば、人に話し掛けて\n良い反応をしてくれた時なんかね。▽\n逆に、不快な体験をすることで\nΑΤは下降しやすいわ。人から\n冷たい反応を受けた時なんかよ。▽\nこれはあなただけでなく他人も同じ。\nあなたの行動が他人に対して\n影響を与え…。▽\n逆に他人の行動があなたに対し\n影響を与る事になるわ。▽\nΑΤを上げるも下げるも\nコミュニケーション次第。▽\n上手にコミュニケーションを行って、\nお互い良い関係を築く事が\nΑΤを上げる第一歩ね。\n\0":
-'???',
+'Good question...\nA.T. tends to go up easily when\nyour experiences are positive.▽\nSo when you talk to someone and get\na good reaction, things like that.▽\nHowever, having negative experiences makes\nA.T. likely to decrease instead. Like, say,\nyou get a cold reception from someone.▽\nThis applies not only to you,\nbut to other people. Your actions\nhave an influence on others...▽\nIn turn, their actions have\nan effect upon you.▽\nCommunication revolves around both\nthe raising and lowering of A.T.▽\nCommunicating effectively and building\nmutually good relationships are the\nfirst steps to increasing your A.T.\n\0',
 
 # Shinji Ikari
 "あんまり、人と付き合った事が\nないから、怒らせる事の方が\n多いかもな…。\n\0":
-'???',
+'I don\'t socialize very much,\nso I\'ll mostly get on\npeople\'s nerves, I bet...\n\0',
 
-# Maya Ibuki 
+# Maya Ibuki  
 "相手を怒らせない為には、\n自分がされて嫌な事は\n他人にもしない事。▽\nコミュニケーションにおいて\n基本中の基本よ。▽\n相手のΑΤも、自分のΑΤも\n下がっちゃうなんて\nつまらないでしょ？\n\0":
-'???',
+'You can keep that from happening\nby not treating others in a way\nyou wouldn\'t want to be treated.▽\nThat\'s the golden\nstandard for communication.▽\nIt\'d be dull if, like, both you and\nyour companion\'s A.T.s dropped down\nall the way, don\'t you think?\n\0',
 
 # Maya Ibuki 
+# [TL] I'm sure the line starting 今、葛城一尉は is terribly wrong. Come back to it later. -R
 "人はみんな、それぞれ自分達で\n考えて行動しているの。▽\n今、葛城一尉は、トイレを我慢して\nイライラしない様に、ちゃんと\n考えてトイレに行ったのよ。▽\nあなたと同じ。\nみんな、記憶も感情も\n持って行動しているの。▽\nそして、それぞれがそれぞれの\n人間関係を築いていくの。\n\0":
-'???',
+'All people are thinking and acting\nthrough their respective selves.▽\nJust now, Captain Katsuragi had to\nconsider how long she could curb her urge to\nuse the bathroom before it got unbearable.▽\nShe\'s the same as you.\nEveryone carries memories and feelings\nwith them, and behaves accordingly.▽\nAnd everyone is continuously building\ntheir own relationships with others.\n\0',
 
 # Maya Ibuki 
 "この、ステータス画面を\n見てちょうだい。▽\nΑΤやインパルス、体調以外にも、\n技能や、感情に関する情報が\n表示されるの。\n\0":
@@ -919,239 +926,242 @@ translate_map = {
 #
 # Shigeru Aoba
 "お疲れ様です、葛城一尉。\nあぁ、彼は初号機の…。\n\0":
-'???',
+'Best regards, Captain Katsuragi.\nOh, he must be Eva-01\'s...\n\0',
 
 # Misato Katsuragi 
 "あら、青葉君。▽\nほら、紹介するわ。\n初号機のパイロット、\n碇シンジ君よ。\n\0":
-'???',
+'Ah, Aoba-kun.▽\nHere, let me introduce you.\nThis is the pilot of Eva-01,\nShinji Ikari.\n\0',
 
 # Shigeru Aoba
 "よろしく、シンジ君。\n俺は、青葉シゲル。▽\n本部では情報分析担当の\nオペレーターなんだ。▽\nまだまだ、心は若いつもりだから\n仲良くやろうな。\n\0":
-'???',
+'Nice to meet you, Shinji-kun.\nI\'m Shigeru Aoba.▽\nI'm the operator in charge of\ninformation analysis at H.Q.▽\nI still consider myself young at heart,\nso we\'ll get on just fine.\n\0',
 
 # Shinji Ikari
 "あ、よろしく…。\n\0":
-'???',
+'Uh, nice to meet you, too...\n\0',
 
 # Misato Katsuragi 
 "青葉君、\nなーんか浮かない顔してるわね。\n\0":
-'???',
+'Aoba-kun,\nwhat\'s with the long face?\n\0',
 
 # Shigeru Aoba
 "副司令に説教食らって、\nまあ…。\nΑΤ下がりまくりですよ。\n\0":
-'???',
+'The Deputy Commander chewed me\nout good, you could say...\nMy A.T.\'s on a downward spiral.\n\0',
 
 # Misato Katsuragi 
 "まぁまぁ、副司令はいつも\nあぁだから。\n青葉君は良くやってくれてるわ。▽\n仕事を頑張って、また\n挽回していけばいいじゃない。\n\0":
-'???',
+'Now, now. The Deputy Commander\nis always like that.\nYou\'re fine by me, Aoba-kun.▽\nHang in there with work and\neverything will sort out, right?\n\0',
 
 # Shigeru Aoba
 "そうスね、少し気が晴れました。\nΑΤ持ち直しましたよ。\nそれじゃ…。\n\0":
-'???',
+'You\'re right, I feel a little better already.\nMy A.T. perked right up.\nI\'ll be off then.\n\0',
 
 #
 # ./USRDIR/event/tev0227.har_EXTRACT/tev0227.evs
 #
 # Misato Katsuragi 
 "部下のΑΤを上げるのも\n上司の仕事！\n\0":
-'???',
+'Raising the little guys\'\nA.T. is a boss\'s job too!\n\0',
 
 # Shinji Ikari
 "…ΑΤって、何ですか？\n\0":
-'???',
+'... What is "A.T."?n\0',
 
 # Misato Katsuragi 
 "あらら…、大変。\n肝心な事を教えてなかったわね。\n一番重要なパラメータよ。\n\0":
-'???',
+'Whoopsie... My bad.\nGuess I didn\'t teach you one of the basics.\nIt\'s the most important parameter.\n\0',
 
 # Misato Katsuragi 
 "ΑΤとは、テンションの様なもの、\n…と思ってちょうだい。\n\0":
-'???',
+'You could think of A.T. as\nsomething like... mental energy.\n\0',
 
 # Shinji Ikari
 "テンションですか？\n\0":
-'???',
+'Mental energy?\n\0',
 
 # Misato Katsuragi 
 "ΑΤが低い程テンションは沈みこみ、\nΑΤが高い程テンションは高揚して\nいる状態を表すの。\n\0":
-'???',
+'A.T. represents someone\'s current state.\nLower mental energy pulls it down,\nand higher energy raises it up.\n\0',
 
 # Shinji Ikari
 "じゃあ、さっきの青葉さんは、\n沈み込んでΑΤが低かった事に\nなるんですね？\n\0":
-'???',
+'So, Aoba-san just now,\nhe was feeling down so his A.T.\nwent down too, right?\n\0',
 
 # Misato Katsuragi 
 "そういう事になるわね。\n\0":
-'???',
+'Something like that, yeah.\n\0',
 
 # Misato Katsuragi 
 "あなたの現在のΑΤ値は、\n画面のここに表示されているわ。▽\nΑΤは普段の生活や戦闘での\n行動で増減し、\n０から１００の値で表現されるの。▽\nΑΤの変動には、\n常に気をつけていてね。\n\0":
-'???',
+'Your current A.T. value is\nshown on the screen here.▽\nA.T., which fluctuates due to actions\nused for ordinary life and for combat,\nis expressed in a value from 0 to 100.▽\nAlways be vigilant for\nchanges in your A.T.\n\0',
 
 # Shinji Ikari
 "そんなに重要な事ですか？\n\0":
-'???',
+'Is this stuff all that important?\n\0',
 
 # Misato Katsuragi 
 "何言ってるの！？▽\nΑΤが低かったら、\nエヴァは動かせないどころか\n行動の選択に規制がかかるのよ！\n\0":
-'???',
+'What does THAT mean?!▽\nIf your A.T. gets too low, limits will be\nimposed on your actions, not to mention\nyou won\'t be able to activate the Eva!\n\0',
 
 # Shinji Ikari
 "そ、そうなんですか…？\n\0":
-'???',
+'N-no kidding...?\n\0',
 
 # Misato Katsuragi 
 "ΑΤが低い時こそ\n出来る行動ってのもあるけど…。\n\0":
-'???',
+'But there ARE actions you can\ndo even when your A.T. is low...\n\0',
 
 # Misato Katsuragi 
 "普段から目安として、５０くらい。\n普通の状態を保っておいて\n欲しいわねー。\n\0":
-'???',
+'As a general rule, it should be around 50.\nYou\'ll want to proactively maintain\nthis as the norm, get me?\n\0',
 
 # Shinji Ikari
 "あの、ミサトさん。\nΑΤの横に表示してある\nインパルスって…？\n\0":
-'???',
+'Um, Misato-san.\nThat\'s "impulse" being\ndisplayed next to A.T.?\n\0',
 
 # Misato Katsuragi 
+# [TL] Not sure about exact rendition of とでも\n言えばいいかしら. Also unsure how to render 「後押し・きっかけ」. -R
 "そう、これはインパルス。\n衝動力、もしくは動機とでも\n言えばいいかしら。▽\n特殊な行動を実行する為の\n「後押し・きっかけ」を表すの。▽\nインパルスは何かしらの行動により\n蓄積されていくパラメータよ。▽\nインパルスの特徴として、\nΑΤが低い程、辛い体験を行う程\nインパルスは上がりやすくなるの。▽\nインパルスを消費する事で、\n特定の行動や戦闘行動が出来るわ。\n\0":
-'???',
+'Yeah, that\'s impulse.\nYou could even call it\ndriving force, or motive.▽\nIt represents the "kick in the\npants" for carrying out special actions.▽\nImpulse is a parameter that\'s accumulated\ncontinuously as a result of certain actions.▽\nOne feature of impulse is that it goes up\nmore easily the lower your A.T. is or the\nmore difficult your experiences are.▽\nYou can perform special actions, combat\nactions, and so on by consuming impulse.\n\0',
 
 # Misato Katsuragi 
 "まぁ…、溜まったうっぷんを\nここぞという時吐き出して、\n上手く有効利用しなさいって事よ。\n\0":
-'???',
+'Hmm... I hear that unleashing one\'s\npent-up rage at critical moments has\na lot of benefits if you do it right.\n\0',
 
 # Misato Katsuragi 
 "次は、チョッチ小腹も空いたし\n食堂に行きましょっか。\n\0":
-'???',
+'Next up, I\'m feeling kinda hungry,\nso let\'s go to the cafeteria.\n\0',
 
 #
 # ./USRDIR/event/tev0230.har_EXTRACT/tev0230.evs
 #
 # Misato Katsuragi 
 "ほら、シンジ君もテーブルへ\nいらっしゃい。▽\nさっき教えたように、\nここで「着席して食事」を\n選択してごらんなさい。\n\0":
-'???',
+'Hey, Shinji-kun, come\nto the table.▽\nTry to select "Sit down\nand eat" here, like I\ntaught you earlier.\n\0',
 
 #
 # ./USRDIR/event/tev0231.har_EXTRACT/tev0231.evs
 #
 # Misato Katsuragi 
 "この食堂での食事は、\n今のように「着席して食事」を\n実行すればいいわ。\n\0":
-'???',
+'To eat in the cafeteria,\nuse "Sit down and eat"\nlike you just did.\n\0',
 
 #
 # ./USRDIR/event/tev0232.har_EXTRACT/tev0232.evs
 #
 # Misato Katsuragi 
 "ごちそうさま。▽\nこうやって、食事をとったり\n水分をとったり、眠ったり…。▽\nきちんと自分の体調を管理するのも\nパイロットの大事な仕事よ。▽\nどう、食事をしたら\n元気になってきたでしょう？\n\0":
-'???',
+'All done.▽\nIn this way, you\'ll eat,\nquench your thirst, sleep...▽\nTaking good care of\nyourself is an important\npart of being a pilot, too.▽\nSo, don\'t you feel\nbetter after eating?\n\0',
 
 # Shinji Ikari
 "あ、はい…。\n\0":
-'???',
+'Um, yeah I do...\n\0',
 
 #
 # ./USRDIR/event/tev0233.har_EXTRACT/tev0233.evs
 #
 # Misato Katsuragi 
 "じゃあ、体調について\n説明をしましょう。▽\n%4iボタンを押してごらんなさい。\nシステムメニューを呼び出せるの。\n\0":
-'???',
+'Alrighty, let me tell\nyou about physical condition.▽\nTry pressing the %4i button.\nThat\'ll bring up the system menu.\n\0',
 
 #
 # ./USRDIR/event/tev0234.har_EXTRACT/tev0234.evs
 #
 # Misato Katsuragi 
 "で、この中の\nステータスを選ぶと…。\n\0":
-'???',
+'Then, if you choose Status\nfrom among these...\n\0',
 
 #
 # ./USRDIR/event/tev0235.har_EXTRACT/tev0235.evs
 #
 # Misato Katsuragi 
 "感情、コンディション、\n技能、そして…、▽\n空腹、水分、眠気、ＷＣ、風呂の\n５つの体調の状態を見る事が\n出来るの。▽\nそれぞれの体調メーターは、\n時間の経過と共に減少していくわ。▽\nメーターがカラになると、\nもう限界って状態ね。\n\0":
-'???',
+'Here, you can see Emotion,\nCondition, and Skills, along with▽\nfive physical condition meters:\nHunger, Thirst, Sleepiness,\nToilet, and Cleanliness.▽\nThe individual health meters\ndrain with the passage of time.▽\nIf one goes empty, you\'re already\nat the breaking point, get me?\n\0',
 
 #
 # ./USRDIR/event/tev0236.har_EXTRACT/tev0236.evs
 #
 # Misato Katsuragi 
 "例えば、この空腹。\nお腹が空いていくと、\nここのメーターが減ります。▽\nコレを回復するには、\nさっきの様に食事をとればいいわ。▽\n食堂での食事以外でも、アイテムで\n回復させる事も出来るのよ。\n\0":
-'???',
+'For instance, Hunger here.\nAs you get hungrier,\nthis meter will be depleted.▽\nTo restore it, you should eat\nmeals, like you did before.▽\nWhen you\'re not eating in the cafeteria,\nyou can also restore yourself with items.\n\0',
 
 # Misato Katsuragi 
 "他も大体同じ。\n\0":
-'???',
+'Same basic idea for the others.\n\0',
 
 # Misato Katsuragi 
 "水分を回復するには、\n飲み物を飲む。\n\0":
-'???',
+'To restore Thirst,\ndrink a beverage.\n\0',
 
 # Misato Katsuragi 
 "眠気を回復するには、\n部屋で眠る。\n\0":
-'???',
+'To restore Sleepiness,\ngo to bed at home.\n\0',
 
 # Misato Katsuragi 
 "ＷＣを回復するには、\nトイレで用を足す。\n\0":
-'???',
+'To restore Toilet,\ngo to the bathroom.\n\0',
 
 # Misato Katsuragi 
 "風呂を回復するには、\nお風呂に入る。\n\0":
-'???',
+'To restore Cleanliness,\ntake a bath.\n\0',
 
 # Misato Katsuragi 
 "そうすれば、\n体調管理はバッチリよ！\n\0":
-'???',
+'Do all that, and you\'ll keep\nyourself in tip-top shape, no problem!\n\0',
 
 #
 # ./USRDIR/event/tev0237.har_EXTRACT/tev0237.evs
 #
 # Shinji Ikari
+# [TL] Not 100% on this. Come back later and trim it down. -R
 "これらの状態を我慢していたら？\n\0":
-'???',
+'If I persevere through all these conditions, you mean?\n\0',
 
 # Misato Katsuragi 
 "はい、ここからが重要！\nΑΤは体調の良し悪しにも\n影響を受けるの。▽\n高いΑΤを保つためにも、\n体調管理はしっかりなさいね。\n\0":
-'???',
+'Right. Starting now, it\'s a big deal!\nYour A.T. will be affected by\nyour health, good OR bad.▽\nStay on top of your personal care\nto keep your A.T. up, okay?\n\0',
 
 # Shinji Ikari
 "わかりました…。\n無理はするなと言う事ですね。\n\0":
-'???',
+'Got it...\nSo I shouldn\'t push myself too hard, right?\n\0',
 
 # Misato Katsuragi 
+# [TL] Is this swerve to 他人の体調 actually a swerve, or am I missing something in Shinji's previous line? -R
 "そゆコト！▽\nあなたと同じ様に、\n他の人にも体調があるのよ。▽\nみんな、自分で低下した\n体調の回復を行っているわ。▽\n他人の行動にも\n注目してみてちょうだい。\n\0":
-'???',
+'That\'s right!▽\nJust like you,\nother people have a physical condition.▽\nEveryone else is constantly\nfighting drops in their status.▽\nTry to take notice\nof others\' actions, too.\n\0',
 
 # Misato Katsuragi 
 "じゃ、案内を続けましょう。\n自販機コーナーに行きましょうか。\n\0":
-'???',
+'Alright, let\'s continue the tour.\nShall we head over to the vending machine corner?\n\0',
 
 #
 # ./USRDIR/event/tev0240.har_EXTRACT/tev0240.evs
 #
 # Misato Katsuragi 
 "トイレはこっち。\nネルフのトイレはここって\n覚えておいてね。\n\0":
-'???',
+'Bathrooms are this way.\nKeep in mind that Nerv\'s\nbathrooms are here for later, okay?\n\0',
 
 # Misato Katsuragi 
 "チョッチ待ってて。\n\0":
-'???',
+'Gimme just a sec.\n\0',
 
 #
 # ./USRDIR/event/tev0241.har_EXTRACT/tev0241.evs
 #
 # Maya Ibuki 
 "そうね…、\nΑΤは、快適な体験によって\n上昇しやすい傾向にあるの。▽\n例えば、人に話しかけて\n良い反応をしてくれた時なんかね。▽\n逆に、不快な体験をすることで\nΑΤは下降しやすいわ。人から\n冷たい反応を受けた時なんかよ。▽\nこれはあなただけでなく他人も同じ。\nあなたの行動が他人に対して\n影響を与え…。▽\n逆に他人の行動があなたに対し\n影響を与る事になるわ。▽\nΑΤを上げるも下げるも\nコミュニケーション次第。▽\n上手にコミュニケーションを行って、\nお互い良い関係を築く事が\nΑΤを上げる第一歩ね。\n\0":
-'???',
+'Good question...\nA.T. tends to go up easily when\nyour experiences are positive.▽\nSo when you talk to someone and get\na good reaction, things like that.▽\nHowever, having negative experiences makes\nA.T. likely to decrease instead. Like, say,\nyou get a cold reception from someone.▽\nThis applies not only to you,\nbut to other people. Your actions\nhave an influence on others...▽\nIn turn, their actions have\nan effect upon you.▽\nCommunication revolves around both\nthe raising and lowering of A.T.▽\nCommunicating effectively and building\nmutually good relationships are the\nfirst steps to increasing your A.T.\n\0',
 
 #
 # ./USRDIR/event/tev0242.har_EXTRACT/tev0242.evs
 #
 # Maya Ibuki 
 "同じマップにいる他人の情報が\n画面に表示されているのがわかる？▽\n相手と接する時に\n今どういう状態なのか、\n参考にするといいわよ。\n\0":
-'???',
+'Info about whoever\'s on the same map as\nyou is shown on the screen. You see here?▽\nWhen you encounter someone,\nyou should use it to check\ntheir current status.\n\0',
 
 # Maya Ibuki 
 "他人に関して、\nより詳しい状態を知るには、▽\nシステムメニューの\nステータスで確認出来るわ。\n\0":
-'???',
+'For further detail about\nsomeone\'s current condition,▽\nyou can confirm their Status in the system menu.\n\0',
 
 #
 # ./USRDIR/event/tev0243.har_EXTRACT/tev0243.evs
@@ -8293,7 +8303,7 @@ translate_map = {
 
 # Misato Katsuragi, Female Staff
 "以後「渚・カヲル」は従来通り、\n\0":
-'???',
+'Hereafter, "Kaworu Nagisa" as per prior convention\n\0',
 
 # Misato Katsuragi, Female Staff
 "フィフス・チルドレン、\nエヴァパイロットとして存続する\nことになりました。\n\0":
