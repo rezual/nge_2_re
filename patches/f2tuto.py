@@ -38,7 +38,7 @@ translate_map = {
 "While the basic gameplay is simple, various\n"
 "systems need to be understood and mastered in\n"
 "order to achieve a higher level of play.$n\n"
-"That said, you should first familarize yourself\n"
+"That said, you should first familiarize yourself\n"
 "with the game.\n"
 "A deeper understanding of the various systems\n" 
 "becomes necessary while you're playing it, after\n"
@@ -47,7 +47,7 @@ translate_map = {
 "It's impossible for a new player to understand\n"
 "everything right away.\n"
 "So, to start with, concern yourself only with\n"
-"skimming through the \"Introduction\" entry.\n\0",
+"skimming through the \"Introduction\" entries.\n\0",
 
 ##############################################################################
 
@@ -65,15 +65,15 @@ translate_map = {
 "シナリオの進行が先に進まないと感じたら、いろんな場所\n"
 "に移動してみましょう。\n\0":
 
-"３\nHints for Advancing in the Game\n"
+"３\nHints for Game Progression\n"
 "This game is light on objectives that must be\n"
 "achieved in order to progress. Within Scenarios 2\n" 
 "and up especially, there are almost no required\n"
 "missions or flags to be raised.$n\n" 
 "It's fine for the player to use the time freely up\n"
 "until an Angel appears.\n"
-#Not sure about following line -Reichu
-"Nothing will prevent you from proceeding further.$n\n"
+"As in existing games, things keep moving ahead even\n"
+"when you take no action.$n\n"
 "Progressing in Scenario 1 may depend on things like\n"
 "time elapsing or going to specific locations.\n"
 "If you feel the scenario is not moving ahead, try\n"
@@ -95,15 +95,15 @@ translate_map = {
 "最初は各シナリオのイベントをこなしていくのを目的にプ\n"
 "レイするとよろしいでしょう。\n\0":
 
-"３\nObjectives of the Game\n"
-"In this game, there are various objectives, and\n" 
+"３\nGameplay Goals\n"
+"In this game, there are various objectives and\n" 
 "many ways to have fun.\n"
 "Enjoy both everyday life and fighting against the\n"
 "Angels when playing as a pilot.\n"
 "Stay on top of forthcoming events.\n"
 "Befriend your favorite characters.$n\n"
 "Backup the pilots and Nerv from behind the scenes.\n"
-"You can also enjoy life in Tokyo-3 aimlessly.\n" 
+"You can also enjoy life in Tokyo-3 aimlessly.\n"
 "Each objective has its own strategy and fun.$n\n"
 "Through creative use of the various commands possible in the\n"
 "game, go and achieve your goals!\n"
@@ -129,8 +129,8 @@ translate_map = {
 "ΑΤを上昇させたり、インパルスを溜めるのも重要な行動\n"
 "です。\n\0":
 
-"４\nFlow of Daily Life Part\n"
-"Up until they fight an Angel, the characters\n"
+"４\nDaily Life Part\'s Flow\n"
+"Up until the fight with an Angel, the characters\n"
 "conduct their day-to-day lives in Tokyo-3.\n"
 "This life in Tokyo-3 is called the Daily Life Part.$n\n"
 "In the Daily Life Part, students go to school, and\n"
@@ -166,6 +166,7 @@ translate_map = {
 "ゲーム中では、常にこの状態を維持するよう、心がけてく\n"
 "ださい。\n\0":
 
+"４\nAT & Impulse\n"
 "AT and Impulse are the most important parameters\n"
 "in this game.\n"
 "They are displayed at the bottom of the screen and\n"
@@ -173,7 +174,7 @@ translate_map = {
 "AT shows how open someone's heart is.\n"
 "The higher someone's AT, the more their heart\n"
 "opens up. The lower the AT, the more their heart\n"
-"is closed off.$n/n"
+"closes off.$n/n"
 "Impulse shows the urge to act, or the energy when\n"
 "doing something. Consuming impulse makes important\n"
 "actions possible.$n\n"
@@ -205,10 +206,10 @@ translate_map = {
 "while negative ones make it go down.\n"
 "This is because day-to-day events are stored as\n" 
 "memories, from which AT is calculated.$n\n"
-"More frequent enjoyable experiences, or good\n" 
-"memories, will result in a high AT value.\n"
-"Conversely, more frequent bitter experiences, or\n" 
-"bad memories, will result in a low AT value.$n\n"
+"More frequent pleasant experiences, or good\n" 
+"memories, will result in a higher AT value.\n"
+"Conversely, more frequent harsh experiences, or\n" 
+"bad memories, will result in a lower AT value.$n\n"
 "Another element that influences AT is\n" 
 "physical condition.\n"
 "When physical condition is poor, the AT value\n" 
@@ -235,7 +236,21 @@ translate_map = {
 "ΑΤが低いときに、インパルスを増加、消費することで、\n"
 "ＭＡＸ値を上げるチャンスとなります。\n\0":
 
-"???",
+# [NOTE] Will fix the wording when I'm more certain what it's talking about, specifically the first and last sentences. -R
+"３\nBoosting Impulse\n"
+"Impulse is a parameter that increases and continues\n"
+"accumulating when a character has trying\n" 
+"experiences. At these times, the lower one's AT,\n"
+"the larger the increase in impulse. Conversely, a\n"
+"higher AT won't cause as much of an increase.$n\n"
+"Impulse's maximum value can also go up. This\n"
+"happens in the morning when a character gets out\n"
+"of bed.\n" 
+"The more impulse consumed the previous day, the more\n"
+"the max value will grow.$n\n"
+"When AT is low, there is a chance that the max\n"
+"value will rise via the buildup and expenditure of\n"
+"impulse.\n\0",
 
 ##############################################################################
 
@@ -254,7 +269,21 @@ translate_map = {
 "いろんな場所で○ボタンを押して、いろんな行動を試して\n"
 "みましょう。\n\0":
 
-"???",
+"３\nA Variety of Life Actions\n"
+"In this game, various actions can be performed in the\n" 
+"course of living.\n" 
+"Dividing actions broadly, they can be sorted into\n"
+"communications with other characters, actions at\n"
+"specific places, and actions done solo.$n\n" 
+"AT requirements (AT too low / too high), impulse\n"
+"consumed, etc., vary from action to action. Such\n"
+"details are displayed through the action selection;\n"
+"any actions that aren't possible will be greyed out.\n$n"  
+"Further, executable actions will change according to\n"
+"various situations like current time and place,\n"
+"emotions and interpersonal relationships with others,\n"
+"and so on. Try pressing the ○ button at different\n"
+"places to see the various actions possible.\n\0",
 
 ##############################################################################
 
@@ -277,7 +306,26 @@ translate_map = {
 "長いことコミュニケーションを行わないキャラとは疎遠に\n"
 "なってしまうので注意してください。\n\0":
 
-"???",
+# [NOTE] Have no idea what second-to-last sentence means. Placeholder until I get more context and can fix. -R
+"４\nInterpersonal Relationships\n",
+"These can be be checked in \"Relationships\" in the △\n"
+"button's system menu.\n"
+"Relationships are represented by interest in the\n"
+"person (horizontal axis) and regard for the person\n" 
+"(vertical axis).$n\n" 
+"Concern and regard change depending on the actions\n" 
+"used that involve another person.\n" 
+"Changing circumstances linger as points that\n" 
+"represent the mutative history of a relationship.$n\n" 
+"After a change, interest and regard try to return to\n" 
+"their original placement.\n"  
+"This is because the clear ellipse displayed on the\n" 
+"relationship chart wants to revert to a more circular\n" 
+"shape.$n\n" 
+"??Also, regarding interest and regard, regard without\n" 
+"interest changes slowly to a normal point.??\n" 
+"You'll drift away from characters if you haven't\n" 
+"talked in some time, so exercise caution.\n\0",
 
 ##############################################################################
 
@@ -296,7 +344,21 @@ translate_map = {
 "起床時間もキャラにより異なります。就寝時間＋６時間が\n"
 "起床時間となります。\n\0":
 
-"???",
+"３\nThe Passge of Time\n"
+"During the daily life part, time continuously passes\n"
+"until the specific moment when an Angel appears.\n"
+"How to pass this time is left to the player's\n"
+"discretion.$n\n"
+"Do as you please, whether communicating with\n"
+"others, honing your technical skills, performing\n"
+"Nerv duties, acquiring items, etc.\n" 
+"If you are a student character, you can attend\n"
+"class from 8:00 AM to 3:00 PM.$n\n."
+"If you have nothing to do, you may go to bed at any\n" 
+"time. Bedtime varies by character, but a general\n" 
+"yardstick to act by is for midnight +/- 1 hour.\n" 
+"Wake-up time also differs between characters. You\n" 
+"rise at Bedtime + 6 hours.\n\0",
 
 ##############################################################################
 
