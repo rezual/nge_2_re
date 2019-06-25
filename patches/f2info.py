@@ -67,15 +67,14 @@ translate_map = {
 "　だが、パイロットだけではエヴァは動かない。あるいは、\n"
 "きちんとした性能を発揮する事が出来ないのである。\n\0":
 
-"２\nEva Mechanics: Confidential Information \n\n"
+"２\nEva Mechanics: Non-Public Information \n\n"
 "Evas are vessels for souls that abandoned human\n"
 "form: egos magnified through embodiment as giant\n"
 "human beings. Inserting souls into the Evas\n"
 "- termed \"pilots\" - is a requirement for\n"
 "operating them. $n\n\n"
-"However, Evas won't work with a pilot alone.\n"
-"It's also possible that they are unable to perform\n"
-"properly.\n\0",
+"However, it takes more than a pilot to activate an\n" 
+"Eva, or, perhaps, to utilize its full potential.\n\0",
 
 ##############################################################################
 
@@ -93,7 +92,7 @@ translate_map = {
 "disparity between an Eva, the body of a god, and\n"
 "the soul of a human being. The soul of the pilot's\n"
 "mother, which is placed within the core, acts as a\n"
-"medium and makes piloting possible.。$n\n\n"
+"medium and makes piloting possible.$n\n\n"
 "Due to difficulties encountered in the development\n"
 "of Unit-00, the core's system is poorly constructed,\n"
 "and the Eva falls behind in performance as a result.\n"
@@ -133,7 +132,7 @@ translate_map = {
 "パイロットの母の魂が入っている。\n"
 "　初号機の場合、ユイの魂である。\n\0":
 
-"１\nEva Unit-01： Confidential Information\n\n"
+"１\nEva Unit-01： Non-Public Information\n\n"
 "Normally, in order for the Eva's core to link with\n"
 "the pilot, it must contain the soul of the pilot's\n"
 "mother. In the case of Unit-01, that soul is Yui's.\n\0",
@@ -194,7 +193,7 @@ translate_map = {
 "　母親のエヴァとの接触実験後ほどなく、マルドゥック機関\n"
 "より、アスカは弐号機パイロットとして選出される。\n\0":
 
-"１\nSecond Child: Confidential Information\n\n"
+"１\nSecond Child: Non-Public Information\n\n"
 "Not long after her mother's contact experiment\n"
 "with an Eva, Asuka was selected by the Marduk\n"
 "Institute to be the pilot of Unit-02.\n\0",
@@ -247,7 +246,7 @@ translate_map = {
 "　シンジが初号機パイロットとして選ばれたのも、ユイの魂\n"
 "が宿っているからである。\n\0":
 
-"１\nYui Ikari: Confidential Information\n\n"
+"１\nYui Ikari: Non-Public Information\n\n"
 "Yui conducted the experiment in the role of test\n"
 "subject, but as a result her soul became fixed\n"
 "inside Unit-01. Shinji was selected as Unit-01's\n"
@@ -304,7 +303,7 @@ translate_map = {
 "　ゼーレの構成員になったばかりの頃、南極へ向かった葛城\n"
 "調査隊の監査役をしていた。\n\0":
 
-"２\nGendo Ikari: Confidential Information\n\n"
+"２\nGendo Ikari: Non-Public Information\n\n"
 "Married Yui Ikari, who has connections to Seele, and\n"
 "in doing so became a member himself. Held\n"
 "consecutive posts as chief supervisor - among other\n"
@@ -373,7 +372,7 @@ translate_map = {
 "　両方の目的達成は、一つのキーの存在によって行われる。\n"
 "　それが、エヴァである。\n\0":
 
-"１\nSecret Agency Nerv: Confidential Information\n\n"
+"１\nSecret Agency Nerv: Non-Public Information\n\n"
 "While Nerv is officially tasked with the\n"
 "annihilation of the Angels, they are also working\n"
 "toward the Way to God: the evolution of humanity.\n"
@@ -1042,12 +1041,13 @@ translate_map = {
 "???", # TODO
 
 ##############################################################################
-# ???
+# The Spear of Longinus
 ##############################################################################
 "１\nロンギヌスの槍：広報公開情報\n\n"
 "　該当データなし。\n\0":
 
-"???", # TODO
+"１\nThe Spear of Longinus: Public Information\n\n"
+"No available data。\n\0", 
 
 ##############################################################################
 
@@ -1059,6 +1059,10 @@ translate_map = {
 "???", # TODO
 
 ##############################################################################
+
+# I couldn't fit the translation onto the 3 pages provided
+# in the Japanese entry. No idea if boosting the number to 
+# 4 actually works in practice. Fix if necessary. -Reichu
 
 "３\nロンギヌスの槍：非公開情報\n\n"
 "　意志を持った槍であり、自力で移動する能力も持つ一種の\n"
@@ -1074,7 +1078,21 @@ translate_map = {
 "　この槍は今も見つかっていない。ひょっとすれば破壊され\n"
 "たのかもしれない。\n\0":
 
-"???", # TODO
+"4\nThe Spear of Longinus： Non-Public Information\n\n"
+"A spear that is a living entity, able to move under\n" 
+"its own power and in accordance with its own will.$n\n"
+"The Seeds of Life (Progenitor Beings), bearing the\n"
+"power of eternal life, are near to God. The Spears\n" 
+"of Longinus can put them into suspended animation,\n"
+"ensuring they can never equal God.$n\n"
+"The First Ancestral Race had the Spears prepared as\n"
+"a provision in case a Seed of Life ever acted\n"
+"against their own objectives.$n\n"
+"The Spear of Longinus paired with Lilith is thought\n" 
+"to have escaped from Lilith and been dispersed by\n" 
+"the shock at First Impact.\n"
+"This Spear has yet to be discovered, and the\n" 
+"possibility exists that it was destroyed.\n\0", 
 
 ##############################################################################
 
@@ -1119,7 +1137,7 @@ translate_map = {
 "　その失敗例が、ユイやアスカの母である。$n\n\n"
 "　ダミープラグとは、その途中で生まれてきたものである。\n\0":
 
-"３\nDummy Plug: Confidential Information\n\n"
+"３\nDummy Plug: Non-Public Information\n\n"
 "The dummy plug has a personality copied to it.\n"
 "However, this can't be done with a soul.\n"
 "Why can't a soul be copied?\n"
