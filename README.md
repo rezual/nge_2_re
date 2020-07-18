@@ -58,7 +58,7 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 - [x] Import HGPT pictures 
 - [x] Export HGPT pictures 
 - [x] Patch `.evs` files
-- [ ] Compress `.zpt` files/`.har` entries
+- [x] Compress `.zpt` files/`.har` entries
 - [ ] Write custom PSP CFW plugin to apply translation
 	- Replace directly in memory translated text shorter than the original Japanese text (Easy)
 	- Redirect assembly read/writes to other areas of memory for translated text longer than the original Japanese text (Hard)
@@ -98,7 +98,7 @@ WIP: Currently ironing out processes before opening up the contribution flood-ga
 	- `bind.py`: Pack/Unpack BIND `.bin` files, `umd0:/PSP_GAME/USRDIR/game/imtext.bin` and `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
 	- `text.py`: Export/Import/Patch TEXT `.bin` files, found in BIND `.bin` files after unpacking, and `umd0:/PSP_GAME/USRDIR/free/f2tuto.bin` along with `umd0:/PSP_GAME/USRDIR/free/f2info.bin`
 	- `hgar.py`: Unpack/Modify `.har` files. Uses `zipped.py` to decompress, but cannot recompress. Use `--replace-raw` to replace files & turn-off the compression bit, where-as `--replace` keeps the compression bit on.
-	- `zipped.py`: Decompress `.zpt` files, and in the future, be able to recompress (WIP)
+	- `zipped.py`: Decompress/compress `.zpt` files
 	- `hgpt.py`: Export/Import Pictures
 	- `evs.py`: Export/Import Event Scripts
 - **unused:** These files are no longer used but may be helpful to others

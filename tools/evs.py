@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import struct
@@ -116,7 +116,7 @@ class EvsWrapper(object):
             file_size = common.get_file_size(f)
 
             # Read magic header
-            magic_number = f.read(4)
+            magic_number = f.read(4).decode('ascii', 'ignore')
             if magic_number != '.EVS':
                 raise Exception('Not an EVS file!')
 
@@ -125,11 +125,11 @@ class EvsWrapper(object):
             
             # Read entry offsets
             entry_offsets = [0] * number_of_entries
-            for i in xrange(0, number_of_entries):
+            for i in range(0, number_of_entries):
                 entry_offsets[i] = common.read_uint32(f)
 
             # Loop through entries
-            for i in xrange(0, number_of_entries):
+            for i in range(0, number_of_entries):
                 f.seek(entry_offsets[i])
 
                 # Read entry type
@@ -148,7 +148,7 @@ class EvsWrapper(object):
                 
                 # Read the parameters
                 entry_parameters = []
-                for j in xrange(0, number_of_parameters):
+                for j in range(0, number_of_parameters):
                     entry_parameters.append(common.read_uint32(f))
 
                 # Whatever remains after the parameters is the content
@@ -158,10 +158,10 @@ class EvsWrapper(object):
                 if remaining_bytes < 0:
                     raise Exception('Number of parameters overshoots total entry size; entry type: 0x%X, size: %s' % (entry_type, entry_size))
 
-                entry_content = f.read(remaining_bytes)
+                raw_entry_content = f.read(remaining_bytes)
 
                 # Convert encoding
-                entry_content = common.from_eva_sjis(entry_content)
+                entry_content = common.from_eva_sjis(raw_entry_content)
 
                 if not has_content_section and (entry_size != parameter_size):
                     raise Exception('Extra unannounced content in entry type: 0x%X, size: %s' % (entry_type, entry_size))
@@ -174,7 +174,7 @@ class EvsWrapper(object):
             file_size = common.get_file_size(f)
 
             # Write magic header
-            f.write('.EVS')
+            f.write(b'.EVS')
 
             # Write the number of entries
             common.write_uint32(f, len(self.entries))
@@ -190,21 +190,21 @@ class EvsWrapper(object):
                 # Calculate the size of this entry,
                 # so that we know when the next entry starts
                 # Convert UTF8 to Shift-JIS
-                entry_content = common.to_eva_sjis(entry_content)
+                raw_entry_content = common.to_eva_sjis(entry_content)
 
                 # Calculate the entry_size
                 # parameters + content
-                entry_size = 4 * len(entry_parameters) + len(entry_content)
+                entry_size = 4 * len(entry_parameters) + len(raw_entry_content)
 
                 # Update previous_entry_end for the next iteration
                 # Add 4 for the entry_type and entry_size fields, along with padding
                 previous_entry_end += common.align_size(4 + entry_size, 4)
 
                 # Add the entry to the converted entries
-                converted_entries.append((entry_type, entry_size, entry_parameters, entry_content))
+                converted_entries.append((entry_type, entry_size, entry_parameters, raw_entry_content))
 
             # Loop through entries
-            for (entry_type, entry_size, entry_parameters, entry_content) in converted_entries:
+            for (entry_type, entry_size, entry_parameters, raw_entry_content) in converted_entries:
 
                 # Write entry type
                 common.write_uint16(f, entry_type)
@@ -217,11 +217,11 @@ class EvsWrapper(object):
                     common.write_uint32(f, entry_parameter)
                 
                 # Write the content
-                f.write(entry_content)
+                f.write(raw_entry_content)
 
                 # Add padding
                 entry_padding = (common.align_size(entry_size, 4) - entry_size)
-                f.write('\0' * entry_padding)
+                f.write(b'\0' * entry_padding)
 
     def patch(self, patch_file):
         with open(patch_file) as f:
@@ -290,7 +290,7 @@ class EvsWrapper(object):
             entry_content = entry_content.encode('utf-8')
 
             # Convert trailing \0's to a single \0
-            entry_content = re.sub('\0+$', r'\0', entry_content)
+            entry_content = re.sub('\0+$', '\0', entry_content)
 
             # Add this string to the array
             self.entries.append((entry_type, entry_parameters, entry_content))
@@ -299,11 +299,11 @@ if __name__ == '__main__':
     import sys
     
     if len(sys.argv) < 3:
-        print 'evs.py <action> <file.evs>'
-        print ''
-        print 'evs.py -e,--export <file.evs>             # Output is file.evs.EVS.json'
-        print 'evs.py -i,--import <file.evs.EVS.json>    # Output is file.evs'
-        print 'evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED'
+        print('evs.py <action> <file.evs>')
+        print('')
+        print('evs.py -e,--export <file.evs>             # Output is file.evs.EVS.json')
+        print('evs.py -i,--import <file.evs.EVS.json>    # Output is file.evs')
+        print('evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED')
         sys.exit(0)
 
     action = sys.argv[1]
@@ -312,11 +312,11 @@ if __name__ == '__main__':
 
     try:
         if len(input_path) == 0:
-            print 'Error: Empty input path provided'
+            print('Error: Empty input path provided')
             sys.exit(-1)
 
         if action in ('-e', '--export'):
-            print '# Exporting %s:' % input_path
+            print('# Exporting %s:' % input_path)
             evs_wrapper = EvsWrapper()
             evs_wrapper.open(input_path)
 
@@ -324,7 +324,7 @@ if __name__ == '__main__':
             evs_wrapper.export_evs(output_path)
 
         elif action in ('-i', '--import'):
-            print '# Importing %s:' % input_path
+            print('# Importing %s:' % input_path)
             evs_wrapper = EvsWrapper()
 
             suffix = '.EVS.json'
@@ -338,12 +338,12 @@ if __name__ == '__main__':
         elif action in ('-p', '--patch'):
 
             if len(sys.argv) < 4:
-                print 'evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED'
+                print('evs.py -p,--patch <file.evs> <patch.py>   # Output is file file.evs.PATCHED')
                 sys.exit(0)
 
             patch_path = os.path.normpath(sys.argv[3])
 
-            print '# Patching %s:' % input_path
+            print('# Patching %s:' % input_path)
             evs_wrapper = EvsWrapper()
             evs_wrapper.open(input_path)
 
@@ -355,10 +355,10 @@ if __name__ == '__main__':
         else:
             raise Exception('Unknown action: %s' % action)
 
-    except Exception, e:
+    except Exception as e:
         import traceback
 
-        print 'Error: %s' % e
+        print('Error: %s' % e)
         traceback.print_exc()
         sys.exit(-1)
 

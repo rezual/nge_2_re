@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import common
@@ -29,7 +29,7 @@ class WaveArchive(object):
         with open(file_path, 'rb') as f:
             archive_size = common.get_file_size(f)
             while f.tell() < archive_size:
-                magic_number = f.read(4)
+                magic_number = f.read(4).decode('ascii', 'ignore')
                 if magic_number != 'RIFF':
                     raise Exception('Not a WAVE entry!')
 
@@ -52,11 +52,11 @@ class WaveArchive(object):
                 wave_size = entry.get_size()
                 block_aligned_wave_size = common.align_size(wave_size, WaveArchive.BLOCK_SIZE)
             
-                print '#\tWriting entry %s at offset 0x%X, size %s' % (counter, offset, wave_size)
+                print('#\tWriting entry %s at offset 0x%X, size %s' % (counter, offset, wave_size))
                 f.write(entry.content)
 
                 padding_size = block_aligned_wave_size - wave_size
-                f.write('\0' * padding_size)
+                f.write(b'\0' * padding_size)
             
                 counter += 1
                 offset += block_aligned_wave_size
@@ -66,7 +66,7 @@ class WaveArchive(object):
         for entry in self.entries:
             output_file = os.path.join(file_path, ('%s.wav' % counter))
             
-            print '#\tWriting %s:' % output_file
+            print('#\tWriting %s:' % output_file)
 
             with open(output_file, 'wb') as w:
                 w.write(entry.content)
@@ -78,10 +78,10 @@ class WaveArchive(object):
         while True:
             input_file = os.path.join(file_path, ('%s.wav' % counter))
             
-            print '#\tReading %s:' % input_file
+            print('#\tReading %s:' % input_file)
 
             if not os.path.exists(input_file):
-                print '#\t\tDoesn\'t exist, no more files to pack'
+                print('#\t\tDoesn\'t exist, no more files to pack')
                 break
 
             with open(input_file, 'rb') as f:
@@ -94,10 +94,10 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) < 3:
-        print 'wave.py <action> <archive.bin>'
-        print ''
-        print 'wave.py -u,--unpack <archive.bin>        # Output is dir archive.bin.WAVEPACK'
-        print 'wave.py -p,--pack <archive.bin.WAVEPACK> # Output is file archive.bin'
+        print('wave.py <action> <archive.bin>')
+        print('')
+        print('wave.py -u,--unpack <archive.bin>        # Output is dir archive.bin.WAVEPACK')
+        print('wave.py -p,--pack <archive.bin.WAVEPACK> # Output is file archive.bin')
         sys.exit(0)
 
     action = sys.argv[1]
@@ -109,7 +109,7 @@ if __name__ == '__main__':
             raise Exception('Empty input path provided')
 
         if action in ('-u', '--unpack'):
-            print '# Unpacking %s:' % input_path
+            print('# Unpacking %s:' % input_path)
             wave_archive = WaveArchive()
             wave_archive.open(input_path)
 
@@ -120,7 +120,7 @@ if __name__ == '__main__':
             wave_archive.unpack(output_path)
 
         elif action in ('-p', '--pack'):
-            print '# Packing %s:' % input_path
+            print('# Packing %s:' % input_path)
             wave_archive = WaveArchive()
 
             suffix = '.WAVEPACK'
@@ -134,10 +134,10 @@ if __name__ == '__main__':
         else:
             raise Exception('Unknown action: %s' % action)
             
-    except Exception, e:
+    except Exception as e:
         import traceback
 
-        print 'Error: %s' % e
+        print('Error: %s' % e)
         traceback.print_exc()
         sys.exit(-1)
 

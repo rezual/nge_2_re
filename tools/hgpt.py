@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 # Oddities: 
 # im/im059800.zpt.DECOMPRESSED: It's not a HGPT file, but instead is a HGMT file - which seems to be an untiled, HPT file
@@ -31,7 +31,7 @@ class HgptWrapper(object):
         self.width = 0
         self.height = 0
         self.palette = []
-        self.division_name = '\0' * 8
+        self.division_name = b'\0' * 8
         self.divisions = []
         self.content = []
 
@@ -40,7 +40,7 @@ class HgptWrapper(object):
             file_size = common.get_file_size(f)
 
             # Read magic header
-            magic_number = f.read(4)
+            magic_number = f.read(4).decode('ascii', 'ignore')
             if magic_number != 'HGPT':
                 raise Exception('Not an HGPT file! Missing HGPT header id.')
 
@@ -79,13 +79,13 @@ class HgptWrapper(object):
                 # 0x0014 is the other occurence 
                 unknown_three = common.read_uint16(f)
                 if unknown_three != 0x0013:
-                    print '# Warning: UnknownThree (0x%X) != 0x0013' % unknown_three
+                    print('# Warning: UnknownThree (0x%X) != 0x0013' % unknown_three)
 
                 # Read division name
-                self.division_name = (f.read(8) + '\0' * 8)[0:8]
+                self.division_name = (f.read(8) + b'\0' * 8)[0:8]
 
                 # Read divisions
-                for i in xrange(0, number_of_divisions):
+                for i in range(0, number_of_divisions):
                     division_start_x = common.read_uint16(f) 
                     division_start_y = common.read_uint16(f)
                     division_width = common.read_uint16(f)
@@ -201,7 +201,7 @@ class HgptWrapper(object):
             tiled_image_data = [0] * number_of_pixels
             cache_last_pixel = None
             
-            for i in xrange(0, number_of_pixels):
+            for i in range(0, number_of_pixels):
                 if number_of_bytes <= 0:
                     break
 
@@ -238,8 +238,8 @@ class HgptWrapper(object):
             tile_height = 8
             tile_size = tile_width * tile_height
             tile_row = tile_size * int(calculated_storage_width / tile_width)
-            for y in xrange(0, pp_display_height):
-                for x in xrange(0, pp_display_width):
+            for y in range(0, pp_display_height):
+                for x in range(0, pp_display_width):
                     tile_y = int(y / tile_height)
                     tile_x = int(x / tile_width)
                     tile_sub_y = y % tile_height
@@ -271,7 +271,7 @@ class HgptWrapper(object):
                                     common.read_uint8(f),
                                     common.read_uint8(f),
                                     decode_alpha(common.read_uint8(f))) 
-                                for i in xrange(0, palette_total)]
+                                for i in range(0, palette_total)]
 
     def save(self, file_path):
         with open(file_path, 'wb') as f:
@@ -340,7 +340,7 @@ class HgptWrapper(object):
 
             # Begin writing
             # Write magic header
-            f.write('HGPT')
+            f.write(b'HGPT')
 
             # Write pp offset
             common.write_uint16(f, pp_offset)
@@ -368,7 +368,7 @@ class HgptWrapper(object):
                 common.write_uint16(f, self.unknown_three) 
 
                 # Write division name
-                f.write((self.division_name + '\0' * 8)[0:8])
+                f.write((self.division_name + b'\0' * 8)[0:8])
 
                 # Write divisions
                 for division in self.divisions:
@@ -378,7 +378,7 @@ class HgptWrapper(object):
                     common.write_uint16(f, division[3]) # division_height
 
                 # Add zero padding
-                f.write('\0' * divisions_padding)
+                f.write(b'\0' * divisions_padding)
 
             # Write PP header
             common.write_uint32(f, pp_header)
@@ -388,7 +388,7 @@ class HgptWrapper(object):
             common.write_uint16(f, self.height) # display_height
 
             # Write zero padding
-            f.write('\0' * 8)
+            f.write(b'\0' * 8)
             
             # Write ppd header
             common.write_uint32(f, ppd_header)
@@ -398,7 +398,7 @@ class HgptWrapper(object):
             common.write_uint16(f, self.height) # ppd_display_height
 
             # Write zero padding
-            f.write('\0' * 4)
+            f.write(b'\0' * 4)
 
             # Write ppd sixteenths dimensions
             common.write_uint16(f, ppd_sixteenths_width)
@@ -408,7 +408,7 @@ class HgptWrapper(object):
             common.write_uint32(f, ppd_size)
 
             # Write zero padding
-            f.write('\0' * 12)
+            f.write(b'\0' * 12)
 
             # Re-tile
             tiled_image_data = [0] * number_of_pixels
@@ -416,8 +416,8 @@ class HgptWrapper(object):
             tile_height = 8
             tile_size = tile_width * tile_height
             tile_row = tile_size * int(storage_width / tile_width)
-            for y in xrange(0, self.height):
-                for x in xrange(0, self.width):
+            for y in range(0, self.height):
+                for x in range(0, self.width):
                     tile_y = int(y / tile_height)
                     tile_x = int(x / tile_width)
                     tile_sub_y = y % tile_height
@@ -427,7 +427,7 @@ class HgptWrapper(object):
             # Write image data
             cache_last_pixel = None
 
-            for i in xrange(0, number_of_pixels):
+            for i in range(0, number_of_pixels):
                 if number_of_bytes <= 0:
                     break
 
@@ -462,13 +462,13 @@ class HgptWrapper(object):
                 common.write_uint32(f, ppc_header)
 
                 # Write zero padding
-                f.write('\0' * 2)
+                f.write(b'\0' * 2)
 
                 # Write number of palette entries (but needing to be divided by 8)
                 common.write_uint16(f, palette_total / 8)
 
                 # Write zero padding
-                f.write('\0' * 8)
+                f.write(b'\0' * 8)
 
                 # Write palette
                 for c in self.palette:
@@ -519,14 +519,14 @@ class HgptWrapper(object):
                 draw_color = common.unique_color(i, len(self.divisions))
 
                 # Draw an empty square
-                for y in xrange(0, division_height):
+                for y in range(0, division_height):
                     if is_in_bounds(division_x_pos, division_y_pos + y, self.width, self.height):
                         canvas[(division_y_pos + y) * self.width + (division_x_pos + 0)] = draw_color
 
                     if is_in_bounds(division_x_pos + division_width - 1, division_y_pos + y, self.width, self.height):
                         canvas[(division_y_pos + y) * self.width + (division_x_pos + division_width - 1)] = draw_color
 
-                for x in xrange(1, division_width - 1):
+                for x in range(1, division_width - 1):
                     if is_in_bounds(division_x_pos + x, division_y_pos, self.width, self.height):
                         canvas[(division_y_pos + 0) * self.width + (division_x_pos + x)] = draw_color
 
@@ -576,7 +576,7 @@ class HgptWrapper(object):
         self.unknown_three       = metadata.get('unknown_three', 0x0013)
         self.width               = metadata.get('width', 0)
         self.height              = metadata.get('height', 0)
-        self.division_name       = metadata.get('division_name', '\0' * 8)
+        self.division_name       = metadata.get('division_name', b'\0' * 8)
         self.divisions           = metadata.get('divisions', [])
 
         palette_total = metadata.get('palette_total', 0)
@@ -590,7 +590,7 @@ class HgptWrapper(object):
         new_height = pic[1]
 
         if new_width != self.width or new_height != self.height:
-            print '# Warning: Picture dimensions have changed, old: (%s x %s), new: (%s x %s)' % (self.width, self.height, new_width, new_height)
+            print('# Warning: Picture dimensions have changed, old: (%s x %s), new: (%s x %s)' % (self.width, self.height, new_width, new_height))
 
         self.width = new_width
         self.height = new_height
@@ -599,7 +599,7 @@ class HgptWrapper(object):
         new_palette = pic[3].get('palette', [])
 
         if palette_total != len(new_palette):
-            print '# Warning: Picture palette count has changed, old: %s, new %s' % (palette_total, len(new_palette))
+            print('# Warning: Picture palette count has changed, old: %s, new %s' % (palette_total, len(new_palette)))
 
         self.palette = [(c[0], c[1], c[2], (0xFF if len(c) == 3 else c[3])) for c in new_palette]
 
@@ -629,10 +629,10 @@ if __name__ == '__main__':
     import sys
     
     if len(sys.argv) < 3:
-        print 'hgpt.py <action> <picture.hpt>'
-        print ''
-        print 'hgpt.py -e,--export <picture.hpt>             # Output are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
-        print 'hgpt.py -i,--import <picture.hpt.PICTURE.png> # Input are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json'
+        print('hgpt.py <action> <picture.hpt>')
+        print('')
+        print('hgpt.py -e,--export <picture.hpt>             # Output are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json')
+        print('hgpt.py -i,--import <picture.hpt.PICTURE.png> # Input are files picture.hpt.PICTURE.png and picture.hpt.PICTURE.json')
         sys.exit(0)
 
     action = sys.argv[1]
@@ -644,7 +644,7 @@ if __name__ == '__main__':
             raise Exception('Empty input path provided')
 
         if action in ('-e', '--export'):
-            print '# Exporting %s:' % input_path
+            print('# Exporting %s:' % input_path)
             hgpt_wrapper = HgptWrapper()
             hgpt_wrapper.open(input_path)
 
@@ -652,7 +652,7 @@ if __name__ == '__main__':
             hgpt_wrapper.export_hgpt(output_path)
 
         elif action in ('-i', '--import'):
-            print '# Importing %s:' % input_path
+            print('# Importing %s:' % input_path)
             hgpt_wrapper = HgptWrapper()
             
             # Figure out the base input path,
@@ -674,10 +674,10 @@ if __name__ == '__main__':
         else:
             raise Exception('Unknown action: %s' % action)
             
-    except Exception, e:
+    except Exception as e:
         import traceback
 
-        print 'Error: %s' % e
+        print('Error: %s' % e)
         traceback.print_exc()
         sys.exit(-1)
 

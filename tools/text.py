@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import struct
@@ -19,14 +19,14 @@ class TextArchive(object):
     def warn(self, message):
         # Temporary debug helper to track warning messages in metadata
         self.warnings.append(message)
-        print message
+        print(message)
 
     def open(self, file_path):
         with open(file_path, 'rb') as f:
             file_size = common.get_file_size(f)
 
             # Read magic header
-            magic_number = f.read(4)
+            magic_number = f.read(4).decode('ascii', 'ignore')
             if magic_number != 'TEXT':
                 raise Exception('Not a TEXT file!')
 
@@ -58,7 +58,7 @@ class TextArchive(object):
             # and we can't figure out the string index until we've seen all the strings
             entry_unknowns = [0] * number_of_entries
             entry_string_offsets = [0] * number_of_entries
-            for i in xrange(0, number_of_entries):
+            for i in range(0, number_of_entries):
                 entry_unknowns[i] = common.read_uint32(f)
                 entry_string_offsets[i] = common.read_uint32(f)
 
@@ -88,30 +88,30 @@ class TextArchive(object):
                 unknown_second = common.read_uint32(f)
 
                 # Read content until null-terminator (but aligned to 32-bit boundaries)
-                string_content = ''
+                raw_string_content = b''
                 while True:
-                    string_content += f.read(4)
-                    if string_content[-1] == '\0':
+                    raw_string_content += f.read(4)
+                    if raw_string_content[-1] == 0:
                         break
 
-                # Convert Shift-JIS to UTF-8
-                string_content = common.from_eva_sjis(string_content)
+                # Convert Shift-JIS to unicode
+                string_content = common.from_eva_sjis(raw_string_content)
  
                 # Convert trailing \0's to a single \0
-                string_content = re.sub('\0+$', r'\0', string_content)
+                string_content = re.sub('\0+$', '\0', string_content)
 
                 # Add this string to the array
                 self.strings.append((unknown_first, unknown_second, string_content))
 
             # Finally create the entries now that we know the string offset to index mapping
-            for i in xrange(0, number_of_entries):
+            for i in range(0, number_of_entries):
                 self.entries.append((entry_unknowns[i], string_offset_index_map[entry_string_offsets[i]]))
 
     def save(self, file_path):
         with open(file_path, 'wb') as f:
 
             # Write magic header
-            f.write('TEXT')
+            f.write(b'TEXT')
 
             # Write number of entries
             common.write_uint32(f, len(self.entries))
@@ -131,20 +131,20 @@ class TextArchive(object):
                 # Calculate the offset of this string based on the end of the previous string
                 string_offset = previous_string_end
 
-                # Convert UTF8 to Shift-JIS
-                string_content = common.to_eva_sjis(string_content)
+                # Convert unicode to Shift-JIS
+                raw_string_content = common.to_eva_sjis(string_content)
 
                 # Calculate how much memory this string takes
-                string_padded_size = common.align_size(len(string_content), 4)
+                string_padded_size = common.align_size(len(raw_string_content), 4)
 
                 # Append null-terminators to ensure a 32-bit alignment
-                string_content = (string_content + '\0\0\0\0')[:string_padded_size]
+                raw_string_content = (raw_string_content + b'\0\0\0\0')[:string_padded_size]
 
                 # Update previous_string_end for the next iteration (+ 8 for the two unknowns)
                 previous_string_end += string_padded_size + 8
 
                 # Add the string to converted strings
-                converted_strings.append((unknown_first, unknown_second, string_content, string_offset))
+                converted_strings.append((unknown_first, unknown_second, raw_string_content, string_offset))
 
             # Write entries
             for (entry_unknown, entry_string_index) in self.entries:
@@ -231,7 +231,7 @@ class TextArchive(object):
             string_content = string_content.encode('utf-8')
 
             # Convert trailing \0's to a single \0
-            string_content = re.sub('\0+$', r'\0', string_content)
+            string_content = re.sub('\0+$', '\0', string_content)
 
             # Add this string to the array
             self.strings.append((unknown_first, unknown_second, string_content))
@@ -240,11 +240,11 @@ if __name__ == '__main__':
     import sys
     
     if len(sys.argv) < 3:
-        print 'text.py <action> <archive.bin>'
-        print ''
-        print 'text.py -e,--export <archive.bin>            # Output is file archive.bin.TEXT.json'
-        print 'text.py -i,--import <archive.bin.TEXT.json>  # Output is file archive.bin'
-        print 'text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
+        print('text.py <action> <archive.bin>')
+        print('')
+        print('text.py -e,--export <archive.bin>            # Output is file archive.bin.TEXT.json')
+        print('text.py -i,--import <archive.bin.TEXT.json>  # Output is file archive.bin')
+        print('text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED')
         sys.exit(0)
 
     action = sys.argv[1]
@@ -256,7 +256,7 @@ if __name__ == '__main__':
             raise Exception('Empty input path provided')
 
         if action in ('-e', '--export'):
-            print '# Exporting %s:' % input_path
+            print('# Exporting %s:' % input_path)
             text_archive = TextArchive()
             text_archive.open(input_path)
 
@@ -264,7 +264,7 @@ if __name__ == '__main__':
             text_archive.export_text(output_path)
 
         elif action in ('-i', '--import'):
-            print '# Importing %s:' % input_path
+            print('# Importing %s:' % input_path)
             text_archive = TextArchive()
             
             suffix = '.TEXT.json'
@@ -278,12 +278,12 @@ if __name__ == '__main__':
         elif action in ('-p', '--patch'):
 
             if len(sys.argv) < 4:
-                print 'text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED'
+                print('text.py -p,--patch <archive.bin> <patch.py>  # Output is file archive.bin.PATCHED')
                 sys.exit(0)
 
             patch_path = os.path.normpath(sys.argv[3])
 
-            print '# Patching %s:' % input_path
+            print('# Patching %s:' % input_path)
             text_archive = TextArchive()
             text_archive.open(input_path)
 
@@ -295,10 +295,10 @@ if __name__ == '__main__':
         else:
             raise Exception('Unknown action: %s' % action)
             
-    except Exception, e:
+    except Exception as e:
         import traceback
 
-        print 'Error: %s' % e
+        print('Error: %s' % e)
         traceback.print_exc()
         sys.exit(-1)
 

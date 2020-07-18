@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
 import struct
@@ -33,11 +33,11 @@ def align_size(unaligned_size, alignment):
     return alignment * int((unaligned_size + alignment - 1) / alignment)
 
 def from_eva_sjis(content):
-    # Convert nge2 SJIS to UTF8
+    # Convert nge2 SJIS to unicode
     try:
-        content = content.decode('shift_jis').encode('utf-8')
-    except (UnicodeDecodeError, UnicodeEncodeError): 
-        raise Exception('There seems to be an character that cannot be converted to UTF-8. Check the text:' + content)
+        content = content.decode('shift_jis')
+    except UnicodeDecodeError:
+        raise Exception('There seems to be an character that cannot be converted to unicode. Check the text:' + content)
 
     # Convert special NGE2 characters
     content = content.replace('Θ', 'J.')
@@ -55,10 +55,10 @@ def to_eva_sjis(content):
     content = content.replace('N²', 'Ν')
     content = content.replace('S²', 'Σ')
 
-    # Convert UTF8 to nge2 SJIS
+    # Convert unicode to nge2 SJIS
     try:
-        content = content.decode('utf-8').encode('shift_jis')
-    except (UnicodeDecodeError, UnicodeEncodeError): 
+        content = content.encode('shift_jis')
+    except UnicodeEncodeError:
         raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + content)
     
     return content

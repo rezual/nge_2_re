@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import sys
@@ -27,7 +27,7 @@ def unpack_dir(directory_path):
 
         elif filename.endswith(".har"): 
             if not os.path.exists(combined_path + '.HGARPACK'):
-                print combined_path
+                print(combined_path)
                 num_changed += 1
 
                 hgar = HGArchive()
@@ -39,7 +39,7 @@ def unpack_dir(directory_path):
                     os.makedirs(output_path)
 
                 for file in hgar.files:
-                    print '# Extracting: ' + file.get_viable_name()
+                    print('# Extracting: ' + file.get_viable_name())
 
                     with open(output_path + file.get_viable_name(), 'wb') as w:
                         w.write(file.content)
@@ -52,7 +52,7 @@ def unpack_dir(directory_path):
 
         elif filename.endswith(".zpt"):
             if not os.path.exists(combined_path + '.DECOMPRESSED'):
-                print combined_path
+                print(combined_path)
                 num_changed += 1
 
                 zip_wrapper = ZipWrapper()
@@ -61,7 +61,7 @@ def unpack_dir(directory_path):
 
         elif filename.endswith(".hpt.DECOMPRESSED") or (filename.endswith(".zpt.DECOMPRESSED") and filename != 'im059800.zpt.DECOMPRESSED'):
             if not os.path.exists(combined_path + '.PICTURE.png'):
-                print combined_path
+                print(combined_path)
                 num_changed += 1
 
                 hgpt_wrapper = HgptWrapper()
@@ -70,7 +70,7 @@ def unpack_dir(directory_path):
                 
         elif filename.endswith(".evs"):
             if not os.path.exists(combined_path + '.EVS.json'):
-                print combined_path
+                print(combined_path)
                 num_changed += 1
 
                 evs_wrapper = EvsWrapper()
@@ -81,11 +81,11 @@ def unpack_dir(directory_path):
             header_code = ''
             
             with open(combined_path, 'rb') as f:
-                header_code = f.read(4)
+                header_code = f.read(4).decode('ascii', 'ignore')
 
             if header_code == 'RIFF':
                 if not os.path.exists(combined_path + '.WAVEPACK'):
-                    print combined_path
+                    print(combined_path)
                     num_changed += 1
 
                     wave_archive = WaveArchive()
@@ -99,7 +99,7 @@ def unpack_dir(directory_path):
 
             elif header_code == 'BIND':
                  if not os.path.exists(combined_path + '.BINDPACK'):
-                    print combined_path
+                    print(combined_path)
                     num_changed += 1
 
                     bind_archive = BindArchive()
@@ -113,7 +113,7 @@ def unpack_dir(directory_path):
 
             elif header_code == 'TEXT':
                 if not os.path.exists(combined_path + '.TEXT.json') and filename != '1048.bin':
-                    print combined_path
+                    print(combined_path)
                     num_changed += 1
 
                     text_archive = TextArchive()
@@ -131,7 +131,8 @@ def unpack_dir(directory_path):
 if __name__ == '__main__':
     import sys
 
-    print 'NGE2 content unpacker'
+    print('NGE2 content unpacker')
+    print('unpack-all.py <path to umd_data.bin>')
 
     umd_data_bin_path = None
     if len(sys.argv) >= 2:
@@ -141,12 +142,12 @@ if __name__ == '__main__':
         if umd_data_bin_path:
 
             if not os.path.exists(umd_data_bin_path):
-                print 'Error: "%s" does not exist' % umd_data_bin_path
+                print('Error: "%s" does not exist' % umd_data_bin_path)
                 umd_data_bin_path = None
                 continue
 
             with open(umd_data_bin_path, 'rb') as f:
-                data = f.read()
+                data = f.read().decode('ascii', 'ignore')
                 umd_id = data.split('|')[0]
 
                 if umd_id != 'ULJS-00064':
@@ -156,7 +157,7 @@ if __name__ == '__main__':
 
         umd_data_bin_path = raw_input("Please enter the path to the UMD_DATA.BIN file (drag and drop it here):\n")
         if umd_data_bin_path == '':
-            print 'Blank inputted, exiting'
+            print('Blank inputted, exiting')
             sys.exit(0)
     
     umd_path = os.path.join(os.path.dirname(umd_data_bin_path), 'PSP_GAME', 'USRDIR')
@@ -164,10 +165,10 @@ if __name__ == '__main__':
     if not os.path.exists(umd_path):
         raise Exception('Error: The file path "%s" does not exist!' % umd_path)
 
-    print 'Unpacking all from:', umd_path
+    print('Unpacking all from:', umd_path)
     while unpack_dir(umd_path) != 0:
         pass
 
-    print 'Success'
+    print('Success')
 
     sys.exit(0)

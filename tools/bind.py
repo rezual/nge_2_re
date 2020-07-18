@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import common
@@ -26,7 +26,7 @@ class BindArchive(object):
             file_size = common.get_file_size(f)
 
             # Read magic header
-            magic_number = f.read(4)
+            magic_number = f.read(4).decode('ascii', 'ignore')
             if magic_number != 'BIND':
                 raise Exception('Not a BIND file! Missing BIND header id.')
 
@@ -51,7 +51,7 @@ class BindArchive(object):
             # Load the entry sizes 
             processed_entries = []
             previous_entry_end = header_size
-            for i in xrange(0, number_of_entries):
+            for i in range(0, number_of_entries):
                 # Calculate the offset of this entry based on the end of the previous entry
                 entry_offset = previous_entry_end
 
@@ -86,7 +86,7 @@ class BindArchive(object):
         with open(file_path, 'wb') as f:
  
             # Write magic header
-            f.write('BIND')
+            f.write(b'BIND')
 
             # Write "size" byte size
             # This determines what's the "size" of the size variable itself
@@ -120,7 +120,7 @@ class BindArchive(object):
                     common.write_uint32(f, entry.get_size())
 
             # Insert padding
-            f.write('\0' * (padded_header_size - header_size))
+            f.write(b'\0' * (padded_header_size - header_size))
 
             # Write entries
             for entry in self.entries:
@@ -128,14 +128,14 @@ class BindArchive(object):
                 padded_entry_size = common.align_size(entry_size, self.block_size)
 
                 f.write(entry.content)
-                f.write('\0' * (padded_entry_size - entry_size))
+                f.write(b'\0' * (padded_entry_size - entry_size))
 
     def unpack(self, file_path):
         counter = 0
         for entry in self.entries:
             output_file = os.path.join(file_path, ('%s.bin' % counter))
 
-            print '#\tWriting %s:' % output_file
+            print('#\tWriting %s:' % output_file)
 
             with open(output_file, 'wb') as w:
                 w.write(entry.content)
@@ -147,10 +147,10 @@ class BindArchive(object):
         while True:
             input_file = os.path.join(file_path, ('%s.bin' % counter))
 
-            print '#\tReading %s:' % input_file
+            print('#\tReading %s:' % input_file)
 
             if not os.path.exists(input_file):
-                print '#\t\tDoesn\'t exist, no more files to pack'
+                print('#\t\tDoesn\'t exist, no more files to pack')
                 break
 
             with open(input_file, 'rb') as f:
@@ -163,10 +163,10 @@ if __name__ == '__main__':
     import sys
 
     if len(sys.argv) < 3:
-        print 'bind.py <action> <archive.bin>'
-        print ''
-        print 'bind.py -u,--unpack <archive.bin>        # Output is dir archive.bin.BINDPACK'
-        print 'bind.py -p,--pack <archive.bin.BINDPACK> # Output is file archive.bin'
+        print('bind.py <action> <archive.bin>')
+        print('')
+        print('bind.py -u,--unpack <archive.bin>        # Output is dir archive.bin.BINDPACK')
+        print('bind.py -p,--pack <archive.bin.BINDPACK> # Output is file archive.bin')
         sys.exit(0)
 
     action = sys.argv[1]
@@ -178,7 +178,7 @@ if __name__ == '__main__':
             raise Exception('Empty input path provided')
 
         if action in ('-u', '--unpack'):
-            print '# Unpacking %s:' % input_path
+            print('# Unpacking %s:' % input_path)
             bind_archive = BindArchive()
             bind_archive.open(input_path)
 
@@ -189,7 +189,7 @@ if __name__ == '__main__':
             bind_archive.unpack(output_path)
 
         elif action in ('-p', '--pack'):
-            print '# Packing %s:' % input_path
+            print('# Packing %s:' % input_path)
             bind_archive = BindArchive()
 
             suffix = '.BINDPACK'
@@ -203,10 +203,10 @@ if __name__ == '__main__':
         else:
             raise Exception('Unknown action: %s' % action)
 
-    except Exception, e:
+    except Exception as e:
         import traceback
 
-        print 'Error: %s' % e
+        print('Error: %s' % e)
         traceback.print_exc()
         sys.exit(-1)
 
