@@ -258,7 +258,7 @@ class EvsWrapper(object):
         }
 
         with open(output_path, 'wb') as f:
-            f.write(json.dumps(data, indent=4, ensure_ascii=False))
+            f.write(json.dumps(data, indent=4, ensure_ascii=False).encode('utf-8'))
 
     def import_evs(self, file_path):
         
@@ -272,7 +272,7 @@ class EvsWrapper(object):
             data = f.read()
 
         try:
-            data = json.loads(data)
+            data = json.loads(data.decode('utf-8'))
         except:
             raise Exception('File has invalid JSON data: %s' % file_path)
 
@@ -285,9 +285,6 @@ class EvsWrapper(object):
             entry_type = entry['function']
             entry_parameters = entry['parameters']
             entry_content = entry['content']
-
-            # Convert unicode to UTF-8
-            entry_content = entry_content.encode('utf-8')
 
             # Convert trailing \0's to a single \0
             entry_content = re.sub('\0+$', '\0', entry_content)

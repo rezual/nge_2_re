@@ -31,7 +31,7 @@ class HgptWrapper(object):
         self.width = 0
         self.height = 0
         self.palette = []
-        self.division_name = b'\0' * 8
+        self.division_name = (b'\0' * 8).decode('utf-8')
         self.divisions = []
         self.content = []
 
@@ -82,7 +82,7 @@ class HgptWrapper(object):
                     print('# Warning: UnknownThree (0x%X) != 0x0013' % unknown_three)
 
                 # Read division name
-                self.division_name = (f.read(8) + b'\0' * 8)[0:8]
+                self.division_name = (f.read(8) + b'\0' * 8)[0:8].decode('utf-8')
 
                 # Read divisions
                 for i in range(0, number_of_divisions):
@@ -368,7 +368,7 @@ class HgptWrapper(object):
                 common.write_uint16(f, self.unknown_three) 
 
                 # Write division name
-                f.write((self.division_name + b'\0' * 8)[0:8])
+                f.write((self.division_name.encode('utf-8') + b'\0' * 8)[0:8])
 
                 # Write divisions
                 for division in self.divisions:
@@ -499,7 +499,7 @@ class HgptWrapper(object):
         }
 
         with open(output_path_metadata, 'wb') as f:
-            f.write(json.dumps(metadata, indent=4))
+            f.write(json.dumps(metadata, indent=4, ensure_ascii=False).encode('utf-8'))
 
         # Create a divisions helper file
         if (self.divisions):
@@ -566,7 +566,7 @@ class HgptWrapper(object):
                 metadata = f.read()
 
                 try:
-                    metadata = json.loads(metadata)
+                    metadata = json.loads(metadata.decode('utf-8'))
                 except:
                     raise Exception('File has invalid JSON data: %s' % input_path_metadata)
 
@@ -576,7 +576,7 @@ class HgptWrapper(object):
         self.unknown_three       = metadata.get('unknown_three', 0x0013)
         self.width               = metadata.get('width', 0)
         self.height              = metadata.get('height', 0)
-        self.division_name       = metadata.get('division_name', b'\0' * 8)
+        self.division_name       = metadata.get('division_name', (b'\0' * 8).decode('utf-8'))
         self.divisions           = metadata.get('divisions', [])
 
         palette_total = metadata.get('palette_total', 0)

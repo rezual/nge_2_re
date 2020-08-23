@@ -3,6 +3,17 @@
 
 import struct
 import os
+import sys
+
+if (sys.stdout.encoding.lower().strip().replace('-', '').replace(' ', '') != 'utf8'):
+    print("Your system\'s default terminal/screen encoding is not UTF-8.\n"
+          "Please rerun this script by first setting\n"
+          "PYTHONIOENCODING to utf-8.\n"
+          "On Windows:\n"
+          "set PYTHONIOENCODING=utf-8\n"
+          "On Unix:\n"
+          "export PYTHONIOENCODING=utf-8")
+    sys.exit(-1)
 
 # Common helper functions
 def read_uint8(file_handle):
@@ -36,8 +47,9 @@ def from_eva_sjis(content):
     # Convert nge2 SJIS to unicode
     try:
         content = content.decode('shift_jis')
+
     except UnicodeDecodeError:
-        raise Exception('There seems to be an character that cannot be converted to unicode. Check the text:' + content)
+        raise Exception('There seems to be a character that cannot be converted to unicode. Check the text:' + repr(content))
 
     # Convert special NGE2 characters
     content = content.replace('Θ', 'J.')

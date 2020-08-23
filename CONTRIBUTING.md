@@ -49,12 +49,12 @@ This makes it easier to patch specific files on the fly.
 9. When you're all done, press "Select" on your PSP, change the "USB Device" back to "Memory Stick", and press Select to Accept and close the menu
 
 ### 3. Setting up Python
-The tooling for this project is currently written in Python 2.7 and as such you'll need it installed. If you're on MacOS X, a suitable Python version should already be installed.
+The tooling for this project is currently written in Python 3 and as such you'll need it installed.
 
 1. Download the proper Python package for your machine.
 	If you're on a 64-bit Windows machine, download Windows x86-64 MSI installer
     If you're on a 32-bit Windows machine, or you're not sure, download Windows x86 MSI installer
-    At time of writing, Python 2.7.15 was the latest version of the Python 2.7 branch: https://www.python.org/downloads/release/python-2715/
+    At time of writing, Python 3.8.4 was the latest version of the Python 3.8 branch: https://www.python.org/downloads/release/python-384/
 2. Run the Python package installer
 
 ### 4. Setting up the nge_2_re tooling

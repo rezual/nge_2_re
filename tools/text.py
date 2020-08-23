@@ -199,7 +199,7 @@ class TextArchive(object):
         }
 
         with open(output_path, 'wb') as f:
-            f.write(json.dumps(data, indent=4, ensure_ascii=False))
+            f.write(json.dumps(data, indent=4, ensure_ascii=False).encode('utf-8'))
 
     def import_text(self, file_path):
         
@@ -213,7 +213,7 @@ class TextArchive(object):
             data = f.read()
 
         try:
-            data = json.loads(data)
+            data = json.loads(data.decode('utf-8'))
         except:
             raise Exception('File has invalid JSON data: %s' % file_path)
 
@@ -227,9 +227,6 @@ class TextArchive(object):
         # Reprocess strings
         for (unknown_first, unknown_second, string_content) in data['strings']:
             
-            # Convert unicode to UTF-8
-            string_content = string_content.encode('utf-8')
-
             # Convert trailing \0's to a single \0
             string_content = re.sub('\0+$', '\0', string_content)
 

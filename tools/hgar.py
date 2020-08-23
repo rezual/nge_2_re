@@ -96,7 +96,6 @@ class HGArchiveFile(object):
 
         return viable_name
 
-
     def encode_identifier(self, limit):
         compression_mask = 0
         if self.is_compressed:
@@ -116,19 +115,6 @@ class HGArchiveFile(object):
             if mult_result == self.identifier:
                 self.encoded_identifier = guess_encode | compression_mask
                 return
-
-    def encode_identifier(self, limit):
-        compression_mask = 0
-        if self.is_compressed:
-            compression_mask = 0x80000000
-
-        for xor_mask in range(0, 0x7FFFFFFF):
-            mult_result = (((((((((((xor_mask * 15625) ^ (xor_mask >> 5)) * 15625) ^ (xor_mask >> 10)) * 15625) ^ (xor_mask >> 15)) * 15625) ^ (xor_mask >> 20)) * 15625) ^ (xor_mask >> 25)) * 15625) & (limit - 1)
-        
-            if mult_result == self.identifier:
-                self.encoded_identifier = xor_mask | compression_mask
-
-        return 0
 
 
     def decode_identifier(self, limit):

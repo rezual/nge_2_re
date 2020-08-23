@@ -155,7 +155,7 @@ if __name__ == '__main__':
 
                 break
 
-        umd_data_bin_path = raw_input("Please enter the path to the UMD_DATA.BIN file (drag and drop it here):\n")
+        umd_data_bin_path = input("Please enter the path to the UMD_DATA.BIN file (drag and drop it here):\n")
         if umd_data_bin_path == '':
             print('Blank inputted, exiting')
             sys.exit(0)
