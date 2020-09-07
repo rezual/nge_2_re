@@ -61,6 +61,9 @@ it'll "freeze/burn-in" the menu.
 Finally, lots of the battle-mode menus can't be brought up in battle-mode
 since I haven't looked into a button hook for it, yet.
 
+All these debug cheats override the triangle menu,
+so press the triangle button to use them!
+
 ```
 _C0 Debug menu: Dummy/Outside/bath (crashes)
 _L 0x201C97CC 0x088B6320

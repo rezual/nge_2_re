@@ -4,7 +4,9 @@ import os
 import re
 import struct
 
-class DataType(object):
+from enum import Enum
+
+class DataType(Enum):
     Unknown = 0
     Integer = 1
     Unsigned = 2
@@ -14,7 +16,7 @@ class DataType(object):
     Code = 6
     RelocatableCode = 7
 
-class DataEndianess(object):
+class DataEndianess(Enum):
     Unknown = 0
     BigEndian = 1
     LittleEndian = 2
@@ -100,6 +102,9 @@ class AppSection(object):
         # Fill in missing content attributes
         # Keep in mind this loop is out of order due to how dictionaries work
         for data_address, data_content in content.items():
+            if isinstance(data_address, str):
+                continue
+
             data_content.section = self
             data_content.address = data_address
 
