@@ -33,6 +33,20 @@ function 1: say(avatar, facial_expression, audio) "sentence\n\0"
     facial_expression:
 
         0 = do not show avatar
+        1 = (school uniform) happy
+        2 = (school uniform) angry
+        3 = (school uniform) down
+        4 = (school uniform) happy + loud
+        5 = (school uniform) disappointed
+        6 = (school uniform) blushing
+        7 = (school uniform) concerned
+        8 = (school uniform) wide-eyed/unsure
+        9 = (school uniform) angry/defensive
+        10 = (plug suit) happy
+        11 = (plug suit) concerned
+        12 = (summer outfit) happy
+        13 = (summer outfit) happy + loud
+        14 = (summer outfit) angry
 
         4096 = do not show avatar
         8192 = do not show message box (implies 4096)

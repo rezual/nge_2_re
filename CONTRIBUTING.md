@@ -58,7 +58,7 @@ The tooling for this project is currently written in Python 3 and as such you'll
 2. Run the Python package installer
 
 ### 4. Setting up the nge_2_re tooling
-The nge_2_re tooling will enable us to import, export, pack, unpack, and patch files while we work on translating them. It's important to note the final user will not need to do all this jut to patch the game,
+The nge_2_re tooling will enable us to import, export, pack, unpack, and patch files while we work on translating them. It's important to note the final user will not need to do all this just to patch the game,
 but instead this is needed for developing the patch.
 1. Go to https://github.com/rezual/nge_2_re
 2. Click the big green "Clone or download" button

@@ -1,4 +1,4 @@
-#!/usr/bin/env python2.7
+#!/usr/bin/env python3
 
 import os
 import re
@@ -20,12 +20,12 @@ class DataEndianess(object):
     LittleEndian = 2
 
 class Data(object):
-    def __init__(self, type, byte_size, value=None, comment=None, label=None, group=None, endianess=DataEndianess.LittleEndian):
-        self.type = type
+    def __init__(self, type_of, byte_size, value=None, comment=None, label=None, group=None, endianess=DataEndianess.LittleEndian):
+        self.type = type_of
         self.size = byte_size
 
-        if isinstance(value, basestring):
-            value = value.replace('\\n', '\n').replace('\\0', '\0')
+        if isinstance(value, str):
+            value += '\0'
 
         self.value = value
 
@@ -37,30 +37,36 @@ class Data(object):
         self.section = None
         self.address = None
 
-    def get_word_aligned_trimmed_value(self):
+    def get_word_aligned_trimmed_value(self, size_limit=True):
         # Strings need to be null terminated.
         # A four letter string is 5 bytes due to the null terminator
         # On a MIPS machine, where accesses are done in groups of four bytes,
         # a 5 byte string actually takes 8 bytes
 
-        if self.type == DataType.String and isinstance(self.value, basestring):
-            # Convert UTF8 to Shift-JIS
+        if self.type == DataType.String and isinstance(self.value, str):
+            # Convert Unicode (compile time converted by Python from UTF-8) to Shift-JIS
             try:
-                string_content = self.value.decode('utf-8').encode('shift_jis')
-            except (UnicodeDecodeError, UnicodeEncodeError): 
+                string_content = self.value.encode('shift_jis')
+            except UnicodeEncodeError: 
                 raise Exception('There seems to be an character that cannot be converted to Shift_JIS. Check the text:' + self.value)
 
-            length_without_terminator = min(len(string_content), self.size - 1)
+            length_without_terminator = len(string_content) - 1
+
+            # Size is the original size, length is the translated length
+            # If true, we'll use the original physical size as the limit minus 1
+            if size_limit:
+                length_without_terminator = min(length_without_terminator, self.size - 1)
+
 
             # Find first occurence of '\0' in the last group of '\0's
             while length_without_terminator >= 1:
-                if string_content[length_without_terminator - 1] != '\0':
+                if string_content[length_without_terminator - 1] != b'\0':
                     break
 
                 length_without_terminator -= 1
 
             # Trim value to fit in given size (or better)
-            trimmed_value = string_content[0:length_without_terminator] + '\0\0\0\0'
+            trimmed_value = string_content[0:length_without_terminator] + b'\0\0\0\0'
 
             length_with_terminator = 4 * int((length_without_terminator + 4) / 4)
             
@@ -93,7 +99,7 @@ class AppSection(object):
 
         # Fill in missing content attributes
         # Keep in mind this loop is out of order due to how dictionaries work
-        for data_address, data_content in content.iteritems():
+        for data_address, data_content in content.items():
             data_content.section = self
             data_content.address = data_address
 

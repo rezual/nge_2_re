@@ -77,24 +77,6 @@ class HGArchiveFile(object):
 
         return '%s#id%s.%s' % (file_name, self.identifier, file_format)
 
-        # Sometimes the short name is blank
-        if self.raw_name == b'.':
-            if self.long_name:
-                viable_name = self.long_name.decode('ascii').rstrip(' \t\r\n\0')
-
-        else:
-            viable_name = self.raw_name.decode('ascii').rstrip(' \t\r\n\0')
-
-        if not viable_name:
-            viable_name = (str(self.number))
-        
-        # Append the identifier before the file format
-        if '.' not in viable_name:
-            viable_name += identifier_suffix
-        else:
-            viable_name = (identifier_suffix + '.').join(viable_name.rsplit('.', 1))
-
-        return viable_name
 
     def encode_identifier(self, limit):
         compression_mask = 0
@@ -131,6 +113,7 @@ class HGArchiveFile(object):
 
         mult_result &= (limit - 1)
         self.identifier = mult_result
+
         
 class HGArchive(object):
     def __init__(self):
@@ -191,7 +174,7 @@ class HGArchive(object):
             print('\tDecoded Identifier: 0x%s' % format(file.identifier, '08X'))
             print('')
         
-    def replace(self, file_to_replace, file_content, is_compressed=None):
+    def replace(self, file_to_replace, file_content, is_compressed=False):
         for file in self.files:
             if file.get_viable_name() == file_to_replace:
                 file.content = file_content
@@ -316,10 +299,12 @@ class HGArchive(object):
 
             for file in self.files:
                 # Write short name
-                f.write(file.short_name)
+                short_name_name, short_name_extension = (file.short_name + b'.   ').split(b'.', 1)
+                formatted_short_name = (short_name_name + b' ' * 8)[0:8] + b'.' + (short_name_extension + b' ' * 3)[0:3] 
+                f.write(formatted_short_name)
 
                 # Write encoded identifier
-                #file.encode_identifier(self.identifier_limit)
+                file.encode_identifier(self.identifier_limit)
                 common.write_uint32(f, file.encoded_identifier)
 
                 # Write file size
@@ -417,7 +402,7 @@ if __name__ == '__main__':
             print('\tReplacing %s' % file_to_replace)
             hgar.replace(file_to_replace, file_content, is_compressed=False)
 
-            hgar.save(input_path + '.HGARPACK')
+            hgar.save(input_path + '_REPLACE')
 
         except Exception as e:
             print('Error: %s' % e)
