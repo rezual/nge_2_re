@@ -10314,7 +10314,7 @@ translate_map = {
 '???',
 
 "もう大丈夫なの？\nまだゆっくりしていても\nよかったのよ。\n\0":
-'You\'re already better?\NYou should keep taking things slow.\n\0',
+'You\'re already better?\nYou should keep taking things slow.\n\0',
 
 "あらっ、もう大丈夫なの？\n\0\0\0":
 '???',

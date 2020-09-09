@@ -830,12 +830,12 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001B8FF8: Data(DataType.String, 16, "Character Voices", "キャラボイス"),
     0x001B9008: Data(DataType.String, 12, "Voices On", "ボイス有"),
     0x001B9014: Data(DataType.String, 12, "Voices Off", "ボイス無"),
-    0x001B9020: Data(DataType.String, 16, "Cursor Key Behavior", "方向キー挙動"),
+    0x001B9020: Data(DataType.String, 16, "Directional Button Behavior", "方向キー挙動"),
     0x001B9030: Data(DataType.String, 8, "Movement", "移動"),
-    0x001B9038: Data(DataType.String, 24, "%%1i%%2i%%3i%%4iResponse", "%%1i%%2i%%3i%%4i対応"),
+    0x001B9038: Data(DataType.String, 24, "%%1i%%2i%%3i%%4i", "%%1i%%2i%%3i%%4i対応"),
     0x001B9050: Data(DataType.String, 16, "Exit Options", "オプション終了"),
-    0x001B9060: Data(DataType.String, 28, "Update current settings and close", "現在の設定に更新して終了"),
-    0x001B907C: Data(DataType.String, 24, "Restore default settings and close", "最初の設定に戻して終了"),
+    0x001B9060: Data(DataType.String, 28, "Save changes", "現在の設定に更新して終了"),
+    0x001B907C: Data(DataType.String, 24, "Cancel", "最初の設定に戻して終了"),
     0x001B9554: Data(DataType.String, 8, "Invalid", "無効"),
     0x001B955C: Data(DataType.String, 8, "Motivated", "やる気"),
     0x001B9564: Data(DataType.String, 8, "Happy", "喜び"),
@@ -2117,7 +2117,8 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001C52CC: Data(DataType.String, 24, "Arrived at destination nowmap=%d\n", "目的地に到着 nowmap=%d\n"), # MACHINE_TRANSLATED
     0x001C5894: Data(DataType.String, 12, "Leave %s", "%sを出る"),
     0x001C58A0: Data(DataType.String, 8, "Don't leave", "出ない"),
-    0x001C58A8: Data(DataType.String, 84, "I still have uncleared products.\nWhether to complete the liquidation of the product\nPlease return the product to the product shelf.", "未清算の商品を持ったままです。\n商品の清算を済ませるか\n商品を商品棚に戻して下さい。"), # MACHINE_TRANSLATED
+    #0x001C58A8: Data(DataType.String, 84, "I still have uncleared products.\nWhether to complete the liquidation of the product\nPlease return the product to the product shelf.", "未清算の商品を持ったままです。\n商品の清算を済ませるか\n商品を商品棚に戻して下さい。"), # MACHINE_TRANSLATED
+    0x001C58A8: Data(DataType.String, 84, "DEBUG FIX SHORTER TEXT\nYou have not paid for your items", "未清算の商品を持ったままです。\n商品の清算を済ませるか\n商品を商品棚に戻して下さい。"), # MACHINE_TRANSLATED
     0x001C590C: Data(DataType.String, 48, "Shinji,\nIt's already late today,\nDon't go out.", "シンジ君、\n今日はもう遅いから、\n外出はダメよ。"), # MACHINE_TRANSLATED
     0x001C593C: Data(DataType.String, 12, "Don't go out", "出かけない"), # MACHINE_TRANSLATED
     0x001C5948: Data(DataType.String, 16, "Go out", "外に出かける"), # MACHINE_TRANSLATED
@@ -2207,8 +2208,8 @@ section_rodata = AppSection('.rodata', 0x001B0640, 0x0002A3A0, AppSectionFlag.Al
     0x001C7AD0: Data(DataType.String, 36, "Operating status of support facilities...%3D%\n", "支援施設の稼動状況　…　　　%3D％\n"), # MACHINE_TRANSLATED
     0x001C7AF4: Data(DataType.String, 32, "EVA%s operating status...%3D%\n", "ＥＶＡ%sの稼動状況　…　%3D％\n"), # MACHINE_TRANSLATED
     0x001C7B44: Data(DataType.String, 28, "%04d:There is no title", "%04d：タイトルがありません"),
-    0x001C811C: Data(DataType.String, 16, "Main person selection", "主要人物の選択"), # MACHINE_TRANSLATED
-    0x001C812C: Data(DataType.String, 16, "Select target person", "対象人物の選択"), # MACHINE_TRANSLATED
+    0x001C811C: Data(DataType.String, 16, "Primary person", "主要人物の選択"),
+    0x001C812C: Data(DataType.String, 16, "Target person", "対象人物の選択"),
     0x001C8160: Data(DataType.String, 8, "indifferent", "無関心"),
     0x001C8168: Data(DataType.String, 12, "no common ground", "接点が無い"),
     0x001C8174: Data(DataType.String, 8, "I dislike them", "苦手"),

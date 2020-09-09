@@ -307,7 +307,7 @@ translate_map = {
 "なってしまうので注意してください。\n\0":
 
 # [NOTE] Have no idea what second-to-last sentence means. Placeholder until I get more context and can fix. -R
-"４\nInterpersonal Relationships\n",
+"４\nInterpersonal Relationships\n"
 "These can be be checked in \"Relationships\" in the △\n"
 "button's system menu.\n"
 "Relationships are represented by interest in the\n"
