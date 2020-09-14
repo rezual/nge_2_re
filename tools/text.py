@@ -32,7 +32,7 @@ class TextArchive(object):
 
             # Read number of entries
             number_of_entries = common.read_uint32(f)
-            
+
             # Read size of header
             header_size = common.read_uint32(f)
             if (header_size != 16):
@@ -83,6 +83,12 @@ class TextArchive(object):
                 # Go to the string offset
                 f.seek(offset)
 
+                # If offset is at the end, skip
+                if (offset >= file_size):
+                    self.warn('Out of bounds string in TEXT file, using nulls instead')
+                    self.strings.append((None, None, None))
+                    continue
+
                 # Read the unknowns
                 unknown_first = common.read_uint32(f)
                 unknown_second = common.read_uint32(f)
@@ -97,9 +103,9 @@ class TextArchive(object):
                 # Convert Shift-JIS to unicode
                 string_content = common.from_eva_sjis(raw_string_content)
  
-                # Convert trailing \0's to a single \0
-                string_content = re.sub('\0+$', '\0', string_content)
-
+                # Strip trailing \0's
+                string_content = string_content.rstrip('\0')
+                
                 # Add this string to the array
                 self.strings.append((unknown_first, unknown_second, string_content))
 
@@ -128,17 +134,24 @@ class TextArchive(object):
             previous_string_end = content_start_offset
             converted_strings = []
             for (unknown_first, unknown_second, string_content) in self.strings:
+                # If string is None, because its contents were outside the end of the file,
+                # then recreate the same conditions by injecting a dummy
+                if string_content is None:
+                    converted_strings.append((unknown_first, unknown_second, None, previous_string_end))
+                    continue
+
                 # Calculate the offset of this string based on the end of the previous string
                 string_offset = previous_string_end
+
+                # Add the implicit null terminator
+                string_content += '\0'
 
                 # Convert unicode to Shift-JIS
                 raw_string_content = common.to_eva_sjis(string_content)
 
                 # Calculate how much memory this string takes
-                string_padded_size = common.align_size(len(raw_string_content), 4)
-
-                # Append null-terminators to ensure a 32-bit alignment
-                raw_string_content = (raw_string_content + b'\0\0\0\0')[:string_padded_size]
+                raw_string_content = common.zero_pad_and_align_string(raw_string_content)
+                string_padded_size = len(raw_string_content)
 
                 # Update previous_string_end for the next iteration (+ 8 for the two unknowns)
                 previous_string_end += string_padded_size + 8
@@ -159,6 +172,11 @@ class TextArchive(object):
             # They should already be in order of appearance
             for (unknown_first, unknown_second, string_content, string_offset) in converted_strings:
 
+                # This feature is used by the game to put a
+                # dynamic string at the end possibly
+                if string_content is None:
+                    continue
+
                 # Write the unknowns
                 common.write_uint32(f, unknown_first)
                 common.write_uint32(f, unknown_second)
@@ -167,23 +185,16 @@ class TextArchive(object):
                 f.write(string_content)
 
     def patch(self, patch_file):
-        with open(patch_file) as f:
-            import sys
-            patch_dir = os.path.dirname(patch_file)
-            do_remove = patch_dir not in sys.path
-            if do_remove:
-                sys.path.insert(0, patch_dir)
-
-            patch_code = compile(f.read(), patch_file, 'exec')
-            exec(patch_code, globals(), locals())
-
-            if do_remove:
-                sys.path.remove(patch_dir)
+        translate_map = {}
+        with open (patch_file, "r", encoding='utf-8') as f:
+            translate_map = json.loads(f.read())
 
         # Loop through strings, applying the translate_map
         for string_index, (unknown_first, unknown_second, string_content) in enumerate(self.strings):
-            if translate_map.get(string_content, '???') != '???':
-                self.strings[string_index] = (unknown_first, unknown_second, translate_map[string_content])
+            line = translate_map.get(string_content)
+            if line:
+                translation = line.get("translation") or line.get("machine_deepl") or line.get("machine_google")
+                self.strings[string_index] = (unknown_first, unknown_second, translation)
 
     def export_text(self, file_path):
 
@@ -226,10 +237,6 @@ class TextArchive(object):
 
         # Reprocess strings
         for (unknown_first, unknown_second, string_content) in data['strings']:
-            
-            # Convert trailing \0's to a single \0
-            string_content = re.sub('\0+$', '\0', string_content)
-
             # Add this string to the array
             self.strings.append((unknown_first, unknown_second, string_content))
 

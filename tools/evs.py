@@ -115,6 +115,8 @@ FUNCTION_PARAMETER_SIZE = [
      None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  None,  # 0xF0 - 0xFF
 ]
 
+HAS_CONTENT_SECTION = (0x01, 0x8C, 0x8D, 0xA3, 0x8E, 0x95)
+
 def get_number_of_parameters(entry_type):
     if entry_type >= len(FUNCTION_PARAMETER_SIZE) or entry_type < 0:
         return None
@@ -154,7 +156,7 @@ class EvsWrapper(object):
 
                 # Read entry
                 number_of_parameters = get_number_of_parameters(entry_type)
-                has_content_section = entry_type in (0x01, 0x8C, 0x8D, 0xA3, 0x8E, 0x95)
+                has_content_section = entry_type in HAS_CONTENT_SECTION
 
                 if number_of_parameters is None:
                     # Commands that I've yet to document the parameter count for
@@ -172,10 +174,17 @@ class EvsWrapper(object):
                 if remaining_bytes < 0:
                     raise Exception('Number of parameters overshoots total entry size; entry type: 0x%X, size: %s' % (entry_type, entry_size))
 
-                raw_entry_content = f.read(remaining_bytes)
+                if has_content_section:
+                    raw_entry_content = f.read(remaining_bytes)
 
-                # Convert encoding
-                entry_content = common.from_eva_sjis(raw_entry_content)
+                    # Convert encoding
+                    entry_content = common.from_eva_sjis(raw_entry_content)
+
+                    # Strip trailing \0's
+                    entry_content = entry_content.rstrip('\0')
+
+                else:
+                    entry_content = None
 
                 if not has_content_section and (entry_size != parameter_size):
                     raise Exception('Extra unannounced content in entry type: 0x%X, size: %s' % (entry_type, entry_size))
@@ -198,20 +207,34 @@ class EvsWrapper(object):
             previous_entry_end = 8 + 4 * len(self.entries)
             converted_entries = []
             for (entry_type, entry_parameters, entry_content) in self.entries:
+
+                has_content_section = entry_type in HAS_CONTENT_SECTION
+
                 # Write offset
                 common.write_uint32(f, previous_entry_end)
 
                 # Calculate the size of this entry,
                 # so that we know when the next entry starts
-                # Convert UTF8 to Shift-JIS
-                raw_entry_content = common.to_eva_sjis(entry_content)
+                
+                # Calculate how much memory this string takes
+                if has_content_section:
+                    # Convert UTF8 to Shift-JIS
+                    raw_entry_content = common.to_eva_sjis(entry_content)
+
+                    # We add a single null terminator and only count the single null terminator,
+                    # but later we include the extra alignment padding in the size calculation
+                    string_terminated_size = len(raw_entry_content) + 1
+                    raw_entry_content = common.zero_pad_and_align_string(raw_entry_content)
+                else:
+                    string_terminated_size = 0
+                    raw_entry_content = b''
 
                 # Calculate the entry_size
                 # parameters + content
-                entry_size = 4 * len(entry_parameters) + len(raw_entry_content)
+                entry_size = 4 * len(entry_parameters) + string_terminated_size
 
                 # Update previous_entry_end for the next iteration
-                # Add 4 for the entry_type and entry_size fields, along with padding
+                # Add 4 for the entry_type (omitted in the entry_size calculation)
                 previous_entry_end += common.align_size(4 + entry_size, 4)
 
                 # Add the entry to the converted entries
@@ -233,28 +256,17 @@ class EvsWrapper(object):
                 # Write the content
                 f.write(raw_entry_content)
 
-                # Add padding
-                entry_padding = (common.align_size(entry_size, 4) - entry_size)
-                f.write(b'\0' * entry_padding)
-
     def patch(self, patch_file):
-        with open(patch_file) as f:
-            import sys
-            patch_dir = os.path.dirname(patch_file)
-            do_remove = patch_dir not in sys.path
-            if do_remove:
-                sys.path.insert(0, patch_dir)
-
-            patch_code = compile(f.read(), patch_file, 'exec')
-            exec(patch_code, globals(), locals())
-
-            if do_remove:
-                sys.path.remove(patch_dir)
+        translate_map = {}
+        with open (patch_file, "r", encoding='utf-8') as f:
+            translate_map = json.loads(f.read())
 
         # Loop through strings, applying the translate_map
         for entry_index, (entry_type, entry_parameters, entry_content) in enumerate(self.entries):
-            if translate_map.get(entry_content, '???') != '???':
-                self.entries[entry_index] = (entry_type, entry_parameters, translate_map[entry_content])
+            line = translate_map.get(entry_content)
+            if line:
+                translation = line.get("translation") or line.get("machine_deepl") or line.get("machine_google")
+                self.entries[entry_index] = (entry_type, entry_parameters, translation)
 
     def export_evs(self, file_path):
 
@@ -299,9 +311,6 @@ class EvsWrapper(object):
             entry_type = entry['function']
             entry_parameters = entry['parameters']
             entry_content = entry['content']
-
-            # Convert trailing \0's to a single \0
-            entry_content = re.sub('\0+$', '\0', entry_content)
 
             # Add this string to the array
             self.entries.append((entry_type, entry_parameters, entry_content))

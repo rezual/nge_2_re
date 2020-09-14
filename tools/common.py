@@ -43,6 +43,11 @@ def get_file_size(file_handle):
 def align_size(unaligned_size, alignment):
     return alignment * int((unaligned_size + alignment - 1) / alignment)
 
+def zero_pad_and_align_string(content):
+    # Pad string to a size divisible by 4
+    padded_length = 4 * int((len(content) + 4) / 4)
+    return (content + b'\0\0\0\0')[0:padded_length]
+
 def from_eva_sjis(content):
     # Convert nge2 SJIS to unicode
     try:
@@ -52,20 +57,20 @@ def from_eva_sjis(content):
         raise Exception('There seems to be a character that cannot be converted to unicode. Check the text:' + repr(content))
 
     # Convert special NGE2 characters
-    content = content.replace('Θ', 'J.')
-    content = content.replace('Α', 'A.')
-    content = content.replace('Τ', 'T.')
-    content = content.replace('Ν', 'N²')
-    content = content.replace('Σ', 'S²')
-    content = content.replace('Ｓ', 'S')
+    #content = content.replace('Θ', 'J.')
+    #content = content.replace('Α', 'A.')
+    #content = content.replace('Τ', 'T.')
+    #content = content.replace('Ν', 'N²')
+    #content = content.replace('Σ', 'S²')
+    #content = content.replace('Ｓ', 'S')
 
     return content
 
 def to_eva_sjis(content):
     # Convert special NGE2 characters
     # We let most remain as regular ASCII
-    content = content.replace('N²', 'Ν')
-    content = content.replace('S²', 'Σ')
+    #content = content.replace('N²', 'Ν')
+    #content = content.replace('S²', 'Σ')
 
     # Convert unicode to nge2 SJIS
     try:

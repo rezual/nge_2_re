@@ -359,6 +359,8 @@ if __name__ == '__main__':
         file_to_replace = sys.argv[3]
         file_to_inject = sys.argv[4]
 
+        from zipped import ZipWrapper
+
         try:
             print('Opening %s:' % input_path)
 
@@ -366,8 +368,12 @@ if __name__ == '__main__':
             hgar.open(input_path)
 
             print('\tLoading %s' % file_to_inject)
+            zip_wrapper = ZipWrapper()
+            zip_wrapper.compress_from(file_to_inject)
+            zip_wrapper.save(file_to_inject + '.COMPRESSED')
+
             file_content = ''
-            with open(file_to_inject, 'rb') as f:
+            with open(file_to_inject + '.COMPRESSED', 'rb') as f:
                 file_content = f.read()
             
             print('\tReplacing %s' % file_to_replace)

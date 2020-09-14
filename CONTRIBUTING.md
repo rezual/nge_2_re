@@ -185,6 +185,44 @@ The `patches` directory contains the following:
 - `evs_#.py`
 	- Translation patches for the `.evs` scripts found in unpacked event `.har` files. They'll need to be patched with `tools/evs.py` (WIP) followed by re-injecting the patched `.evs` into the `.har` file using `tools/hgar.py --replace-raw`
 
+## Project Folder Breakdown
+- **game_app:** Contains the game disassembly as Python code.
+	- app.py: Python summary of the decrypted EBOOT.bin information
+	- section_data.py: Contains a listing of the read-writeable addresses within the game and descriptions
+	- section_rodata.py: Contains a listing of the read-only addresses within the game and descriptions
+	- section_text.py: The game disassembly
+	- support.py: Support functions and classes for the above files
+- **patches:** 
+	-   `eboot_data.py`
+	    -   Translation patches for the writable parts of the game code, in the  `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`  file
+	    -   No method to apply yet
+	-   `eboot_rodata.py`
+	    -   Translation patches for the read-only parts of the game code, in the  `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`  file
+	    -   No method to apply yet
+	-   `f2info.py`
+	    -   Translation patches for the text entries in the game’s Secret Information menu
+	    -   Can be applied with:  `text.py --patch path_to_extracted_game/PSP_GAME/USRDIR/free/f2info.bin path_to_toolchain/patches/f2info.py`
+	-   `f2tuto.py`
+	    -   Translation patches for the text entries in the game's Tutorial menu
+	    -   Can be applied with:  `text.py --patch path_to_extracted_game/PSP_GAME/USRDIR/free/f2tuto.bin path_to_toolchain/patches/f2tuto.py`
+	-   `imtext_#.py`
+	    -   Translation patches for the TEXT  `.bin`'s in the BIND  `umd0:/PSP_GAME/USRDIR/game/imtext.bin`
+	    -   The BIND  `.bin`  will need to be unpacked with  `tools/bind.py --unpack`  and then you can use  `text.py --patch`  to patch the resulting TEXT  `.bin`'s, followed by re-packing the files with  `tools/bind.py --repack`  again
+	-   `btimtext.py`
+	    -   Translation patches for the TEXT  `.bin`'s in the BIND  `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
+	    -   The BIND  `.bin`  will need to be unpacked with  `tools/bind.py --unpack`  and then you can use  `text.py --patch`  to patch the resulting TEXT  `.bin`'s, followed by re-packing the files with  `tools/bind.py --repack`  again
+	-   `evs_#.py`
+	    -   Translation patches for the  `.evs`  scripts found in unpacked event  `.har`  files. They'll need to be patched with  `tools/evs.py` followed by re-injecting the patched  `.evs`  into the  `.har`  file using  `tools/hgar.py --replace-raw`
+- **tools:**
+	- `wave.py`: Pack/Unpack WAVE `.bin` files in: `umd0:/PSP_GAME/USRDIR/voice/` 
+	- `bind.py`: Pack/Unpack BIND `.bin` files, `umd0:/PSP_GAME/USRDIR/game/imtext.bin` and `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin`
+	- `text.py`: Export/Import/Patch TEXT `.bin` files, found in BIND `.bin` files after unpacking, and `umd0:/PSP_GAME/USRDIR/free/f2tuto.bin` along with `umd0:/PSP_GAME/USRDIR/free/f2info.bin`
+	- `hgar.py`: Unpack/Modify `.har` files. Uses `zipped.py` to decompress, but cannot recompress. Use `--replace-raw` to replace files & turn-off the compression bit, where-as `--replace` keeps the compression bit on.
+	- `zipped.py`: Decompress/compress `.zpt` files
+	- `hgpt.py`: Export/Import Pictures
+	- `evs.py`: Export/Import Event Scripts
+- **unused:** These files are no longer used but may be helpful to others
+
 ## Technical Considerations
 1. The game's text uses Shift-JIS encoding with a few tweaks by the game's developers,
     to account for characters such as `²`  not existing in Shift-JIS.
@@ -258,14 +296,14 @@ The `patches` directory contains the following:
 ## Translation Conventions
 1. **Character names:**
 	1. **Name order**: `First Name` before `Last Name`
-		Example: Shinji Ikari
-	2. **Compound last name order:** `Japanese Last Name` before `Foreign Last Name`
-		Example: Asuka Soryu Langley
+		Example: `Shinji Ikari`
+	2. **Compound last name order:** `Foreign Last Name` before `Japanese Last Name`
+		Example: `Asuka Langley Soryu`
 	3. **Honorifics:** Keep them. If you run into `Ikari Shinji-kun`, where the name order rule would make it `Shinji Ikari`, make it `Shinji Ikari-kun`
 		Example: Shinji-kun.
 	4. **Exceptions:** In menus (which are a few of the entries in `patches/eboot_rodata.py` & `patches/eboot_data.py`), drop the Last name and instead use the First name only to save on menu-screen space.
 	5. **Special Considerations:**
-		- `キール` `ローレンツ` should be Kiel Lorenz
+		- `キール` `ローレンツ` should be `Kiel Lorenz`
 		- `ペンペン` should be `Pen Pen`, and not `PenPen` nor `Pen-Pen`
 		- `JA2`  should be `J.A.2`
 2. **Other Names**
@@ -289,27 +327,28 @@ The `patches` directory contains the following:
 		- Do Not: `JA` to `Jet Alone`
 	2. **Periods:** Common acronyms should OMIT periods. Non-common/Eva acronyms should maintain periods.
 		- Common acronyms: `TV`, `DNA`, `WC`, `UN`, `US`/`USA`
-		- Uncommon acronyms: `A.T.`, `J.A.`
+		- Uncommon/Eva acronyms: `A.T.`, `J.A.`
 4. **Abbreviations:**
 	If it's a common word, keep the abbreviation and the period.
 	For non-common/Eva words, keep the abbreviation but leave out the period.
-	- Do: Prog Knife
-	- Do Not: Prog. Knife
-	- Do Not: Progressive Knife
-	Rationale:
+	- Do: `Prog Knife`
+	- Do Not: `Prog. Knife`
+	- Do Not: `Progressive Knife`
+	Rationale for omitting the period on non-common/Eva words:
 	- Usually abbreviations are used for very common words,
-	- but Progressive is not common. So if one writes prog. it looks like a sentence end,
+	- but `Progressive` is not common. So if one writes `prog.` it looks like a sentence end,
 	- and as such is jarring.
 5. **Word Casing:**
-	Actions should be normal sentences,
+	Actions should be sentence cased,
 	- Examples: `Open the door` and `Press button`
 	But items and attack names should be capitalized,
 	- Examples: `Ultra Spin Kick`, `Lightning Storm`, `Cold Pizza`
 6. **Recurring settled translations:**
 	- These are phrases that may appear often,
 	and it was decided that a more natural translation should be used:
-		- 1. 心の迷宮 (kokoro no meikyuu): literally "emotional maze", but instead go with "labyrinth of the heart"
-		- 2. Keel Lorenz, or Kiel Lorenz? Go with Kiel to be in-line with the most recent official translation of Kiel in the `Evangelion Chronicle`, and it's the more realistic German name.
+		- 1. `心の迷宮` `(kokoro no meikyuu)`: literally "emotional maze", but instead go with "labyrinth of the heart"
+		- 2. `Keel Lorenz`, or `Kiel Lorenz`? Go with `Kiel Lorenz` to be in-line with the most recent official translation of `Kiel` in the `Evangelion Chronicle`, and it's the more realistic German name.
+		- 3. `Senpai` or `Sempai`: Go with `Senpai` since it's the more common spelling.
 7. **Angel Ordinals:**
 	In the `.evs` files, you'll see `第$d使徒` for "The `$d` Angel." The `$d` just fills in a plain integer, and in Japanese the Kanji `第` makes the integer that follows it an ordinal. When translating, this doesn't work since it'll become `The 4 Angel` instead of `The 4th Angel`. 
 	For now, go with `$dth`. We can revisit it by trying to modify the game code to generate the suffix properly later.

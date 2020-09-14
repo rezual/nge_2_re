@@ -48,17 +48,12 @@
 
 import binascii
 import os
+import json
 
-from game_app.support import *
-
-from patches.eboot_rodata import section_rodata
-from patches.eboot_data import section_data
+import tools.common as common
 
 title = 'Shinseiki Evangelion 2: Tsukurareshi Sekai - Another Cases'
 serial_number = 'ULJS-00064' 
-
-# Generate address, value pairs
-cwcheat_code_list = []
 
 # The start and stop of the rodata and data sections
 GAME_DATA_BASE = 0x89B4640
@@ -69,40 +64,86 @@ GAME_DATA_TOP = 0x8A57DFC
 FREE_MEM_BASE = 0x9F53900
 FREE_MEM_TOP = 0x9F97400
 
+# Load the eboot translations
+with open ("./translations/eboot.json", "r", encoding='utf-8') as f:
+    eboot_translations = json.loads(f.read())
+
+with open ("./translations/global_translation_phrases.json", "r", encoding='utf-8') as f:
+    global_translations = json.loads(f.read())
+
+# The translations can have top-level groups,
+# collapse the groups into one top-level
+eboot_translations_bubbled_up = []
+for _, translation_list in eboot_translations.items():
+    eboot_translations_bubbled_up.extend(translation_list)
+
+eboot_translations = eboot_translations_bubbled_up
+
+# Generate address, value pairs
+cwcheat_code_list = []
+
+def cwcheat(address, value):
+    cwcheat_formatted_address = '0x2' + format(address - 0x08800000, '07x').upper()
+    cwcheat_formatted_value = '0x' + format(value, '08x').upper()
+
+    cwcheat_code_list.append((cwcheat_formatted_address, cwcheat_formatted_value))
+
+# The buffer will store the Japanese string address
+# followed by the translated string address
 ADDRESS_REMAP_CONTENT = {}
 
 STRING_BUFFER_START_ADDRESS = FREE_MEM_BASE
 STRING_BUFFER_ADDRESS = STRING_BUFFER_START_ADDRESS
 
 # Convert the string buffer to CWCheats
-for section in (section_data, section_rodata):
-    for _, data in section.content.items():
-        if data.type != DataType.String:
-            continue
+for line in eboot_translations:
+    # There should be a human provided translation in the eboot json
+    translation = line.get("translation") 
 
-        # Skip yet to be translated
-        if data.value is None:
-            continue
+    # If not, look for the translation in the global phrases
+    if not translation:
+        translation = global_translations.get(line.get("original"), {})
+        translation = translation.get("machine_deepl") or translation.get("machine_google")
 
-        if not isinstance(data.value, str):
-            continue
+    # Skip untranslated lines
+    if translation is None:
+        continue
 
-        # Generate the Cwcheat code
-        value = data.get_word_aligned_trimmed_value(size_limit=False)
-    
+    translation = common.to_eva_sjis(translation)
+
+    # Parse the technical
+    elf, ram, technical_size = line.get("technical", "::,:,:").split(",")
+    _, elf_section, elf_address = elf.split(":")
+    _, ram_address_str = ram.split(":")
+    _, original_size = technical_size.split(":")
+    original_size = int(original_size, 10)
+    ram_address = int(ram_address_str, 0)
+
+    # Generate the Cwcheat code
+    value = common.zero_pad_and_align_string(translation)
+
+    # If the string is less than the original,
+    # then just overwrite the original
+    if len(value) <= original_size:
+        fourths_counter = 0
+        while fourths_counter < len(value):
+            word_value = int.from_bytes(value[fourths_counter:fourths_counter + 4], byteorder='little', signed=False)
+        
+            cwcheat(ram_address + fourths_counter, word_value)
+
+            fourths_counter += 4
+
+    else:
         # Add the remap entry
-        source_address = 0x08804000 + data.address
+        source_address = ram_address
         destination_address = STRING_BUFFER_ADDRESS
         ADDRESS_REMAP_CONTENT[source_address] = destination_address
 
         fourths_counter = 0
         while fourths_counter < len(value):
-            word_value = value[fourths_counter:fourths_counter + 4]
+            word_value = int.from_bytes(value[fourths_counter:fourths_counter + 4], byteorder='little', signed=False)
         
-            cwcheat_formatted_address = '0x2' + format(STRING_BUFFER_ADDRESS - 0x08800000, '07x').upper()
-            cwcheat_formatted_value = '0x' + (binascii.hexlify(word_value[::-1]).upper()).decode('utf-8')
-
-            cwcheat_code_list.append((cwcheat_formatted_address, cwcheat_formatted_value))
+            cwcheat(STRING_BUFFER_ADDRESS, word_value)
 
             fourths_counter += 4
             STRING_BUFFER_ADDRESS += 4
@@ -131,13 +172,6 @@ for source_address in sorted(ADDRESS_REMAP_CONTENT.keys()):
     cwcheat_code_list.append((cwcheat_formatted_address, cwcheat_formatted_value))
 
     ADDRESS_REMAP_ADDRESS += 4
-
-# Add the code
-def cwcheat(address, value):
-    cwcheat_formatted_address = '0x2' + format(address - 0x08800000, '07x').upper()
-    cwcheat_formatted_value = '0x' + format(value, '08x').upper()
-
-    cwcheat_code_list.append((cwcheat_formatted_address, cwcheat_formatted_value))
 
 # Address remap
 LOOKUP_START_ADDRESS = ADDRESS_REMAP_ADDRESS
@@ -367,6 +401,11 @@ cwcheat(0x08873F9C, 0x00000000) # nop
 # Cwcheat has a limit of how many lines per cheat, so bucket them
 print('_S ' + serial_number)
 print('_G ' + title)
+
+print('''
+_C1 Debug menu: Daily Special Debug
+_L 0x201C97CC 0x088984C0
+''')
 
 cheat_group = 1
 cheat_number = 0
