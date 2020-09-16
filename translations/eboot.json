@@ -8,7 +8,7 @@
         {
             "technical": "elf:rodata:0x001B1880,ram:0x089B5880,size:72",
             "original": "原作どおりに展開する。\nチュートリアルを含み、\n初めてのプレイに最適。",
-            "translation": "Follows the events of the show.\nIncludes a tutorial and\nideal for first-time players."
+            "translation": "Follows the events of the show.\nIncludes a tutorial, ideal for\nfirst-time players."
         },
         {
             "technical": "elf:rodata:0x001B18C8,ram:0x089B58C8,size:76",
@@ -18,12 +18,12 @@
         {
             "technical": "elf:rodata:0x001B1914,ram:0x089B5914,size:72",
             "original": "綾波レイとなる以前の自分、\nそして未来を見つめる。\nレイの魂の目的は…？",
-            "translation": "Rei Ayanami's gaze is fixed upon her\nformer self -- and upon her future.\nWhat is Rei's soul planning...?"
+            "translation": "Rei Ayanami's gaze is fixed upon her\nformer self and upon her future.\nWhat is her soul's purpose...?"
         },
         {
             "technical": "elf:rodata:0x001B195C,ram:0x089B595C,size:80",
             "original": "己の脆さを隠し、戦うアスカ。\n補完の果てに、心の呪縛を\n解き放つ事が出来るのか。",
-            "translation": "Asuka fights, keeping her fragility hidden.\nCan the curse on her heart\nbe lifted at Instrumentality's end?"
+            "translation": "Asuka fights, keeping her fragility\nhidden. Can the curse on her heart\nbe lifted at Instrumentality's end?"
         },
         {
             "technical": "elf:rodata:0x001B19AC,ram:0x089B59AC,size:64",
@@ -33,27 +33,27 @@
         {
             "technical": "elf:rodata:0x001B19EC,ram:0x089B59EC,size:76",
             "original": "望みは唯一つ、神への道。\n全ての心を一つにする為に、\n男はその時を待つ…。",
-            "translation": "There is but one hope: the Way to God.\nSo that all hearts can be made one,\na man waits for that time..."
+            "translation": "There's but one hope - a way to God.\nSo that all hearts can be made one,\na man waits for that moment..."
         },
         {
             "technical": "elf:rodata:0x001B1A38,ram:0x089B5A38,size:80",
             "original": "かつての想い人の香りと影を\n追って、夢の中に舞う…。\nそして想い人との再会は…。",
-            "translation": "Drifting within a dream,\nchasing the scent and shadow of an old loved one...\nAnd as for his reunion with her..."
+            "translation": "Drifting within a dream, chasing the\nscent and shadow of a former loved\none...And for his reunion with her..."
         },
         {
             "technical": "elf:rodata:0x001B1A88,ram:0x089B5A88,size:76",
             "original": "弄ばれた女の意地。\n女の炎にただれていく男達。\n最後にひざまずくのはあの男。",
-            "translation": "The pride of a woman who's been toyed with.\nMen being inflamed by a female inferno. The one who'll be kneeling in the end is HIM."
+            "translation": "The pride of a woman who's been toyed\nwith. Men enflamed by a woman's\nfire.The last to kneel will be HIM."
         },
         {
             "technical": "elf:rodata:0x001B1AD4,ram:0x089B5AD4,size:92",
             "original": "汚れたくない思いで世界を拒み、\n居場所を求め虚勢を張るマヤ。\n彼女が安らぎを得られる日は…。",
-            "translation": "Maya rejects the world from a desire to not be sullied,\nputting on a brave face as she seeks the place she belongs.\nThe day she will find her peace is coming..."
+            "translation": "She rejects the world to stay clean,\nbravely seeking where she belongs.\nThe day she can find peace nears..."
         },
         {
             "technical": "elf:rodata:0x001B1B30,ram:0x089B5B30,size:80",
             "original": "ミサトに会う口実の為に真実を\n追う日向。そして、甘く、\nだらしなく交わる男と女。",
-            "translation": "Hyuga pursues the truth as a pretext to\nmeet with Misato. And so follow the sweet,\nreckless relations between man and woman."
+            "translation": "As an excuse to meet Misato, Hyuga\npursues truth. Sweet and messy\nrelations between a man and a woman."
         },
         {
             "technical": "elf:rodata:0x001B1B80,ram:0x089B5B80,size:88",
@@ -68,32 +68,32 @@
         {
             "technical": "elf:rodata:0x001B1C08,ram:0x089B5C08,size:76",
             "original": "入院する妹の為に、自分が\n出来る事…。全てを尽くして\n得られた現実とは…？",
-            "translation": "For the sake of his hospitalized sister, doing\nthe things he can do... What\nwill Toji's reality be like in the end...?"
+            "translation": "Doing what he can for his\nhospitalized sister... What will\nToji's reality be like in the end...?"
         },
         {
             "technical": "elf:rodata:0x001B1C54,ram:0x089B5C54,size:88",
             "original": "エヴァのパイロットに憧れ、    \nその果てに知った絶え難い現実。\n夢から覚めた後の悲劇とは…。",
-            "translation": "Dreaming of becoming an Eva pilot until\nthe end, what tragedy awaits after\nawaking from this dream...?"
+            "translation": "Dreaming of becoming an Eva pilot\nuntil the end, what tragedy awaits\nafter awaking from this dream...?"
         },
         {
             "technical": "elf:rodata:0x001B1CAC,ram:0x089B5CAC,size:80",
             "original": "募りゆくトウジへの想い。\n素直になれないヒカリ。\nすれ違う２人の恋の行方は…。",
-            "translation": "The meek Hikari, her thoughts of Toji\ngrowing deeper. The love of two who\npass each other by."
+            "translation": "Her feelings for Toji growing.\nHikari can't be honest. The love of\ntwo who pass each other by..."
         },
         {
             "technical": "elf:rodata:0x001B1CFC,ram:0x089B5CFC,size:84",
             "original": "使徒として生まれたカヲルの\n魂の向かう先…。使徒として\n力を解放した時、カヲルは…。",
-            "translation": "Born as an Angel, where is Kaworu's\nsoul headed? Upon releasing his\npower as an Angel, he..."
+            "translation": "Born as an Angel, where is\nKaworu's soul headed? Upon releasing\nhis power as an Angel, he..."
         },
         {
             "technical": "elf:rodata:0x001B1D50,ram:0x089B5D50,size:76",
             "original": "幸せになりたいペンペンの\n懸賞生活が始まる。\nクーポンシールを集めまくれ！",
-            "translation": "Seeking happiness, Pen Pen's sweepstakes\nlife begins. Collect all the\ncoupon stickers you can!"
+            "translation": "Seeking happiness, Pen Pen's\nsweepstakes life begins. Collect all\nthe coupon stickers you can!"
         },
         {
             "technical": "elf:rodata:0x001B1D9C,ram:0x089B5D9C,size:52",
             "original": "難易度最高。\n絶望的な状況から、\n人類の勝利を掴め！",
-            "translation": "Highest difficulty.\nSnatch humanity's victory from the\njaws of defeat!"
+            "translation": "Highest difficulty. From a desperate\nsituation, seize victory for\nhumanity!"
         },
         {
             "technical": "elf:rodata:0x001B1E98,ram:0x089B5E98,size:12",

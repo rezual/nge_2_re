@@ -315,7 +315,7 @@ The `patches` directory contains the following:
 		Use the more modern Angel name spellings from the Eva Chronicle (left column): https://wiki.evageeks.org/Evangelion_Chronicle
 	4. **Eva Units:**
 		Follow the source,
-		- If it's, `初号機`, use `Eva-01`
+		- If it's, `初号機`, use `Unit-01`
 		- If it's `エヴァ初号機`, use `Eva Unit-01`
 	6. **Special Considerations:**
 		- `マギ` should be MAGI
@@ -323,11 +323,11 @@ The `patches` directory contains the following:
 		- `機密` should be Classified Information
 3. **Acronyms:**
 	1. **Expansion:** Do not expand if the source isn't expanded.
-		- Do: `JA` to `J.A.`
+		- Do: `J.A.` to `JA`
 		- Do Not: `JA` to `Jet Alone`
 	2. **Periods:** Common acronyms should OMIT periods. Non-common/Eva acronyms should maintain periods.
 		- Common acronyms: `TV`, `DNA`, `WC`, `UN`, `US`/`USA`
-		- Uncommon/Eva acronyms: `A.T.`, `J.A.`
+		- Uncommon/Eva acronyms: `AT`, `JA`
 4. **Abbreviations:**
 	If it's a common word, keep the abbreviation and the period.
 	For non-common/Eva words, keep the abbreviation but leave out the period.

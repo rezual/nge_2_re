@@ -61,8 +61,11 @@ GAME_DATA_TOP = 0x8A57DFC
 
 # The game doesn't use these memory regions,
 # but it might turn out it does in which case it might crash
-FREE_MEM_BASE = 0x9F53900
-FREE_MEM_TOP = 0x9F97400
+# ORIGINAL_TOP = 0x9F53900 
+FREE_MEM_BASE = 0x09F60000 + 0x00001000
+FREE_MEM_TOP =  0x09F97400
+
+# Translation needs about 0x17390 bytes or 92 Kb
 
 # Load the eboot translations
 with open ("./translations/eboot.json", "r", encoding='utf-8') as f:
@@ -403,8 +406,20 @@ print('_S ' + serial_number)
 print('_G ' + title)
 
 print('''
-_C1 Debug menu: Daily Special Debug
+_C0 Debug menu: Daily Special Debug
 _L 0x201C97CC 0x088984C0
+''')
+
+print('''
+_C1 Pulse autowin
+This disables player input in the Pulse mini-game
+which is needed to prevent a crash from player input
+interferring and then changes the Miss check to go
+to a Win check
+_L 0x2005B478 0x00000000
+_L 0x2005B5FC 0x00000000
+_L 0x2005B5CC 0x0A216D82
+_L 0x2005B5C4 0x00000000
 ''')
 
 cheat_group = 1
