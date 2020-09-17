@@ -1733,7 +1733,7 @@
         {
             "technical": "elf:rodata:0x001B4298,ram:0x089B8298,size:16",
             "original": "コンビニ弁当",
-            "translation": "Easy Bento Box"
+            "translation": "Easy Bento"
         },
         {
             "technical": "elf:rodata:0x001B42A8,ram:0x089B82A8,size:36",
@@ -1743,7 +1743,7 @@
         {
             "technical": "elf:rodata:0x001B42CC,ram:0x089B82CC,size:40",
             "original": "ごくありふれたコンビニ弁当。空腹を回復",
-            "translation": "Super-typical pre-made bento box. Reduces hunger."
+            "translation": "Super-typical pre-made bento. Reduces hunger."
         },
         {
             "technical": "elf:rodata:0x001B42F4,ram:0x089B82F4,size:24",
@@ -2618,7 +2618,7 @@
         {
             "technical": "elf:rodata:0x001B58D8,ram:0x089B98D8,size:20",
             "original": "奇跡の手作り弁当",
-            "translation": "Handmade Miracle Bento Box"
+            "translation": "Handmade Miracle Bento"
         },
         {
             "technical": "elf:rodata:0x001B58EC,ram:0x089B98EC,size:48",
@@ -2633,7 +2633,7 @@
         {
             "technical": "elf:rodata:0x001B5940,ram:0x089B9940,size:20",
             "original": "おいしそうなお弁当",
-            "translation": "Yummy-Looking Bento Box"
+            "translation": "Yummy-Looking Bento"
         },
         {
             "technical": "elf:rodata:0x001B5954,ram:0x089B9954,size:44",
@@ -2653,17 +2653,17 @@
         {
             "technical": "elf:rodata:0x001B59B4,ram:0x089B99B4,size:12",
             "original": "普通の弁当",
-            "translation": "Normal Bento Box"
+            "translation": "Normal Bento"
         },
         {
             "technical": "elf:rodata:0x001B59C0,ram:0x089B99C0,size:16",
             "original": "残りもの弁当",
-            "translation": "Leftover Bento Box"
+            "translation": "Leftover Bento"
         },
         {
             "technical": "elf:rodata:0x001B59D0,ram:0x089B99D0,size:16",
             "original": "まずそうな弁当",
-            "translation": "Gross-Looking Bento Box"
+            "translation": "Gross-Looking Bento"
         },
         {
             "technical": "elf:rodata:0x001B59E0,ram:0x089B99E0,size:60",
@@ -4033,7 +4033,7 @@
         {
             "technical": "elf:rodata:0x001B8E1C,ram:0x089BCE1C,size:28",
             "original": "勇気を出して、お弁当を渡す",
-            "translation": "You find courage enough to hand over the bento box"
+            "translation": "You find courage enough to hand over the bento"
         },
         {
             "technical": "elf:rodata:0x001B8FA0,ram:0x089BCFA0,size:16",
@@ -4448,7 +4448,7 @@
         {
             "technical": "elf:rodata:0x001B9AB8,ram:0x089BDAB8,size:20",
             "original": "プログナイフ・切る",
-            "translation": "Prog Knife Cutting"
+            "translation": "Prog Knife Cut"
         },
         {
             "technical": "elf:rodata:0x001B9ACC,ram:0x089BDACC,size:28",
@@ -4893,22 +4893,22 @@
         {
             "technical": "elf:rodata:0x001BA464,ram:0x089BE464,size:16",
             "original": "姿勢を構える",
-            "translation": "Ready stance"
+            "translation": "Ready Stance"
         },
         {
             "technical": "elf:rodata:0x001BA474,ram:0x089BE474,size:16",
             "original": "ナイフを構える",
-            "translation": "Ready knife"
+            "translation": "Knife Stance"
         },
         {
             "technical": "elf:rodata:0x001BA484,ram:0x089BE484,size:16",
             "original": "ソードを構える",
-            "translation": "Ready sword"
+            "translation": "Sword Stance"
         },
         {
             "technical": "elf:rodata:0x001BA494,ram:0x089BE494,size:16",
             "original": "狙いをつける",
-            "translation": "Take aim"
+            "translation": "Take Aim"
         },
         {
             "technical": "elf:rodata:0x001BA4A4,ram:0x089BE4A4,size:12",
@@ -4968,7 +4968,7 @@
         {
             "technical": "elf:rodata:0x001BA53C,ram:0x089BE53C,size:20",
             "original": "ΑΤフィールド全開",
-            "translation": "Release A.T. Field"
+            "translation": "Release AT Field"
         },
         {
             "technical": "elf:rodata:0x001BA550,ram:0x089BE550,size:16",
@@ -5113,12 +5113,12 @@
         {
             "technical": "elf:rodata:0x001BA70C,ram:0x089BE70C,size:8",
             "original": "%d以上",
-            "translation": "More than %d"
+            "translation": "> %d"
         },
         {
             "technical": "elf:rodata:0x001BA714,ram:0x089BE714,size:8",
             "original": "%3d消費",
-            "translation": "%3d consumption"
+            "translation": "%d cost"
         },
         {
             "technical": "elf:rodata:0x001BA71C,ram:0x089BE71C,size:8",
@@ -5128,7 +5128,7 @@
         {
             "technical": "elf:rodata:0x001BA724,ram:0x089BE724,size:8",
             "original": "%d以下",
-            "translation": "Less than %d"
+            "translation": "< %d"
         },
         {
             "technical": "elf:rodata:0x001BB6B8,ram:0x089BF6B8,size:76",
@@ -7198,7 +7198,7 @@
         {
             "technical": "elf:rodata:0x001BE4B0,ram:0x089C24B0,size:24",
             "original": "ペンペンにかまってみる",
-            "translation": "Try doting on Pen Pen"
+            "translation": "Try pampering Pen Pen"
         },
         {
             "technical": "elf:rodata:0x001BE4C8,ram:0x089C24C8,size:20",
@@ -8768,7 +8768,7 @@
         {
             "technical": "elf:rodata:0x001BFD7C,ram:0x089C3D7C,size:12",
             "original": "弁当を作る",
-            "translation": "Make bento box"
+            "translation": "Make bento"
         },
         {
             "technical": "elf:rodata:0x001BFD88,ram:0x089C3D88,size:20",
@@ -9253,7 +9253,7 @@
         {
             "technical": "elf:rodata:0x001C04C8,ram:0x089C44C8,size:24",
             "original": "ΑΤの高さを感心する",
-            "translation": "Admire their high A.T."
+            "translation": "Admire their high AT"
         },
         {
             "technical": "elf:rodata:0x001C04E0,ram:0x089C44E0,size:16",
@@ -10533,7 +10533,8 @@
         {
             "technical": "elf:rodata:0x001C593C,ram:0x089C993C,size:12",
             "original": "出かけない",
-            "translation": null
+            "translation": "Stay",
+            "note": "Must be < 12 ASCII characters, game copies exact bytes"
         },
         {
             "technical": "elf:rodata:0x001C5948,ram:0x089C9948,size:16",
@@ -11378,7 +11379,7 @@
         {
             "technical": "elf:rodata:0x001C87B8,ram:0x089CC7B8,size:24",
             "original": "%sが話し掛けてきた。",
-            "translation": "%s addressed to you."
+            "translation": "%s spoke to you."
         },
         {
             "technical": "elf:rodata:0x001C87D0,ram:0x089CC7D0,size:36",
@@ -12767,13 +12768,13 @@
         },
         {
             "technical": "elf:rodata:0x001CB11C,ram:0x089CF11C,size:28",
-            "original": "インパルス　シンクロ技能",
-            "translation": "Impulse, Synch Skill"
+            "original":    "インパルス　シンクロ技能",
+            "translation": "[Impulse]  [Synch Skill]"
         },
         {
             "technical": "elf:rodata:0x001CB138,ram:0x089CF138,size:60",
-            "original": "ＥＶＡ%s　戦闘行動リスト\n\n戦闘行動名称　　　　　　ΑΤ条件\n",
-            "translation": "Eva%s   Combat Behavior List\n\nCombat Behavior Name           A.T. Requirements\n"
+            "original":    "ＥＶＡ%s　戦闘行動リスト\n\n戦闘行動名称　　　　　　ΑΤ条件\n",
+            "translation": "[Eva %s Battle Action List]\n\n[Action]          [AT State]\n"
         },
         {
             "technical": "elf:rodata:0x001CB174,ram:0x089CF174,size:8",
@@ -12868,7 +12869,7 @@
         {
             "technical": "elf:rodata:0x001CB57C,ram:0x089CF57C,size:56",
             "original": "インパルス上限が%D増えました。\nインパルス上限　%D→%D\n",
-            "translation": "Max impulse increased by %D.\n Max Impulse  %D→%D\n"
+            "translation": "Max impulse increased by %d.\nMax Impulse  %d→%d\n"
         },
         {
             "technical": "elf:rodata:0x001CB5B4,ram:0x089CF5B4,size:20",
@@ -13078,7 +13079,7 @@
         {
             "technical": "elf:rodata:0x001CBE00,ram:0x089CFE00,size:12",
             "original": "弁当を作る",
-            "translation": "Make bento box"
+            "translation": "Make bento"
         },
         {
             "technical": "elf:rodata:0x001CBE0C,ram:0x089CFE0C,size:16",
@@ -16928,7 +16929,7 @@
         {
             "technical": "elf:rodata:0x001CFED8,ram:0x089D3ED8,size:20",
             "original": "お弁当を作ったこと",
-            "translation": "making a bento box"
+            "translation": "making a bento"
         },
         {
             "technical": "elf:rodata:0x001CFEEC,ram:0x089D3EEC,size:24",
@@ -19703,7 +19704,7 @@
         {
             "technical": "elf:rodata:0x001D35E0,ram:0x089D75E0,size:20",
             "original": "プログナイフ切る",
-            "translation": "Prog Knife Cutting"
+            "translation": "Prog Knife Cut"
         },
         {
             "technical": "elf:rodata:0x001D35F4,ram:0x089D75F4,size:20",
