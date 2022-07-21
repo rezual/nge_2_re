@@ -41,10 +41,10 @@ This makes it easier to patch specific files on the fly.
 2. Press Select, a custom firmware menu should come up: "PRO VSH MENU"
 3. Scroll down to "USB Device" and press right until you get "UMD Disc"
 4. Press Select to Accept and close the menu
-5. Connect the PSP to your computer via the Mini USB cable, or manually re-initiate USB session
+5. Connect the PSP to your computer via the Mini USB cable
 6. You should see a drive appear with a single file: "UMD9660.ISO"
 7. Copy the "UMD9660.ISO" file to your desktop.
-8. Extract the contents of the ISO into a folder called "EVA_GAME" or whatever you prefer.
+8. Extract the contents inside of the ISO itself into a folder called "EVA_GAME" or whatever you prefer.
     WinRAR can be used to accomplish this.
 9. When you're all done, press "Select" on your PSP, change the "USB Device" back to "Memory Stick", and press Select to Accept and close the menu
 
@@ -80,10 +80,10 @@ There are only two folders of concern to translators within nge_2_re:
 The following is the game's directory hierarchy:
 
 - **umd0:/PSP_GAME/SYSDIR/**
-	- `EBOOT.BIN`: Encrypted game code. Applying translation patches to it requires decrypting it first or applying translation patches during run-time via an seplugin. We've not yet tackled this problem besides applying game code translation patches temporarily as run-time cheat codes
+	- `EBOOT.BIN`: Encrypted game code. Applying translation patches to it requires decrypting it first or applying translation patches during run-time via a CFW seplugin. We've not yet tackled this problem besides applying game code translation patches temporarily as run-time Cwcheat cheat codes
 	- `BOOT.BIN`: On new PSP games, like NGE2, a file filled with zeroes. This is the file developers send to Sony, which Sony encrypts (& zeroes) to make EBOOT.bin
 - **umd0:/PSP_GAME/USRDIR/**
-	- `btdemo`: Maps, models, animations, and textures of battle stages, angels, and evas
+	- `btdemo`: Maps, models, animations, and textures of battle stages, angels, and Evas
 	- `btface`: Character battle expressions, for use in Eva intercom
 	- `btl`: Battle menu textures, and certain event scripts
 	- `chara`: Models, textures, and animations for characters, but looks like most are unused (see `map`)
@@ -91,62 +91,66 @@ The following is the game's directory hierarchy:
 	- `face`: Character day-to-day conversation expressions
 	- `free`:  Text for game's Secret Information and Tutorial sections.
 	- `game`: Game menu textures
-	- `im`: Pictures for possibly hardcoded events in the game that don't need event scripts but just pictures
+	- `im`: Pictures for possibly hardcoded events in the game that don't need event scripts but solely pictures
 	- `map`: Maps, models, animations, and textures, for world maps as well as characters
 		- Instead of loading the Asuka model from `/chara/`, they seem to duplicate the model per map
 	- `modules`: Extra code modules used by the PSP .prx (think of them like Windows DLL files)
 	- `sound`: Unknown format for game sounds and possibly music
 	- `voice`: Voice clips
 
-It should be noted that most of the game's files are packed/compressed within` .har` files. The only thing you should know about `.har` files for now is that they're proprietary `.zip` files. We'll be unzipping them in the next section. Furthermore, the game reuses the `.bin` suffix for various file formats. For clarity we'll add BIND/WAVE/TEXT/CODE before them, keeping in mind that BIND & WAVE `.bin` are archives that can be unpacked just like `.har` as well.
+It should be noted that most of the game's files are packed/compressed within `.har` files. The only thing you should know about `.har` files for now is that they're proprietary `.zip` files. We'll be unzipping/unpacking them in the next section. Furthermore, there's a couple of `.bin` files that are actually different file formats despite having the same extension. The first few starting bytes are what determine the actual file format. For clarity we'll refer to them as `.bin.BIND`/`.bin.WAVE`/`.bin.TEXT`/`.bin.CODE` down below. Similarly, the `.bin.BIND` & `.bin.WAVE` files are proprietary archives as well that can be unpacked via the tooling in this repo.
 
 For translation, we're mainly interested in modifying pictures (which might contain Japanese text) and the Japanese text scattered across various places.
 
 The game stores pictures all over `umd0:/PSP_GAME/USRDIR/`
 - Some are in `.har` files as `.hpt` files
-- Some are in `.har` files as `.zpt` files
-- Some are in `umd0:/PSP_GAME/USRDIR/im/` as .zpt files
-- At least two are in the game executable, in `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN` as .zpt files
+- Some are in `.har` files as `.zpt` files, which are compressed `.hpt` files
+- Some are in `umd0:/PSP_GAME/USRDIR/im/` as `.zpt` files
+- At least two are in the game executable, in `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN` as `.zpt` files
 	- The Bandai logo screen and the Eva tenth anniversary screen
 
-The game stores voice dialogue as Sony atrac3plus encoded `.wav` files in WAVE `.bin` files:
+The game stores voice dialogue as Sony atrac3plus encoded `.wav` files in `.bin.WAVE` files:
 -  `umd0:/PSP_GAME/USRDIR/voice/na0.bin`
 -  `umd0:/PSP_GAME/USRDIR/voice/na1.bin`
 -  `umd0:/PSP_GAME/USRDIR/voice/na2.bin`
 
 The game stores Japanese text in various places and formats as well:
 - In the encrypted game executable: `umd0:/PSP_GAME/SYSDIR/EBOOT.BIN`
-	- There's Japanese text in the read-only sections
-	- There's Japanese text in read-writable sections
+	- Remember, the `EBOOT.BIN` is encrypted and it needs to be decrypted first to `BOOT.BIN`
+	- Once decrypted, you'll need a hex editor or disassembler to play around with the `BOOT.BIN`
+	- There's Japanese text in the read-only ELF sections
+	- There's Japanese text in read-writable ELF sections
 	- These are mainly menu text and short actions like "open door."
-	- No tool yet for formally re-injecting these translations back
-- As `.evs` files contained located in:
+	- No tool yet for formally re-injecting these translations back. Currently what we do is generate Cwcheat codes that do the injection during runtime.
+- The game's Japanese text can be additionally found as `.evs` files located in:
 	- Almost every `.har` file in `umd0:/PSP_GAME/USRDIR/event/` 
 	- In  the following `.har` files:
 		- `umd0:/PSP_GAME/USRDIR/btl/b2event.har` 
 		- `umd0:/PSP_GAME/USRDIR/btl/bevent.har` 
 		- `umd0:/PSP_GAME/USRDIR/btl/tabris.har` 
-- As TEXT `.bin` files:
+	- These `.evs` files are event scripts that the game plays out
+- And finally, Japanese game text can be found in `.bin.TEXT` files:
 	-  `umd0:/PSP_GAME/USRDIR/free/f2tuto.bin`
 	- `umd0:/PSP_GAME/USRDIR/free/f2info.bin`
-	- As TEXT files packed in BIND `.bin` files:
-		-  `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin` 
+	- As `.bin.TEXT` files packed in `.bin.BIND` files:
+		- `umd0:/PSP_GAME/USRDIR/btl/btimtext.bin` 
 		- `umd0:/PSP_GAME/USRDIR/game/imtext.bin`
+	- "IM" text is text the AI will randomly say during the social aspects of the game
 
 ## Extracting it all
 So it's clear from above that a lot of the game's content is hidden in archive files:
-- `.har`
-- WAVE `.bin`
-- BIND `.bin`
+- `.har` files
+- `.bin.WAVE` files
+- `.bin.BIND` files
 
-To extract it all, run `tools/unpack-all.py`,
-and drag-and-drop the UMD_DATA.BIN located in your unpacked ISO from the `2. Getting the game from the actual UMD and extracting it` step.
-Don't just unpack UMD_DATA.BIN from the ISO! The rest of the files are needed as well! 
+To extract it all, run `tools/unpack-all.py` via the command line ideally,
+and then when it asks you, drag-and-drop the `UMD_DATA.BIN` located in your unpacked game ISO from the `2. Getting the game from the actual UMD and extracting it` step.
+Don't just unpack `UMD_DATA.BIN` from the ISO! The rest of the files are needed as well! 
 
 This will take a while. Let it run overnight!
 
 What the unpack-all.py script does is:
-1. Ask for the path to where you extracted the contents of the game ISO to
+1. Ask for the path to `UMD_DATA.BIN` you extracted the contents of the game ISO to
 2. Decompresses the standalone `.zpt` pictures in `umd0:/PSP_GAME/USRDIR/im/` by running `tools/zipped.py` on them
 3. Unpacks and decompresses all the `.har` files in `umd0:/PSP_GAME/USRDIR/` by running `tools/hgar.py --decompress` on them (and calls `tools/zipped.py` for us if necessary)
 4. Converts all `.hpt` pictures to `.png` for us by running `tools/hgpt.py --export` on all `.hpt.DECOMPRESSED` files in `umd0:/PSP_GAME/USRDIR/`
@@ -159,6 +163,8 @@ You should now have a bunch of easily accessible decompressed and converted game
 Despite this, you shouldn't delete the original files!
 
 ## Familiarizing yourself with the Patches
+WARNING: The section below is out of date as changes are being made.
+
 In the the tooling ( https://github.com/rezual/nge_2_re ) you should notice two folders: `patches` and `tools`.
 
 The `patches` directory contains the following:
@@ -186,6 +192,8 @@ The `patches` directory contains the following:
 	- Translation patches for the `.evs` scripts found in unpacked event `.har` files. They'll need to be patched with `tools/evs.py` (WIP) followed by re-injecting the patched `.evs` into the `.har` file using `tools/hgar.py --replace-raw`
 
 ## Project Folder Breakdown
+WARNING: The section below is out of date as changes are being made.
+
 - **game_app:** Contains the game disassembly as Python code.
 	- app.py: Python summary of the decrypted EBOOT.bin information
 	- section_data.py: Contains a listing of the read-writeable addresses within the game and descriptions
