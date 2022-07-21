@@ -3,3 +3,5 @@
 *.COPYRIGHT.py
 .DS_Store
 unpacked
+unpacked.unmodified
+unpacked.staging

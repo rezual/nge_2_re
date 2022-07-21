@@ -71,7 +71,7 @@ FREE_MEM_TOP =  0x09F97400
 with open ("./translations/eboot.json", "r", encoding='utf-8') as f:
     eboot_translations = json.loads(f.read())
 
-with open ("./translations/global_translation_phrases.json", "r", encoding='utf-8') as f:
+with open ("./translations/global_translations.json", "r", encoding='utf-8') as f:
     global_translations = json.loads(f.read())
 
 # The translations can have top-level groups,
@@ -248,7 +248,8 @@ cwcheat(LOOKUP_ARG2_ADDRESS, 0x8FA40004); LOOKUP_ARG2_ADDRESS += 4 # lw a0, 0x4(
 cwcheat(LOOKUP_ARG2_ADDRESS, 0x03E00008); LOOKUP_ARG2_ADDRESS += 4 # jr ra
 cwcheat(LOOKUP_ARG2_ADDRESS, 0x27BD0008); LOOKUP_ARG2_ADDRESS += 4 # addiu sp,sp,0x8
 
-# Strlen
+# Patch start of Strlen, to have it run strlen on translated string
+# instead of the original in ARG0
 NEW_STRLEN_START_ADDRESS = LOOKUP_ARG2_ADDRESS
 NEW_STRLEN_ADDRESS = NEW_STRLEN_START_ADDRESS
 
@@ -268,7 +269,8 @@ cwcheat(NEW_STRLEN_ADDRESS, 0x00821023); NEW_STRLEN_ADDRESS += 4 # subu v0,a0,v0
 cwcheat(0x089A63D8, 0x08000000 | ((NEW_STRLEN_START_ADDRESS & 0x0FFFFFFF) >> 2)); NEW_STRLEN_ADDRESS += 4 # strlen: j NEW_STRLEN_START_ADDRESS
 cwcheat(0x089A63DC, 0x00000000); NEW_STRLEN_ADDRESS += 4 # nop
 
-# Memmove
+# Patch start of Memmove, to have it use Memmove on translated string
+# instead of the original in ARG1
 NEW_MEMMOVE_START_ADDRESS = NEW_STRLEN_ADDRESS
 NEW_MEMMOVE_ADDRESS = NEW_MEMMOVE_START_ADDRESS
 
@@ -291,7 +293,8 @@ cwcheat(0x089ADA00, 0x08000000 | ((NEW_MEMMOVE_START_ADDRESS & 0x0FFFFFFF) >> 2)
 cwcheat(0x089ADA04, 0x00000000) # nop
 cwcheat(0x089ADA08, 0x00000000) # nop
 
-# Custom functions that handle strings
+# Patch start of Strcpy, to have it use Strcpy on translated string
+# instead of the original in ARG1
 NEW_STRCPY_START_ADDRESS = NEW_MEMMOVE_ADDRESS
 NEW_STRCPY_ADDRESS = NEW_STRCPY_START_ADDRESS
 
@@ -309,7 +312,8 @@ cwcheat(NEW_STRCPY_ADDRESS, 0x00000000); NEW_STRCPY_ADDRESS += 4 # nop
 cwcheat(0x089A6340, 0x08000000 | ((NEW_STRCPY_START_ADDRESS & 0x0FFFFFFF) >> 2)) # strcpy: j NEW_STRCPY_START_ADDRESS
 cwcheat(0x089A6344, 0x00000000) # nop
 
-# Custom functions that handle strings
+# Custom1: Patch start of non-standard game code function that deals with strings
+# to have it use the translated string instead of the original
 NEW_089A7AA8_START_ADDRESS = NEW_STRCPY_ADDRESS
 NEW_089A7AA8_ADDRESS = NEW_089A7AA8_START_ADDRESS
 
@@ -327,7 +331,8 @@ cwcheat(NEW_089A7AA8_ADDRESS, 0x00000000); NEW_089A7AA8_ADDRESS += 4 # nop
 cwcheat(0x089A7AA8, 0x08000000 | ((NEW_089A7AA8_START_ADDRESS & 0x0FFFFFFF) >> 2)) # memmove: j NEW_089A7AA8_START_ADDRESS
 cwcheat(0x089A7AAC, 0x00000000) # nop
 
-# Custom functions that handle strings
+# Custom2: Patch start of non-standard game code function that deals with strings
+# to have it use the translated string instead of the original
 NEW_088742DC_START_ADDRESS = NEW_089A7AA8_ADDRESS
 NEW_088742DC_ADDRESS = NEW_088742DC_START_ADDRESS
 
@@ -345,7 +350,8 @@ cwcheat(NEW_088742DC_ADDRESS, 0x00000000); NEW_088742DC_ADDRESS += 4 # nop
 cwcheat(0x088742DC, 0x08000000 | ((NEW_088742DC_START_ADDRESS & 0x0FFFFFFF) >> 2)) # memmove: j NEW_088742DC_START_ADDRESS
 cwcheat(0x088742E0, 0x00000000) # nop
 
-# Custom functions that handle strings
+# Custom3: Patch start of non-standard game code function that deals with strings
+# to have it use the translated string instead of the original
 NEW_08874D44_START_ADDRESS = NEW_088742DC_ADDRESS
 NEW_08874D44_ADDRESS = NEW_08874D44_START_ADDRESS
 
@@ -363,12 +369,12 @@ cwcheat(NEW_08874D44_ADDRESS, 0x00000000); NEW_08874D44_ADDRESS += 4 # nop
 cwcheat(0x08874D44, 0x08000000 | ((NEW_08874D44_START_ADDRESS & 0x0FFFFFFF) >> 2)) # memmove: j NEW_08874D44_START_ADDRESS
 cwcheat(0x08874D48, 0x00000000) # nop
 
-# Bump horizontal slice looking menu character limit from 24 characters to 35
+# Patch: Bump horizontal slice menu character limit from 24 characters to 35
 cwcheat(0x08979D9C, 0x28430024) #: slti v1,v0,0x24
 cwcheat(0x08979DB4, 0x34050023) # li a1,0x23
 cwcheat(0x08979DBC, 0xA0800023) # sb zero,0x23(a0)
 
-# Half-width patch
+# Patch: Enable half-width characters
 NEW_HALFWIDTH_START_ADDRESS = NEW_08874D44_ADDRESS
 NEW_HALFWIDTH_ADDRESS = NEW_HALFWIDTH_START_ADDRESS
 
@@ -401,10 +407,11 @@ cwcheat(NEW_HALFWIDTH_ADDRESS, 0x00000000); NEW_HALFWIDTH_ADDRESS += 4 # nop
 cwcheat(0x08873F98, 0x08000000 | ((NEW_HALFWIDTH_START_ADDRESS & 0x0FFFFFFF) >> 2)) # j NEW_HALFWIDTH_START_ADDRESS
 cwcheat(0x08873F9C, 0x00000000) # nop
 
-# Cwcheat has a limit of how many lines per cheat, so bucket them
+# Generate Cwcheat file
 print('_S ' + serial_number)
 print('_G ' + title)
 
+# Add helpful cheats
 print('''
 _C0 Debug menu: Daily Special Debug
 _L 0x201C97CC 0x088984C0
@@ -422,6 +429,7 @@ _L 0x2005B5CC 0x0A216D82
 _L 0x2005B5C4 0x00000000
 ''')
 
+# Cwcheat has a limit of how many lines per cheat, so bucket them
 cheat_group = 1
 cheat_number = 0
 for (address, value) in cwcheat_code_list:

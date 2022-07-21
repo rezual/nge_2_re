@@ -7,6 +7,15 @@ import re
 import common
 
 """
+text limits to prevent crashes:
+    - 3 lines
+    - 34 bytes per line
+    - 42 bytes per line with half width
+    - 103 byes + 1 null terminator
+"""
+CONTENT_BYTE_LIMIT = 104
+
+"""
 function 1: say(avatar, facial_expression, audio) "sentence\n\0"
     avatar:
         0 = no one
@@ -85,8 +94,6 @@ function 135: extension(extension_id)
         648 = ???
         649 = Show two arrows pointing at ???
         650 = 
-
-
 
 function 140: load_bg(?) "background_file_name"
 
@@ -220,6 +227,14 @@ class EvsWrapper(object):
                 if has_content_section:
                     # Convert UTF8 to Shift-JIS
                     raw_entry_content = common.to_eva_sjis(entry_content)
+
+                    # Add crash protection
+                    # Exclude whitespace from the count
+                    multipage_content_mark = common.to_eva_sjis('▽')
+                    for raw_split_content in raw_entry_content.split(multipage_content_mark):
+                        raw_split_length = len(raw_split_content.replace(b' ', b'').replace(b'\n', b'') + multipage_content_mark)
+                        if raw_split_length >= CONTENT_BYTE_LIMIT: 
+                            raise Exception("Content too long, it will crash! Expected: < %s bytes, Actual (ignoring whitespace): %s bytes\nContent: %s" % (CONTENT_BYTE_LIMIT, raw_split_length, raw_split_content))
 
                     # We add a single null terminator and only count the single null terminator,
                     # but later we include the extra alignment padding in the size calculation

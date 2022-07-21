@@ -31,10 +31,17 @@ class HGArchiveFile(object):
         # V3 of the HGAR file format has a long name and a short name
         # While V1 only has a short name
         # Both have a weird identifier next to the short name
-        # For the file name we include all three in the form:
+
+        # In the file names used by this script, we include all three in the form:
         # long_name#short_name#idNUMBER.short_file_format#long_file_format
-        # If long_name == short_name and/or short_file_format == long_file_format then only:
-        # long_name#idNUMBER.long_file_format is used
+
+        # But to simplify reading things visually, 
+        # if long_name == short_name, and (if a file format exists) short_file_format == long_file_format then only:
+        #     long_name#idNUMBER.long_file_format is used
+
+        # Windows seems to have an issue where files have a period but then no extension format afterwards
+        # This affects '7__1#id83.' in 'PSP_GAME/USRDIR/map/mapdata2.har' for example
+        # Thus for this case we append "NOEXT"
 
         long_name = self.long_name
         short_name = self.short_name
@@ -61,7 +68,9 @@ class HGArchiveFile(object):
             short_name = ''
             short_name_file_format = ''
 
-        # Consolidate the file format and file name
+        # Simplify the file format and file name if possible
+        # This is done by this script to reduce visual clutter
+        # in the naming of the extracted files
         file_name = ''
         file_format = ''
         
@@ -75,8 +84,12 @@ class HGArchiveFile(object):
         else:
             file_format = '%s#%s' % (short_name_file_format, long_name_file_format)
 
-        return '%s#id%s.%s' % (file_name, self.identifier, file_format)
+        # Append 'NOEXT' if file_format is blank due to Windows having an issue
+        # with files that have a '.' but no extension
+        if file_format == '':
+            file_format = 'NOEXT'
 
+        return '%s#id%s.%s' % (file_name, self.identifier, file_format)
 
     def encode_identifier(self, limit):
         compression_mask = 0
@@ -97,7 +110,6 @@ class HGArchiveFile(object):
             if mult_result == self.identifier:
                 self.encoded_identifier = guess_encode | compression_mask
                 return
-
 
     def decode_identifier(self, limit):
         self.is_compressed = ((self.encoded_identifier >> 31) == 1)
