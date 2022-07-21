@@ -7,7 +7,7 @@ export PYTHONIOENCODING=utf-8
 GAME_UNPACKED_ISO_PATH="./unpacked"
 GAME_USRDIR_PATH="$GAME_UNPACKED_ISO_PATH/PSP_GAME/USRDIR"
 
-GAME_GLOBAL_TRANSLATION_PHRASES="./translations/global_translation_phrases.json"
+GAME_GLOBAL_TRANSLATION_PHRASES="./translations/global_translation.json"
 
 function patch_bind() {
 	BIND_PATH="$1"
