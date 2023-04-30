@@ -26,7 +26,7 @@ class HgptWrapper(object):
         self.has_extended_header = True
 
         self.unknown_two = 0x00000000
-        self.unknown_three = 0x0013  # Spotted as 0x0013 most of the time; few times 0x0014; only used if extended header is True
+        self.unknown_three = 0x0013 # Spotted as 0x0013 most of the time; few times 0x0014; only used if extended header is True
 
         self.width = 0
         self.height = 0
@@ -465,7 +465,7 @@ class HgptWrapper(object):
                 f.write(b'\0' * 2)
 
                 # Write number of palette entries (but needing to be divided by 8)
-                common.write_uint16(f, palette_total / 8)
+                common.write_uint16(f, palette_total // 8)
 
                 # Write zero padding
                 f.write(b'\0' * 8)
@@ -602,6 +602,14 @@ class HgptWrapper(object):
             print('# Warning: Picture palette count has changed, old: %s, new %s' % (palette_total, len(new_palette)))
 
         self.palette = [(c[0], c[1], c[2], (0xFF if len(c) == 3 else c[3])) for c in new_palette]
+
+        # Extend the palette if it doesn't fit into a 0, 16, 256 bucket
+        if len(self.palette) != 0:
+            if len(self.palette) < 16:
+                self.palette.extend([(0,0,0, 0xFF)] * (16 - len(self.palette)))
+
+            elif len(self.palette) > 16 and len(self.palette) < 256:
+                self.palette.extend([(0,0,0, 0xFF)] * (256 - len(self.palette)))
 
         # Load content
         if len(new_palette) == 0:
