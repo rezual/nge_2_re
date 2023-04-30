@@ -11,57 +11,406 @@ text limits to prevent crashes:
     - 3 lines
     - 34 bytes per line
     - 42 bytes per line with half width
-    - 103 byes + 1 null terminator
+    - 103 bytes + 1 null terminator (excluding whitespace)
 """
 CONTENT_BYTE_LIMIT = 104
 
+FUNCTION_SAY_FLAG_PARAMS = {
+    "NO_AVATAR": 4096,
+    "NO_AVATAR_AND_MESSAGE_BOX": 8192,
+    "NO_AUDIO": 16384
+}
+
+FUNCTION_SAY_PARAMS = {
+    "no one":            {
+        "id":  0,
+        "expression": {
+
+        }
+    },
+    "shinji": {
+        "id":  1,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "plug_suit_content":           10,
+            "plug_suit_serious":           11,
+            "memory_sad":                  12,
+            "black_shadow":                20,
+            "blue_sky_shadow":             21,
+            "red_sky_shadow":              22,
+            "water_shadow":                23,
+            "art_one_shadow":              24,
+            "art_two_shadow":              25,
+            "art_three_shadow":            26
+        }
+    },
+    "asuka": {
+        "id":  2,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "plug_suit_content":           10,
+            "plug_suit_serious":           11,
+            "dress_content":               12,
+            "dress_happy":                 13,
+            "dress_upset":                 14,
+            "black_shadow":                20,
+            "blue_sky_shadow":             21,
+            "red_sky_shadow":              22,
+            "water_shadow":                23,
+            "art_one_shadow":              24,
+            "art_two_shadow":              25,
+            "art_three_shadow":            26
+        }
+    },
+    "rei": {
+        "id":  3,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "plug_suit_content":           10,
+            "plug_suit_serious":           11,
+            "nude":                        12,
+            "black_shadow":                20,
+            "blue_sky_shadow":             21,
+            "red_sky_shadow":              22,
+            "water_shadow":                23,
+            "art_one_shadow":              24,
+            "art_two_shadow":              25,
+            "art_three_shadow":            26
+        }
+    },
+    "misato": {
+        "id":  4,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "memory_content":              10,
+            "memory_sad":                  11
+        }
+    },
+    "gendo": {
+        "id":  5,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9
+        }
+    },
+    "fuyutsuki": {
+        "id":  6,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9
+        }
+    },
+    "ritsuko": {
+        "id":  7,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "casual_content":              10,
+            "casual_angry":                11,
+            "casual_sad":                  12,
+            "casual_happy":                13,
+            "casual_serious":              14,
+            "casual_blushing":             15,
+            "casual_concerned":            16,
+            "casual_taken_aback":          17,
+            "memory_content":              18
+        }
+    },
+    "maya": {
+        "id":  8,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "memory_content":              10,
+            "memory_happy":                11,
+            "memory_blushing":             12,
+            "casual_content":              13
+        }
+    },
+    "hyuga": {
+        "id":  9,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "memory_happy":                10,
+            "memory_blushing":             11
+        }
+    },
+    "aoba": {
+        "id": 10,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "casual_content":              12
+        }
+    },
+    "kaji": {
+        "id": 11,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9
+        }
+    },
+    "hikari": {
+        "id": 12,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9
+        }
+    },
+    "toji": {
+        "id": 13,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "plug_suit_content":           10,
+            "plug_suit_serious":           11,
+            "memory_angry":                12,
+            "black_shadow":                20,
+            "blue_sky_shadow":             21,
+            "red_sky_shadow":              22,
+            "water_shadow":                23,
+            "art_one_shadow":              24,
+            "art_two_shadow":              25,
+            "art_three_shadow":            26
+        }
+    },
+    "kensuke": {
+        "id": 14,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9
+        }
+    },
+    "kaworu": {
+        "id": 15,
+        "expression": {
+            "regular_uniform_content":      1,
+            "regular_uniform_angry":        2,
+            "regular_uniform_sad":          3,
+            "regular_uniform_happy":        4,
+            "regular_uniform_serious":      5,
+            "regular_uniform_blushing":     6,
+            "regular_uniform_concerned":    7,
+            "regular_uniform_taken_aback":  8,
+            "regular_uniform_upset":        9,
+            "plug_suit_content":           10,
+            "plug_suit_serious":           11,
+            "black_shadow":                20,
+            "blue_sky_shadow":             21,
+            "red_sky_shadow":              22,
+            "water_shadow":                23,
+            "art_one_shadow":              24,
+            "art_two_shadow":              25,
+            "art_three_shadow":            26,
+            "black_shadow_duplicate":      30,
+            "blue_sky_shadow_duplicate":   31,
+            "red_sky_shadow_duplicate":    32,
+            "water_shadow_duplicate":      33,
+            "art_one_shadow_duplicate":    34,
+            "art_two_shadow_duplicate":    35,
+            "art_three_shadow_duplicate":  36
+        }
+    },
+    "penpen": {
+        "id": 16,
+        "expression": {
+            "content":                      1,
+            "angry":                        2,
+            "sad":                          3,
+            "happy":                        4,
+            "serious":                      5,
+            "blushing":                     6,
+            "concerned":                    7,
+            "taken_aback":                  8,
+            "upset":                        9,
+            "taken_aback_inverted":        10
+        }
+    },
+    "male_nerv_staff": {
+        "id": 17,
+        "expression": {
+            "regular_uniform_serious":      1
+        }
+    },
+    "female_nerv_staff": {
+        "id": 18,
+        "expression": {
+            "regular_uniform_serious":      1
+        }
+    },
+    "store_clerk": {
+        "id": 19,
+        "expression": {
+            "regular_uniform_content":      1
+        }
+    },
+    "shinji_silhouette": {
+        "id": 62,
+        "expression": {
+            "black_shadow":                 1,
+            "blue_sky_shadow":              2,
+            "red_sky_shadow":               3,
+            "water_shadow":                 4,
+            "art_one_shadow":               5,
+            "art_two_shadow":               6,
+            "art_three_shadow":             7
+        }
+    },
+    "asuka_silhouette": {
+        "id": 63,
+        "expression": {
+            "black_shadow":                 1,
+            "blue_sky_shadow":              2,
+            "red_sky_shadow":               3,
+            "water_shadow":                 4,
+            "art_one_shadow":               5,
+            "art_two_shadow":               6,
+            "art_three_shadow":             7
+        }
+    },
+    "rei_silhouette": {
+        "id": 64,
+        "expression": {
+            "black_shadow":                 1,
+            "blue_sky_shadow":              2,
+            "red_sky_shadow":               3,
+            "water_shadow":                 4,
+            "art_one_shadow":               5,
+            "art_two_shadow":               6,
+            "art_three_shadow":             7
+        }
+    },
+    "toji_silhouette": {
+        "id": 65,
+        "expression": {
+            "black_shadow":                 1,
+            "blue_sky_shadow":              2,
+            "red_sky_shadow":               3,
+            "water_shadow":                 4,
+            "art_one_shadow":               5,
+            "art_two_shadow":               6,
+            "art_three_shadow":             7
+        }
+    },
+    "kaworu_silhouette": {
+        "id": 65,
+        "expression": {
+            "black_shadow":                 1,
+            "blue_sky_shadow":              2,
+            "red_sky_shadow":               3,
+            "water_shadow":                 4,
+            "art_one_shadow":               5,
+            "art_two_shadow":               6,
+            "art_three_shadow":             7
+        }
+    },
+}
+
 """
 function 1: say(avatar, facial_expression, audio) "sentence\n\0"
-    avatar:
-        0 = no one
-        1 = shinji
-        2 = asuka
-        3 = rei
-        4 = misato
-        5 = Gendo
-        6 = Fuyutsuki
-        7 = Ritsuko
-        8 = Maya
-        9 = Hyuga
-        10 = Aoba
-        11 = Kaji
-        12 = Hikari
-        13 = Toji
-        14 = Kensuke
-        15 = Kaworu
-        16 = Pen Pen
-        17 = Male Staff
-        18 = Female Staff
-        19 = Clerk
-
-    facial_expression:
-
-        0 = do not show avatar
-        1 = (school uniform) happy
-        2 = (school uniform) angry
-        3 = (school uniform) down
-        4 = (school uniform) happy + loud
-        5 = (school uniform) disappointed
-        6 = (school uniform) blushing
-        7 = (school uniform) concerned
-        8 = (school uniform) wide-eyed/unsure
-        9 = (school uniform) angry/defensive
-        10 = (plug suit) happy
-        11 = (plug suit) concerned
-        12 = (summer outfit) happy
-        13 = (summer outfit) happy + loud
-        14 = (summer outfit) angry
-
-        4096 = do not show avatar
-        8192 = do not show message box (implies 4096)
-        16384 = do not play audio
-
-    parameter 3: audio
 
 function 135: extension(extension_id)
     extension_id:
