@@ -6238,7 +6238,7 @@
         {
             "technical": "elf:rodata:0x001BD70C,ram:0x089C170C,size:24",
             "original": "携帯電話で所在を確認",
-            "translation": "Check location with mobile phone"
+            "translation": "Locate by cell phone"
         },
         {
             "technical": "elf:rodata:0x001BD724,ram:0x089C1724,size:12",
@@ -6298,7 +6298,8 @@
         {
             "technical": "elf:rodata:0x001BD7F0,ram:0x089C17F0,size:16",
             "original": "ふすまを開ける",
-            "translation": "Open fusuma"
+            "translation": "Open sliding door",
+            "note": "This is specifically called a fusuma, but use sliding door for comprehension"
         },
         {
             "technical": "elf:rodata:0x001BD800,ram:0x089C1800,size:16",
@@ -6868,7 +6869,7 @@
         {
             "technical": "elf:rodata:0x001BDFB4,ram:0x089C1FB4,size:20",
             "original": "プレゼントだと言う",
-            "translation": "It's a present\""
+            "translation": "It's a present"
         },
         {
             "technical": "elf:rodata:0x001BDFC8,ram:0x089C1FC8,size:20",
@@ -6968,7 +6969,8 @@
         {
             "technical": "elf:rodata:0x001BE134,ram:0x089C2134,size:12",
             "original": "行かない",
-            "translation": "Don't go"
+            "translation": "Stay",
+            "context": "School roof, don't go back in"
         },
         {
             "technical": "elf:rodata:0x001BE140,ram:0x089C2140,size:20",
@@ -7123,7 +7125,8 @@
         {
             "technical": "elf:rodata:0x001BE38C,ram:0x089C238C,size:12",
             "original": "清算する",
-            "translation": "Check out"
+            "translation": "Check out and pay",
+            "context": "At the Convenience store, to pay for the items"
         },
         {
             "technical": "elf:rodata:0x001BE398,ram:0x089C2398,size:20",
@@ -8773,12 +8776,13 @@
         {
             "technical": "elf:rodata:0x001BFD88,ram:0x089C3D88,size:20",
             "original": "冷水機で水を飲む",
-            "translation": "Drink water from fountain"
+            "translation": "Drink from water fountain"
         },
         {
             "technical": "elf:rodata:0x001BFD9C,ram:0x089C3D9C,size:20",
             "original": "公園の水道水を飲む",
-            "translation": "Drink park tap-water"
+            "translation": "Drink from water fountain",
+            "context": "Park water fountain"
         },
         {
             "technical": "elf:rodata:0x001BFDB0,ram:0x089C3DB0,size:16",
@@ -10513,17 +10517,20 @@
         {
             "technical": "elf:rodata:0x001C5894,ram:0x089C9894,size:12",
             "original": "%sを出る",
-            "translation": "Leave %s"
+            "translation": "Leave %s",
+            "context": "Hakone Station, Highland Park"
         },
         {
             "technical": "elf:rodata:0x001C58A0,ram:0x089C98A0,size:8",
             "original": "出ない",
-            "translation": "Don't leave"
+            "translation": "Stay",
+            "note": "Length matters, loaded by assembly",
+            "context": "Hakone Station, Highland Park"
         },
         {
             "technical": "elf:rodata:0x001C58A8,ram:0x089C98A8,size:84",
             "original": "未清算の商品を持ったままです。\n商品の清算を済ませるか\n商品を商品棚に戻して下さい。",
-            "translation": null
+            "translation": "You have unpaid items on you.\nPlease pay for them or\nreturn them back to the shelf."
         },
         {
             "technical": "elf:rodata:0x001C590C,ram:0x089C990C,size:48",
@@ -10534,17 +10541,22 @@
             "technical": "elf:rodata:0x001C593C,ram:0x089C993C,size:12",
             "original": "出かけない",
             "translation": "Stay",
-            "note": "Must be < 12 ASCII characters, game copies exact bytes"
+            "note": "Length matters, loaded by assembly",
+            "context": "Misato's apartment, to stay"
         },
         {
             "technical": "elf:rodata:0x001C5948,ram:0x089C9948,size:16",
             "original": "外に出かける",
-            "translation": null
+            "translation": "Go outside",
+            "note": "Length matters, loaded by assembly",
+            "context": "Misato's apartment, to go outside"
         },
         {
             "technical": "elf:rodata:0x001C5958,ram:0x089C9958,size:12",
             "original": "校舎に入る",
-            "translation": null
+            "translation": "Go inside",
+            "note": "Length matters, loaded by assembly",
+            "context": "On top of school roof, to go back inside"
         },
         {
             "technical": "elf:rodata:0x001C5964,ram:0x089C9964,size:12",
@@ -10554,7 +10566,9 @@
         {
             "technical": "elf:rodata:0x001C5970,ram:0x089C9970,size:12",
             "original": "屋上に出る",
-            "translation": null
+            "translation": "To roof",
+            "note": "Length matters, loaded by assembly",
+            "context": "In school, to go to the roof"
         },
         {
             "technical": "elf:rodata:0x001C5AEC,ram:0x089C9AEC,size:24",
@@ -11369,7 +11383,8 @@
         {
             "technical": "elf:rodata:0x001C8784,ram:0x089CC784,size:20",
             "original": "やっぱり買わない",
-            "translation": null
+            "translation": "Don't buy",
+            "context": "Vending machines"
         },
         {
             "technical": "elf:rodata:0x001C879C,ram:0x089CC79C,size:28",
