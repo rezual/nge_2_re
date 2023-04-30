@@ -26,7 +26,7 @@ def read_uint32(file_handle):
     return struct.unpack('I', file_handle.read(4))[0]
 
 def write_uint8(file_handle, value):
-    return file_handle.write(chr(value))
+    return file_handle.write(struct.pack('B', value))
 
 def write_uint16(file_handle, value):
     return file_handle.write(struct.pack('H', value))
