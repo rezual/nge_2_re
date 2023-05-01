@@ -16,7 +16,7 @@ class HGArchiveFile(object):
         self.short_name = short_name
         self.size = size
 
-        self.encoded_identifier = 0
+        self.encoded_identifier = None
         self.identifier = 0
 
         self.unknown_first = None
@@ -126,7 +126,7 @@ class HGArchiveFile(object):
         mult_result &= (limit - 1)
         self.identifier = mult_result
 
-        
+
 class HGArchive(object):
     def __init__(self):
         self.version = None
@@ -155,7 +155,6 @@ class HGArchive(object):
                 break
 
         self.identifier_limit = 2 * current_limit
-
 
     def decode_identifiers(self):
         # This must be done once finalizing a HGAR for saving (or after open is complete)
@@ -316,7 +315,9 @@ class HGArchive(object):
                 f.write(formatted_short_name)
 
                 # Write encoded identifier
-                file.encode_identifier(self.identifier_limit)
+                # Do not generate a new identifier unless it's None
+                if file.encoded_identifier is None:
+                    file.encode_identifier(self.identifier_limit)
                 common.write_uint32(f, file.encoded_identifier)
 
                 # Write file size
@@ -389,7 +390,7 @@ if __name__ == '__main__':
                 file_content = f.read()
             
             print('\tReplacing %s' % file_to_replace)
-            hgar.replace(file_to_replace, file_content)
+            hgar.replace(file_to_replace, file_content, is_compressed=True)
 
             hgar.save(input_path + '_REPLACE')
 
