@@ -9622,7 +9622,8 @@
         {
             "technical": "elf:rodata:0x001C0A20,ram:0x089C4A20,size:8",
             "original": "冬月",
-            "translation": "Fuyutsuki"
+            "translation": "Fuyutsuki",
+            "note": "Last name is more familiar"
         },
         {
             "technical": "elf:rodata:0x001C0A28,ram:0x089C4A28,size:8",
@@ -9632,47 +9633,50 @@
         {
             "technical": "elf:rodata:0x001C0A30,ram:0x089C4A30,size:8",
             "original": "マヤ",
-            "translation": null
+            "translation": "Maya"
         },
         {
             "technical": "elf:rodata:0x001C0A38,ram:0x089C4A38,size:8",
             "original": "日向",
-            "translation": null
+            "translation": "Hyuga",
+            "note": "Last name is more familiar"
         },
         {
             "technical": "elf:rodata:0x001C0A40,ram:0x089C4A40,size:8",
             "original": "青葉",
-            "translation": null
+            "translation": "Aoba",
+            "note": "Last name is more familiar"
         },
         {
             "technical": "elf:rodata:0x001C0A48,ram:0x089C4A48,size:8",
             "original": "加持",
-            "translation": null
+            "translation": "Kaji",
+            "note": "Last name is more familiar"
         },
         {
             "technical": "elf:rodata:0x001C0A50,ram:0x089C4A50,size:8",
             "original": "ヒカリ",
-            "translation": null
+            "translation": "Hikari"
         },
         {
             "technical": "elf:rodata:0x001C0A58,ram:0x089C4A58,size:8",
             "original": "トウジ",
-            "translation": null
+            "translation": "Toji"
         },
         {
             "technical": "elf:rodata:0x001C0A60,ram:0x089C4A60,size:12",
             "original": "ケンスケ",
-            "translation": null
+            "translation": "Kensuke"
         },
         {
             "technical": "elf:rodata:0x001C0A6C,ram:0x089C4A6C,size:8",
             "original": "カヲル",
-            "translation": null
+            "translation": "Kaworu"
         },
         {
             "technical": "elf:rodata:0x001C0A74,ram:0x089C4A74,size:12",
             "original": "ペンペン",
-            "translation": null
+            "translation": "Pen Pen"
         },
         {
             "technical": "elf:rodata:0x001C0A88,ram:0x089C4A88,size:8",
