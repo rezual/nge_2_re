@@ -1,6 +1,9 @@
 # Neon Genesis Evangelion 2: Another Cases (PSP)
 # Reverse Engineering & Translation
 
+## License 
+Public domain, no restrictions.
+
 ## Foreword
 The translation is still a work in progress, and the tools are aimed at developers/translators,
 and are not the tools the final patch user will ever need to use or install.
